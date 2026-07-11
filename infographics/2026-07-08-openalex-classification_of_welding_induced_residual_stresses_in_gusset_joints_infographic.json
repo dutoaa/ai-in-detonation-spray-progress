@@ -1,24 +1,24 @@
 {
-  "key_insight": "Welding-induced residual stresses in gusset joints are governed more by boundary/support conditions and geometry than by the overall total stress level alone, because the stress field splits into distinct primary, secondary, and tertiary components.",
-  "engineering_relevance": "For welded structural design, decomposing residual stress into membrane, bending, and nonlinear parts helps explain load-carrying capacity and improves assessment of high-strength steel joints.",
+  "key_insight": "Welding residual stresses in gusset joints are more meaningfully interpreted by splitting the total stress into primary, secondary, and tertiary components, because the components vary much more with geometry and boundary conditions than the total residual stress does.",
+  "engineering_relevance": "For welded structural design, the study shows that support condition, support release, and joint geometry can strongly affect local stress distributions and therefore the assessed load-carrying capacity.",
   "method": [
     "Fully coupled thermo-mechanical finite element welding simulation with a validated heat source.",
-    "Modelled a longitudinally welded-around gusset in quenched-and-tempered 690 high-strength steel.",
-    "Parametric study over three plate widths, five support configurations, and two support distances."
+    "Computed residual stress near a longitudinally welded-around gusset made from quenched-and-tempered 690 steel.",
+    "Compared total toe stress with decomposed membrane, bending, and nonlinear tertiary components across plate width and thickness under multiple boundary conditions."
   ],
-  "evidence_signal": "The simulation results show limited variation in total residual stress after welding, while individual stress components vary strongly with support distance, support condition, and support release.",
-  "watch_item": "The findings are simulation-based for one gusset-joint geometry and material system, so broader use should be checked against experiments and other joint designs.",
+  "evidence_signal": "The parametric study varied three plate widths, five support configurations, and two support distances, showing limited change in total residual stress but large changes in the individual stress components.",
+  "watch_item": "The conclusions depend on simulation assumptions, boundary-condition choices, and the specific gusset geometry/material, so direct transfer to other welded joints should be done cautiously.",
   "hashtags": [
     "#Welding",
     "#ResidualStress",
     "#FiniteElementAnalysis",
-    "#HighStrengthSteel",
-    "#StructuralIntegrity"
+    "#StructuralEngineering",
+    "#HighStrengthSteel"
   ],
   "paper_id": "2026-07-08-openalex-classification_of_welding_induced_residual_stresses_in_gusset_joints",
   "paper_title": "Classification of welding-induced residual stresses in gusset joints",
   "paper_date": "2026-07-08",
   "paper_category": "Coating Quality Prediction",
-  "generated_at": "2026-07-11T17:27:09",
+  "generated_at": "2026-07-11T17:32:45",
   "generator": "openai"
 }

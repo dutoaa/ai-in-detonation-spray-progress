@@ -1,24 +1,24 @@
 {
-  "key_insight": "Plasma-sprayed Inconel 625 on T22 steel offers initial protection in nitrate salts at 500 °C, but the coating progressively degrades and eventually reaches the substrate interface.",
-  "engineering_relevance": "This suggests In625 thermal-spray coatings can extend component life in concentrating solar power thermal energy storage systems, but long-term corrosion resistance remains a critical design concern.",
+  "key_insight": "Plasma-sprayed In625 on T22 can resist early nitrate-salt exposure at 500 °C, but prolonged exposure leads to coating degradation and corrosion penetration toward the substrate.",
+  "engineering_relevance": "For CSP thermal-energy-storage hardware, this coating offers a protective option for carbon steel components, but lifetime under molten nitrate salts must be carefully managed.",
   "method": [
-    "Compact Plasma Spray deposited Inconel 625 onto T22 carbon steel.",
-    "Samples were exposed to eutectic nitrate salt at 500 °C.",
-    "Corrosion was assessed after 24, 72, 168, 336, and 504 hours."
+    "Deposited Inconel 625 on T22 carbon steel by Compact Plasma Spray.",
+    "Exposed coated samples to eutectic nitrate salt at 500 °C for 24, 72, 168, 336, and 504 h.",
+    "Assessed corrosion progression from surface film formation to through-thickness attack."
   ],
-  "evidence_signal": "The abstract reports that after 24 hours corrosion products were only on the surface, while longer exposure drove degradation through the coating thickness and the corrosion rate reached 0.4 mm/year.",
-  "watch_item": "Low cohesion between sprayed splats may accelerate through-thickness corrosion and limit the coating’s durability in service.",
+  "evidence_signal": "After 24 h, corrosion products were limited to a thin surface layer, whereas longer exposures caused degradation to spread through the coating and reach the coating/substrate interface by about 500 h.",
+  "watch_item": "The sprayed splat structure had low cohesion, contributing to a relatively high corrosion rate and suggesting that coating microstructure control is critical for real CSP service.",
   "hashtags": [
     "#ThermalSpray",
     "#Inconel625",
-    "#Corrosion",
     "#CSP",
-    "#MoltenSalt"
+    "#MoltenSaltCorrosion",
+    "#SurfaceEngineering"
   ],
   "paper_id": "2026-07-08-openalex-corrosion_behavior_of_plasma_sprayed_in625_coatings_exposed_to_nitrate_salts_in_concentrat",
   "paper_title": "Corrosion Behavior of Plasma-Sprayed In625 Coatings Exposed to Nitrate Salts in Concentrating Solar Power Plants",
   "paper_date": "2026-07-08",
   "paper_category": "Thermal Spray Coatings",
-  "generated_at": "2026-07-11T11:56:39",
+  "generated_at": "2026-07-11T17:33:11",
   "generator": "openai"
 }

@@ -1,16 +1,16 @@
 {
-  "key_insight": "Finite-element modeling linked hardness-derived material properties to predict stress and strain hot spots in 36-year-old and as-received X52 pipeline welds.",
-  "engineering_relevance": "The results help judge whether aging gas-pipeline welded joints can still support safe operation or repurposing for hydrogen service.",
+  "key_insight": "Finite element modeling combined with hardness-based property estimation shows that the 36-year-operated X52 pipeline weld has a higher local stress concentration than the as-received weld.",
+  "engineering_relevance": "This provides a practical way to assess whether aged gas-pipeline welds remain suitable for continued service or repurposing to hydrogen transport.",
   "method": [
     "Measured hardness across weld metal, heat-affected zone, and base metal.",
-    "Estimated strength and plasticity from hardness using correlation equations and built zone-specific stress–strain curves.",
-    "Simulated tensile loading in FEM to map stress/strain distributions and identify peak-stress regions."
+    "Estimated strength and plasticity characteristics from hardness correlations.",
+    "Built FEM welded-joint models using zone-specific stress-strain curves and simulated tensile loading."
   ],
-  "evidence_signal": "The operated weld showed a higher normalized peak stress ratio (σ11/σys = 1.25) than the as-received joint (1.1), and strain concentration occurred at loads below base-metal yield in both cases.",
-  "watch_item": "Hardness-based property estimation and simulated tensile loading should be validated against broader experimental datasets before using the model for life-extension decisions.",
+  "evidence_signal": "The operated weld reached a higher normalized stress concentration (σ11/σys = 1.25) than the as-received joint (σ11/σys = 1.1), with local strain increase occurring at lower loads.",
+  "watch_item": "Hardness-derived material properties and FEM predictions should be validated carefully against additional experimental datasets before using them for fitness-for-service decisions.",
   "hashtags": [
     "#Welding",
-    "#FiniteElementModeling",
+    "#FiniteElementMethod",
     "#PipelineIntegrity",
     "#HydrogenReady",
     "#MaterialsEngineering"
@@ -19,6 +19,6 @@
   "paper_title": "Assessment of the Strength of Welded Joints in a Gas Pipeline Using FEM Modeling",
   "paper_date": "2026-07-09",
   "paper_category": "Welding Processes",
-  "generated_at": "2026-07-11T17:27:04",
+  "generated_at": "2026-07-11T17:32:42",
   "generator": "openai"
 }
