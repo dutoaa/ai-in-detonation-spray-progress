@@ -1,24 +1,24 @@
 {
-  "key_insight": "Spray method matters as much as composition: HVOF is better for carbide coatings, while detonation spraying performs better for Al2O3-NiCr.",
-  "engineering_relevance": "The study helps engineers select the coating process that best balances density, hardness, and friction performance for wear-resistant surfaces.",
+  "key_insight": "Spray method strongly controls coating quality: HVOF is better for carbide coatings (WC-NiCr, Cr3C2-NiCr), while detonation spraying is better for Al2O3-NiCr.",
+  "engineering_relevance": "Selecting the deposition process by coating chemistry can improve hardness, microstructure density, and wear performance in surface-engineered components.",
   "method": [
-    "Compared WC-NiCr, Cr3C2-NiCr, and Al2O3-NiCr coatings",
-    "Applied coatings using HVOF and detonation spraying",
-    "Evaluated morphology, microstructure, microhardness, and tribology"
+    "Compared WC-NiCr, Cr3C2-NiCr, and Al2O3-NiCr coatings made by HVOF and detonation spraying.",
+    "Characterized powder and coating morphology with SEM and EDS.",
+    "Measured microhardness and tribology using ASTM-based ball-on-disc testing (Anton Paar TRB3)."
   ],
-  "evidence_signal": "SEM/EDS, FISCHERSCOPE microhardness, and ball-on-disc tribology tests (ASTM G133-95 and ASTM G99) showed clear process-dependent differences in coating structure and performance.",
-  "watch_item": "Results are process- and composition-specific, so transferability to other powders, substrates, or spray parameters may be limited without re-optimization.",
+  "evidence_signal": "The abstract reports comparative SEM/EDS, hardness, and friction/wear evaluations showing denser, finer structures and better tribology for carbide coatings via HVOF, and higher hardness for Al2O3-NiCr via detonation spraying.",
+  "watch_item": "Results are system-specific, so process optimization may not transfer directly to different powders, substrates, or spray parameters without revalidation.",
   "hashtags": [
     "#ThermalSpray",
     "#HVOF",
     "#DetonationSpraying",
     "#WearResistance",
-    "#CoatingMicrostructure"
+    "#SurfaceEngineering"
   ],
   "paper_id": "2026-06-18-openalex-lt_b_gt_comparative_analysis_of_wc_nicr_al_o_nicr_and_cr_c_nicr_metal_ceramic_coatings_app",
   "paper_title": "&lt;b&gt;Comparative analysis of WC-NiCr, AL₂O₃-NiCr, and CR₃C₂-NiCr metal-ceramic coatings applied by HVOF and detonation spraying methods&lt;/b&gt;",
   "paper_date": "2026-06-18",
   "paper_category": "Coating Microstructure",
-  "generated_at": "2026-07-11T04:47:15",
+  "generated_at": "2026-07-11T11:56:28",
   "generator": "openai"
 }

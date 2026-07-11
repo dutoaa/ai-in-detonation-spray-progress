@@ -1,16 +1,16 @@
 {
-  "key_insight": "Machine learning is emerging as a practical way to optimize thermal spraying from powder design to defect control, helping turn a complex multiphysics process into a more data-driven and intelligent workflow.",
-  "engineering_relevance": "For aerospace and energy coating applications, these methods can improve process tuning, quality prediction, and autonomous spraying while reducing trial-and-error experimentation.",
+  "key_insight": "Machine learning is becoming a practical enabler for optimizing thermal spraying by improving material design, process control, and coating quality prediction across complex multiphysics conditions.",
+  "engineering_relevance": "The review shows how data-driven models can support faster, more reliable thermal spray development for aerospace, energy, and other high-performance surface engineering applications.",
   "method": [
-    "Supervised learning for process parameter optimization and coating property prediction",
-    "Unsupervised learning for pattern discovery in material, structure, and defect data",
-    "Reinforcement learning for adaptive control and robotic spraying decisions"
+    "Supervised learning for parameter, structure, and performance prediction",
+    "Unsupervised learning for pattern discovery in coating/process data",
+    "Reinforcement learning for adaptive process optimization and control"
   ],
-  "evidence_signal": "This is a review paper synthesizing reported applications rather than presenting new experiments, and it highlights that current evidence is strongest where data are available for prediction and control tasks.",
-  "watch_item": "A major implementation concern is limited data quality and poor model generalization across materials, spray systems, and operating conditions.",
+  "evidence_signal": "The paper is a review synthesizing reported machine learning applications rather than presenting a single new dataset, and it evaluates progress across material design, spraying control, defect detection, and digital twin workflows.",
+  "watch_item": "Model deployment is still constrained by limited high-quality data and weak generalization across different spray systems and operating conditions.",
   "hashtags": [
-    "#ThermalSpraying",
     "#MachineLearning",
+    "#ThermalSpraying",
     "#CoatingEngineering",
     "#ProcessOptimization",
     "#DigitalTwin"
@@ -19,6 +19,6 @@
   "paper_title": "Machine learning in thermal spraying: applications, challenges, and future perspectives",
   "paper_date": "2026-03-26",
   "paper_category": "AI Process Optimization",
-  "generated_at": "2026-07-11T04:47:29",
+  "generated_at": "2026-07-11T11:56:42",
   "generator": "openai"
 }
