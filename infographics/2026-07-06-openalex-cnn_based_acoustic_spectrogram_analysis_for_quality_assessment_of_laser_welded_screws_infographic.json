@@ -1,0 +1,24 @@
+{
+  "key_insight": "Laser-induced acoustic spectrograms, classified with a CNN, can non-contactly distinguish defect-free from defective laser-welded screws with high accuracy.",
+  "engineering_relevance": "This enables scalable post-process quality assurance for laser welding without relying on traditional contact-based NDT methods.",
+  "method": [
+    "Record laser-induced acoustic responses with a membrane-free optical microphone",
+    "Convert signals into time-frequency spectrograms",
+    "Train a CNN and compare it with classical ML baselines using engineered features"
+  ],
+  "evidence_signal": "The optimized CNN reached 93.5% accuracy at the segment level and 92.9% at the specimen level, outperforming baseline ML approaches.",
+  "watch_item": "Performance depends strongly on spectrogram resolution and network depth, so robustness across materials, geometries, and production conditions still needs validation.",
+  "hashtags": [
+    "#LaserWelding",
+    "#AcousticSensing",
+    "#DeepLearning",
+    "#QualityAssurance",
+    "#NonDestructiveTesting"
+  ],
+  "paper_id": "2026-07-06-openalex-cnn_based_acoustic_spectrogram_analysis_for_quality_assessment_of_laser_welded_screws",
+  "paper_title": "CNN-based acoustic spectrogram analysis for quality assessment of laser-welded screws",
+  "paper_date": "2026-07-06",
+  "paper_category": "Welding Processes",
+  "generated_at": "2026-07-11T17:26:51",
+  "generator": "openai"
+}

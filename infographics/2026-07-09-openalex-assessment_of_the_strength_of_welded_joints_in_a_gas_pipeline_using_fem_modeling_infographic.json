@@ -1,0 +1,24 @@
+{
+  "key_insight": "Finite-element modeling linked hardness-derived material properties to predict stress and strain hot spots in 36-year-old and as-received X52 pipeline welds.",
+  "engineering_relevance": "The results help judge whether aging gas-pipeline welded joints can still support safe operation or repurposing for hydrogen service.",
+  "method": [
+    "Measured hardness across weld metal, heat-affected zone, and base metal.",
+    "Estimated strength and plasticity from hardness using correlation equations and built zone-specific stress–strain curves.",
+    "Simulated tensile loading in FEM to map stress/strain distributions and identify peak-stress regions."
+  ],
+  "evidence_signal": "The operated weld showed a higher normalized peak stress ratio (σ11/σys = 1.25) than the as-received joint (1.1), and strain concentration occurred at loads below base-metal yield in both cases.",
+  "watch_item": "Hardness-based property estimation and simulated tensile loading should be validated against broader experimental datasets before using the model for life-extension decisions.",
+  "hashtags": [
+    "#Welding",
+    "#FiniteElementModeling",
+    "#PipelineIntegrity",
+    "#HydrogenReady",
+    "#MaterialsEngineering"
+  ],
+  "paper_id": "2026-07-09-openalex-assessment_of_the_strength_of_welded_joints_in_a_gas_pipeline_using_fem_modeling",
+  "paper_title": "Assessment of the Strength of Welded Joints in a Gas Pipeline Using FEM Modeling",
+  "paper_date": "2026-07-09",
+  "paper_category": "Welding Processes",
+  "generated_at": "2026-07-11T17:27:04",
+  "generator": "openai"
+}

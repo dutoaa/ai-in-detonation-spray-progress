@@ -1,0 +1,24 @@
+{
+  "key_insight": "A vision-guided DDPG controller enables wall-climbing robots to adaptively track curved ship-hull weld seams despite curvature changes and wheel slippage.",
+  "engineering_relevance": "The approach improves seam-following accuracy and control stability for automated welding inspection or repair on complex marine surfaces.",
+  "method": [
+    "Train a YOLOv11-OBB model on custom ship-hull seam data for real-time seam state estimation.",
+    "Use DDPG to learn differential steering control for adaptive wall-climbing robot tracking.",
+    "Optimize reward weights with Bayesian optimization to improve policy performance."
+  ],
+  "evidence_signal": "On a 20-meter hull seam, the method achieved under 2 cm lateral offset and under 5° heading error, outperforming traditional PID control.",
+  "watch_item": "Performance depends on high-quality visual detection and may be sensitive to domain shifts such as lighting, surface wear, or unseen hull geometries.",
+  "hashtags": [
+    "#WallClimbingRobot",
+    "#WeldSeamTracking",
+    "#DDPG",
+    "#YOLOv11",
+    "#ShipHullAutomation"
+  ],
+  "paper_id": "2026-07-09-openalex-research_on_motion_control_of_weld_seam_tracking_technology_for_wall_climbing_robots_based",
+  "paper_title": "Research on motion control of weld seam tracking technology for wall-climbing robots based on DDPG algorithm",
+  "paper_date": "2026-07-09",
+  "paper_category": "AI Process Optimization",
+  "generated_at": "2026-07-11T17:27:14",
+  "generator": "openai"
+}

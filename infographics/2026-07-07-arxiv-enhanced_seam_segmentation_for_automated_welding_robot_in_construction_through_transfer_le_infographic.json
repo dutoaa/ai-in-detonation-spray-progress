@@ -1,0 +1,24 @@
+{
+  "key_insight": "A transfer-learning plus hybrid Cross-Entropy–Lovász optimization makes BiSeNetV2 much more robust to reflective seams without adding model size or speed cost.",
+  "engineering_relevance": "This provides a practical lightweight perception upgrade for real-time robotic welding in construction, where harsh lighting and metal reflections often break seam detection.",
+  "method": [
+    "Fine-tune a BiSeNetV2 backbone with transfer learning for seam segmentation.",
+    "Use a hybrid Cross-Entropy–Lovász loss to stabilize learning and improve boundary quality.",
+    "Keep the architecture unchanged to preserve FLOPs, parameter count, and inference speed."
+  ],
+  "evidence_signal": "The method reached 81.76% Joint IoU and 90.73% mIoU, improving Joint IoU by 22.36 points over the OHEM baseline and recovering 96.33% of severe zero-IoU failures under reflective conditions.",
+  "watch_item": "Results are compelling for reflective welding scenes, but deployment still depends on domain match and the availability of representative seam images from the target construction environment.",
+  "hashtags": [
+    "#RoboticWelding",
+    "#SeamSegmentation",
+    "#TransferLearning",
+    "#BiSeNetV2",
+    "#ComputerVision"
+  ],
+  "paper_id": "2026-07-07-arxiv-enhanced_seam_segmentation_for_automated_welding_robot_in_construction_through_transfer_le",
+  "paper_title": "Enhanced Seam Segmentation for Automated Welding Robot in Construction Through Transfer Learning: Addressing Limitations of Bilateral Segmentation Network",
+  "paper_date": "2026-07-07",
+  "paper_category": "Welding Processes",
+  "generated_at": "2026-07-11T17:26:53",
+  "generator": "openai"
+}
