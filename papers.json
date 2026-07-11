@@ -26,27 +26,45 @@
     ],
     "score": 70,
     "infographic": {
-      "key_insight": "HVAF spraying can produce thick NiTi coatings that still exhibit martensitic transformation and shape-memory behavior, overcoming a major fabrication barrier for functional metal coatings.",
-      "engineering_relevance": "This enables durable NiTi surface coatings on steel components for wear, corrosion, friction, and thermal-actuation functions where conventional ceramic coatings are less suitable.",
+      "key_insight": "HVAF spraying can produce thick NiTi coatings that retain martensitic transformation and shape-memory functionality after annealing, despite a heterogeneous as-sprayed microstructure.",
+      "engineering_relevance": "This enables durable functional coatings for components needing wear, corrosion, friction, and thermal-actuation benefits beyond conventional hard ceramic coatings.",
       "method": [
-        "HVAF-sprayed NiTi onto mild steel",
-        "Tested four processing-parameter sets",
-        "Evaluated composition, porosity, microstructure, phase transformation, and functional thermomechanical response"
+        "Deposited NiTi on mild steel using HVAF thermal spraying.",
+        "Varied four sets of spray processing parameters to study coating quality.",
+        "Assessed composition, porosity, microstructure, phase transformation, and thermomechanical response."
       ],
-      "evidence_signal": "The coatings were assessed with microscopy and phase/functional tests, and showed martensitic transformation plus thermal actuation and shape-memory response in 3-point bending, nanoindentation, and scratch tests.",
-      "watch_item": "As-sprayed coatings are microstructurally inhomogeneous and require annealing; their limited tensile strength may constrain structural use.",
+      "evidence_signal": "The coatings were evaluated by microscopy and transformation/functional tests, showing martensitic transformation on cooling or loading and actuation in 3-point bending, nanoindentation, and scratch tests.",
+      "watch_item": "As-sprayed coatings are microstructurally inhomogeneous and require annealing; tensile strength remains limited, so process control and post-treatment are critical.",
       "hashtags": [
         "#NiTi",
         "#HVAF",
         "#ShapeMemoryAlloy",
         "#ThermalSpray",
-        "#SurfaceEngineering"
+        "#CoatingMicrostructure"
       ],
       "paper_id": "2026-07-02-arxiv-hvaf_spraying_of_niti_coatings_microstructure_phase_transformation_and_shape_memory_behavi",
       "paper_title": "HVAF Spraying of NiTi Coatings: Microstructure, Phase Transformation and Shape Memory Behavior",
       "paper_date": "2026-07-02",
       "paper_category": "Coating Microstructure",
-      "generated_at": "2026-07-11T03:32:30",
+      "generated_at": "2026-07-11T03:46:20",
+      "generator": "openai"
+    },
+    "translation": {
+      "zh-Hans": {
+        "title": "HVAF喷涂NiTi涂层：微观结构、相变与形状记忆行为",
+        "abstract": "在工程构件表面沉积各种涂层以改善其在耐磨、耐腐蚀、减摩和热防护方面的性能，已是一项标准做法。沉积金属NiTi形状记忆合金涂层可作为硬质陶瓷涂层的一种可行替代方案。NiTi涂层还具有源于其独特功能热机械性能的额外优势。然而，制备厚的NiTi涂层被证明较为困难。标准电镀和激光熔覆方法并不适用于NiTi；最广泛使用的等离子喷涂方法往往会产生化学成分不均匀、且不能发生马氏体转变的涂层，而冷喷NiTi涂层则存在与基体结合不良的问题。在本工作中，我们报道了首次成功制备出厚NiTi涂层（100-300 um），这些涂层表现出功能热机械性能，同时与基体具有非常良好的附着性。我们采用高速空气燃料热喷涂方法，在低碳钢上使用四组不同的工艺参数制备NiTi涂层。对NiTi涂层的化学成分、孔隙率、微观结构、相变以及功能热机械性能进行了评估。尽管这些涂层含有非均匀微观结构、空洞、氧化物颗粒、高密度位错缺陷和内应力，但它们在冷却和/或机械载荷作用下仍发生马氏体转变。喷涂态NiTi涂层需要经过退火才能表现出功能热机械性能。尽管其拉伸强度有限，这些涂层在三点弯曲试验中表现出热致驱动行为，并在纳米压痕和划痕试验中表现出形状记忆效应。",
+        "infographic": {
+          "key_insight": "HVAF喷涂可制备厚NiTi涂层；尽管喷涂态微观结构具有非均匀性，经退火后仍可保留马氏体转变和形状记忆功能。",
+          "engineering_relevance": "这为需要耐磨、耐腐蚀、减摩和热致驱动性能的构件提供了耐久的功能涂层，优于传统硬质陶瓷涂层。",
+          "method": [
+            "采用HVAF热喷涂将NiTi沉积在低碳钢上。",
+            "改变四组喷涂工艺参数以研究涂层质量。",
+            "评估成分、孔隙率、微观结构、相变和热机械响应。"
+          ],
+          "evidence_signal": "通过显微分析及相变/功能测试对涂层进行评估，结果显示其在冷却或加载时发生马氏体转变，并在三点弯曲、纳米压痕和划痕试验中表现出驱动行为。",
+          "watch_item": "喷涂态涂层在微观结构上不均匀，且需要退火；其拉伸强度仍然有限，因此工艺控制和后处理至关重要。"
+        }
+      },
       "generator": "openai"
     }
   }
