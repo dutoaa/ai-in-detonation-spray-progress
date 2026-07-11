@@ -4,16 +4,90 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>AI detonation spray and coating Research Papers - Archives</title>
-  <style>:root{color-scheme:dark;--bg:#07110f;--panel:#0f1f1b;--text:#eef8f3;--muted:#a5b8b0;--line:#234038;--accent:#5ee0b5}*{box-sizing:border-box}body{margin:0;background:#07110f;color:var(--text);font-family:Inter,ui-sans-serif,system-ui,Segoe UI,Arial,sans-serif;padding:28px 18px 72px}main{max-width:960px;margin:0 auto}header{border-bottom:1px solid var(--line);padding-bottom:18px;margin-bottom:18px}h1{font-size:28px;line-height:1.1;margin:0;letter-spacing:0}.sub,.empty{color:var(--muted);line-height:1.5}a{color:var(--accent);text-decoration:none}.empty{background:rgba(15,31,27,.86);border:1px solid var(--line);border-radius:8px;padding:16px}</style>
+  <style>
+    :root{color-scheme:dark;--bg:#07110f;--panel:#0f1f1b;--text:#eef8f3;--muted:#a5b8b0;--line:#234038;--accent:#5ee0b5;--gold:#f2c86b}
+    *{box-sizing:border-box} body{margin:0;background:linear-gradient(180deg,#07110f,#0b1715 42%,#07110f);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,Segoe UI,Arial,sans-serif;padding:28px 18px 72px}
+    main{max-width:960px;margin:0 auto} header{display:flex;justify-content:space-between;gap:18px;align-items:end;border-bottom:1px solid var(--line);padding-bottom:18px;margin-bottom:18px}
+    h1{font-size:28px;line-height:1.1;margin:0;letter-spacing:0}.sub{margin:8px 0 0;color:var(--muted);line-height:1.5}
+    a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}.actions{display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+    .language-picker{display:flex;border:1px solid var(--line);border-radius:7px;overflow:hidden}.language-picker button{appearance:none;border:0;border-right:1px solid var(--line);background:#0b1715;color:var(--muted);padding:7px 10px;cursor:pointer;font:inherit;font-size:13px}.language-picker button:last-child{border-right:0}.language-picker button[aria-pressed="true"]{background:var(--accent);color:#042b20;font-weight:700}
+    .list{display:grid;gap:12px}.archive{display:flex;justify-content:space-between;gap:16px;align-items:center;background:rgba(15,31,27,.86);border:1px solid var(--line);border-radius:8px;padding:16px}
+    .archive h2{font-size:18px;margin:0 0 6px;letter-spacing:0}.archive p{margin:0;color:var(--muted);font-size:14px}.count{color:var(--gold);font-weight:700;white-space:nowrap}
+    .empty{color:var(--muted);border:1px solid var(--line);border-radius:8px;padding:16px}
+    @media(max-width:680px){body{padding:20px 12px 56px}header,.archive{display:block}.actions{margin-top:14px}.count{display:block;margin-top:10px}}
+  </style>
 </head>
 <body>
   <main>
     <header>
-      <h1>AI detonation spray and coating Research Papers - Archives</h1>
-      <p class="sub">Daily snapshots will appear here after the collector publishes updates.</p>
-      <a href="../">Latest</a>
+      <div>
+        <h1><span data-language-content="en">AI Detonation Spray and Coating Research Papers - Archives</span><span data-language-content="zh" hidden>AI 爆炸喷涂与涂层研究论文 - 归档</span></h1>
+        <p class="sub"><span data-language-content="en">Browse previous daily snapshots of the AI detonation spray and coating paper list.</span><span data-language-content="zh" hidden>浏览 AI 爆炸喷涂与涂层论文列表的每日历史快照。</span></p>
+      </div>
+      <nav class="actions">
+        <a href="../"><span data-language-content="en">Latest</span><span data-language-content="zh" hidden>最新</span></a>
+        <a href="index.json">Archive JSON</a>
+        <div class="language-picker" role="group" aria-label="Language selector">
+          <button type="button" data-set-language="en" aria-pressed="true">English</button>
+          <button type="button" data-set-language="zh" aria-pressed="false">中文</button>
+        </div>
+      </nav>
     </header>
-    <p class="empty">No archives have been published yet.</p>
+    <section id="archives" class="list">
+      <p class="empty" data-language-content="en">Loading archives...</p>
+      <p class="empty" data-language-content="zh" hidden>正在加载归档...</p>
+    </section>
   </main>
+  <script>
+    const container = document.getElementById('archives');
+    const fmt = new Intl.DateTimeFormat(undefined, { dateStyle: 'long' });
+    const storageKey = 'detonation-spray-language';
+    let language = 'en';
+
+    function archiveCard(item) {
+      const date = item.date || '';
+      const label = date ? fmt.format(new Date(date + 'T00:00:00')) : item.filename;
+      const filename = encodeURIComponent(item.filename || '');
+      return `
+        <article class="archive">
+          <div>
+            <h2><a href="${filename}">${label}</a></h2>
+            <p>${item.filename || ''}</p>
+          </div>
+          <span class="count">${item.paper_count || 0} ${language === 'zh' ? '篇论文' : 'papers'}</span>
+        </article>
+      `;
+    }
+
+    fetch('index.json')
+      .then((response) => {
+        if (!response.ok) throw new Error(`Archive index returned ${response.status}`);
+        return response.json();
+      })
+      .then((data) => {
+        const archives = Array.isArray(data.archives) ? data.archives : [];
+        container.innerHTML = archives.length
+          ? archives.map(archiveCard).join('')
+          : `<p class="empty">${language === 'zh' ? '尚未发布归档。' : 'No archives have been published yet.'}</p>`;
+      })
+      .catch((error) => {
+        container.innerHTML = `<p class="empty">${language === 'zh' ? '无法加载归档，请稍后重试。' : `Archive index could not be loaded: ${error.message}`}</p>`;
+      });
+    function applyLanguage(selected) {
+      language = selected === 'zh' ? 'zh' : 'en';
+      document.documentElement.lang = language === 'zh' ? 'zh-Hans' : 'en';
+      document.querySelectorAll('[data-language-content]').forEach((element) => {
+        element.hidden = element.dataset.languageContent !== language;
+      });
+      document.querySelectorAll('[data-set-language]').forEach((button) => {
+        button.setAttribute('aria-pressed', String(button.dataset.setLanguage === language));
+      });
+      try { localStorage.setItem(storageKey, language); } catch (_) {}
+    }
+    document.querySelectorAll('[data-set-language]').forEach((button) => {
+      button.addEventListener('click', () => { applyLanguage(button.dataset.setLanguage); location.reload(); });
+    });
+    try { applyLanguage(localStorage.getItem(storageKey) || 'en'); } catch (_) { applyLanguage('en'); }
+  </script>
 </body>
 </html>
