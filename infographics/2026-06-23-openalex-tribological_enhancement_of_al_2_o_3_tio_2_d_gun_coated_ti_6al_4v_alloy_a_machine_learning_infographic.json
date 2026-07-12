@@ -1,24 +1,24 @@
 {
-  "key_insight": "A ~200 μm Al2O3–TiO2 D-gun coating significantly improves the wear resistance of Ti-6Al-4V by forming a protective tribo-layer under sliding contact.",
-  "engineering_relevance": "This suggests detonation-sprayed ceramic coatings can extend the service life of Ti-6Al-4V components in aerospace, biomedical, and marine tribological applications.",
+  "key_insight": "A D-gun deposited Al2O3–TiO2 coating substantially improves the tribological performance of Ti-6Al-4V by reducing wear and promoting a protective tribo-layer.",
+  "engineering_relevance": "The study shows that detonation-sprayed ceramic coatings can extend the wear resistance of titanium alloys used in aerospace, biomedical, and marine components.",
   "method": [
-    "Applied Al2O3–TiO2 coating to Ti-6Al-4V using D-gun under controlled conditions.",
-    "Tested coated and uncoated samples with pin-on-disc wear experiments per ASTM G99.",
-    "Built ANN, KNN, and Random Forest models to predict wear from sliding parameters."
+    "Applied ~200 µm Al2O3–TiO2 coating on Ti-6Al-4V using the detonation gun process.",
+    "Evaluated wear with ASTM G99 pin-on-disc tests against EN31 steel at 40–100 N, 100–200 rpm, and 20–40 min.",
+    "Built ANN, KNN, and random forest models to predict wear from sliding parameters."
   ],
-  "evidence_signal": "Wear testing covered 40–100 N load, 100–200 rpm sliding speed, and 20–40 min duration; Random Forest gave the lowest mean percentage error and mean squared error.",
-  "watch_item": "The model and coating performance were validated on a limited experimental parameter range, so broader operating conditions and long-term durability still need confirmation.",
+  "evidence_signal": "Scanning electron microscopy showed reduced wear on coated samples, and random forest gave the lowest mean percentage error and mean squared error among the tested models.",
+  "watch_item": "Performance depends on controlled D-gun processing and the tested load/speed range, so broader validation is needed before generalizing to other operating conditions.",
   "hashtags": [
     "#DetonationSpray",
+    "#Tribology",
     "#WearResistance",
-    "#Al2O3TiO2",
-    "#Ti64",
-    "#MachineLearning"
+    "#MachineLearning",
+    "#SurfaceCoating"
   ],
   "paper_id": "2026-06-23-openalex-tribological_enhancement_of_al_2_o_3_tio_2_d_gun_coated_ti_6al_4v_alloy_a_machine_learning",
   "paper_title": "Tribological enhancement of Al 2 O 3 -TiO 2 D-gun coated Ti-6Al-4V alloy: A machine learning approach",
   "paper_date": "2026-06-23",
   "paper_category": "Detonation Spray Process",
-  "generated_at": "2026-07-11T17:33:01",
+  "generated_at": "2026-07-12T12:03:23",
   "generator": "openai"
 }

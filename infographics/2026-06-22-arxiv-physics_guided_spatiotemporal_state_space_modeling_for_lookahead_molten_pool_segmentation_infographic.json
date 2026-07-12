@@ -1,24 +1,24 @@
 {
-  "key_insight": "WeldMamba predicts future weld-pool geometry from past images, process settings, and electrical signals to enable lookahead segmentation for delayed closed-loop welding control.",
-  "engineering_relevance": "This gives laser wire-feed welding systems a faster, physics-informed perception layer for anticipating keyhole, wire, and molten-pool states before actuator lag becomes critical.",
+  "key_insight": "WeldMamba predicts future weld-pool regions from past images, process parameters, and sensor signals to compensate for control delay in laser wire-feed welding.",
+  "engineering_relevance": "This enables more reliable real-time closed-loop welding control by providing lookahead segmentation of keyhole, wire, and molten-pool states.",
   "method": [
-    "Historical coaxial grayscale images are fused with welding parameters and wire-state electrical signals.",
-    "A spatiotemporal state space model performs patch-level temporal reasoning with horizon-conditioned latent prediction.",
-    "Motion-aware decoding plus SDF, temporal-consistency, and distillation losses constrain future mask geometry."
+    "Physics-guided spatiotemporal state space model for future semantic segmentation",
+    "Fuses coaxial grayscale video with welding parameters and aligned wire-state electrical signals",
+    "Uses temporal history, horizon-conditioned prediction, and motion-aware decoding with geometry-aware auxiliary losses"
   ],
-  "evidence_signal": "On a 43-sequence laser welding dataset, the method achieved 74.63% mIoU at a 500 ms prediction horizon.",
-  "watch_item": "Performance depends on aligned multimodal inputs and a specific welding setup, so robustness under different sensors, materials, or larger delay shifts still needs validation.",
+  "evidence_signal": "On a 43-sequence laser welding dataset, the method achieved 74.63% mIoU at a 500 ms lookahead.",
+  "watch_item": "Performance depends on accurate time alignment and sensor availability, so robustness may drop if signals are noisy or deployment timing shifts.",
   "hashtags": [
     "#WeldingAI",
-    "#SpatiotemporalModeling",
     "#StateSpaceModel",
-    "#ClosedLoopControl",
-    "#SemanticSegmentation"
+    "#LookaheadSegmentation",
+    "#LaserWelding",
+    "#ClosedLoopControl"
   ],
   "paper_id": "2026-06-22-arxiv-physics_guided_spatiotemporal_state_space_modeling_for_lookahead_molten_pool_segmentation",
   "paper_title": "Physics-Guided Spatiotemporal State Space Modeling for Lookahead Molten Pool Segmentation in Laser Wire-Feed Welding",
   "paper_date": "2026-06-22",
   "paper_category": "Welding Processes",
-  "generated_at": "2026-07-11T17:33:04",
+  "generated_at": "2026-07-12T12:03:25",
   "generator": "openai"
 }
