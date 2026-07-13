@@ -1,24 +1,24 @@
 {
-  "key_insight": "The study uses multi-field coupled Eulerian-Lagrangian (CEL) simulation to understand and optimize high-speed friction stir welding of 6061-T6 aluminum alloy.",
-  "engineering_relevance": "It supports process parameter tuning for stronger, more reliable aluminum welds in high-throughput manufacturing.",
+  "key_insight": "A coupled multi-field CEL simulation was used to optimize high-speed friction stir welding of 6061-T6 aluminum alloy by capturing the complex material flow and thermal-mechanical behavior during joining.",
+  "engineering_relevance": "The study supports process design for faster, more reliable aluminum welding by helping predict defect formation and tune parameters before shop-floor trials.",
   "method": [
-    "Built a multi-field CEL finite-element model of the welding process.",
-    "Used the simulation to study weld-material flow and process behavior at high speed.",
-    "Optimized welding conditions based on the modeled response of 6061-T6 alloy."
+    "Built a multi-field coupled CEL model for high-speed FSW of 6061-T6 aluminum.",
+    "Used simulation-driven optimization to assess welding conditions and process response.",
+    "Focused on the thermal, mechanical, and flow fields that govern joint quality."
   ],
-  "evidence_signal": "The abstract indicates a journal article focused on simulation and optimization, but does not provide quantitative validation results in the summary provided.",
-  "watch_item": "Simulation-based optimization may depend strongly on model assumptions and needs experimental validation before shop-floor adoption.",
+  "evidence_signal": "The abstract indicates a journal article centered on simulation and optimization, but it does not report specific experimental metrics or numerical performance results.",
+  "watch_item": "As a simulation-led study, the model must be validated against experiments before it can be relied on for production parameter selection.",
   "hashtags": [
     "#FrictionStirWelding",
-    "#CELSimulation",
     "#AluminumAlloy",
+    "#FiniteElementModeling",
     "#ProcessOptimization",
-    "#ComputationalMaterials"
+    "#WeldingSimulation"
   ],
   "paper_id": "2026-07-11-openalex-multi_field_cel_simulation_and_optimization_of_high_speed_friction_stir_welding_of_6061_t6",
   "paper_title": "Multi-field CEL simulation and optimization of high-speed friction stir welding of 6061-T6 aluminum alloy",
   "paper_date": "2026-07-11",
   "paper_category": "Welding Processes",
-  "generated_at": "2026-07-12T12:03:16",
+  "generated_at": "2026-07-13T13:27:57",
   "generator": "openai"
 }

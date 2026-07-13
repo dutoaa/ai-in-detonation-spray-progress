@@ -1,24 +1,24 @@
 {
-  "key_insight": "The paper combines detonation-gun sprayed WC-12Co and Al2O3-13TiO2 coatings with machine learning to better predict wear and friction behavior.",
-  "engineering_relevance": "This supports faster coating selection and process optimization for tribological components where low wear and stable friction are critical.",
+  "key_insight": "The paper focuses on how detonation-gun sprayed WC-12Co and Al2O3-13TiO2 coatings behave tribologically, and uses machine learning to predict wear and friction performance.",
+  "engineering_relevance": "This is relevant for selecting and optimizing protective coatings in high-wear mechanical and thermal-spray applications where predicting surface durability matters.",
   "method": [
-    "Compared tribological performance of WC-12Co and Al2O3-13TiO2 D-gun sprayed coatings.",
-    "Used machine-learning-assisted modeling to predict wear and friction outcomes.",
-    "Framed the study for thermal-spray coating performance assessment."
+    "Compare tribological performance of WC-12Co vs Al2O3-13TiO2 D-gun sprayed coatings",
+    "Train machine learning models to predict wear and friction behavior",
+    "Use the coating-performance data to support predictive materials design"
   ],
-  "evidence_signal": "The abstract indicates a journal article in Journal of Thermal Spray Technology and notes OpenAlex indexing, but it does not provide dataset size or validation details.",
-  "watch_item": "Prediction utility may be limited without clear reporting of feature set, training data, and external validation across deposition conditions.",
+  "evidence_signal": "The abstract indicates an indexed journal article but does not provide sample size, metrics, or validation details for the machine-learning evaluation.",
+  "watch_item": "Without the full paper, it is unclear how robust the prediction model is across different spray conditions, substrates, and real-world operating environments.",
   "hashtags": [
     "#ThermalSpray",
     "#DetonationSpray",
-    "#WearPrediction",
-    "#Tribology",
+    "#Wear",
+    "#Friction",
     "#MachineLearning"
   ],
   "paper_id": "2026-06-29-openalex-tribological_performance_and_machine_learning_assisted_prediction_of_wear_and_friction_in",
   "paper_title": "Tribological Performance and Machine Learning-Assisted Prediction of Wear and Friction in D-Gun Sprayed WC-12Co and Al2O3-13TiO2 Coatings",
   "paper_date": "2026-06-29",
   "paper_category": "Detonation Spray Process",
-  "generated_at": "2026-07-12T12:03:40",
+  "generated_at": "2026-07-13T13:28:21",
   "generator": "openai"
 }

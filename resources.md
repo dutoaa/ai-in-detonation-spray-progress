@@ -1,6 +1,6 @@
 # AI Detonation Spray and Coating Progress Public Resources
 
-Generated: 2026-07-12
+Generated: 2026-07-13
 Public site: https://dutoaa.github.io/ai-in-detonation-spray-progress/
 
 ## 1. A critical analysis of the scratch test for thermally sprayed coatings
@@ -47,16 +47,16 @@ Public site: https://dutoaa.github.io/ai-in-detonation-spray-progress/
 - PDF: https://arxiv.org/pdf/2606.26059v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-06-24-arxiv-a_welding_penetration_prediction_model_for_laser_welding_process_based_on_self_supervised_infographic.json
 
-## 5. Implementation of Six Sigma DMAIC Methodology for Eliminating Spot Crack Defects in Automotive Resistance Spot Welding Process
+## 5. Tandem and twin submerged-arc welding of high-strength, low-alloyed structural steels for tubular applications
 
-- Date: 2026-07-10
+- Date: 2026-07-11
 - Source: OpenAlex
-- Venue: Immortalis Journal of Interdisciplinary Studies
-- Category: Coating Microstructure
-- DOI: 10.67307/ijis.v2i3.123
-- Source link: https://doi.org/10.67307/ijis.v2i3.123
-- PDF: https://immortalispub.com/IJIS/article/download/123/79
-- Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-07-10-openalex-implementation_of_six_sigma_dmaic_methodology_for_eliminating_spot_crack_defects_in_automo_infographic.json
+- Venue: The International Journal of Advanced Manufacturing Technology
+- Category: Welding Processes
+- DOI: 10.1007/s00170-026-18624-2
+- Source link: https://doi.org/10.1007/s00170-026-18624-2
+- PDF: https://link.springer.com/content/pdf/10.1007/s00170-026-18624-2.pdf
+- Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-07-11-openalex-tandem_and_twin_submerged_arc_welding_of_high_strength_low_alloyed_structural_steels_for_t_infographic.json
 
 ## 6. Enhanced Seam Segmentation for Automated Welding Robot in Construction Through Transfer Learning: Addressing Limitations of Bilateral Segmentation Network
 
@@ -69,18 +69,7 @@ Public site: https://dutoaa.github.io/ai-in-detonation-spray-progress/
 - PDF: https://arxiv.org/pdf/2607.06150v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-07-07-arxiv-enhanced_seam_segmentation_for_automated_welding_robot_in_construction_through_transfer_le_infographic.json
 
-## 7. Multi-field CEL simulation and optimization of high-speed friction stir welding of 6061-T6 aluminum alloy
-
-- Date: 2026-07-11
-- Source: OpenAlex
-- Venue: Journal of Mechanical Science and Technology
-- Category: Welding Processes
-- DOI: 10.1007/s12206-026-0642-x
-- Source link: https://doi.org/10.1007/s12206-026-0642-x
-- PDF: None
-- Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-07-11-openalex-multi_field_cel_simulation_and_optimization_of_high_speed_friction_stir_welding_of_6061_t6_infographic.json
-
-## 8. A multi-task spatiotemporal deep neural network for predicting penetration depth and morphology in laser welding
+## 7. A multi-task spatiotemporal deep neural network for predicting penetration depth and morphology in laser welding
 
 - Date: 2026-06-24
 - Source: arXiv
@@ -90,6 +79,17 @@ Public site: https://dutoaa.github.io/ai-in-detonation-spray-progress/
 - Source link: https://arxiv.org/abs/2606.26260v1
 - PDF: https://arxiv.org/pdf/2606.26260v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-06-24-arxiv-a_multi_task_spatiotemporal_deep_neural_network_for_predicting_penetration_depth_and_morph_infographic.json
+
+## 8. Multi-field CEL simulation and optimization of high-speed friction stir welding of 6061-T6 aluminum alloy
+
+- Date: 2026-07-11
+- Source: OpenAlex
+- Venue: Journal of Mechanical Science and Technology
+- Category: Welding Processes
+- DOI: 10.1007/s12206-026-0642-x
+- Source link: https://doi.org/10.1007/s12206-026-0642-x
+- PDF: None
+- Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-07-11-openalex-multi_field_cel_simulation_and_optimization_of_high_speed_friction_stir_welding_of_6061_t6_infographic.json
 
 ## 9. A cross-process welding penetration status prediction algorithm based on unsupervised domain adaptation in laser and TIG welding
 
@@ -168,18 +168,7 @@ Public site: https://dutoaa.github.io/ai-in-detonation-spray-progress/
 - PDF: https://phs.buketov.edu.kz/physics-vestnik/article/download/1057/613
 - Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-06-25-openalex-investigation_of_detonation_sprayed_nicr_al_coatings_tested_under_real_operating_condition_infographic.json
 
-## 16. STUDY ON THE CORROSION BEHAVIOUR OF PLASMA SPRAYED NANO Al2O3–TiO2– AISI 1020 STEEL COATINGS USING DEFINITIVE SCREENING DESIGN
-
-- Date: 2026-07-06
-- Source: OpenAlex
-- Venue: International Journal of Drug Delivery Technology
-- Category: Thermal Spray Coatings
-- DOI: 10.25258/ijddt.16.62s.137
-- Source link: https://openalex.org/W7167614253
-- PDF: https://doi.org/10.25258/ijddt.16.62s.137
-- Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-07-06-openalex-study_on_the_corrosion_behaviour_of_plasma_sprayed_nano_al2o3_tio2_aisi_1020_steel_coating_infographic.json
-
-## 17. Tribological Performance and Machine Learning-Assisted Prediction of Wear and Friction in D-Gun Sprayed WC-12Co and Al2O3-13TiO2 Coatings
+## 16. Tribological Performance and Machine Learning-Assisted Prediction of Wear and Friction in D-Gun Sprayed WC-12Co and Al2O3-13TiO2 Coatings
 
 - Date: 2026-06-29
 - Source: OpenAlex
@@ -189,6 +178,17 @@ Public site: https://dutoaa.github.io/ai-in-detonation-spray-progress/
 - Source link: https://doi.org/10.1007/s11666-026-02274-7
 - PDF: None
 - Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-06-29-openalex-tribological_performance_and_machine_learning_assisted_prediction_of_wear_and_friction_in_infographic.json
+
+## 17. STUDY ON THE CORROSION BEHAVIOUR OF PLASMA SPRAYED NANO Al2O3–TiO2– AISI 1020 STEEL COATINGS USING DEFINITIVE SCREENING DESIGN
+
+- Date: 2026-07-06
+- Source: OpenAlex
+- Venue: International Journal of Drug Delivery Technology
+- Category: Thermal Spray Coatings
+- DOI: 10.25258/ijddt.16.62s.137
+- Source link: https://openalex.org/W7167614253
+- PDF: https://doi.org/10.25258/ijddt.16.62s.137
+- Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-07-06-openalex-study_on_the_corrosion_behaviour_of_plasma_sprayed_nano_al2o3_tio2_aisi_1020_steel_coating_infographic.json
 
 ## 18. DEVELOPMENT AND CHARACTERIZATION OF WEAR-RESISTANT AL₂O₃-BASED COATINGS PRODUCED BY DETONATION SPRAYING
 

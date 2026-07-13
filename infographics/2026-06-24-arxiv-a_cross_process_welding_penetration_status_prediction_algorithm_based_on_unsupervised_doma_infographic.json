@@ -1,13 +1,13 @@
 {
-  "key_insight": "An unsupervised domain adaptation framework with gradual source domain expansion can transfer weld penetration state prediction across fundamentally different welding processes without requiring target-process labels.",
-  "engineering_relevance": "This improves intelligent welding monitoring by reducing relabeling effort and enabling robust deployment across TIG and laser welding systems with different physical mechanisms.",
+  "key_insight": "An unsupervised domain adaptation framework with gradual source domain expansion can transfer weld penetration classification across fundamentally different welding processes with strong accuracy gains.",
+  "engineering_relevance": "This reduces the need for costly relabeling when deploying intelligent weld monitoring from one process, such as TIG, to another, such as laser welding.",
   "method": [
-    "Train a UDA model to learn domain-invariant representations between source and target welding processes.",
-    "Use gradual source domain expansion (GSDE) to progressively broaden source-domain coverage during adaptation.",
-    "Validate transfer on same-process and cross-process weld penetration classification tasks with UMAP feature-space checks."
+    "UDA for cross-process penetration status prediction",
+    "Gradual source domain expansion to broaden source knowledge",
+    "UMAP-based feature alignment check for domain invariance"
   ],
-  "evidence_signal": "The abstract reports average accuracies of 90.65% on TIGFH and 90.72% on LSPS in same-process settings, and 80.48% TIG→Laser plus 81.13% Laser→TIG in cross-process transfer, each far above the supervised baseline.",
-  "watch_item": "Performance gains are reported on dedicated TIG and laser datasets, so generalization to other materials, sensing setups, or welding regimes still needs verification.",
+  "evidence_signal": "The method achieved 90.65% and 90.72% average accuracy in same-process tasks, and 80.48% TIG-to-laser plus 81.13% laser-to-TIG in cross-process transfer, with large improvements over the supervised baseline.",
+  "watch_item": "Performance may still depend on how similar the target welding conditions are to the source data, so robustness across unseen materials, settings, or sensor setups should be validated before deployment.",
   "hashtags": [
     "#WeldingAI",
     "#DomainAdaptation",
@@ -19,6 +19,6 @@
   "paper_title": "A cross-process welding penetration status prediction algorithm based on unsupervised domain adaptation in laser and TIG welding",
   "paper_date": "2026-06-24",
   "paper_category": "Welding Processes",
-  "generated_at": "2026-07-12T12:03:20",
+  "generated_at": "2026-07-13T13:27:59",
   "generator": "openai"
 }
