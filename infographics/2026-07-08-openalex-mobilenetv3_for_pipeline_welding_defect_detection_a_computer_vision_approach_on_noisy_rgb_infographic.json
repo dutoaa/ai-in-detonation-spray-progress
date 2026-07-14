@@ -1,24 +1,24 @@
 {
-  "key_insight": "Lightweight MobileNetV3 can classify pipeline weld defects with very high accuracy, making on-device inspection practical for noisy RGB images.",
-  "engineering_relevance": "The work supports faster, lower-power, and more deployable weld quality inspection for pipeline maintenance and field operations.",
+  "key_insight": "A lightweight MobileNetV3 classifier can detect and distinguish pipeline weld defects with very high accuracy, even on noisy RGB images from different capture conditions.",
+  "engineering_relevance": "The work supports practical on-device weld inspection by combining strong classification performance with low compute, memory, and power needs for mobile or handheld deployment.",
   "method": [
-    "Compared MobileNetV3 Small and Large for multi-class weld defect classification.",
-    "Used image preprocessing and data augmentation to improve robustness on noisy RGB inputs.",
-    "Validated on two real-world datasets captured with HDR cameras and a mobile phone."
+    "Preprocess weld images and apply data augmentation to improve robustness to noisy inputs.",
+    "Train and compare MobileNetV3 Small and Large for multi-class defect classification.",
+    "Evaluate on two real-world datasets collected with HDR cameras and a mobile phone in uncontrolled conditions."
   ],
-  "evidence_signal": "The abstract reports 99.99% accuracy on the AI5083 dataset and improved performance on the smaller PWDID dataset, with about a 3% gain over prior methods.",
-  "watch_item": "The very small PWDID dataset and the strong results suggest careful external validation is needed before broad deployment across new inspection conditions.",
+  "evidence_signal": "The abstract reports 99.99% accuracy on the AI5083 dataset and improved performance on PWDID, with about a 3% gain over prior methods.",
+  "watch_item": "The very small PWDID dataset and the risk of dataset-specific overfitting mean real field deployment should be validated on more diverse inspection conditions.",
   "hashtags": [
     "#WeldInspection",
-    "#MobileNetV3",
     "#ComputerVision",
-    "#DeepLearning",
-    "#PipelineSafety"
+    "#MobileNetV3",
+    "#DefectDetection",
+    "#EdgeAI"
   ],
   "paper_id": "2026-07-08-openalex-mobilenetv3_for_pipeline_welding_defect_detection_a_computer_vision_approach_on_noisy_rgb",
   "paper_title": "MobileNetV3 for Pipeline Welding Defect Detection: A Computer Vision Approach on Noisy RGB Images",
   "paper_date": "2026-07-08",
   "paper_category": "Welding Quality and Inspection",
-  "generated_at": "2026-07-13T13:27:41",
+  "generated_at": "2026-07-14T12:18:13",
   "generator": "openai"
 }
