@@ -1,0 +1,24 @@
+{
+  "key_insight": "A combined CEL simulation and ANN model can accurately predict weld temperature, axial force, and defect formation in HDPE friction stir welding, enabling fast process-window optimization.",
+  "engineering_relevance": "Bottom-surface preheating significantly improves weld stability by reducing thermal gradients and lowering plunge-force peaks, supporting more robust thermoplastic joint design.",
+  "method": [
+    "3D coupled Eulerian-Lagrangian (CEL) model of FSW under varied rotational speed, welding speed, and preheating",
+    "Two multilayer perceptron ANNs trained on experimental data to predict temperature and axial force histories",
+    "Validation against experiments and process-map generation for defect-free vs defective welding windows"
+  ],
+  "evidence_signal": "The ANN models achieved strong predictive performance with R2 values between 0.91 and 0.99, and the CEL model matched experimental trends in void formation, thermal response, and force response.",
+  "watch_item": "The process map is based on the tested HDPE setup and parameter range, so broader use on other tool geometries, polymers, or larger process spaces will need additional validation.",
+  "hashtags": [
+    "#FrictionStirWelding",
+    "#PolymerWelding",
+    "#MachineLearning",
+    "#FiniteElementModeling",
+    "#ProcessOptimization"
+  ],
+  "paper_id": "2025-12-01-doaj-computational_and_machine_learning_modelling_approaches_for_weld_quality_predictions_in_fr",
+  "paper_title": "Computational and machine learning modelling approaches for weld quality predictions in friction stir welding of high-density polyethylene",
+  "paper_date": "2025-12-01",
+  "paper_category": "AI Process Optimization",
+  "generated_at": "2026-07-15T05:05:08",
+  "generator": "openai"
+}

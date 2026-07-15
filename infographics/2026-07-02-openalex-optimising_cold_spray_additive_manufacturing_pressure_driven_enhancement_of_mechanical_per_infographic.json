@@ -1,24 +1,24 @@
 {
-  "key_insight": "Raising cold-spray pressure from 30 to 60 bar increases copper particle velocity above the bonding threshold, producing denser, more ductile deposits with better conductivity but lower hardness.",
-  "engineering_relevance": "For CSAM copper parts, spray pressure is a key process lever to balance electrical performance and mechanical integrity, especially in applications needing conductive structural builds.",
+  "key_insight": "Raising cold-spray pressure from 30 to 60 bar increased copper particle velocity, improving bonding and ductility while trading off hardness.",
+  "engineering_relevance": "The study identifies a higher-pressure process window for producing copper CSAM parts with a better balance of conductivity, strength, and formability.",
   "method": [
-    "Cold-sprayed copper with a LightSPEE3D system at 30, 40, 50, and 60 bar.",
-    "Measured XRD, hardness, eddy-current conductivity, tensile properties, and SEM microstructure.",
-    "Compared how pressure changes particle velocity, bonding, and deformation mechanisms."
+    "LightSPEE3D cold spray copper at 30, 40, 50, and 60 bar",
+    "Characterized deposits using XRD, SEM, hardness, eddy current conductivity, and tensile tests",
+    "Related pressure-driven particle velocity changes to microstructure and mechanical performance"
   ],
-  "evidence_signal": "The abstract reports pressure-dependent XRD refinement, higher conductivity, lower hardness, and a clear transition toward stronger, more ductile tensile behavior at higher pressures.",
-  "watch_item": "The apparent optimum at higher pressure may depend on material, stand-off distance, and system-specific velocity profiles, so the window may not transfer directly to other CSAM setups.",
+  "evidence_signal": "The abstract reports that higher spray pressure produced crystallite refinement, higher dislocation density, improved conductivity, and a clear shift toward more ductile tensile fracture behavior.",
+  "watch_item": "The optimum window appears pressure-sensitive, so scaling to other feedstocks, geometries, or stand-off conditions may require re-optimization.",
   "hashtags": [
     "#ColdSpray",
     "#AdditiveManufacturing",
     "#Copper",
-    "#ThermalSpray",
-    "#ProcessStructureProperty"
+    "#ProcessOptimization",
+    "#MaterialsEngineering"
   ],
   "paper_id": "2026-07-02-openalex-optimising_cold_spray_additive_manufacturing_pressure_driven_enhancement_of_mechanical_per",
   "paper_title": "Optimising Cold Spray Additive Manufacturing: Pressure-driven enhancement of mechanical performance in copper deposits",
   "paper_date": "2026-07-02",
   "paper_category": "Thermal Spray Coatings",
-  "generated_at": "2026-07-14T12:18:44",
+  "generated_at": "2026-07-15T05:05:38",
   "generator": "openai"
 }
