@@ -1,24 +1,24 @@
 {
-  "key_insight": "Laser welding depth strongly affects lap-joint strength, and a calibrated FEM workflow can estimate joint quality from the welding parameters.",
-  "engineering_relevance": "The study provides a practical route to predict and tune laser welding settings for improving the load-bearing performance of stainless-steel lap joints.",
+  "key_insight": "Laser welding depth strongly affects lap-joint strength, so a calibrated FEM model can predict joint quality from process parameters.",
+  "engineering_relevance": "The study supports process design for laser-welded stainless-steel lap joints by linking weld penetration, measured strength, and simulation-based prediction.",
   "method": [
-    "Built lap-joint specimens from X5CrNi18-10 steel plates.",
-    "Performed laser welding with both partial and full penetration.",
-    "Combined mechanical testing, macroscopic inspection, and Abaqus FEM simulations to validate the numerical model."
+    "Built lap-joint specimens from X5CrNi18-10 steel sheets (100×200×2 mm).",
+    "Performed laser welding at two penetration levels: full and partial penetration.",
+    "Measured mechanical strength and examined weld macrostucture, then created Abaqus FEM discrete models and validated them against experiments."
   ],
-  "evidence_signal": "The abstract reports experimental tests on two welding depths and compares simulation results against measured strength and macroscopic observations.",
-  "watch_item": "The model is validated on a specific material, geometry, and two penetration cases, so broader process transferability may require additional calibration.",
+  "evidence_signal": "The abstract reports experimental strength tests and macroscopic examinations on full- and partial-penetration joints, followed by numerical simulation results compared directly with experimental data for validation.",
+  "watch_item": "The model is validated only on two welding-depth cases for a specific stainless-steel lap joint, so broader applicability to other geometries, materials, or parameter ranges needs further confirmation.",
   "hashtags": [
     "#LaserWelding",
     "#LapJoint",
     "#FEM",
-    "#WeldingProcess",
-    "#StructuralIntegrity"
+    "#WeldingParameters",
+    "#MaterialsEngineering"
   ],
   "paper_id": "2026-07-13-openalex-analysis_of_the_influence_of_laser_welding_parameters_on_the_quality_of_the_lap_joint",
   "paper_title": "Analysis of the Influence of Laser Welding Parameters on the Quality of the Lap Joint",
   "paper_date": "2026-07-13",
   "paper_category": "Welding Processes",
-  "generated_at": "2026-07-15T05:05:05",
+  "generated_at": "2026-07-15T12:20:54",
   "generator": "openai"
 }
