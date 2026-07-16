@@ -1,15 +1,15 @@
 [
   {
-    "id": "2026-07-13-openalex-a_review_thermal_spraying_on_polymers",
-    "doi": "10.5281/zenodo.21332953",
-    "date": "2026-07-13",
-    "title": "A Review - Thermal spraying on Polymers",
-    "authors": "Niyati Lia",
-    "abstract": "Polymer coatings are extensively used to enhance the surface performance of engineering components by imparting corrosion resistance, wear protection, hydrophobicity, biocompatibility, and various functional surface properties. Among the available deposition techniques, thermal spray technologies have emerged as versatile and efficient methods for producing polymer and polymer-based composite coatings on metallic, ceramic, and polymeric substrates. These processes enable the fabrication of thick, adherent coatings while minimizing substrate degradation and offering flexibility in material selection.This review presents a comprehensive overview of thermally sprayed polymer coatings, with emphasis on deposition processes, coating microstructure, mechanical and functional properties, and major application areas. It also discusses the characteristics and suitability of commonly employed polymers, including polyethylene (PE), polyamide (PA), polyimide (PI), polyurethane (PU), polyether ether ketone (PEEK), polyethylene terephthalate (PET), and fluoropolymers. Furthermore, the review critically examines the fabrication and performance of polymer and polymer-based composite coatings produced using various thermal spray techniques, such as flame spraying, high-velocity oxy-fuel (HVOF) spraying, plasma spraying (PS), and cold spraying (CS). The advantages, limitations, recent advancements, and future research directions of these techniques are also highlighted to provide a comprehensive understanding of their potential in advanced surface engineering applications.",
-    "category": "Thermal Spray Coatings",
+    "id": "2026-07-15-openalex-review_of_magnetic_interference_in_welding_and_its_impact_on_microstructure_and_mechanical",
+    "doi": "10.26437/c8j8c781",
+    "date": "2026-07-15",
+    "title": "Review of Magnetic Interference in Welding And Its Impact on Microstructure and Mechanical Performance",
+    "authors": "M. S. Gonjari, S. M. Bante, R. Adakane, N. G. Jawarkar, D. S. Choudhari, A. S. Chaudhary",
+    "abstract": "Purpose: The aim of this review is to critically analyse the effect of residual magnetism on welding performance, weld microstructure, and mechanical properties of ferromagnetic materials. The objective of this work is to determine the origin of residual magnetism and its consequences for arc stability, weldability, and material strength. Design/ Methodology/ Approach: A literature search turned up approximately 85 research articles on the subject of the magnetic influence of welding. The paper covers the basic aspects of residual magnetism, arc blow, weld defects, and demagnetisation. The 52 research articles were selected for their relevance and technical quality from the databases Google Scholar, IEEE, Scopus, Web of Science, and ScienceDirect. The keywords used for the literature review were: weld microstructure, arc blow, and demagnetising techniques. Research Limitation: In this article, only published research articles are reviewed, and it lacks direct experimental validation, which may limit the generalisation of the findings. Findings: Comparative analyses prove that magnetically influenced welds have irregular microstructures, inconsistent hardness, lower tensile strength, and increased residual stresses. The review further presents existing and upcoming methods of demagnetisation, including AC and DC field neutralisation, flexible field coils, and in situ demagnetisation, with their strengths and shortcomings outlined. Practical Implication: The welding industry would benefit from this review article by understanding the effects of residual magnetism and adopting suitable magnetisation techniques to improve weld quality. Social Implication: The study supports safer, more reliable welded structures, reducing the risk of failure and maintenance costs in industrial applications. Originality/value: The study revealed a notable absence of standardised demagnetisation processes, highlighting an area where inconsistent or ad hoc practices persist despite their significant implications for weld quality and process reliability.",
+    "category": "Coating Microstructure",
     "source": "OpenAlex",
-    "venue": "Zenodo (CERN European Organization for Nuclear Research)",
-    "published": "2026-07-13T00:00:00+00:00",
+    "venue": "African Journal Of Applied Research",
+    "published": "2026-07-15T00:00:00+00:00",
     "updated": "",
     "primary_category": "journal-article",
     "categories": [
@@ -18,132 +18,61 @@
     "links": [
       {
         "title": "OpenAlex",
-        "url": "https://openalex.org/W7168125746"
+        "url": "https://openalex.org/W7168266494"
       },
       {
         "title": "DOI",
-        "url": "https://doi.org/10.5281/zenodo.21332953"
+        "url": "https://doi.org/10.26437/c8j8c781"
       },
       {
         "title": "Publisher",
-        "url": "https://doi.org/10.5281/zenodo.21332953"
+        "url": "https://doi.org/10.26437/c8j8c781"
+      },
+      {
+        "title": "Open access copy",
+        "url": "https://doi.org/10.26437/c8j8c781"
       }
     ],
     "open_access": true,
-    "score": 89,
+    "score": 86,
     "infographic": {
-      "key_insight": "Thermal spraying is a versatile route to deposit thick, adherent polymer and polymer-composite coatings that improve corrosion, wear, hydrophobic, and biocompatible surface performance.",
-      "engineering_relevance": "The review is relevant for selecting coating processes and polymer families for surface engineering on metallic, ceramic, and polymer substrates.",
+      "key_insight": "Residual magnetism can destabilize welding arcs and degrade weld microstructure and mechanical performance in ferromagnetic materials.",
+      "engineering_relevance": "Understanding and controlling magnetic interference is important for improving weld quality, strength, reliability, and process consistency in industrial fabrication.",
       "method": [
-        "Compares flame spraying, HVOF, plasma spraying, and cold spraying for polymer deposition.",
-        "Summarizes coating microstructure, mechanical behavior, and functional properties.",
-        "Reviews common polymers such as PE, PA, PI, PU, PEEK, PET, and fluoropolymers."
+        "Reviewed ~85 published studies and selected 52 high-relevance papers from Google Scholar, IEEE, Scopus, Web of Science, and ScienceDirect.",
+        "Synthesized findings on residual magnetism, arc blow, weld defects, demagnetisation, and mitigation techniques.",
+        "Compared demagnetisation approaches including AC/DC neutralisation, flexible field coils, and in situ methods."
       ],
-      "evidence_signal": "The abstract describes a literature review that synthesizes prior findings on process suitability, coating properties, and application performance rather than reporting new experimental data.",
-      "watch_item": "Polymer thermal spraying must be chosen carefully because process heat and particle state can still degrade polymers or limit adhesion on sensitive substrates.",
+      "evidence_signal": "The review reports that magnetically influenced welds commonly show irregular microstructures, inconsistent hardness, lower tensile strength, and higher residual stresses.",
+      "watch_item": "Because the paper is a literature review without direct experimental validation, its conclusions depend on the quality and comparability of the cited studies, and standardized demagnetisation practice is still lacking.",
       "hashtags": [
-        "#ThermalSpray",
-        "#PolymerCoatings",
-        "#SurfaceEngineering",
-        "#HVOF",
-        "#ColdSpray"
+        "#Welding",
+        "#ResidualMagnetism",
+        "#Microstructure",
+        "#Demagnetization",
+        "#MechanicalProperties"
       ],
-      "paper_id": "2026-07-13-openalex-a_review_thermal_spraying_on_polymers",
-      "paper_title": "A Review - Thermal spraying on Polymers",
-      "paper_date": "2026-07-13",
-      "paper_category": "Thermal Spray Coatings",
-      "generated_at": "2026-07-15T12:20:40",
+      "paper_id": "2026-07-15-openalex-review_of_magnetic_interference_in_welding_and_its_impact_on_microstructure_and_mechanical",
+      "paper_title": "Review of Magnetic Interference in Welding And Its Impact on Microstructure and Mechanical Performance",
+      "paper_date": "2026-07-15",
+      "paper_category": "Coating Microstructure",
+      "generated_at": "2026-07-16T12:23:22",
       "generator": "openai"
     },
     "translation": {
       "zh-Hans": {
-        "title": "聚合物热喷涂综述",
-        "abstract": "聚合物涂层被广泛用于通过赋予耐腐蚀性、耐磨保护、疏水性、生物相容性以及多种功能性表面特性来提升工程部件的表面性能。在现有的沉积技术中，热喷涂技术已成为一种通用且高效的方法，可在金属、陶瓷和聚合物基底上制备聚合物及聚合物基复合涂层。这些工艺能够在尽量减少基底劣化的同时实现厚而具有良好附着力的涂层制备，并在材料选择方面提供灵活性。本文综述了热喷涂聚合物涂层的全面概况，重点关注沉积过程、涂层微观结构、力学与功能特性以及主要应用领域。文中还讨论了常用聚合物的特性及其适用性，包括聚乙烯（PE）、聚酰胺（PA）、聚酰亚胺（PI）、聚氨酯（PU）、聚醚醚酮（PEEK）、聚对苯二甲酸乙二醇酯（PET）和含氟聚合物。此外，本文对采用多种热喷涂技术制备的聚合物及聚合物基复合涂层的制备与性能进行了批判性分析，这些技术包括火焰喷涂、高速氧燃料（HVOF）喷涂、等离子喷涂（PS）和冷喷涂（CS）。文中还强调了这些技术的优势、局限性、最新进展以及未来研究方向，以便为先进表面工程应用中的潜力提供全面理解。",
+        "title": "焊接中的磁干扰及其对显微组织和力学性能影响的综述",
+        "abstract": "目的：本综述旨在批判性分析残余磁性对铁磁材料焊接性能、焊缝显微组织和力学性能的影响。本工作的目标是确定残余磁性的来源及其对电弧稳定性、焊接性和材料强度的后果。设计/方法论/方法：文献检索共找到约85篇关于焊接磁影响主题的研究论文。本文涵盖残余磁性、电弧偏吹、焊接缺陷和退磁的基本方面。从 Google Scholar、IEEE、Scopus、Web of Science 和 ScienceDirect 数据库中选取了52篇具有相关性和技术质量的研究论文。文献综述使用的关键词为：焊缝显微组织、电弧偏吹和退磁技术。研究局限性：本文仅综述已发表的研究论文，缺乏直接实验验证，这可能限制研究结果的普适性。研究结果：比较分析证明，受磁影响的焊缝具有不规则的显微组织、不一致的硬度、较低的抗拉强度以及更高的残余应力。本文进一步介绍了现有及未来的退磁方法，包括交流和直流场中和、柔性磁场线圈以及原位退磁，并概述了它们的优势与不足。实践意义：焊接行业可通过本综述了解残余磁性的影响，并采用合适的磁化技术以提高焊缝质量。社会意义：本研究有助于形成更安全、更可靠的焊接结构，降低工业应用中的失效风险和维护成本。原创性/价值：本研究揭示了标准化退磁流程的明显缺失，指出尽管其对焊缝质量和工艺可靠性具有重要影响，但一致或临时性的做法仍然存在。",
         "infographic": {
-          "key_insight": "热喷涂是一种多用途途径，可沉积厚而具有良好附着力的聚合物及聚合物复合涂层，从而改善耐腐蚀、耐磨、疏水和生物相容等表面性能。",
-          "engineering_relevance": "该综述与在金属、陶瓷和聚合物基底上选择表面工程涂层工艺及聚合物体系密切相关。",
+          "key_insight": "残余磁性会使焊接电弧失稳，并降低铁磁材料的焊缝显微组织和力学性能。",
+          "engineering_relevance": "理解和控制磁干扰对于提高工业制造中的焊缝质量、强度、可靠性和工艺一致性至关重要。",
           "method": [
-            "比较用于聚合物沉积的火焰喷涂、HVOF、等离子喷涂和冷喷涂。",
-            "总结涂层微观结构、力学行为和功能特性。",
-            "综述PE、PA、PI、PU、PEEK、PET和含氟聚合物等常见聚合物。"
+            "综述了约85篇已发表研究，并从 Google Scholar、IEEE、Scopus、Web of Science 和 ScienceDirect 中选取了52篇高相关性论文。",
+            "综合了关于残余磁性、电弧偏吹、焊接缺陷、退磁及缓解技术的研究结果。",
+            "比较了包括交流/直流中和、柔性磁场线圈和原位方法在内的退磁方案。"
           ],
-          "evidence_signal": "该摘要描述的是一篇文献综述，综合了先前关于工艺适用性、涂层性能和应用表现的研究结果，而非报告新的实验数据。",
-          "watch_item": "聚合物热喷涂必须谨慎选择，因为工艺热量和颗粒状态仍可能使聚合物降解，或限制其在敏感基底上的附着力。"
-        }
-      },
-      "generator": "openai"
-    }
-  },
-  {
-    "id": "2026-07-13-openalex-a_review_thermal_spraying_on_polymers",
-    "doi": "10.5281/zenodo.21332954",
-    "date": "2026-07-13",
-    "title": "A Review - Thermal spraying on Polymers",
-    "authors": "Niyati Lia",
-    "abstract": "Polymer coatings are extensively used to enhance the surface performance of engineering components by imparting corrosion resistance, wear protection, hydrophobicity, biocompatibility, and various functional surface properties. Among the available deposition techniques, thermal spray technologies have emerged as versatile and efficient methods for producing polymer and polymer-based composite coatings on metallic, ceramic, and polymeric substrates. These processes enable the fabrication of thick, adherent coatings while minimizing substrate degradation and offering flexibility in material selection.This review presents a comprehensive overview of thermally sprayed polymer coatings, with emphasis on deposition processes, coating microstructure, mechanical and functional properties, and major application areas. It also discusses the characteristics and suitability of commonly employed polymers, including polyethylene (PE), polyamide (PA), polyimide (PI), polyurethane (PU), polyether ether ketone (PEEK), polyethylene terephthalate (PET), and fluoropolymers. Furthermore, the review critically examines the fabrication and performance of polymer and polymer-based composite coatings produced using various thermal spray techniques, such as flame spraying, high-velocity oxy-fuel (HVOF) spraying, plasma spraying (PS), and cold spraying (CS). The advantages, limitations, recent advancements, and future research directions of these techniques are also highlighted to provide a comprehensive understanding of their potential in advanced surface engineering applications.",
-    "category": "Thermal Spray Coatings",
-    "source": "OpenAlex",
-    "venue": "Zenodo (CERN European Organization for Nuclear Research)",
-    "published": "2026-07-13T00:00:00+00:00",
-    "updated": "",
-    "primary_category": "journal-article",
-    "categories": [
-      "journal-article"
-    ],
-    "links": [
-      {
-        "title": "OpenAlex",
-        "url": "https://openalex.org/W7168136925"
-      },
-      {
-        "title": "DOI",
-        "url": "https://doi.org/10.5281/zenodo.21332954"
-      },
-      {
-        "title": "Publisher",
-        "url": "https://doi.org/10.5281/zenodo.21332954"
-      }
-    ],
-    "open_access": true,
-    "score": 89,
-    "infographic": {
-      "key_insight": "Thermal spray methods can deposit thick, functional polymer coatings on diverse substrates while balancing adhesion, substrate protection, and tailored surface properties.",
-      "engineering_relevance": "The review is relevant for designing durable, multifunctional protective coatings for corrosion, wear, hydrophobicity, and biocompatible applications in surface engineering.",
-      "method": [
-        "Compares thermal spray routes for polymers: flame spraying, HVOF, plasma spraying, and cold spraying.",
-        "Reviews coating formation, microstructure, mechanical behavior, and functional performance.",
-        "Summarizes suitability of common polymers and polymer-based composites such as PE, PA, PI, PU, PEEK, PET, and fluoropolymers."
-      ],
-      "evidence_signal": "The abstract indicates a literature review synthesis rather than new experimental data, evaluating reported process–structure–property relationships and application outcomes across multiple spray techniques.",
-      "watch_item": "Polymer thermal spraying can be sensitive to thermal degradation, adhesion control, and process–material compatibility, so parameters must be carefully tuned for each polymer/substrate pair.",
-      "hashtags": [
-        "#ThermalSpray",
-        "#PolymerCoatings",
-        "#SurfaceEngineering",
-        "#HVOF",
-        "#ColdSpray"
-      ],
-      "paper_id": "2026-07-13-openalex-a_review_thermal_spraying_on_polymers",
-      "paper_title": "A Review - Thermal spraying on Polymers",
-      "paper_date": "2026-07-13",
-      "paper_category": "Thermal Spray Coatings",
-      "generated_at": "2026-07-15T12:20:43",
-      "generator": "openai"
-    },
-    "translation": {
-      "zh-Hans": {
-        "title": "聚合物热喷涂综述",
-        "abstract": "聚合物涂层被广泛用于通过赋予耐腐蚀性、耐磨保护、疏水性、生物相容性以及多种功能性表面特性来提升工程部件的表面性能。在现有沉积技术中，热喷涂技术已成为在金属、陶瓷和聚合物基体上制备聚合物及基于聚合物复合涂层的多功能且高效的方法。这些过程能够制备厚且具有良好附着力的涂层，同时尽量减少基体退化，并在材料选择方面提供灵活性。本文综述了热喷涂聚合物涂层的全面概况，重点介绍沉积工艺、涂层微观结构、力学与功能特性以及主要应用领域。文中还讨论了常用聚合物的特性及适用性，包括聚乙烯（PE）、聚酰胺（PA）、聚酰亚胺（PI）、聚氨酯（PU）、聚醚醚酮（PEEK）、聚对苯二甲酸乙二醇酯（PET）以及氟聚合物。此外，本文还系统评述了采用多种热喷涂技术制备的聚合物及基于聚合物复合涂层的制备与性能表现，例如火焰喷涂、高速氧燃料（HVOF）喷涂、等离子喷涂（PS）和冷喷涂（CS）。同时强调了这些技术的优势、局限性、最新进展以及未来研究方向，以便全面理解其在先进表面工程应用中的潜力。",
-        "infographic": {
-          "key_insight": "热喷涂方法能够在多种基体上沉积厚的、具功能性的聚合物涂层，同时兼顾附着力、基体保护和定制化表面特性。",
-          "engineering_relevance": "该综述与面向表面工程中耐腐蚀、耐磨、疏水和生物相容应用的耐久、多功能防护涂层设计密切相关。",
-          "method": [
-            "比较聚合物热喷涂路线：火焰喷涂、HVOF、等离子喷涂和冷喷涂。",
-            "综述涂层形成、微观结构、力学行为和功能性能。",
-            "总结常见聚合物及其基于聚合物的复合材料的适用性，如 PE、PA、PI、PU、PEEK、PET 和氟聚合物。"
-          ],
-          "evidence_signal": "该摘要表明这是一篇文献综述的综合，而非新的实验数据，评估了多种喷涂技术中已报道的工艺–结构–性能关系及应用结果。",
-          "watch_item": "聚合物热喷涂可能对热降解、附着控制以及工艺–材料相容性较为敏感，因此必须针对每一种聚合物/基体组合仔细优化参数。"
+          "evidence_signal": "综述报告指出，受磁影响的焊缝通常表现为不规则的显微组织、不一致的硬度、较低的抗拉强度以及更高的残余应力。",
+          "watch_item": "由于本文属于文献综述且没有直接实验验证，其结论依赖于所引研究的质量和可比性，而且标准化退磁实践仍然缺乏。"
         }
       },
       "generator": "openai"
@@ -177,48 +106,52 @@
       {
         "title": "Publisher",
         "url": "https://doi.org/10.54254/2755-2721/2026.ad35186"
+      },
+      {
+        "title": "Open access PDF",
+        "url": "https://ace.ewapub.com/article/view/35186.pdf"
       }
     ],
-    "open_access": false,
-    "score": 81,
+    "open_access": true,
+    "score": 76,
     "infographic": {
-      "key_insight": "A coupled thermal-mechanical ABAQUS model shows that welding heat creates steep temperature gradients that drive residual stress and deformation in 6082 aluminum butt joints.",
-      "engineering_relevance": "The results help engineers predict weld-zone performance and guide welding-process optimization and structural design for aluminum alloys.",
+      "key_insight": "A coupled thermal-mechanical ABAQUS model shows that 6082 aluminum butt welds develop peak temperatures in the weld zone, with residual stress and deformation concentrated in the weld seam and heat-affected zone.",
+      "engineering_relevance": "The results help predict welding-induced distortion and stress, supporting better process settings and structural design for aluminum alloy welded joints.",
       "method": [
-        "Built a 3D temperature-displacement coupled model in ABAQUS.",
-        "Ran transient thermal analysis to compute the welding temperature field.",
-        "Mapped the temperature field into mechanical analysis to estimate residual stress and deformation."
+        "Built a 3D temperature-displacement coupling model in ABAQUS for 6082 aluminum butt welding.",
+        "Performed transient thermal analysis to compute the welding temperature field.",
+        "Used the temperature history in a mechanical analysis to estimate residual stress and deformation."
       ],
-      "evidence_signal": "The abstract reports a clear temperature gradient from weld zone to base material, with residual stress concentrated in the weld seam and heat-affected zone and visible deformation near the weld.",
-      "watch_item": "The summary is based on numerical simulation only, so model accuracy depends on boundary conditions, material parameters, and validation against experiments.",
+      "evidence_signal": "The study evaluates simulated temperature distribution, residual stress concentration, and deformation behavior during the welding thermal cycle.",
+      "watch_item": "Because the conclusion is based on numerical simulation, accuracy depends on material parameters, boundary conditions, and validation against experiments.",
       "hashtags": [
-        "#WeldingSimulation",
+        "#Welding",
         "#ResidualStress",
-        "#ThermalMechanical",
+        "#FiniteElementAnalysis",
         "#AluminumAlloy",
-        "#ABAQUS"
+        "#ThermalMechanicalCoupling"
       ],
       "paper_id": "2026-07-13-openalex-thermal_mechanical_analysis_of_residual_stress_and_deformation_in_6082_aluminum_alloy_weld",
       "paper_title": "Thermal-Mechanical Analysis of Residual Stress and Deformation in 6082 Aluminum Alloy Welded Joints",
       "paper_date": "2026-07-13",
       "paper_category": "Welding Processes",
-      "generated_at": "2026-07-15T12:20:45",
+      "generated_at": "2026-07-16T12:23:25",
       "generator": "openai"
     },
     "translation": {
       "zh-Hans": {
         "title": "6082铝合金焊接接头残余应力与变形的热-机械分析",
-        "abstract": "焊接残余应力和变形会对铝合金焊接结构及服役性能产生显著影响。采用ABAQUS软件建立了6082铝合金对接焊接头的三维温度-位移耦合模型，并研究了焊接过程中残余应力分布与变形行为。首先进行瞬态热分析以获得焊接过程中的温度分布。然后，将所得温度场引入力学分析，用于评估焊接引起的残余应力和结构变形。结果表明，焊缝区域温度最高，并向母材方向逐渐降低，具有明显的温度梯度。在焊接热循环过程中，由于热胀冷缩不均匀，焊缝及热影响区内集中出现显著残余应力。此外，在焊接区域附近观察到明显变形。所建立的数值模型为理解焊接铝合金结构的热力学行为提供了有价值的基础，并可为焊接工艺优化和结构设计提供参考。",
+        "abstract": "焊接残余应力和变形对铝合金焊接结构及服役性能具有显著影响。采用ABAQUS软件建立了6082铝合金对接焊接接头的三维温度-位移耦合模型，并研究了焊接过程中的残余应力分布和变形行为。首先进行瞬态热分析，以获得焊接过程中的温度分布。随后将获得的温度场引入力学分析，用于评估焊接引起的残余应力和结构变形。结果表明，焊缝区域温度最高，并向母材方向逐渐降低，呈现出明显的温度梯度。在焊接热循环过程中，由于热膨胀和收缩不均匀，显著的残余应力集中于焊缝和热影响区。此外，在焊接区域附近观察到明显变形。所建立的数值模型为理解焊接铝合金结构的热力学行为提供了有价值的基础，并可为焊接工艺优化和结构设计提供参考。",
         "infographic": {
-          "key_insight": "耦合热-机械ABAQUS模型表明，焊接热量会形成陡峭的温度梯度，从而驱动6082铝合金对接接头中的残余应力和变形。",
-          "engineering_relevance": "该结果有助于工程师预测焊缝区域性能，并为铝合金的焊接工艺优化和结构设计提供指导。",
+          "key_insight": "ABAQUS热-机械耦合模型表明，6082铝合金对接焊接在焊缝区域产生峰值温度，残余应力和变形集中于焊缝及热影响区。",
+          "engineering_relevance": "这些结果有助于预测焊接引起的变形和应力，从而支持铝合金焊接接头更优的工艺参数设置和结构设计。",
           "method": [
-            "在ABAQUS中建立三维温度-位移耦合模型。",
+            "在ABAQUS中为6082铝合金对接焊接建立三维温度-位移耦合模型。",
             "进行瞬态热分析以计算焊接温度场。",
-            "将温度场映射到力学分析中以估算残余应力和变形。"
+            "将温度历史用于力学分析，以估算残余应力和变形。"
           ],
-          "evidence_signal": "摘要显示，从焊缝区域到母材存在清晰的温度梯度，残余应力集中于焊缝和热影响区，且焊缝附近可见明显变形。",
-          "watch_item": "该总结仅基于数值模拟，因此模型准确性取决于边界条件、材料参数以及与实验结果的验证。"
+          "evidence_signal": "该研究评估了焊接热循环过程中的模拟温度分布、残余应力集中和变形行为。",
+          "watch_item": "由于结论基于数值模拟，其准确性取决于材料参数、边界条件以及与实验结果的验证。"
         }
       },
       "generator": "openai"
@@ -251,43 +184,43 @@
     ],
     "score": 70,
     "infographic": {
-      "key_insight": "High-velocity air-fuel (HVAF) spraying can produce thick NiTi coatings that retain martensitic transformation and usable shape-memory behavior, which is rare for thermally sprayed NiTi.",
-      "engineering_relevance": "This enables functional NiTi surface coatings for wear- and thermal-responsive components where conventional ceramic coatings cannot provide active actuation.",
+      "key_insight": "High-velocity air fuel (HVAF) spraying can produce thick NiTi coatings that retain martensitic transformation and functional shape-memory behavior after annealing.",
+      "engineering_relevance": "This offers a practical path to add wear-resistant, thermally active NiTi functional coatings to steel components where conventional spray or cladding routes have struggled.",
       "method": [
-        "HVAF sprayed NiTi onto mild steel using four processing parameter sets.",
-        "Compared coating chemistry, porosity, microstructure, and phase transformation behavior.",
-        "Assessed functional response with bending, nanoindentation, and scratch tests after annealing."
+        "HVAF-sprayed NiTi onto mild steel using four processing parameter sets",
+        "Characterized chemistry, porosity, microstructure, and phase transformation behavior",
+        "Tested functional response using 3-point bending, nanoindentation, and scratch loading"
       ],
-      "evidence_signal": "The coatings were 100–300 μm thick, adhered well to steel, and showed martensitic transformation plus thermal actuation and shape-memory effects in mechanical tests.",
-      "watch_item": "As-sprayed coatings had inhomogeneous microstructure, oxides, voids, dislocations, and internal stress, so annealing is needed and tensile strength remains limited.",
+      "evidence_signal": "The coatings were evaluated with microstructural and thermomechanical measurements and showed martensitic transformation plus thermal actuation and shape-memory effects after annealing.",
+      "watch_item": "As-sprayed coatings contain inhomogeneous microstructure, oxides, voids, and high defect/stress levels, so post-spray annealing and adhesion/strength validation are important before deployment.",
       "hashtags": [
         "#NiTi",
         "#HVAFSpraying",
         "#ShapeMemoryAlloy",
-        "#ThermalSpray",
-        "#CoatingMicrostructure"
+        "#ThermalSprayCoatings",
+        "#FunctionalMaterials"
       ],
       "paper_id": "2026-07-02-arxiv-hvaf_spraying_of_niti_coatings_microstructure_phase_transformation_and_shape_memory_behavi",
       "paper_title": "HVAF Spraying of NiTi Coatings: Microstructure, Phase Transformation and Shape Memory Behavior",
       "paper_date": "2026-07-02",
       "paper_category": "Coating Microstructure",
-      "generated_at": "2026-07-15T12:20:48",
+      "generated_at": "2026-07-16T12:23:29",
       "generator": "openai"
     },
     "translation": {
       "zh-Hans": {
-        "title": "HVAF喷涂NiTi涂层：微观结构、相变与形状记忆行为",
-        "abstract": "在工程构件表面沉积各种涂层以提高其在耐磨、耐腐蚀、减摩和热防护方面的性能，已是一项标准做法。沉积金属NiTi形状记忆合金涂层可能是硬质陶瓷涂层的一种可行替代方案。NiTi涂层由于具有独特的功能性热机械特性而带来额外优势。然而，制备厚NiTi涂层一直很困难。标准电镀和激光熔覆方法并不适用于NiTi；最广泛使用的等离子喷涂方法往往会产生化学成分不均匀且不发生马氏体转变的涂层，而冷喷NiTi涂层则存在与基体结合不良的问题。在本工作中，我们报道了首次成功制备出厚NiTi涂层（100-300 um），其既表现出功能性热机械特性，又与基体具有非常良好的附着力。我们采用高速度空气燃料热喷涂方法，在低碳钢上使用四组不同的工艺参数制备NiTi涂层。对NiTi涂层的化学成分、孔隙率、微观结构、相变以及功能性热机械性能进行了评估。尽管涂层包含不均匀微观结构、空洞、氧化物颗粒、高密度位错缺陷和内应力，但它们在冷却和/或机械载荷作用下会发生马氏体转变。喷涂态NiTi涂层需要退火后才能表现出功能性热机械特性。尽管其拉伸强度有限，这些涂层仍在三点弯曲试验中表现出热致驱动，并在纳米压痕和划痕试验中表现出形状记忆效应。",
+        "title": "HVAF喷涂NiTi涂层：显微组织、相变与形状记忆行为",
+        "abstract": "在工程构件表面沉积各种涂层以提升其在磨损、腐蚀、摩擦和热防护方面的性能，已是一种标准做法。沉积金属NiTi形状记忆合金涂层可作为硬质陶瓷涂层的一种可行替代方案。NiTi涂层还具有源于其独特功能热机械性能的附加优势。然而，制备厚NiTi涂层一直较为困难。标准的电镀和激光熔覆方法并不适用于NiTi；最常用的等离子喷涂方法往往会产生化学成分不均匀、且不会发生马氏体相变的涂层；冷喷NiTi涂层则存在与基体附着力差的问题。在这项工作中，我们报道了首次成功制备出具有功能热机械性能、同时与基体具有良好附着性的厚NiTi涂层（100-300 um）。我们采用高速空气燃料热喷涂方法，在低碳钢基体上使用四组不同工艺参数制备NiTi涂层。对NiTi涂层的化学成分、孔隙率、显微组织、相变及功能热机械性能进行了评估。尽管涂层包含不均匀显微组织、孔洞、氧化物颗粒、高密度位错缺陷和内应力，但其在冷却和/或机械载荷作用下仍会发生马氏体相变。喷涂态NiTi涂层需要进行退火处理，才能表现出功能热机械性能。尽管其拉伸强度有限，这些涂层在三点弯曲测试中表现出热致驱动效应，并在纳米压痕和划痕测试中表现出形状记忆效应。",
         "infographic": {
-          "key_insight": "高速空气燃料（HVAF）喷涂可制备较厚的NiTi涂层，使其保留马氏体转变和可用的形状记忆行为，这在热喷涂NiTi中较为罕见。",
-          "engineering_relevance": "这为耐磨和热响应部件提供了具有功能性的NiTi表面涂层，而传统陶瓷涂层无法提供主动驱动功能。",
+          "key_insight": "高速空气燃料（HVAF）喷涂能够制备出厚NiTi涂层；经退火后，这些涂层仍能保持马氏体相变和功能形状记忆行为。",
+          "engineering_relevance": "这为在钢制构件上添加耐磨、热致活化的NiTi功能涂层提供了一条实用途径，适用于传统喷涂或熔覆工艺难以实现的场景。",
           "method": [
-            "采用HVAF工艺，在低碳钢上以四组工艺参数喷涂NiTi。",
-            "比较涂层的化学成分、孔隙率、微观结构和相变行为。",
-            "退火后通过弯曲、纳米压痕和划痕试验评估其功能响应。"
+            "采用四组工艺参数，通过HVAF在低碳钢上喷涂NiTi",
+            "对化学成分、孔隙率、显微组织和相变行为进行表征",
+            "通过三点弯曲、纳米压痕和划痕载荷测试功能响应"
           ],
-          "evidence_signal": "这些涂层厚度为100–300 μm，与钢基体结合良好，并在机械测试中显示出马氏体转变以及热致驱动和形状记忆效应。",
-          "watch_item": "喷涂态涂层具有不均匀微观结构、氧化物、空洞、位错和内应力，因此需要退火，且其拉伸强度仍然有限。"
+          "evidence_signal": "通过显微组织和热机械测量对涂层进行评估，结果显示退火后涂层发生了马氏体相变，并表现出热致驱动和形状记忆效应。",
+          "watch_item": "喷涂态涂层含有不均匀显微组织、氧化物、孔洞以及较高的缺陷/应力水平，因此在实际应用前，后喷涂退火以及附着力/强度验证很重要。"
         }
       },
       "generator": "openai"
@@ -321,122 +254,43 @@
     ],
     "score": 70,
     "infographic": {
-      "key_insight": "SimPhysNet combines physics-informed self-supervised learning with few-shot prototypical classification to predict laser weld penetration accurately from very limited labels.",
-      "engineering_relevance": "This offers a practical route to scalable, low-label quality control for intelligent laser welding automation in industrial settings.",
+      "key_insight": "SimPhysNet combines physics-informed self-supervised learning with few-shot prototypical classification to predict laser welding penetration accurately using very few labeled images.",
+      "engineering_relevance": "This enables practical, data-efficient weld quality monitoring for industrial laser welding where labeled defect/penetration data are scarce and expensive to annotate.",
       "method": [
-        "Physics-informed neural network (PINN) guides feature learning from unlabeled molten-pool/keyhole images.",
-        "Contrastive self-supervised learning uses three image augmentation tasks to improve representation robustness.",
-        "Prototypical networks classify penetration state from only a small labeled set."
+        "Physics-informed neural network (PINN) extracts physically meaningful molten-pool/keyhole features from unlabeled images.",
+        "Three image augmentation tasks improve representation learning and generalization.",
+        "Prototypical network uses a small labeled set to classify penetration state with few-shot learning."
       ],
-      "evidence_signal": "The abstract reports 96.06% classification accuracy using only 200 labeled images, about 5% of the labeled dataset, and performance comparable to fully supervised methods.",
-      "watch_item": "Performance may depend on the quality and representativeness of the unlabeled image pool and the transferability of the learned features to different welding setups.",
+      "evidence_signal": "The abstract reports 96.06% classification accuracy using only 200 labeled images, about 5% of the labeled dataset, comparable to fully supervised baselines.",
+      "watch_item": "Performance may depend on the quality and representativeness of the unlabeled process images and the specific welding setup, so transfer to new materials or machines may need recalibration.",
       "hashtags": [
         "#LaserWelding",
         "#PhysicsInformedAI",
         "#SelfSupervisedLearning",
         "#FewShotLearning",
-        "#WeldingQualityControl"
+        "#WeldingQuality"
       ],
       "paper_id": "2026-06-24-arxiv-a_welding_penetration_prediction_model_for_laser_welding_process_based_on_self_supervised",
       "paper_title": "A welding penetration prediction model for laser welding process based on self-supervised learning using physics-informed neural networks",
       "paper_date": "2026-06-24",
       "paper_category": "Welding Processes",
-      "generated_at": "2026-07-15T12:20:51",
+      "generated_at": "2026-07-16T12:23:31",
       "generator": "openai"
     },
     "translation": {
       "zh-Hans": {
-        "title": "基于物理信息神经网络的自监督学习激光焊接过程焊透预测模型",
-        "abstract": "激光焊接全焊透至关重要，因为它是实现无缺陷焊接接头的基本因素之一。因此，准确预测焊透状态对于保证焊缝质量至关重要。为此，本文提出 SimPhysNet，一种新型算法，仅使用少量有标注图像即可在激光焊接焊透预测中实现较高的分类准确率。该方法有效克服了监督学习分类算法的局限性，因为这类算法在工业应用中受制于对大量高质量标注数据的依赖。SimPhysNet 的核心是一种独特的自监督学习范式，它将物理先验嵌入对比学习框架中。通过引入物理信息神经网络（PINN），模型在大量无标注数据上被引导去提取熔池和小孔的物理有意义特征，而三种图像增强任务进一步提升了其泛化能力。随后，基于原型网络的少样本学习策略通过从极少量有标注图像构建类别表示，实现了稳健分类。实验结果表明，SimPhysNet 仅使用 200 张有标注图像（约占全部标注数据集的 5%）即可达到 96.06% 的分类准确率，这与使用全部标注数据集的传统监督学习算法的性能相当。本文提出了一种新的、高效且高精度的方法，为激光焊接的智能自动化提供了途径。",
+        "title": "一种基于物理信息神经网络的自监督学习激光焊接过程焊缝熔深预测模型",
+        "abstract": "激光焊接全熔透至关重要，因为它是实现无缺陷焊接接头的基本因素之一。因此，准确预测熔深状态对于确保焊缝质量至关重要。为此，本文提出 SimPhysNet，这是一种新颖的算法，仅使用少量标注图像即可在激光焊接熔深预测中实现较高的分类精度。该方法有效克服了监督学习分类算法的局限性；这类算法在工业应用中受限于对大量高质量标注数据的依赖。SimPhysNet 的核心是一种独特的自监督学习范式，它将物理先验嵌入对比学习框架中。通过引入物理信息神经网络（PINN），模型被引导从大量未标注数据中提取熔池和小孔的物理有意义特征，同时三种图像增强任务进一步提升了其泛化能力。随后，基于原型网络的少样本学习策略通过从极少量标注图像构建类别表征，实现了稳健分类。实验结果表明，SimPhysNet 仅使用 200 张标注图像（约占全部标注数据集的 5%）即可达到 96.06% 的分类准确率，这与使用全部标注数据集的传统监督学习算法性能相当。该工作提出了一种新的、高效且高精度的方法，为激光焊接的智能自动化提供了路径。",
         "infographic": {
-          "key_insight": "SimPhysNet 将物理信息自监督学习与少样本原型分类相结合，仅依赖极少量标签即可准确预测激光焊缝焊透状态。",
-          "engineering_relevance": "这为工业场景中的智能激光焊接自动化提供了一条可扩展、低标注成本的质量控制实用路径。",
+          "key_insight": "SimPhysNet 将物理信息自监督学习与少样本原型分类相结合，仅用很少的标注图像即可准确预测激光焊接熔深。",
+          "engineering_relevance": "这使得工业激光焊接中可行的数据高效型焊接质量监测成为可能，因为标注缺陷/熔深数据稀缺且标注成本高。",
           "method": [
-            "物理信息神经网络（PINN）引导从无标注熔池/小孔图像中学习特征。",
-            "对比式自监督学习使用三种图像增强任务提升表征鲁棒性。",
-            "原型网络仅凭少量有标注样本对焊透状态进行分类。"
+            "物理信息神经网络（PINN）从未标注图像中提取具有物理意义的熔池/小孔特征。",
+            "三种图像增强任务提升表征学习和泛化能力。",
+            "原型网络利用少量标注集通过少样本学习对熔深状态进行分类。"
           ],
-          "evidence_signal": "摘要报告称，仅使用 200 张有标注图像（约占有标注数据集的 5%）即可实现 96.06% 的分类准确率，且性能可与完全监督方法相媲美。",
-          "watch_item": "性能可能取决于无标注图像池的质量与代表性，以及所学特征对不同焊接设置的可迁移性。"
-        }
-      },
-      "generator": "openai"
-    }
-  },
-  {
-    "id": "2026-07-13-openalex-analysis_of_the_influence_of_laser_welding_parameters_on_the_quality_of_the_lap_joint",
-    "doi": "10.21062/mft.2026.037",
-    "date": "2026-07-13",
-    "title": "Analysis of the Influence of Laser Welding Parameters on the Quality of the Lap Joint",
-    "authors": "Z. Saternus, W. Piekarska, Tomasz Domański, Ján Vavro, M. Kubiak, Pavol Čerňava",
-    "abstract": "The analysis presented focuses on the relationship between laser welding parameters and the strength properties of lap joints. The objective of the research was to design a numerical model for estimating the strength properties of lap joints welded by laser beam. As part of the work, experimental tests were carried out and then numerical simulations were performed. Experimental tests were performed for a lap joint welded using two different welding depths. A joint with full and partial penetration of materials was obtained. The material used for the lap joint is two flat bars with dimensions of 100x200x2 [mm] made of X5CrNi18-10 austenitic steel. Mechanical strength measurements and macroscopic studies were performed to identify the properties of the lap joint. To identify the properties of the lap joint, mechanical strength tests and macroscopic examinations were conducted. Based on experimental studies, discrete models of the analyzed lap joints were developed in the Abaqus FEM program. Simulation calculations of the laser welding process were performed. The obtained simulation results were input data for further numerical strength analysis. To validate the numerical models, the results obtained were compared with experimental data.",
-    "category": "Welding Processes",
-    "source": "OpenAlex",
-    "venue": "MANUFACTURING TECHNOLOGY",
-    "published": "2026-07-13T00:00:00+00:00",
-    "updated": "",
-    "primary_category": "journal-article",
-    "categories": [
-      "journal-article"
-    ],
-    "links": [
-      {
-        "title": "OpenAlex",
-        "url": "https://openalex.org/W7168167867"
-      },
-      {
-        "title": "DOI",
-        "url": "https://doi.org/10.21062/mft.2026.037"
-      },
-      {
-        "title": "Publisher",
-        "url": "https://doi.org/10.21062/mft.2026.037"
-      },
-      {
-        "title": "Open access copy",
-        "url": "https://doi.org/10.21062/mft.2026.037"
-      }
-    ],
-    "open_access": true,
-    "score": 67,
-    "infographic": {
-      "key_insight": "Laser welding depth strongly affects lap-joint strength, so a calibrated FEM model can predict joint quality from process parameters.",
-      "engineering_relevance": "The study supports process design for laser-welded stainless-steel lap joints by linking weld penetration, measured strength, and simulation-based prediction.",
-      "method": [
-        "Built lap-joint specimens from X5CrNi18-10 steel sheets (100×200×2 mm).",
-        "Performed laser welding at two penetration levels: full and partial penetration.",
-        "Measured mechanical strength and examined weld macrostucture, then created Abaqus FEM discrete models and validated them against experiments."
-      ],
-      "evidence_signal": "The abstract reports experimental strength tests and macroscopic examinations on full- and partial-penetration joints, followed by numerical simulation results compared directly with experimental data for validation.",
-      "watch_item": "The model is validated only on two welding-depth cases for a specific stainless-steel lap joint, so broader applicability to other geometries, materials, or parameter ranges needs further confirmation.",
-      "hashtags": [
-        "#LaserWelding",
-        "#LapJoint",
-        "#FEM",
-        "#WeldingParameters",
-        "#MaterialsEngineering"
-      ],
-      "paper_id": "2026-07-13-openalex-analysis_of_the_influence_of_laser_welding_parameters_on_the_quality_of_the_lap_joint",
-      "paper_title": "Analysis of the Influence of Laser Welding Parameters on the Quality of the Lap Joint",
-      "paper_date": "2026-07-13",
-      "paper_category": "Welding Processes",
-      "generated_at": "2026-07-15T12:20:54",
-      "generator": "openai"
-    },
-    "translation": {
-      "zh-Hans": {
-        "title": "激光焊接参数对搭接接头质量影响的分析",
-        "abstract": "所 प्रस्तुत的分析聚焦于激光焊接参数与搭接接头强度性能之间的关系。研究的目标是建立一个用于估算激光束焊接搭接接头强度性能的数值模型。作为研究的一部分，开展了实验测试，并随后进行了数值模拟。实验测试针对采用两种不同焊接深度焊接的搭接接头进行。获得了材料完全熔透和部分熔透的接头。用于搭接接头的材料为两块尺寸为 100x200x2 [mm] 的平板，材料为 X5CrNi18-10 奥氏体钢。为识别搭接接头的性能，进行了机械强度测量和宏观研究。为识别搭接接头的性能，进行了机械强度测试和宏观检验。基于实验研究，在 Abaqus FEM 程序中建立了所分析搭接接头的离散模型。对激光焊接过程进行了模拟计算。获得的模拟结果作为进一步数值强度分析的输入数据。为验证数值模型，将获得的结果与实验数据进行了比较。",
-        "infographic": {
-          "key_insight": "激光焊接深度显著影响搭接接头强度，因此经校准的 FEM 模型可根据工艺参数预测接头质量。",
-          "engineering_relevance": "该研究通过将熔深、实测强度和基于模拟的预测联系起来，为激光焊接不锈钢搭接接头的工艺设计提供支持。",
-          "method": [
-            "采用 X5CrNi18-10 钢板（100×200×2 mm）制备搭接接头试样。",
-            "在两种熔深水平下进行激光焊接：完全熔透和部分熔透。",
-            "测量机械强度并检查焊缝宏观组织，随后建立 Abaqus FEM 离散模型并与实验结果进行验证。"
-          ],
-          "evidence_signal": "摘要报告了对完全熔透和部分熔透接头的实验强度测试与宏观检验，并将数值模拟结果与实验数据直接比较以进行验证。",
-          "watch_item": "该模型仅针对这种特定不锈钢搭接接头的两种焊接深度情况进行了验证，因此其对其他几何形状、材料或参数范围的广泛适用性仍需进一步确认。"
+          "evidence_signal": "摘要报告仅使用 200 张标注图像（约占标注数据集的 5%）即可获得 96.06% 的分类准确率，与全监督基线相当。",
+          "watch_item": "性能可能取决于未标注过程图像的质量和代表性以及具体焊接装置，因此迁移到新材料或新设备时可能需要重新校准。"
         }
       },
       "generator": "openai"
@@ -479,18 +333,18 @@
     "open_access": true,
     "score": 66,
     "infographic": {
-      "key_insight": "A coupled CEL simulation and ANN models can accurately predict weld temperature, axial force, and defect formation in HDPE friction stir welding, enabling fast identification of robust process windows.",
-      "engineering_relevance": "The study shows that bottom-surface preheating and moderate rotation/travel settings can reduce force fluctuations, improve thermal uniformity, and prevent wormhole defects in thermoplastic joining.",
+      "key_insight": "A coupled CEL simulation plus ANN surrogate can accurately predict and optimize friction stir welding quality in HDPE, especially when bottom preheating is used to stabilize heat flow and axial force.",
+      "engineering_relevance": "The results provide actionable process windows for producing stronger, defect-reduced thermoplastic welds with lower trial-and-error in manufacturing.",
       "method": [
-        "3D coupled Eulerian-Lagrangian (CEL) model for FSW thermo-mechanics and material flow",
-        "Two multilayer perceptron ANNs trained on experimental data for temporal temperature and axial-force prediction",
-        "Process-map generation across rotational speed, welding speed, and preheating conditions"
+        "3D Coupled Eulerian-Lagrangian (CEL) model for thermal, force, flow, and defect prediction",
+        "Two multilayer perceptron ANNs trained on experimental temperature and axial-force histories",
+        "Process mapping across rotational speed, welding speed, and bottom preheating conditions"
       ],
-      "evidence_signal": "The ANN models achieved high predictive accuracy with R2 values between 0.91 and 0.99, and the CEL results matched experiments for void formation, thermal response, and mechanical loading.",
-      "watch_item": "The ANN and process maps are tied to the tested HDPE geometry and parameter range, so extrapolation to other tools, materials, or thicknesses should be validated experimentally.",
+      "evidence_signal": "The ANN models achieved R2 values of 0.91 to 0.99, and the CEL model matched experiments well for void formation, thermal response, and mechanical response.",
+      "watch_item": "The process map is based on the tested HDPE parameter space, so deployment on other geometries, thicknesses, or thermoplastics will likely require retraining and revalidation.",
       "hashtags": [
         "#FrictionStirWelding",
-        "#Thermoplastics",
+        "#HDPE",
         "#MachineLearning",
         "#FiniteElementModeling",
         "#ProcessOptimization"
@@ -499,39 +353,39 @@
       "paper_title": "Computational and machine learning modelling approaches for weld quality predictions in friction stir welding of high-density polyethylene",
       "paper_date": "2025-12-01",
       "paper_category": "AI Process Optimization",
-      "generated_at": "2026-07-15T12:20:57",
+      "generated_at": "2026-07-16T12:23:34",
       "generator": "openai"
     },
     "translation": {
       "zh-Hans": {
-        "title": "用于高密度聚乙烯搅拌摩擦焊焊缝质量预测的计算与机器学习建模方法",
-        "abstract": "搅拌摩擦焊（FSW）已被公认为一种连接热塑性材料的有效技术。本研究采用计算方法与机器学习方法，并结合实验结果验证，对高密度聚乙烯（HDPE）搅拌摩擦焊中的焊缝温度、竖直轴向力、材料流动和缺陷形成等FSW特征进行了全面研究。建立了三维耦合欧拉-拉格朗日（CEL）数值模型，用于模拟在不同工艺参数——转速、焊接速度以及底部预热条件——下的HDPE焊接过程。CEL数值模型与实验数据进行了对比验证，在预测孔隙形成、热响应和力学响应方面表现出明显良好的吻合。结果表明，对底表面进行预热可有效降低热梯度并稳定竖直力波动。定量而言，底表面在60 °C下预热可将峰值下压载荷从接近1600 N降低至约1100 N，并将峰值温度从70 °C（无预热）提高到约100 °C，从而平滑厚度方向梯度并稳定轴向力分布。与此同时，基于实验数据训练了两个多层感知器人工神经网络（ANN），用于预测瞬态温度和轴向力响应，其R2介于0.91至0.99之间，表明在所测试的FSW参数空间内具有较高精度和较强泛化能力。计算CEL模拟准确预测了焊缝区形貌，包括搅拌区、热-机械影响区和热影响区；然而，CEL–ANN联合框架能够快速生成工艺图谱，突出有缺陷和无缺陷的焊接窗口，其中在1500 rpm和30 mm/min并采用60 °C预热时获得最优条件，而在1000 rpm且无预热时由于虫洞形成而观察到较差的可焊性。这些发现为开发稳健的HDPE接头提供了面向工艺的设计指导，并展示了将计算建模与机器学习相结合如何实现高效优化，为理解热塑性材料FSW过程的关键特征提供了有价值的见解，并支持其在工业应用中的更广泛采用。",
+        "title": "用于高密度聚乙烯搅拌摩擦焊焊接质量预测的计算与机器学习建模方法",
+        "abstract": "搅拌摩擦焊（FSW）作为一种连接热塑性材料的有效技术，已获得广泛认可。本研究采用计算方法和机器学习方法，并结合实验结果验证，对高密度聚乙烯（HDPE）搅拌摩擦焊中的焊缝温度、竖直轴向力、材料流动和缺陷形成等FSW特征进行综合研究。建立了三维耦合欧拉-拉格朗日（CEL）数值模型，用于模拟在不同转速、焊接速度以及底部预热条件下HDPE焊接过程。CEL数值模型与实验数据进行了验证，在预测孔隙形成、热响应和力学响应方面表现出明显良好的一致性。结果表明，对底表面进行预热可有效降低热梯度并稳定竖直力波动。定量而言，底表面在60 °C预热时，峰值压入力由接近1600 N降至约1100 N，峰值温度由70 °C（无预热）升至约100 °C，从而平滑了厚度方向梯度并稳定了轴向力分布。与此同时，基于实验数据训练了两个多层感知机人工神经网络（ANNs），用于预测时间温度和轴向力响应，R2介于0.91和0.99之间，表明其在所测试的FSW参数空间内具有较高精度和较强泛化能力。计算CEL模拟能够准确预测焊缝区形貌，包括搅拌区、热机械影响区和热影响区；此外，CEL–ANN联合框架能够快速生成工艺图谱，标示有缺陷和无缺陷的焊接窗口，其中在1500 rpm和30 mm/min并采用60 °C预热时获得最佳条件，而在无预热且1000 rpm时由于虫洞形成而表现出较差的可焊性。这些发现为开发稳健的HDPE接头提供了基于工艺的设计指南，并表明将计算建模与机器学习相结合能够实现高效优化，为理解热塑性材料FSW过程的关键特征提供了有价值的见解，并支持其在工业应用中的更广泛采用。",
         "infographic": {
-          "key_insight": "耦合CEL模拟与ANN模型可以准确预测HDPE搅拌摩擦焊中的焊接温度、轴向力和缺陷形成，从而快速识别稳健的工艺窗口。",
-          "engineering_relevance": "研究表明，底表面预热以及中等转速/行进速度设置可以降低力波动、改善热均匀性，并防止热塑性材料连接中的虫洞缺陷。",
+          "key_insight": "耦合CEL模拟与ANN代理模型可准确预测并优化HDPE搅拌摩擦焊质量，尤其是在采用底部预热以稳定热流和轴向力时。",
+          "engineering_relevance": "这些结果为制造更强、缺陷更少的热塑性焊接接头提供了可操作的工艺窗口，并减少制造中的试错。",
           "method": [
-            "用于FSW热-力学与材料流动的三维耦合欧拉-拉格朗日（CEL）模型",
-            "两个基于实验数据训练的多层感知器ANN，用于瞬态温度和轴向力预测",
-            "在转速、焊接速度和预热条件范围内生成工艺图谱"
+            "用于热、力、流动和缺陷预测的三维耦合欧拉-拉格朗日（CEL）模型",
+            "两个基于实验温度和轴向力历程训练的多层感知机ANN",
+            "跨转速、焊接速度和底部预热条件的工艺映射"
           ],
-          "evidence_signal": "ANN模型取得了很高的预测精度，R2值介于0.91至0.99之间，且CEL结果与实验在孔隙形成、热响应和机械载荷方面一致。",
-          "watch_item": "ANN和工艺图谱仅适用于所测试的HDPE几何形状和参数范围，因此推广到其他工具、材料或厚度时应通过实验进行验证。"
+          "evidence_signal": "ANN模型的R2值达到0.91至0.99，CEL模型在孔隙形成、热响应和力学响应方面与实验吻合良好。",
+          "watch_item": "该工艺图谱基于所测试的HDPE参数空间，因此将其部署到其他几何形状、厚度或热塑性材料上，可能需要重新训练和重新验证。"
         }
       },
       "generator": "openai"
     }
   },
   {
-    "id": "2026-07-08-openalex-mobilenetv3_for_pipeline_welding_defect_detection_a_computer_vision_approach_on_noisy_rgb",
-    "doi": "10.1051/e3sconf/202672301014",
-    "date": "2026-07-08",
-    "title": "MobileNetV3 for Pipeline Welding Defect Detection: A Computer Vision Approach on Noisy RGB Images",
-    "authors": "Ata Jahangir Moshayedi, Amir Sohail Khan, Ming Jun Zhang, Shuxin Yang, David Bassir",
-    "abstract": "Weld defect detection plays a central role in pipeline inspection because it directly influences structural reliability and operational safety.Conventional manual inspection methods suffer from several limitations, including high labor demands, subjective judgment, and inconsistent results, which restrict their effectiveness in large-scale industrial applications. To overcome these challenges, this study evaluates the use of the lightweight convolutional neural network MobileNetV3, considering both its Small and Large configurations, for automatic multi-class classification of pipeline weld defects.The proposed approach integrates image preprocessing and data augmentation with a lightweight deep learning architecture to extract discriminative visual features from weld images. Experimental validation is carried out using two datasets acquired under practical inspection conditions. The AI5083 dataset contains 4,927 images captured using HDR cameras, while the PWDID dataset includes 78 images collected with a mobile phone camera in uncontrolled environments.The experimental results demonstrate strong classification performance, achieving an accuracy of 99.99% on the AI5083 dataset and improved results on the PWDID dataset. Compared with previously reported methods, the proposed approach yields an accuracy improvement of approximately 3%, indicating its robustness across different acquisition settings. In addition to its high accuracy, MobileNetV3 offers fast inference, low memory consumption, and reduced power requirements. Owing to these characteristics and ias compatibility with deployment frameworks such as TensorFlow Lite, ONNX, and CoreML, MobileNetV3 is well suited for mobile and handheld inspection tools. Based on these findings, the use of MobileNetV3 and other modern lightweight architectures along with denoised function are recommended for practical, on device pipeline weld defect inspection systems.",
-    "category": "Welding Quality and Inspection",
+    "id": "2026-07-14-openalex-when_mathematics_remains_trade_blind_recontextualization_and_workplace_mobilization_in_gha",
+    "doi": "10.3389/feduc.2026.1898213",
+    "date": "2026-07-14",
+    "title": "When mathematics remains trade-blind: recontextualization and workplace mobilization in Ghanaian welding and fabrication education",
+    "authors": "Philip Adjei Acheampong, Francis Kwadwo Awuah, Farouq Sessah Mensah",
+    "abstract": "Mathematics is essential to vocational competence, yet its occupational relevance may remain obscured when taught as generic academic content. This study examines a specific form of mathematics-vocational misalignment in Ghanaian Welding and Fabrication education: the gap between the formal inclusion of mathematics in the curriculum and its functional integration into trade-specific practice . Using an interpretive qualitative case-study design, the study draws on semi-structured interviews with 12 participants across two technical institutes and 10 workplace observation sessions involving two recent graduates. Data were analyzed through reflexive thematic analysis informed by abductive reasoning. The findings show that mathematics was embedded in fabrication activities, including measuring, cutting, spacing, estimating, forming angles, and constructing artifacts. However, respondents described the implemented curriculum as a shared TVET mathematics syllabus that was commonly taught and assessed as general, examination-oriented mathematics rather than as trade-specific occupational reasoning. Vocational instructors, therefore , frequently reconstructed the occupational meaning of mathematics during workshop activities, a process the study conceptualizes as retrospective repair. Workplace observations further revealed uneven mathematical mobilization: graduates acknowledged that mathematics was involved in all 48 recorded activities, but varied in their ability to identify and articulate the concepts used. The study contributes by distinguishing formal inclusion from functional integration, conceptualizing workshop mediation as retrospective repair, and proposing trade-blind mathematics instruction as a sensitizing concept for examining weak recontextualization in vocational mathematics education.",
+    "category": "Welding Processes",
     "source": "OpenAlex",
-    "venue": "Springer Link (Chiba Institute of Technology)",
-    "published": "2026-07-08T00:00:00+00:00",
+    "venue": "Frontiers in Education",
+    "published": "2026-07-14T00:00:00+00:00",
     "updated": "",
     "primary_category": "journal-article",
     "categories": [
@@ -540,61 +394,136 @@
     "links": [
       {
         "title": "OpenAlex",
-        "url": "https://openalex.org/W7167847734"
-      },
-      {
-        "title": "DOI",
-        "url": "https://doi.org/10.1051/e3sconf/202672301014"
+        "url": "https://openalex.org/W7168271984"
       },
       {
         "title": "Publisher",
-        "url": "https://doi.org/10.1051/e3sconf/202672301014"
+        "url": "https://doi.org/10.3389/feduc.2026.1898213"
       },
       {
-        "title": "Open access copy",
-        "url": "https://doi.org/10.1051/e3sconf/202672301014"
+        "title": "Open access PDF",
+        "url": "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2026.1898213/pdf"
       }
     ],
     "open_access": true,
-    "score": 62,
+    "score": 61,
     "infographic": {
-      "key_insight": "MobileNetV3 can classify pipeline weld defects with very high accuracy while remaining lightweight enough for on-device inspection.",
-      "engineering_relevance": "This makes automated weld inspection more practical for field deployment on mobile or handheld tools where speed, power, and memory are constrained.",
+      "key_insight": "The paper shows that mathematics in Ghanaian welding and fabrication education is formally present but often taught as generic school math rather than as trade-specific reasoning, forcing instructors to recontextualize it during workshop practice.",
+      "engineering_relevance": "For welding and fabrication training, the study highlights that measurement, spacing, cutting, angles, and estimation are core mathematical tasks that should be taught as occupational skills to improve competence and workplace transfer.",
       "method": [
-        "Preprocess and augment noisy RGB weld images.",
-        "Train and compare MobileNetV3 Small and Large for multi-class defect classification.",
-        "Evaluate on two practical datasets with different capture conditions."
+        "Interpretive qualitative case study in two technical institutes",
+        "Semi-structured interviews with 12 participants",
+        "10 workplace observation sessions with two recent graduates"
       ],
-      "evidence_signal": "The abstract reports 99.99% accuracy on AI5083 and improved performance on the smaller, uncontrolled PWDID dataset, with about a 3% gain over prior methods.",
-      "watch_item": "The very small PWDID dataset and strong dependence on image quality mean real-world robustness should be confirmed across broader lighting, camera, and site conditions.",
+      "evidence_signal": "The abstract reports reflexive thematic analysis of interview and observation data, with graduates identifying mathematics in all 48 recorded workplace activities but differing in how well they could name the concepts used.",
+      "watch_item": "The findings are context-specific and based on a small sample, so the proposed recontextualization approach may need adaptation before wider curriculum implementation.",
       "hashtags": [
-        "#WeldInspection",
-        "#ComputerVision",
-        "#MobileNetV3",
-        "#DefectDetection",
-        "#LightweightAI"
+        "#WeldingEducation",
+        "#TVET",
+        "#VocationalMathematics",
+        "#WorkplaceLearning",
+        "#CurriculumRecontextualization"
       ],
-      "paper_id": "2026-07-08-openalex-mobilenetv3_for_pipeline_welding_defect_detection_a_computer_vision_approach_on_noisy_rgb",
-      "paper_title": "MobileNetV3 for Pipeline Welding Defect Detection: A Computer Vision Approach on Noisy RGB Images",
-      "paper_date": "2026-07-08",
-      "paper_category": "Welding Quality and Inspection",
-      "generated_at": "2026-07-15T12:20:59",
+      "paper_id": "2026-07-14-openalex-when_mathematics_remains_trade_blind_recontextualization_and_workplace_mobilization_in_gha",
+      "paper_title": "When mathematics remains trade-blind: recontextualization and workplace mobilization in Ghanaian welding and fabrication education",
+      "paper_date": "2026-07-14",
+      "paper_category": "Welding Processes",
+      "generated_at": "2026-07-16T12:23:37",
       "generator": "openai"
     },
     "translation": {
       "zh-Hans": {
-        "title": "用于管道焊接缺陷检测的 MobileNetV3：面向噪声 RGB 图像的计算机视觉方法",
-        "abstract": "焊接缺陷检测在管道检查中占据核心地位，因为它直接影响结构可靠性和运行安全。传统人工检测方法存在多种局限，包括劳动需求高、判断带有主观性以及结果不一致，这些因素限制了其在大规模工业应用中的有效性。为克服这些挑战，本研究评估了轻量级卷积神经网络 MobileNetV3 的应用，分别考虑其 Small 和 Large 两种配置，用于管道焊缝缺陷的自动多类别分类。所提出的方法将图像预处理和数据增强与轻量级深度学习架构相结合，以从焊缝图像中提取具有判别性的视觉特征。实验验证基于两个在实际检测条件下采集的数据集进行。AI5083 数据集包含 4,927 张使用 HDR 相机拍摄的图像，而 PWDID 数据集包含 78 张在非受控环境下使用手机相机采集的图像。实验结果表明，该方法具有很强的分类性能，在 AI5083 数据集上达到 99.99% 的准确率，并在 PWDID 数据集上取得了更优结果。与先前报道的方法相比，所提出的方法准确率提升约 3%，表明其在不同采集设置下具有鲁棒性。除高准确率外，MobileNetV3 还具有推理速度快、内存占用低和功耗较低等优点。鉴于这些特性及其与 TensorFlow Lite、ONNX 和 CoreML 等部署框架的兼容性，MobileNetV3 非常适用于移动式和手持式检测工具。基于这些发现，建议在实际的端侧管道焊接缺陷检测系统中采用 MobileNetV3 及其他现代轻量级架构，并结合去噪功能。",
+        "title": "当数学仍然与行业脱节：加纳焊接与制造教育中的再情境化与工作场所动员",
+        "abstract": "数学对于职业胜任力至关重要，但当它作为通用学术内容来教授时，其职业相关性可能仍然不明显。本研究考察了加纳焊接与制造教育中一种特定的数学—职业错位：数学在课程中被正式纳入，却未能与具体工种实践实现功能性整合。研究采用解释性定性案例研究设计，基于对两个技术学院12名参与者的半结构式访谈，以及与两名近届毕业生相关的10次工作场所观察。数据通过受溯因推理启发的反思性主题分析进行处理。研究结果表明，数学嵌入于制造活动之中，包括测量、切割、间距确定、估算、形成角度以及构建工件。然而，受访者将所实施的课程描述为一套共享的TVET数学教学大纲，这套大纲通常被作为通用的、面向考试的数学来教授和评估，而不是作为与工种相关的职业推理来处理。因此，职业教师经常在车间活动中重新建构数学的职业意义，本研究将这一过程概念化为追溯性修复。工作场所观察进一步揭示了数学动员程度的不均衡：毕业生承认数学参与了全部48项记录在案的活动，但他们在识别和表述所使用概念的能力上存在差异。本研究通过区分正式纳入与功能性整合，概念化车间调解为追溯性修复，并提出“对工种不敏感的数学教学”作为一个启发性概念，以考察职业数学教育中薄弱的再情境化。",
         "infographic": {
-          "key_insight": "MobileNetV3 能够以极高准确率对管道焊接缺陷进行分类，同时仍足够轻量，适用于端侧检测。",
-          "engineering_relevance": "这使得自动化焊缝检测在移动或手持工具上的现场部署更加可行，因为此类场景对速度、功耗和内存都有约束。",
+          "key_insight": "本文表明，加纳焊接与制造教育中的数学在形式上存在，但往往被作为通用学校数学来教授，而不是作为与工种相关的推理来教授，因此教师必须在车间实践中对其进行再情境化。",
+          "engineering_relevance": "对于焊接与制造培训而言，本研究强调测量、间距、切割、角度和估算是核心数学任务，应作为职业技能来教授，以提升胜任力和工作场所迁移能力。",
           "method": [
-            "对含噪 RGB 焊缝图像进行预处理和数据增强。",
-            "训练并比较用于多类别缺陷分类的 MobileNetV3 Small 和 Large。",
-            "在两个具有不同采集条件的实际数据集上进行评估。"
+            "两个技术学院中的解释性定性案例研究",
+            "对12名参与者进行半结构式访谈",
+            "对两名近届毕业生进行10次工作场所观察"
           ],
-          "evidence_signal": "摘要报告了在 AI5083 数据集上达到 99.99% 的准确率，并且在较小、非受控的 PWDID 数据集上表现提升，较之前方法约提高 3%。",
-          "watch_item": "PWDID 数据集规模很小且高度依赖图像质量，因此仍需在更广泛的光照、相机和现场条件下验证其实际鲁棒性。"
+          "evidence_signal": "摘要报告了对访谈和观察数据的反思性主题分析；毕业生在全部48项记录在案的工作场所活动中都识别出了数学，但在命名所用概念的能力上存在差异。",
+          "watch_item": "这些发现具有情境特异性，且基于较小样本，因此所提出的再情境化方法在更广泛的课程实施之前可能需要调整。"
+        }
+      },
+      "generator": "openai"
+    }
+  },
+  {
+    "id": "2026-07-14-openalex-machine_learning_guided_process_optimization_of_miab_welding_for_load_bearing_ferrous_tube",
+    "doi": "10.1016/j.nxmate.2026.102784",
+    "date": "2026-07-14",
+    "title": "Machine learning-guided process optimization of MIAB welding for load-bearing ferrous tube structures",
+    "authors": "Mukti Chaturvedi, Arungalai Vendan S., Ashraff Ali K.S.",
+    "abstract": "Journal article indexed by OpenAlex in Next Materials.",
+    "category": "AI Process Optimization",
+    "source": "OpenAlex",
+    "venue": "Next Materials",
+    "published": "2026-07-14T00:00:00+00:00",
+    "updated": "",
+    "primary_category": "journal-article",
+    "categories": [
+      "journal-article"
+    ],
+    "links": [
+      {
+        "title": "OpenAlex",
+        "url": "https://openalex.org/W7168282198"
+      },
+      {
+        "title": "DOI",
+        "url": "https://doi.org/10.1016/j.nxmate.2026.102784"
+      },
+      {
+        "title": "Publisher",
+        "url": "https://doi.org/10.1016/j.nxmate.2026.102784"
+      },
+      {
+        "title": "Open access copy",
+        "url": "https://doi.org/10.1016/j.nxmate.2026.102784"
+      }
+    ],
+    "open_access": true,
+    "score": 57,
+    "infographic": {
+      "key_insight": "The paper applies machine learning to optimize MIAB welding process parameters for stronger, load-bearing ferrous tube joints.",
+      "engineering_relevance": "It is relevant for manufacturing engineers seeking data-driven control of weld quality, repeatability, and structural performance in tube assembly.",
+      "method": [
+        "Use ML to guide selection of MIAB welding parameters.",
+        "Optimize process settings for ferrous tube structures.",
+        "Target improved load-bearing joint performance."
+      ],
+      "evidence_signal": "The abstract provides only a bibliographic record and does not report datasets, models, metrics, or experimental results.",
+      "watch_item": "Because the abstract is minimal, the specific ML approach, validation scope, and practical transferability to industrial welding conditions remain unclear.",
+      "hashtags": [
+        "#MachineLearning",
+        "#Welding",
+        "#ProcessOptimization",
+        "#Manufacturing",
+        "#MaterialsEngineering"
+      ],
+      "paper_id": "2026-07-14-openalex-machine_learning_guided_process_optimization_of_miab_welding_for_load_bearing_ferrous_tube",
+      "paper_title": "Machine learning-guided process optimization of MIAB welding for load-bearing ferrous tube structures",
+      "paper_date": "2026-07-14",
+      "paper_category": "AI Process Optimization",
+      "generated_at": "2026-07-16T12:23:39",
+      "generator": "openai"
+    },
+    "translation": {
+      "zh-Hans": {
+        "title": "用于承载铁质管状结构的 MIAB 焊接机器学习引导工艺优化",
+        "abstract": "收录于 Next Materials 的 OpenAlex 索引期刊文章。",
+        "infographic": {
+          "key_insight": "本文应用机器学习优化 MIAB 焊接工艺参数，以获得更强的承载型铁质管接头。",
+          "engineering_relevance": "这与寻求通过数据驱动方式控制管件装配中焊缝质量、重复性和结构性能的制造工程师相关。",
+          "method": [
+            "使用机器学习引导 MIAB 焊接参数选择。",
+            "针对铁质管状结构优化工艺设定。",
+            "目标是提升承载接头性能。"
+          ],
+          "evidence_signal": "摘要仅提供书目信息记录，并未报告数据集、模型、指标或实验结果。",
+          "watch_item": "由于摘要内容非常简略，具体的机器学习方法、验证范围以及向工业焊接条件的实际迁移性仍不明确。"
         }
       },
       "generator": "openai"
@@ -628,43 +557,43 @@
     ],
     "score": 56,
     "infographic": {
-      "key_insight": "A multi-task spatiotemporal deep learning model can predict laser welding penetration state, penetration depth, and weld seam morphology directly from weld-pool images plus process parameters.",
-      "engineering_relevance": "This enables in-situ weld quality monitoring and faster quality control decisions for laser penetration welding systems without relying solely on destructive inspection.",
+      "key_insight": "A multi-task spatiotemporal deep neural network can use top-view weld pool images plus welding parameters to predict penetration state, depth, and weld seam morphology in real time.",
+      "engineering_relevance": "The method supports in-situ quality control for laser penetration welding by enabling earlier detection of defective penetration and improved process monitoring.",
       "method": [
-        "Uses a CMOS camera to capture top weld-pool images during welding.",
-        "Combines convolutional neural networks with state-space models to extract spatial-temporal features.",
-        "Trains a multi-task framework with welding parameters and a carefully constructed dataset for robustness."
+        "Capture weld pool images with a CMOS camera during welding.",
+        "Fuse spatial-temporal features from image sequences with welding parameters using CNNs and state-space models.",
+        "Train a multi-task model to jointly predict penetration state, depth, and cross-section morphology."
       ],
       "evidence_signal": "On the test set, the model achieved 99.35% penetration-state accuracy, 1.79 mm penetration-depth error, and 95.65% weld cross-section reconstruction accuracy.",
-      "watch_item": "Performance may depend on camera quality, weld-process consistency, and the representativeness of the constructed dataset when deployed on new welding setups.",
+      "watch_item": "Performance may depend on the quality and diversity of the constructed dataset, so generalization to new welding setups or materials should be validated.",
       "hashtags": [
         "#LaserWelding",
         "#DeepLearning",
         "#SpatiotemporalModel",
-        "#QualityInspection",
+        "#QualityControl",
         "#MultiTaskLearning"
       ],
       "paper_id": "2026-06-24-arxiv-a_multi_task_spatiotemporal_deep_neural_network_for_predicting_penetration_depth_and_morph",
       "paper_title": "A multi-task spatiotemporal deep neural network for predicting penetration depth and morphology in laser welding",
       "paper_date": "2026-06-24",
       "paper_category": "Coating Quality Prediction",
-      "generated_at": "2026-07-15T12:21:02",
+      "generated_at": "2026-07-16T12:23:44",
       "generator": "openai"
     },
     "translation": {
       "zh-Hans": {
-        "title": "一种用于预测激光焊接中熔深和形貌的多任务时空深度神经网络",
-        "abstract": "在激光深熔焊中，对熔深状态和焊缝形貌的评估在决定焊接质量方面起着至关重要的作用。本文对一种创新的多任务深度学习模型进行了全面介绍，该模型能够高精度预测熔深状态、熔深以及焊缝形貌。该监测平台依赖于在激光焊接过程中使用互补金属氧化物半导体（CMOS）相机采集的熔池图像。所提出的模型将从顶部熔池图像中提取的时空特征与焊接参数相结合，建立了一个基于卷积神经网络和状态空间模型的深度学习框架，以更高效地提取和处理时空信息。此外，本文提出了一种用于构建数据集的可靠方法，以增强所开发模型的鲁棒性和泛化能力。测试集验证结果表明，熔深状态预测准确率可达99.35%，熔深预测误差为1.79毫米，焊缝横截面重建准确率为95.65%。本研究为激光深熔焊系统的原位质量控制策略提供了新的见解和方法。",
+        "title": "用于预测激光焊接中熔深和形貌的多任务时空深度神经网络",
+        "abstract": "在激光穿透焊接中，对熔深状态和焊缝形貌的评估在判定焊接质量方面起着关键作用。本文系统介绍了一种创新的多任务深度学习模型，该模型能够高精度预测熔深状态、熔深以及焊缝形貌。监测平台依赖于在激光焊接过程中使用互补金属氧化物半导体（CMOS）相机采集的熔池图像。所提出的模型将从顶部熔池图像以及焊接参数中提取的时空特征进行融合，构建了一个基于卷积神经网络和状态空间模型的深度学习框架，以更高效地提取和处理时空信息。此外，本文提出了一种可靠的数据集构建方法，以增强所开发模型的鲁棒性和泛化能力。测试集上的验证结果表明，熔深状态预测准确率可达99.35%，熔深预测误差为1.79毫米，焊缝截面重建准确率为95.65%。本研究为激光穿透焊接系统中的原位质量控制策略提供了新的见解和方法。",
         "infographic": {
-          "key_insight": "多任务时空深度学习模型可直接根据熔池图像和工艺参数预测激光焊接的熔深状态、熔深和焊缝形貌。",
-          "engineering_relevance": "这使得激光深熔焊系统能够进行原位焊接质量监测，并在不完全依赖破坏性检测的情况下更快地做出质量控制决策。",
+          "key_insight": "多任务时空深度神经网络可以利用俯视熔池图像及焊接参数，实时预测熔深状态、熔深和焊缝形貌。",
+          "engineering_relevance": "该方法通过实现对未熔透等缺陷的更早检测和改进过程监测，支持激光穿透焊接的原位质量控制。",
           "method": [
-            "使用CMOS相机在焊接过程中采集顶部熔池图像。",
-            "结合卷积神经网络和状态空间模型提取时空特征。",
-            "利用焊接参数和精心构建的数据集训练多任务框架，以提高鲁棒性。"
+            "在焊接过程中使用 CMOS 相机采集熔池图像。",
+            "利用 CNN 和状态空间模型融合图像序列中的时空特征与焊接参数。",
+            "训练多任务模型以联合预测熔深状态、熔深和截面形貌。"
           ],
-          "evidence_signal": "在测试集上，模型实现了99.35%的熔深状态准确率、1.79毫米的熔深误差以及95.65%的焊缝横截面重建准确率。",
-          "watch_item": "在新焊接装置上部署时，性能可能取决于相机质量、焊接过程一致性以及所构建数据集的代表性。"
+          "evidence_signal": "在测试集上，该模型实现了99.35%的熔深状态准确率、1.79毫米的熔深误差以及95.65%的焊缝截面重建准确率。",
+          "watch_item": "性能可能依赖于所构建数据集的质量和多样性，因此需要验证其在新的焊接装置或材料上的泛化能力。"
         }
       },
       "generator": "openai"
@@ -698,43 +627,43 @@
     ],
     "score": 55,
     "infographic": {
-      "key_insight": "A transfer-learning and hybrid Cross-Entropy–Lovász optimization upgrade makes BiSeNetV2 much more robust to reflective welding scenes without adding model complexity.",
-      "engineering_relevance": "This offers a lightweight, real-time seam segmentation solution for construction welding robots operating under harsh illumination and specular metal reflections.",
+      "key_insight": "A lightweight transfer-learning upgrade to BiSeNetV2 makes seam segmentation far more robust to harsh reflections in robotic welding, without increasing model size or speed cost.",
+      "engineering_relevance": "This offers a practical real-time perception module for construction welding robots that need reliable seam detection on reflective metal surfaces.",
       "method": [
-        "Fine-tuned a BiSeNetV2 backbone with transfer learning.",
-        "Used a hybrid Cross-Entropy + Lovász loss to improve boundary and overlap learning.",
-        "Kept FLOPs, parameter count, and inference speed unchanged versus the baseline."
+        "Fine-tuned BiSeNetV2 with transfer learning for seam segmentation",
+        "Used a hybrid Cross-Entropy + Lovász loss to improve boundary and overlap learning",
+        "Kept the architecture lightweight to preserve FLOPs, parameters, and inference speed"
       ],
-      "evidence_signal": "The proposed method reached 81.76% Joint IoU and 90.73% mIoU, improving Joint IoU by 22.36 points over the OHEM baseline and recovering 96.33% of severe zero-IoU failure cases.",
-      "watch_item": "Performance gains are shown on reflective welding conditions, so deployment should still be validated across different metal types, lighting setups, and camera configurations.",
+      "evidence_signal": "The proposed method reached 81.76% Joint IoU and 90.73% mIoU, improving Joint IoU by 22.36 points over the OHEM baseline and recovering 96.33% of severe zero-IoU failures under reflective conditions.",
+      "watch_item": "Performance gains are demonstrated on the reported welding datasets and conditions, so robustness should still be validated for new site-specific lighting, joint types, and camera setups.",
       "hashtags": [
         "#RoboticWelding",
         "#SeamSegmentation",
         "#TransferLearning",
-        "#BiSeNetV2",
-        "#ComputerVision"
+        "#ComputerVision",
+        "#ConstructionAutomation"
       ],
       "paper_id": "2026-07-07-arxiv-enhanced_seam_segmentation_for_automated_welding_robot_in_construction_through_transfer_le",
       "paper_title": "Enhanced Seam Segmentation for Automated Welding Robot in Construction Through Transfer Learning: Addressing Limitations of Bilateral Segmentation Network",
       "paper_date": "2026-07-07",
       "paper_category": "Welding Processes",
-      "generated_at": "2026-07-15T12:21:05",
+      "generated_at": "2026-07-16T12:23:47",
       "generator": "openai"
     },
     "translation": {
       "zh-Hans": {
-        "title": "通过迁移学习增强施工自动焊接机器人的焊缝分割：应对双边分割网络的局限性",
-        "abstract": "在施工场景中的自主机器人焊接中，可靠的焊缝分割至关重要；然而，恶劣照明、镜面反射以及细长焊缝几何形态常会降低分割性能。本研究提出一种抗反射的焊缝分割框架，通过迁移学习和混合 Cross-Entropy--Lovász 损失增强 BiSeNetV2 骨干网络。所提出的框架并未增加架构复杂度，而是通过面向学习稳定性的优化提升反射鲁棒性。实验结果表明，所提方法取得了 81.76% 的 Joint IoU 和 90.73% 的 mIoU，相比基于 OHEM 的基线，Joint IoU 提升了 22.36 个百分点，同时保持了相同的 FLOPs、参数量和推理速度。所提方法还在反射条件下恢复了 96.33% 的严重 zero-IoU 失败样本。针对 BiSeNetV2、DeepLabV3+、UNet 和 SegFormer 的对比实验进一步表明，所提出的优化策略对于轻量级实时分割架构尤其有效。定性分析也显示，在具有挑战性的焊接环境中，焊缝连续性和反射鲁棒性均有所提升。这些结果表明，所提出的框架为涉及反射性金属表面的机器人焊接应用提供了一种实用且轻量的感知解决方案。",
+        "title": "通过迁移学习增强建筑自动焊接机器人焊缝分割：针对双边分割网络局限性的改进",
+        "abstract": "在建筑环境中的自主机器人焊接中，可靠的焊缝分割至关重要；而恶劣光照、镜面反射和细长焊缝几何形态往往会降低分割性能。本研究提出一种抗反射焊缝分割框架，通过迁移学习和混合 Cross-Entropy--Lovász 损失增强 BiSeNetV2 主干网络。所提出的框架并未增加架构复杂度，而是通过面向学习稳定性的优化来提升抗反射能力。实验结果表明，所提出的方法达到了 81.76% 的 Joint IoU 和 90.73% 的 mIoU；在保持相同 FLOPs、参数量和推理速度的同时，相较于基于 OHEM 的基线，Joint IoU 提升了 +22.36 个百分点。该方法还在反射条件下恢复了 96.33% 的严重零 IoU 失败案例。针对 BiSeNetV2、DeepLabV3+、UNet 和 SegFormer 的对比实验进一步表明，所提出的优化策略对轻量级实时分割架构尤其有效。定性分析还显示，在具有挑战性的焊接环境中，焊缝连续性和抗反射能力均有所提升。这些结果表明，所提出的框架为涉及反射金属表面的机器人焊接应用提供了一种实用且轻量级的感知解决方案。",
         "infographic": {
-          "key_insight": "通过迁移学习和混合 Cross-Entropy–Lovász 优化升级，BiSeNetV2 在不增加模型复杂度的情况下，对反射性焊接场景的鲁棒性显著增强。",
-          "engineering_relevance": "这为在恶劣照明和金属镜面反射条件下运行的施工焊接机器人提供了一种轻量级、实时的焊缝分割解决方案。",
+          "key_insight": "对 BiSeNetV2 进行轻量级迁移学习升级，可在不增加模型大小或速度开销的情况下，使机器人焊接中的焊缝分割对恶劣反射的鲁棒性大幅提升。",
+          "engineering_relevance": "这为建筑焊接机器人提供了一个实用的实时感知模块，可在反射性金属表面上实现可靠的焊缝检测。",
           "method": [
-            "使用迁移学习对 BiSeNetV2 骨干网络进行微调。",
-            "采用混合 Cross-Entropy + Lovász 损失以提升边界和重叠学习能力。",
-            "与基线相比，保持 FLOPs、参数量和推理速度不变。"
+            "使用迁移学习微调 BiSeNetV2 进行焊缝分割",
+            "采用混合 Cross-Entropy + Lovász 损失以改善边界与重叠学习",
+            "保持架构轻量化，以保留 FLOPs、参数量和推理速度"
           ],
-          "evidence_signal": "所提方法取得了 81.76% 的 Joint IoU 和 90.73% 的 mIoU，相比 OHEM 基线，Joint IoU 提高了 22.36 个百分点，并恢复了 96.33% 的严重 zero-IoU 失败样本。",
-          "watch_item": "性能提升是在反射性焊接条件下展示的，因此部署时仍应在不同金属类型、光照设置和相机配置下进行验证。"
+          "evidence_signal": "所提出的方法达到 81.76% 的 Joint IoU 和 90.73% 的 mIoU；相较于 OHEM 基线，Joint IoU 提升了 22.36 个百分点，并在反射条件下恢复了 96.33% 的严重零 IoU 失败案例。",
+          "watch_item": "性能提升是在所报告的焊接数据集和条件下得到验证的，因此对于新的现场特定光照、接头类型和相机设置，仍应进一步验证其鲁棒性。"
         }
       },
       "generator": "openai"
@@ -768,43 +697,43 @@
     ],
     "score": 54,
     "infographic": {
-      "key_insight": "An unsupervised domain adaptation model with gradual source domain expansion can transfer weld penetration state prediction across very different welding processes, including TIG and laser welding.",
-      "engineering_relevance": "This reduces the need for costly relabeling when deploying intelligent weld monitoring to new processes and improves robustness under process-to-process domain shift.",
+      "key_insight": "An unsupervised domain adaptation framework with gradual source domain expansion can transfer weld penetration prediction across fundamentally different welding processes without requiring new target labels.",
+      "engineering_relevance": "This enables more robust, lower-cost intelligent monitoring when deploying weld quality models from one process or machine setup to another, reducing relabeling effort for new welding lines.",
       "method": [
-        "Train a UDA classifier for penetration-state recognition across source and target welding domains.",
-        "Use gradual source domain expansion to widen source coverage during adaptation.",
-        "Evaluate same-process and cross-process transfer between TIG and laser datasets."
+        "Train a UDA model to align source and target feature distributions",
+        "Use gradual source domain expansion to improve transfer stability",
+        "Predict weld penetration status for same-process and cross-process welding data"
       ],
-      "evidence_signal": "The method achieved 90.65% on TIGFH and 90.72% on LSPS in same-process tests, and 80.48% TIG→Laser plus 81.13% Laser→TIG in cross-process transfer, outperforming the supervised baseline by about 35.8% to 43.4%.",
-      "watch_item": "Performance depends on the similarity and quality of the available unlabeled target data, so further validation is needed before deployment to other welding setups or sensing conditions.",
+      "evidence_signal": "The abstract reports average accuracies of 90.65% on TIGFH and 90.72% on LSPS in same-process tests, and 80.48% TIG-to-Laser plus 81.13% Laser-to-TIG in cross-process transfer, all far above the supervised baseline.",
+      "watch_item": "Performance may still depend on the similarity of welding conditions and the quality of domain alignment, so real deployment should validate across additional materials, parameters, and sensor setups.",
       "hashtags": [
         "#WeldingAI",
         "#DomainAdaptation",
+        "#UnsupervisedLearning",
         "#LaserWelding",
-        "#TIGWelding",
-        "#SmartManufacturing"
+        "#TIGWelding"
       ],
       "paper_id": "2026-06-24-arxiv-a_cross_process_welding_penetration_status_prediction_algorithm_based_on_unsupervised_doma",
       "paper_title": "A cross-process welding penetration status prediction algorithm based on unsupervised domain adaptation in laser and TIG welding",
       "paper_date": "2026-06-24",
       "paper_category": "Welding Processes",
-      "generated_at": "2026-07-15T12:21:07",
+      "generated_at": "2026-07-16T12:23:50",
       "generator": "openai"
     },
     "translation": {
       "zh-Hans": {
         "title": "基于激光和TIG焊接中无监督域适应的跨工艺焊接熔深状态预测算法",
-        "abstract": "监督深度学习已被广泛用于焊缝熔深状态分类；然而，当模型在具有不同物理机理的焊接工艺之间迁移时，例如从以电弧为主的钨极惰性气体（TIG）焊迁移到基于小孔效应的激光焊，其性能往往会因域偏移而显著下降。为克服这一局限，我们提出一种集成渐进式源域扩展（GSDE）策略的无监督域适应（UDA）框架。在专门构建的TIG和激光焊数据集上评估后，我们的方法在同工艺和跨工艺迁移任务中均取得了较高准确率。具体而言，在同工艺设置下，它在TIGFH和LSPS上的平均准确率分别达到90.65%和90.72%，相比监督基线分别提高了35.83%和38.87%。更值得注意的是，在跨工艺场景中，它在TIG到Laser以及Laser到TIG的迁移中分别达到80.48%和81.13%，较基线提升了43.39%和43.40%。UMAP可视化验证了该模型在保持可分辨类别边界的同时学习到了域不变特征。该方法显著降低了新焊接工艺的重新标注成本，并增强了不同焊接系统之间智能监测的通用性。",
+        "abstract": "监督式深度学习已被广泛用于焊缝熔深状态分类；然而，当模型在具有不同物理机理的焊接工艺之间迁移时，其性能往往会因域偏移而显著下降：例如，从以电弧为主的钨极惰性气体（TIG）焊迁移到基于小孔效应的激光焊。为克服这一局限，我们提出了一种结合渐进式源域扩展（GSDE）策略的无监督域适应（UDA）框架。在专用的TIG和激光焊接数据集上评估后，我们的方法在同工艺和跨工艺迁移任务中均取得了较高准确率。具体而言，在同工艺设置下，其在TIGFH和LSPS上的平均准确率分别达到90.65%和90.72%，较监督基线分别提升35.83%和38.87%。更值得注意的是，在跨工艺场景中，TIG到Laser的准确率达到80.48%，Laser到TIG的准确率达到81.13%，分别较基线提升43.39%和43.40%。UMAP可视化验证了该模型在保持判别性类别边界的同时学习到了域不变特征。该方法显著降低了新焊接工艺的重新标注成本，并增强了智能监测在不同焊接系统中的通用性。",
         "infographic": {
-          "key_insight": "一种结合渐进式源域扩展的无监督域适应模型，能够在非常不同的焊接工艺之间迁移焊缝熔深状态预测，包括TIG焊和激光焊。",
-          "engineering_relevance": "这减少了将智能焊缝监测部署到新工艺时对高成本重新标注的需求，并提高了对工艺间域偏移的鲁棒性。",
+          "key_insight": "采用渐进式源域扩展的无监督域适应框架，可以在不需要新的目标域标签的情况下，在本质上不同的焊接工艺之间迁移焊缝熔深预测。",
+          "engineering_relevance": "这使得将焊接质量模型从一种工艺或设备配置部署到另一种工艺或设备配置时，更加稳健且成本更低，可减少新焊接产线的重新标注工作量。",
           "method": [
-            "训练一个UDA分类器，用于跨源域和目标焊接域的熔深状态识别。",
-            "采用渐进式源域扩展，在适应过程中扩大源域覆盖范围。",
-            "在TIG和激光数据集之间评估同工艺和跨工艺迁移。"
+            "训练UDA模型以对齐源域和目标域特征分布",
+            "使用渐进式源域扩展提高迁移稳定性",
+            "预测同工艺和跨工艺焊接数据的焊缝熔深状态"
           ],
-          "evidence_signal": "该方法在同工艺测试中于TIGFH和LSPS上分别达到90.65%和90.72%，在跨工艺迁移中TIG→Laser和Laser→TIG分别达到80.48%和81.13%，较监督基线大约提升35.8%至43.4%。",
-          "watch_item": "性能取决于可用未标注目标数据的相似性和质量，因此在部署到其他焊接装置或传感条件之前仍需进一步验证。"
+          "evidence_signal": "摘要报告显示，在同工艺测试中，TIGFH上的平均准确率为90.65%，LSPS上的平均准确率为90.72%；在跨工艺迁移中，TIG到Laser为80.48%，Laser到TIG为81.13%，均远高于监督基线。",
+          "watch_item": "性能仍可能取决于焊接条件的相似性和域对齐质量，因此在实际部署中应在更多材料、参数和传感器配置上进行验证。"
         }
       },
       "generator": "openai"
@@ -843,59 +772,59 @@
     "open_access": false,
     "score": 50,
     "infographic": {
-      "key_insight": "D-gun deposited Al2O3-TiO2 coating significantly improves the tribological wear resistance of Ti-6Al-4V, and random forest best predicts wear from test conditions.",
-      "engineering_relevance": "This work supports using thermal-sprayed ceramic coatings to extend the service life of titanium alloy components in aerospace, biomedical, and marine applications.",
+      "key_insight": "A D-gun applied Al2O3-TiO2 ceramic coating significantly improves the wear resistance of Ti-6Al-4V, and random forest best predicts wear from test conditions.",
+      "engineering_relevance": "This suggests detonation-sprayed ceramic coatings can extend the tribological life of titanium alloy components in aerospace, biomedical, and marine service.",
       "method": [
-        "Applied ~200 µm Al2O3-TiO2 coating on Ti-6Al-4V using detonation gun spray.",
-        "Evaluated wear with ASTM G99 pin-on-disc tests at 40–100 N, 100–200 rpm, and 20–40 min against EN31 steel.",
+        "Applied ~200 µm Al2O3-TiO2 coating to Ti-6Al-4V using detonation gun spraying.",
+        "Ran ASTM G99 pin-on-disc wear tests at 40–100 N, 100–200 rpm, and 20–40 min against EN31 steel.",
         "Built ANN, KNN, and random forest models to predict wear from sliding parameters."
       ],
-      "evidence_signal": "SEM observations showed reduced wear and a protective tribo-layer on coated samples, while random forest gave the lowest mean percentage error and mean squared error among the tested models.",
-      "watch_item": "The machine-learning results appear based on a limited experimental range, so broader validation is needed before using the model for new operating conditions.",
+      "evidence_signal": "SEM showed reduced wear and formation of a protective tribo-layer on coated surfaces, and random forest gave the lowest mean percentage and mean squared error among the tested models.",
+      "watch_item": "The reported ML performance is based on a limited experimental parameter range, so broader validation is needed before using the model for wider operating conditions.",
       "hashtags": [
         "#DetonationSpray",
         "#Tribology",
-        "#ThermalSprayCoating",
-        "#MachineLearningMaterials",
-        "#Ti64"
+        "#Al2O3TiO2",
+        "#MachineLearning",
+        "#Ti6Al4V"
       ],
       "paper_id": "2026-06-23-openalex-tribological_enhancement_of_al_2_o_3_tio_2_d_gun_coated_ti_6al_4v_alloy_a_machine_learning",
       "paper_title": "Tribological enhancement of Al 2 O 3 -TiO 2 D-gun coated Ti-6Al-4V alloy: A machine learning approach",
       "paper_date": "2026-06-23",
       "paper_category": "Detonation Spray Process",
-      "generated_at": "2026-07-15T12:21:10",
+      "generated_at": "2026-07-16T12:23:52",
       "generator": "openai"
     },
     "translation": {
       "zh-Hans": {
-        "title": "Ti-6Al-4V合金上Al 2 O 3 -TiO 2 D-gun涂层的摩擦学增强：一种机器学习方法",
-        "abstract": "Ti-6Al-4V合金广泛用于航空航天、生物医学和海洋应用。本研究通过实验和机器学习方法，研究了Al 2 O 3 -TiO 2 涂层与未涂层Ti-6Al-4V合金的摩擦学行为。采用受控条件下的爆炸喷涂（detonation gun，D-gun）工艺，在Ti-6Al-4V合金上沉积了约200 µm厚的Al 2 O 3 -TiO 2 陶瓷涂层（氧气流量：4800 SLPH，乙炔：2150 SLPH，喷距：180 mm，颗粒速度约1200 m/s）。按照ASTM G99标准，使用销-盘磨损试验机测试样品的磨损行为。试验在40–100 N的法向载荷、100–200 rpm的滑动速度以及20–40 min的持续时间下，针对EN31钢对偶表面进行。扫描电子显微镜表明，涂层表面磨损降低，并形成了保护性摩擦层。建立了人工神经网络、K近邻和随机森林等机器学习模型，以基于滑动参数预测磨损。随机森林在平均百分比误差和均方误差更低的情况下，被证明是最佳选择。结果表明，D-gun沉积的Al 2 O 3 -TiO 2 涂层提高了Ti-6Al-4V的耐磨性能。",
+        "title": "Al 2 O 3 -TiO 2 D-gun 涂层 Ti-6Al-4V 合金的摩擦学性能增强：一种机器学习方法",
+        "abstract": "Ti-6Al-4V 合金广泛用于航空航天、生物医学和海洋应用。本研究采用实验和机器学习方法，考察了 Al 2 O 3 -TiO 2 涂层与未涂层 Ti-6Al-4V 合金的摩擦学行为。采用受控条件下的爆炸喷涂枪（detonation gun，D-gun）工艺，将约 200 µm 厚的 Al 2 O 3 -TiO 2 陶瓷涂层施加于 Ti-6Al-4V 合金上（氧气流量：4800 SLPH，乙炔：2150 SLPH，喷涂距离：180 mm，颗粒速度约 1200 m/s）。按照 ASTM G99 标准，使用销盘式试验装置测试样品的磨损行为。试验在 40–100 N 的法向载荷、100–200 rpm 的滑动速度以及 20–40 min 的试验时间下，针对 EN31 钢对偶面进行。扫描电子显微镜结果表明，涂层表面磨损降低，并形成了保护性摩擦膜。建立了人工神经网络、K 近邻和随机森林等机器学习模型，用于根据滑动参数预测磨损。随机森林以更低的平均百分比误差和均方误差表现最佳。结果表明，D-gun 沉积的 Al 2 O 3 -TiO 2 涂层提高了 Ti-6Al-4V 的耐磨性能。",
         "infographic": {
-          "key_insight": "D-gun沉积的Al2O3-TiO2涂层显著提高了Ti-6Al-4V的摩擦磨损抗力，且随机森林最能根据试验条件预测磨损。",
-          "engineering_relevance": "本研究支持采用热喷涂陶瓷涂层来延长航空航天、生物医学和海洋应用中钛合金部件的服役寿命。",
+          "key_insight": "D-gun 制备的 Al2O3-TiO2 陶瓷涂层显著提高了 Ti-6Al-4V 的耐磨性，且随机森林对试验条件下的磨损预测效果最佳。",
+          "engineering_relevance": "这表明爆炸喷涂陶瓷涂层可延长航空航天、生物医学和海洋服役中钛合金部件的摩擦学寿命。",
           "method": [
-            "使用爆炸喷涂法在Ti-6Al-4V上沉积约200 µm厚的Al2O3-TiO2涂层。",
-            "按照ASTM G99销-盘试验，在40–100 N、100–200 rpm和20–40 min条件下，以EN31钢为对偶体评估磨损。",
-            "建立ANN、KNN和随机森林模型，基于滑动参数预测磨损。"
+            "采用爆炸喷涂枪（detonation gun spraying）在 Ti-6Al-4V 上制备约 200 µm 的 Al2O3-TiO2 涂层。",
+            "按照 ASTM G99，在 40–100 N、100–200 rpm 和 20–40 min 条件下，使用 EN31 钢对偶面进行销盘式磨损试验。",
+            "构建 ANN、KNN 和随机森林模型，根据滑动参数预测磨损。"
           ],
-          "evidence_signal": "SEM观察显示涂层样品的磨损减少并形成了保护性摩擦层，而随机森林在所测试模型中具有最低的平均百分比误差和均方误差。",
-          "watch_item": "机器学习结果似乎基于有限的实验范围，因此在用于新的工况条件前需要更广泛的验证。"
+          "evidence_signal": "SEM 显示涂层表面磨损减轻并形成了保护性摩擦膜，且在所测试模型中，随机森林的平均百分比误差和均方误差最低。",
+          "watch_item": "报告的机器学习性能基于有限的实验参数范围，因此在更宽的工况条件下应用该模型之前，还需要更广泛的验证。"
         }
       },
       "generator": "openai"
     }
   },
   {
-    "id": "2026-07-13-openalex-high_temperature_oxidation_kinetics_and_microstructural_evolution_of_detonation_sprayed_al",
-    "doi": "10.1177/02670844261464884",
-    "date": "2026-07-13",
-    "title": "High-temperature oxidation kinetics and microstructural evolution of detonation-sprayed AlCuFe quasicrystalline coatings",
-    "authors": "Xinran Li, Yi-Xiang Wang, Maxingwang Lu, Yongchao Fang",
-    "abstract": "To solve the susceptibility of TC4 titanium alloys to high-temperature oxidation and subsequent performance degradation, AlCuFe quasicrystalline (QC) coatings were successfully fabricated via detonation spraying (DS) as a functional protective barrier. The oxidation kinetics, phase evolution, and mechanical stability of the coating system were systematically investigated at 450°C in an atmospheric environment for up to 250 h. The results indicate that the oxidation kinetics strictly obey the parabolic growth law, yielding a steady-state parabolic rate constant ( k p ) of 1.83 × 10 −2 mg 2 ⋅ cm −4 ⋅ h −1 . Throughout the service period, the coating exhibits a significant “thermal hardening” effect, with the surface microhardness increasing from an initial 491 HV 0.2 to a final value of 665.2 HV 0.2 (a 35.5% increment). Phase evolution is characterized by an initial thermally induced ordering of metastable regions (0–3 h) followed by the gradual decomposition of the icosahedral (I) phase into approximant phases (β, τ, and λ) driven by the Al-depletion effect. Notably, the increased density of phase boundaries and intermetallic interfaces within the multi-phase network effectively sustains the mechanical performance despite the decline in the primary QC fraction. This study demonstrates that DS-AlCuFe coatings provide a reliable structural evolution pathway for the long-term high-temperature protection of titanium alloys.",
-    "category": "Coating Microstructure",
+    "id": "2026-07-15-openalex-advanced_machine_vision_and_machine_learning_for_adaptive_control_of_lme_cracking_in_third",
+    "doi": "10.1007/s00170-026-18678-2",
+    "date": "2026-07-15",
+    "title": "Advanced machine vision and machine learning for adaptive control of LME cracking in third-generation AHSS welding",
+    "authors": "Hao Gao, JiUng Kim, Reza Bakhtiari, Ali Afzal, Hasan Habib, Hassan Ghassemi-Armaki",
+    "abstract": "Journal article indexed by OpenAlex in The International Journal of Advanced Manufacturing Technology.",
+    "category": "AI Process Optimization",
     "source": "OpenAlex",
-    "venue": "Surface Engineering",
-    "published": "2026-07-13T00:00:00+00:00",
+    "venue": "The International Journal of Advanced Manufacturing Technology",
+    "published": "2026-07-15T00:00:00+00:00",
     "updated": "",
     "primary_category": "journal-article",
     "categories": [
@@ -904,203 +833,57 @@
     "links": [
       {
         "title": "OpenAlex",
-        "url": "https://openalex.org/W7168140705"
-      },
-      {
-        "title": "Publisher",
-        "url": "https://doi.org/10.1177/02670844261464884"
-      }
-    ],
-    "open_access": false,
-    "score": 49,
-    "infographic": {
-      "key_insight": "Detonation-sprayed AlCuFe quasicrystalline coatings form a thermally hardened, oxidation-resistant barrier at 450°C, even as the original icosahedral phase gradually transforms into intermetallic approximants.",
-      "engineering_relevance": "The coating offers a promising protective layer for TC4 titanium alloys in long-term high-temperature service where oxidation-driven degradation is a concern.",
-      "method": [
-        "Detonation-sprayed AlCuFe QC coating fabricated on TC4 substrate",
-        "Aged in air at 450°C for up to 250 h",
-        "Tracked oxidation kinetics, phase evolution, and microhardness"
-      ],
-      "evidence_signal": "Oxidation followed a parabolic law with kp = 1.83 × 10^-2 mg^2·cm^-4·h^-1, while surface hardness increased from 491 HV0.2 to 665.2 HV0.2 after 250 h.",
-      "watch_item": "Performance depends on phase evolution and Al depletion during service, so long-term stability beyond 250 h and in more severe environments still needs verification.",
-      "hashtags": [
-        "#DetonationSpray",
-        "#QuasicrystalCoating",
-        "#OxidationResistance",
-        "#TitaniumAlloy",
-        "#HighTemperatureMaterials"
-      ],
-      "paper_id": "2026-07-13-openalex-high_temperature_oxidation_kinetics_and_microstructural_evolution_of_detonation_sprayed_al",
-      "paper_title": "High-temperature oxidation kinetics and microstructural evolution of detonation-sprayed AlCuFe quasicrystalline coatings",
-      "paper_date": "2026-07-13",
-      "paper_category": "Coating Microstructure",
-      "generated_at": "2026-07-15T12:21:13",
-      "generator": "openai"
-    },
-    "translation": {
-      "zh-Hans": {
-        "title": "爆轰喷涂 AlCuFe 准晶涂层的高温氧化动力学与微观结构演变",
-        "abstract": "为解决 TC4 钛合金对高温氧化及随后的性能退化的敏感性，采用爆轰喷涂（DS）成功制备了 AlCuFe 准晶（QC）涂层，作为一种功能性保护屏障。在大气环境下于 450°C 条件下对该涂层体系的氧化动力学、相演化和力学稳定性进行了最长 250 h 的系统研究。结果表明，氧化动力学严格遵循抛物线生长定律，得到稳态抛物线速率常数（kp）为 1.83 × 10−2 mg2⋅cm−4⋅h−1。在整个服役期间，涂层表现出显著的“热硬化”效应，表面显微硬度由初始的 491 HV0.2 增加到最终的 665.2 HV0.2（提升 35.5%）。相演化特征表现为：首先在初期（0–3 h）发生热诱导的亚稳区有序化，随后在 Al 贫化效应驱动下，二十面体（I）相逐渐分解为近似相（β、τ 和 λ）。值得注意的是，多相网络中相界和金属间化合物界面的密度增加，即使在主要 QC 相分数下降的情况下，也能有效维持力学性能。本研究表明，DS-AlCuFe 涂层为钛合金长期高温防护提供了一条可靠的结构演化路径。",
-        "infographic": {
-          "key_insight": "爆轰喷涂 AlCuFe 准晶涂层在 450°C 下形成热硬化、耐氧化的屏障，即使原始二十面体相逐渐转变为金属间化合物近似相。",
-          "engineering_relevance": "该涂层为 TC4 钛合金在长期高温服役且需关注氧化驱动退化的场景中提供了一种有前景的保护层。",
-          "method": [
-            "在 TC4 基体上制备爆轰喷涂 AlCuFe 准晶涂层",
-            "在 450°C 空气中老化最长 250 h",
-            "跟踪氧化动力学、相演化和显微硬度"
-          ],
-          "evidence_signal": "氧化遵循抛物线定律，kp = 1.83 × 10^-2 mg^2·cm^-4·h^-1；同时，250 h 后表面硬度由 491 HV0.2 增加到 665.2 HV0.2。",
-          "watch_item": "性能取决于服役过程中的相演化和 Al 贫化，因此仍需验证超过 250 h 的长期稳定性以及在更严苛环境下的表现。"
-        }
-      },
-      "generator": "openai"
-    }
-  },
-  {
-    "id": "2026-07-13-openalex-thermo_mechanical_simulation_and_comparative_screening_of_flash_formation_in_inertia_frict",
-    "doi": "10.1007/s40194-026-02570-4",
-    "date": "2026-07-13",
-    "title": "Thermo-mechanical simulation and comparative screening of flash formation in inertia friction welding of FGH98 powder superalloy",
-    "authors": "Baiyuan Ou, Haoyang Chen, Z Liu, Zhuo Xie, Mingxing Wang",
-    "abstract": "Journal article indexed by OpenAlex in Welding in the World.",
-    "category": "Welding Processes",
-    "source": "OpenAlex",
-    "venue": "Welding in the World",
-    "published": "2026-07-13T00:00:00+00:00",
-    "updated": "",
-    "primary_category": "journal-article",
-    "categories": [
-      "journal-article"
-    ],
-    "links": [
-      {
-        "title": "OpenAlex",
-        "url": "https://openalex.org/W7168189796"
+        "url": "https://openalex.org/W7168253510"
       },
       {
         "title": "DOI",
-        "url": "https://doi.org/10.1007/s40194-026-02570-4"
+        "url": "https://doi.org/10.1007/s00170-026-18678-2"
       },
       {
         "title": "Publisher",
-        "url": "https://doi.org/10.1007/s40194-026-02570-4"
+        "url": "https://doi.org/10.1007/s00170-026-18678-2"
       }
     ],
     "open_access": false,
-    "score": 49,
+    "score": 48,
     "infographic": {
-      "key_insight": "The study uses thermo-mechanical simulation to explain and compare how flash forms during inertia friction welding of FGH98 powder superalloy, linking process conditions to weld deformation behavior.",
-      "engineering_relevance": "Its findings can help engineers tune welding parameters to improve joint quality and reduce defect risk in high-temperature superalloy components.",
+      "key_insight": "The paper presents a machine-vision and machine-learning control approach to detect and adaptively mitigate liquid metal embrittlement (LME) cracking during welding of third-generation advanced high-strength steels.",
+      "engineering_relevance": "It is relevant for improving weld quality, process robustness, and defect reduction in automated manufacturing of AHSS components.",
       "method": [
-        "Thermo-mechanical simulation of inertia friction welding",
-        "Comparative screening of flash formation scenarios",
-        "Application to FGH98 powder superalloy"
+        "Use machine vision to observe weld conditions in real time",
+        "Apply machine-learning-based decision logic for adaptive control",
+        "Target LME crack suppression during welding process execution"
       ],
-      "evidence_signal": "The abstract indicates a journal article in Welding in the World, but provides no quantitative results or validation details in the summary text.",
-      "watch_item": "Simulation-based screening may not fully capture real weld variability, so experimental calibration and process-specific validation are important before deployment.",
+      "evidence_signal": "The abstract indicates this is a journal article in The International Journal of Advanced Manufacturing Technology, but it does not provide specific dataset size, metrics, or performance results.",
+      "watch_item": "Practical deployment may depend on reliable real-time sensing and model generalization across steel grades, joint geometries, and welding conditions.",
       "hashtags": [
-        "#FrictionWelding",
-        "#Superalloy",
-        "#ThermoMechanicalSimulation",
-        "#FlashFormation",
-        "#Manufacturing"
+        "#MachineVision",
+        "#MachineLearning",
+        "#Welding",
+        "#AHSS",
+        "#AdaptiveControl"
       ],
-      "paper_id": "2026-07-13-openalex-thermo_mechanical_simulation_and_comparative_screening_of_flash_formation_in_inertia_frict",
-      "paper_title": "Thermo-mechanical simulation and comparative screening of flash formation in inertia friction welding of FGH98 powder superalloy",
-      "paper_date": "2026-07-13",
-      "paper_category": "Welding Processes",
-      "generated_at": "2026-07-15T12:21:16",
+      "paper_id": "2026-07-15-openalex-advanced_machine_vision_and_machine_learning_for_adaptive_control_of_lme_cracking_in_third",
+      "paper_title": "Advanced machine vision and machine learning for adaptive control of LME cracking in third-generation AHSS welding",
+      "paper_date": "2026-07-15",
+      "paper_category": "AI Process Optimization",
+      "generated_at": "2026-07-16T12:23:55",
       "generator": "openai"
     },
     "translation": {
       "zh-Hans": {
-        "title": "FGH98粉末高温合金惯性摩擦焊中飞边形成的热-机械模拟与对比筛选",
-        "abstract": "刊载于《Welding in the World》的、被OpenAlex收录的期刊文章。",
+        "title": "用于第三代 AHSS 焊接中 LME 裂纹自适应控制的先进机器视觉与机器学习",
+        "abstract": "由 OpenAlex 收录于《The International Journal of Advanced Manufacturing Technology》的期刊文章。",
         "infographic": {
-          "key_insight": "该研究采用热-机械模拟来解释并比较FGH98粉末高温合金在惯性摩擦焊过程中飞边的形成机制，并将工艺条件与焊接变形行为联系起来。",
-          "engineering_relevance": "其研究结果可帮助工程师调整焊接参数，以提高高温合金构件的接头质量并降低缺陷风险。",
+          "key_insight": "本文提出一种机器视觉与机器学习控制方法，用于检测并自适应地缓解第三代先进高强钢焊接过程中液态金属脆化（LME）裂纹。",
+          "engineering_relevance": "该研究有助于提升焊接质量、工艺鲁棒性以及 AHSS 构件自动化制造中的缺陷减少。",
           "method": [
-            "惯性摩擦焊的热-机械模拟",
-            "飞边形成情景的对比筛选",
-            "在FGH98粉末高温合金上的应用"
+            "使用机器视觉实时观察焊接条件",
+            "应用基于机器学习的决策逻辑进行自适应控制",
+            "在焊接过程执行期间针对 LME 裂纹抑制"
           ],
-          "evidence_signal": "摘要表明这是一篇发表于《Welding in the World》的期刊文章，但摘要文本未提供定量结果或验证细节。",
-          "watch_item": "基于模拟的筛选可能无法完全反映真实焊接中的变异性，因此在实际应用前，实验校准和针对具体工艺的验证十分重要。"
-        }
-      },
-      "generator": "openai"
-    }
-  },
-  {
-    "id": "2026-07-13-openalex-non_optical_contact_and_clamp_free_laser_transmission_welding_of_cfrp_to_fused_silica_via",
-    "doi": "10.1016/j.precisioneng.2026.07.007",
-    "date": "2026-07-13",
-    "title": "Non-optical-contact and clamp-free laser transmission welding of CFRP to fused silica via ethanol-assisted interfacial modification",
-    "authors": "Yuan Yao, Yushun Dong, Hong An, Zha Yang, Yongfeng Qian, Hu Huang",
-    "abstract": "Journal article indexed by OpenAlex in Precision Engineering.",
-    "category": "Welding Processes",
-    "source": "OpenAlex",
-    "venue": "Precision Engineering",
-    "published": "2026-07-13T00:00:00+00:00",
-    "updated": "",
-    "primary_category": "journal-article",
-    "categories": [
-      "journal-article"
-    ],
-    "links": [
-      {
-        "title": "OpenAlex",
-        "url": "https://openalex.org/W7168170406"
-      },
-      {
-        "title": "DOI",
-        "url": "https://doi.org/10.1016/j.precisioneng.2026.07.007"
-      },
-      {
-        "title": "Publisher",
-        "url": "https://doi.org/10.1016/j.precisioneng.2026.07.007"
-      }
-    ],
-    "open_access": false,
-    "score": 49,
-    "infographic": {
-      "key_insight": "An ethanol-assisted interfacial modification enables non-optical-contact, clamp-free laser transmission welding of CFRP to fused silica, overcoming the usual difficulty of joining highly dissimilar, transparent/absorbing materials.",
-      "engineering_relevance": "The approach could simplify precision joining in lightweight, multi-material assemblies by reducing fixture complexity and expanding laser welding to CFRP–glass/ceramic interfaces.",
-      "method": [
-        "Modify the CFRP/fused-silica interface with ethanol before welding",
-        "Use laser transmission welding without optical contact or clamping",
-        "Exploit interfacial condition changes to improve energy coupling and joint formation"
-      ],
-      "evidence_signal": "The abstract indicates a journal article describing the method, but it does not provide numerical performance metrics or comparative evaluation details.",
-      "watch_item": "Practical adoption may depend on how consistently the ethanol treatment controls interfacial state and whether joint strength remains robust under process variability and service conditions.",
-      "hashtags": [
-        "#LaserWelding",
-        "#CFRP",
-        "#FusedSilica",
-        "#MaterialsJoining",
-        "#PrecisionEngineering"
-      ],
-      "paper_id": "2026-07-13-openalex-non_optical_contact_and_clamp_free_laser_transmission_welding_of_cfrp_to_fused_silica_via",
-      "paper_title": "Non-optical-contact and clamp-free laser transmission welding of CFRP to fused silica via ethanol-assisted interfacial modification",
-      "paper_date": "2026-07-13",
-      "paper_category": "Welding Processes",
-      "generated_at": "2026-07-15T12:21:18",
-      "generator": "openai"
-    },
-    "translation": {
-      "zh-Hans": {
-        "title": "通过乙醇辅助界面改性实现CFRP与熔融石英的非光学接触、无夹紧激光透射焊接",
-        "abstract": "收录于 Precision Engineering 的 OpenAlex 索引期刊文章。",
-        "infographic": {
-          "key_insight": "乙醇辅助的界面改性使CFRP与熔融石英之间能够实现非光学接触、无夹紧的激光透射焊接，克服了将高度不相似的透明/吸收材料连接在一起的通常困难。",
-          "engineering_relevance": "该方法可通过降低夹具复杂性并将激光焊接扩展到CFRP–玻璃/陶瓷界面，从而简化轻量化多材料组件中的精密连接。",
-          "method": [
-            "在焊接前用乙醇对CFRP/熔融石英界面进行改性",
-            "在无光学接触或无夹紧条件下采用激光透射焊接",
-            "利用界面条件变化改善能量耦合和接头形成"
-          ],
-          "evidence_signal": "摘要表明这是一篇描述该方法的期刊文章，但未提供数值性能指标或比较评估细节。",
-          "watch_item": "实际应用可能取决于乙醇处理对界面状态控制的一致性，以及接头强度在工艺波动和服役条件下能否保持稳健。"
+          "evidence_signal": "摘要表明这是一篇发表于《The International Journal of Advanced Manufacturing Technology》的期刊文章，但未提供具体的数据集规模、指标或性能结果。",
+          "watch_item": "实际部署可能取决于可靠的实时传感，以及模型在不同钢种、接头几何形状和焊接条件下的泛化能力。"
         }
       },
       "generator": "openai"
@@ -1139,43 +922,43 @@
     "open_access": true,
     "score": 48,
     "infographic": {
-      "key_insight": "HVAF-sprayed Tribaloy-400 forms a denser, more protective oxide barrier than detonation-sprayed coating, giving better resistance to molten solar-salt corrosion at 500 °C.",
-      "engineering_relevance": "For solar thermal energy storage containers, HVAF T-400 coatings appear more suitable than DS when long-term protection against nitrate-salt attack and spallation is required.",
+      "key_insight": "HVAF-sprayed Tribaloy-400 formed a denser, more protective oxide scale than detonation-sprayed coating, giving better resistance to molten-salt hot corrosion at 500 °C.",
+      "engineering_relevance": "For concentrated solar power thermal-storage containers, HVAF T-400 coatings appear more suitable than DS for long-duration exposure to nitrate salt environments.",
       "method": [
-        "Deposited Tribaloy-400 on ASTM A516 steel using HVAF and detonation spraying.",
-        "Exposed coated samples to 60% NaNO3–40% KNO3 molten salt at 500 °C for up to 1000 h.",
-        "Compared phase formation, elemental mapping, SEM microstructure, and mass-gain/corrosion behavior."
+        "Tribaloy-400 was deposited on ASTM A516 steel by HVAF and detonation spraying.",
+        "Coated samples were exposed to 60% NaNO3–40% KNO3 molten salt at 500 °C for up to 1000 h.",
+        "Phase, SEM, elemental mapping, and mass-change/spallation observations were used to compare corrosion performance."
       ],
-      "evidence_signal": "The abstract reports that HVAF maintained a uniform Cr–Mo–Si–O-rich surface with minimal salt penetration, while DS showed deeper ingress, higher mass gain, and more spallation over 1000 hours.",
-      "watch_item": "Results are tied to a specific salt composition and test temperature, so performance may differ under other CSP operating conditions or thermal cycling.",
+      "evidence_signal": "The abstract reports stable oxide formation and minimal salt penetration in HVAF coatings, while DS showed deeper ingress, higher mass gain, and more spallation after long exposure.",
+      "watch_item": "Results are based on a specific nitrate-salt composition and test temperature, so performance may differ under other CSP salts, thermal cycling, or service conditions.",
       "hashtags": [
         "#ThermalSpray",
         "#HVAF",
-        "#DetonationSpray",
+        "#DetonationSpraying",
         "#HotCorrosion",
-        "#SolarThermal"
+        "#SolarThermalStorage"
       ],
       "paper_id": "2026-07-01-openalex-hot_corrosion_behavior_of_thermal_sprayed_using_hvaf_and_ds_techniques_with_tribaloy_400_c",
       "paper_title": "Hot Corrosion Behavior of Thermal Sprayed Using HVAF and DS Techniques with Tribaloy-400 Coatings for Solar Energy Storage Container",
       "paper_date": "2026-07-01",
       "paper_category": "Coating Microstructure",
-      "generated_at": "2026-07-15T12:21:21",
+      "generated_at": "2026-07-16T12:23:57",
       "generator": "openai"
     },
     "translation": {
       "zh-Hans": {
-        "title": "采用HVAF和DS技术制备Tribaloy-400涂层用于太阳能储热容器的热腐蚀行为",
-        "abstract": "本研究考察了采用两种热喷涂技术——(i) 高速空气燃料喷涂（HVAF）和 (ii) 爆炸喷涂（DS）——在 ASTM A516 钢上沉积的 Tribaloy-400（T-400）涂层的高温腐蚀行为。将涂覆试样置于由 60% NaNO3–40% KNO3 组成的熔融太阳盐环境中，在 500 °C 下暴露最长达 1000 小时，以评估其抗氧化和耐腐蚀性能。相分析表明，两种涂层体系中均形成了稳定的保护性氧化物相，包括 Cr2O3、Co3O4 和 CoMoO4。元素映射显示，即使在持续暴露 1000 小时后，HVAF 涂层仍保持均匀的富 Cr–Mo–Si–O 表面，且熔盐渗透极少。相比之下，DS 涂层表现出更深的盐进入涂层微观结构，这促进了更严重的退化和剥落。SEM 观察表明，HVAF 涂层具有致密且结合良好的微观结构，并形成了诸如 Cr2O3、CoCr2O4 和 CoMoO4 等热力学稳定氧化物，从而对熔盐诱导的腐蚀表现出更优异的抵抗能力。然而，DS 涂层相对多孔的特性促进了盐辅助的氧化物溶解，导致更高的质量增加、更多的剥落以及在长时间暴露过程中加速退化。对两种涂层技术进行了比较评估，以识别适用于高温 CSP 应用的合适涂层工艺与供料组合。",
+        "title": "采用HVAF和DS技术在Tribaloy-400涂层太阳能储能容器上的热腐蚀行为",
+        "abstract": "本研究考察了采用两种热喷涂技术——(i) 高速空气燃料（HVAF）喷涂和 (ii) 爆炸喷涂（DS）——沉积在 ASTM A516 钢上的 Tribaloy-400（T-400）涂层的高温腐蚀行为。将涂覆试样暴露于由 60% NaNO3–40% KNO3 组成的熔融太阳盐环境中，在 500 °C 下暴露最长达 1000 小时，以评估其抗氧化和耐腐蚀性能。相分析表明，两种涂层体系中均形成了稳定的保护性氧化物相，包括 Cr2O3、Co3O4 和 CoMoO4。元素映射显示，即使在暴露 1000 小时后，HVAF 涂层仍保持均匀的富 Cr–Mo–Si–O 表面，且熔融盐渗透极少。相比之下，DS 涂层表现出更深的盐向涂层微观结构内部侵入，这导致了更严重的劣化和剥落。SEM 观察表明，HVAF 涂层具有致密且结合良好的微观结构，并形成了 Cr2O3、CoCr2O4 和 CoMoO4 等热力学稳定氧化物，从而对熔融盐诱导腐蚀表现出更优异的抵抗能力。然而，DS 涂层相对多孔的特性促进了盐辅助的氧化物溶解，导致质量增加更大、剥落更严重，并在长时间暴露过程中加速劣化。对两种涂层技术进行了比较评估，以确定适用于高温 CSP 应用的合适涂层工艺与供料组合。",
         "infographic": {
-          "key_insight": "HVAF 喷涂的 Tribaloy-400 形成了比爆炸喷涂涂层更致密、更具保护性的氧化物屏障，因此在 500 °C 下对熔融太阳盐腐蚀具有更好的抵抗能力。",
-          "engineering_relevance": "对于太阳能热储能容器，当需要长期抵抗硝酸盐熔盐侵蚀和剥落时，HVAF T-400 涂层似乎比 DS 更适用。",
+          "key_insight": "HVAF 喷涂的 Tribaloy-400 形成了比爆炸喷涂涂层更致密、保护性更强的氧化膜，因此在 500 °C 下对熔融盐热腐蚀具有更好的抵抗能力。",
+          "engineering_relevance": "对于聚光太阳能发电（CSP）热储能容器，HVAF T-400 涂层似乎比 DS 更适合在硝酸盐环境中进行长时间服役。",
           "method": [
-            "采用 HVAF 和爆炸喷涂在 ASTM A516 钢上沉积 Tribaloy-400。",
-            "将涂覆样品置于 500 °C 下的 60% NaNO3–40% KNO3 熔融盐中，暴露最长达 1000 h。",
-            "比较了相形成、元素映射、SEM 微观结构以及质量增重/腐蚀行为。"
+            "采用 HVAF 和爆炸喷涂将 Tribaloy-400 沉积在 ASTM A516 钢上。",
+            "将涂覆试样在 500 °C 下暴露于 60% NaNO3–40% KNO3 熔融盐中，最长达 1000 h。",
+            "通过相分析、SEM、元素映射以及质量变化/剥落观察来比较腐蚀性能。"
           ],
-          "evidence_signal": "摘要报告称，HVAF 在 1000 小时内保持了均匀的富 Cr–Mo–Si–O 表面，且盐渗透极少，而 DS 则表现出更深的渗入、更高的质量增重和更多的剥落。",
-          "watch_item": "结果仅针对特定的盐组成和测试温度，因此在其他 CSP 工况或热循环条件下，其性能可能有所不同。"
+          "evidence_signal": "摘要报告称，HVAF 涂层形成了稳定的氧化物且盐渗透极少，而 DS 在长时间暴露后表现出更深的侵入、更高的质量增加和更严重的剥落。",
+          "watch_item": "结果基于特定的硝酸盐盐组成和测试温度，因此在其他 CSP 熔盐、热循环或服役条件下性能可能不同。"
         }
       },
       "generator": "openai"
@@ -1209,43 +992,201 @@
     ],
     "score": 48,
     "infographic": {
-      "key_insight": "WeldMamba predicts future molten-pool, wire, and keyhole segmentation from past images plus process signals to compensate for welding control delay.",
-      "engineering_relevance": "This enables more reliable real-time perception for closed-loop laser wire-feed welding, where delayed sensing can otherwise degrade control and defect prevention.",
+      "key_insight": "WeldMamba predicts future molten-pool, wire, and keyhole geometry from past images plus process/sensor signals, enabling lookahead weld-pool segmentation for delayed closed-loop control.",
+      "engineering_relevance": "This gives laser wire-feed welding controllers an earlier view of pool evolution, which can improve timing, trajectory correction, and defect avoidance under sensing and actuation delay.",
       "method": [
-        "Physics-guided spatiotemporal state space model for lookahead segmentation",
-        "Fuses coaxial grayscale history, welding parameters, and wire-state electrical signals",
-        "Adds horizon-conditioned prediction, motion-aware decoding, and geometry/consistency losses"
+        "Uses historical coaxial grayscale frames with welding parameters and wire-state electrical signals as multimodal inputs.",
+        "Applies physics-guided feature normalization, patch-level temporal state space modeling, and horizon-conditioned latent prediction to forecast future segmentation.",
+        "Adds motion-aware decoding with auxiliary SDF, temporal consistency, and keyhole-focused losses to preserve geometry and local dynamics."
       ],
-      "evidence_signal": "On a 43-sequence laser welding dataset, the method achieved 74.63% mIoU at 500 ms lookahead, with ablations showing gains from temporal history, patch-level state space modeling, and keyhole motion awareness.",
-      "watch_item": "Performance depends on accurate synchronization of images, process parameters, and electrical signals; sensor drift or timing misalignment could reduce lookahead reliability.",
+      "evidence_signal": "On a 43-sequence laser welding dataset, the method achieved 74.63% mIoU at a 500 ms lookahead, with ablations showing history, patch-level state space modeling, and keyhole motion awareness are most important.",
+      "watch_item": "Performance depends on well-aligned multimodal sensing and may be sensitive to process changes or sensor noise outside the training distribution.",
       "hashtags": [
         "#WeldingAI",
-        "#SpatiotemporalModeling",
         "#StateSpaceModel",
-        "#MoltenPoolSegmentation",
+        "#LookaheadSegmentation",
+        "#PhysicsGuidedML",
         "#ClosedLoopControl"
       ],
       "paper_id": "2026-06-22-arxiv-physics_guided_spatiotemporal_state_space_modeling_for_lookahead_molten_pool_segmentation",
       "paper_title": "Physics-Guided Spatiotemporal State Space Modeling for Lookahead Molten Pool Segmentation in Laser Wire-Feed Welding",
       "paper_date": "2026-06-22",
       "paper_category": "Welding Processes",
-      "generated_at": "2026-07-15T12:21:24",
+      "generated_at": "2026-07-16T12:24:00",
       "generator": "openai"
     },
     "translation": {
       "zh-Hans": {
-        "title": "用于激光送丝焊接中前瞻熔池分割的物理引导时空状态空间建模",
-        "abstract": "在激光送丝焊接中，实时焊池感知对闭环控制至关重要，而传感、计算和执行器响应会引入不可避免的延迟。本文提出一种用于前瞻焊池分割的物理引导时空状态空间网络。该模型利用历史同轴灰度图像、焊接工艺参数以及对齐的送丝状态电信号，预测三个具有物理意义区域的未来语义布局：小孔、焊丝和熔池。该方法结合了视觉编码器、工艺与传感器条件化特征归一化、补丁级时序状态空间建模、时域条件化潜在预测、稠密未来特征预测以及运动感知掩码解码器。辅助的符号距离函数监督、时间一致性、特征蒸馏以及细粒度小孔损失进一步约束了预测几何形状和局部运动。在一个包含43个序列的激光焊接数据集上的实验表明，所提出的 WeldMamba 在500 ms前瞻下达到74.63% mIoU。消融研究进一步表明，时间历史、补丁级状态空间建模以及小孔运动感知是实现稳健未来分割的主要贡献因素。",
+        "title": "用于激光送丝焊接前瞻熔池分割的物理引导时空状态空间建模",
+        "abstract": "在激光送丝焊接中，实时焊池感知对于闭环控制至关重要，因为传感、计算与执行器响应会引入不可避免的延迟。本文提出一种用于前瞻焊池分割的物理引导时空状态空间网络。该模型利用历史同轴灰度图像、焊接工艺参数以及对齐的丝材状态电信号，预测三个具有物理意义区域的未来语义布局：钥孔、丝材和熔池。该方法结合了视觉编码器、受工艺和传感器条件约束的特征归一化、补丁级时间状态空间建模、由预测时域条件化的潜变量预测、稠密未来特征预测以及具运动感知的掩码解码器。辅助的符号距离函数监督、时间一致性、特征蒸馏以及细粒度钥孔损失进一步约束了预测几何形状和局部运动。在一个包含43个序列的激光焊接数据集上的实验表明，所提出的WeldMamba在500 ms前瞻下达到74.63% mIoU。消融研究进一步表明，时间历史、补丁级状态空间建模和钥孔运动感知是实现鲁棒未来分割的主要贡献因素。",
         "infographic": {
-          "key_insight": "WeldMamba 通过将过去图像与工艺信号结合，预测未来的熔池、焊丝和小孔分割，以补偿焊接控制延迟。",
-          "engineering_relevance": "这使得激光送丝焊接中的闭环系统能够获得更可靠的实时感知，因为延迟感知否则会降低控制效果并削弱缺陷预防能力。",
+          "key_insight": "WeldMamba利用过去图像以及工艺/传感信号预测未来的熔池、丝材和钥孔几何形状，从而实现面向延迟闭环控制的前瞻焊池分割。",
+          "engineering_relevance": "这为激光送丝焊接控制器提供了更早的焊池演化视图，有助于在传感与执行延迟条件下改进时序、轨迹修正和缺陷规避。",
           "method": [
-            "用于前瞻分割的物理引导时空状态空间模型",
-            "融合同轴灰度历史、焊接参数和送丝状态电信号",
-            "加入时域条件化预测、运动感知解码以及几何/一致性损失"
+            "将历史同轴灰度帧与焊接参数和丝材状态电信号作为多模态输入。",
+            "采用物理引导的特征归一化、补丁级时间状态空间建模和由预测时域条件化的潜变量预测来预测未来分割。",
+            "加入具运动感知的解码，并结合辅助SDF、时间一致性和面向钥孔的损失，以保持几何形状和局部动态。"
           ],
-          "evidence_signal": "在一个包含43个序列的激光焊接数据集上，该方法在500 ms前瞻下取得了74.63%的 mIoU，消融结果显示时间历史、补丁级状态空间建模和小孔运动感知带来性能提升。",
-          "watch_item": "性能依赖于图像、工艺参数和电信号的准确同步；传感器漂移或时间对齐误差可能降低前瞻可靠性。"
+          "evidence_signal": "在一个包含43个序列的激光焊接数据集上，该方法在500 ms前瞻下达到74.63%的mIoU，消融结果表明历史信息、补丁级状态空间建模和钥孔运动感知最为重要。",
+          "watch_item": "性能依赖于对齐良好的多模态传感，在训练分布之外可能对工艺变化或传感器噪声较为敏感。"
+        }
+      },
+      "generator": "openai"
+    }
+  },
+  {
+    "id": "2026-07-14-openalex-effect_of_ceramic_thermal_barrier_coatings_on_a_diesel_engine_fueled_with_jatropha_biodies",
+    "doi": "10.3390/fire9070299",
+    "date": "2026-07-14",
+    "title": "Effect of Ceramic Thermal Barrier Coatings on a Diesel Engine Fueled with Jatropha Biodiesel Ternary Emulsion Blends",
+    "authors": "Nagesh Babu Vemula, Farooq Shaik, Gopinath Dhamodaran, Radha Krishna Gopidesi",
+    "abstract": "This work examines the performance, combustion, and emission characteristics of a diesel engine coated with a ceramic thermal barrier coating and fueled with emulsified Jatropha biodiesel blended with water and butanol. A low heat rejection (LHR) engine was prepared by depositing a 100 µm NiCrAlY bond coat and a 200 µm of 8YSZ ceramic top coat via air plasma spraying. B20W10Bu5, B20W10Bu10, and B20W10Bu15 ternary emulsions were successfully produced using ultrasonic homogenization. The experimental outcomes indicate that the ceramic-coated engine exhibited higher thermal efficiency than that of the conventional engine. The highest performance was achieved with B20W10Bu10 fuel, which resulted in a 7.4% increase in the brake thermal efficiency and a 7.8% decrease in the brake-specific fuel consumption relative to the results for the conventional coated diesel engine. Hydrocarbons, carbon monoxide, and smoke emissions decreased considerably due to the combined impacts of oxygenated fuel composition, micro-explosions, and thermal insulation capability. It can be seen from the discussion above that the utilization of a ceramic thermal barrier coating and the Jatropha-based ternary emulsion fuel, especially B20W10Bu10, shows great promise for enhancing engine performance while lowering exhaust emissions.",
+    "category": "Detonation Spray Process",
+    "source": "OpenAlex",
+    "venue": "Fire",
+    "published": "2026-07-14T00:00:00+00:00",
+    "updated": "",
+    "primary_category": "journal-article",
+    "categories": [
+      "journal-article"
+    ],
+    "links": [
+      {
+        "title": "OpenAlex",
+        "url": "https://openalex.org/W7168280937"
+      },
+      {
+        "title": "DOI",
+        "url": "https://doi.org/10.3390/fire9070299"
+      },
+      {
+        "title": "Publisher",
+        "url": "https://doi.org/10.3390/fire9070299"
+      },
+      {
+        "title": "Open access copy",
+        "url": "https://doi.org/10.3390/fire9070299"
+      }
+    ],
+    "open_access": true,
+    "score": 47,
+    "infographic": {
+      "key_insight": "A ceramic thermal barrier coating combined with a Jatropha biodiesel-water-butanol emulsion, especially B20W10Bu10, improved diesel engine efficiency while reducing major exhaust emissions.",
+      "engineering_relevance": "The study shows that low-heat-rejection engine coatings can work synergistically with oxygenated alternative fuels to boost performance and cut pollution in compression-ignition engines.",
+      "method": [
+        "Applied a 100 µm NiCrAlY bond coat and 200 µm 8YSZ top coat by air plasma spraying.",
+        "Prepared ternary emulsions (B20W10Bu5, B20W10Bu10, B20W10Bu15) using ultrasonic homogenization.",
+        "Tested coated vs. conventional diesel engine performance, combustion, and emissions."
+      ],
+      "evidence_signal": "The abstract reports that B20W10Bu10 increased brake thermal efficiency by 7.4% and reduced brake-specific fuel consumption by 7.8% relative to the conventional coated diesel engine, with lower HC, CO, and smoke emissions.",
+      "watch_item": "Emulsion stability, long-term coating durability, and real-engine operability need validation before practical deployment.",
+      "hashtags": [
+        "#ThermalBarrierCoating",
+        "#DieselEngine",
+        "#JatrophaBiodiesel",
+        "#AirPlasmaSpray",
+        "#EmissionReduction"
+      ],
+      "paper_id": "2026-07-14-openalex-effect_of_ceramic_thermal_barrier_coatings_on_a_diesel_engine_fueled_with_jatropha_biodies",
+      "paper_title": "Effect of Ceramic Thermal Barrier Coatings on a Diesel Engine Fueled with Jatropha Biodiesel Ternary Emulsion Blends",
+      "paper_date": "2026-07-14",
+      "paper_category": "Detonation Spray Process",
+      "generated_at": "2026-07-16T12:24:03",
+      "generator": "openai"
+    },
+    "translation": {
+      "zh-Hans": {
+        "title": "陶瓷热障涂层对以麻疯树生物柴油三元乳化混合燃料驱动柴油机性能的影响",
+        "abstract": "本研究考察了在柴油机上施加陶瓷热障涂层，并使用与水和丁醇混合的乳化麻疯树生物柴油作为燃料时，其性能、燃烧和排放特性。通过空气等离子喷涂制备低热损失（LHR）发动机：先沉积100 µm的NiCrAlY粘结层，再沉积200 µm的8YSZ陶瓷面层。采用超声均质化成功制备了B20W10Bu5、B20W10Bu10和B20W10Bu15三元乳液。实验结果表明，陶瓷涂层发动机的热效率高于常规发动机。以B20W10Bu10燃料获得了最佳性能，相较于常规涂层柴油机的结果，其制动热效率提高了7.4%，制动比油耗降低了7.8%。由于含氧燃料组成、微爆炸以及热绝缘能力的共同作用，碳氢化合物、一氧化碳和烟度排放显著降低。由上述讨论可见，陶瓷热障涂层与基于麻疯树的三元乳液燃料，尤其是B20W10Bu10，在提升发动机性能并降低排气排放方面具有很大应用前景。",
+        "infographic": {
+          "key_insight": "陶瓷热障涂层结合麻疯树生物柴油-水-丁醇乳液，尤其是B20W10Bu10，可提高柴油机效率并降低主要排气排放。",
+          "engineering_relevance": "该研究表明，低热损失发动机涂层可与含氧替代燃料协同作用，从而提升压燃式发动机性能并减少污染。",
+          "method": [
+            "通过空气等离子喷涂施加100 µm NiCrAlY粘结层和200 µm 8YSZ面层。",
+            "使用超声均质化制备三元乳液（B20W10Bu5、B20W10Bu10、B20W10Bu15）。",
+            "测试涂层柴油机与常规柴油机的性能、燃烧和排放。"
+          ],
+          "evidence_signal": "摘要报告称，与常规涂层柴油机相比，B20W10Bu10使制动热效率提高了7.4%，制动比油耗降低了7.8%，同时HC、CO和烟度排放更低。",
+          "watch_item": "在实际应用前，还需要验证乳液稳定性、涂层长期耐久性以及真实发动机工况下的可运行性。"
+        }
+      },
+      "generator": "openai"
+    }
+  },
+  {
+    "id": "2026-07-14-openalex-research_on_the_application_of_boppps_xuexitong_blended_teaching_in_mechanical_courses_of",
+    "doi": "10.26689/jcer.v10i6.15449",
+    "date": "2026-07-14",
+    "title": "Research on the Application of “BOPPPS + Xuexitong” Blended Teaching in Mechanical Courses of Higher Vocational Colleges: Taking Fundamentals of Mechanical Design as an Example",
+    "authors": "Lin Xu, Xiaojie Li, Junjie Huang",
+    "abstract": "Aiming at the problems existing in the teaching of the higher vocational course Fundamentals of Mechanical Design, such as low student participation, insufficient learning interest, and abstract teaching content, this study constructs a “BOPPPS + Xuexitong” blended teaching model. This model deeply integrates the six links of the BOPPPS teaching model (Bridge-in, Objective, Pre-assessment, Participatory learning, Post-assessment, Summary) with the functions of the Xuexitong platform, runs through the three stages of pre-class, during-class, and after-class, and realizes the organic connection between online and offline teaching. Taking “Composition and Classification of Hinge Four-bar Mechanisms” as an example, this paper elaborates on the teaching design process and implementation based on this model in detail. Teaching practice shows that the “BOPPPS + Xuexitong” blended teaching model effectively stimulates students’ learning interest, improves classroom participation, promotes students’ understanding and mastery of abstract knowledge, and enhances teaching quality. This study provides a referable practical path for the teaching reform of engineering courses in higher vocational colleges.",
+    "category": "Coating Quality Prediction",
+    "source": "OpenAlex",
+    "venue": "Journal of Contemporary Educational Research",
+    "published": "2026-07-14T00:00:00+00:00",
+    "updated": "",
+    "primary_category": "journal-article",
+    "categories": [
+      "journal-article"
+    ],
+    "links": [
+      {
+        "title": "OpenAlex",
+        "url": "https://openalex.org/W7168244952"
+      },
+      {
+        "title": "DOI",
+        "url": "https://doi.org/10.26689/jcer.v10i6.15449"
+      },
+      {
+        "title": "Publisher",
+        "url": "https://doi.org/10.26689/jcer.v10i6.15449"
+      },
+      {
+        "title": "Open access PDF",
+        "url": "https://ojs.bbwpublisher.com/index.php/JCER/article/download/15449/13518"
+      }
+    ],
+    "open_access": true,
+    "score": 47,
+    "infographic": {
+      "key_insight": "A \"BOPPPS + Xuexitong\" blended teaching model can make abstract mechanical-design content more engaging and understandable for higher vocational students.",
+      "engineering_relevance": "The study demonstrates a practical course-design framework for improving learning outcomes in foundational mechanical engineering education through online-offline integration.",
+      "method": [
+        "Combine BOPPPS stages with Xuexitong platform functions across pre-class, in-class, and after-class phases.",
+        "Use bridge-in, objectives, pre-assessment, participatory learning, post-assessment, and summary to structure teaching.",
+        "Apply the model to \"Composition and Classification of Hinge Four-bar Mechanisms\" as a case lesson."
+      ],
+      "evidence_signal": "Teaching practice reported increased student interest, stronger classroom participation, and better understanding of abstract knowledge, indicating improved teaching quality.",
+      "watch_item": "The abstract does not provide quantitative comparison data, so the effectiveness claim appears to be based on practice observation rather than detailed measured metrics.",
+      "hashtags": [
+        "#MechanicalDesign",
+        "#BlendedLearning",
+        "#BOPPPS",
+        "#VocationalEducation",
+        "#Xuexitong"
+      ],
+      "paper_id": "2026-07-14-openalex-research_on_the_application_of_boppps_xuexitong_blended_teaching_in_mechanical_courses_of",
+      "paper_title": "Research on the Application of “BOPPPS + Xuexitong” Blended Teaching in Mechanical Courses of Higher Vocational Colleges: Taking Fundamentals of Mechanical Design as an Example",
+      "paper_date": "2026-07-14",
+      "paper_category": "Coating Quality Prediction",
+      "generated_at": "2026-07-16T12:24:05",
+      "generator": "openai"
+    },
+    "translation": {
+      "zh-Hans": {
+        "title": "“BOPPPS + 学习通”混合式教学在高职机械类课程中的应用研究——以《机械设计基础》为例",
+        "abstract": "针对高职课程《机械设计基础》教学中存在的学生参与度不高、学习兴趣不足、教学内容抽象等问题，构建了“BOPPPS + 学习通”混合式教学模式。该模式将BOPPPS教学模型的六个环节（Bridge-in, Objective, Pre-assessment, Participatory learning, Post-assessment, Summary）与学习通平台功能深度融合，贯穿课前、课中、课后三个阶段，实现线上线下教学的有机衔接。以“铰链四杆机构的组成与分类”为例，详细阐述了基于该模式的教学设计过程与实施过程。教学实践表明，“BOPPPS + 学习通”混合式教学模式能够有效激发学生的学习兴趣，提高课堂参与度，促进学生对抽象知识的理解与掌握，提升教学质量。本研究为高职院校工程类课程教学改革提供了可借鉴的实践路径。",
+        "infographic": {
+          "key_insight": "“BOPPPS + 学习通”混合式教学模式能够使抽象的机械设计内容对高职学生更具吸引力且更易理解。",
+          "engineering_relevance": "该研究展示了一种通过线上线下融合提升基础机械工程教育学习成效的实用课程设计框架。",
+          "method": [
+            "将BOPPPS各阶段与学习通平台功能结合，贯穿课前、课中、课后三个阶段。",
+            "采用导入、目标、前测、参与式学习、后测和总结来组织教学。",
+            "以“铰链四杆机构的组成与分类”为案例课应用该模式。"
+          ],
+          "evidence_signal": "教学实践报告显示，学生兴趣提高、课堂参与更积极、对抽象知识的理解更深入，表明教学质量得到提升。",
+          "watch_item": "摘要未提供定量对比数据，因此该有效性结论看起来基于实践观察，而非详细的测量指标。"
         }
       },
       "generator": "openai"
@@ -1284,43 +1225,189 @@
     "open_access": true,
     "score": 46,
     "infographic": {
-      "key_insight": "Increasing barrel filling ratio from 43% to 53% made detonation-sprayed Cr3C2–NiCr coatings denser and more wear-resistant, despite a slight rise in friction.",
-      "engineering_relevance": "Optimizing spraying fill ratio is a practical way to improve the durability of protective carbide coatings for high-wear, high-temperature machine components.",
+      "key_insight": "Raising the barrel filling ratio from 43% to 53% produced a denser Cr3C2–NiCr coating and improved wear resistance, even though friction increased.",
+      "engineering_relevance": "Optimizing detonation-spraying fill ratio is a practical lever for improving the durability of carbide-based protective coatings in severe wear applications.",
       "method": [
-        "Detonation-sprayed Cr3C2–NiCr coatings were deposited at barrel filling ratios of 43% and 53% under identical conditions.",
-        "Microstructure and phases were examined using microscopy and X-ray diffraction.",
-        "Tribological behavior was measured in dry ball-on-disc tests at 10 and 15 N and 5 and 10 cm/s."
+        "Detonation-sprayed Cr3C2–NiCr coatings were deposited at two barrel filling ratios: 43% and 53%.",
+        "Microstructure and phases were analyzed by microscopy and X-ray diffraction.",
+        "Dry ball-on-disc tribological tests were run at 10 and 15 N with 5 and 10 cm/s sliding speeds."
       ],
-      "evidence_signal": "The 53% fill ratio coating showed a denser structure and achieved a minimum wear rate of 1.23 × 10^-4 mm3/(m·N), indicating improved wear resistance.",
-      "watch_item": "The higher-fill coating improved wear resistance but also showed a higher coefficient of friction, so tribological trade-offs should be considered for real applications.",
+      "evidence_signal": "The 53% fill coating showed the lowest reported wear rate, 1.23 × 10^-4 mm3/(m·N), alongside reduced porosity and better structural integrity.",
+      "watch_item": "The improved wear resistance came with a higher coefficient of friction, so system-level performance tradeoffs should be checked before implementation.",
       "hashtags": [
-        "#DetonationSpraying",
-        "#Cr3C2NiCr",
-        "#WearResistance",
-        "#SurfaceEngineering",
-        "#Coatings"
+        "#DetonationSpray",
+        "#Coatings",
+        "#Tribology",
+        "#Microstructure",
+        "#MaterialsEngineering"
       ],
       "paper_id": "2026-07-04-openalex-effect_of_barrel_filling_ratio_on_the_microstructure_phase_composition_and_tribological_pe",
       "paper_title": "Effect of Barrel Filling Ratio on the Microstructure, Phase Composition and Tribological Performance of Detonation-Sprayed Cr3C2–NiCr Coatings",
       "paper_date": "2026-07-04",
       "paper_category": "Coating Microstructure",
-      "generated_at": "2026-07-15T12:21:27",
+      "generated_at": "2026-07-16T12:24:08",
       "generator": "openai"
     },
     "translation": {
       "zh-Hans": {
-        "title": "药筒填充比对爆炸喷涂Cr3C2–NiCr涂层微观结构、相组成和摩擦学性能的影响",
-        "abstract": "本研究探讨了药筒填充比对爆炸喷涂Cr3C2–NiCr涂层微观结构、相组成和摩擦学性能的影响。在相同喷涂条件下，分别以43%和53%的药筒填充比制备涂层。微观结构表征表明，形成了致密的层状涂层，孔隙率较低，Cr3C2碳化物颗粒在NiCr金属基体中分布均匀。与43%药筒填充比制备的涂层相比，53%药筒填充比制备的涂层呈现出更致密的微观结构。X射线衍射分析证实，喷涂后Cr3C2和NiCr仍为主导相，而由于热暴露过程中铬碳化物发生部分脱碳，形成了少量Cr7C3。采用球-盘摩擦副在干滑动条件下评价摩擦学性能，法向载荷为10和15 N，滑动速度为5和10 cm/s。磨损体积由测试后磨痕几何形貌确定，并据此计算磨损率。53%药筒填充比制备的涂层在较高载荷下表现出更好的耐磨性，尽管其摩擦系数较高。最小磨损率达到1.23 × 10−4 mm3/(m·N)，这与更低的孔隙率和更高的涂层结构完整性有关。结果表明，优化爆炸喷涂参数会显著影响涂层结构和摩擦学行为。所制备的Cr3C2–NiCr涂层有望作为在严苛摩擦和磨损条件下工作的部件的防护材料，包括工业和高温工程应用。",
+        "title": "爆炸喷涂Cr3C2–NiCr涂层的微观组织、相组成及摩擦学性能受料筒填充率的影响",
+        "abstract": "本研究考察了料筒填充率对爆炸喷涂Cr3C2–NiCr涂层微观组织、相组成和摩擦学性能的影响。在相同喷涂条件下，分别在43%和53%的料筒填充率下制备涂层。微观组织表征显示，涂层形成了致密的层片状结构，孔隙率低，Cr3C2碳化物颗粒在NiCr金属基体中分布均匀。与43%料筒填充率下制备的涂层相比，53%料筒填充率下制备的涂层具有更致密的微观组织。X射线衍射分析证实，喷涂后Cr3C2和NiCr仍为主导相，而由于热暴露过程中铬碳化物发生部分脱碳，形成了少量Cr7C3。采用球-盘接触形式，在10和15 N法向载荷以及5和10 cm/s滑动速度下，于干摩擦条件下评估摩擦学性能。磨损体积根据试验后磨痕几何形貌确定，并据此计算磨损率。53%料筒填充率制备的涂层在较高载荷下表现出更优的耐磨性，尽管其摩擦系数更高。最小磨损率达到1.23 × 10−4 mm3/(m·N)，这与涂层孔隙率降低和结构完整性增强有关。结果表明，爆炸喷涂参数的优化会显著影响涂层结构和摩擦学行为。所制备的Cr3C2–NiCr涂层有望作为在严苛摩擦和磨损条件下工作的部件的防护材料，包括工业和高温工程应用。",
         "infographic": {
-          "key_insight": "将药筒填充比从43%提高到53%，使爆炸喷涂Cr3C2–NiCr涂层更加致密且更耐磨，尽管摩擦略有增加。",
-          "engineering_relevance": "优化喷涂填充比是一种提高高磨损、高温机械部件用防护碳化物涂层耐久性的实用方法。",
+          "key_insight": "将料筒填充率从43%提高到53%可获得更致密的Cr3C2–NiCr涂层并改善耐磨性，尽管摩擦增大。",
+          "engineering_relevance": "优化爆炸喷涂填充率是提升碳化物基防护涂层在严重磨损应用中耐久性的一个实用手段。",
           "method": [
-            "在相同条件下，分别以43%和53%的药筒填充比制备爆炸喷涂Cr3C2–NiCr涂层。",
-            "采用显微镜和X射线衍射分析微观结构和相组成。",
-            "在干摩擦球-盘试验中测量摩擦学行为，载荷为10和15 N，滑动速度为5和10 cm/s。"
+            "在43%和53%两种料筒填充率下制备爆炸喷涂Cr3C2–NiCr涂层。",
+            "通过显微观察和X射线衍射分析微观组织与相组成。",
+            "在10和15 N载荷、5和10 cm/s滑动速度下进行干态球-盘摩擦学试验。"
           ],
-          "evidence_signal": "53%填充比涂层结构更致密，最小磨损率达到1.23 × 10^-4 mm3/(m·N)，表明其耐磨性有所提高。",
-          "watch_item": "较高填充比涂层虽然提高了耐磨性，但摩擦系数也更高，因此在实际应用中应考虑摩擦学权衡。"
+          "evidence_signal": "53%填充率涂层表现出最低的报告磨损率1.23 × 10^-4 mm3/(m·N)，同时孔隙率更低、结构完整性更好。",
+          "watch_item": "更高的耐磨性伴随着更高的摩擦系数，因此在实施前应评估系统层面的性能权衡。"
+        }
+      },
+      "generator": "openai"
+    }
+  },
+  {
+    "id": "2026-07-13-openalex-high_temperature_oxidation_kinetics_and_microstructural_evolution_of_detonation_sprayed_al",
+    "doi": "10.1177/02670844261464884",
+    "date": "2026-07-13",
+    "title": "High-temperature oxidation kinetics and microstructural evolution of detonation-sprayed AlCuFe quasicrystalline coatings",
+    "authors": "Xinran Li, Yi-Xiang Wang, Maxingwang Lu, Yongchao Fang",
+    "abstract": "To solve the susceptibility of TC4 titanium alloys to high-temperature oxidation and subsequent performance degradation, AlCuFe quasicrystalline (QC) coatings were successfully fabricated via detonation spraying (DS) as a functional protective barrier. The oxidation kinetics, phase evolution, and mechanical stability of the coating system were systematically investigated at 450°C in an atmospheric environment for up to 250 h. The results indicate that the oxidation kinetics strictly obey the parabolic growth law, yielding a steady-state parabolic rate constant ( k p ) of 1.83 × 10 −2 mg 2 ⋅ cm −4 ⋅ h −1 . Throughout the service period, the coating exhibits a significant “thermal hardening” effect, with the surface microhardness increasing from an initial 491 HV 0.2 to a final value of 665.2 HV 0.2 (a 35.5% increment). Phase evolution is characterized by an initial thermally induced ordering of metastable regions (0–3 h) followed by the gradual decomposition of the icosahedral (I) phase into approximant phases (β, τ, and λ) driven by the Al-depletion effect. Notably, the increased density of phase boundaries and intermetallic interfaces within the multi-phase network effectively sustains the mechanical performance despite the decline in the primary QC fraction. This study demonstrates that DS-AlCuFe coatings provide a reliable structural evolution pathway for the long-term high-temperature protection of titanium alloys.",
+    "category": "Coating Microstructure",
+    "source": "OpenAlex",
+    "venue": "Surface Engineering",
+    "published": "2026-07-13T00:00:00+00:00",
+    "updated": "",
+    "primary_category": "journal-article",
+    "categories": [
+      "journal-article"
+    ],
+    "links": [
+      {
+        "title": "OpenAlex",
+        "url": "https://openalex.org/W7168140705"
+      },
+      {
+        "title": "Publisher",
+        "url": "https://doi.org/10.1177/02670844261464884"
+      }
+    ],
+    "open_access": false,
+    "score": 44,
+    "infographic": {
+      "key_insight": "Detonation-sprayed AlCuFe quasicrystalline coatings form a thermally stabilized multiphase structure that resists oxidation at 450\u0000b0C while hardening over time.",
+      "engineering_relevance": "These coatings offer a protective barrier for TC4 titanium alloys in high-temperature service, improving oxidation resistance and retaining mechanical integrity during long-term exposure.",
+      "method": [
+        "Fabricated AlCuFe QC coatings by detonation spraying (DS)",
+        "Aged the coatings in air at 450\u0000b0C for up to 250 h",
+        "Tracked oxidation kinetics, phase evolution, and microhardness"
+      ],
+      "evidence_signal": "The coating followed parabolic oxidation kinetics with kp = 1.83 \u0000d7 10^-2 mg^2\u0000b7cm^-4\u0000b7h^-1, while microhardness increased from 491 HV0.2 to 665.2 HV0.2 after 250 h.",
+      "watch_item": "Performance depends on maintaining the multiphase QC-derived microstructure; excessive Al depletion or service conditions beyond the tested 450\u0000b0C/250 h window may alter oxidation and hardness behavior.",
+      "hashtags": [
+        "#DetonationSpraying",
+        "#QuasicrystalCoating",
+        "#OxidationResistance",
+        "#TitaniumAlloys",
+        "#HighTemperatureCoatings"
+      ],
+      "paper_id": "2026-07-13-openalex-high_temperature_oxidation_kinetics_and_microstructural_evolution_of_detonation_sprayed_al",
+      "paper_title": "High-temperature oxidation kinetics and microstructural evolution of detonation-sprayed AlCuFe quasicrystalline coatings",
+      "paper_date": "2026-07-13",
+      "paper_category": "Coating Microstructure",
+      "generated_at": "2026-07-16T12:24:11",
+      "generator": "openai"
+    },
+    "translation": {
+      "zh-Hans": {
+        "title": "爆炸喷涂 AlCuFe 准晶涂层的高温氧化动力学与微观结构演化",
+        "abstract": "为解决 TC4 钛合金对高温氧化及其后续性能退化的敏感性，采用爆炸喷涂（DS）成功制备了 AlCuFe 准晶（QC）涂层，作为一种功能性防护屏障。系统研究了该涂层体系在 450°C、空气环境下长达 250 h 的氧化动力学、相演化和机械稳定性。结果表明，氧化动力学严格遵循抛物线生长定律，稳态抛物线速率常数（k_p）为 1.83 × 10−2 mg2⋅cm−4⋅h−1。在整个服役期间，该涂层表现出显著的“热硬化”效应，表面显微硬度由初始的 491 HV0.2 提高到最终的 665.2 HV0.2（增加 35.5%）。相演化特征表现为：首先是 0–3 h 内亚稳态区域在热作用下发生有序化，随后在 Al 贫化效应驱动下，二十面体（I）相逐渐分解为近似相（β、τ 和 λ）。值得注意的是，多相网络中相界密度和金属间化合物界面的增加，即使在主导 QC 相分数下降的情况下，仍能有效维持机械性能。本研究表明，DS-AlCuFe 涂层为钛合金长期高温防护提供了一条可靠的结构演化路径。",
+        "infographic": {
+          "key_insight": "爆炸喷涂 AlCuFe 准晶涂层形成了热稳定的多相结构，能够在 450°C 下抵抗氧化并随时间硬化。",
+          "engineering_relevance": "这类涂层可作为 TC4 钛合金高温服役中的防护屏障，提高抗氧化性，并在长期暴露过程中保持机械完整性。",
+          "method": [
+            "采用爆炸喷涂（DS）制备 AlCuFe QC 涂层",
+            "在 450°C 空气中对涂层进行最长 250 h 的时效处理",
+            "跟踪氧化动力学、相演化和显微硬度"
+          ],
+          "evidence_signal": "该涂层遵循抛物线氧化动力学，kp = 1.83 × 10^-2 mg^2·cm^-4·h^-1；同时，在 250 h 后，显微硬度从 491 HV0.2 增至 665.2 HV0.2。",
+          "watch_item": "性能取决于维持多相 QC 衍生微观结构；若 Al 发生过度贫化，或服役条件超出所测试的 450°C/250 h 范围，氧化和硬度行为可能发生改变。"
+        }
+      },
+      "generator": "openai"
+    }
+  },
+  {
+    "id": "2026-07-13-openalex-thermo_mechanical_simulation_and_comparative_screening_of_flash_formation_in_inertia_frict",
+    "doi": "10.1007/s40194-026-02570-4",
+    "date": "2026-07-13",
+    "title": "Thermo-mechanical simulation and comparative screening of flash formation in inertia friction welding of FGH98 powder superalloy",
+    "authors": "Baiyuan Ou, Haoyang Chen, Z Liu, Zhuo Xie, Mingxing Wang",
+    "abstract": "Journal article indexed by OpenAlex in Welding in the World.",
+    "category": "Welding Processes",
+    "source": "OpenAlex",
+    "venue": "Welding in the World",
+    "published": "2026-07-13T00:00:00+00:00",
+    "updated": "",
+    "primary_category": "journal-article",
+    "categories": [
+      "journal-article"
+    ],
+    "links": [
+      {
+        "title": "OpenAlex",
+        "url": "https://openalex.org/W7168189796"
+      },
+      {
+        "title": "DOI",
+        "url": "https://doi.org/10.1007/s40194-026-02570-4"
+      },
+      {
+        "title": "Publisher",
+        "url": "https://doi.org/10.1007/s40194-026-02570-4"
+      }
+    ],
+    "open_access": false,
+    "score": 44,
+    "infographic": {
+      "key_insight": "The paper uses thermo-mechanical simulation to compare conditions that trigger flash formation in inertia friction welding of FGH98 powder superalloy.",
+      "engineering_relevance": "It helps welding engineers screen process windows that reduce defects and improve joint quality in high-performance superalloy joining.",
+      "method": [
+        "Build a thermo-mechanical model of inertia friction welding.",
+        "Compare candidate welding conditions to identify flash-formation tendencies.",
+        "Use the screening results to assess process robustness for FGH98 powder superalloy."
+      ],
+      "evidence_signal": "The abstract indicates a simulation-based comparative screening study published as a journal article in Welding in the World, but it does not provide quantitative results in the supplied metadata.",
+      "watch_item": "Because the provided abstract is very limited, the exact model assumptions and experimental validation depth are unclear.",
+      "hashtags": [
+        "#InertiaFrictionWelding",
+        "#ThermoMechanicalSimulation",
+        "#Superalloy",
+        "#FlashFormation",
+        "#WeldingProcess"
+      ],
+      "paper_id": "2026-07-13-openalex-thermo_mechanical_simulation_and_comparative_screening_of_flash_formation_in_inertia_frict",
+      "paper_title": "Thermo-mechanical simulation and comparative screening of flash formation in inertia friction welding of FGH98 powder superalloy",
+      "paper_date": "2026-07-13",
+      "paper_category": "Welding Processes",
+      "generated_at": "2026-07-16T12:24:13",
+      "generator": "openai"
+    },
+    "translation": {
+      "zh-Hans": {
+        "title": "FGH98粉末高温合金惯性摩擦焊中飞边形成的热-力耦合模拟与比较筛选",
+        "abstract": "OpenAlex 收录于 Welding in the World 的期刊论文。",
+        "infographic": {
+          "key_insight": "该论文采用热-力耦合模拟，对触发 FGH98 粉末高温合金惯性摩擦焊中飞边形成的条件进行比较。",
+          "engineering_relevance": "这有助于焊接工程师筛选可减少缺陷、提高高性能高温合金连接接头质量的工艺窗口。",
+          "method": [
+            "建立惯性摩擦焊的热-力耦合模型。",
+            "比较候选焊接条件，识别飞边形成倾向。",
+            "利用筛选结果评估 FGH98 粉末高温合金的工艺鲁棒性。"
+          ],
+          "evidence_signal": "摘要表明这是一项基于模拟的比较筛选研究，作为期刊论文发表在 Welding in the World，但所提供的元数据未给出定量结果。",
+          "watch_item": "由于所提供的摘要非常有限，具体模型假设和实验验证深度尚不清楚。"
         }
       },
       "generator": "openai"
@@ -1359,122 +1446,43 @@
     "open_access": true,
     "score": 40,
     "infographic": {
-      "key_insight": "Higher cold-spray pressure drives copper particles faster past the bonding threshold, producing denser, more ductile deposits with better conductivity but lower hardness.",
-      "engineering_relevance": "For CSAM copper parts, tuning spray pressure is a practical lever to balance electrical performance, ductility, and structural integrity in one process window.",
+      "key_insight": "Raising cold-spray pressure from 30 to 60 bar increases copper particle velocity past the bonding threshold, driving a stronger, more ductile, and better-conducting deposit.",
+      "engineering_relevance": "This identifies spray pressure as a primary control knob for tuning the process–structure–property balance in copper CSAM parts where both electrical conductivity and mechanical integrity matter.",
       "method": [
-        "Cold-sprayed copper at 30, 40, 50, and 60 bar using a LightSPEE3D system",
-        "Measured particle/material response with XRD, SEM, hardness, conductivity, and tensile tests",
-        "Compared microstructure and properties against spray pressure to identify the optimum window"
+        "Cold-sprayed copper on a LightSPEE3D system at 30, 40, 50, and 60 bar.",
+        "Measured particle velocity, XRD crystallite/dislocation changes, hardness, conductivity, tensile behavior, and SEM fracture/microstructure.",
+        "Compared property trends to infer pressure-driven bonding and recrystallisation mechanisms."
       ],
-      "evidence_signal": "The abstract reports higher-pressure deposits showed refined crystallites, increased conductivity, improved ductility, and fully ductile fracture, while hardness decreased with recovery/recrystallisation.",
-      "watch_item": "The optimum pressure window is system-specific, so transfer to other nozzles, powders, or substrates should be validated before implementation.",
+      "evidence_signal": "The abstract reports pressure-dependent improvements in conductivity and ductility, with XRD indicating crystallite refinement/dislocation changes and tensile tests showing a transition toward fully ductile fracture at higher pressures.",
+      "watch_item": "Higher pressure may improve bonding but also promotes recovery/recrystallisation and hardness loss, so the best operating window must balance strength, ductility, and conductivity for the target application.",
       "hashtags": [
         "#ColdSpray",
         "#AdditiveManufacturing",
         "#Copper",
-        "#ThermalSpray",
-        "#MaterialsEngineering"
+        "#ProcessOptimization",
+        "#ThermalSpray"
       ],
       "paper_id": "2026-07-02-openalex-optimising_cold_spray_additive_manufacturing_pressure_driven_enhancement_of_mechanical_per",
       "paper_title": "Optimising Cold Spray Additive Manufacturing: Pressure-driven enhancement of mechanical performance in copper deposits",
       "paper_date": "2026-07-02",
       "paper_category": "Thermal Spray Coatings",
-      "generated_at": "2026-07-15T12:21:29",
+      "generated_at": "2026-07-16T12:24:16",
       "generator": "openai"
     },
     "translation": {
       "zh-Hans": {
-        "title": "冷喷涂增材制造优化：压力驱动铜沉积层机械性能提升",
-        "abstract": "冷喷涂增材制造（CSAM）是一种可在不熔化的情况下制备致密金属构件的固态工艺，因此对于既要求电导率又要求机械完整性的铜应用具有很强吸引力。本研究系统考察了在30 bar、40 bar、50 bar和60 bar喷涂压力下，采用LightSPEE3D系统制备的冷喷涂铜的粒子速度、显微组织和性能影响。通过X射线衍射（XRD）、硬度测试、涡流电导率测试、拉伸评估和扫描电子显微镜（SEM）对冷喷涂沉积层进行了表征。结果表明，提高喷涂压力可使粒子速度超过铜的临界阈值，从而增强颗粒间结合，并形成与严重塑性变形以及可能由连续动态再结晶（cDRX）辅助机制相一致的显微组织细化。XRD分析表明，随压力升高，晶粒尺寸逐步细化且位错密度增加，这与延性改善直接相关。尽管由于回复和再结晶，硬度有所降低，但电导率提高，这可能归因于颗粒间连续性改善和界面不连续性减少。拉伸测试显示出明显的强度-延性转变，高压力下的沉积层表现出显著改善的延性，接近块体铜的行为，并呈现完全韧性断裂形貌。总体而言，研究结果确定了较高喷涂压力下的最佳工艺窗口，在该窗口内，冷喷涂铜沉积层可实现导电性、延性和强度的平衡组合。本研究强调了喷涂压力在控制CSAM铜部件中粒子速度、动态再结晶与多功能性能相互作用方面的关键作用。本研究建立了一个工艺-组织-性能关系，将LightSPEE3D CSAM系统中的粒子速度、基于XRD的显微组织演变、导电性和拉伸行为联系起来。",
+        "title": "冷喷涂增材制造优化：压力驱动提升铜沉积层机械性能",
+        "abstract": "冷喷涂增材制造（CSAM）是一种固态工艺，能够在不熔化的情况下制备致密金属部件，因此对于同时要求导电性和机械完整性的铜应用具有很强吸引力。本研究采用 LightSPEE3D 系统，系统考察了喷涂压力在 30 bar、40 bar、50 bar 和 60 bar 条件下对冷喷涂铜颗粒速度、微观组织及性能的影响。通过 X 射线衍射（XRD）、硬度测试、涡流电导率测试、拉伸评价和扫描电子显微镜（SEM）对冷喷涂沉积层进行了表征。结果表明，提高喷涂压力可使颗粒速度超过铜的临界阈值，从而增强颗粒间结合，并促进与严重塑性变形及可能由连续动态再结晶（cDRX）辅助的机制相一致的微观组织细化。XRD 分析表明，随着压力升高，晶粒细化和位错密度增加，这与延展性的改善直接相关。虽然由于回复和再结晶导致硬度降低，但电导率提高，这可能是由于颗粒间连续性改善以及界面不连续性减少所致。拉伸测试显示出明显的强度—延性转变，高压条件下制备的沉积层表现出显著提升的延展性，接近块体铜的行为，并呈现完全韧性断裂形貌。总体而言，研究结果确定了更高喷涂压力下的最佳工艺窗口，在该窗口内，冷喷涂铜沉积层能够实现导电性、延展性和强度的平衡组合。本研究强调了喷涂压力在调控 CSAM 铜部件中颗粒速度、动态再结晶与多功能性能相互作用方面的关键作用。本研究建立了 LightSPEE3D CSAM 系统中颗粒速度、基于 XRD 的微观组织演化、电导率与拉伸行为之间的工艺—组织—性能关系。",
         "infographic": {
-          "key_insight": "更高的冷喷涂压力使铜颗粒以更高速度超过结合阈值，形成更致密、延性更好的沉积层，同时导电性更高，但硬度更低。",
-          "engineering_relevance": "对于CSAM铜部件，通过调节喷涂压力是在一个工艺窗口内平衡电性能、延性和结构完整性的实用手段。",
+          "key_insight": "将冷喷涂压力从 30 提高到 60 bar 会使铜颗粒速度超过结合阈值，从而形成更强、更具延展性且导电性更好的沉积层。",
+          "engineering_relevance": "这表明喷涂压力是调控铜 CSAM 零件工艺—组织—性能平衡的主要控制参数，尤其适用于同时需要电导率和机械完整性的场合。",
           "method": [
-            "使用LightSPEE3D系统在30、40、50和60 bar下冷喷涂铜",
-            "采用XRD、SEM、硬度、导电率和拉伸测试测量颗粒/材料响应",
-            "将显微组织和性能与喷涂压力进行比较，以确定最佳工艺窗口"
+            "在 LightSPEE3D 系统上，于 30、40、50 和 60 bar 条件下冷喷涂铜。",
+            "测量颗粒速度、XRD 晶粒/位错变化、硬度、电导率、拉伸行为以及 SEM 断口/微观组织。",
+            "比较性能趋势，以推断压力驱动的结合与再结晶机制。"
           ],
-          "evidence_signal": "摘要报告显示，高压力沉积层具有细化晶粒、更高导电率、改善的延性和完全韧性断裂，而硬度则因回复/再结晶而降低。",
-          "watch_item": "最佳压力窗口具有系统特异性，因此在应用于其他喷嘴、粉末或基材之前，应先进行验证。"
-        }
-      },
-      "generator": "openai"
-    }
-  },
-  {
-    "id": "2026-06-24-openalex-effect_of_argon_flow_rate_during_air_plasma_spraying_on_the_structure_and_properties_of_ni",
-    "doi": "10.66310/fgfl9624",
-    "date": "2026-06-24",
-    "title": "EFFECT OF ARGON FLOW RATE DURING AIR PLASMA SPRAYING ON THE STRUCTURE AND PROPERTIES OF NICRFEBSIC COATINGS",
-    "authors": "Dastan Buitkenov, Nurkhat Bimakhan, Nurmakhanbet Raisov",
-    "abstract": "In this work, self-fluxing metal-ceramic coatings based on the NiCrFeBSiC system were obtained by air plasma spraying, and their structural, mechanical, and tribological properties were investigated.. The effect of argon flow rate (1600 and 1800 L/h) during coating formation was consideredIt was found that an increase in argon flow rate leads to an approximately twofold increase in coating thickness and a twofold decrease in porosity. According to the microhardness measurement results, the microhardness was 1015.8 ± 81.5 HV, while the elastic modulus was 203.9 ± 5.4 GPa. Tribological tests were carried out using the ball-on-disk configurationAt an argon flow rate of 1800 L/h, the friction coefficient showed a lower value (≈0.107), indicating improved wear resistance of the coatings. Scratch test results showed a high level of adhesion between the coatings and the substrate. Although the critical load values (Lc) were similar for both regimes, the coatings obtained at 1800 L/h exhibited a more gradual and stable failure behavior.",
-    "category": "Thermal Spray Coatings",
-    "source": "OpenAlex",
-    "venue": "Journal of Surface Engineering and Coating Technology",
-    "published": "2026-06-24T00:00:00+00:00",
-    "updated": "",
-    "primary_category": "journal-article",
-    "categories": [
-      "journal-article"
-    ],
-    "links": [
-      {
-        "title": "OpenAlex",
-        "url": "https://openalex.org/W7165747029"
-      },
-      {
-        "title": "DOI",
-        "url": "https://doi.org/10.66310/fgfl9624"
-      },
-      {
-        "title": "Publisher",
-        "url": "https://doi.org/10.66310/fgfl9624"
-      },
-      {
-        "title": "Open access copy",
-        "url": "https://doi.org/10.66310/fgfl9624"
-      }
-    ],
-    "open_access": true,
-    "score": 36,
-    "infographic": {
-      "key_insight": "Raising argon flow from 1600 to 1800 L/h during air plasma spraying of NiCrFeBSiC coatings produced thicker, denser, and more wear-resistant coatings.",
-      "engineering_relevance": "This suggests argon flow is a practical process lever for tuning plasma-sprayed coating quality, especially when balancing deposition efficiency, porosity, and tribological performance.",
-      "method": [
-        "Air plasma sprayed self-fluxing NiCrFeBSiC coatings at two argon flow rates: 1600 and 1800 L/h.",
-        "Compared the resulting microstructure, microhardness, elastic modulus, adhesion, and wear behavior.",
-        "Used ball-on-disk tribology and scratch testing to assess performance."
-      ],
-      "evidence_signal": "At 1800 L/h, coating thickness increased about twofold, porosity decreased about twofold, and the friction coefficient dropped to roughly 0.107, with microhardness measured at 1015.8 ± 81.5 HV and elastic modulus at 203.9 ± 5.4 GPa.",
-      "watch_item": "The study compares only two argon flow settings, so the optimal operating window and scalability to other spray conditions remain uncertain.",
-      "hashtags": [
-        "#ThermalSpray",
-        "#PlasmaSpraying",
-        "#Coatings",
-        "#WearResistance",
-        "#MaterialsEngineering"
-      ],
-      "paper_id": "2026-06-24-openalex-effect_of_argon_flow_rate_during_air_plasma_spraying_on_the_structure_and_properties_of_ni",
-      "paper_title": "EFFECT OF ARGON FLOW RATE DURING AIR PLASMA SPRAYING ON THE STRUCTURE AND PROPERTIES OF NICRFEBSIC COATINGS",
-      "paper_date": "2026-06-24",
-      "paper_category": "Thermal Spray Coatings",
-      "generated_at": "2026-07-15T12:21:32",
-      "generator": "openai"
-    },
-    "translation": {
-      "zh-Hans": {
-        "title": "空气等离子喷涂过程中氩气流量对NiCrFeBSiC涂层结构和性能的影响",
-        "abstract": "本工作采用空气等离子喷涂制备了基于NiCrFeBSiC体系的自熔性金属陶瓷涂层，并研究了其结构、力学和摩擦学性能。考察了涂层形成过程中氩气流量（1600和1800 L/h）的影响。结果表明，随着氩气流量增加，涂层厚度约增加一倍，孔隙率降低一半。根据显微硬度测试结果，显微硬度为1015.8 ± 81.5 HV，弹性模量为203.9 ± 5.4 GPa。采用球-盘配置进行了摩擦学测试。在1800 L/h的氩气流量下，摩擦系数较低（≈0.107），表明涂层耐磨性得到改善。划痕测试结果表明涂层与基体之间具有较高的结合强度。尽管两种工况下的临界载荷值（Lc）相近，但在1800 L/h条件下获得的涂层表现出更为渐进和稳定的失效行为。",
-        "infographic": {
-          "key_insight": "将空气等离子喷涂NiCrFeBSiC涂层时的氩气流量从1600提高到1800 L/h，可获得更厚、更致密且更耐磨的涂层。",
-          "engineering_relevance": "这表明氩气流量是调控等离子喷涂涂层质量的一个实用工艺参数，尤其适用于在沉积效率、孔隙率和摩擦学性能之间进行平衡。",
-          "method": [
-            "在两种氩气流量条件下采用空气等离子喷涂制备自熔性NiCrFeBSiC涂层：1600和1800 L/h。",
-            "比较所得涂层的显微组织、显微硬度、弹性模量、结合强度和磨损行为。",
-            "采用球-盘摩擦学测试和划痕测试评估性能。"
-          ],
-          "evidence_signal": "在1800 L/h条件下，涂层厚度约增加一倍，孔隙率约降低一半，摩擦系数降至约0.107；显微硬度为1015.8 ± 81.5 HV，弹性模量为203.9 ± 5.4 GPa。",
-          "watch_item": "该研究仅比较了两种氩气流量设置，因此最佳工艺窗口以及向其他喷涂条件的可扩展性仍不确定。"
+          "evidence_signal": "摘要报道了随压力变化而提升的电导率和延展性，XRD 显示晶粒细化/位错变化，而拉伸测试显示在较高压力下断裂形貌向完全韧性断裂转变。",
+          "watch_item": "更高压力可能改善结合，但也会促进回复/再结晶并导致硬度下降，因此最佳工艺窗口必须针对目标应用在强度、延展性和电导率之间取得平衡。"
         }
       },
       "generator": "openai"

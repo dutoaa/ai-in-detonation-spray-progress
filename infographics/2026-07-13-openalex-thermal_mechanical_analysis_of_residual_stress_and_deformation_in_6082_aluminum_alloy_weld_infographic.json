@@ -1,24 +1,24 @@
 {
-  "key_insight": "A coupled thermal-mechanical ABAQUS model shows that welding heat creates steep temperature gradients that drive residual stress and deformation in 6082 aluminum butt joints.",
-  "engineering_relevance": "The results help engineers predict weld-zone performance and guide welding-process optimization and structural design for aluminum alloys.",
+  "key_insight": "A coupled thermal-mechanical ABAQUS model shows that 6082 aluminum butt welds develop peak temperatures in the weld zone, with residual stress and deformation concentrated in the weld seam and heat-affected zone.",
+  "engineering_relevance": "The results help predict welding-induced distortion and stress, supporting better process settings and structural design for aluminum alloy welded joints.",
   "method": [
-    "Built a 3D temperature-displacement coupled model in ABAQUS.",
-    "Ran transient thermal analysis to compute the welding temperature field.",
-    "Mapped the temperature field into mechanical analysis to estimate residual stress and deformation."
+    "Built a 3D temperature-displacement coupling model in ABAQUS for 6082 aluminum butt welding.",
+    "Performed transient thermal analysis to compute the welding temperature field.",
+    "Used the temperature history in a mechanical analysis to estimate residual stress and deformation."
   ],
-  "evidence_signal": "The abstract reports a clear temperature gradient from weld zone to base material, with residual stress concentrated in the weld seam and heat-affected zone and visible deformation near the weld.",
-  "watch_item": "The summary is based on numerical simulation only, so model accuracy depends on boundary conditions, material parameters, and validation against experiments.",
+  "evidence_signal": "The study evaluates simulated temperature distribution, residual stress concentration, and deformation behavior during the welding thermal cycle.",
+  "watch_item": "Because the conclusion is based on numerical simulation, accuracy depends on material parameters, boundary conditions, and validation against experiments.",
   "hashtags": [
-    "#WeldingSimulation",
+    "#Welding",
     "#ResidualStress",
-    "#ThermalMechanical",
+    "#FiniteElementAnalysis",
     "#AluminumAlloy",
-    "#ABAQUS"
+    "#ThermalMechanicalCoupling"
   ],
   "paper_id": "2026-07-13-openalex-thermal_mechanical_analysis_of_residual_stress_and_deformation_in_6082_aluminum_alloy_weld",
   "paper_title": "Thermal-Mechanical Analysis of Residual Stress and Deformation in 6082 Aluminum Alloy Welded Joints",
   "paper_date": "2026-07-13",
   "paper_category": "Welding Processes",
-  "generated_at": "2026-07-15T12:20:45",
+  "generated_at": "2026-07-16T12:23:25",
   "generator": "openai"
 }

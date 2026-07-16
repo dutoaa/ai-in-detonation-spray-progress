@@ -1,24 +1,24 @@
 {
-  "key_insight": "Higher cold-spray pressure drives copper particles faster past the bonding threshold, producing denser, more ductile deposits with better conductivity but lower hardness.",
-  "engineering_relevance": "For CSAM copper parts, tuning spray pressure is a practical lever to balance electrical performance, ductility, and structural integrity in one process window.",
+  "key_insight": "Raising cold-spray pressure from 30 to 60 bar increases copper particle velocity past the bonding threshold, driving a stronger, more ductile, and better-conducting deposit.",
+  "engineering_relevance": "This identifies spray pressure as a primary control knob for tuning the process–structure–property balance in copper CSAM parts where both electrical conductivity and mechanical integrity matter.",
   "method": [
-    "Cold-sprayed copper at 30, 40, 50, and 60 bar using a LightSPEE3D system",
-    "Measured particle/material response with XRD, SEM, hardness, conductivity, and tensile tests",
-    "Compared microstructure and properties against spray pressure to identify the optimum window"
+    "Cold-sprayed copper on a LightSPEE3D system at 30, 40, 50, and 60 bar.",
+    "Measured particle velocity, XRD crystallite/dislocation changes, hardness, conductivity, tensile behavior, and SEM fracture/microstructure.",
+    "Compared property trends to infer pressure-driven bonding and recrystallisation mechanisms."
   ],
-  "evidence_signal": "The abstract reports higher-pressure deposits showed refined crystallites, increased conductivity, improved ductility, and fully ductile fracture, while hardness decreased with recovery/recrystallisation.",
-  "watch_item": "The optimum pressure window is system-specific, so transfer to other nozzles, powders, or substrates should be validated before implementation.",
+  "evidence_signal": "The abstract reports pressure-dependent improvements in conductivity and ductility, with XRD indicating crystallite refinement/dislocation changes and tensile tests showing a transition toward fully ductile fracture at higher pressures.",
+  "watch_item": "Higher pressure may improve bonding but also promotes recovery/recrystallisation and hardness loss, so the best operating window must balance strength, ductility, and conductivity for the target application.",
   "hashtags": [
     "#ColdSpray",
     "#AdditiveManufacturing",
     "#Copper",
-    "#ThermalSpray",
-    "#MaterialsEngineering"
+    "#ProcessOptimization",
+    "#ThermalSpray"
   ],
   "paper_id": "2026-07-02-openalex-optimising_cold_spray_additive_manufacturing_pressure_driven_enhancement_of_mechanical_per",
   "paper_title": "Optimising Cold Spray Additive Manufacturing: Pressure-driven enhancement of mechanical performance in copper deposits",
   "paper_date": "2026-07-02",
   "paper_category": "Thermal Spray Coatings",
-  "generated_at": "2026-07-15T12:21:29",
+  "generated_at": "2026-07-16T12:24:16",
   "generator": "openai"
 }
