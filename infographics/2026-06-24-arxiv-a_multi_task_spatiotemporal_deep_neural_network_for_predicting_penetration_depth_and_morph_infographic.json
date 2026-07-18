@@ -1,24 +1,24 @@
 {
-  "key_insight": "A multi-task spatiotemporal deep neural network can use top-view weld pool images plus welding parameters to predict penetration state, depth, and weld seam morphology in real time.",
-  "engineering_relevance": "The method supports in-situ quality control for laser penetration welding by enabling earlier detection of defective penetration and improved process monitoring.",
+  "key_insight": "A multi-task spatiotemporal deep neural network can simultaneously predict laser welding penetration state, penetration depth, and weld seam morphology from weld-pool video and process parameters.",
+  "engineering_relevance": "This enables in-situ weld quality control, helping operators detect incomplete penetration and morphology defects before destructive inspection.",
   "method": [
-    "Capture weld pool images with a CMOS camera during welding.",
-    "Fuse spatial-temporal features from image sequences with welding parameters using CNNs and state-space models.",
-    "Train a multi-task model to jointly predict penetration state, depth, and cross-section morphology."
+    "Uses CMOS camera top-weld-pool images as the primary sensing signal.",
+    "Combines convolutional neural networks with state-space models to capture spatial and temporal features.",
+    "Fuses image features with welding parameters in a multi-task prediction framework."
   ],
-  "evidence_signal": "On the test set, the model achieved 99.35% penetration-state accuracy, 1.79 mm penetration-depth error, and 95.65% weld cross-section reconstruction accuracy.",
-  "watch_item": "Performance may depend on the quality and diversity of the constructed dataset, so generalization to new welding setups or materials should be validated.",
+  "evidence_signal": "On the test set, the model achieved 99.35% penetration-state accuracy, 1.79 mm penetration-depth error, and 95.65% cross-section reconstruction accuracy.",
+  "watch_item": "Performance may depend on camera quality, process consistency, and the representativeness of the constructed dataset when transferring to different welding setups or materials.",
   "hashtags": [
     "#LaserWelding",
     "#DeepLearning",
-    "#SpatiotemporalModel",
-    "#QualityControl",
-    "#MultiTaskLearning"
+    "#MultitaskLearning",
+    "#InSituMonitoring",
+    "#QualityControl"
   ],
   "paper_id": "2026-06-24-arxiv-a_multi_task_spatiotemporal_deep_neural_network_for_predicting_penetration_depth_and_morph",
   "paper_title": "A multi-task spatiotemporal deep neural network for predicting penetration depth and morphology in laser welding",
   "paper_date": "2026-06-24",
   "paper_category": "Coating Quality Prediction",
-  "generated_at": "2026-07-16T12:23:44",
+  "generated_at": "2026-07-18T11:56:04",
   "generator": "openai"
 }

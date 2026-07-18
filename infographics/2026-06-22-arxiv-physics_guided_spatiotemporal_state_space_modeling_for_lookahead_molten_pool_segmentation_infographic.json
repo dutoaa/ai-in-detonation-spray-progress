@@ -1,24 +1,24 @@
 {
-  "key_insight": "WeldMamba predicts future molten-pool, wire, and keyhole geometry from past images plus process/sensor signals, enabling lookahead weld-pool segmentation for delayed closed-loop control.",
-  "engineering_relevance": "This gives laser wire-feed welding controllers an earlier view of pool evolution, which can improve timing, trajectory correction, and defect avoidance under sensing and actuation delay.",
+  "key_insight": "WeldMamba predicts the future geometry of keyhole, wire, and molten pool regions from past images plus process/sensor signals to enable lookahead weld-pool segmentation under control delay.",
+  "engineering_relevance": "This provides a path to more reliable closed-loop laser wire-feed welding by compensating for sensing and actuation latency with physics-guided future state prediction.",
   "method": [
-    "Uses historical coaxial grayscale frames with welding parameters and wire-state electrical signals as multimodal inputs.",
-    "Applies physics-guided feature normalization, patch-level temporal state space modeling, and horizon-conditioned latent prediction to forecast future segmentation.",
-    "Adds motion-aware decoding with auxiliary SDF, temporal consistency, and keyhole-focused losses to preserve geometry and local dynamics."
+    "Uses coaxial grayscale image history with welding parameters and wire-state electrical signals as multimodal inputs.",
+    "Applies a spatiotemporal state-space model with process/sensor-conditioned normalization and horizon-conditioned latent prediction.",
+    "Adds motion-aware decoding and auxiliary losses (SDF, temporal consistency, distillation, keyhole supervision) to preserve geometry."
   ],
-  "evidence_signal": "On a 43-sequence laser welding dataset, the method achieved 74.63% mIoU at a 500 ms lookahead, with ablations showing history, patch-level state space modeling, and keyhole motion awareness are most important.",
-  "watch_item": "Performance depends on well-aligned multimodal sensing and may be sensitive to process changes or sensor noise outside the training distribution.",
+  "evidence_signal": "On a 43-sequence laser welding dataset, the method achieved 74.63% mIoU at a 500 ms lookahead.",
+  "watch_item": "Performance may depend on accurate signal alignment and the specific welding setup, so generalization to other materials, torch geometries, or sensing configurations should be validated.",
   "hashtags": [
     "#WeldingAI",
     "#StateSpaceModel",
     "#LookaheadSegmentation",
-    "#PhysicsGuidedML",
-    "#ClosedLoopControl"
+    "#ClosedLoopControl",
+    "#PhysicsGuidedML"
   ],
   "paper_id": "2026-06-22-arxiv-physics_guided_spatiotemporal_state_space_modeling_for_lookahead_molten_pool_segmentation",
   "paper_title": "Physics-Guided Spatiotemporal State Space Modeling for Lookahead Molten Pool Segmentation in Laser Wire-Feed Welding",
   "paper_date": "2026-06-22",
   "paper_category": "Welding Processes",
-  "generated_at": "2026-07-16T12:24:00",
+  "generated_at": "2026-07-18T11:56:18",
   "generator": "openai"
 }
