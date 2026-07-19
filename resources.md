@@ -1,6 +1,6 @@
 # AI Detonation Spray and Coating Progress Public Resources
 
-Generated: 2026-07-18
+Generated: 2026-07-19
 Public site: https://dutoaa.github.io/ai-in-detonation-spray-progress/
 
 ## 1. HVAF Spraying of NiTi Coatings: Microstructure, Phase Transformation and Shape Memory Behavior
@@ -36,18 +36,7 @@ Public site: https://dutoaa.github.io/ai-in-detonation-spray-progress/
 - PDF: None
 - Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2025-12-01-doaj-computational_and_machine_learning_modelling_approaches_for_weld_quality_predictions_in_fr_infographic.json
 
-## 4. A New Nonlinear Resistor Chaotic Circuit-Based Machine Learning Method for the Estimation of Material Parameters under Welding Gas Mixtures
-
-- Date: 2026-07-17
-- Source: OpenAlex
-- Venue: JOM
-- Category: Welding Processes
-- DOI: 10.1007/s11837-026-08531-y
-- Source link: https://doi.org/10.1007/s11837-026-08531-y
-- PDF: None
-- Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-07-17-openalex-a_new_nonlinear_resistor_chaotic_circuit_based_machine_learning_method_for_the_estimation_infographic.json
-
-## 5. A multi-task spatiotemporal deep neural network for predicting penetration depth and morphology in laser welding
+## 4. A multi-task spatiotemporal deep neural network for predicting penetration depth and morphology in laser welding
 
 - Date: 2026-06-24
 - Source: arXiv
@@ -57,6 +46,17 @@ Public site: https://dutoaa.github.io/ai-in-detonation-spray-progress/
 - Source link: https://arxiv.org/abs/2606.26260v1
 - PDF: https://arxiv.org/pdf/2606.26260v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-06-24-arxiv-a_multi_task_spatiotemporal_deep_neural_network_for_predicting_penetration_depth_and_morph_infographic.json
+
+## 5. A New Nonlinear Resistor Chaotic Circuit-Based Machine Learning Method for the Estimation of Material Parameters under Welding Gas Mixtures
+
+- Date: 2026-07-17
+- Source: OpenAlex
+- Venue: JOM
+- Category: Welding Processes
+- DOI: 10.1007/s11837-026-08531-y
+- Source link: https://doi.org/10.1007/s11837-026-08531-y
+- PDF: None
+- Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-07-17-openalex-a_new_nonlinear_resistor_chaotic_circuit_based_machine_learning_method_for_the_estimation_infographic.json
 
 ## 6. Enhanced Seam Segmentation for Automated Welding Robot in Construction Through Transfer Learning: Addressing Limitations of Bilateral Segmentation Network
 
@@ -113,18 +113,7 @@ Public site: https://dutoaa.github.io/ai-in-detonation-spray-progress/
 - PDF: https://arxiv.org/pdf/2606.23028v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-06-22-arxiv-physics_guided_spatiotemporal_state_space_modeling_for_lookahead_molten_pool_segmentation_infographic.json
 
-## 11. Layer-by-layer coating of electrosprayed Bacillus coagulans using niosomes and casein/gum arabic complexes induced by ultrasound and microwave-assisted interactions
-
-- Date: 2026-07-17
-- Source: OpenAlex
-- Venue: Scientific Reports
-- Category: AI materials, welding, and machine design
-- DOI: 10.1038/s41598-026-62339-z
-- Source link: https://doi.org/10.1038/s41598-026-62339-z
-- PDF: https://www.nature.com/articles/s41598-026-62339-z_reference.pdf
-- Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-07-17-openalex-layer_by_layer_coating_of_electrosprayed_bacillus_coagulans_using_niosomes_and_casein_gum_infographic.json
-
-## 12. Effect of Barrel Filling Ratio on the Microstructure, Phase Composition and Tribological Performance of Detonation-Sprayed Cr3C2–NiCr Coatings
+## 11. Effect of Barrel Filling Ratio on the Microstructure, Phase Composition and Tribological Performance of Detonation-Sprayed Cr3C2–NiCr Coatings
 
 - Date: 2026-07-04
 - Source: OpenAlex
@@ -134,6 +123,17 @@ Public site: https://dutoaa.github.io/ai-in-detonation-spray-progress/
 - Source link: https://doi.org/10.3390/app16136711
 - PDF: None
 - Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-07-04-openalex-effect_of_barrel_filling_ratio_on_the_microstructure_phase_composition_and_tribological_pe_infographic.json
+
+## 12. Layer-by-layer coating of electrosprayed Bacillus coagulans using niosomes and casein/gum arabic complexes induced by ultrasound and microwave-assisted interactions
+
+- Date: 2026-07-17
+- Source: OpenAlex
+- Venue: Scientific Reports
+- Category: AI materials, welding, and machine design
+- DOI: 10.1038/s41598-026-62339-z
+- Source link: https://doi.org/10.1038/s41598-026-62339-z
+- PDF: https://www.nature.com/articles/s41598-026-62339-z_reference.pdf
+- Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-07-17-openalex-layer_by_layer_coating_of_electrosprayed_bacillus_coagulans_using_niosomes_and_casein_gum_infographic.json
 
 ## 13. Optimising Cold Spray Additive Manufacturing: Pressure-driven enhancement of mechanical performance in copper deposits
 
@@ -168,18 +168,7 @@ Public site: https://dutoaa.github.io/ai-in-detonation-spray-progress/
 - PDF: https://www.mdpi.com/2673-4591/114/1/19/pdf
 - Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2025-11-01-doaj-a_comparative_analysis_of_multitask_neural_networks_and_stacking_ensemble_learning_for_pre_infographic.json
 
-## 16. High-temperature oxidation kinetics and microstructural evolution of detonation-sprayed AlCuFe quasicrystalline coatings
-
-- Date: 2026-07-13
-- Source: OpenAlex
-- Venue: Surface Engineering
-- Category: Coating Microstructure
-- DOI: 10.1177/02670844261464884
-- Source link: https://doi.org/10.1177/02670844261464884
-- PDF: None
-- Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-07-13-openalex-high_temperature_oxidation_kinetics_and_microstructural_evolution_of_detonation_sprayed_al_infographic.json
-
-## 17. Long-term corrosion behaviors and wear behavior of Fe-based amorphous coatings in different humidity environments
+## 16. Long-term corrosion behaviors and wear behavior of Fe-based amorphous coatings in different humidity environments
 
 - Date: 2025-12-01
 - Source: DOAJ
@@ -190,7 +179,7 @@ Public site: https://dutoaa.github.io/ai-in-detonation-spray-progress/
 - PDF: None
 - Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2025-12-01-doaj-long_term_corrosion_behaviors_and_wear_behavior_of_fe_based_amorphous_coatings_in_differen_infographic.json
 
-## 18. Enhancing weld performance of AA2024-T351 using drilled-to-bossed geometry and deep learning prediction in direct drive friction welding
+## 17. Enhancing weld performance of AA2024-T351 using drilled-to-bossed geometry and deep learning prediction in direct drive friction welding
 
 - Date: 2026-05-01
 - Source: DOAJ
@@ -200,6 +189,17 @@ Public site: https://dutoaa.github.io/ai-in-detonation-spray-progress/
 - Source link: https://doi.org/10.1038/s41598-026-52231-1
 - PDF: https://www.nature.com/articles/s41598-026-52231-1_reference.pdf
 - Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-05-01-doaj-enhancing_weld_performance_of_aa2024_t351_using_drilled_to_bossed_geometry_and_deep_learni_infographic.json
+
+## 18. High-temperature oxidation kinetics and microstructural evolution of detonation-sprayed AlCuFe quasicrystalline coatings
+
+- Date: 2026-07-13
+- Source: OpenAlex
+- Venue: Surface Engineering
+- Category: Coating Microstructure
+- DOI: 10.1177/02670844261464884
+- Source link: https://doi.org/10.1177/02670844261464884
+- PDF: None
+- Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-07-13-openalex-high_temperature_oxidation_kinetics_and_microstructural_evolution_of_detonation_sprayed_al_infographic.json
 
 ## 19. Surface Characteristics of Titanium Based Coatings Obtained by Detonation Spraying Under Various Process Conditions
 
