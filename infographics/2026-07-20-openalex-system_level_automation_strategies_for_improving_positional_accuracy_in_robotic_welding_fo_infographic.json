@@ -1,0 +1,24 @@
+{
+  "key_insight": "The paper argues that robotic welding accuracy can be improved primarily through automation-logic design—repeatable initialization, structured sequencing, conservative motion planning, and smoother transitions—rather than hardware changes.",
+  "engineering_relevance": "This is relevant for high-reliability manufacturing, especially aerospace and space-grade production, where positional consistency and predictable control are more important than maximum speed or aggressive optimization.",
+  "method": [
+    "Standardize robot startup and initialization routines",
+    "Use structured task sequencing to reduce cumulative positioning error",
+    "Apply conservative motion planning and transition-smoothness control"
+  ],
+  "evidence_signal": "The abstract presents a framework proposal and conceptual analysis of error propagation, but it does not report experimental datasets, quantitative accuracy gains, or benchmark validation.",
+  "watch_item": "The approach may be constrained if plant conditions, robot kinematics, or weld variability require sensor feedback or hardware calibration beyond automation-logic optimization.",
+  "hashtags": [
+    "#RoboticWelding",
+    "#ManufacturingAutomation",
+    "#PositionalAccuracy",
+    "#AerospaceManufacturing",
+    "#DigitalTwin"
+  ],
+  "paper_id": "2026-07-20-openalex-system_level_automation_strategies_for_improving_positional_accuracy_in_robotic_welding_fo",
+  "paper_title": "System-Level Automation Strategies for Improving Positional Accuracy in Robotic Welding for High-Reliability Manufacturing",
+  "paper_date": "2026-07-20",
+  "paper_category": "AI Process Optimization",
+  "generated_at": "2026-07-21T12:26:01",
+  "generator": "openai"
+}
