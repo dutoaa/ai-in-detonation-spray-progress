@@ -1,24 +1,24 @@
 {
-  "key_insight": "SimPhysNet combines physics-informed self-supervised learning with few-shot prototypical classification to predict laser welding penetration accurately from very limited labels.",
-  "engineering_relevance": "The method can reduce annotation burden while enabling reliable, high-throughput penetration-state monitoring for industrial laser welding quality control.",
+  "key_insight": "SimPhysNet uses physics-informed self-supervised learning plus few-shot prototypical classification to predict laser welding penetration accurately with very little labeled data.",
+  "engineering_relevance": "This enables more scalable, data-efficient weld quality monitoring and supports intelligent automation for defect-free laser welding.",
   "method": [
-    "Physics-informed neural network guides feature learning from abundant unlabeled molten-pool/keyhole images.",
-    "Three image augmentation tasks strengthen contrastive self-supervised representation learning.",
-    "Few-shot prototypical networks classify penetration state using only a small labeled set."
+    "Physics-informed neural network (PINN) embeds physical priors into contrastive self-supervised feature learning.",
+    "Three image augmentation tasks improve robustness and generalization from unlabeled molten-pool/keyhole images.",
+    "Prototypical networks perform few-shot classification using only a small labeled set."
   ],
-  "evidence_signal": "The abstract reports 96.06% classification accuracy using 200 labeled images, about 5% of the labeled dataset, comparable to fully supervised baselines.",
-  "watch_item": "Performance may depend on the quality and representativeness of the unlabeled welding images and on how well the physics priors generalize across machines and process conditions.",
+  "evidence_signal": "The model reached 96.06% classification accuracy using only 200 labeled images, about 5% of the labeled dataset, comparable to fully supervised baselines.",
+  "watch_item": "Performance may depend on the availability of representative unlabeled welding images and the reliability of the physics priors under changing process conditions.",
   "hashtags": [
     "#LaserWelding",
     "#PhysicsInformedAI",
     "#SelfSupervisedLearning",
     "#FewShotLearning",
-    "#WeldingQuality"
+    "#WeldQuality"
   ],
   "paper_id": "2026-06-24-arxiv-a_welding_penetration_prediction_model_for_laser_welding_process_based_on_self_supervised",
   "paper_title": "A welding penetration prediction model for laser welding process based on self-supervised learning using physics-informed neural networks",
   "paper_date": "2026-06-24",
   "paper_category": "Welding Processes",
-  "generated_at": "2026-07-21T12:25:56",
+  "generated_at": "2026-07-22T12:28:36",
   "generator": "openai"
 }

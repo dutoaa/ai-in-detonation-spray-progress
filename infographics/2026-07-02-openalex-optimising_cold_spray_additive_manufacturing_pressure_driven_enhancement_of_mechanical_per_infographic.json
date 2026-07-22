@@ -1,24 +1,24 @@
 {
-  "key_insight": "Raising cold-spray pressure from 30 to 60 bar increases copper particle velocity past the bonding threshold, producing denser deposits with better conductivity and ductility through stronger inter-particle bonding and recrystallization-related refinement.",
-  "engineering_relevance": "For copper CSAM, spray pressure is a key control knob for tuning the trade-off between mechanical integrity and electrical performance in additively manufactured parts.",
+  "key_insight": "Raising cold-spray pressure from 30 to 60 bar boosts copper particle velocity past the bonding threshold, producing denser deposits with better conductivity and much higher ductility.",
+  "engineering_relevance": "This defines a practical process window for CSAM copper parts where mechanical integrity and electrical performance can be balanced for functional manufacturing.",
   "method": [
     "LightSPEE3D cold spray copper deposits were produced at 30, 40, 50, and 60 bar.",
-    "Microstructure and crystallite evolution were assessed with SEM and XRD.",
-    "Hardness, eddy current conductivity, and tensile testing quantified property changes."
+    "Microstructure and phase-state trends were assessed by XRD and SEM.",
+    "Performance was measured using hardness, eddy-current conductivity, and tensile testing."
   ],
-  "evidence_signal": "The abstract reports pressure-dependent improvements in particle velocity, conductivity, and ductility, with XRD indicating crystallite refinement and higher dislocation density at increased pressure.",
-  "watch_item": "Higher pressure reduced hardness via recovery/recrystallization effects, so the optimum window must balance strength, ductility, and conductivity rather than maximize only one property.",
+  "evidence_signal": "The abstract reports a clear pressure-dependent trend: higher pressure increased crystallite refinement, improved inter-particle bonding and conductivity, and shifted tensile behavior toward ductile fracture.",
+  "watch_item": "Higher pressure improved ductility but reduced hardness, so the best setting depends on whether the priority is conductivity/ductility or surface wear resistance.",
   "hashtags": [
     "#ColdSpray",
     "#AdditiveManufacturing",
     "#Copper",
-    "#Microstructure",
-    "#MechanicalProperties"
+    "#ThermalSpray",
+    "#MaterialsEngineering"
   ],
   "paper_id": "2026-07-02-openalex-optimising_cold_spray_additive_manufacturing_pressure_driven_enhancement_of_mechanical_per",
   "paper_title": "Optimising Cold Spray Additive Manufacturing: Pressure-driven enhancement of mechanical performance in copper deposits",
   "paper_date": "2026-07-02",
   "paper_category": "Thermal Spray Coatings",
-  "generated_at": "2026-07-21T12:26:43",
+  "generated_at": "2026-07-22T12:29:34",
   "generator": "openai"
 }

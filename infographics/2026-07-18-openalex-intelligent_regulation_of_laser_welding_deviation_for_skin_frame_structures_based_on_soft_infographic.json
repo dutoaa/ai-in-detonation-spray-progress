@@ -1,24 +1,24 @@
 {
-  "key_insight": "The paper proposes a hybrid intelligent control scheme that combines soft-voting ensemble learning with PSO-optimized fuzzy control to reduce laser welding deviation in skin-frame structures.",
-  "engineering_relevance": "This approach targets more stable, accurate laser welding of complex frame assemblies, which is relevant for improving manufacturing precision and reducing defect rates in aerospace and similar structural applications.",
+  "key_insight": "The paper proposes an intelligent closed-loop approach to reduce laser welding deviation in skin-frame structures by combining soft-voting ensemble learning with PSO-optimized fuzzy control.",
+  "engineering_relevance": "This is relevant for improving weld path accuracy and consistency in thin-walled aerospace or automotive assemblies where geometric deviation can degrade joint quality.",
   "method": [
-    "Soft-voting ensemble learning is used to infer welding deviation patterns.",
-    "Particle swarm optimization (PSO) tunes fuzzy controller parameters.",
-    "The controller is designed for real-time deviation regulation during laser welding."
+    "Use soft-voting ensemble learning to estimate or classify welding deviation states.",
+    "Optimize a fuzzy controller with particle swarm optimization (PSO) for adaptive deviation correction.",
+    "Integrate the predictor and controller into an intelligent regulation workflow for laser welding."
   ],
-  "evidence_signal": "The abstract indicates a journal article in Optics & Laser Technology, but it does not provide specific dataset size, validation metrics, or quantitative performance results.",
-  "watch_item": "Implementation may depend on representative training data and careful tuning for different joint geometries, materials, and shop-floor process disturbances.",
+  "evidence_signal": "The abstract identifies this as a journal article in Optics & Laser Technology, but it does not provide quantitative results or dataset details in the summary.",
+  "watch_item": "Performance and robustness may depend on the representativeness of training data and on how well the controller generalizes to new skin-frame geometries and process disturbances.",
   "hashtags": [
     "#LaserWelding",
     "#FuzzyControl",
     "#EnsembleLearning",
     "#PSO",
-    "#SmartManufacturing"
+    "#ManufacturingAI"
   ],
   "paper_id": "2026-07-18-openalex-intelligent_regulation_of_laser_welding_deviation_for_skin_frame_structures_based_on_soft",
   "paper_title": "Intelligent regulation of laser welding deviation for skin-frame structures based on soft voting ensemble learning and PSO-optimized fuzzy control",
   "paper_date": "2026-07-18",
   "paper_category": "Welding Processes",
-  "generated_at": "2026-07-21T12:26:41",
+  "generated_at": "2026-07-22T12:29:37",
   "generator": "openai"
 }

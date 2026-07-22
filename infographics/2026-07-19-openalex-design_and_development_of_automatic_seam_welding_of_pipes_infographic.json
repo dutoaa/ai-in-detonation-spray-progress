@@ -1,24 +1,24 @@
 {
-  "key_insight": "An automated seam-welding system with controlled rotation and pneumatic fixturing can produce more uniform pipe welds while sharply reducing leakage failures.",
-  "engineering_relevance": "The work shows how low-cost mechanical automation and thermal management can improve throughput, safety, and repeatability in pipe joining applications.",
+  "key_insight": "The paper shows that a purpose-built automated seam welding system can deliver more consistent pipe joining by combining rigid fixturing, controlled rotation, and pneumatic clamping.",
+  "engineering_relevance": "It is relevant to manufacturing automation because it reduces manual variability, improves operator safety, and enables more uniform weld quality in cylindrical pipe production.",
   "method": [
-    "Built a rigid frame with specialized pipe-holding fixtures and programmable pneumatic clamps.",
-    "Used a gear-motor drive to maintain 10–15 RPM during continuous seam welding.",
-    "Integrated internal water-cooled CuCrZr rotating wheel electrodes to limit heat buildup."
+    "Designed and fabricated an automatic seam welding rig with a mechanical frame, workpiece fixtures, and programmable pneumatic clamps.",
+    "Used a gear-motor drive to maintain controlled pipe rotation at 10–15 RPM for continuous weld-bead formation.",
+    "Compared welding performance on CRCS and ER34 pipes while evaluating current and wall-thickness effects; added internal water-cooled CuCrZr rotating wheel electrodes for heat control."
   ],
-  "evidence_signal": "The abstract reports comparative testing on CRCS and ER34 pipes with 11–13 A welding current and 2.5 mm wall thickness, reducing leakage failure from about 15% to below 3%.",
-  "watch_item": "Performance is reported for a narrow set of materials and process settings, so broader validation across pipe sizes, alloys, and duty cycles is still needed.",
+  "evidence_signal": "The abstract reports a leakage-failure reduction from 15% in the baseline setup to below 3% after implementing the automated system and cooling strategy.",
+  "watch_item": "Performance appears validated on a limited material and parameter range, so scale-up to other pipe sizes, alloys, or higher-throughput conditions may require re-tuning.",
   "hashtags": [
-    "#SeamWelding",
     "#WeldingAutomation",
     "#ManufacturingEngineering",
     "#ProcessOptimization",
+    "#PipeWelding",
     "#MachineDesign"
   ],
   "paper_id": "2026-07-19-openalex-design_and_development_of_automatic_seam_welding_of_pipes",
   "paper_title": "Design and Development of Automatic Seam Welding of Pipes",
   "paper_date": "2026-07-19",
   "paper_category": "AI Process Optimization",
-  "generated_at": "2026-07-21T12:26:18",
+  "generated_at": "2026-07-22T12:29:18",
   "generator": "openai"
 }
