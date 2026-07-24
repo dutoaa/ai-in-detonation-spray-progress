@@ -1,15 +1,15 @@
 {
-  "key_insight": "A lightweight transfer-learning and hybrid Cross-Entropy–Lovász training strategy makes BiSeNetV2 far more robust for seam segmentation under reflective welding conditions without changing the model architecture.",
-  "engineering_relevance": "This offers a practical real-time perception upgrade for construction welding robots, improving seam detection on shiny metal surfaces while preserving the speed and efficiency needed for deployment.",
+  "key_insight": "A transfer-learning upgrade of BiSeNetV2 with a hybrid Cross-Entropy–Lovász loss substantially improves weld seam segmentation robustness under reflective, low-visibility construction welding conditions without increasing model complexity.",
+  "engineering_relevance": "This offers a lightweight, real-time perception solution that can make autonomous welding robots more reliable on challenging metallic surfaces and in harsh illumination.",
   "method": [
-    "Start from a BiSeNetV2 backbone and apply transfer learning for seam segmentation.",
-    "Use a hybrid Cross-Entropy–Lovász loss to stabilize learning and improve boundary continuity.",
-    "Focus optimization on reflection robustness rather than adding network complexity."
+    "Fine-tuned a BiSeNetV2 backbone using transfer learning.",
+    "Used a hybrid Cross-Entropy–Lovász objective to stabilize training and improve boundary/overlap accuracy.",
+    "Focused on reflection robustness rather than adding parameters, FLOPs, or latency."
   ],
-  "evidence_signal": "The method reached 81.76% Joint IoU and 90.73% mIoU, improving Joint IoU by 22.36 points over the OHEM baseline while keeping FLOPs, parameters, and inference speed unchanged.",
-  "watch_item": "Performance gains are shown in the reported welding datasets and may still require site-specific validation for different metal finishes, lighting conditions, and seam geometries.",
+  "evidence_signal": "The proposed method reached 81.76% Joint IoU and 90.73% mIoU, improving Joint IoU by +22.36 points over the OHEM baseline while recovering 96.33% of severe zero-IoU failure cases.",
+  "watch_item": "Performance gains are shown for specific welding-reflection conditions, so deployment should still be validated across new joint types, materials, and camera/lighting setups.",
   "hashtags": [
-    "#WeldingRobotics",
+    "#RoboticWelding",
     "#SeamSegmentation",
     "#TransferLearning",
     "#BiSeNetV2",
@@ -19,6 +19,6 @@
   "paper_title": "Enhanced Seam Segmentation for Automated Welding Robot in Construction Through Transfer Learning: Addressing Limitations of Bilateral Segmentation Network",
   "paper_date": "2026-07-07",
   "paper_category": "Welding Processes",
-  "generated_at": "2026-07-22T12:29:08",
+  "generated_at": "2026-07-24T12:27:25",
   "generator": "openai"
 }

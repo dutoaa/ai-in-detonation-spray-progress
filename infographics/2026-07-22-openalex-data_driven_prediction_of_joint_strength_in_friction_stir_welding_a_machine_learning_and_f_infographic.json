@@ -1,0 +1,24 @@
+{
+  "key_insight": "Machine learning can accurately predict friction stir welding joint strength, with Random Forest Regression and Artificial Neural Networks performing best and SHAP revealing the most influential process parameters.",
+  "engineering_relevance": "This enables faster, data-driven process optimization for welding setups, especially when balancing strength in similar and dissimilar joints.",
+  "method": [
+    "Compiled 275 literature-derived FSW datasets",
+    "Trained and tuned multiple ML models: Random Forest, ANN, KNN, SVR",
+    "Used SHAP to rank feature importance and interpret parameter effects"
+  ],
+  "evidence_signal": "Across the collected datasets, Random Forest Regression and ANN achieved the highest prediction accuracy, and SHAP identified tool rotational speed and plate thickness as the dominant variables.",
+  "watch_item": "Because the dataset is assembled from peer-reviewed literature, model transferability may be limited by differences in materials, tooling, and reporting conditions across studies.",
+  "hashtags": [
+    "#FrictionStirWelding",
+    "#MachineLearning",
+    "#ProcessOptimization",
+    "#SHAP",
+    "#MaterialsInformatics"
+  ],
+  "paper_id": "2026-07-22-openalex-data_driven_prediction_of_joint_strength_in_friction_stir_welding_a_machine_learning_and_f",
+  "paper_title": "Data-driven prediction of joint strength in friction stir welding: A machine learning and feature sensitivity analysis",
+  "paper_date": "2026-07-22",
+  "paper_category": "AI Process Optimization",
+  "generated_at": "2026-07-24T12:27:02",
+  "generator": "openai"
+}
