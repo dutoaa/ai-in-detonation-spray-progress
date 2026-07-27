@@ -1,31 +1,9 @@
 # AI Detonation Spray and Coating Progress Public Resources
 
-Generated: 2026-07-26
+Generated: 2026-07-27
 Public site: https://dutoaa.github.io/ai-in-detonation-spray-progress/
 
-## 1. AI-Driven Electrical Machine Design: From Surrogate-Assisted Optimization to Trustworthy, Manufacturable, and Sustainable Design Workflows
-
-- Date: 2026-07-24
-- Source: OpenAlex
-- Venue: Designs
-- Category: AI Machine Design
-- DOI: 10.3390/designs10040076
-- Source link: https://doi.org/10.3390/designs10040076
-- PDF: None
-- Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-07-24-openalex-ai_driven_electrical_machine_design_from_surrogate_assisted_optimization_to_trustworthy_ma_infographic.json
-
-## 2. Microstructure, Sliding Wear, and Electrochemical Corrosion of a High-Entropy Alloy–Cermet Composite Thermal Spray Coating
-
-- Date: 2026-07-23
-- Source: OpenAlex
-- Venue: Coatings
-- Category: Thermal Spray Coatings
-- DOI: 10.3390/coatings16080885
-- Source link: https://doi.org/10.3390/coatings16080885
-- PDF: https://www.mdpi.com/2079-6412/16/8/885/pdf?version=1784814058
-- Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-07-23-openalex-microstructure_sliding_wear_and_electrochemical_corrosion_of_a_high_entropy_alloy_cermet_c_infographic.json
-
-## 3. HVAF Spraying of NiTi Coatings: Microstructure, Phase Transformation and Shape Memory Behavior
+## 1. HVAF Spraying of NiTi Coatings: Microstructure, Phase Transformation and Shape Memory Behavior
 
 - Date: 2026-07-02
 - Source: arXiv
@@ -35,6 +13,28 @@ Public site: https://dutoaa.github.io/ai-in-detonation-spray-progress/
 - Source link: https://arxiv.org/abs/2607.01997v1
 - PDF: https://arxiv.org/pdf/2607.01997v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-07-02-arxiv-hvaf_spraying_of_niti_coatings_microstructure_phase_transformation_and_shape_memory_behavi_infographic.json
+
+## 2. Numerical and experimental analysis of melt layer formation in serial hot gas welding
+
+- Date: 2026-07-25
+- Source: OpenAlex
+- Venue: Welding in the World
+- Category: Welding Processes
+- DOI: 10.1007/s40194-026-02569-x
+- Source link: https://doi.org/10.1007/s40194-026-02569-x
+- PDF: None
+- Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-07-25-openalex-numerical_and_experimental_analysis_of_melt_layer_formation_in_serial_hot_gas_welding_infographic.json
+
+## 3. Advancing Tilt Angle Control in Friction Stir Welding using Fuzzy Logic
+
+- Date: 2026-07-25
+- Source: OpenAlex
+- Venue: International Journal of Latest Technology in Engineering Management & Applied Science
+- Category: Welding Processes
+- DOI: 10.51583/ijltemas.2026.150600225
+- Source link: https://doi.org/10.51583/ijltemas.2026.150600225
+- PDF: None
+- Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-07-25-openalex-advancing_tilt_angle_control_in_friction_stir_welding_using_fuzzy_logic_infographic.json
 
 ## 4. Computational and machine learning modelling approaches for weld quality predictions in friction stir welding of high-density polyethylene
 
@@ -58,18 +58,7 @@ Public site: https://dutoaa.github.io/ai-in-detonation-spray-progress/
 - PDF: https://arxiv.org/pdf/2607.16013v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-07-17-arxiv-robust_monitoring_of_arc_welding_processes_a_generalizable_framework_with_dvae_and_particl_infographic.json
 
-## 6. Optimization and Tribological Evaluation of Plasma-Sprayed Cr3C2 and Stellite Coatings on Inconel 625 using Taguchi-ANOVA Method
-
-- Date: 2026-07-24
-- Source: OpenAlex
-- Venue: Transactions of the Canadian Society for Mechanical Engineering
-- Category: Thermal Spray Coatings
-- DOI: 10.1139/tcsme-2026-0105
-- Source link: https://doi.org/10.1139/tcsme-2026-0105
-- PDF: None
-- Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-07-24-openalex-optimization_and_tribological_evaluation_of_plasma_sprayed_cr3c2_and_stellite_coatings_on_infographic.json
-
-## 7. Enhanced Seam Segmentation for Automated Welding Robot in Construction Through Transfer Learning: Addressing Limitations of Bilateral Segmentation Network
+## 6. Enhanced Seam Segmentation for Automated Welding Robot in Construction Through Transfer Learning: Addressing Limitations of Bilateral Segmentation Network
 
 - Date: 2026-07-07
 - Source: arXiv
@@ -79,6 +68,17 @@ Public site: https://dutoaa.github.io/ai-in-detonation-spray-progress/
 - Source link: https://arxiv.org/abs/2607.06150v1
 - PDF: https://arxiv.org/pdf/2607.06150v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-07-07-arxiv-enhanced_seam_segmentation_for_automated_welding_robot_in_construction_through_transfer_le_infographic.json
+
+## 7. Optimization and Tribological Evaluation of Plasma-Sprayed Cr3C2 and Stellite Coatings on Inconel 625 using Taguchi-ANOVA Method
+
+- Date: 2026-07-24
+- Source: OpenAlex
+- Venue: Transactions of the Canadian Society for Mechanical Engineering
+- Category: Thermal Spray Coatings
+- DOI: 10.1139/tcsme-2026-0105
+- Source link: https://doi.org/10.1139/tcsme-2026-0105
+- PDF: None
+- Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-07-24-openalex-optimization_and_tribological_evaluation_of_plasma_sprayed_cr3c2_and_stellite_coatings_on_infographic.json
 
 ## 8. Tribological enhancement of Al 2 O 3 -TiO 2 D-gun coated Ti-6Al-4V alloy: A machine learning approach
 
@@ -157,18 +157,7 @@ Public site: https://dutoaa.github.io/ai-in-detonation-spray-progress/
 - PDF: None
 - Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2025-12-01-doaj-long_term_corrosion_behaviors_and_wear_behavior_of_fe_based_amorphous_coatings_in_differen_infographic.json
 
-## 15. Multilayer Self‐Limiting Electrospray Deposition via Stepped Voltage Bias
-
-- Date: 2026-07-23
-- Source: OpenAlex
-- Venue: Advanced Engineering Materials
-- Category: AI Process Optimization
-- DOI: 10.1002/adem.71122
-- Source link: https://doi.org/10.1002/adem.71122
-- PDF: None
-- Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-07-23-openalex-multilayer_self_limiting_electrospray_deposition_via_stepped_voltage_bias_infographic.json
-
-## 16. Enhancing weld performance of AA2024-T351 using drilled-to-bossed geometry and deep learning prediction in direct drive friction welding
+## 15. Enhancing weld performance of AA2024-T351 using drilled-to-bossed geometry and deep learning prediction in direct drive friction welding
 
 - Date: 2026-05-01
 - Source: DOAJ
@@ -179,7 +168,7 @@ Public site: https://dutoaa.github.io/ai-in-detonation-spray-progress/
 - PDF: https://www.nature.com/articles/s41598-026-52231-1_reference.pdf
 - Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-05-01-doaj-enhancing_weld_performance_of_aa2024_t351_using_drilled_to_bossed_geometry_and_deep_learni_infographic.json
 
-## 17. Surface Characteristics of Titanium Based Coatings Obtained by Detonation Spraying Under Various Process Conditions
+## 16. Surface Characteristics of Titanium Based Coatings Obtained by Detonation Spraying Under Various Process Conditions
 
 - Date: 2025-12-01
 - Source: DOAJ
@@ -190,7 +179,7 @@ Public site: https://dutoaa.github.io/ai-in-detonation-spray-progress/
 - PDF: http://ijmse.iust.ac.ir/article-1-4073-en.pdf
 - Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2025-12-01-doaj-surface_characteristics_of_titanium_based_coatings_obtained_by_detonation_spraying_under_v_infographic.json
 
-## 18. Effects of electron beam welding on the microstructure and impact properties of three reconstituted steels
+## 17. Effects of electron beam welding on the microstructure and impact properties of three reconstituted steels
 
 - Date: 2025-10-01
 - Source: DOAJ
@@ -200,6 +189,17 @@ Public site: https://dutoaa.github.io/ai-in-detonation-spray-progress/
 - Source link: https://doi.org/10.19591/j.cnki.cn11-1974/tf.2024070004
 - PDF: None
 - Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2025-10-01-doaj-effects_of_electron_beam_welding_on_the_microstructure_and_impact_properties_of_three_reco_infographic.json
+
+## 18. Multilayer Self‐Limiting Electrospray Deposition via Stepped Voltage Bias
+
+- Date: 2026-07-23
+- Source: OpenAlex
+- Venue: Advanced Engineering Materials
+- Category: AI Process Optimization
+- DOI: 10.1002/adem.71122
+- Source link: https://doi.org/10.1002/adem.71122
+- PDF: None
+- Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-07-23-openalex-multilayer_self_limiting_electrospray_deposition_via_stepped_voltage_bias_infographic.json
 
 ## 19. Tribological Performance and Machine Learning-Assisted Prediction of Wear and Friction in D-Gun Sprayed WC-12Co and Al2O3-13TiO2 Coatings
 

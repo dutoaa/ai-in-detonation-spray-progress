@@ -1,0 +1,24 @@
+{
+  "key_insight": "A Mamdani fuzzy controller can adaptively tune FSW tool tilt angle in real time from sensor feedback to reduce weld defects and improve joint quality.",
+  "engineering_relevance": "This enables more robust CNC-based friction stir welding by linking torque, temperature, and plunge-depth deviation directly to automatic tilt correction.",
+  "method": [
+    "Inputs: torque, temperature, and plunge depth deviation.",
+    "Mamdani fuzzy inference with triangular membership functions and expert rules.",
+    "Centroid defuzzification to compute tilt-angle adjustments in MATLAB simulation."
+  ],
+  "evidence_signal": "The abstract reports a sample output of 0.224° for 10 Nm torque, 45 °C temperature, and 0.5 mm plunge deviation, with surface plots showing smooth control behavior over -0.4° to +0.5°.",
+  "watch_item": "The results are simulation-based, so real-world performance will depend on sensor quality, latency, and integration with the welding machine dynamics.",
+  "hashtags": [
+    "#FrictionStirWelding",
+    "#FuzzyLogic",
+    "#AdaptiveControl",
+    "#CNCManufacturing",
+    "#WeldingAutomation"
+  ],
+  "paper_id": "2026-07-25-openalex-advancing_tilt_angle_control_in_friction_stir_welding_using_fuzzy_logic",
+  "paper_title": "Advancing Tilt Angle Control in Friction Stir Welding using Fuzzy Logic",
+  "paper_date": "2026-07-25",
+  "paper_category": "Welding Processes",
+  "generated_at": "2026-07-27T13:41:31",
+  "generator": "openai"
+}

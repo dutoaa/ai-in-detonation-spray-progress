@@ -1,24 +1,24 @@
 {
-  "key_insight": "Stepped target-bias control turns self-limiting electrospray deposition into a multilayer process, enabling thickness to increase layer-by-layer instead of being fixed by one spray pass.",
-  "engineering_relevance": "This provides a practical route to conformal, bias-tunable coatings on complex 3D surfaces, bridging electrospray deposition with nanoscale-to-microscale film design for advanced coatings and composites.",
+  "key_insight": "Stepped removal of target bias enables self-limiting electrospray deposition to build multiple coating layers with controllable thickness.",
+  "engineering_relevance": "This provides a practical route to nanoscale, conformal multilayer coatings on complex 3D surfaces without abandoning the benefits of self-limited electrospray processing.",
   "method": [
-    "Apply electrospray deposition in the self-limiting regime.",
-    "Use a secondary target bias to reduce and tune deposited thickness.",
-    "Remove bias stepwise to build tri-layer and multilayer stacks; combine with capillary rise infiltration for robust nanocomposites."
+    "Apply electrospray deposition under a target bias to reduce coating thickness and improve uniformity.",
+    "Stepwise remove the bias between deposition passes to increment the thickness layer by layer.",
+    "Use the approach to form multilayer polystyrene stacks and then infiltrate bilayer films via thermal capillary rise infiltration (CaRI)."
   ],
-  "evidence_signal": "The abstract reports tri-layer polystyrene stacks with bias-controlled thickness, uniform tri-layer coatings on complex geometry, and mechanically robust nanocomposites after CaRI infiltration.",
-  "watch_item": "Thickness and uniformity depend on precise voltage stepping and spray/material parameters, so reproducibility and process control may be sensitive to setup calibration.",
+  "evidence_signal": "The abstract reports successful tri-layer polystyrene stacks, uniform tri-layer coatings on a complex geometry, and a mechanically robust nanocomposite made from electrosprayed bilayers with CaRI.",
+  "watch_item": "Thickness control depends on bias tuning and spray/material parameters, so process repeatability and geometry-specific calibration may be needed.",
   "hashtags": [
     "#ElectrosprayDeposition",
+    "#SelfLimitingDeposition",
     "#ThinFilms",
-    "#Coatings",
-    "#MaterialsEngineering",
-    "#ProcessControl"
+    "#MultilayerCoatings",
+    "#SurfaceEngineering"
   ],
   "paper_id": "2026-07-23-openalex-multilayer_self_limiting_electrospray_deposition_via_stepped_voltage_bias",
   "paper_title": "Multilayer Self‐Limiting Electrospray Deposition via Stepped Voltage Bias",
   "paper_date": "2026-07-23",
   "paper_category": "AI Process Optimization",
-  "generated_at": "2026-07-26T12:08:13",
+  "generated_at": "2026-07-27T13:42:13",
   "generator": "openai"
 }
