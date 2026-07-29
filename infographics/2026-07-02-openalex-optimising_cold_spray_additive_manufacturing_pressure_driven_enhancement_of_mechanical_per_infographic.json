@@ -1,24 +1,24 @@
 {
-  "key_insight": "Raising cold spray pressure from 30 to 60 bar increases copper particle velocity past the critical bonding threshold, producing denser deposits with better conductivity and ductility through stronger inter-particle bonding and microstructural refinement.",
-  "engineering_relevance": "For CSAM copper parts, spray pressure is a key control knob to balance electrical performance and mechanical integrity without melting the material.",
+  "key_insight": "Raising cold-spray pressure from 30 to 60 bar increases copper particle velocity past the bonding threshold, producing denser, more ductile deposits with better conductivity but lower hardness.",
+  "engineering_relevance": "For CSAM copper parts, spray pressure is a primary control knob to tune the trade-off between electrical performance, tensile ductility, and strength.",
   "method": [
-    "Cold-sprayed copper at 30, 40, 50, and 60 bar using a LightSPEE3D system",
-    "Characterised deposits with XRD, SEM, hardness, eddy current conductivity, and tensile testing",
-    "Compared pressure-driven changes in particle velocity, microstructure, and fracture behaviour"
+    "Cold-sprayed copper on a LightSPEE3D system at 30, 40, 50, and 60 bar",
+    "Measured particle/microstructural response with XRD and SEM",
+    "Evaluated performance using hardness, eddy current conductivity, and tensile testing"
   ],
-  "evidence_signal": "The abstract reports that higher pressure correlated with refined crystallites, increased dislocation density, higher conductivity, lower hardness, and a clear shift toward more ductile tensile fracture.",
-  "watch_item": "The best property balance depends on staying within the higher-pressure processing window, since over-processing may reduce hardness and the results are specific to the tested system and copper feedstock.",
+  "evidence_signal": "The abstract reports progressive crystallite refinement and higher dislocation density with pressure, along with improved conductivity and a clear shift toward ductile tensile fracture at higher pressures.",
+  "watch_item": "The optimum appears pressure-dependent for this specific system, so the same window may not transfer directly to other nozzle designs, feedstocks, or substrate conditions.",
   "hashtags": [
     "#ColdSpray",
-    "#AdditiveManufacturing",
+    "#CSAM",
     "#Copper",
-    "#MaterialsEngineering",
+    "#AdditiveManufacturing",
     "#ThermalSpray"
   ],
   "paper_id": "2026-07-02-openalex-optimising_cold_spray_additive_manufacturing_pressure_driven_enhancement_of_mechanical_per",
   "paper_title": "Optimising Cold Spray Additive Manufacturing: Pressure-driven enhancement of mechanical performance in copper deposits",
   "paper_date": "2026-07-02",
   "paper_category": "Thermal Spray Coatings",
-  "generated_at": "2026-07-27T13:41:53",
+  "generated_at": "2026-07-29T13:04:19",
   "generator": "openai"
 }

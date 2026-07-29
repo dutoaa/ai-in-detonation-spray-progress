@@ -1,24 +1,24 @@
 {
-  "key_insight": "A Mamdani fuzzy controller can adaptively tune FSW tool tilt angle in real time from sensor feedback to reduce weld defects and improve joint quality.",
-  "engineering_relevance": "This enables more robust CNC-based friction stir welding by linking torque, temperature, and plunge-depth deviation directly to automatic tilt correction.",
+  "key_insight": "A Mamdani fuzzy-logic controller can continuously correct FSW tool tilt angle in response to torque, temperature, and plunge-depth deviation to help maintain weld quality.",
+  "engineering_relevance": "This enables more adaptive and automatable tilt control for CNC-based friction stir welding, reducing defects caused by poor tool orientation.",
   "method": [
-    "Inputs: torque, temperature, and plunge depth deviation.",
-    "Mamdani fuzzy inference with triangular membership functions and expert rules.",
-    "Centroid defuzzification to compute tilt-angle adjustments in MATLAB simulation."
+    "Inputs: torque, temperature, and plunge-depth deviation.",
+    "Mamdani fuzzy inference with triangular membership functions.",
+    "Centroid defuzzification to compute tilt correction from an expert rule base."
   ],
-  "evidence_signal": "The abstract reports a sample output of 0.224° for 10 Nm torque, 45 °C temperature, and 0.5 mm plunge deviation, with surface plots showing smooth control behavior over -0.4° to +0.5°.",
-  "watch_item": "The results are simulation-based, so real-world performance will depend on sensor quality, latency, and integration with the welding machine dynamics.",
+  "evidence_signal": "In MATLAB simulation, a sample input set (10 Nm, 45 °C, 0.5 mm deviation) produced a 0.224° tilt adjustment, with surface plots showing smooth response across a range of -0.4° to +0.5°.",
+  "watch_item": "The approach is simulation-based, so real-world performance will depend on sensor noise, actuator response, and how well the fuzzy rules generalize across different FSW conditions.",
   "hashtags": [
     "#FrictionStirWelding",
     "#FuzzyLogic",
-    "#AdaptiveControl",
-    "#CNCManufacturing",
-    "#WeldingAutomation"
+    "#ProcessControl",
+    "#WeldingAutomation",
+    "#CNCManufacturing"
   ],
   "paper_id": "2026-07-25-openalex-advancing_tilt_angle_control_in_friction_stir_welding_using_fuzzy_logic",
   "paper_title": "Advancing Tilt Angle Control in Friction Stir Welding using Fuzzy Logic",
   "paper_date": "2026-07-25",
   "paper_category": "Welding Processes",
-  "generated_at": "2026-07-27T13:41:31",
+  "generated_at": "2026-07-29T13:04:00",
   "generator": "openai"
 }
