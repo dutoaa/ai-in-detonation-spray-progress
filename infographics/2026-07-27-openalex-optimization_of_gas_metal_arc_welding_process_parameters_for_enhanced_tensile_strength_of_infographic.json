@@ -1,24 +1,24 @@
 {
-  "key_insight": "A Taguchi L9 design showed that wire feed rate is the dominant driver of tensile strength in GMAW mild-steel welds, with the best performance near 26 V, 184.33 A, and 220 m/min.",
-  "engineering_relevance": "This provides a practical parameter-setting guide for improving weld strength in automated steel fabrication while reducing trial-and-error tuning.",
+  "key_insight": "Taguchi DOE showed that wire feed rate is the dominant driver of tensile strength in GMAW of ST-37 mild steel, with the best response near 26 V, 184.33 A, and 220 m/min.",
+  "engineering_relevance": "The study gives weld-process engineers a compact parameter recipe for improving joint strength while reducing trial-and-error in production GMAW settings.",
   "method": [
-    "Used an L9 orthogonal array to test three GMAW inputs at three levels each.",
-    "Evaluated tensile strength with signal-to-noise ratio and ANOVA.",
-    "Ranked factor influence: wire feed rate > welding current > arc voltage."
+    "Used an L9 orthogonal array to test 9 parameter combinations at 3 levels.",
+    "Applied signal-to-noise ratio analysis and ANOVA to rank process sensitivity.",
+    "Compared the predicted optimum with the best experimental weld result."
   ],
-  "evidence_signal": "ANOVA attributed 34.64% of the variation to wire feed rate, 19.42% to current, and 5.95% to arc voltage, and the best experimental trial reached 688 MPa tensile strength.",
-  "watch_item": "The optimum is based on a limited nine-run Taguchi setup on ST-37 mild steel, so transfer to other materials, joint geometries, or welding systems should be validated experimentally.",
+  "evidence_signal": "ANOVA assigned 34.64% influence to wire feed rate, 19.42% to welding current, and 5.95% to arc voltage, and the top trial achieved 688 MPa tensile strength.",
+  "watch_item": "The optimum is based on bead-on-plate tests on ST-37 mild steel, so transferability to other joint geometries, consumables, or materials should be validated before full-scale use.",
   "hashtags": [
     "#GMAW",
-    "#TaguchiDOE",
+    "#TaguchiMethod",
     "#ANOVA",
     "#WeldingOptimization",
-    "#TensileStrength"
+    "#MaterialsEngineering"
   ],
   "paper_id": "2026-07-27-openalex-optimization_of_gas_metal_arc_welding_process_parameters_for_enhanced_tensile_strength_of",
   "paper_title": "Optimization of Gas Metal Arc Welding Process Parameters for Enhanced Tensile Strength of Mild Steel Weldments Using the Taguchi Design of Experiments and Analysis of Variance",
   "paper_date": "2026-07-27",
   "paper_category": "AI Process Optimization",
-  "generated_at": "2026-07-29T13:03:48",
+  "generated_at": "2026-07-30T12:48:45",
   "generator": "openai"
 }

@@ -1,24 +1,24 @@
 {
-  "key_insight": "Stacking ensemble learning produced the most accurate predictions for UTS, weld hardness, and HAZ hardness, while multitask neural networks showed strong shared-task generalization.",
-  "engineering_relevance": "The study helps weld-process engineers choose between a shared-representation model for efficient multi-target learning and a higher-accuracy ensemble for task-specific prediction.",
+  "key_insight": "Stacking ensemble learning delivered the most accurate predictions for UTS, weld hardness, and HAZ hardness, while multitask neural networks provided strong shared-learning performance across related welding outputs.",
+  "engineering_relevance": "The study helps welding engineers choose between a shared multi-output model and a task-specific ensemble when estimating joint quality metrics for process optimization and quality control.",
   "method": [
-    "Compared multitask neural network (shared hidden layers with task-specific outputs) against stacking ensemble learning.",
-    "Predicted three welding quality targets: UTS, weld hardness, and HAZ hardness.",
-    "Evaluated both methods using RMSE and R² on the same dataset."
+    "Compared a multitask neural network (shared hidden layers + task-specific outputs) against stacking ensemble learning",
+    "Predicted three welding responses: UTS, weld hardness, and HAZ hardness",
+    "Evaluated both methods using RMSE and R² on the same dataset"
   ],
-  "evidence_signal": "Stacking ensemble achieved RMSE/R² of 0.0263/0.9863 for UTS, 0.0467/0.9782 for weld hardness, and 0.1109/0.8453 for HAZ hardness, outperforming MTNN on individual-task accuracy.",
-  "watch_item": "Results may depend on dataset size and similarity among tasks, so stacking gains could reduce when data are sparse or when deployment requires simpler, more interpretable models.",
+  "evidence_signal": "Stacking achieved lower errors and higher R² overall (UTS RMSE 0.0263, R² 0.9863; weld hardness RMSE 0.0467, R² 0.9782; HAZ hardness RMSE 0.1109, R² 0.8453) than MTNN.",
+  "watch_item": "The better-performing stacking model may be more task-specific and less robust when data are scarce or operating conditions shift, so external validation is important.",
   "hashtags": [
     "#WeldingAI",
     "#MultitaskLearning",
     "#StackingEnsemble",
-    "#PredictiveModeling",
+    "#MaterialsInformatics",
     "#ProcessOptimization"
   ],
   "paper_id": "2025-11-01-doaj-a_comparative_analysis_of_multitask_neural_networks_and_stacking_ensemble_learning_for_pre",
   "paper_title": "A Comparative Analysis of Multitask Neural Networks and Stacking Ensemble Learning for Predicting UTS, Weld Hardness, and HAZ Hardness in Welding Applications",
   "paper_date": "2025-11-01",
   "paper_category": "AI Process Optimization",
-  "generated_at": "2026-07-29T13:04:28",
+  "generated_at": "2026-07-30T12:49:20",
   "generator": "openai"
 }
