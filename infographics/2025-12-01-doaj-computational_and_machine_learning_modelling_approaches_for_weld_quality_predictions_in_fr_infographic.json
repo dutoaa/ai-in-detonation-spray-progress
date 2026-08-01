@@ -1,24 +1,24 @@
 {
-  "key_insight": "A combined CEL simulation and ANN framework can accurately predict weld temperature, axial force, and defect formation in friction stir welding of HDPE, enabling rapid identification of defect-free process windows.",
-  "engineering_relevance": "The study provides practical process maps and design guidance for optimizing thermoplastic FSW by balancing rotation speed, travel speed, and preheating to improve joint quality and force stability.",
+  "key_insight": "A coupled CEL simulation and ANN surrogate model can accurately predict friction stir welding behavior in HDPE and identify process windows that minimize defects.",
+  "engineering_relevance": "The framework helps engineers select rotation speed, traverse speed, and preheating conditions to reduce wormholes, stabilize axial force, and improve weld quality in thermoplastics.",
   "method": [
-    "3D coupled Eulerian-Lagrangian (CEL) model of HDPE FSW",
-    "Two multilayer perceptron ANNs trained on experimental temperature and axial-force histories",
-    "Parameter sweep over rotational speed, welding speed, and bottom preheating to map defects vs. safe windows"
+    "3D Coupled Eulerian-Lagrangian (CEL) model of FSW in HDPE",
+    "Two multilayer perceptron ANNs trained on experimental temperature and force data",
+    "Process-map generation across rotational speed, welding speed, and bottom preheating"
   ],
-  "evidence_signal": "The ANN models achieved strong predictive performance with R2 values between 0.91 and 0.99, and the CEL results agreed well with experimental observations of voids, thermal response, and forces.",
-  "watch_item": "The trained models and process maps are likely specific to the tested HDPE setup and parameter range, so transfer to other polymers, tool geometries, or thicknesses may require retraining and revalidation.",
+  "evidence_signal": "The ANN models achieved R2 values between 0.91 and 0.99, and the CEL results matched experiments for temperature, force, and void formation trends.",
+  "watch_item": "The ANN and process maps are based on the tested parameter space, so performance may drop when extrapolating to different materials, tool designs, or wider operating ranges.",
   "hashtags": [
     "#FrictionStirWelding",
-    "#HDPE",
     "#MachineLearning",
-    "#FiniteElementModeling",
+    "#ComputationalModeling",
+    "#Thermoplastics",
     "#ProcessOptimization"
   ],
   "paper_id": "2025-12-01-doaj-computational_and_machine_learning_modelling_approaches_for_weld_quality_predictions_in_fr",
   "paper_title": "Computational and machine learning modelling approaches for weld quality predictions in friction stir welding of high-density polyethylene",
   "paper_date": "2025-12-01",
   "paper_category": "AI Process Optimization",
-  "generated_at": "2026-07-31T12:59:07",
+  "generated_at": "2026-08-01T12:06:52",
   "generator": "openai"
 }
