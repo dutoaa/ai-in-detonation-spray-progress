@@ -1,24 +1,24 @@
 {
-  "key_insight": "ResNet50 feature extraction combined with Random Forest classification can detect orbital TIG welding defects with high accuracy and strong robustness.",
-  "engineering_relevance": "The approach supports faster, more reliable weld quality inspection for precision manufacturing where defect misclassification can compromise structural integrity.",
+  "key_insight": "A ResNet50-plus-Random-Forest pipeline can classify orbital TIG weld defects with very high accuracy by combining deep visual feature extraction with a robust tree-based classifier.",
+  "engineering_relevance": "This offers a practical inspection aid for precision welding lines, helping detect defect types early and improve structural reliability with less manual analysis.",
   "method": [
-    "Extract deep visual features from weld images using ResNet50.",
-    "Classify defect types with a Random Forest model.",
-    "Evaluate performance with five-fold cross-validation across four weld classes."
+    "Extract deep features from weld images using ResNet50",
+    "Classify four weld categories with Random Forest",
+    "Validate performance with five-fold cross-validation"
   ],
-  "evidence_signal": "Using 3,219 weld images, the method achieved 98% overall accuracy and outperformed VGG16, VGG19, ResNet18, ResNet50, SVM, and standalone Random Forest baselines.",
-  "watch_item": "Performance was demonstrated on controlled experimental images, so generalization to different welding setups, lighting conditions, or unseen defect patterns still needs validation.",
+  "evidence_signal": "The study used 3,219 weld images from controlled orbital TIG experiments and reported 98% overall accuracy across normal weld, lack of fusion, overheating, and uneven weld classes.",
+  "watch_item": "Performance was demonstrated on controlled experimental data, so generalization to different welding setups, cameras, or lighting conditions may need further validation.",
   "hashtags": [
-    "#WeldingDefectDetection",
+    "#WeldingInspection",
+    "#DefectDetection",
     "#ResNet50",
     "#RandomForest",
-    "#ComputerVision",
-    "#ManufacturingAI"
+    "#ComputerVision"
   ],
   "paper_id": "2026-07-30-openalex-tig_welding_defect_detection_using_resnet_and_random_forest",
   "paper_title": "TIG welding defect detection using ResNet and Random Forest",
   "paper_date": "2026-07-30",
   "paper_category": "AI Process Optimization",
-  "generated_at": "2026-08-01T12:06:56",
+  "generated_at": "2026-08-02T12:05:48",
   "generator": "openai"
 }

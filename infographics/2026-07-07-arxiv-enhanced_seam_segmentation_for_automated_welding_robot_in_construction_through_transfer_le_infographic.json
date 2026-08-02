@@ -1,24 +1,24 @@
 {
-  "key_insight": "A lightweight transfer-learning and loss-optimization upgrade to BiSeNetV2 substantially improves seam segmentation robustness under reflective welding conditions without increasing model complexity.",
-  "engineering_relevance": "This offers a practical real-time perception upgrade for construction welding robots that must detect thin seams on shiny metal surfaces with unreliable illumination.",
+  "key_insight": "A transfer-learning + hybrid Cross-Entropy/Lovász optimization strategy makes BiSeNetV2 much more robust to reflective weld seams without adding model complexity.",
+  "engineering_relevance": "This offers a lightweight, real-time seam segmentation upgrade for construction welding robots operating under harsh lighting and specular metallic reflections.",
   "method": [
-    "Fine-tuned a BiSeNetV2 backbone with transfer learning for seam segmentation.",
-    "Replaced the baseline objective with a hybrid Cross-Entropy + Lovász loss to stabilize learning.",
-    "Kept the network footprint unchanged while targeting reflection-robust performance."
+    "Start from a BiSeNetV2 backbone and apply transfer learning to stabilize training.",
+    "Use a hybrid Cross-Entropy + Lovász loss to improve boundary-aware seam segmentation.",
+    "Keep the architecture unchanged to preserve FLOPs, parameters, and inference speed."
   ],
-  "evidence_signal": "The proposed method achieved 81.76% Joint IoU and 90.73% mIoU, improving Joint IoU by 22.36 points over the OHEM baseline while preserving FLOPs, parameters, and inference speed.",
-  "watch_item": "Reported gains are strongest in reflective construction-welding scenarios, so robustness should still be validated on broader seam types, camera setups, and deployment conditions.",
+  "evidence_signal": "The proposed method reached 81.76% Joint IoU and 90.73% mIoU, improving Joint IoU by 22.36 points over the OHEM baseline while recovering 96.33% of severe zero-IoU failures.",
+  "watch_item": "Performance gains are reported on challenging reflective welding data, so deployment should still be validated for new site lighting, surface finishes, and seam geometries.",
   "hashtags": [
     "#WeldingRobotics",
     "#SeamSegmentation",
     "#TransferLearning",
-    "#RealTimeAI",
-    "#ComputerVision"
+    "#ComputerVision",
+    "#RealTimeAI"
   ],
   "paper_id": "2026-07-07-arxiv-enhanced_seam_segmentation_for_automated_welding_robot_in_construction_through_transfer_le",
   "paper_title": "Enhanced Seam Segmentation for Automated Welding Robot in Construction Through Transfer Learning: Addressing Limitations of Bilateral Segmentation Network",
   "paper_date": "2026-07-07",
   "paper_category": "Welding Processes",
-  "generated_at": "2026-08-01T12:07:05",
+  "generated_at": "2026-08-02T12:05:51",
   "generator": "openai"
 }
