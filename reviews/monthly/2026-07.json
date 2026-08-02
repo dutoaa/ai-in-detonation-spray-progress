@@ -1,0 +1,48 @@
+{
+  "repo_title": "AI in Detonation Spray and Detonation Spray Coating",
+  "period": "month",
+  "label": "2026-07",
+  "author": "William Sun with help from OpenAI",
+  "paper_count": 87,
+  "analysis": {
+    "executive_summary": "July 2026 showed steady but still early-stage progress in applying AI to detonation spray and detonation spray coating adjacent areas, with the strongest evidence coming from broader thermal spray and welding literature rather than detonation spray-specific AI systems. Across the provided papers, AI use was concentrated in process optimization, defect detection, and monitoring: lightweight CNNs, ResNet/RF hybrids, fuzzy control, DDPG reinforcement learning, Bayesian optimization, and Taguchi-style optimization appeared repeatedly. For detonation-spray-relevant coating research, the month’s most important trend was the growing emphasis on process-structure-property linkage, robotic motion control, and microstructure-aware optimization in thermal spray systems, including HVOF, APS, and cold spray. Several coating papers also advanced sustainability and performance goals through multilayer gradients, nanocomposite reinforcement, and functional coatings for energy and aerospace applications. However, the dataset contains very limited direct detonation spray AI work, indicating that the field is still borrowing methods from adjacent welding and thermal spray domains rather than developing dedicated AI workflows for detonation spray coating.",
+    "major_themes": [
+      "AI was used mainly for process optimization rather than autonomous control in coating and joining workflows.",
+      "Data-driven defect detection and monitoring continued to mature with CNNs, ResNet-based pipelines, and spectrogram analysis.",
+      "Bayesian optimization, fuzzy logic, and reinforcement learning were increasingly used for adaptive motion or parameter tuning.",
+      "Thermal spray research emphasized microstructure engineering, multilayer gradient design, and nanocomposite reinforcement.",
+      "Energy, aerospace, and corrosion-resistance applications remained major drivers for coating innovation.",
+      "Process-structure-property modeling became more central, especially for porous, multiphase, and high-temperature coating systems.",
+      "Direct AI for detonation spray coating remained sparse, suggesting an opportunity gap in the literature."
+    ],
+    "notable_papers": [
+      "Thermal spray coatings in batteries, electrolyzers and solid oxide electrochemical systems — Important because it frames thermal spray as a cross-system platform where process parameters control microstructure and interfacial chemistry, a useful model for detonation spray coating optimization.",
+      "HVAF Spraying of NiTi Coatings: Microstructure, Phase Transformation and Shape Memory Behavior — Matters because it demonstrates successful thick functional alloy coatings with phase transformation control, which is relevant to advanced detonation spray deposition challenges.",
+      "High-temperature oxidation kinetics and microstructural evolution of detonation-sprayed AlCuFe quasicrystalline coatings — The most directly relevant detonation-spray paper in the set, showing long-term oxidation behavior and thermal hardening of detonation-sprayed functional coatings.",
+      "Multilayer Gradient Design for Stress Mitigation and Durability Enhancement in Plasma-Sprayed La₂Zr₂O₇/NiCoCrAlY Coatings — Important for showing how architecture design can reduce residual stress and improve durability, a concept transferable to detonation spray coatings.",
+      "Influence of the Spray Angle, Standoff Distance, and Traverse Speed of the Spray Gun on the Tribomechanical Properties of Cold-Sprayed Inconel 718 Coatings — Valuable because it highlights robotic motion variables as key performance drivers, relevant to AI-assisted process tuning in spray systems.",
+      "Hybrid Graphene Nanoplatelet/C60 Nanocomposite Modification of HVOF-Metallized CFRP Coatings to Improve Adhesion, Barrier Performance, and Surface Functionality — Matters because it combines surface engineering with nanofiller optimization, illustrating the direction of multifunctional coating design.",
+      "A Review - Thermal spraying on Polymers — Useful for showing expanding substrate scope and the need for process intelligence in difficult-to-coat polymer systems.",
+      "TIG welding defect detection using ResNet and Random Forest — Not a coating paper, but important as a representative example of robust AI defect classification that could be adapted to detonation spray defect inspection."
+    ],
+    "field_progress": [
+      "AI methods are moving from simple parameter sweeps toward hybrid workflows that combine simulation, learning, and optimization.",
+      "Thermal spray coating studies increasingly report detailed microstructural outcomes alongside performance metrics, improving opportunities for ML model training.",
+      "Detonation-spray-relevant coating work is beginning to incorporate long-duration property validation, especially oxidation and wear resistance under service-like conditions.",
+      "Robot motion and spray gun handling are becoming explicit design variables, opening the door for closed-loop AI control of coating quality.",
+      "Functional coatings for energy, aerospace, and corrosion protection remain the dominant application targets, helping define practical optimization objectives.",
+      "Current progress is stronger in coating materials and process physics than in full AI deployment, especially for detonation spray-specific control systems."
+    ],
+    "open_questions": [
+      "How can detonation spray coating datasets be standardized across powder feedstock, detonation frequency, standoff distance, and substrate condition?",
+      "Which AI models best predict coating porosity, adhesion, and phase evolution from detonation spray process parameters?",
+      "Can reinforcement learning or Bayesian optimization be safely used for real-time detonation spray parameter tuning without degrading coating quality?",
+      "What microstructure descriptors are most informative for predicting wear, oxidation, and residual stress in detonation-sprayed coatings?",
+      "How transferable are AI models trained on APS, HVOF, or cold spray data to detonation spray processes?",
+      "What digital twin or physics-informed learning frameworks are needed to make detonation spray coating workflows trustworthy and manufacturable?"
+    ],
+    "outlook": "The next step for AI in detonation spray and detonation spray coating is likely not a fully autonomous system, but a hybrid workflow that combines physics-based spray modeling, microstructure-aware feature extraction, and optimization over a small number of high-value experimental runs. The July 2026 literature suggests that the enabling pieces are already emerging in adjacent thermal spray and welding domains, especially in monitoring, parameter optimization, and process-structure-property mapping. For detonation spray specifically, progress will depend on building shared datasets, defining coating-quality targets more precisely, and validating AI recommendations against long-term service performance such as oxidation, wear, adhesion, and thermal shock resistance."
+  },
+  "markdown_file": "2026-07.md",
+  "generated_at": "2026-08-02T05:28:54"
+}
