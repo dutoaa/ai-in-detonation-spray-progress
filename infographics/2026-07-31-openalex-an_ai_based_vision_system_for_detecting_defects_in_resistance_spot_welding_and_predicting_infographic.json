@@ -1,24 +1,24 @@
 {
-  "key_insight": "A real-time vision pipeline can detect resistance spot weld defects and predict maintenance needs directly on an automotive assembly line.",
-  "engineering_relevance": "This enables earlier intervention on failing robots and weld points, improving quality control, uptime, and maintenance prioritization in robotic welding cells.",
+  "key_insight": "The automotive industry is adopting the Industry 4.0 model to reduce failures in electrical resistance spot welding by using automated non-destructive testing systems.",
+  "engineering_relevance": "Potential relevance: ai process optimization workflows and research evaluation.",
   "method": [
-    "YOLOv8 detects spot welds and extracts physical features such as nugget diameter and heat-affected zone.",
-    "A neural network with linear discriminant analysis classifies defective welds.",
-    "A CNN predicts maintenance category: maintenance-free, predictive, preventive, or corrective."
+    "AI materials, welding, detonation spray, coating, or machine-design paper selected from public scholarly sources.",
+    "Ranked by recency plus AI and engineering-domain relevance signals.",
+    "Use the linked paper for methods, data, and validation details."
   ],
-  "evidence_signal": "Trained on images from 674 cabins collected over 30 continuous hours, the system achieved 95.80% accuracy for defect classification and 94.72% precision for maintenance prediction.",
-  "watch_item": "Performance was demonstrated on a specific automotive line, so robustness to different weld geometries, lighting conditions, and production settings still needs validation.",
+  "evidence_signal": "Evidence details are summarized from the public abstract only.",
+  "watch_item": "Review the full paper for governing assumptions, validation data, and generalization limits.",
   "hashtags": [
-    "#Industry40",
-    "#WeldingAI",
-    "#MachineVision",
-    "#PredictiveMaintenance",
-    "#QualityControl"
+    "#AIDetonationSpray",
+    "#DetonationSpray",
+    "#Coatings",
+    "#ThermalSpray",
+    "#arXiv"
   ],
   "paper_id": "2026-07-31-openalex-an_ai_based_vision_system_for_detecting_defects_in_resistance_spot_welding_and_predicting",
   "paper_title": "An AI-Based Vision System for Detecting Defects in Resistance Spot Welding and Predicting Maintenance in Robotic Cells",
   "paper_date": "2026-07-31",
   "paper_category": "AI Process Optimization",
-  "generated_at": "2026-08-02T12:05:44",
+  "generated_at": "2026-08-03T13:49:04",
   "generator": "openai"
 }

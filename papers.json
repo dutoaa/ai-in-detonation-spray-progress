@@ -36,125 +36,31 @@
     "open_access": true,
     "score": 66,
     "infographic": {
-      "key_insight": "A coupled CEL simulation plus ANN surrogate can accurately predict friction stir welding temperatures, forces, and defect formation in HDPE, enabling fast identification of robust process windows.",
-      "engineering_relevance": "The study provides practical welding guidance showing that bottom preheating and higher rotation/lower travel speed improve weld quality while reducing force fluctuations and wormhole defects.",
+      "key_insight": "Friction stir welding (FSW) has gained recognition as an effective technique for joining thermoplastic materials.",
+      "engineering_relevance": "Potential relevance: ai process optimization workflows and research evaluation.",
       "method": [
-        "3D Coupled Eulerian-Lagrangian (CEL) model of HDPE FSW",
-        "Two multilayer perceptron ANNs trained on experimental temperature and axial-force histories",
-        "Process-map generation across rotational speed, welding speed, and bottom preheating conditions"
+        "AI materials, welding, detonation spray, coating, or machine-design paper selected from public scholarly sources.",
+        "Ranked by recency plus AI and engineering-domain relevance signals.",
+        "Use the linked paper for methods, data, and validation details."
       ],
-      "evidence_signal": "The ANN models achieved R2 values of 0.91 to 0.99, and the CEL model matched experiments for void formation, thermal response, and vertical force behavior.",
-      "watch_item": "The trained models are validated on the tested parameter space, so extrapolation to other polymers, tool geometries, or wider process ranges may be unreliable without retraining.",
+      "evidence_signal": "Evidence details are summarized from the public abstract only.",
+      "watch_item": "Review the full paper for governing assumptions, validation data, and generalization limits.",
       "hashtags": [
-        "#FrictionStirWelding",
-        "#PolymerJoining",
-        "#MachineLearning",
-        "#FiniteElementModeling",
-        "#ProcessOptimization"
+        "#AIDetonationSpray",
+        "#DetonationSpray",
+        "#Coatings",
+        "#ThermalSpray",
+        "#arXiv"
       ],
       "paper_id": "2025-12-01-doaj-computational_and_machine_learning_modelling_approaches_for_weld_quality_predictions_in_fr",
       "paper_title": "Computational and machine learning modelling approaches for weld quality predictions in friction stir welding of high-density polyethylene",
       "paper_date": "2025-12-01",
       "paper_category": "AI Process Optimization",
-      "generated_at": "2026-08-02T12:05:41",
+      "generated_at": "2026-08-03T13:49:03",
       "generator": "openai"
     },
     "translation": {
-      "zh-Hans": {
-        "title": "用于高密度聚乙烯摩擦搅拌焊焊缝质量预测的计算与机器学习建模方法",
-        "abstract": "摩擦搅拌焊（FSW）已被公认为一种连接热塑性材料的有效技术。本研究结合计算方法与机器学习方法，并通过实验结果验证，系统研究了高密度聚乙烯（HDPE）摩擦搅拌焊中的焊接温度、竖直轴向力、材料流动和缺陷形成等FSW特征的预测问题。建立了三维耦合欧拉-拉格朗日（CEL）数值模型，用于模拟在不同工艺参数（转速、焊接速度以及底部预热条件）下的HDPE焊接过程。CEL数值模型与实验数据进行了对比验证，在预测孔洞形成、热响应和力学响应方面表现出明显良好的一致性。结果表明，对底表面进行预热可有效降低热梯度并稳定竖直力波动。定量而言，底表面60 °C预热将峰值压入力从接近1600 N降至约1100 N，并将峰值温度从70 °C（无预热）提高到约100 °C，从而平滑了厚度方向梯度并稳定了轴向力分布。与此同时，基于实验数据训练了两个多层感知器人工神经网络（ANN），用于预测温度和轴向力的时间响应，其R2介于0.91至0.99之间，表明在所测试的FSW参数空间内具有较高精度和较强泛化能力。计算CEL仿真能够准确预测焊缝区形貌，包括搅拌区、热-机械影响区和热影响区；而组合的CEL–ANN框架能够快速生成工艺图，突出显示有缺陷与无缺陷的焊接窗口，其中在1500 rpm、30 mm/min并采用60 °C预热时获得了最佳条件，而在无预热、1000 rpm条件下由于虫洞形成表现出较差的可焊性。这些研究结果为开发稳健的HDPE接头提供了面向工艺的设计指南，并展示了将计算建模与机器学习相结合如何实现高效优化，为理解热塑性材料FSW过程的关键特征提供了有价值的见解，并支持其在工业应用中的更广泛采用。",
-        "infographic": {
-          "key_insight": "耦合的CEL仿真与ANN代理模型可准确预测HDPE摩擦搅拌焊中的温度、力和缺陷形成，从而快速识别稳健的工艺窗口。",
-          "engineering_relevance": "该研究提供了实用的焊接指导，表明底部预热以及更高转速/更低行进速度有助于提高焊缝质量，同时减少力波动和虫洞缺陷。",
-          "method": [
-            "HDPE摩擦搅拌焊的三维耦合欧拉-拉格朗日（CEL）模型",
-            "基于实验温度和轴向力历史训练的两个多层感知器ANN",
-            "跨转速、焊接速度和底部预热条件的工艺图生成"
-          ],
-          "evidence_signal": "ANN模型的R2值达到0.91至0.99，且CEL模型在孔洞形成、热响应和竖直力行为方面与实验吻合。",
-          "watch_item": "所训练模型仅在测试参数空间内得到验证，因此若不重新训练，将其外推到其他聚合物、工具几何形状或更宽的工艺范围可能并不可靠。"
-        }
-      },
-      "generator": "openai"
-    }
-  },
-  {
-    "id": "2026-07-31-openalex-an_ai_based_vision_system_for_detecting_defects_in_resistance_spot_welding_and_predicting",
-    "doi": "10.3390/ai7080291",
-    "date": "2026-07-31",
-    "title": "An AI-Based Vision System for Detecting Defects in Resistance Spot Welding and Predicting Maintenance in Robotic Cells",
-    "authors": "Alfonso Alejo-Ramirez, Rogelio Cedeno-Moreno, Luis A. Morales‐Hernandez, Juan Carlos Jáuregui-Correa, Irving A. Cruz-Albarran",
-    "abstract": "The automotive industry is adopting the Industry 4.0 model to reduce failures in electrical resistance spot welding by using automated non-destructive testing systems. This study presents a real-time machine vision system that has been implemented on an automotive cabin assembly line to detect weld defects in door frames. The system extracts the physical parameters of each spot weld, including nugget diameter and heat-affected zone, to identify failing robots and welding points and prioritise maintenance actions (maintenance-free, predictive, preventive or corrective). Machine learning models were trained using images from 674 cabins collected over 30 continuous hours. YOLOv8 was used for spot weld detection and feature extraction. A neural network with linear discriminant analysis was applied for defect classification, achieving 95.80% accuracy, 95.61% precision, 96.00% recall and 95.80% F1-score. Additionally, a convolutional neural network was developed for maintenance prediction, achieving 94.72% precision, 95.87% accuracy, 93.97% F1-score and 94.42% recall. The results demonstrate the effectiveness of real-time defect detection and reliable maintenance prediction, supporting informed decision-making and efficient resource management.",
-    "category": "AI Process Optimization",
-    "source": "OpenAlex",
-    "venue": "AI",
-    "published": "2026-07-31T00:00:00+00:00",
-    "updated": "",
-    "primary_category": "journal-article",
-    "categories": [
-      "journal-article"
-    ],
-    "links": [
-      {
-        "title": "OpenAlex",
-        "url": "https://openalex.org/W7171931908"
-      },
-      {
-        "title": "DOI",
-        "url": "https://doi.org/10.3390/ai7080291"
-      },
-      {
-        "title": "Publisher",
-        "url": "https://doi.org/10.3390/ai7080291"
-      },
-      {
-        "title": "Open access copy",
-        "url": "https://doi.org/10.3390/ai7080291"
-      }
-    ],
-    "open_access": true,
-    "score": 59,
-    "infographic": {
-      "key_insight": "A real-time vision pipeline can detect resistance spot weld defects and predict maintenance needs directly on an automotive assembly line.",
-      "engineering_relevance": "This enables earlier intervention on failing robots and weld points, improving quality control, uptime, and maintenance prioritization in robotic welding cells.",
-      "method": [
-        "YOLOv8 detects spot welds and extracts physical features such as nugget diameter and heat-affected zone.",
-        "A neural network with linear discriminant analysis classifies defective welds.",
-        "A CNN predicts maintenance category: maintenance-free, predictive, preventive, or corrective."
-      ],
-      "evidence_signal": "Trained on images from 674 cabins collected over 30 continuous hours, the system achieved 95.80% accuracy for defect classification and 94.72% precision for maintenance prediction.",
-      "watch_item": "Performance was demonstrated on a specific automotive line, so robustness to different weld geometries, lighting conditions, and production settings still needs validation.",
-      "hashtags": [
-        "#Industry40",
-        "#WeldingAI",
-        "#MachineVision",
-        "#PredictiveMaintenance",
-        "#QualityControl"
-      ],
-      "paper_id": "2026-07-31-openalex-an_ai_based_vision_system_for_detecting_defects_in_resistance_spot_welding_and_predicting",
-      "paper_title": "An AI-Based Vision System for Detecting Defects in Resistance Spot Welding and Predicting Maintenance in Robotic Cells",
-      "paper_date": "2026-07-31",
-      "paper_category": "AI Process Optimization",
-      "generated_at": "2026-08-02T12:05:44",
-      "generator": "openai"
-    },
-    "translation": {
-      "zh-Hans": {
-        "title": "基于人工智能的视觉系统，用于检测电阻点焊缺陷并预测机器人单元中的维护需求",
-        "abstract": "汽车行业正在采用工业4.0模型，通过使用自动化无损检测系统来减少电阻点焊中的失效。本文提出了一种实时机器视觉系统，已部署于汽车车身装配线上，用于检测车门框架中的焊接缺陷。该系统提取每个点焊的物理参数，包括熔核直径和热影响区，以识别失效机器人和焊接点，并对维护措施进行优先排序（免维护、预测性、预防性或纠正性）。机器学习模型使用从674个车厢采集、连续30小时获取的图像进行训练。YOLOv8用于点焊检测和特征提取。采用带线性判别分析的神经网络进行缺陷分类，准确率达到95.80%，精确率95.61%，召回率96.00%，F1分数95.80%。此外，还开发了一个卷积神经网络用于维护预测，精确率达到94.72%，准确率95.87%，F1分数93.97%，召回率94.42%。结果表明，实时缺陷检测和可靠的维护预测具有良好效果，可支持有依据的决策和高效的资源管理。",
-        "infographic": {
-          "key_insight": "实时视觉处理流程可以直接在汽车装配线上检测电阻点焊缺陷并预测维护需求。",
-          "engineering_relevance": "这有助于更早干预失效机器人和焊点，提高机器人焊接单元中的质量控制、设备可用率和维护优先级排序。",
-          "method": [
-            "YOLOv8检测点焊并提取熔核直径和热影响区等物理特征。",
-            "带线性判别分析的神经网络对缺陷焊缝进行分类。",
-            "CNN预测维护类别：免维护、预测性、预防性或纠正性。"
-          ],
-          "evidence_signal": "系统使用从674个车厢中采集、连续30小时获取的图像进行训练，在缺陷分类中达到95.80%的准确率，在维护预测中达到94.72%的精确率。",
-          "watch_item": "该性能结果是在特定汽车产线上验证的，因此对不同焊点几何形状、照明条件和生产设置的鲁棒性仍需进一步验证。"
-        }
-      },
-      "generator": "openai"
+      "generator": "unavailable"
     }
   },
   {
@@ -184,125 +90,31 @@
     ],
     "score": 58,
     "infographic": {
-      "key_insight": "A unified DVAE + particle filter framework can learn and track latent weld-process states robustly across different arc welding applications.",
-      "engineering_relevance": "This enables more scalable real-time welding monitoring by reducing reliance on large labeled datasets and process-specific tuning.",
+      "key_insight": "Arc welding processes are essential for continuous fabrication but prone to disturbances that impair weld quality, making real-time monitoring critical yet difficult due to complex visual patterns and nonlinear, time-varying dynamics.",
+      "engineering_relevance": "Potential relevance: welding processes workflows and research evaluation.",
       "method": [
-        "CNN encoder-decoder learns compact latent features from weld pool images.",
-        "LSTM transition model captures time evolution under control inputs.",
-        "Particle filter propagates latent and hidden states to suppress noise and preserve process history."
+        "AI materials, welding, detonation spray, coating, or machine-design paper selected from public scholarly sources.",
+        "Ranked by recency plus AI and engineering-domain relevance signals.",
+        "Use the linked paper for methods, data, and validation details."
       ],
-      "evidence_signal": "The abstract reports validation on GTAW and GMAW without process-specific tuning, indicating generalizability and robustness.",
-      "watch_item": "Performance may still depend on image quality and the ability of the latent model to capture highly variable arc disturbances in new welding setups.",
+      "evidence_signal": "Evidence details are summarized from the public abstract only.",
+      "watch_item": "Review the full paper for governing assumptions, validation data, and generalization limits.",
       "hashtags": [
-        "#WeldingMonitoring",
-        "#DeepLearning",
-        "#ParticleFilter",
-        "#VariationalAutoencoder",
-        "#ProcessControl"
+        "#AIDetonationSpray",
+        "#DetonationSpray",
+        "#Coatings",
+        "#ThermalSpray",
+        "#arXiv"
       ],
       "paper_id": "2026-07-17-arxiv-robust_monitoring_of_arc_welding_processes_a_generalizable_framework_with_dvae_and_particl",
       "paper_title": "Robust Monitoring of Arc Welding Processes: A Generalizable Framework with DVAE and Particle Filter",
       "paper_date": "2026-07-17",
       "paper_category": "Welding Processes",
-      "generated_at": "2026-08-02T12:05:46",
+      "generated_at": "2026-08-03T13:49:04",
       "generator": "openai"
     },
     "translation": {
-      "zh-Hans": {
-        "title": "面向电弧焊过程的鲁棒监测：基于 DVAE 与粒子滤波的通用框架",
-        "abstract": "电弧焊过程是连续制造中的关键工艺，但容易受到扰动影响焊缝质量，因此实时监测至关重要。然而，由于视觉模式复杂且动力学具有非线性、时变特性，实时监测也十分困难。深度学习显示出应用潜力，但由于其依赖大量标注数据且需要针对具体应用进行调参，因而面临可扩展性限制。我们探讨一种统一方法是否能够表征不同应用中的主要电弧焊过程，并通过一致的状态监测提升可扩展性。本文提出一种用于电弧焊的鲁棒且通用的监测框架。该框架将无监督深度潜在表示学习与贝叶斯滤波相结合：前者从熔池图像中提取紧凑特征，后者用于处理诸如弧光辐射和镜面反射等持续性与波动性扰动。具体而言，动态变分自编码器（DVAE）由基于 CNN 的编码器-解码器和基于 LSTM 的转移模型组成，可联合学习潜在表示及其在控制输入作用下的演化。为实现鲁棒的实时推断，专门设计的粒子滤波器（PF）传播潜在状态和 LSTM 隐状态，在抑制传感器噪声的同时保留过程历史。该设计非常适合焊接过程缓慢且具有惯性的动力学特征。对 GTAW 和 GMAW 的验证且无需针对具体工艺调参，表明该框架具有良好的通用性与鲁棒性。",
-        "infographic": {
-          "key_insight": "统一的 DVAE + 粒子滤波框架能够在不同电弧焊应用中鲁棒地学习并跟踪潜在焊接过程状态。",
-          "engineering_relevance": "这通过减少对大量标注数据和工艺特定调参的依赖，实现了更具可扩展性的实时焊接监测。",
-          "method": [
-            "CNN 编码器-解码器从熔池图像中学习紧凑的潜在特征。",
-            "LSTM 转移模型捕获控制输入作用下的时间演化。",
-            "粒子滤波器传播潜在状态和隐状态，以抑制噪声并保留过程历史。"
-          ],
-          "evidence_signal": "摘要报告了在无需针对具体工艺调参的情况下对 GTAW 和 GMAW 的验证，表明其通用性和鲁棒性。",
-          "watch_item": "性能仍可能取决于图像质量，以及潜在模型在新焊接设置中捕获高度变化的电弧扰动的能力。"
-        }
-      },
-      "generator": "openai"
-    }
-  },
-  {
-    "id": "2026-07-30-openalex-tig_welding_defect_detection_using_resnet_and_random_forest",
-    "doi": "10.1371/journal.pone.0353276",
-    "date": "2026-07-30",
-    "title": "TIG welding defect detection using ResNet and Random Forest",
-    "authors": "Vu Quang Huy, Vu Minh Thuan, Hoang Van Huong, Tran Minh The Uyen, Van-Thuc Nguyen, Pham Son Minh",
-    "abstract": "Orbital TIG welding is critical in precision manufacturing, where weld defects can affect structural reliability. Manual inspection, analysis, and evaluation of welding defect images are complex because defect characteristics vary in shape, position, and size, making the process time-consuming. This study proposes a method that combines ResNet50 feature extraction with Random Forest classification to improve classification accuracy. A total of 3,219 weld image samples collected from controlled orbital TIG experiments were used for model training and evaluation and divided into four classes: normal weld, lack of fusion, overheating, and uneven weld. Using five-fold cross-validation, the method achieved an overall accuracy of 98% and demonstrated improved performance compared with CNN architectures (VGG16, VGG19, ResNet18, ResNet50) and traditional machine learning approaches such as SVM and Random Forest. ResNet50 extracts hierarchical visual representations through deep residual connections, enabling automatic feature learning, while Random Forest performs the final classification with robustness against overfitting on high-dimensional features.",
-    "category": "AI Process Optimization",
-    "source": "OpenAlex",
-    "venue": "PLoS ONE",
-    "published": "2026-07-30T00:00:00+00:00",
-    "updated": "",
-    "primary_category": "journal-article",
-    "categories": [
-      "journal-article"
-    ],
-    "links": [
-      {
-        "title": "OpenAlex",
-        "url": "https://openalex.org/W7171785594"
-      },
-      {
-        "title": "DOI",
-        "url": "https://doi.org/10.1371/journal.pone.0353276"
-      },
-      {
-        "title": "Publisher",
-        "url": "https://doi.org/10.1371/journal.pone.0353276"
-      },
-      {
-        "title": "Open access PDF",
-        "url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0353276&type=printable"
-      }
-    ],
-    "open_access": true,
-    "score": 55,
-    "infographic": {
-      "key_insight": "A ResNet50-plus-Random-Forest pipeline can classify orbital TIG weld defects with very high accuracy by combining deep visual feature extraction with a robust tree-based classifier.",
-      "engineering_relevance": "This offers a practical inspection aid for precision welding lines, helping detect defect types early and improve structural reliability with less manual analysis.",
-      "method": [
-        "Extract deep features from weld images using ResNet50",
-        "Classify four weld categories with Random Forest",
-        "Validate performance with five-fold cross-validation"
-      ],
-      "evidence_signal": "The study used 3,219 weld images from controlled orbital TIG experiments and reported 98% overall accuracy across normal weld, lack of fusion, overheating, and uneven weld classes.",
-      "watch_item": "Performance was demonstrated on controlled experimental data, so generalization to different welding setups, cameras, or lighting conditions may need further validation.",
-      "hashtags": [
-        "#WeldingInspection",
-        "#DefectDetection",
-        "#ResNet50",
-        "#RandomForest",
-        "#ComputerVision"
-      ],
-      "paper_id": "2026-07-30-openalex-tig_welding_defect_detection_using_resnet_and_random_forest",
-      "paper_title": "TIG welding defect detection using ResNet and Random Forest",
-      "paper_date": "2026-07-30",
-      "paper_category": "AI Process Optimization",
-      "generated_at": "2026-08-02T12:05:48",
-      "generator": "openai"
-    },
-    "translation": {
-      "zh-Hans": {
-        "title": "使用 ResNet 和 Random Forest 的 TIG 焊接缺陷检测",
-        "abstract": "轨道 TIG 焊接在精密制造中至关重要，焊接缺陷会影响结构可靠性。由于缺陷特征在形状、位置和尺寸上各不相同，对焊接缺陷图像进行人工检查、分析和评估较为复杂，因此这一过程耗时较长。本研究提出一种将 ResNet50 特征提取与 Random Forest 分类相结合的方法，以提高分类准确率。研究使用了从受控轨道 TIG 实验中采集的 3,219 张焊缝图像样本用于模型训练和评估，并将其分为四类：正常焊缝、未熔合、过热和焊缝不均匀。采用五折交叉验证后，该方法实现了 98% 的总体准确率，并且相较于 CNN 架构（VGG16、VGG19、ResNet18、ResNet50）以及 SVM 和 Random Forest 等传统机器学习方法表现更优。ResNet50 通过深层残差连接提取分层视觉表示，实现自动特征学习；同时，Random Forest 以对高维特征上过拟合的鲁棒性完成最终分类。",
-        "infographic": {
-          "key_insight": "ResNet50 加 Random Forest 的流程可通过结合深度视觉特征提取与稳健的树模型分类器，以极高准确率对轨道 TIG 焊接缺陷进行分类。",
-          "engineering_relevance": "这为精密焊接生产线提供了一种实用的检测辅助手段，有助于尽早识别缺陷类型，并以更少的人工分析提高结构可靠性。",
-          "method": [
-            "使用 ResNet50 从焊缝图像中提取深度特征",
-            "使用 Random Forest 对四类焊缝进行分类",
-            "通过五折交叉验证验证性能"
-          ],
-          "evidence_signal": "该研究使用了来自受控轨道 TIG 实验的 3,219 张焊缝图像，并在正常焊缝、未熔合、过热和焊缝不均匀四类上报告了 98% 的总体准确率。",
-          "watch_item": "该性能是在受控实验数据上验证的，因此在不同焊接设置、相机或光照条件下的泛化能力可能还需要进一步验证。"
-        }
-      },
-      "generator": "openai"
+      "generator": "unavailable"
     }
   },
   {
@@ -333,115 +145,91 @@
     ],
     "score": 55,
     "infographic": {
-      "key_insight": "A transfer-learning + hybrid Cross-Entropy/Lovász optimization strategy makes BiSeNetV2 much more robust to reflective weld seams without adding model complexity.",
-      "engineering_relevance": "This offers a lightweight, real-time seam segmentation upgrade for construction welding robots operating under harsh lighting and specular metallic reflections.",
+      "key_insight": "Reliable seam segmentation is essential for autonomous robotic welding in construction, where harsh illumination, specular reflections, and thin weld geometries often degrade segmentation performance.",
+      "engineering_relevance": "Potential relevance: welding processes workflows and research evaluation.",
       "method": [
-        "Start from a BiSeNetV2 backbone and apply transfer learning to stabilize training.",
-        "Use a hybrid Cross-Entropy + Lovász loss to improve boundary-aware seam segmentation.",
-        "Keep the architecture unchanged to preserve FLOPs, parameters, and inference speed."
+        "AI materials, welding, detonation spray, coating, or machine-design paper selected from public scholarly sources.",
+        "Ranked by recency plus AI and engineering-domain relevance signals.",
+        "Use the linked paper for methods, data, and validation details."
       ],
-      "evidence_signal": "The proposed method reached 81.76% Joint IoU and 90.73% mIoU, improving Joint IoU by 22.36 points over the OHEM baseline while recovering 96.33% of severe zero-IoU failures.",
-      "watch_item": "Performance gains are reported on challenging reflective welding data, so deployment should still be validated for new site lighting, surface finishes, and seam geometries.",
+      "evidence_signal": "Evidence details are summarized from the public abstract only.",
+      "watch_item": "Review the full paper for governing assumptions, validation data, and generalization limits.",
       "hashtags": [
-        "#WeldingRobotics",
-        "#SeamSegmentation",
-        "#TransferLearning",
-        "#ComputerVision",
-        "#RealTimeAI"
+        "#AIDetonationSpray",
+        "#DetonationSpray",
+        "#Coatings",
+        "#ThermalSpray",
+        "#arXiv"
       ],
       "paper_id": "2026-07-07-arxiv-enhanced_seam_segmentation_for_automated_welding_robot_in_construction_through_transfer_le",
       "paper_title": "Enhanced Seam Segmentation for Automated Welding Robot in Construction Through Transfer Learning: Addressing Limitations of Bilateral Segmentation Network",
       "paper_date": "2026-07-07",
       "paper_category": "Welding Processes",
-      "generated_at": "2026-08-02T12:05:51",
+      "generated_at": "2026-08-03T13:49:04",
       "generator": "openai"
     },
     "translation": {
-      "zh-Hans": {
-        "title": "通过迁移学习增强建筑自动焊接机器人的焊缝分割：解决双边分割网络的局限性",
-        "abstract": "在建筑场景中的自主机器人焊接中，可靠的焊缝分割至关重要；在此类场景下，恶劣照明、镜面反射以及细窄的焊缝几何形态常会降低分割性能。本研究提出一种抗反射焊缝分割框架，通过迁移学习和混合交叉熵--Lovász损失函数增强BiSeNetV2骨干网络。与增加网络结构复杂度不同，所提出的框架通过面向训练稳定性的优化来提升抗反射能力。实验结果表明，所提方法实现了81.76\\%的Joint IoU和90.73\\%的mIoU，在保持FLOPs、参数量和推理速度完全一致的同时，相较于基于OHEM的基线，Joint IoU提升了+22.36个百分点。所提方法还在反射条件下恢复了96.33\\%的严重零IoU失败案例。对BiSeNetV2、DeepLabV3+、UNet和SegFormer的对比实验进一步表明，所提出的优化策略对轻量级实时分割架构尤为有效。定性分析还显示，在具有挑战性的焊接环境中，焊缝连续性和抗反射能力均有所提升。这些结果表明，所提出的框架为涉及反光金属表面的机器人焊接应用提供了一种实用且轻量级的感知解决方案。",
-        "infographic": {
-          "key_insight": "迁移学习 + 混合交叉熵/Lovász优化策略使BiSeNetV2在不增加模型复杂度的情况下，对反射性焊缝具有更强的鲁棒性。",
-          "engineering_relevance": "这为在强光和金属镜面反射条件下运行的建筑焊接机器人提供了一种轻量级、实时的焊缝分割升级方案。",
-          "method": [
-            "以BiSeNetV2骨干网络为起点，并采用迁移学习来稳定训练。",
-            "使用混合交叉熵 + Lovász损失函数，以提升面向边界的焊缝分割能力。",
-            "保持网络结构不变，以维持FLOPs、参数量和推理速度。"
-          ],
-          "evidence_signal": "所提方法达到了81.76%的Joint IoU和90.73%的mIoU，在相较于OHEM基线将Joint IoU提升22.36个百分点的同时，还恢复了96.33%的严重零IoU失败案例。",
-          "watch_item": "性能提升报告基于具有挑战性的反射性焊接数据，因此在新场地的照明条件、表面处理和焊缝几何形态下仍应进一步验证部署效果。"
-        }
-      },
-      "generator": "openai"
+      "generator": "unavailable"
     }
   },
   {
-    "id": "2026-07-30-arxiv-anomalous_solid_solution_in_ultra_high_melting_point_oxides_a_new_strategy_for_developing",
-    "arxiv_id": "2607.28258v1",
-    "date": "2026-07-30",
-    "title": "\"Anomalous Solid Solution\" in Ultra-High Melting Point Oxides: A New Strategy for Developing Ultra-High Temperature Thermal Protection Coatings",
-    "authors": "Yubo Wang, Hong Meng, Pengfei He, Shujun Hu, Chuan Sun, Ximing Duan",
-    "abstract": "The high-temperature performance of ultra-high temperature ceramics (UHTCs) in atmospheric environment is fundamentally governed by their melting points of oxidation products. Typical high-melting-point oxides, such as ZrO2, undergo phase transformations at elevated temperatures, leading to structural instability. Although doping with rare-earth or transition-metal cations can suppress these transformations, it often results in a reduction in melting point, thereby limiting practical service temperature. Here, ytterbia-stabilized zirconia (YbSZ) coatings are prepared via atmospheric plasma spraying, achieving a remarkable increase in the melting point of ZrO2 to approximately 2850 $^\\circ\\mathrm{C}$ and raising the ultimate plasma and oxyacetylene ablation temperature up to nearly 2780 $^\\circ\\mathrm{C}$ and 3200 $^\\circ\\mathrm{C}$, which is the highest temperature resistance property as reported. Notably, this performance enhancement originates from a synergistic mechanism of strengthened ionic-covalent mixed bonding and improved oxygen vacancy stability. Based on these findings, the concept of \"anomalous solid solution\" is firstly proposed to be used in the area of ultra-high temperature protection, which provides new insights into the compositional design of UHTC systems.",
-    "category": "Thermal Spray Coatings",
-    "source": "arXiv",
-    "published": "2026-07-30T14:17:34Z",
-    "updated": "2026-07-30T14:17:34Z",
-    "primary_category": "cond-mat.mtrl-sci",
+    "id": "2026-07-31-openalex-an_ai_based_vision_system_for_detecting_defects_in_resistance_spot_welding_and_predicting",
+    "doi": "10.3390/ai7080291",
+    "date": "2026-07-31",
+    "title": "An AI-Based Vision System for Detecting Defects in Resistance Spot Welding and Predicting Maintenance in Robotic Cells",
+    "authors": "Alfonso Alejo-Ramirez, Rogelio Cedeno-Moreno, Luis A. Morales‐Hernandez, Juan Carlos Jáuregui-Correa, Irving A. Cruz-Albarran",
+    "abstract": "The automotive industry is adopting the Industry 4.0 model to reduce failures in electrical resistance spot welding by using automated non-destructive testing systems. This study presents a real-time machine vision system that has been implemented on an automotive cabin assembly line to detect weld defects in door frames. The system extracts the physical parameters of each spot weld, including nugget diameter and heat-affected zone, to identify failing robots and welding points and prioritise maintenance actions (maintenance-free, predictive, preventive or corrective). Machine learning models were trained using images from 674 cabins collected over 30 continuous hours. YOLOv8 was used for spot weld detection and feature extraction. A neural network with linear discriminant analysis was applied for defect classification, achieving 95.80% accuracy, 95.61% precision, 96.00% recall and 95.80% F1-score. Additionally, a convolutional neural network was developed for maintenance prediction, achieving 94.72% precision, 95.87% accuracy, 93.97% F1-score and 94.42% recall. The results demonstrate the effectiveness of real-time defect detection and reliable maintenance prediction, supporting informed decision-making and efficient resource management.",
+    "category": "AI Process Optimization",
+    "source": "OpenAlex",
+    "venue": "AI",
+    "published": "2026-07-31T00:00:00+00:00",
+    "updated": "",
+    "primary_category": "journal-article",
     "categories": [
-      "cond-mat.mtrl-sci"
+      "journal-article"
     ],
     "links": [
       {
-        "title": "arXiv",
-        "url": "https://arxiv.org/abs/2607.28258v1"
+        "title": "OpenAlex",
+        "url": "https://openalex.org/W7171931908"
       },
       {
-        "title": "PDF",
-        "url": "https://arxiv.org/pdf/2607.28258v1"
+        "title": "Publisher",
+        "url": "https://doi.org/10.3390/ai7080291"
+      },
+      {
+        "title": "Open access PDF",
+        "url": "https://www.mdpi.com/2673-2688/7/8/291/pdf?version=1785490638"
       }
     ],
-    "score": 53,
+    "open_access": true,
+    "score": 54,
     "infographic": {
-      "key_insight": "Ytterbia-stabilized zirconia (YbSZ) forms an \"anomalous solid solution\" that raises ZrO2’s effective melting point and high-temperature stability, enabling exceptional ultra-high-temperature coating performance.",
-      "engineering_relevance": "This suggests a new compositional route for thermal protection coatings that can survive more extreme plasma and oxyacetylene environments without the usual melting-point penalty from stabilizing dopants.",
+      "key_insight": "The automotive industry is adopting the Industry 4.0 model to reduce failures in electrical resistance spot welding by using automated non-destructive testing systems.",
+      "engineering_relevance": "Potential relevance: ai process optimization workflows and research evaluation.",
       "method": [
-        "Prepared YbSZ coatings by atmospheric plasma spraying",
-        "Assessed high-temperature stability and ablation resistance under plasma and oxyacetylene exposure",
-        "Linked performance gains to strengthened ionic-covalent bonding and improved oxygen-vacancy stability"
+        "AI materials, welding, detonation spray, coating, or machine-design paper selected from public scholarly sources.",
+        "Ranked by recency plus AI and engineering-domain relevance signals.",
+        "Use the linked paper for methods, data, and validation details."
       ],
-      "evidence_signal": "The abstract reports a ZrO2 melting point increase to about 2850 °C and ultimate plasma/oxyacetylene ablation temperatures of nearly 2780 °C and 3200 °C, respectively.",
-      "watch_item": "The anomalous solid-solution strategy may be composition- and process-sensitive, so coating reproducibility, phase stability, and scale-up under real service cycling need validation.",
+      "evidence_signal": "Evidence details are summarized from the public abstract only.",
+      "watch_item": "Review the full paper for governing assumptions, validation data, and generalization limits.",
       "hashtags": [
-        "#ThermalSprayCoatings",
-        "#UHTCs",
-        "#UltraHighTemperature",
-        "#Zirconia",
-        "#AblationResistance"
+        "#AIDetonationSpray",
+        "#DetonationSpray",
+        "#Coatings",
+        "#ThermalSpray",
+        "#arXiv"
       ],
-      "paper_id": "2026-07-30-arxiv-anomalous_solid_solution_in_ultra_high_melting_point_oxides_a_new_strategy_for_developing",
-      "paper_title": "\"Anomalous Solid Solution\" in Ultra-High Melting Point Oxides: A New Strategy for Developing Ultra-High Temperature Thermal Protection Coatings",
-      "paper_date": "2026-07-30",
-      "paper_category": "Thermal Spray Coatings",
-      "generated_at": "2026-08-02T12:05:54",
+      "paper_id": "2026-07-31-openalex-an_ai_based_vision_system_for_detecting_defects_in_resistance_spot_welding_and_predicting",
+      "paper_title": "An AI-Based Vision System for Detecting Defects in Resistance Spot Welding and Predicting Maintenance in Robotic Cells",
+      "paper_date": "2026-07-31",
+      "paper_category": "AI Process Optimization",
+      "generated_at": "2026-08-03T13:49:04",
       "generator": "openai"
     },
     "translation": {
-      "zh-Hans": {
-        "title": "超高熔点氧化物中的“异常固溶体”：一种开发超高温热防护涂层的新策略",
-        "abstract": "超高温陶瓷（UHTCs）在大气环境中的高温性能，本质上受其氧化产物的熔点控制。典型的高熔点氧化物，如 ZrO2，在高温下会发生相变，导致结构不稳定。尽管通过掺杂稀土或过渡金属阳离子可以抑制这些相变，但这通常会降低熔点，从而限制实际服役温度。本文通过大气等离子喷涂制备了氧化镱稳定氧化锆（YbSZ）涂层，将 ZrO2 的熔点显著提高至约 2850 °C，并将最终的等离子和氧乙炔烧蚀温度分别提升至接近 2780 °C 和 3200 °C，这一耐温性能为迄今报道的最高水平。值得注意的是，这种性能提升源于离子-共价混合键增强与氧空位稳定性改善的协同机制。基于这些发现，首次提出“异常固溶体”概念并将其用于超高温防护领域，为 UHTC 体系的成分设计提供了新的认识。",
-        "infographic": {
-          "key_insight": "氧化镱稳定氧化锆（YbSZ）形成一种“异常固溶体”，提高了 ZrO2 的有效熔点和高温稳定性，从而实现了优异的超高温涂层性能。",
-          "engineering_relevance": "这表明热防护涂层存在一种新的成分设计路径，可在不出现传统稳定化掺杂剂常带来的熔点损失的情况下，承受更极端的等离子和氧乙炔环境。",
-          "method": [
-            "采用大气等离子喷涂制备 YbSZ 涂层",
-            "在等离子和氧乙炔作用下评估高温稳定性与抗烧蚀性能",
-            "将性能提升归因于离子-共价键增强和氧空位稳定性改善"
-          ],
-          "evidence_signal": "摘要报告 ZrO2 的熔点提高到约 2850 °C，最终等离子/氧乙炔烧蚀温度分别接近 2780 °C 和 3200 °C。",
-          "watch_item": "异常固溶体策略可能对成分和工艺敏感，因此涂层重复性、相稳定性以及在真实服役循环条件下的放大应用仍需验证。"
-        }
-      },
-      "generator": "openai"
+      "generator": "unavailable"
     }
   },
   {
@@ -477,46 +265,85 @@
     "open_access": false,
     "score": 50,
     "infographic": {
-      "key_insight": "A D-gun sprayed Al2O3-TiO2 coating substantially improves the wear resistance of Ti-6Al-4V, and the wear response can be predicted effectively with machine learning.",
-      "engineering_relevance": "This supports using hard ceramic coatings plus data-driven wear prediction to extend component life in aerospace, biomedical, and marine Ti-6Al-4V applications.",
+      "key_insight": "Ti-6Al-4V alloy is used a lot in aerospace, biomedical and marine applications.",
+      "engineering_relevance": "Potential relevance: detonation spray process workflows and research evaluation.",
       "method": [
-        "Applied ~200 µm Al2O3-TiO2 coating to Ti-6Al-4V by detonation gun spraying.",
-        "Tested wear using ASTM G99 pin-on-disc trials against EN31 steel under 40–100 N, 100–200 rpm, and 20–40 min.",
-        "Built ANN, KNN, and random forest models to predict wear from sliding parameters."
+        "AI materials, welding, detonation spray, coating, or machine-design paper selected from public scholarly sources.",
+        "Ranked by recency plus AI and engineering-domain relevance signals.",
+        "Use the linked paper for methods, data, and validation details."
       ],
-      "evidence_signal": "SEM showed a protective tribo-layer on coated samples, and random forest achieved the lowest prediction error among the evaluated models.",
-      "watch_item": "The predictive models are based on a limited test range and material system, so broader validation is needed before use outside the tested loading and speed conditions.",
+      "evidence_signal": "Evidence details are summarized from the public abstract only.",
+      "watch_item": "Review the full paper for governing assumptions, validation data, and generalization limits.",
       "hashtags": [
+        "#AIDetonationSpray",
         "#DetonationSpray",
-        "#WearResistance",
-        "#Ti64",
-        "#MachineLearning",
-        "#SurfaceEngineering"
+        "#Coatings",
+        "#ThermalSpray",
+        "#arXiv"
       ],
       "paper_id": "2026-06-23-openalex-tribological_enhancement_of_al_2_o_3_tio_2_d_gun_coated_ti_6al_4v_alloy_a_machine_learning",
       "paper_title": "Tribological enhancement of Al 2 O 3 -TiO 2 D-gun coated Ti-6Al-4V alloy: A machine learning approach",
       "paper_date": "2026-06-23",
       "paper_category": "Detonation Spray Process",
-      "generated_at": "2026-08-02T12:05:56",
+      "generated_at": "2026-08-03T13:49:05",
       "generator": "openai"
     },
     "translation": {
-      "zh-Hans": {
-        "title": "Al 2 O 3 -TiO 2 D-gun 涂层 Ti-6Al-4V 合金的摩擦学增强：一种机器学习方法",
-        "abstract": "Ti-6Al-4V 合金广泛应用于航空航天、生物医学和海洋领域。本研究通过实验和机器学习方法，研究了 Al 2 O 3 -TiO 2 涂层与未涂层 Ti-6Al-4V 合金的摩擦学行为。采用受控条件下的爆炸喷涂枪（detonation gun，D-gun）工艺在 Ti-6Al-4V 合金上制备了约 200 µm 厚的 Al 2 O 3 -TiO 2 陶瓷涂层（氧气流量：4800 SLPH，乙炔：2150 SLPH，喷距：180 mm，粒子速度约 1200 m/s）。根据 ASTM G99 标准，使用销-盘摩擦磨损试验机测试样品的磨损行为。试验在 40–100 N 的法向载荷、100–200 rpm 的滑动速度以及 20–40 min 的持续时间条件下，针对 EN31 钢对偶面进行。扫描电子显微镜结果表明，涂层表面磨损减小，并形成了保护性摩擦层。建立了人工神经网络、K 近邻和随机森林等机器学习模型，用于基于滑动参数预测磨损。随机森林表现最佳，具有更低的平均百分比误差和均方误差。结果表明，D-gun 沉积的 Al 2 O 3 -TiO 2 涂层提高了 Ti-6Al-4V 的耐磨性能。",
-        "infographic": {
-          "key_insight": "D-gun 喷涂的 Al2O3-TiO2 涂层可显著提高 Ti-6Al-4V 的耐磨性，并且可以通过机器学习有效预测磨损响应。",
-          "engineering_relevance": "这支持在航空航天、生物医学和海洋 Ti-6Al-4V 应用中，将硬质陶瓷涂层与数据驱动的磨损预测结合起来，以延长部件寿命。",
-          "method": [
-            "采用爆炸喷涂枪喷涂，在 Ti-6Al-4V 上制备约 200 µm 的 Al2O3-TiO2 涂层。",
-            "按照 ASTM G99，使用销-盘试验在 EN31 钢对偶面上测试 40–100 N、100–200 rpm 和 20–40 min 条件下的磨损。",
-            "构建 ANN、KNN 和随机森林模型，根据滑动参数预测磨损。"
-          ],
-          "evidence_signal": "SEM 显示涂层样品表面存在保护性摩擦层，并且随机森林在所评估模型中具有最低的预测误差。",
-          "watch_item": "这些预测模型基于有限的试验范围和材料体系，因此在超出所测试载荷和速度条件之前，需要更广泛的验证。"
-        }
+      "generator": "unavailable"
+    }
+  },
+  {
+    "id": "2026-07-30-arxiv-anomalous_solid_solution_in_ultra_high_melting_point_oxides_a_new_strategy_for_developing",
+    "arxiv_id": "2607.28258v1",
+    "date": "2026-07-30",
+    "title": "\"Anomalous Solid Solution\" in Ultra-High Melting Point Oxides: A New Strategy for Developing Ultra-High Temperature Thermal Protection Coatings",
+    "authors": "Yubo Wang, Hong Meng, Pengfei He, Shujun Hu, Chuan Sun, Ximing Duan",
+    "abstract": "The high-temperature performance of ultra-high temperature ceramics (UHTCs) in atmospheric environment is fundamentally governed by their melting points of oxidation products. Typical high-melting-point oxides, such as ZrO2, undergo phase transformations at elevated temperatures, leading to structural instability. Although doping with rare-earth or transition-metal cations can suppress these transformations, it often results in a reduction in melting point, thereby limiting practical service temperature. Here, ytterbia-stabilized zirconia (YbSZ) coatings are prepared via atmospheric plasma spraying, achieving a remarkable increase in the melting point of ZrO2 to approximately 2850 $^\\circ\\mathrm{C}$ and raising the ultimate plasma and oxyacetylene ablation temperature up to nearly 2780 $^\\circ\\mathrm{C}$ and 3200 $^\\circ\\mathrm{C}$, which is the highest temperature resistance property as reported. Notably, this performance enhancement originates from a synergistic mechanism of strengthened ionic-covalent mixed bonding and improved oxygen vacancy stability. Based on these findings, the concept of \"anomalous solid solution\" is firstly proposed to be used in the area of ultra-high temperature protection, which provides new insights into the compositional design of UHTC systems.",
+    "category": "Thermal Spray Coatings",
+    "source": "arXiv",
+    "published": "2026-07-30T14:17:34Z",
+    "updated": "2026-07-30T14:17:34Z",
+    "primary_category": "cond-mat.mtrl-sci",
+    "categories": [
+      "cond-mat.mtrl-sci"
+    ],
+    "links": [
+      {
+        "title": "arXiv",
+        "url": "https://arxiv.org/abs/2607.28258v1"
       },
+      {
+        "title": "PDF",
+        "url": "https://arxiv.org/pdf/2607.28258v1"
+      }
+    ],
+    "score": 48,
+    "infographic": {
+      "key_insight": "The high-temperature performance of ultra-high temperature ceramics (UHTCs) in atmospheric environment is fundamentally governed by their melting points of oxidation products.",
+      "engineering_relevance": "Potential relevance: thermal spray coatings workflows and research evaluation.",
+      "method": [
+        "AI materials, welding, detonation spray, coating, or machine-design paper selected from public scholarly sources.",
+        "Ranked by recency plus AI and engineering-domain relevance signals.",
+        "Use the linked paper for methods, data, and validation details."
+      ],
+      "evidence_signal": "Evidence details are summarized from the public abstract only.",
+      "watch_item": "Review the full paper for governing assumptions, validation data, and generalization limits.",
+      "hashtags": [
+        "#AIDetonationSpray",
+        "#DetonationSpray",
+        "#Coatings",
+        "#ThermalSpray",
+        "#arXiv"
+      ],
+      "paper_id": "2026-07-30-arxiv-anomalous_solid_solution_in_ultra_high_melting_point_oxides_a_new_strategy_for_developing",
+      "paper_title": "\"Anomalous Solid Solution\" in Ultra-High Melting Point Oxides: A New Strategy for Developing Ultra-High Temperature Thermal Protection Coatings",
+      "paper_date": "2026-07-30",
+      "paper_category": "Thermal Spray Coatings",
+      "generated_at": "2026-08-03T13:49:05",
       "generator": "openai"
+    },
+    "translation": {
+      "generator": "unavailable"
     }
   },
   {
@@ -552,342 +379,31 @@
     "open_access": true,
     "score": 48,
     "infographic": {
-      "key_insight": "HVAF-sprayed Tribaloy-400 forms a denser, more protective oxide scale than DS, giving markedly better hot-corrosion resistance in molten solar salt at 500 °C.",
-      "engineering_relevance": "For concentrated solar power thermal storage containers, HVAF coating offers a more durable surface protection strategy than detonation spraying under long-term nitrate-salt exposure.",
+      "key_insight": "The present study investigates the high-temperature corrosion behaviour of Tribaloy-400 (T-400) coatings deposited on ASTM A516 steel using two thermal spray techniques: (i) High Velocity Air Fuel (HVAF) spraying and (ii) Detonation Spraying (DS).",
+      "engineering_relevance": "Potential relevance: coating microstructure workflows and research evaluation.",
       "method": [
-        "Tribaloy-400 coatings were deposited on ASTM A516 steel by HVAF and detonation spraying.",
-        "Samples were exposed to 60% NaNO3–40% KNO3 molten salt at 500 °C for up to 1000 h.",
-        "Microstructure, phase formation, elemental mapping, mass gain, and spallation were compared."
+        "AI materials, welding, detonation spray, coating, or machine-design paper selected from public scholarly sources.",
+        "Ranked by recency plus AI and engineering-domain relevance signals.",
+        "Use the linked paper for methods, data, and validation details."
       ],
-      "evidence_signal": "The abstract reports that HVAF retained a uniform Cr–Mo–Si–O enriched surface with minimal salt penetration, while DS showed deeper ingress, higher mass gain, and more spallation after prolonged exposure.",
-      "watch_item": "Results are specific to one salt composition, one substrate, and one temperature window, so performance may differ in other CSP operating conditions.",
+      "evidence_signal": "Evidence details are summarized from the public abstract only.",
+      "watch_item": "Review the full paper for governing assumptions, validation data, and generalization limits.",
       "hashtags": [
-        "#ThermalSpray",
-        "#HVAF",
+        "#AIDetonationSpray",
         "#DetonationSpray",
-        "#HotCorrosion",
-        "#SolarThermalStorage"
+        "#Coatings",
+        "#ThermalSpray",
+        "#arXiv"
       ],
       "paper_id": "2026-07-01-openalex-hot_corrosion_behavior_of_thermal_sprayed_using_hvaf_and_ds_techniques_with_tribaloy_400_c",
       "paper_title": "Hot corrosion behavior of thermal sprayed using HVAF and DS techniques with Tribaloy-400 coatings for solar energy storage container",
       "paper_date": "2026-07-01",
       "paper_category": "Coating Microstructure",
-      "generated_at": "2026-08-02T12:05:59",
+      "generated_at": "2026-08-03T13:49:06",
       "generator": "openai"
     },
     "translation": {
-      "zh-Hans": {
-        "title": "采用HVAF和DS技术制备Tribaloy-400涂层用于太阳能储能容器的热腐蚀行为",
-        "abstract": "本研究考察了采用两种热喷涂技术——(i) 高速空气燃料喷涂（HVAF）和(ii) 爆炸喷涂（DS）——沉积在ASTM A516钢上的Tribaloy-400（T-400）涂层的高温腐蚀行为。将涂覆试样暴露于由60% NaNO3–40% KNO3组成的熔融太阳盐环境中，在500 °C下暴露最长达1000小时，以评估其抗氧化和耐腐蚀性能。相分析表明，两种涂层体系中均形成了稳定的保护性氧化物相，包括Cr2O3、Co3O4和CoMoO4。元素映射显示，HVAF涂层在暴露1000小时后仍保持均匀的Cr–Mo–Si–O富集表面，且熔盐渗透极少。相比之下，DS涂层表现出相对更深的盐向涂层微观结构内部侵入，这导致了更严重的退化和剥落。SEM观察表明，HVAF涂层具有致密且结合良好的微观结构，并形成了热力学稳定的氧化物，如Cr2O3、CoCr2O4和CoMoO4，从而对熔盐诱导腐蚀表现出更优异的抵抗能力。然而，DS涂层相对多孔的特性促进了盐辅助的氧化物溶解，导致更高的增重、更多的剥落以及在长时间暴露过程中的加速退化。为识别适用于高温CSP应用的合适涂层工艺与供粉组合，对两种涂层技术进行了比较评估。",
-        "infographic": {
-          "key_insight": "HVAF喷涂的Tribaloy-400形成了比DS更致密、更具保护性的氧化膜，因此在500 °C熔融太阳盐中表现出显著更好的热腐蚀抗力。",
-          "engineering_relevance": "对于聚光太阳能热储能容器，在长期硝酸盐熔盐暴露条件下，HVAF涂层比爆炸喷涂提供更耐久的表面防护方案。",
-          "method": [
-            "采用HVAF和爆炸喷涂将Tribaloy-400涂层沉积在ASTM A516钢上。",
-            "试样在500 °C下暴露于60% NaNO3–40% KNO3熔盐中，最长达1000 h。",
-            "比较了微观结构、相形成、元素映射、增重和剥落情况。"
-          ],
-          "evidence_signal": "摘要报告称，HVAF在长时间暴露后仍保持均匀的Cr–Mo–Si–O富集表面且盐渗透极少，而DS则表现出更深的侵入、更高的增重和更多的剥落。",
-          "watch_item": "结果仅适用于一种盐组成、一种基体和一个温度范围，因此在其他CSP运行条件下性能可能不同。"
-        }
-      },
-      "generator": "openai"
-    }
-  },
-  {
-    "id": "2026-08-01-openalex-multiaxial_fatigue_assessment_of_aluminium_to_steel_welded_joints",
-    "doi": "",
-    "date": "2026-08-01",
-    "title": "Multiaxial fatigue assessment of aluminium-to-steel welded joints",
-    "authors": "C.T. Ng, L. Susmel",
-    "abstract": "Journal article indexed by OpenAlex in White Rose Research Online (University of Leeds, The University of Sheffield, University of York).",
-    "category": "Welding Processes",
-    "source": "OpenAlex",
-    "venue": "White Rose Research Online (University of Leeds, The University of Sheffield, University of York)",
-    "published": "2026-08-01T00:00:00+00:00",
-    "updated": "",
-    "primary_category": "journal-article",
-    "categories": [
-      "journal-article"
-    ],
-    "links": [
-      {
-        "title": "OpenAlex",
-        "url": "https://openalex.org/W7136094855"
-      },
-      {
-        "title": "Publisher",
-        "url": "https://orcid.org/0000-0002-0663-4798>"
-      }
-    ],
-    "open_access": false,
-    "score": 47,
-    "infographic": {
-      "key_insight": "The paper focuses on assessing how aluminium-to-steel welded joints behave under multiaxial fatigue loading, which is critical for predicting real service-life performance.",
-      "engineering_relevance": "Its findings are relevant for designing lighter hybrid metal structures where welded joints must withstand complex cyclic stresses in transportation, manufacturing, and structural applications.",
-      "method": [
-        "Evaluates multiaxial fatigue behavior of aluminium-to-steel welded joints.",
-        "Uses a welding- and fatigue-assessment-oriented analysis framework.",
-        "Draws on journal-indexed research from White Rose Research Online."
-      ],
-      "evidence_signal": "The abstract indicates a journal article indexed by OpenAlex, but it does not provide specific experimental data, loading conditions, or quantified fatigue results.",
-      "watch_item": "Without the full paper, the exact test setup, joint geometry, and loading spectrum are unclear, so implementation details should not be inferred from the abstract alone.",
-      "hashtags": [
-        "#FatigueAnalysis",
-        "#WeldingResearch",
-        "#MultiaxialLoading",
-        "#AluminiumSteelJoints",
-        "#StructuralEngineering"
-      ],
-      "paper_id": "2026-08-01-openalex-multiaxial_fatigue_assessment_of_aluminium_to_steel_welded_joints",
-      "paper_title": "Multiaxial fatigue assessment of aluminium-to-steel welded joints",
-      "paper_date": "2026-08-01",
-      "paper_category": "Welding Processes",
-      "generated_at": "2026-08-02T12:06:01",
-      "generator": "openai"
-    },
-    "translation": {
-      "zh-Hans": {
-        "title": "铝-钢焊接接头的多轴疲劳评估",
-        "abstract": "由OpenAlex收录于White Rose Research Online（University of Leeds、The University of Sheffield、University of York）的期刊文章。",
-        "infographic": {
-          "key_insight": "本文重点评估铝-钢焊接接头在多轴疲劳载荷作用下的行为，这对于预测真实服役寿命性能至关重要。",
-          "engineering_relevance": "其研究结果与轻量化混合金属结构的设计相关，在这些结构中，焊接接头必须承受交通运输、制造和结构应用中的复杂循环应力。",
-          "method": [
-            "评估铝-钢焊接接头的多轴疲劳行为。",
-            "采用面向焊接和疲劳评估的分析框架。",
-            "基于White Rose Research Online中的期刊索引研究。"
-          ],
-          "evidence_signal": "摘要表明这是一篇由OpenAlex收录的期刊文章，但未提供具体实验数据、载荷条件或量化疲劳结果。",
-          "watch_item": "在没有全文的情况下，具体试验设置、接头几何形状和载荷谱尚不明确，因此不应仅根据摘要推断实施细节。"
-        }
-      },
-      "generator": "openai"
-    }
-  },
-  {
-    "id": "2026-07-31-openalex-integrated_ahp_and_metallurgical_approach_comparing_welding_techniques_and_characterizing",
-    "doi": "10.6084/m9.figshare.33130807.v1",
-    "date": "2026-07-31",
-    "title": "Integrated AHP and metallurgical approach: comparing welding techniques and characterizing NiCrBSi coatings in hardfacing",
-    "authors": "Sachin P. Kakade, D. D. Deshmukh",
-    "abstract": "In this study, the analytic hierarchy process (AHP) was employed to select the optimal hardfacing method from shielded metal arc welding (SMAW), metal inert gas (MIG) welding, Tungsten inert gas (TIG) welding, automatic TIG welding, and plasma transferred arc welding (PTAW). PTAW was identified as the superior technique, demonstrating higher microhardness (501.8 HV<sub>1</sub>) and a composite grade of 0.47 compared to other methods. The research used a 130 mm × 100 mm × 30 mm SS410 steel substrate and Colmonoy-4 nickel-based alloy powder with a grain size of 40–60 µm. The key process parameters transferred arc current (TC), powder feed rate (PF), speed of oscillation (SO), welding speed (WS), and plasma gas flow rate (PG) were identified through literature and preliminary studies. Microstructural analysis revealed the presence of carbides and borides of nickel, chromium, and iron, including α-Cr<sub>7</sub>C<sub>3</sub>, β-(Cr, Fe)<sub>7</sub>C<sub>3</sub>, δ-Cr<sub>23</sub>C<sub>7</sub>, θ-Ni<sub>3</sub>B, ψ-CrB, μ-Cr<sub>2</sub>B, and γ-Ni, which contributed to the enhanced hardness. The findings suggest that industries can enhance component life and reduce costs related to raw materials, rework, and surface defects by adopting optimized PTAW parameters.",
-    "category": "Coating Microstructure",
-    "source": "OpenAlex",
-    "venue": "Figshare",
-    "published": "2026-07-31T00:00:00+00:00",
-    "updated": "",
-    "primary_category": "journal-article",
-    "categories": [
-      "journal-article"
-    ],
-    "links": [
-      {
-        "title": "OpenAlex",
-        "url": "https://openalex.org/W7171989921"
-      },
-      {
-        "title": "DOI",
-        "url": "https://doi.org/10.6084/m9.figshare.33130807.v1"
-      },
-      {
-        "title": "Publisher",
-        "url": "https://doi.org/10.6084/m9.figshare.33130807.v1"
-      }
-    ],
-    "open_access": true,
-    "score": 47,
-    "infographic": {
-      "key_insight": "An AHP-guided comparison found plasma transferred arc welding (PTAW) to be the best hardfacing method for NiCrBSi coating performance.",
-      "engineering_relevance": "For wear-resistant surface engineering, the study shows PTAW can deliver higher hardness and more robust coatings on SS410 than SMAW, MIG, TIG, or automatic TIG.",
-      "method": [
-        "Compared five hardfacing techniques using AHP.",
-        "Used SS410 substrates coated with Colmonoy-4 nickel-based powder.",
-        "Analyzed process parameters and coating microstructure to link conditions with hardness."
-      ],
-      "evidence_signal": "PTAW achieved the top rank with a microhardness of 501.8 HV1 and a composite grade of 0.47, supported by microstructural identification of hard carbides and borides.",
-      "watch_item": "The optimum ranking is based on the selected AHP criteria and tested setup, so transferability to other substrates, powders, or service conditions may require re-optimization.",
-      "hashtags": [
-        "#Hardfacing",
-        "#PTAW",
-        "#Coatings",
-        "#Microstructure",
-        "#MaterialsEngineering"
-      ],
-      "paper_id": "2026-07-31-openalex-integrated_ahp_and_metallurgical_approach_comparing_welding_techniques_and_characterizing",
-      "paper_title": "Integrated AHP and metallurgical approach: comparing welding techniques and characterizing NiCrBSi coatings in hardfacing",
-      "paper_date": "2026-07-31",
-      "paper_category": "Coating Microstructure",
-      "generated_at": "2026-08-02T12:06:04",
-      "generator": "openai"
-    },
-    "translation": {
-      "zh-Hans": {
-        "title": "集成AHP与冶金方法：焊接技术比较及硬面堆焊中NiCrBSi涂层表征",
-        "abstract": "本研究采用层次分析法（AHP）从屏蔽金属电弧焊（SMAW）、金属惰性气体焊（MIG）、钨极惰性气体焊（TIG）、自动TIG焊以及等离子转移弧焊（PTAW）中选择最优的硬面堆焊方法。结果表明，PTAW为优选技术，其显微硬度更高（501.8 HV<sub>1</sub>），综合等级为0.47，优于其他方法。研究采用尺寸为130 mm × 100 mm × 30 mm的SS410钢基体和粒径为40–60 µm的Colmonoy-4镍基合金粉末。通过文献调研和初步研究确定了关键工艺参数：转移弧电流（TC）、送粉速率（PF）、摆动速度（SO）、焊接速度（WS）和等离子气体流量（PG）。显微组织分析显示存在镍、铬和铁的碳化物与硼化物，包括α-Cr<sub>7</sub>C<sub>3</sub>、β-(Cr, Fe)<sub>7</sub>C<sub>3</sub>、δ-Cr<sub>23</sub>C<sub>7</sub>、θ-Ni<sub>3</sub>B、ψ-CrB、μ-Cr<sub>2</sub>B和γ-Ni，这些相有助于提高硬度。研究结果表明，通过采用优化的PTAW参数，工业界可提高零部件寿命，并降低与原材料、返工及表面缺陷相关的成本。",
-        "infographic": {
-          "key_insight": "基于AHP的比较发现，等离子转移弧焊（PTAW）是NiCrBSi涂层性能最优的硬面堆焊方法。",
-          "engineering_relevance": "对于耐磨表面工程，本研究表明，与SMAW、MIG、TIG或自动TIG相比，PTAW可在SS410上实现更高硬度和更稳健的涂层。",
-          "method": [
-            "使用AHP比较了五种硬面堆焊技术。",
-            "采用SS410基体并涂覆Colmonoy-4镍基粉末。",
-            "分析工艺参数与涂层显微组织，以建立工艺条件与硬度之间的联系。"
-          ],
-          "evidence_signal": "PTAW以501.8 HV1的显微硬度和0.47的综合等级位居首位，且通过硬质碳化物和硼化物的显微组织鉴定得到支持。",
-          "watch_item": "最优排序基于所选AHP准则和测试装置，因此将其迁移到其他基体、粉末或服役条件时，可能需要重新优化。"
-        }
-      },
-      "generator": "openai"
-    }
-  },
-  {
-    "id": "2026-07-31-openalex-integrated_ahp_and_metallurgical_approach_comparing_welding_techniques_and_characterizing",
-    "doi": "10.6084/m9.figshare.33130807",
-    "date": "2026-07-31",
-    "title": "Integrated AHP and metallurgical approach: comparing welding techniques and characterizing NiCrBSi coatings in hardfacing",
-    "authors": "Sachin P. Kakade, D. D. Deshmukh",
-    "abstract": "In this study, the analytic hierarchy process (AHP) was employed to select the optimal hardfacing method from shielded metal arc welding (SMAW), metal inert gas (MIG) welding, Tungsten inert gas (TIG) welding, automatic TIG welding, and plasma transferred arc welding (PTAW). PTAW was identified as the superior technique, demonstrating higher microhardness (501.8 HV<sub>1</sub>) and a composite grade of 0.47 compared to other methods. The research used a 130 mm × 100 mm × 30 mm SS410 steel substrate and Colmonoy-4 nickel-based alloy powder with a grain size of 40–60 µm. The key process parameters transferred arc current (TC), powder feed rate (PF), speed of oscillation (SO), welding speed (WS), and plasma gas flow rate (PG) were identified through literature and preliminary studies. Microstructural analysis revealed the presence of carbides and borides of nickel, chromium, and iron, including α-Cr<sub>7</sub>C<sub>3</sub>, β-(Cr, Fe)<sub>7</sub>C<sub>3</sub>, δ-Cr<sub>23</sub>C<sub>7</sub>, θ-Ni<sub>3</sub>B, ψ-CrB, μ-Cr<sub>2</sub>B, and γ-Ni, which contributed to the enhanced hardness. The findings suggest that industries can enhance component life and reduce costs related to raw materials, rework, and surface defects by adopting optimized PTAW parameters.",
-    "category": "Coating Microstructure",
-    "source": "OpenAlex",
-    "venue": "Figshare",
-    "published": "2026-07-31T00:00:00+00:00",
-    "updated": "",
-    "primary_category": "journal-article",
-    "categories": [
-      "journal-article"
-    ],
-    "links": [
-      {
-        "title": "OpenAlex",
-        "url": "https://openalex.org/W7171966616"
-      },
-      {
-        "title": "DOI",
-        "url": "https://doi.org/10.6084/m9.figshare.33130807"
-      },
-      {
-        "title": "Publisher",
-        "url": "https://doi.org/10.6084/m9.figshare.33130807"
-      }
-    ],
-    "open_access": true,
-    "score": 47,
-    "infographic": {
-      "key_insight": "Integrated AHP and metallurgical analysis shows plasma transferred arc welding (PTAW) is the best hardfacing method for NiCrBSi coatings, delivering the highest hardness and overall composite grade.",
-      "engineering_relevance": "For wear-resistant surface engineering, PTAW with optimized parameters offers a practical route to longer component life, lower rework, and reduced material-related cost.",
-      "method": [
-        "Compared five hardfacing methods: SMAW, MIG, TIG, automatic TIG, and PTAW.",
-        "Applied AHP to rank techniques using process and performance criteria.",
-        "Analyzed PTAW-coated SS410 samples made with Colmonoy-4 Ni-based powder and assessed microstructure/hardness."
-      ],
-      "evidence_signal": "PTAW achieved 501.8 HV1 microhardness and a composite grade of 0.47, with microstructures showing hard carbides and borides such as Cr7C3, Cr23C7, Ni3B, CrB, and Cr2B.",
-      "watch_item": "The optimum result is tied to the specific SS410 substrate, Colmonoy-4 powder, and tested process window, so transferability to other alloys or industrial settings should be validated.",
-      "hashtags": [
-        "#PTAW",
-        "#Hardfacing",
-        "#NiCrBSi",
-        "#Microstructure",
-        "#AHP"
-      ],
-      "paper_id": "2026-07-31-openalex-integrated_ahp_and_metallurgical_approach_comparing_welding_techniques_and_characterizing",
-      "paper_title": "Integrated AHP and metallurgical approach: comparing welding techniques and characterizing NiCrBSi coatings in hardfacing",
-      "paper_date": "2026-07-31",
-      "paper_category": "Coating Microstructure",
-      "generated_at": "2026-08-02T12:06:06",
-      "generator": "openai"
-    },
-    "translation": {
-      "zh-Hans": {
-        "title": "集成AHP与冶金方法：比较焊接技术并表征堆焊中的NiCrBSi涂层",
-        "abstract": "本研究采用层次分析法（AHP）从屏蔽金属电弧焊（SMAW）、熔化极惰性气体保护焊（MIG）、钨极惰性气体保护焊（TIG）、自动TIG焊和等离子转移弧焊（PTAW）中选择最优堆焊方法。结果表明，PTAW是更优的技术，其显微硬度更高（501.8 HV<sub>1</sub>），综合等级为0.47，优于其他方法。研究采用了尺寸为130 mm × 100 mm × 30 mm的SS410钢基体和粒度为40–60 µm的Colmonoy-4镍基合金粉末。关键工艺参数包括转移弧电流（TC）、送粉速率（PF）、摆动速度（SO）、焊接速度（WS）和等离子气体流量（PG），这些参数通过文献和初步研究确定。显微组织分析显示存在镍、铬和铁的碳化物与硼化物，包括α-Cr<sub>7</sub>C<sub>3</sub>、β-(Cr, Fe)<sub>7</sub>C<sub>3</sub>、δ-Cr<sub>23</sub>C<sub>7</sub>、θ-Ni<sub>3</sub>B、ψ-CrB、μ-Cr<sub>2</sub>B和γ-Ni，这些相有助于提高硬度。研究结果表明，通过采用优化的PTAW参数，工业界可提高零部件寿命，并降低与原材料、返工和表面缺陷相关的成本。",
-        "infographic": {
-          "key_insight": "集成AHP与冶金分析表明，等离子转移弧焊（PTAW）是NiCrBSi涂层最优的堆焊方法，可获得最高硬度和整体综合等级。",
-          "engineering_relevance": "对于耐磨表面工程，采用优化参数的PTAW提供了一条延长零部件寿命、减少返工并降低材料相关成本的实用途径。",
-          "method": [
-            "比较了五种堆焊方法：SMAW、MIG、TIG、自动TIG和PTAW。",
-            "采用AHP依据工艺和性能准则对各技术进行排序。",
-            "对采用Colmonoy-4镍基粉末制备的PTAW涂覆SS410试样进行了显微组织/硬度分析。"
-          ],
-          "evidence_signal": "PTAW获得了501.8 HV1的显微硬度和0.47的综合等级，显微组织显示出Cr7C3、Cr23C7、Ni3B、CrB和Cr2B等硬碳化物与硼化物。",
-          "watch_item": "最优结果与特定的SS410基体、Colmonoy-4粉末以及所测试的工艺窗口相关，因此其在其他合金或工业环境中的适用性需要验证。"
-        }
-      },
-      "generator": "openai"
-    }
-  },
-  {
-    "id": "2026-07-31-openalex-integrated_ahp_and_metallurgical_approach_comparing_welding_techniques_and_characterizing",
-    "doi": "10.1080/09507116.2026.2708880",
-    "date": "2026-07-31",
-    "title": "Integrated AHP and metallurgical approach: comparing welding techniques and characterizing NiCrBSi coatings in hardfacing",
-    "authors": "Sachin P. Kakade, D. D. Deshmukh",
-    "abstract": "In this study, the analytic hierarchy process (AHP) was employed to select the optimal hardfacing method from shielded metal arc welding (SMAW), metal inert gas (MIG) welding, Tungsten inert gas (TIG) welding, automatic TIG welding, and plasma transferred arc welding (PTAW). PTAW was identified as the superior technique, demonstrating higher microhardness (501.8 HV1) and a composite grade of 0.47 compared to other methods. The research used a 130 mm × 100 mm × 30 mm SS410 steel substrate and Colmonoy-4 nickel-based alloy powder with a grain size of 40–60 µm. The key process parameters transferred arc current (TC), powder feed rate (PF), speed of oscillation (SO), welding speed (WS), and plasma gas flow rate (PG) were identified through literature and preliminary studies. Microstructural analysis revealed the presence of carbides and borides of nickel, chromium, and iron, including α-Cr7C3, β-(Cr, Fe)7C3, δ-Cr23C7, θ-Ni3B, ψ-CrB, μ-Cr2B, and γ-Ni, which contributed to the enhanced hardness. The findings suggest that industries can enhance component life and reduce costs related to raw materials, rework, and surface defects by adopting optimized PTAW parameters.",
-    "category": "Coating Microstructure",
-    "source": "OpenAlex",
-    "venue": "Welding International",
-    "published": "2026-07-31T00:00:00+00:00",
-    "updated": "",
-    "primary_category": "journal-article",
-    "categories": [
-      "journal-article"
-    ],
-    "links": [
-      {
-        "title": "OpenAlex",
-        "url": "https://openalex.org/W7172014178"
-      },
-      {
-        "title": "DOI",
-        "url": "https://doi.org/10.1080/09507116.2026.2708880"
-      },
-      {
-        "title": "Publisher",
-        "url": "https://doi.org/10.1080/09507116.2026.2708880"
-      }
-    ],
-    "open_access": false,
-    "score": 46,
-    "infographic": {
-      "key_insight": "AHP ranked plasma transferred arc welding (PTAW) as the best hardfacing route for NiCrBSi coatings, combining superior microhardness with the most favorable composite grade.",
-      "engineering_relevance": "For wear-critical steel components, optimized PTAW hardfacing can extend service life and lower cost by improving coating hardness and metallurgical quality.",
-      "method": [
-        "Compared five welding techniques using analytic hierarchy process (SMAW, MIG, TIG, automatic TIG, PTAW)",
-        "Hardfaced SS410 substrate with Colmonoy-4 nickel-based powder under selected process parameters",
-        "Characterized coating hardness and microstructure to relate performance to carbide/boride formation"
-      ],
-      "evidence_signal": "PTAW achieved 501.8 HV1 microhardness and a composite grade of 0.47, with microstructural evidence of hard phases such as Cr and Ni borides/carbides.",
-      "watch_item": "The result is based on specific SS410 substrate, powder size, and parameter window, so transferability to other materials or scales needs validation.",
-      "hashtags": [
-        "#Hardfacing",
-        "#PTAW",
-        "#AHP",
-        "#NiCrBSi",
-        "#SurfaceEngineering"
-      ],
-      "paper_id": "2026-07-31-openalex-integrated_ahp_and_metallurgical_approach_comparing_welding_techniques_and_characterizing",
-      "paper_title": "Integrated AHP and metallurgical approach: comparing welding techniques and characterizing NiCrBSi coatings in hardfacing",
-      "paper_date": "2026-07-31",
-      "paper_category": "Coating Microstructure",
-      "generated_at": "2026-08-02T12:06:09",
-      "generator": "openai"
-    },
-    "translation": {
-      "zh-Hans": {
-        "title": "集成AHP与冶金方法：比较焊接技术并表征硬面堆焊中NiCrBSi涂层",
-        "abstract": "在本研究中，采用层次分析法（AHP）从焊条电弧焊（SMAW）、熔化极惰性气体保护焊（MIG）、钨极惰性气体保护焊（TIG）、自动TIG焊和等离子转移弧焊（PTAW）中选择最佳硬面堆焊方法。结果表明，PTAW为优选技术，其显微硬度更高（501.8 HV1），且综合等级为0.47，优于其他方法。研究采用130 mm × 100 mm × 30 mm的SS410钢基体和粒径为40–60 µm的Colmonoy-4镍基合金粉末。关键工艺参数包括转移弧电流（TC）、送粉速率（PF）、摆动速度（SO）、焊接速度（WS）和等离子气体流量（PG），这些参数通过文献调研和初步研究确定。显微组织分析显示存在镍、铬和铁的碳化物与硼化物，包括α-Cr7C3、β-(Cr, Fe)7C3、δ-Cr23C7、θ-Ni3B、ψ-CrB、μ-Cr2B和γ-Ni，这些相有助于提高硬度。研究结果表明，通过采用优化的PTAW参数，工业界可以延长零部件寿命，并降低与原材料、返工和表面缺陷相关的成本。",
-        "infographic": {
-          "key_insight": "AHP将等离子转移弧焊（PTAW）评为NiCrBSi涂层最佳硬面堆焊路径，将更高的显微硬度与最有利的综合等级相结合。",
-          "engineering_relevance": "对于耐磨关键钢制部件，优化的PTAW硬面堆焊可通过提高涂层硬度和冶金质量来延长服役寿命并降低成本。",
-          "method": [
-            "使用层次分析法比较五种焊接技术（SMAW、MIG、TIG、自动TIG、PTAW）",
-            "在选定工艺参数下，采用Colmonoy-4镍基粉末对SS410基体进行硬面堆焊",
-            "表征涂层硬度和显微组织，以关联性能与碳化物/硼化物的形成"
-          ],
-          "evidence_signal": "PTAW实现了501.8 HV1的显微硬度和0.47的综合等级，并通过显微组织证据显示存在Cr和Ni的硼化物/碳化物等硬质相。",
-          "watch_item": "该结果基于特定的SS410基体、粉末粒径和参数窗口，因此在其他材料或尺度上的适用性需要验证。"
-        }
-      },
-      "generator": "openai"
+      "generator": "unavailable"
     }
   },
   {
@@ -923,59 +439,44 @@
     "open_access": true,
     "score": 46,
     "infographic": {
-      "key_insight": "Increasing the barrel filling ratio from 43% to 53% made detonation-sprayed Cr3C2–NiCr coatings denser and more wear-resistant, despite a slightly higher friction coefficient.",
-      "engineering_relevance": "Optimizing spraying fill ratio is a practical process lever for improving protective carbide coatings used in high-wear, severe-service components.",
+      "key_insight": "This study investigates the influence of barrel filling ratio on the microstructure, phase composition, and tribological performance of detonation-sprayed Cr3C2–NiCr coatings.",
+      "engineering_relevance": "Potential relevance: coating microstructure workflows and research evaluation.",
       "method": [
-        "Detonation-sprayed Cr3C2–NiCr coatings at 43% and 53% barrel filling ratios under the same spray conditions.",
-        "Characterized microstructure and phases using microscopy and XRD to compare porosity, carbide distribution, and carbide transformation.",
-        "Evaluated dry sliding tribology with ball-on-disc tests at 10 and 15 N and 5 and 10 cm/s."
+        "AI materials, welding, detonation spray, coating, or machine-design paper selected from public scholarly sources.",
+        "Ranked by recency plus AI and engineering-domain relevance signals.",
+        "Use the linked paper for methods, data, and validation details."
       ],
-      "evidence_signal": "The 53% filling ratio coating showed the lowest reported wear rate, 1.23 × 10^-4 mm3/(m·N), alongside a denser microstructure and improved performance at higher loads.",
-      "watch_item": "The higher-filling-ratio coating improved wear resistance but also raised friction, so application should balance wear protection against possible increases in sliding resistance and heat generation.",
+      "evidence_signal": "Evidence details are summarized from the public abstract only.",
+      "watch_item": "Review the full paper for governing assumptions, validation data, and generalization limits.",
       "hashtags": [
-        "#DetonationSpraying",
-        "#CarbideCoatings",
-        "#WearResistance",
-        "#Microstructure",
-        "#Tribology"
+        "#AIDetonationSpray",
+        "#DetonationSpray",
+        "#Coatings",
+        "#ThermalSpray",
+        "#arXiv"
       ],
       "paper_id": "2026-07-04-openalex-effect_of_barrel_filling_ratio_on_the_microstructure_phase_composition_and_tribological_pe",
       "paper_title": "Effect of Barrel Filling Ratio on the Microstructure, Phase Composition and Tribological Performance of Detonation-Sprayed Cr3C2–NiCr Coatings",
       "paper_date": "2026-07-04",
       "paper_category": "Coating Microstructure",
-      "generated_at": "2026-08-02T12:06:11",
+      "generated_at": "2026-08-03T13:49:06",
       "generator": "openai"
     },
     "translation": {
-      "zh-Hans": {
-        "title": "桶装填率对爆炸喷涂Cr3C2–NiCr涂层微观组织、相组成和摩擦学性能的影响",
-        "abstract": "本研究考察了桶装填率对爆炸喷涂Cr3C2–NiCr涂层微观组织、相组成和摩擦学性能的影响。在相同喷涂条件下，分别在43%和53%的桶装填率下制备涂层。微观组织表征结果显示，涂层形成了致密的层状结构，孔隙率较低，Cr3C2碳化物颗粒在NiCr金属基体中分布均匀。与43%桶装填率下沉积的涂层相比，53%桶装填率下沉积的涂层微观组织更致密。X射线衍射分析证实，喷涂后Cr3C2和NiCr仍为主导相，而由于热暴露过程中铬碳化物发生部分脱碳，形成了少量Cr7C3。采用球-盘构型在干滑动条件下评估摩擦学性能，法向载荷分别为10和15 N，滑动速度分别为5和10 cm/s。磨损体积通过测试后磨痕几何形貌确定，并据此计算磨损率。53%桶装填率制备的涂层在较高载荷下表现出更好的耐磨性，尽管其摩擦系数略高。最小磨损率达到1.23 × 10−4 mm3/(m·N)，这与涂层孔隙率降低和结构完整性增强有关。结果表明，优化爆炸喷涂参数会显著影响涂层结构和摩擦学行为。所制备的Cr3C2–NiCr涂层有望作为在严苛摩擦磨损条件下工作的部件的防护材料，包括工业和高温工程应用。",
-        "infographic": {
-          "key_insight": "将桶装填率从43%提高到53%，使爆炸喷涂Cr3C2–NiCr涂层更致密、耐磨性更好，尽管摩擦系数略有升高。",
-          "engineering_relevance": "优化喷涂填充率是提升用于高磨损、严苛工况部件的防护碳化物涂层性能的一项实用工艺手段。",
-          "method": [
-            "在相同喷涂条件下，分别以43%和53%的桶装填率制备爆炸喷涂Cr3C2–NiCr涂层。",
-            "采用显微镜和XRD表征微观组织与相组成，以比较孔隙率、碳化物分布及碳化物转变。",
-            "通过球-盘试验在10和15 N载荷、5和10 cm/s速度下评估干滑动摩擦学性能。"
-          ],
-          "evidence_signal": "53%桶装填率的涂层表现出最低报告磨损率1.23 × 10^-4 mm3/(m·N)，同时具有更致密的微观组织，并在较高载荷下表现出更优性能。",
-          "watch_item": "较高填充率的涂层提高了耐磨性，但也增加了摩擦，因此应用时应在耐磨保护与可能增加的滑动阻力及热量生成之间加以权衡。"
-        }
-      },
-      "generator": "openai"
+      "generator": "unavailable"
     }
   },
   {
-    "id": "2026-07-30-openalex-advances_in_rare_earth_silicate_environmental_barrier_coatings",
-    "doi": "10.1111/jace.71072",
-    "date": "2026-07-30",
-    "title": "Advances in Rare‐Earth Silicate Environmental Barrier Coatings",
-    "authors": "Zeyu Chen, Yiling Huang, Peng Fan, Yue Sun, Wei Zheng, Xuemei Song",
-    "abstract": "ABSTRACT Rare‐earth silicates (RE 2 Si 2 O 7 and RE 2 SiO 5 ) are leading candidates for third‐generation environmental barrier coatings (EBCs) because they combine corrosion resistance to molten calcium–magnesium–aluminosilicate (CMAS) and high‐temperature water vapor with thermal expansion coefficients (CTEs) compatible with ceramic matrix composites (CMCs), high melting points, phase stability, and low thermal conductivity. Their composition–structure–property relationships nevertheless impose coupled constraints: a composition that stabilizes a desirable phase or lowers thermal conductivity does not necessarily maximize water‐vapor and CMAS resistance, and plasma‐sprayed coatings can differ substantially from dense bulk ceramics because of SiO 2 loss, amorphous phases, porosity, and segregation. Therefore, this review: (i) clarifies phase‐formation rules and their thermodynamic/crystallographic basis, (ii) compares single‐component and multicomponent silicates while distinguishing bulk and coating evidence, and (iii) summarizes environment‐dependent corrosion mechanisms and multi‐objective design strategies.",
-    "category": "Coating Microstructure",
+    "id": "2026-08-01-openalex-welding_air_filtration_systems",
+    "doi": "10.5281/zenodo.21737914",
+    "date": "2026-08-01",
+    "title": "Welding Air Filtration Systems",
+    "authors": "Welding Air Filtration Systems MECHVAC Engineering, Welding Air Filtration Systems MECHVAC Engineering",
+    "abstract": "Welding Air Filtration Systems from MECHVAC Engineering are designed to create safer, cleaner, and more efficient industrial workspaces by effectively capturing harmful welding fumes, smoke, and airborne contaminants. Built with advanced filtration technology, these systems help improve indoor air quality, protect worker health, and support compliance with workplace safety standards. Whether for small workshops or large manufacturing facilities, MECHVAC Engineering delivers reliable, high-performance air filtration solutions tailored to your operational requirements. With a focus on quality, durability, and energy efficiency, their expert team provides customized systems that enhance productivity while maintaining a healthier working environment for every welding application. WEBSITE:- https://mechvac.com.au/welding-air-filtration-systems/",
+    "category": "Coating Quality Prediction",
     "source": "OpenAlex",
-    "venue": "Journal of the American Ceramic Society",
-    "published": "2026-07-30T00:00:00+00:00",
+    "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+    "published": "2026-08-01T00:00:00+00:00",
     "updated": "",
     "primary_category": "journal-article",
     "categories": [
@@ -984,60 +485,161 @@
     "links": [
       {
         "title": "OpenAlex",
-        "url": "https://openalex.org/W7171867326"
+        "url": "https://openalex.org/W7172093355"
       },
       {
         "title": "DOI",
-        "url": "https://doi.org/10.1111/jace.71072"
+        "url": "https://doi.org/10.5281/zenodo.21737914"
       },
       {
         "title": "Publisher",
-        "url": "https://doi.org/10.1111/jace.71072"
+        "url": "https://doi.org/10.5281/zenodo.21737914"
       }
     ],
-    "open_access": false,
-    "score": 41,
+    "open_access": true,
+    "score": 44,
     "infographic": {
-      "key_insight": "Rare-earth silicates are promising third-generation environmental barrier coatings because they balance CMAS and water-vapor resistance with compatible thermal expansion, but performance depends strongly on phase, composition, and coating microstructure.",
-      "engineering_relevance": "The review guides EBC design for ceramic matrix composites by linking phase stability, thermodynamics, and microstructure to durability under extreme service environments.",
+      "key_insight": "Welding Air Filtration Systems from MECHVAC Engineering are designed to create safer, cleaner, and more efficient industrial workspaces by effectively capturing harmful welding fumes, smoke, and airborne contaminants.",
+      "engineering_relevance": "Potential relevance: coating quality prediction workflows and research evaluation.",
       "method": [
-        "Clarifies phase-formation rules and their thermodynamic/crystallographic basis",
-        "Compares single-component and multicomponent silicates, separating bulk from plasma-sprayed coating behavior",
-        "Summarizes corrosion mechanisms and multi-objective design strategies for harsh environments"
+        "AI materials, welding, detonation spray, coating, or machine-design paper selected from public scholarly sources.",
+        "Ranked by recency plus AI and engineering-domain relevance signals.",
+        "Use the linked paper for methods, data, and validation details."
       ],
-      "evidence_signal": "The evidence is a literature review synthesizing bulk and coating studies on phase stability, thermal properties, and corrosion resistance rather than new experimental data.",
-      "watch_item": "Plasma-sprayed coatings may deviate substantially from bulk ceramics due to SiO2 loss, amorphous phases, porosity, and segregation, so bulk-derived phase/property rules may not directly transfer.",
+      "evidence_signal": "Evidence details are summarized from the public abstract only.",
+      "watch_item": "Review the full paper for governing assumptions, validation data, and generalization limits.",
       "hashtags": [
-        "#EnvironmentalBarrierCoatings",
-        "#RareEarthSilicates",
-        "#CeramicMatrixComposites",
-        "#CMASResistance",
-        "#HighTemperatureMaterials"
+        "#AIDetonationSpray",
+        "#DetonationSpray",
+        "#Coatings",
+        "#ThermalSpray",
+        "#arXiv"
       ],
-      "paper_id": "2026-07-30-openalex-advances_in_rare_earth_silicate_environmental_barrier_coatings",
-      "paper_title": "Advances in Rare‐Earth Silicate Environmental Barrier Coatings",
-      "paper_date": "2026-07-30",
-      "paper_category": "Coating Microstructure",
-      "generated_at": "2026-08-02T12:06:14",
+      "paper_id": "2026-08-01-openalex-welding_air_filtration_systems",
+      "paper_title": "Welding Air Filtration Systems",
+      "paper_date": "2026-08-01",
+      "paper_category": "Coating Quality Prediction",
+      "generated_at": "2026-08-03T13:49:07",
       "generator": "openai"
     },
     "translation": {
-      "zh-Hans": {
-        "title": "稀土硅酸盐环境障涂层的进展",
-        "abstract": "摘要 稀土硅酸盐（RE 2 Si 2 O 7 和 RE 2 SiO 5）因兼具对熔融钙–镁–铝硅酸盐（CMAS）和高温水蒸气的耐腐蚀性，以及与陶瓷基复合材料（CMCs）相容的热膨胀系数（CTEs）、高熔点、相稳定性和低热导率，而成为第三代环境障涂层（EBCs）的领先候选材料。然而，其成分–结构–性能关系也带来了耦合约束：能够稳定有利相或降低热导率的组成，并不一定能使水蒸气和CMAS耐受性达到最大；且由于SiO 2 损失、非晶相、孔隙和偏析，等离子喷涂涂层可能与致密块体陶瓷存在显著差异。因此，本综述：(i) 阐明相形成规律及其热力学/晶体学基础，(ii) 比较单组分和多组分硅酸盐，同时区分块体与涂层证据，(iii) 总结环境相关腐蚀机制和多目标设计策略。",
-        "infographic": {
-          "key_insight": "稀土硅酸盐之所以是有前景的第三代环境障涂层，是因为它们在CMAS和水蒸气耐受性与相容的热膨胀之间实现了平衡，但性能在很大程度上取决于相、成分和涂层微观结构。",
-          "engineering_relevance": "本综述通过将相稳定性、热力学和微观结构与极端服役环境下的耐久性联系起来，为陶瓷基复合材料的EBC设计提供指导。",
-          "method": [
-            "阐明相形成规律及其热力学/晶体学基础",
-            "比较单组分和多组分硅酸盐，并区分块体与等离子喷涂涂层的行为",
-            "总结苛刻环境下的腐蚀机制和多目标设计策略"
-          ],
-          "evidence_signal": "该证据来源于对块体与涂层研究的文献综述，综合了相稳定性、热性能和耐腐蚀性方面的研究，而非新的实验数据。",
-          "watch_item": "由于SiO2损失、非晶相、孔隙和偏析，等离子喷涂涂层可能与块体陶瓷存在显著偏离，因此基于块体得到的相/性能规律未必能直接迁移。"
-        }
+      "generator": "unavailable"
+    }
+  },
+  {
+    "id": "2026-08-01-openalex-welding_air_filtration_systems",
+    "doi": "10.5281/zenodo.21737915",
+    "date": "2026-08-01",
+    "title": "Welding Air Filtration Systems",
+    "authors": "Welding Air Filtration Systems MECHVAC Engineering, Welding Air Filtration Systems MECHVAC Engineering",
+    "abstract": "Welding Air Filtration Systems from MECHVAC Engineering are designed to create safer, cleaner, and more efficient industrial workspaces by effectively capturing harmful welding fumes, smoke, and airborne contaminants. Built with advanced filtration technology, these systems help improve indoor air quality, protect worker health, and support compliance with workplace safety standards. Whether for small workshops or large manufacturing facilities, MECHVAC Engineering delivers reliable, high-performance air filtration solutions tailored to your operational requirements. With a focus on quality, durability, and energy efficiency, their expert team provides customized systems that enhance productivity while maintaining a healthier working environment for every welding application. WEBSITE:- https://mechvac.com.au/welding-air-filtration-systems/",
+    "category": "Coating Quality Prediction",
+    "source": "OpenAlex",
+    "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+    "published": "2026-08-01T00:00:00+00:00",
+    "updated": "",
+    "primary_category": "journal-article",
+    "categories": [
+      "journal-article"
+    ],
+    "links": [
+      {
+        "title": "OpenAlex",
+        "url": "https://openalex.org/W7172136118"
       },
+      {
+        "title": "DOI",
+        "url": "https://doi.org/10.5281/zenodo.21737915"
+      },
+      {
+        "title": "Publisher",
+        "url": "https://doi.org/10.5281/zenodo.21737915"
+      }
+    ],
+    "open_access": true,
+    "score": 44,
+    "infographic": {
+      "key_insight": "Welding Air Filtration Systems from MECHVAC Engineering are designed to create safer, cleaner, and more efficient industrial workspaces by effectively capturing harmful welding fumes, smoke, and airborne contaminants.",
+      "engineering_relevance": "Potential relevance: coating quality prediction workflows and research evaluation.",
+      "method": [
+        "AI materials, welding, detonation spray, coating, or machine-design paper selected from public scholarly sources.",
+        "Ranked by recency plus AI and engineering-domain relevance signals.",
+        "Use the linked paper for methods, data, and validation details."
+      ],
+      "evidence_signal": "Evidence details are summarized from the public abstract only.",
+      "watch_item": "Review the full paper for governing assumptions, validation data, and generalization limits.",
+      "hashtags": [
+        "#AIDetonationSpray",
+        "#DetonationSpray",
+        "#Coatings",
+        "#ThermalSpray",
+        "#arXiv"
+      ],
+      "paper_id": "2026-08-01-openalex-welding_air_filtration_systems",
+      "paper_title": "Welding Air Filtration Systems",
+      "paper_date": "2026-08-01",
+      "paper_category": "Coating Quality Prediction",
+      "generated_at": "2026-08-03T13:49:07",
       "generator": "openai"
+    },
+    "translation": {
+      "generator": "unavailable"
+    }
+  },
+  {
+    "id": "2026-08-01-openalex-multiaxial_fatigue_assessment_of_aluminium_to_steel_welded_joints",
+    "doi": "",
+    "date": "2026-08-01",
+    "title": "Multiaxial fatigue assessment of aluminium-to-steel welded joints",
+    "authors": "C.T. Ng, L. Susmel",
+    "abstract": "Journal article indexed by OpenAlex in White Rose Research Online (University of Leeds, The University of Sheffield, University of York).",
+    "category": "Welding Processes",
+    "source": "OpenAlex",
+    "venue": "White Rose Research Online (University of Leeds, The University of Sheffield, University of York)",
+    "published": "2026-08-01T00:00:00+00:00",
+    "updated": "",
+    "primary_category": "journal-article",
+    "categories": [
+      "journal-article"
+    ],
+    "links": [
+      {
+        "title": "OpenAlex",
+        "url": "https://openalex.org/W7136094855"
+      },
+      {
+        "title": "Publisher",
+        "url": "https://orcid.org/0000-0002-0663-4798>"
+      }
+    ],
+    "open_access": false,
+    "score": 42,
+    "infographic": {
+      "key_insight": "Journal article indexed by OpenAlex in White Rose Research Online (University of Leeds, The University of Sheffield, University of York).",
+      "engineering_relevance": "Potential relevance: welding processes workflows and research evaluation.",
+      "method": [
+        "AI materials, welding, detonation spray, coating, or machine-design paper selected from public scholarly sources.",
+        "Ranked by recency plus AI and engineering-domain relevance signals.",
+        "Use the linked paper for methods, data, and validation details."
+      ],
+      "evidence_signal": "Evidence details are summarized from the public abstract only.",
+      "watch_item": "Review the full paper for governing assumptions, validation data, and generalization limits.",
+      "hashtags": [
+        "#AIDetonationSpray",
+        "#DetonationSpray",
+        "#Coatings",
+        "#ThermalSpray",
+        "#arXiv"
+      ],
+      "paper_id": "2026-08-01-openalex-multiaxial_fatigue_assessment_of_aluminium_to_steel_welded_joints",
+      "paper_title": "Multiaxial fatigue assessment of aluminium-to-steel welded joints",
+      "paper_date": "2026-08-01",
+      "paper_category": "Welding Processes",
+      "generated_at": "2026-08-03T13:49:07",
+      "generator": "openai"
+    },
+    "translation": {
+      "generator": "unavailable"
     }
   },
   {
@@ -1077,125 +679,31 @@
     "open_access": true,
     "score": 40,
     "infographic": {
-      "key_insight": "Raising cold-spray pressure from 30 to 60 bar increases copper particle velocity past the bonding threshold, producing denser deposits with better conductivity and ductility through stronger inter-particle bonding and recrystallization.",
-      "engineering_relevance": "For CSAM copper parts, spray pressure is a key control knob that can balance electrical performance, tensile ductility, and strength without melting the feedstock.",
+      "key_insight": "Cold spray additive manufacturing (CSAM) is a solid-state process capable of producing dense metallic components without melting, making it highly attractive for copper applications requiring both electrical conductivity and mechanical integrity.",
+      "engineering_relevance": "Potential relevance: thermal spray coatings workflows and research evaluation.",
       "method": [
-        "LightSPEE3D cold spray of copper at 30, 40, 50, and 60 bar",
-        "Characterization by XRD, SEM, hardness, eddy current conductivity, and tensile testing",
-        "Correlation of particle velocity with microstructural evolution and mechanical/electrical properties"
+        "AI materials, welding, detonation spray, coating, or machine-design paper selected from public scholarly sources.",
+        "Ranked by recency plus AI and engineering-domain relevance signals.",
+        "Use the linked paper for methods, data, and validation details."
       ],
-      "evidence_signal": "The abstract reports pressure-dependent gains in particle velocity, XRD crystallite refinement, increased conductivity, and a shift toward more ductile tensile and fracture behavior at higher pressures.",
-      "watch_item": "Higher pressure improved performance but also reduced hardness, so process tuning must avoid over-annealing/recovery effects if surface wear resistance is important.",
+      "evidence_signal": "Evidence details are summarized from the public abstract only.",
+      "watch_item": "Review the full paper for governing assumptions, validation data, and generalization limits.",
       "hashtags": [
-        "#ColdSpray",
-        "#AdditiveManufacturing",
-        "#Copper",
-        "#Microstructure",
-        "#MaterialsEngineering"
+        "#AIDetonationSpray",
+        "#DetonationSpray",
+        "#Coatings",
+        "#ThermalSpray",
+        "#arXiv"
       ],
       "paper_id": "2026-07-02-openalex-optimising_cold_spray_additive_manufacturing_pressure_driven_enhancement_of_mechanical_per",
       "paper_title": "Optimising Cold Spray Additive Manufacturing: Pressure-driven enhancement of mechanical performance in copper deposits",
       "paper_date": "2026-07-02",
       "paper_category": "Thermal Spray Coatings",
-      "generated_at": "2026-08-02T12:06:16",
+      "generated_at": "2026-08-03T13:49:08",
       "generator": "openai"
     },
     "translation": {
-      "zh-Hans": {
-        "title": "冷喷涂增材制造优化：压力驱动铜沉积层力学性能提升",
-        "abstract": "冷喷涂增材制造（CSAM）是一种能够在不发生熔化的情况下制备致密金属构件的固态工艺，因此对于同时要求电导率和力学完整性的铜应用具有很强吸引力。本研究系统考察了在 30 bar、40 bar、50 bar 和 60 bar 喷涂压力下，采用 LightSPEE3D 系统制备的冷喷铜中颗粒速度、微观组织和性能的影响。通过 X 射线衍射（XRD）、硬度测试、涡流电导率测试、拉伸评价以及扫描电子显微镜（SEM）对冷喷沉积层进行了表征。结果表明，提高喷涂压力可使颗粒速度超过铜的临界阈值，从而增强颗粒间结合并细化微观组织，这与严重塑性变形以及可能由连续动态再结晶（cDRX）辅助的机制一致。XRD 分析表明，随压力升高，晶粒尺寸逐步细化、位错密度增加，这与延展性改善直接相关。尽管由于回复和再结晶导致硬度下降，但电导率提高，可能归因于颗粒间连续性改善以及界面不连续性减少。拉伸测试显示出明显的强度-延展性转变，高压力下的沉积层表现出显著改善的延展性，接近块体铜行为，并呈现完全延性断裂形貌。总体而言，研究结果确定了较高喷涂压力下的最佳工艺窗口，在该窗口内铜冷喷沉积层能够实现导电性、延展性和强度的平衡组合。本研究强调了喷涂压力在控制颗粒速度、动态再结晶以及 CSAM 铜构件多功能性能之间相互作用中的关键作用。本研究建立了一个工艺-组织-性能关系，将 LightSPEE3D CSAM 系统中的颗粒速度、基于 XRD 的微观组织演化、导电性和拉伸行为联系起来。",
-        "infographic": {
-          "key_insight": "将冷喷压力从 30 bar 提高到 60 bar 会使铜颗粒速度超过结合阈值，通过更强的颗粒间结合和再结晶形成更致密的沉积层，并改善导电性和延展性。",
-          "engineering_relevance": "对于 CSAM 铜部件，喷涂压力是一个关键调节参数，可在不熔化原料的情况下平衡电性能、拉伸延展性和强度。",
-          "method": [
-            "在 30、40、50 和 60 bar 下使用 LightSPEE3D 对铜进行冷喷",
-            "通过 XRD、SEM、硬度、涡流电导率和拉伸测试进行表征",
-            "关联颗粒速度与微观组织演化及力学/电学性能"
-          ],
-          "evidence_signal": "摘要报告了随压力变化的颗粒速度提升、XRD 晶粒细化、电导率增加，以及在较高压力下拉伸和断裂行为向更延性的方向转变。",
-          "watch_item": "更高压力提高了性能，但也降低了硬度，因此如果表面耐磨性重要，工艺调节必须避免过度退火/回复效应。"
-        }
-      },
-      "generator": "openai"
-    }
-  },
-  {
-    "id": "2026-07-30-openalex-unraveling_the_potential_of_fe_6_5si_cold_spray_laminates",
-    "doi": "10.1038/s44334-026-00091-y",
-    "date": "2026-07-30",
-    "title": "Unraveling the potential of Fe-6.5Si Cold Spray laminates",
-    "authors": "Hrishikesh Das, Julian D. Escobar Atehortua, Aditya Nittala, Shivakant Shukla, Tingkun Liu, Tej Bahadur Poudel Chhetri",
-    "abstract": "Abstract This study explores the development of cold-spray-deposited Fe-6.5 wt.%Si for soft magnetic material applications. We present experimental evidence for the successful deposition of Fe-6.5 wt.%Si powder via cold spray, emphasizing the role of carrier gas in optimizing deposition performance for high-temperature materials. Detailed scanning electron microscopy, energy dispersive spectroscopy, and electron back-scattered diffraction analysis reveal the impact of annealing on enhancing magnetic performance through grain growth and stored-strain relaxation. Additionally, the fabrication and analysis of a dual-layer gradient composition, consisting of Fe-3.5 wt.%Si and Fe-6.5 wt.%Si, is successfully demonstrated and characterized using scanning electron-based microscopy. These findings provide insights into leveraging cold spray technology as an additive manufacturing approach for developing magnetic laminates.",
-    "category": "Thermal Spray Coatings",
-    "source": "OpenAlex",
-    "venue": "npj Advanced Manufacturing",
-    "published": "2026-07-30T00:00:00+00:00",
-    "updated": "",
-    "primary_category": "journal-article",
-    "categories": [
-      "journal-article"
-    ],
-    "links": [
-      {
-        "title": "OpenAlex",
-        "url": "https://openalex.org/W7171767718"
-      },
-      {
-        "title": "DOI",
-        "url": "https://doi.org/10.1038/s44334-026-00091-y"
-      },
-      {
-        "title": "Publisher",
-        "url": "https://doi.org/10.1038/s44334-026-00091-y"
-      },
-      {
-        "title": "Open access PDF",
-        "url": "https://www.nature.com/articles/s44334-026-00091-y_reference.pdf"
-      }
-    ],
-    "open_access": true,
-    "score": 39,
-    "infographic": {
-      "key_insight": "Cold spray can successfully build Fe-6.5 wt.%Si laminates for soft magnetic applications, and annealing improves their magnetic potential by relieving strain and promoting grain growth.",
-      "engineering_relevance": "This work shows cold spray as a viable additive-manufacturing route for high-Si ferromagnetic laminates, including graded Fe-3.5Si/Fe-6.5Si structures.",
-      "method": [
-        "Cold-spray deposition of Fe-6.5 wt.%Si powder using optimized carrier gas conditions",
-        "Microstructural characterization by SEM, EDS, and EBSD",
-        "Annealing followed by analysis of a dual-layer gradient Fe-3.5Si/Fe-6.5Si laminate"
-      ],
-      "evidence_signal": "The abstract reports successful deposition and characterization, with microscopy and EBSD/EDS showing microstructural changes after annealing linked to improved magnetic performance.",
-      "watch_item": "The results are based on a specific powder system and processing window, so deposition quality and magnetic gains may be sensitive to gas selection, annealing, and layer design.",
-      "hashtags": [
-        "#ColdSpray",
-        "#SoftMagneticMaterials",
-        "#FeSiAlloy",
-        "#AdditiveManufacturing",
-        "#ThermalSpray"
-      ],
-      "paper_id": "2026-07-30-openalex-unraveling_the_potential_of_fe_6_5si_cold_spray_laminates",
-      "paper_title": "Unraveling the potential of Fe-6.5Si Cold Spray laminates",
-      "paper_date": "2026-07-30",
-      "paper_category": "Thermal Spray Coatings",
-      "generated_at": "2026-08-02T12:06:18",
-      "generator": "openai"
-    },
-    "translation": {
-      "zh-Hans": {
-        "title": "Fe-6.5Si 冷喷涂叠层潜力解析",
-        "abstract": "摘要 本研究探讨了通过冷喷涂沉积 Fe-6.5 wt.%Si 在软磁材料应用中的开发。我们提供了通过冷喷涂成功沉积 Fe-6.5 wt.%Si 粉末的实验依据，强调载气在优化高温材料沉积性能中的作用。详细的扫描电子显微镜、能量色散光谱和电子背散射衍射分析表明，退火通过晶粒长大和残余应变松弛提升磁性能。除此之外，还成功制备并表征了一种由 Fe-3.5 wt.%Si 和 Fe-6.5 wt.%Si 组成的双层梯度成分结构，并使用基于扫描电子的显微技术进行了分析。这些发现为将冷喷涂技术作为一种增材制造方法用于开发磁性叠层提供了见解。",
-        "infographic": {
-          "key_insight": "冷喷涂可成功构建用于软磁应用的 Fe-6.5 wt.%Si 叠层，而退火通过消除应变和促进晶粒长大提升了其磁潜力。",
-          "engineering_relevance": "本研究表明，冷喷涂是一种可行的高硅铁磁叠层增材制造路径，包括梯度 Fe-3.5Si/Fe-6.5Si 结构。",
-          "method": [
-            "采用优化的载气条件对 Fe-6.5 wt.%Si 粉末进行冷喷涂沉积",
-            "通过 SEM、EDS 和 EBSD 进行微观组织表征",
-            "退火后对双层梯度 Fe-3.5Si/Fe-6.5Si 叠层进行分析"
-          ],
-          "evidence_signal": "摘要报道了成功的沉积与表征，且显微镜以及 EBSD/EDS 显示退火后微观结构发生变化，并与磁性能提升相关。",
-          "watch_item": "这些结果基于特定的粉末体系和工艺窗口，因此沉积质量和磁性能增益可能对气体选择、退火条件和层设计较为敏感。"
-        }
-      },
-      "generator": "openai"
+      "generator": "unavailable"
     }
   },
   {
@@ -1235,46 +743,31 @@
     "open_access": true,
     "score": 36,
     "infographic": {
-      "key_insight": "Raising argon flow from 1600 to 1800 L/h during air plasma spraying of NiCrFeBSiC coatings produces thicker, denser coatings with better tribological performance.",
-      "engineering_relevance": "This points to argon flow as a practical process-control lever for improving wear resistance and coating quality in thermal spray applications.",
+      "key_insight": "In this work, self-fluxing metal-ceramic coatings based on the NiCrFeBSiC system were obtained by air plasma spraying, and their structural, mechanical, and tribological properties were investigated..",
+      "engineering_relevance": "Potential relevance: thermal spray coatings workflows and research evaluation.",
       "method": [
-        "Air plasma sprayed self-fluxing NiCrFeBSiC metal-ceramic coatings at two argon flow rates: 1600 and 1800 L/h.",
-        "Characterized coating structure and mechanical properties using porosity/thickness analysis, microhardness, elastic modulus, and scratch testing.",
-        "Evaluated friction and wear behavior with ball-on-disk tribological tests."
+        "AI materials, welding, detonation spray, coating, or machine-design paper selected from public scholarly sources.",
+        "Ranked by recency plus AI and engineering-domain relevance signals.",
+        "Use the linked paper for methods, data, and validation details."
       ],
-      "evidence_signal": "At 1800 L/h, coating thickness roughly doubled, porosity decreased by about twofold, and the friction coefficient dropped to approximately 0.107, with similar critical scratch loads but smoother failure progression.",
-      "watch_item": "The study compares only two argon flow settings, so broader process optimization and long-term service performance still need validation.",
+      "evidence_signal": "Evidence details are summarized from the public abstract only.",
+      "watch_item": "Review the full paper for governing assumptions, validation data, and generalization limits.",
       "hashtags": [
+        "#AIDetonationSpray",
+        "#DetonationSpray",
+        "#Coatings",
         "#ThermalSpray",
-        "#PlasmaSpray",
-        "#CoatingEngineering",
-        "#WearResistance",
-        "#MaterialsProcessing"
+        "#arXiv"
       ],
       "paper_id": "2026-06-24-openalex-effect_of_argon_flow_rate_during_air_plasma_spraying_on_the_structure_and_properties_of_ni",
       "paper_title": "EFFECT OF ARGON FLOW RATE DURING AIR PLASMA SPRAYING ON THE STRUCTURE AND PROPERTIES OF NICRFEBSIC COATINGS",
       "paper_date": "2026-06-24",
       "paper_category": "Thermal Spray Coatings",
-      "generated_at": "2026-08-02T12:06:21",
+      "generated_at": "2026-08-03T13:49:08",
       "generator": "openai"
     },
     "translation": {
-      "zh-Hans": {
-        "title": "空气等离子喷涂过程中氩气流量对NiCrFeBSiC涂层结构和性能的影响",
-        "abstract": "本工作采用空气等离子喷涂制备了基于NiCrFeBSiC体系的自熔性金属-陶瓷涂层，并研究了其结构、力学和摩擦学性能。考察了涂层形成过程中氩气流量（1600和1800 L/h）的影响。结果表明，氩气流量增加会使涂层厚度约增加一倍，同时孔隙率降低一半。根据显微硬度测试结果，显微硬度为1015.8 ± 81.5 HV，而弹性模量为203.9 ± 5.4 GPa。摩擦学测试采用球-盘配置进行。在1800 L/h的氩气流量下，摩擦系数较低（≈0.107），表明涂层耐磨性得到提高。划痕测试结果表明涂层与基体之间具有较高的结合强度。尽管两种工况下的临界载荷值（Lc）相近，但在1800 L/h下获得的涂层表现出更为渐进且稳定的失效行为。",
-        "infographic": {
-          "key_insight": "在空气等离子喷涂NiCrFeBSiC涂层过程中，将氩气流量从1600提高到1800 L/h，可制备出更厚、更致密且摩擦学性能更好的涂层。",
-          "engineering_relevance": "这表明氩气流量是热喷涂应用中改善耐磨性和涂层质量的一个实用工艺控制参数。",
-          "method": [
-            "在两种氩气流量条件下（1600和1800 L/h）采用空气等离子喷涂制备自熔性NiCrFeBSiC金属-陶瓷涂层。",
-            "通过孔隙率/厚度分析、显微硬度、弹性模量和划痕测试表征涂层结构和力学性能。",
-            "采用球-盘摩擦学测试评估摩擦和磨损行为。"
-          ],
-          "evidence_signal": "在1800 L/h条件下，涂层厚度约增加一倍，孔隙率约降低一半，摩擦系数降至约0.107；尽管临界划痕载荷相近，但失效过程更平缓。",
-          "watch_item": "该研究仅比较了两种氩气流量设定，因此更广泛的工艺优化和长期服役性能仍需验证。"
-        }
-      },
-      "generator": "openai"
+      "generator": "unavailable"
     }
   },
   {
@@ -1314,46 +807,31 @@
     "open_access": true,
     "score": 36,
     "infographic": {
-      "key_insight": "Stacking ensemble learning produced the most accurate predictions for UTS, weld hardness, and HAZ hardness, while the multitask neural network showed strong shared-learning generalization across the related welding targets.",
-      "engineering_relevance": "The study helps welding engineers choose between a shared multi-output model for efficient learning and an ensemble approach for higher task-specific predictive accuracy in process optimization and quality control.",
+      "key_insight": "Accurately predicting welding performance measures like ultimate strength (UTS), weld bead hardness, and HAZ mechanical hardness is crucial for ensuring the structural integrity and performance of welded components.",
+      "engineering_relevance": "Potential relevance: ai process optimization workflows and research evaluation.",
       "method": [
-        "Compared multitask neural network (shared hidden layers with task-specific outputs) against stacking ensemble learning.",
-        "Predicted three welding responses: UTS, weld hardness, and HAZ hardness.",
-        "Evaluated both approaches using RMSE and R² on the same dataset."
+        "AI materials, welding, detonation spray, coating, or machine-design paper selected from public scholarly sources.",
+        "Ranked by recency plus AI and engineering-domain relevance signals.",
+        "Use the linked paper for methods, data, and validation details."
       ],
-      "evidence_signal": "Stacking achieved lower RMSE and higher R² for all three outputs, including UTS (RMSE 0.0263, R² 0.9863), weld hardness (0.0467, 0.9782), and HAZ hardness (0.1109, 0.8453).",
-      "watch_item": "Results are dataset-dependent, so stacking may generalize less reliably than MTL if future welding conditions differ or the available training data become sparse.",
+      "evidence_signal": "Evidence details are summarized from the public abstract only.",
+      "watch_item": "Review the full paper for governing assumptions, validation data, and generalization limits.",
       "hashtags": [
-        "#WeldingAI",
-        "#MultitaskLearning",
-        "#StackingEnsemble",
-        "#ProcessOptimization",
-        "#PredictiveModeling"
+        "#AIDetonationSpray",
+        "#DetonationSpray",
+        "#Coatings",
+        "#ThermalSpray",
+        "#arXiv"
       ],
       "paper_id": "2025-11-01-doaj-a_comparative_analysis_of_multitask_neural_networks_and_stacking_ensemble_learning_for_pre",
       "paper_title": "A Comparative Analysis of Multitask Neural Networks and Stacking Ensemble Learning for Predicting UTS, Weld Hardness, and HAZ Hardness in Welding Applications",
       "paper_date": "2025-11-01",
       "paper_category": "AI Process Optimization",
-      "generated_at": "2026-08-02T12:06:24",
+      "generated_at": "2026-08-03T13:49:08",
       "generator": "openai"
     },
     "translation": {
-      "zh-Hans": {
-        "title": "焊接应用中用于预测 UTS、焊缝硬度和 HAZ 硬度的多任务神经网络与堆叠集成学习的比较分析",
-        "abstract": "准确预测焊接性能指标，如极限强度（UTS）、焊缝硬度和 HAZ 机械硬度，对于确保焊接构件的结构完整性和性能至关重要。多任务学习（MTL）是一种机器学习方法，其中一个模型被设计为同时处理多个相互关联的任务。与针对每个任务分别训练独立模型不同，MTL 在任务之间共享表示，使其能够利用共同模式，同时保持任务特定差异。在本研究中，我们基于同一数据集，比较了两种先进的机器学习技术，即多任务神经网络（MTNN）和堆叠集成学习，用于预测这些参数。多任务神经网络（MTNN）是多任务学习（MTL）模型的一种特定类型，采用深度神经网络架构同时处理多个相关任务。在 MTNN 中，不同任务共享部分隐藏层，同时具有任务特定的输出层。这种共享表示使模型能够学习跨任务的共同模式，同时保持任务特定输出。两种方法均使用 RMSE 和 R<sup>2</sup> 进行评估，以确定其预测准确性和整体有效性。结果表明，该方法具有较强的预测能力，其 RMSE 分别为 UTS 的 0.1288、焊缝硬度的 0.0886 和 HAZ 硬度的 0.1125，而 R<sup>2</sup> 值分别为 0.6724、0.9215 和 0.8407。这表明其在相互关联的任务中具有良好的泛化能力。堆叠集成学习在单项任务的准确性方面优于 MTL：UTS 的 RMSE 为 0.0263、R<sup>2</sup> 为 0.9863；焊缝硬度的 RMSE 为 0.0467、R<sup>2</sup> 为 0.9782；HAZ 硬度的 RMSE 为 0.1109、R<sup>2</sup> 为 0.8453。此类结果表明，集成方法在生成高精度、任务特定预测方面具有良好能力。该比较揭示了这两种方法之间的权衡。MTL 适用于任务相关且数据稀疏的场景，可实现高效训练和良好泛化；堆叠集成则更适合需要高精度、独立预测的情况。两种方法都显示出提升焊接应用预测能力的显著潜力，因此适合作为进一步研究混合模型的前期基础，以结合两种方法的最佳特征。",
-        "infographic": {
-          "key_insight": "堆叠集成学习对 UTS、焊缝硬度和 HAZ 硬度给出了最准确的预测，而多任务神经网络则在相关焊接目标之间表现出较强的共享学习泛化能力。",
-          "engineering_relevance": "该研究有助于焊接工程师在工艺优化和质量控制中，选择用于高效学习的共享多输出模型，或用于更高任务特定预测精度的集成方法。",
-          "method": [
-            "将多任务神经网络（共享隐藏层并具有任务特定输出）与堆叠集成学习进行比较。",
-            "预测三项焊接响应：UTS、焊缝硬度和 HAZ 硬度。",
-            "使用 RMSE 和 R² 在同一数据集上评估两种方法。"
-          ],
-          "evidence_signal": "堆叠方法在全部三个输出上均取得了更低的 RMSE 和更高的 R²，包括 UTS（RMSE 0.0263，R² 0.9863）、焊缝硬度（0.0467，0.9782）以及 HAZ 硬度（0.1109，0.8453）。",
-          "watch_item": "结果依赖于数据集，因此如果未来焊接条件不同或可用训练数据变得稀疏，堆叠方法的泛化可靠性可能不如 MTL。"
-        }
-      },
-      "generator": "openai"
+      "generator": "unavailable"
     }
   },
   {
@@ -1393,46 +871,31 @@
     "open_access": true,
     "score": 34,
     "infographic": {
-      "key_insight": "Detonation-sprayed Fe-based amorphous coatings can achieve dense, fine-lamellar microstructures that improve corrosion resistance and humidity-dependent wear performance when droplet spreading is optimized.",
-      "engineering_relevance": "This work guides coating-process tuning for steel protection in corrosive or humid service by linking spray parameters, porosity, and tribological durability.",
+      "key_insight": "Fe-based amorphous coatings (Fe-based AMCs) were successfully prepared on Q235 carbon steel by detonation spray under different spraying parameters.",
+      "engineering_relevance": "Potential relevance: coating microstructure workflows and research evaluation.",
       "method": [
-        "Prepared Fe-based amorphous coatings on Q235 carbon steel by detonation spray under varied parameters.",
-        "Compared coating droplet morphology, microstructure density, corrosion behavior, and wear response.",
-        "Evaluated tribological performance in different humidity environments using Si3N4 balls."
+        "AI materials, welding, detonation spray, coating, or machine-design paper selected from public scholarly sources.",
+        "Ranked by recency plus AI and engineering-domain relevance signals.",
+        "Use the linked paper for methods, data, and validation details."
       ],
-      "evidence_signal": "The abstract reports that coatings with disk-like droplets, higher circularity and expansion factor, and lower porosity showed better long-term corrosion resistance, while friction coefficient and wear rate decreased as humidity increased.",
-      "watch_item": "Performance depends strongly on porosity and spray condition control, so inconsistent detonation-spray settings could reduce durability and reproducibility.",
+      "evidence_signal": "Evidence details are summarized from the public abstract only.",
+      "watch_item": "Review the full paper for governing assumptions, validation data, and generalization limits.",
       "hashtags": [
+        "#AIDetonationSpray",
         "#DetonationSpray",
-        "#AmorphousCoating",
-        "#CorrosionResistance",
-        "#Tribology",
-        "#HumidityEffects"
+        "#Coatings",
+        "#ThermalSpray",
+        "#arXiv"
       ],
       "paper_id": "2025-12-01-doaj-long_term_corrosion_behaviors_and_wear_behavior_of_fe_based_amorphous_coatings_in_differen",
       "paper_title": "Long-term corrosion behaviors and wear behavior of Fe-based amorphous coatings in different humidity environments",
       "paper_date": "2025-12-01",
       "paper_category": "Coating Microstructure",
-      "generated_at": "2026-08-02T12:06:26",
+      "generated_at": "2026-08-03T13:49:08",
       "generator": "openai"
     },
     "translation": {
-      "zh-Hans": {
-        "title": "不同湿度环境下Fe基非晶涂层的长期腐蚀行为和磨损行为",
-        "abstract": "采用爆炸喷涂在Q235碳钢上通过不同喷涂参数成功制备了Fe基非晶涂层（Fe-based AMCs）。系统测试了涂层的腐蚀和摩擦学行为。液滴呈盘状形貌，具有最高的圆度和铺展因子，这对于减少涂层缺陷并形成具有致密微观结构的细层片结构涂层至关重要。涂层中较高的孔隙缺陷发生率与较低的长期耐腐蚀性相关。此外，在不同湿度条件下，Si3N4球与水分子之间的摩擦化学反应对涂层的磨损行为起着重要作用。随着湿度条件的增加，涂层的摩擦系数和磨损率降低。",
-        "infographic": {
-          "key_insight": "经优化液滴铺展后，爆炸喷涂Fe基非晶涂层可形成致密、细层片微观结构，从而提高耐腐蚀性和随湿度变化的耐磨性能。",
-          "engineering_relevance": "本工作通过将喷涂参数、孔隙率和摩擦学耐久性联系起来，为钢材在腐蚀性或潮湿服役环境中的涂层工艺调控提供指导。",
-          "method": [
-            "在Q235碳钢上采用爆炸喷涂并通过不同参数制备Fe基非晶涂层。",
-            "比较涂层液滴形貌、微观结构致密性、腐蚀行为和磨损响应。",
-            "使用Si3N4球在不同湿度环境下评估摩擦学性能。"
-          ],
-          "evidence_signal": "摘要报告表明，具有盘状液滴、更高圆度和铺展因子以及更低孔隙率的涂层表现出更好的长期耐腐蚀性，而摩擦系数和磨损率随湿度增加而降低。",
-          "watch_item": "性能强烈依赖于孔隙率和喷涂条件控制，因此不一致的爆炸喷涂设置可能降低耐久性和重复性。"
-        }
-      },
-      "generator": "openai"
+      "generator": "unavailable"
     }
   },
   {
@@ -1472,46 +935,263 @@
     "open_access": true,
     "score": 30,
     "infographic": {
-      "key_insight": "A drilled-to-bossed joint geometry combined with tuned DDFW settings substantially improves AA2024-T351 weld strength, while deep learning can predict tensile performance from process conditions.",
-      "engineering_relevance": "The study offers a practical path to stronger lightweight aluminum joints for aerospace and automotive applications by linking joint design with process optimization and AI-based prediction.",
+      "key_insight": "Abstract The growing demand for lightweight, high-strength materials in the aerospace and automotive industries has brought aluminium alloys such as AA2024-T351 into the spotlight due to their outstanding strength-to-weight ratio.",
+      "engineering_relevance": "Potential relevance: ai process optimization workflows and research evaluation.",
       "method": [
-        "Used an L18 orthogonal array to test friction pressure, forging pressure, spindle speed, faying-surface geometry, and friction time.",
-        "Compared conventional flat-to-flat joints with a drilled-to-bossed geometry inspired by mortise-and-tenon interlocking.",
-        "Trained deep learning models, including an ensemble residual network, compact attention network, and adaptive multiscale network, to predict ultimate tensile strength."
+        "AI materials, welding, detonation spray, coating, or machine-design paper selected from public scholarly sources.",
+        "Ranked by recency plus AI and engineering-domain relevance signals.",
+        "Use the linked paper for methods, data, and validation details."
       ],
-      "evidence_signal": "The best setting produced 538 MPa tensile strength and 325 MPa torsional strength, and the top predictor achieved about R² = 0.81.",
-      "watch_item": "The reported prediction accuracy is moderate, so broader validation on more datasets and weld conditions would be needed before deployment.",
+      "evidence_signal": "Evidence details are summarized from the public abstract only.",
+      "watch_item": "Review the full paper for governing assumptions, validation data, and generalization limits.",
       "hashtags": [
-        "#FrictionWelding",
-        "#AA2024",
-        "#AIforMaterials",
-        "#ProcessOptimization",
-        "#DeepLearning"
+        "#AIDetonationSpray",
+        "#DetonationSpray",
+        "#Coatings",
+        "#ThermalSpray",
+        "#arXiv"
       ],
       "paper_id": "2026-05-01-doaj-enhancing_weld_performance_of_aa2024_t351_using_drilled_to_bossed_geometry_and_deep_learni",
       "paper_title": "Enhancing weld performance of AA2024-T351 using drilled-to-bossed geometry and deep learning prediction in direct drive friction welding",
       "paper_date": "2026-05-01",
       "paper_category": "AI Process Optimization",
-      "generated_at": "2026-08-02T12:06:28",
+      "generated_at": "2026-08-03T13:49:09",
       "generator": "openai"
     },
     "translation": {
-      "zh-Hans": {
-        "title": "采用钻孔凸台几何形状与深度学习预测提升AA2024-T351在直接驱动摩擦焊中的焊接性能",
-        "abstract": "摘要 对轻量化、高强度材料在航空航天和汽车工业中的需求不断增长，使得AA2024-T351等铝合金因其优异的比强度而备受关注。然而，在这类合金中实现可靠连接仍然是一项重大挑战，尤其是在采用传统焊接技术时。为此，本研究聚焦于优化AA2024-T351在直接驱动摩擦焊（DDFW）中的工艺参数。研究引入了一种受传统榫卯接头启发的新型钻孔凸台几何形状，以增强机械互锁并改善焊缝完整性。采用L18正交表系统设计实验，评估抗拉强度和扭转强度。实验在一台定制发动机车床上进行，并将摩擦压力、锻造压力、主轴转速、搭接面几何形状和摩擦时间作为可控工艺参数。与此同时，实施了包括集成残差网络、紧凑注意力网络和自适应多尺度网络在内的先进深度学习模型，根据焊接条件预测极限抗拉强度。结果表明，30 MPa摩擦压力、70 MPa锻造压力、2200 rpm主轴转速、钻孔凸台几何形状以及4 min摩擦时间的最佳参数组合表现出卓越的机械性能，获得了538 MPa的抗拉强度和325 MPa的扭转强度。与传统平面-平面接头相比，钻孔凸台结构显示出显著更高的接头强度。此外，在深度学习模型中，集成残差网络取得了最高的预测精度，R²值约为0.81，有效捕捉了工艺参数与焊缝强度之间的复杂关系。",
-        "infographic": {
-          "key_insight": "钻孔凸台接头几何形状与优化后的DDFW参数相结合，可显著提升AA2024-T351焊接强度，同时深度学习能够根据工艺条件预测抗拉性能。",
-          "engineering_relevance": "本研究通过将接头设计与工艺优化及基于AI的预测相结合，为航空航天和汽车应用中的更高强度轻质铝接头提供了一条实用路径。",
-          "method": [
-            "采用L18正交表测试摩擦压力、锻造压力、主轴转速、搭接面几何形状和摩擦时间。",
-            "将传统平面-平面接头与受榫卯互锁启发的钻孔凸台几何形状进行比较。",
-            "训练包括集成残差网络、紧凑注意力网络和自适应多尺度网络在内的深度学习模型，以预测极限抗拉强度。"
-          ],
-          "evidence_signal": "最佳参数设置得到538 MPa抗拉强度和325 MPa扭转强度，且最佳预测模型的R²约为0.81。",
-          "watch_item": "报告的预测精度属于中等水平，因此在部署之前，需要在更多数据集和焊接条件下进行更广泛的验证。"
-        }
+      "generator": "unavailable"
+    }
+  },
+  {
+    "id": "2025-12-01-doaj-surface_characteristics_of_titanium_based_coatings_obtained_by_detonation_spraying_under_v",
+    "doi": "",
+    "date": "2025-12-01",
+    "title": "Surface Characteristics of Titanium Based Coatings Obtained by Detonation Spraying Under Various Process Conditions",
+    "authors": "Vyacheslav Sirota, Sergey Savotchenko, Valeriya Strokova, Daniil Podgornyi, Marina Kovaleva",
+    "abstract": "The surface properties of metal-ceramic coatings based on titanium dioxide are described in dependence on the detonation spraying conditions. It is found that such properties as surface roughness, surface thickness and its hydrophobicity can be controlled in the production process by selecting certain values of the technological parameters of the spraying process. The optimal values of the technological parameters of detonation spraying, ensuring maximum hydrophobicity of the produced coatings are determined. The roughness of the coating surface and the coating thickness depend on the speed of the nozzle passage in accordance with the inverse power law. The roughness and the contact angle depend on spray distance in accordance with a parabolic law. New equations are obtained that can be useful for predicting the characteristics of the coating surface, as well as for determining the optimal mode of spraying the coating, ensuring its best hydrophobicity.",
+    "category": "Detonation Spray Process",
+    "source": "DOAJ",
+    "venue": "Iranian Journal of Materials Science and Engineering",
+    "published": "2025-12-01T00:00:00+00:00",
+    "updated": "2026-02-09T07:07:05Z",
+    "primary_category": "journal-article",
+    "categories": [
+      "journal-article"
+    ],
+    "links": [
+      {
+        "title": "DOAJ",
+        "url": "https://doaj.org/article/da28bf1c4b624549abfdfa9750bdba6a"
       },
+      {
+        "title": "Open access PDF",
+        "url": "http://ijmse.iust.ac.ir/article-1-4073-en.pdf"
+      }
+    ],
+    "open_access": true,
+    "score": 28,
+    "infographic": {
+      "key_insight": "The surface properties of metal-ceramic coatings based on titanium dioxide are described in dependence on the detonation spraying conditions.",
+      "engineering_relevance": "Potential relevance: detonation spray process workflows and research evaluation.",
+      "method": [
+        "AI materials, welding, detonation spray, coating, or machine-design paper selected from public scholarly sources.",
+        "Ranked by recency plus AI and engineering-domain relevance signals.",
+        "Use the linked paper for methods, data, and validation details."
+      ],
+      "evidence_signal": "Evidence details are summarized from the public abstract only.",
+      "watch_item": "Review the full paper for governing assumptions, validation data, and generalization limits.",
+      "hashtags": [
+        "#AIDetonationSpray",
+        "#DetonationSpray",
+        "#Coatings",
+        "#ThermalSpray",
+        "#arXiv"
+      ],
+      "paper_id": "2025-12-01-doaj-surface_characteristics_of_titanium_based_coatings_obtained_by_detonation_spraying_under_v",
+      "paper_title": "Surface Characteristics of Titanium Based Coatings Obtained by Detonation Spraying Under Various Process Conditions",
+      "paper_date": "2025-12-01",
+      "paper_category": "Detonation Spray Process",
+      "generated_at": "2026-08-03T13:49:09",
       "generator": "openai"
+    },
+    "translation": {
+      "generator": "unavailable"
+    }
+  },
+  {
+    "id": "2025-10-01-doaj-effects_of_electron_beam_welding_on_the_microstructure_and_impact_properties_of_three_reco",
+    "doi": "10.19591/j.cnki.cn11-1974/tf.2024070004",
+    "date": "2025-10-01",
+    "title": "Effects of electron beam welding on the microstructure and impact properties of three reconstituted steels",
+    "authors": "HU Minglei, HU Bin, ZHANG Wei, LIU Xiaoou, DAI Kunjie, NI Xiaoqing",
+    "abstract": "Specimen reconstitution technology is important for the in-service safety of reactor pressure vessels (RPVs) in nuclear power plants. To verify the feasibility of electron beam welding for the restructured specimens, the electron beam welding to restructure the 16MND5, 10Cr12Ni3Mo2VN, and X6NiCrTiMoVB 25-15-2 Charpy impact specimens for three kinds of steels was adopted, the microstructure and mechanical properties of the restructured specimens were characterized, and the Vickers hardness and impact toughness of the specimens were tested by non-destructive flaw detection, optical microscopy, and scanning electron microscopy. The results show that the microstructure of these three steels in weld zone is relatively dense, and no obvious crack defects occur. The welding quality of 10Cr12Ni3Mo2VN restructured specimens is the best, and the mechanical properties are relatively close to those of the original specimens, demonstrating that the electron beam welding has the good application potential of reconstitution in nuclear power field.",
+    "category": "Coating Microstructure",
+    "source": "DOAJ",
+    "venue": "Fenmo yejin jishu",
+    "published": "2025-10-01T00:00:00+00:00",
+    "updated": "2025-11-27T01:40:03Z",
+    "primary_category": "journal-article",
+    "categories": [
+      "journal-article"
+    ],
+    "links": [
+      {
+        "title": "DOAJ",
+        "url": "https://doaj.org/article/0040b2059ac1435f9a0a5121381ad6e1"
+      },
+      {
+        "title": "DOI",
+        "url": "https://doi.org/10.19591/j.cnki.cn11-1974/tf.2024070004"
+      },
+      {
+        "title": "Open access full text",
+        "url": "https://pmt.ustb.edu.cn/article/doi/10.19591/j.cnki.cn11-1974/tf.2024070004"
+      }
+    ],
+    "open_access": true,
+    "score": 28,
+    "infographic": {
+      "key_insight": "Specimen reconstitution technology is important for the in-service safety of reactor pressure vessels (RPVs) in nuclear power plants.",
+      "engineering_relevance": "Potential relevance: coating microstructure workflows and research evaluation.",
+      "method": [
+        "AI materials, welding, detonation spray, coating, or machine-design paper selected from public scholarly sources.",
+        "Ranked by recency plus AI and engineering-domain relevance signals.",
+        "Use the linked paper for methods, data, and validation details."
+      ],
+      "evidence_signal": "Evidence details are summarized from the public abstract only.",
+      "watch_item": "Review the full paper for governing assumptions, validation data, and generalization limits.",
+      "hashtags": [
+        "#AIDetonationSpray",
+        "#DetonationSpray",
+        "#Coatings",
+        "#ThermalSpray",
+        "#arXiv"
+      ],
+      "paper_id": "2025-10-01-doaj-effects_of_electron_beam_welding_on_the_microstructure_and_impact_properties_of_three_reco",
+      "paper_title": "Effects of electron beam welding on the microstructure and impact properties of three reconstituted steels",
+      "paper_date": "2025-10-01",
+      "paper_category": "Coating Microstructure",
+      "generated_at": "2026-08-03T13:49:09",
+      "generator": "openai"
+    },
+    "translation": {
+      "generator": "unavailable"
+    }
+  },
+  {
+    "id": "2026-06-29-openalex-tribological_performance_and_machine_learning_assisted_prediction_of_wear_and_friction_in",
+    "doi": "10.1007/s11666-026-02274-7",
+    "date": "2026-06-29",
+    "title": "Tribological Performance and Machine Learning-Assisted Prediction of Wear and Friction in D-Gun Sprayed WC-12Co and Al2O3-13TiO2 Coatings",
+    "authors": "Sukhinderpal Singh, Harnam Singh Farwaha, Raman Kumar, Rupinder Kaur, Ashneet Kaur, Khushpreet Singh",
+    "abstract": "Journal article indexed by OpenAlex in Journal of Thermal Spray Technology.",
+    "category": "Detonation Spray Process",
+    "source": "OpenAlex",
+    "venue": "Journal of Thermal Spray Technology",
+    "published": "2026-06-29T00:00:00+00:00",
+    "updated": "",
+    "primary_category": "journal-article",
+    "categories": [
+      "journal-article"
+    ],
+    "links": [
+      {
+        "title": "OpenAlex",
+        "url": "https://openalex.org/W7166549927"
+      },
+      {
+        "title": "DOI",
+        "url": "https://doi.org/10.1007/s11666-026-02274-7"
+      },
+      {
+        "title": "Publisher",
+        "url": "https://doi.org/10.1007/s11666-026-02274-7"
+      }
+    ],
+    "open_access": false,
+    "score": 26,
+    "infographic": {
+      "key_insight": "Journal article indexed by OpenAlex in Journal of Thermal Spray Technology.",
+      "engineering_relevance": "Potential relevance: detonation spray process workflows and research evaluation.",
+      "method": [
+        "AI materials, welding, detonation spray, coating, or machine-design paper selected from public scholarly sources.",
+        "Ranked by recency plus AI and engineering-domain relevance signals.",
+        "Use the linked paper for methods, data, and validation details."
+      ],
+      "evidence_signal": "Evidence details are summarized from the public abstract only.",
+      "watch_item": "Review the full paper for governing assumptions, validation data, and generalization limits.",
+      "hashtags": [
+        "#AIDetonationSpray",
+        "#DetonationSpray",
+        "#Coatings",
+        "#ThermalSpray",
+        "#arXiv"
+      ],
+      "paper_id": "2026-06-29-openalex-tribological_performance_and_machine_learning_assisted_prediction_of_wear_and_friction_in",
+      "paper_title": "Tribological Performance and Machine Learning-Assisted Prediction of Wear and Friction in D-Gun Sprayed WC-12Co and Al2O3-13TiO2 Coatings",
+      "paper_date": "2026-06-29",
+      "paper_category": "Detonation Spray Process",
+      "generated_at": "2026-08-03T13:49:10",
+      "generator": "openai"
+    },
+    "translation": {
+      "generator": "unavailable"
+    }
+  },
+  {
+    "id": "2026-07-13-openalex-high_temperature_oxidation_kinetics_and_microstructural_evolution_of_detonation_sprayed_al",
+    "doi": "10.1177/02670844261464884",
+    "date": "2026-07-13",
+    "title": "High-temperature oxidation kinetics and microstructural evolution of detonation-sprayed AlCuFe quasicrystalline coatings",
+    "authors": "Xinran Li, Yi-Xiang Wang, Maxingwang Lu, Yongchao Fang",
+    "abstract": "To solve the susceptibility of TC4 titanium alloys to high-temperature oxidation and subsequent performance degradation, AlCuFe quasicrystalline (QC) coatings were successfully fabricated via detonation spraying (DS) as a functional protective barrier. The oxidation kinetics, phase evolution, and mechanical stability of the coating system were systematically investigated at 450°C in an atmospheric environment for up to 250 h. The results indicate that the oxidation kinetics strictly obey the parabolic growth law, yielding a steady-state parabolic rate constant ( k p ) of 1.83 × 10 −2 mg 2 ⋅ cm −4 ⋅ h −1 . Throughout the service period, the coating exhibits a significant “thermal hardening” effect, with the surface microhardness increasing from an initial 491 HV 0.2 to a final value of 665.2 HV 0.2 (a 35.5% increment). Phase evolution is characterized by an initial thermally induced ordering of metastable regions (0–3 h) followed by the gradual decomposition of the icosahedral (I) phase into approximant phases (β, τ, and λ) driven by the Al-depletion effect. Notably, the increased density of phase boundaries and intermetallic interfaces within the multi-phase network effectively sustains the mechanical performance despite the decline in the primary QC fraction. This study demonstrates that DS-AlCuFe coatings provide a reliable structural evolution pathway for the long-term high-temperature protection of titanium alloys.",
+    "category": "Coating Microstructure",
+    "source": "OpenAlex",
+    "venue": "Surface Engineering",
+    "published": "2026-07-13T00:00:00+00:00",
+    "updated": "",
+    "primary_category": "journal-article",
+    "categories": [
+      "journal-article"
+    ],
+    "links": [
+      {
+        "title": "OpenAlex",
+        "url": "https://openalex.org/W7168140705"
+      },
+      {
+        "title": "Publisher",
+        "url": "https://doi.org/10.1177/02670844261464884"
+      }
+    ],
+    "open_access": false,
+    "score": 24,
+    "infographic": {
+      "key_insight": "To solve the susceptibility of TC4 titanium alloys to high-temperature oxidation and subsequent performance degradation, AlCuFe quasicrystalline (QC) coatings were successfully fabricated via detonation spraying (DS) as a functional protective barrier.",
+      "engineering_relevance": "Potential relevance: coating microstructure workflows and research evaluation.",
+      "method": [
+        "AI materials, welding, detonation spray, coating, or machine-design paper selected from public scholarly sources.",
+        "Ranked by recency plus AI and engineering-domain relevance signals.",
+        "Use the linked paper for methods, data, and validation details."
+      ],
+      "evidence_signal": "Evidence details are summarized from the public abstract only.",
+      "watch_item": "Review the full paper for governing assumptions, validation data, and generalization limits.",
+      "hashtags": [
+        "#AIDetonationSpray",
+        "#DetonationSpray",
+        "#Coatings",
+        "#ThermalSpray",
+        "#arXiv"
+      ],
+      "paper_id": "2026-07-13-openalex-high_temperature_oxidation_kinetics_and_microstructural_evolution_of_detonation_sprayed_al",
+      "paper_title": "High-temperature oxidation kinetics and microstructural evolution of detonation-sprayed AlCuFe quasicrystalline coatings",
+      "paper_date": "2026-07-13",
+      "paper_category": "Coating Microstructure",
+      "generated_at": "2026-08-03T13:49:10",
+      "generator": "openai"
+    },
+    "translation": {
+      "generator": "unavailable"
     }
   }
 ]

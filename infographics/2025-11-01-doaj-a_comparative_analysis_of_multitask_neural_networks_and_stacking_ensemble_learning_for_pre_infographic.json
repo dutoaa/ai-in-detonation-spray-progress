@@ -1,24 +1,24 @@
 {
-  "key_insight": "Stacking ensemble learning produced the most accurate predictions for UTS, weld hardness, and HAZ hardness, while the multitask neural network showed strong shared-learning generalization across the related welding targets.",
-  "engineering_relevance": "The study helps welding engineers choose between a shared multi-output model for efficient learning and an ensemble approach for higher task-specific predictive accuracy in process optimization and quality control.",
+  "key_insight": "Accurately predicting welding performance measures like ultimate strength (UTS), weld bead hardness, and HAZ mechanical hardness is crucial for ensuring the structural integrity and performance of welded components.",
+  "engineering_relevance": "Potential relevance: ai process optimization workflows and research evaluation.",
   "method": [
-    "Compared multitask neural network (shared hidden layers with task-specific outputs) against stacking ensemble learning.",
-    "Predicted three welding responses: UTS, weld hardness, and HAZ hardness.",
-    "Evaluated both approaches using RMSE and R² on the same dataset."
+    "AI materials, welding, detonation spray, coating, or machine-design paper selected from public scholarly sources.",
+    "Ranked by recency plus AI and engineering-domain relevance signals.",
+    "Use the linked paper for methods, data, and validation details."
   ],
-  "evidence_signal": "Stacking achieved lower RMSE and higher R² for all three outputs, including UTS (RMSE 0.0263, R² 0.9863), weld hardness (0.0467, 0.9782), and HAZ hardness (0.1109, 0.8453).",
-  "watch_item": "Results are dataset-dependent, so stacking may generalize less reliably than MTL if future welding conditions differ or the available training data become sparse.",
+  "evidence_signal": "Evidence details are summarized from the public abstract only.",
+  "watch_item": "Review the full paper for governing assumptions, validation data, and generalization limits.",
   "hashtags": [
-    "#WeldingAI",
-    "#MultitaskLearning",
-    "#StackingEnsemble",
-    "#ProcessOptimization",
-    "#PredictiveModeling"
+    "#AIDetonationSpray",
+    "#DetonationSpray",
+    "#Coatings",
+    "#ThermalSpray",
+    "#arXiv"
   ],
   "paper_id": "2025-11-01-doaj-a_comparative_analysis_of_multitask_neural_networks_and_stacking_ensemble_learning_for_pre",
   "paper_title": "A Comparative Analysis of Multitask Neural Networks and Stacking Ensemble Learning for Predicting UTS, Weld Hardness, and HAZ Hardness in Welding Applications",
   "paper_date": "2025-11-01",
   "paper_category": "AI Process Optimization",
-  "generated_at": "2026-08-02T12:06:24",
+  "generated_at": "2026-08-03T13:49:08",
   "generator": "openai"
 }

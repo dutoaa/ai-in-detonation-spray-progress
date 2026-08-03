@@ -1,24 +1,24 @@
 {
-  "key_insight": "A coupled CEL simulation plus ANN surrogate can accurately predict friction stir welding temperatures, forces, and defect formation in HDPE, enabling fast identification of robust process windows.",
-  "engineering_relevance": "The study provides practical welding guidance showing that bottom preheating and higher rotation/lower travel speed improve weld quality while reducing force fluctuations and wormhole defects.",
+  "key_insight": "Friction stir welding (FSW) has gained recognition as an effective technique for joining thermoplastic materials.",
+  "engineering_relevance": "Potential relevance: ai process optimization workflows and research evaluation.",
   "method": [
-    "3D Coupled Eulerian-Lagrangian (CEL) model of HDPE FSW",
-    "Two multilayer perceptron ANNs trained on experimental temperature and axial-force histories",
-    "Process-map generation across rotational speed, welding speed, and bottom preheating conditions"
+    "AI materials, welding, detonation spray, coating, or machine-design paper selected from public scholarly sources.",
+    "Ranked by recency plus AI and engineering-domain relevance signals.",
+    "Use the linked paper for methods, data, and validation details."
   ],
-  "evidence_signal": "The ANN models achieved R2 values of 0.91 to 0.99, and the CEL model matched experiments for void formation, thermal response, and vertical force behavior.",
-  "watch_item": "The trained models are validated on the tested parameter space, so extrapolation to other polymers, tool geometries, or wider process ranges may be unreliable without retraining.",
+  "evidence_signal": "Evidence details are summarized from the public abstract only.",
+  "watch_item": "Review the full paper for governing assumptions, validation data, and generalization limits.",
   "hashtags": [
-    "#FrictionStirWelding",
-    "#PolymerJoining",
-    "#MachineLearning",
-    "#FiniteElementModeling",
-    "#ProcessOptimization"
+    "#AIDetonationSpray",
+    "#DetonationSpray",
+    "#Coatings",
+    "#ThermalSpray",
+    "#arXiv"
   ],
   "paper_id": "2025-12-01-doaj-computational_and_machine_learning_modelling_approaches_for_weld_quality_predictions_in_fr",
   "paper_title": "Computational and machine learning modelling approaches for weld quality predictions in friction stir welding of high-density polyethylene",
   "paper_date": "2025-12-01",
   "paper_category": "AI Process Optimization",
-  "generated_at": "2026-08-02T12:05:41",
+  "generated_at": "2026-08-03T13:49:03",
   "generator": "openai"
 }
