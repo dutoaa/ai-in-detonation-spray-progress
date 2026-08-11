@@ -1,9 +1,20 @@
 # AI Detonation Spray and Coating Progress Public Resources
 
-Generated: 2026-08-10
+Generated: 2026-08-11
 Public site: https://dutoaa.github.io/ai-in-detonation-spray-progress/
 
-## 1. Underwater Welding Electrodes from Agrowaste-Derived Biomaterials
+## 1. Computational and machine learning modelling approaches for weld quality predictions in friction stir welding of high-density polyethylene
+
+- Date: 2025-12-01
+- Source: DOAJ
+- Venue: Materials & Design
+- Category: AI Process Optimization
+- DOI: 10.1016/j.matdes.2025.115213
+- Source link: https://doi.org/10.1016/j.matdes.2025.115213
+- PDF: None
+- Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2025-12-01-doaj-computational_and_machine_learning_modelling_approaches_for_weld_quality_predictions_in_fr_infographic.json
+
+## 2. Underwater Welding Electrodes from Agrowaste-Derived Biomaterials
 
 - Date: 2026-08-09
 - Source: OpenAlex
@@ -14,7 +25,7 @@ Public site: https://dutoaa.github.io/ai-in-detonation-spray-progress/
 - PDF: None
 - Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-08-09-openalex-underwater_welding_electrodes_from_agrowaste_derived_biomaterials_infographic.json
 
-## 2. Underwater Welding Electrodes from Agrowaste-Derived Biomaterials
+## 3. Underwater Welding Electrodes from Agrowaste-Derived Biomaterials
 
 - Date: 2026-08-09
 - Source: OpenAlex
@@ -24,17 +35,6 @@ Public site: https://dutoaa.github.io/ai-in-detonation-spray-progress/
 - Source link: https://doi.org/10.5281/zenodo.21861053
 - PDF: None
 - Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-08-09-openalex-underwater_welding_electrodes_from_agrowaste_derived_biomaterials_infographic.json
-
-## 3. Computational and machine learning modelling approaches for weld quality predictions in friction stir welding of high-density polyethylene
-
-- Date: 2025-12-01
-- Source: DOAJ
-- Venue: Materials & Design
-- Category: AI Process Optimization
-- DOI: 10.1016/j.matdes.2025.115213
-- Source link: https://doi.org/10.1016/j.matdes.2025.115213
-- PDF: None
-- Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2025-12-01-doaj-computational_and_machine_learning_modelling_approaches_for_weld_quality_predictions_in_fr_infographic.json
 
 ## 4. Sustainable process optimization and machine learning-driven evaluation of lap shear strength in dissimilar SS304–SS420 resistance spot-welded joints
 
@@ -47,7 +47,18 @@ Public site: https://dutoaa.github.io/ai-in-detonation-spray-progress/
 - PDF: None
 - Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-08-07-openalex-sustainable_process_optimization_and_machine_learning_driven_evaluation_of_lap_shear_stren_infographic.json
 
-## 5. Refill friction stir spot welding of dissimilar metals: a review on joint behavior, simulation strategies and application challenges
+## 5. Robust Monitoring of Arc Welding Processes: A Generalizable Framework with DVAE and Particle Filter
+
+- Date: 2026-07-17
+- Source: arXiv
+- Venue: 
+- Category: Welding Processes
+- DOI: 
+- Source link: https://arxiv.org/abs/2607.16013v1
+- PDF: https://arxiv.org/pdf/2607.16013v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-07-17-arxiv-robust_monitoring_of_arc_welding_processes_a_generalizable_framework_with_dvae_and_particl_infographic.json
+
+## 6. Refill friction stir spot welding of dissimilar metals: a review on joint behavior, simulation strategies and application challenges
 
 - Date: 2026-08-07
 - Source: OpenAlex
@@ -58,7 +69,7 @@ Public site: https://dutoaa.github.io/ai-in-detonation-spray-progress/
 - PDF: https://www.tandfonline.com/doi/pdf/10.1080/10408436.2026.2707503?needAccess=true
 - Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-08-07-openalex-refill_friction_stir_spot_welding_of_dissimilar_metals_a_review_on_joint_behavior_simulati_infographic.json
 
-## 6. Welding Techniques for Magnesium Alloy Joints: A Comprehensive Review
+## 7. Welding Techniques for Magnesium Alloy Joints: A Comprehensive Review
 
 - Date: 2026-08-06
 - Source: OpenAlex
@@ -68,17 +79,6 @@ Public site: https://dutoaa.github.io/ai-in-detonation-spray-progress/
 - Source link: https://doi.org/10.3390/ma19153355
 - PDF: https://www.mdpi.com/1996-1944/19/15/3355/pdf?version=1786020244
 - Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-08-06-openalex-welding_techniques_for_magnesium_alloy_joints_a_comprehensive_review_infographic.json
-
-## 7. Robust Monitoring of Arc Welding Processes: A Generalizable Framework with DVAE and Particle Filter
-
-- Date: 2026-07-17
-- Source: arXiv
-- Venue: 
-- Category: Welding Processes
-- DOI: 
-- Source link: https://arxiv.org/abs/2607.16013v1
-- PDF: https://arxiv.org/pdf/2607.16013v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-07-17-arxiv-robust_monitoring_of_arc_welding_processes_a_generalizable_framework_with_dvae_and_particl_infographic.json
 
 ## 8. Impact-Angle-Dependent Thermo-Erosive Degradation of Partially Oxidized HVOF NiCr and Mo–25(NiCrBSiFe) Coatings: An Experimental and DQM-Based Analysis
 
@@ -124,18 +124,7 @@ Public site: https://dutoaa.github.io/ai-in-detonation-spray-progress/
 - PDF: None
 - Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-06-23-openalex-tribological_enhancement_of_al_2_o_3_tio_2_d_gun_coated_ti_6al_4v_alloy_a_machine_learning_infographic.json
 
-## 12. High temperature performance of multilayer (Gd0.2Dy0.2Ho0.2Tm0.2Yb0.2)4Hf3O12 thermal/environmental barrier coatings at 1450°C.
-
-- Date: 2026-08-08
-- Source: OpenAlex
-- Venue: npj Materials Degradation
-- Category: Wear and Corrosion
-- DOI: 10.1038/s41529-026-00857-x
-- Source link: https://doi.org/10.1038/s41529-026-00857-x
-- PDF: https://www.nature.com/articles/s41529-026-00857-x_reference.pdf
-- Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-08-08-openalex-high_temperature_performance_of_multilayer_gd0_2dy0_2ho0_2tm0_2yb0_2_4hf3o12_thermal_envir_infographic.json
-
-## 13. Hot corrosion behavior of thermal sprayed using HVAF and DS techniques with Tribaloy-400 coatings for solar energy storage container
+## 12. Hot corrosion behavior of thermal sprayed using HVAF and DS techniques with Tribaloy-400 coatings for solar energy storage container
 
 - Date: 2026-07-01
 - Source: OpenAlex
@@ -146,7 +135,7 @@ Public site: https://dutoaa.github.io/ai-in-detonation-spray-progress/
 - PDF: https://www.sciencedirect.com/science/article/pii/S2238785426018053/pdf
 - Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-07-01-openalex-hot_corrosion_behavior_of_thermal_sprayed_using_hvaf_and_ds_techniques_with_tribaloy_400_c_infographic.json
 
-## 14. Effect of Barrel Filling Ratio on the Microstructure, Phase Composition and Tribological Performance of Detonation-Sprayed Cr3C2–NiCr Coatings
+## 13. Effect of Barrel Filling Ratio on the Microstructure, Phase Composition and Tribological Performance of Detonation-Sprayed Cr3C2–NiCr Coatings
 
 - Date: 2026-07-04
 - Source: OpenAlex
@@ -157,18 +146,18 @@ Public site: https://dutoaa.github.io/ai-in-detonation-spray-progress/
 - PDF: None
 - Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-07-04-openalex-effect_of_barrel_filling_ratio_on_the_microstructure_phase_composition_and_tribological_pe_infographic.json
 
-## 15. Effects of in situ ultrasonic vibration on zinc bubble motion and pore inhibition in galvanized steel MIG welding
+## 14. High temperature performance of multilayer (Gd0.2Dy0.2Ho0.2Tm0.2Yb0.2)4Hf3O12 thermal/environmental barrier coatings at 1450°C.
 
-- Date: 2026-08-07
+- Date: 2026-08-08
 - Source: OpenAlex
-- Venue: Welding in the World
-- Category: Welding Processes
-- DOI: 10.1007/s40194-026-02589-7
-- Source link: https://doi.org/10.1007/s40194-026-02589-7
-- PDF: None
-- Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-08-07-openalex-effects_of_in_situ_ultrasonic_vibration_on_zinc_bubble_motion_and_pore_inhibition_in_galva_infographic.json
+- Venue: npj Materials Degradation
+- Category: Wear and Corrosion
+- DOI: 10.1038/s41529-026-00857-x
+- Source link: https://doi.org/10.1038/s41529-026-00857-x
+- PDF: https://www.nature.com/articles/s41529-026-00857-x_reference.pdf
+- Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-08-08-openalex-high_temperature_performance_of_multilayer_gd0_2dy0_2ho0_2tm0_2yb0_2_4hf3o12_thermal_envir_infographic.json
 
-## 16. Study of the Influence of Detonation Spraying Parameters on the Structure and Properties of Self-Fluxing Coatings of the Ni–Cr–Fe–Si–B–C System
+## 15. Study of the Influence of Detonation Spraying Parameters on the Structure and Properties of Self-Fluxing Coatings of the Ni–Cr–Fe–Si–B–C System
 
 - Date: 2026-08-01
 - Source: OpenAlex
@@ -178,6 +167,17 @@ Public site: https://dutoaa.github.io/ai-in-detonation-spray-progress/
 - Source link: https://doi.org/10.3390/app16157637
 - PDF: None
 - Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-08-01-openalex-study_of_the_influence_of_detonation_spraying_parameters_on_the_structure_and_properties_o_infographic.json
+
+## 16. Effects of in situ ultrasonic vibration on zinc bubble motion and pore inhibition in galvanized steel MIG welding
+
+- Date: 2026-08-07
+- Source: OpenAlex
+- Venue: Welding in the World
+- Category: Welding Processes
+- DOI: 10.1007/s40194-026-02589-7
+- Source link: https://doi.org/10.1007/s40194-026-02589-7
+- PDF: None
+- Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-08-07-openalex-effects_of_in_situ_ultrasonic_vibration_on_zinc_bubble_motion_and_pore_inhibition_in_galva_infographic.json
 
 ## 17. Microstructure and interface characteristics of ZrC splats prepared by high temperature atmospheric plasma deposition
 
