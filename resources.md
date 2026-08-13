@@ -1,6 +1,6 @@
 # AI Detonation Spray and Coating Progress Public Resources
 
-Generated: 2026-08-12
+Generated: 2026-08-13
 Public site: https://dutoaa.github.io/ai-in-detonation-spray-progress/
 
 ## 1. Analysis of The Effect of Variations in Smaw Welding Current on Indications of Surface Defects Using The Penetrant Test (PT) and Magnetic Particle Test (MT) on ASTM A106 GR. B Pipes Based on Asme B31.3 Acceptance Criteria
@@ -14,18 +14,7 @@ Public site: https://dutoaa.github.io/ai-in-detonation-spray-progress/
 - PDF: https://international.aritekin.or.id/index.php/IJIIME/article/download/448/314
 - Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-08-11-openalex-analysis_of_the_effect_of_variations_in_smaw_welding_current_on_indications_of_surface_def_infographic.json
 
-## 2. Geometric confinement in cold spray: a molecular dynamics study of particle anchoring mechanisms
-
-- Date: 2026-08-11
-- Source: OpenAlex
-- Venue: Progress in Additive Manufacturing
-- Category: Thermal Spray Coatings
-- DOI: 10.1007/s40964-026-01907-1
-- Source link: https://doi.org/10.1007/s40964-026-01907-1
-- PDF: https://link.springer.com/content/pdf/10.1007/s40964-026-01907-1.pdf
-- Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-08-11-openalex-geometric_confinement_in_cold_spray_a_molecular_dynamics_study_of_particle_anchoring_mecha_infographic.json
-
-## 3. Computational and machine learning modelling approaches for weld quality predictions in friction stir welding of high-density polyethylene
+## 2. Computational and machine learning modelling approaches for weld quality predictions in friction stir welding of high-density polyethylene
 
 - Date: 2025-12-01
 - Source: DOAJ
@@ -35,6 +24,17 @@ Public site: https://dutoaa.github.io/ai-in-detonation-spray-progress/
 - Source link: https://doi.org/10.1016/j.matdes.2025.115213
 - PDF: None
 - Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2025-12-01-doaj-computational_and_machine_learning_modelling_approaches_for_weld_quality_predictions_in_fr_infographic.json
+
+## 3. Geometric confinement in cold spray: a molecular dynamics study of particle anchoring mechanisms
+
+- Date: 2026-08-11
+- Source: OpenAlex
+- Venue: Progress in Additive Manufacturing
+- Category: Thermal Spray Coatings
+- DOI: 10.1007/s40964-026-01907-1
+- Source link: https://doi.org/10.1007/s40964-026-01907-1
+- PDF: https://link.springer.com/content/pdf/10.1007/s40964-026-01907-1.pdf
+- Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-08-11-openalex-geometric_confinement_in_cold_spray_a_molecular_dynamics_study_of_particle_anchoring_mecha_infographic.json
 
 ## 4. Development and Validation of a Cost-Effective Rotary Friction Welding Machine by Repurposing a J23 Mechanical Press Frame
 
@@ -80,18 +80,7 @@ Public site: https://dutoaa.github.io/ai-in-detonation-spray-progress/
 - PDF: None
 - Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-08-11-openalex-high_temperature_corrosion_mechanisms_of_la2si2o7_environmental_barrier_coatings_exposed_t_infographic.json
 
-## 8. Welding Techniques for Magnesium Alloy Joints: A Comprehensive Review
-
-- Date: 2026-08-06
-- Source: OpenAlex
-- Venue: Materials
-- Category: Coating Microstructure
-- DOI: 10.3390/ma19153355
-- Source link: https://doi.org/10.3390/ma19153355
-- PDF: https://www.mdpi.com/1996-1944/19/15/3355/pdf?version=1786020244
-- Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-08-06-openalex-welding_techniques_for_magnesium_alloy_joints_a_comprehensive_review_infographic.json
-
-## 9. Hot corrosion behavior of thermal sprayed using HVAF and DS techniques with Tribaloy-400 coatings for solar energy storage container
+## 8. Hot corrosion behavior of thermal sprayed using HVAF and DS techniques with Tribaloy-400 coatings for solar energy storage container
 
 - Date: 2026-07-01
 - Source: OpenAlex
@@ -102,18 +91,7 @@ Public site: https://dutoaa.github.io/ai-in-detonation-spray-progress/
 - PDF: https://www.sciencedirect.com/science/article/pii/S2238785426018053/pdf
 - Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-07-01-openalex-hot_corrosion_behavior_of_thermal_sprayed_using_hvaf_and_ds_techniques_with_tribaloy_400_c_infographic.json
 
-## 10. APPLICATION OF YOLOV8 FOR REMOTE VISUAL INSPECTION ON STEEL FUSION WELDING DEFECT: A MACHINE LEARNING APPROACH FOR QUALITY CONTROL (YOLOv8 Implementation for Smart Inspection of Fusion Welding Defects in Carbon Steel Structures)
-
-- Date: 2026-08-09
-- Source: OpenAlex
-- Venue: 
-- Category: AI Process Optimization
-- DOI: 10.13140/rg.2.2.31157.03042
-- Source link: https://doi.org/10.13140/rg.2.2.31157.03042
-- PDF: None
-- Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-08-09-openalex-application_of_yolov8_for_remote_visual_inspection_on_steel_fusion_welding_defect_a_machin_infographic.json
-
-## 11. Effect of Barrel Filling Ratio on the Microstructure, Phase Composition and Tribological Performance of Detonation-Sprayed Cr3C2–NiCr Coatings
+## 9. Effect of Barrel Filling Ratio on the Microstructure, Phase Composition and Tribological Performance of Detonation-Sprayed Cr3C2–NiCr Coatings
 
 - Date: 2026-07-04
 - Source: OpenAlex
@@ -123,6 +101,28 @@ Public site: https://dutoaa.github.io/ai-in-detonation-spray-progress/
 - Source link: https://doi.org/10.3390/app16136711
 - PDF: None
 - Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-07-04-openalex-effect_of_barrel_filling_ratio_on_the_microstructure_phase_composition_and_tribological_pe_infographic.json
+
+## 10. Welding Techniques for Magnesium Alloy Joints: A Comprehensive Review
+
+- Date: 2026-08-06
+- Source: OpenAlex
+- Venue: Materials
+- Category: Coating Microstructure
+- DOI: 10.3390/ma19153355
+- Source link: https://doi.org/10.3390/ma19153355
+- PDF: https://www.mdpi.com/1996-1944/19/15/3355/pdf?version=1786020244
+- Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-08-06-openalex-welding_techniques_for_magnesium_alloy_joints_a_comprehensive_review_infographic.json
+
+## 11. APPLICATION OF YOLOV8 FOR REMOTE VISUAL INSPECTION ON STEEL FUSION WELDING DEFECT: A MACHINE LEARNING APPROACH FOR QUALITY CONTROL (YOLOv8 Implementation for Smart Inspection of Fusion Welding Defects in Carbon Steel Structures)
+
+- Date: 2026-08-09
+- Source: OpenAlex
+- Venue: 
+- Category: AI Process Optimization
+- DOI: 10.13140/rg.2.2.31157.03042
+- Source link: https://doi.org/10.13140/rg.2.2.31157.03042
+- PDF: None
+- Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-08-09-openalex-application_of_yolov8_for_remote_visual_inspection_on_steel_fusion_welding_defect_a_machin_infographic.json
 
 ## 12. Study of the Influence of Detonation Spraying Parameters on the Structure and Properties of Self-Fluxing Coatings of the Ni–Cr–Fe–Si–B–C System
 
