@@ -1,20 +1,9 @@
 # AI Detonation Spray and Coating Progress Public Resources
 
-Generated: 2026-08-20
+Generated: 2026-08-21
 Public site: https://dutoaa.github.io/ai-in-detonation-spray-progress/
 
-## 1. Clarifying the Role of Welding Speed and Zr Addition on Microstructure and Mechanical Properties of Laser‐Welded Joint of Complex Phase Steel With High Formability
-
-- Date: 2026-08-18
-- Source: OpenAlex
-- Venue: steel research international
-- Category: Welding Processes
-- DOI: 10.1002/srin.70646
-- Source link: https://doi.org/10.1002/srin.70646
-- PDF: None
-- Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-08-18-openalex-clarifying_the_role_of_welding_speed_and_zr_addition_on_microstructure_and_mechanical_prop_infographic.json
-
-## 2. Computational and machine learning modelling approaches for weld quality predictions in friction stir welding of high-density polyethylene
+## 1. Computational and machine learning modelling approaches for weld quality predictions in friction stir welding of high-density polyethylene
 
 - Date: 2025-12-01
 - Source: DOAJ
@@ -24,6 +13,17 @@ Public site: https://dutoaa.github.io/ai-in-detonation-spray-progress/
 - Source link: https://doi.org/10.1016/j.matdes.2025.115213
 - PDF: None
 - Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2025-12-01-doaj-computational_and_machine_learning_modelling_approaches_for_weld_quality_predictions_in_fr_infographic.json
+
+## 2. Clarifying the Role of Welding Speed and Zr Addition on Microstructure and Mechanical Properties of Laser‐Welded Joint of Complex Phase Steel With High Formability
+
+- Date: 2026-08-18
+- Source: OpenAlex
+- Venue: steel research international
+- Category: Welding Processes
+- DOI: 10.1002/srin.70646
+- Source link: https://doi.org/10.1002/srin.70646
+- PDF: None
+- Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-08-18-openalex-clarifying_the_role_of_welding_speed_and_zr_addition_on_microstructure_and_mechanical_prop_infographic.json
 
 ## 3. Numerical investigation of residual stress and welding deformation in S700MC/DP1180 dissimilar-metal butt-welded joint
 
@@ -80,18 +80,7 @@ Public site: https://dutoaa.github.io/ai-in-detonation-spray-progress/
 - PDF: https://www.tandfonline.com/doi/pdf/10.1080/23311916.2026.2714967?needAccess=true
 - Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-08-13-openalex-effect_of_thermal_exposure_on_the_wear_and_phase_stability_of_hvof_deposited_wc_17co_coati_infographic.json
 
-## 8. Explainable AI-driven thermal feature fusion for strength prediction and process optimization in dissimilar ABS/PEEK rotary friction welding
-
-- Date: 2026-08-17
-- Source: OpenAlex
-- Venue: The International Journal of Advanced Manufacturing Technology
-- Category: Coating Quality Prediction
-- DOI: 10.1007/s00170-026-18955-0
-- Source link: https://doi.org/10.1007/s00170-026-18955-0
-- PDF: None
-- Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-08-17-openalex-explainable_ai_driven_thermal_feature_fusion_for_strength_prediction_and_process_optimizat_infographic.json
-
-## 9. Welding Techniques for Magnesium Alloy Joints: A Comprehensive Review
+## 8. Welding Techniques for Magnesium Alloy Joints: A Comprehensive Review
 
 - Date: 2026-08-06
 - Source: OpenAlex
@@ -101,6 +90,17 @@ Public site: https://dutoaa.github.io/ai-in-detonation-spray-progress/
 - Source link: https://doi.org/10.3390/ma19153355
 - PDF: https://www.mdpi.com/1996-1944/19/15/3355/pdf?version=1786020244
 - Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-08-06-openalex-welding_techniques_for_magnesium_alloy_joints_a_comprehensive_review_infographic.json
+
+## 9. Explainable AI-driven thermal feature fusion for strength prediction and process optimization in dissimilar ABS/PEEK rotary friction welding
+
+- Date: 2026-08-17
+- Source: OpenAlex
+- Venue: The International Journal of Advanced Manufacturing Technology
+- Category: Coating Quality Prediction
+- DOI: 10.1007/s00170-026-18955-0
+- Source link: https://doi.org/10.1007/s00170-026-18955-0
+- PDF: None
+- Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-08-17-openalex-explainable_ai_driven_thermal_feature_fusion_for_strength_prediction_and_process_optimizat_infographic.json
 
 ## 10. Study of the Influence of Detonation Spraying Parameters on the Structure and Properties of Self-Fluxing Coatings of the Ni–Cr–Fe–Si–B–C System
 
