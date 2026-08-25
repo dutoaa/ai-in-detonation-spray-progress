@@ -1,6 +1,6 @@
 # AI Detonation Spray and Coating Progress Public Resources
 
-Generated: 2026-08-24
+Generated: 2026-08-25
 Public site: https://dutoaa.github.io/ai-in-detonation-spray-progress/
 
 ## 1. A hybrid machine learning framework for robust feasibility prediction of 3D mechanical designs using scalar and geometric features
@@ -47,18 +47,7 @@ Public site: https://dutoaa.github.io/ai-in-detonation-spray-progress/
 - PDF: None
 - Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2025-12-01-doaj-computational_and_machine_learning_modelling_approaches_for_weld_quality_predictions_in_fr_infographic.json
 
-## 5. Key technologies and recent advances in online monitoring of welding quality
-
-- Date: 2026-08-19
-- Source: OpenAlex
-- Venue: Advances in Engineering Innovation
-- Category: AI Process Optimization
-- DOI: 10.54254/2977-3903/2026.36215
-- Source link: https://doi.org/10.54254/2977-3903/2026.36215
-- PDF: https://aei.ewapub.com/article/view/36215.pdf
-- Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-08-19-openalex-key_technologies_and_recent_advances_in_online_monitoring_of_welding_quality_infographic.json
-
-## 6. NGHIÊN CỨU TỔ CHỨC VÀ TÍNH CHẤT LỚP PHỦ Ni-Cr-Cr3C2 LÊN THÉP CHẾ TẠO XUPAP
+## 5. NGHIÊN CỨU TỔ CHỨC VÀ TÍNH CHẤT LỚP PHỦ Ni-Cr-Cr3C2 LÊN THÉP CHẾ TẠO XUPAP
 
 - Date: 2026-07-30
 - Source: OpenAlex
@@ -69,18 +58,18 @@ Public site: https://dutoaa.github.io/ai-in-detonation-spray-progress/
 - PDF: https://jmst.vimaru.edu.vn/index.php/jmst/article/download/1080/817
 - Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-07-30-openalex-nghi_n_c_u_t_ch_c_v_t_nh_ch_t_l_p_ph_ni_cr_cr3c2_l_n_th_p_ch_t_o_xupap_infographic.json
 
-## 7. Methods and Algorithms for Automation of Process Control in the Formation of Composite Coatings
+## 6. Key technologies and recent advances in online monitoring of welding quality
 
 - Date: 2026-08-19
 - Source: OpenAlex
-- Venue: Mekhatronika Avtomatizatsiya Upravlenie
+- Venue: Advances in Engineering Innovation
 - Category: AI Process Optimization
-- DOI: 10.17587/mau.27.429-438
-- Source link: https://doi.org/10.17587/mau.27.429-438
-- PDF: None
-- Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-08-19-openalex-methods_and_algorithms_for_automation_of_process_control_in_the_formation_of_composite_coa_infographic.json
+- DOI: 10.54254/2977-3903/2026.36215
+- Source link: https://doi.org/10.54254/2977-3903/2026.36215
+- PDF: https://aei.ewapub.com/article/view/36215.pdf
+- Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-08-19-openalex-key_technologies_and_recent_advances_in_online_monitoring_of_welding_quality_infographic.json
 
-## 8. Hot corrosion behavior of thermal sprayed using HVAF and DS techniques with Tribaloy-400 coatings for solar energy storage container
+## 7. Hot corrosion behavior of thermal sprayed using HVAF and DS techniques with Tribaloy-400 coatings for solar energy storage container
 
 - Date: 2026-07-01
 - Source: OpenAlex
@@ -91,7 +80,7 @@ Public site: https://dutoaa.github.io/ai-in-detonation-spray-progress/
 - PDF: https://www.sciencedirect.com/science/article/pii/S2238785426018053/pdf
 - Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-07-01-openalex-hot_corrosion_behavior_of_thermal_sprayed_using_hvaf_and_ds_techniques_with_tribaloy_400_c_infographic.json
 
-## 9. Effect of thermal exposure on the wear and phase stability of HVOF-deposited WC-17Co coatings
+## 8. Effect of thermal exposure on the wear and phase stability of HVOF-deposited WC-17Co coatings
 
 - Date: 2026-08-13
 - Source: OpenAlex
@@ -102,18 +91,18 @@ Public site: https://dutoaa.github.io/ai-in-detonation-spray-progress/
 - PDF: https://www.tandfonline.com/doi/pdf/10.1080/23311916.2026.2714967?needAccess=true
 - Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-08-13-openalex-effect_of_thermal_exposure_on_the_wear_and_phase_stability_of_hvof_deposited_wc_17co_coati_infographic.json
 
-## 10. Effect of oxygen pressure during HVOF spraying on the structural-phase state of Zr2CN coatings
+## 9. Methods and Algorithms for Automation of Process Control in the Formation of Composite Coatings
 
-- Date: 2026-08-18
+- Date: 2026-08-19
 - Source: OpenAlex
-- Venue: Frontiers in Chemical Engineering
-- Category: Coating Microstructure
-- DOI: 10.3389/fceng.2026.1842789
-- Source link: https://doi.org/10.3389/fceng.2026.1842789
-- PDF: https://www.frontiersin.org/journals/chemical-engineering/articles/10.3389/fceng.2026.1842789/pdf
-- Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-08-18-openalex-effect_of_oxygen_pressure_during_hvof_spraying_on_the_structural_phase_state_of_zr2cn_coat_infographic.json
+- Venue: Mekhatronika Avtomatizatsiya Upravlenie
+- Category: AI Process Optimization
+- DOI: 10.17587/mau.27.429-438
+- Source link: https://doi.org/10.17587/mau.27.429-438
+- PDF: None
+- Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-08-19-openalex-methods_and_algorithms_for_automation_of_process_control_in_the_formation_of_composite_coa_infographic.json
 
-## 11. Welding Techniques for Magnesium Alloy Joints: A Comprehensive Review
+## 10. Welding Techniques for Magnesium Alloy Joints: A Comprehensive Review
 
 - Date: 2026-08-06
 - Source: OpenAlex
@@ -124,18 +113,18 @@ Public site: https://dutoaa.github.io/ai-in-detonation-spray-progress/
 - PDF: https://www.mdpi.com/1996-1944/19/15/3355/pdf?version=1786020244
 - Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-08-06-openalex-welding_techniques_for_magnesium_alloy_joints_a_comprehensive_review_infographic.json
 
-## 12. Deposition behaviour, optimisation, and coating quality of Al‐19Zn friction‐surfaced on low carbon steel
+## 11. Effect of oxygen pressure during HVOF spraying on the structural-phase state of Zr2CN coatings
 
-- Date: 2026-08-22
+- Date: 2026-08-18
 - Source: OpenAlex
-- Venue: Materialwissenschaft und Werkstofftechnik
-- Category: Coating Quality Prediction
-- DOI: 10.1002/mawe.70166
-- Source link: https://doi.org/10.1002/mawe.70166
-- PDF: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/mawe.70166
-- Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-08-22-openalex-deposition_behaviour_optimisation_and_coating_quality_of_al_19zn_friction_surfaced_on_low_infographic.json
+- Venue: Frontiers in Chemical Engineering
+- Category: Coating Microstructure
+- DOI: 10.3389/fceng.2026.1842789
+- Source link: https://doi.org/10.3389/fceng.2026.1842789
+- PDF: https://www.frontiersin.org/journals/chemical-engineering/articles/10.3389/fceng.2026.1842789/pdf
+- Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-08-18-openalex-effect_of_oxygen_pressure_during_hvof_spraying_on_the_structural_phase_state_of_zr2cn_coat_infographic.json
 
-## 13. Study of the Influence of Detonation Spraying Parameters on the Structure and Properties of Self-Fluxing Coatings of the Ni–Cr–Fe–Si–B–C System
+## 12. Study of the Influence of Detonation Spraying Parameters on the Structure and Properties of Self-Fluxing Coatings of the Ni–Cr–Fe–Si–B–C System
 
 - Date: 2026-08-01
 - Source: OpenAlex
@@ -146,7 +135,7 @@ Public site: https://dutoaa.github.io/ai-in-detonation-spray-progress/
 - PDF: None
 - Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-08-01-openalex-study_of_the_influence_of_detonation_spraying_parameters_on_the_structure_and_properties_o_infographic.json
 
-## 14. Microstructure and interface characteristics of ZrC splats prepared by high temperature atmospheric plasma deposition
+## 13. Microstructure and interface characteristics of ZrC splats prepared by high temperature atmospheric plasma deposition
 
 - Date: 2026-08-06
 - Source: OpenAlex
@@ -157,7 +146,7 @@ Public site: https://dutoaa.github.io/ai-in-detonation-spray-progress/
 - PDF: https://www.sciencedirect.com/science/article/pii/S305091492600244X/pdf
 - Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-08-06-openalex-microstructure_and_interface_characteristics_of_zrc_splats_prepared_by_high_temperature_at_infographic.json
 
-## 15. THE EFFECT OF A THIN CR₃C₂-NICR HVOF COATING ON THE THERMAL RESISTANCE AND TEMPERATURE DISTRIBUTION OF STEAM SUPERHEATER TUBES IN A BKZ-320-140 BOILER
+## 14. THE EFFECT OF A THIN CR₃C₂-NICR HVOF COATING ON THE THERMAL RESISTANCE AND TEMPERATURE DISTRIBUTION OF STEAM SUPERHEATER TUBES IN A BKZ-320-140 BOILER
 
 - Date: 2026-07-29
 - Source: OpenAlex
@@ -168,7 +157,7 @@ Public site: https://dutoaa.github.io/ai-in-detonation-spray-progress/
 - PDF: https://tech.vestnik.shakarim.kz/jour/article/download/2624/1003
 - Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-07-29-openalex-the_effect_of_a_thin_cr_c_nicr_hvof_coating_on_the_thermal_resistance_and_temperature_dist_infographic.json
 
-## 16. A Comparative Analysis of Multitask Neural Networks and Stacking Ensemble Learning for Predicting UTS, Weld Hardness, and HAZ Hardness in Welding Applications
+## 15. A Comparative Analysis of Multitask Neural Networks and Stacking Ensemble Learning for Predicting UTS, Weld Hardness, and HAZ Hardness in Welding Applications
 
 - Date: 2025-11-01
 - Source: DOAJ
@@ -178,6 +167,17 @@ Public site: https://dutoaa.github.io/ai-in-detonation-spray-progress/
 - Source link: https://doi.org/10.3390/engproc2025114019
 - PDF: https://www.mdpi.com/2673-4591/114/1/19/pdf
 - Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2025-11-01-doaj-a_comparative_analysis_of_multitask_neural_networks_and_stacking_ensemble_learning_for_pre_infographic.json
+
+## 16. Deposition behaviour, optimisation, and coating quality of Al‐19Zn friction‐surfaced on low carbon steel
+
+- Date: 2026-08-22
+- Source: OpenAlex
+- Venue: Materialwissenschaft und Werkstofftechnik
+- Category: Coating Quality Prediction
+- DOI: 10.1002/mawe.70166
+- Source link: https://doi.org/10.1002/mawe.70166
+- PDF: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/mawe.70166
+- Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-08-22-openalex-deposition_behaviour_optimisation_and_coating_quality_of_al_19zn_friction_surfaced_on_low_infographic.json
 
 ## 17. Long-term corrosion behaviors and wear behavior of Fe-based amorphous coatings in different humidity environments
 
