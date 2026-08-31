@@ -1,5 +1,133 @@
 [
   {
+    "id": "2026-08-28-openalex-optimization_of_pulse_current_gas_tungsten_arc_welding_parameters_using_artificial_bee_col",
+    "doi": "10.1007/s44244-026-00036-6",
+    "date": "2026-08-28",
+    "title": "Optimization of pulse current gas tungsten arc welding parameters using artificial bee colony optimization and simulated annealing",
+    "authors": "Pushp Kumar Baghel",
+    "abstract": "The welding of dissimilar aluminium alloys in 5xxx and 6xxx series are difficult to weld as defects are produced. The one of the cause is higher heat input. Therefore to reduce the heat input, pulse gas tungsten arc welding (PCGTAW) is employed. The pulsing character of welding process thus reduce the defects and increase the properties of weldment. The fine tuning of parameters such as peak current (P), base current (B), pulse frequency (F), pulse on time (T), and welding speed (S) is carried out using simulated annealing (SA) and artificial bee colony optimization (ABC). The parameters selected has higher percentage contribution in effecting the mechanical properties. Optimizing them will improve the properties of the material. As they possess the approach of reaching the global optima as compared to algorithms which has early converge or converge to local optima. The paper utilizes the data collected using experimentation and is used for homologous of process variables of parameters of PCGTAW using ABC and SA. The empirical relation equation obtained acts as problem objective for optimization through ABC and SA. The confirmation test indicates the values obtained using SA is accurate by maximum of 3.35 J and maximum improvement percentage is 1.09% of impact toughness and in artificial bee colony the maximum accuracy is of 5.6 J and maximum improvement percentage is 1.83%. The higher mechanical properties are obtained as compared to the optimization in design of experiments.",
+    "category": "Welding Processes",
+    "source": "OpenAlex",
+    "venue": "Industrial Artificial Intelligence",
+    "published": "2026-08-28T00:00:00+00:00",
+    "updated": "",
+    "primary_category": "journal-article",
+    "categories": [
+      "journal-article"
+    ],
+    "links": [
+      {
+        "title": "OpenAlex",
+        "url": "https://openalex.org/W7204449557"
+      },
+      {
+        "title": "DOI",
+        "url": "https://doi.org/10.1007/s44244-026-00036-6"
+      },
+      {
+        "title": "Publisher",
+        "url": "https://doi.org/10.1007/s44244-026-00036-6"
+      },
+      {
+        "title": "Open access copy",
+        "url": "https://doi.org/10.1007/s44244-026-00036-6"
+      }
+    ],
+    "open_access": true,
+    "score": 75,
+    "infographic": {
+      "key_insight": "The welding of dissimilar aluminium alloys in 5xxx and 6xxx series are difficult to weld as defects are produced.",
+      "engineering_relevance": "Potential relevance: welding processes workflows and research evaluation.",
+      "method": [
+        "AI materials, welding, detonation spray, coating, or machine-design paper selected from public scholarly sources.",
+        "Ranked by recency plus AI and engineering-domain relevance signals.",
+        "Use the linked paper for methods, data, and validation details."
+      ],
+      "evidence_signal": "Evidence details are summarized from the public abstract only.",
+      "watch_item": "Review the full paper for governing assumptions, validation data, and generalization limits.",
+      "hashtags": [
+        "#AIDetonationSpray",
+        "#DetonationSpray",
+        "#Coatings",
+        "#ThermalSpray",
+        "#arXiv"
+      ],
+      "paper_id": "2026-08-28-openalex-optimization_of_pulse_current_gas_tungsten_arc_welding_parameters_using_artificial_bee_col",
+      "paper_title": "Optimization of pulse current gas tungsten arc welding parameters using artificial bee colony optimization and simulated annealing",
+      "paper_date": "2026-08-28",
+      "paper_category": "Welding Processes",
+      "generated_at": "2026-08-30T15:16:25",
+      "generator": "openai"
+    },
+    "translation": {
+      "generator": "unavailable"
+    }
+  },
+  {
+    "id": "2026-08-28-openalex-a_structure_informed_dnn_model_for_welding_flux_viscosity_prediction",
+    "doi": "10.29391/2026.105.019",
+    "date": "2026-08-28",
+    "title": "A Structure-Informed DNN Model for Welding Flux Viscosity Prediction",
+    "authors": "American Welding Society, Hongyu Liu, Yanyun Zhang, Xiaoxi Song, CONG WANG, Yanyun Zhang",
+    "abstract": "Viscosity plays a pivotal role in the performance of welding fluxes by directly affecting the weld pool and the resultant weld metal, both of which are largely determined by heat and mass transfer during the welding process. Accurate viscosity prediction is essential for developing high-quality welding fluxes. However, existing models struggle to capture the complex nonlinear relationships between viscosity, composition, and temperature, which may significantly compromise robustness and generalization. To address this challenge, we incorporate NBO/Si (the average number of non-bridging oxygens per network former Si4⁺) as an intrinsic structural descriptor and propose a structure-informed deep neural network (S-DNN) that hierarchically models the composition-structure-viscosity relationship, effectively capturing nonlinear viscosity features. The S-DNN demonstrates excellent predictive performance (coefficient of determination [R2] = 0.9053, mean absolute error [MAE] = 0.0633 Pa·s, and root mean square error [RMSE] = 0.1101 Pa·s). Cross-validation employing multiple experimental datasets further validates the generalization and engineering applicability. Incorporating structural descriptors improves model performance by providing physical constraints. Compared to a basic deep neural network that relies solely on composition and temperature, S-DNN offers significantly higher accuracy. This work establishes a reliable, data-driven framework for the intelligent design of welding fluxes.",
+    "category": "Coating Quality Prediction",
+    "source": "OpenAlex",
+    "venue": "Welding Journal",
+    "published": "2026-08-28T00:00:00+00:00",
+    "updated": "",
+    "primary_category": "journal-article",
+    "categories": [
+      "journal-article"
+    ],
+    "links": [
+      {
+        "title": "OpenAlex",
+        "url": "https://openalex.org/W7204586496"
+      },
+      {
+        "title": "DOI",
+        "url": "https://doi.org/10.29391/2026.105.019"
+      },
+      {
+        "title": "Publisher",
+        "url": "https://doi.org/10.29391/2026.105.019"
+      },
+      {
+        "title": "Open access PDF",
+        "url": "https://aws-p-001-delivery.sitecorecontenthub.cloud/api/public/content/A-Structure-Informed-DNN-Model-for-Welding-Flux-Viscosity-Prediction.pdf?v=9367c38d"
+      }
+    ],
+    "open_access": true,
+    "score": 71,
+    "infographic": {
+      "key_insight": "Viscosity plays a pivotal role in the performance of welding fluxes by directly affecting the weld pool and the resultant weld metal, both of which are largely determined by heat and mass transfer during the welding process.",
+      "engineering_relevance": "Potential relevance: coating quality prediction workflows and research evaluation.",
+      "method": [
+        "AI materials, welding, detonation spray, coating, or machine-design paper selected from public scholarly sources.",
+        "Ranked by recency plus AI and engineering-domain relevance signals.",
+        "Use the linked paper for methods, data, and validation details."
+      ],
+      "evidence_signal": "Evidence details are summarized from the public abstract only.",
+      "watch_item": "Review the full paper for governing assumptions, validation data, and generalization limits.",
+      "hashtags": [
+        "#AIDetonationSpray",
+        "#DetonationSpray",
+        "#Coatings",
+        "#ThermalSpray",
+        "#arXiv"
+      ],
+      "paper_id": "2026-08-28-openalex-a_structure_informed_dnn_model_for_welding_flux_viscosity_prediction",
+      "paper_title": "A Structure-Informed DNN Model for Welding Flux Viscosity Prediction",
+      "paper_date": "2026-08-28",
+      "paper_category": "Coating Quality Prediction",
+      "generated_at": "2026-08-30T15:16:26",
+      "generator": "openai"
+    },
+    "translation": {
+      "generator": "unavailable"
+    }
+  },
+  {
     "id": "2025-12-01-doaj-computational_and_machine_learning_modelling_approaches_for_weld_quality_predictions_in_fr",
     "doi": "10.1016/j.matdes.2025.115213",
     "date": "2025-12-01",
@@ -56,7 +184,71 @@
       "paper_title": "Computational and machine learning modelling approaches for weld quality predictions in friction stir welding of high-density polyethylene",
       "paper_date": "2025-12-01",
       "paper_category": "AI Process Optimization",
-      "generated_at": "2026-08-31T17:57:18",
+      "generated_at": "2026-08-30T15:16:26",
+      "generator": "openai"
+    },
+    "translation": {
+      "generator": "unavailable"
+    }
+  },
+  {
+    "id": "2026-08-28-openalex-effect_of_welding_groove_geometry_variation_on_flatness_deviation_in_gmaw_joints",
+    "doi": "10.1007/s40194-026-02604-x",
+    "date": "2026-08-28",
+    "title": "Effect of welding groove geometry variation on flatness deviation in GMAW joints",
+    "authors": "Damian Grzesiak, Krzysztof Nadolny",
+    "abstract": "Abstract The study analyzed how variations in welding groove geometric parameters (groove angle, root gap, root face) affect joint flatness deviations, maintaining a cross-sectional area tolerance within 2.3% to eliminate boundary condition variations. Welded joints were scanned using an ATOS 5 M blue light scanner to evaluate geometric means and standard deviations. The results fill a literature gap by demonstrating that the root gap is the dominant parameter influencing flatness deviation distributions along the groove, while other parameters showed no significant impact. Quantitatively, the maximum difference in geometric mean flatness deviation reached 23% for the Go6 configuration compared to the reference geometry Go1. High process variability was observed, with a maximum-to-minimum standard deviation ratio of 8.3 between Go5 and Go2, causing 40% of the expected flatness deviation results for Go6 to exceed reference values. Statistical testing (Q crit = 0.941, α = 0.05) rejected no outliers, but highlighted that three repetitions ( n = 3) are insufficient for full process estimation. The empirical dataset, encompassing groove widths from 4.61 to 5.77 mm and centroid positions from 1.67 to 2.03 mm, provides a reliable basis for high-range calibration of FEM numerical models. Moreover, the obtained results provide an important technological reference for the design and fabrication of thin-walled welded enclosures manufactured by single-pass welding for industry applications using high-alloy austenitic steels.",
+    "category": "Welding Processes",
+    "source": "OpenAlex",
+    "venue": "Welding in the World",
+    "published": "2026-08-28T00:00:00+00:00",
+    "updated": "",
+    "primary_category": "journal-article",
+    "categories": [
+      "journal-article"
+    ],
+    "links": [
+      {
+        "title": "OpenAlex",
+        "url": "https://openalex.org/W7204522855"
+      },
+      {
+        "title": "DOI",
+        "url": "https://doi.org/10.1007/s40194-026-02604-x"
+      },
+      {
+        "title": "Publisher",
+        "url": "https://doi.org/10.1007/s40194-026-02604-x"
+      },
+      {
+        "title": "Open access PDF",
+        "url": "https://link.springer.com/content/pdf/10.1007/s40194-026-02604-x.pdf"
+      }
+    ],
+    "open_access": true,
+    "score": 61,
+    "infographic": {
+      "key_insight": "Abstract The study analyzed how variations in welding groove geometric parameters (groove angle, root gap, root face) affect joint flatness deviations, maintaining a cross-sectional area tolerance within 2.3% to eliminate boundary condition variations.",
+      "engineering_relevance": "Potential relevance: welding processes workflows and research evaluation.",
+      "method": [
+        "AI materials, welding, detonation spray, coating, or machine-design paper selected from public scholarly sources.",
+        "Ranked by recency plus AI and engineering-domain relevance signals.",
+        "Use the linked paper for methods, data, and validation details."
+      ],
+      "evidence_signal": "Evidence details are summarized from the public abstract only.",
+      "watch_item": "Review the full paper for governing assumptions, validation data, and generalization limits.",
+      "hashtags": [
+        "#AIDetonationSpray",
+        "#DetonationSpray",
+        "#Coatings",
+        "#ThermalSpray",
+        "#arXiv"
+      ],
+      "paper_id": "2026-08-28-openalex-effect_of_welding_groove_geometry_variation_on_flatness_deviation_in_gmaw_joints",
+      "paper_title": "Effect of welding groove geometry variation on flatness deviation in GMAW joints",
+      "paper_date": "2026-08-28",
+      "paper_category": "Welding Processes",
+      "generated_at": "2026-08-30T15:16:27",
       "generator": "openai"
     },
     "translation": {
@@ -120,7 +312,67 @@
       "paper_title": "NGHIÊN CỨU TỔ CHỨC VÀ TÍNH CHẤT LỚP PHỦ Ni-Cr-Cr3C2 LÊN THÉP CHẾ TẠO XUPAP",
       "paper_date": "2026-07-30",
       "paper_category": "Thermal Spray Coatings",
-      "generated_at": "2026-08-31T17:57:18",
+      "generated_at": "2026-08-30T15:16:28",
+      "generator": "openai"
+    },
+    "translation": {
+      "generator": "unavailable"
+    }
+  },
+  {
+    "id": "2026-08-29-openalex-effect_of_pulsed_laser_beam_parameters_on_weldability_a_comparison_with_continuous_wave_la",
+    "doi": "10.1007/s40516-026-00365-5",
+    "date": "2026-08-29",
+    "title": "Effect of Pulsed Laser Beam Parameters on Weldability: A Comparison with Continuous-Wave Laser Welding of Structural Steel",
+    "authors": "Adelino Trindade, André Guimarães, Gonçalo Coelho",
+    "abstract": "Journal article indexed by OpenAlex in Lasers in Manufacturing and Materials Processing.",
+    "category": "Welding Processes",
+    "source": "OpenAlex",
+    "venue": "Lasers in Manufacturing and Materials Processing",
+    "published": "2026-08-29T00:00:00+00:00",
+    "updated": "",
+    "primary_category": "journal-article",
+    "categories": [
+      "journal-article"
+    ],
+    "links": [
+      {
+        "title": "OpenAlex",
+        "url": "https://openalex.org/W7204662607"
+      },
+      {
+        "title": "DOI",
+        "url": "https://doi.org/10.1007/s40516-026-00365-5"
+      },
+      {
+        "title": "Publisher",
+        "url": "https://doi.org/10.1007/s40516-026-00365-5"
+      }
+    ],
+    "open_access": false,
+    "score": 54,
+    "infographic": {
+      "key_insight": "Journal article indexed by OpenAlex in Lasers in Manufacturing and Materials Processing.",
+      "engineering_relevance": "Potential relevance: welding processes workflows and research evaluation.",
+      "method": [
+        "AI materials, welding, detonation spray, coating, or machine-design paper selected from public scholarly sources.",
+        "Ranked by recency plus AI and engineering-domain relevance signals.",
+        "Use the linked paper for methods, data, and validation details."
+      ],
+      "evidence_signal": "Evidence details are summarized from the public abstract only.",
+      "watch_item": "Review the full paper for governing assumptions, validation data, and generalization limits.",
+      "hashtags": [
+        "#AIDetonationSpray",
+        "#DetonationSpray",
+        "#Coatings",
+        "#ThermalSpray",
+        "#arXiv"
+      ],
+      "paper_id": "2026-08-29-openalex-effect_of_pulsed_laser_beam_parameters_on_weldability_a_comparison_with_continuous_wave_la",
+      "paper_title": "Effect of Pulsed Laser Beam Parameters on Weldability: A Comparison with Continuous-Wave Laser Welding of Structural Steel",
+      "paper_date": "2026-08-29",
+      "paper_category": "Welding Processes",
+      "generated_at": "2026-08-30T15:16:28",
       "generator": "openai"
     },
     "translation": {
@@ -152,7 +404,7 @@
         "url": "https://arxiv.org/pdf/2608.25509v1"
       }
     ],
-    "score": 49,
+    "score": 54,
     "infographic": {
       "key_insight": "Robotic welding is widely used in industrial manufacturing, where the welding torch is often connected to the generator through an external umbilical.",
       "engineering_relevance": "Potential relevance: welding processes workflows and research evaluation.",
@@ -174,7 +426,7 @@
       "paper_title": "Dynamic Modeling of a Welding Torch Umbilical and Its Impact on Robot Dynamics",
       "paper_date": "2026-08-26",
       "paper_category": "Welding Processes",
-      "generated_at": "2026-08-31T17:57:18",
+      "generated_at": "2026-08-30T15:16:29",
       "generator": "openai"
     },
     "translation": {
@@ -238,7 +490,7 @@
       "paper_title": "Hot corrosion behavior of thermal sprayed using HVAF and DS techniques with Tribaloy-400 coatings for solar energy storage container",
       "paper_date": "2026-07-01",
       "paper_category": "Coating Microstructure",
-      "generated_at": "2026-08-31T17:57:18",
+      "generated_at": "2026-08-30T15:16:29",
       "generator": "openai"
     },
     "translation": {
@@ -298,7 +550,71 @@
       "paper_title": "Effect of thermal exposure on the wear and phase stability of HVOF-deposited WC-17Co coatings",
       "paper_date": "2026-08-13",
       "paper_category": "Coating Microstructure",
-      "generated_at": "2026-08-31T17:57:19",
+      "generated_at": "2026-08-30T15:16:30",
+      "generator": "openai"
+    },
+    "translation": {
+      "generator": "unavailable"
+    }
+  },
+  {
+    "id": "2026-08-29-openalex-leaf_inspired_zno_cr2o3_epoxy_coatings_with_tailored_visible_nir_reflectance_for_spectral",
+    "doi": "10.1016/j.nxmate.2026.103325",
+    "date": "2026-08-29",
+    "title": "Leaf-inspired ZnO-Cr2O3/epoxy coatings with tailored visible–NIR reflectance for spectral camouflage applications",
+    "authors": "Ansa Khan, Muhammad Umar Farooq, Muhammad Abdullah, Muhammad Atiq ur Rehman, Muhammad Rashid, Gohar Ali",
+    "abstract": "The difference in spectral response between the target and the background is very crucial to avoid target detection by surveillance systems in the visible (VIS) and near-infrared (NIR) spectral regions. In this study, ZnO–Cr 2 O 3 /epoxy composite coatings were developed using compressed-air spraying with varying ratios of ZnO and Cr 2 O 3 nanopowders to replicate the spectral reflectance of natural foliage ( Pongamia Pinnata leaves). Spectral reflectance was studied through Diffuse Reflectance Spectroscopy (DRS), while microstructural and chemical analysis were performed using Field Emission Scanning Electron Microscopy (FESEM), Energy-Dispersive Spectroscopy (EDS), X-ray Diffraction (XRD), and Fourier Transform Infrared Spectroscopy (FTIR). ZC-40, with 40 wt% filler (comprising 80% ZnO and 20% Cr 2 O₃) in an epoxy resin, achieved a visible reflectance of 25–28% and a NIR reflectance of 50–55%, closely resembling the spectral response of natural leaves in the 400–1200 nm wavelength range. The coating was also thermally stable up to 350 °C, had scratch resistance greater than 20 N, and had an excellent adhesion rating of 5 A (ASTM-3350-Method A). Additionally, a cosine similarity over 99% confirmed its strong spectral similarity with natural leaves, highlighting its potential for multispectral camouflage applications.",
+    "category": "Coating Quality Prediction",
+    "source": "OpenAlex",
+    "venue": "Next Materials",
+    "published": "2026-08-29T00:00:00+00:00",
+    "updated": "",
+    "primary_category": "journal-article",
+    "categories": [
+      "journal-article"
+    ],
+    "links": [
+      {
+        "title": "OpenAlex",
+        "url": "https://openalex.org/W7204620529"
+      },
+      {
+        "title": "DOI",
+        "url": "https://doi.org/10.1016/j.nxmate.2026.103325"
+      },
+      {
+        "title": "Publisher",
+        "url": "https://doi.org/10.1016/j.nxmate.2026.103325"
+      },
+      {
+        "title": "Open access copy",
+        "url": "https://doi.org/10.1016/j.nxmate.2026.103325"
+      }
+    ],
+    "open_access": true,
+    "score": 45,
+    "infographic": {
+      "key_insight": "The difference in spectral response between the target and the background is very crucial to avoid target detection by surveillance systems in the visible (VIS) and near-infrared (NIR) spectral regions.",
+      "engineering_relevance": "Potential relevance: coating quality prediction workflows and research evaluation.",
+      "method": [
+        "AI materials, welding, detonation spray, coating, or machine-design paper selected from public scholarly sources.",
+        "Ranked by recency plus AI and engineering-domain relevance signals.",
+        "Use the linked paper for methods, data, and validation details."
+      ],
+      "evidence_signal": "Evidence details are summarized from the public abstract only.",
+      "watch_item": "Review the full paper for governing assumptions, validation data, and generalization limits.",
+      "hashtags": [
+        "#AIDetonationSpray",
+        "#DetonationSpray",
+        "#Coatings",
+        "#ThermalSpray",
+        "#arXiv"
+      ],
+      "paper_id": "2026-08-29-openalex-leaf_inspired_zno_cr2o3_epoxy_coatings_with_tailored_visible_nir_reflectance_for_spectral",
+      "paper_title": "Leaf-inspired ZnO-Cr2O3/epoxy coatings with tailored visible–NIR reflectance for spectral camouflage applications",
+      "paper_date": "2026-08-29",
+      "paper_category": "Coating Quality Prediction",
+      "generated_at": "2026-08-30T15:16:30",
       "generator": "openai"
     },
     "translation": {
@@ -358,7 +674,7 @@
       "paper_title": "Welding Techniques for Magnesium Alloy Joints: A Comprehensive Review",
       "paper_date": "2026-08-06",
       "paper_category": "Coating Microstructure",
-      "generated_at": "2026-08-31T17:57:19",
+      "generated_at": "2026-08-30T15:16:31",
       "generator": "openai"
     },
     "translation": {
@@ -366,16 +682,16 @@
     }
   },
   {
-    "id": "2026-08-29-openalex-leaf_inspired_zno_cr2o3_epoxy_coatings_with_tailored_visible_nir_reflectance_for_spectral",
-    "doi": "10.1016/j.nxmate.2026.103325",
-    "date": "2026-08-29",
-    "title": "Leaf-inspired ZnO-Cr2O3/epoxy coatings with tailored visible–NIR reflectance for spectral camouflage applications",
-    "authors": "Ansa Khan, Muhammad Umar Farooq, Muhammad Abdullah, Muhammad Atiq ur Rehman, Muhammad Rashid, Gohar Ali",
-    "abstract": "The difference in spectral response between the target and the background is very crucial to avoid target detection by surveillance systems in the visible (VIS) and near-infrared (NIR) spectral regions. In this study, ZnO–Cr 2 O 3 /epoxy composite coatings were developed using compressed-air spraying with varying ratios of ZnO and Cr 2 O 3 nanopowders to replicate the spectral reflectance of natural foliage ( Pongamia Pinnata leaves). Spectral reflectance was studied through Diffuse Reflectance Spectroscopy (DRS), while microstructural and chemical analysis were performed using Field Emission Scanning Electron Microscopy (FESEM), Energy-Dispersive Spectroscopy (EDS), X-ray Diffraction (XRD), and Fourier Transform Infrared Spectroscopy (FTIR). ZC-40, with 40 wt% filler (comprising 80% ZnO and 20% Cr 2 O₃) in an epoxy resin, achieved a visible reflectance of 25–28% and a NIR reflectance of 50–55%, closely resembling the spectral response of natural leaves in the 400–1200 nm wavelength range. The coating was also thermally stable up to 350 °C, had scratch resistance greater than 20 N, and had an excellent adhesion rating of 5 A (ASTM-3350-Method A). Additionally, a cosine similarity over 99% confirmed its strong spectral similarity with natural leaves, highlighting its potential for multispectral camouflage applications.",
+    "id": "2026-08-28-openalex-new_approaches_for_monitoring_edible_coating_quality_using_hyperspectral_imaging_hsi_and_c",
+    "doi": "10.1007/s11483-026-10208-7",
+    "date": "2026-08-28",
+    "title": "New Approaches for Monitoring Edible Coating Quality Using Hyperspectral Imaging (HSI) and Chemometrics",
+    "authors": "Yasmin Lima Brasil, Giulia Gorla, Darlei G. D. B. Oliveira, Pamela Sanhueza-Novoa, Jose Manuel Amigo, Douglas Fernandes Barbin",
+    "abstract": "Abstract Preserving fruit quality after harvest presents a major challenge for the food industry, and edible coatings are increasingly proposed as sustainable alternatives to synthetic packaging materials. This work offers a concise review of recent advances in edible coatings for fruit preservation, along with an experimental demonstration of near-infrared hyperspectral imaging (NIR-HSI) as a non-destructive method to assess coating effectiveness during storage. A bibliometric analysis and review of literature from 2020 to 2025 show a rising focus on polysaccharide- and protein-based coatings enriched with natural additives to improve barrier and antimicrobial properties. Additionally, an example is presented involving strawberries coated with an edible formulation of cassava starch, cellulose, and oregano essential oil, monitored over a ten-day period using NIR-HSI (996–2505 nm). Multivariate analysis (principal component analysis (PCA), K-means clustering (K-means), multivariate curve resolution – alternating least squares (MCR-ALS), and partial least squares – discriminant analysis (PLS-DA)), was applied to characterize coating integrity and fruit deterioration over time and across sample surface. The results show that NIR-HSI effectively distinguishes between coated and uncoated samples, measures moisture loss, and tracks enzymatic browning, with spectral changes closely linked to storage duration. The study underscores the potential of NIR-HSI as a promising approach for real-time, noninvasive monitoring of fruit freshness and edible coating, providing valuable insights for sustainable postharvest management and smart packaging solutions.",
     "category": "Coating Quality Prediction",
     "source": "OpenAlex",
-    "venue": "Next Materials",
-    "published": "2026-08-29T00:00:00+00:00",
+    "venue": "Food Biophysics",
+    "published": "2026-08-28T00:00:00+00:00",
     "updated": "",
     "primary_category": "journal-article",
     "categories": [
@@ -384,25 +700,25 @@
     "links": [
       {
         "title": "OpenAlex",
-        "url": "https://openalex.org/W7204620529"
+        "url": "https://openalex.org/W7204496171"
       },
       {
         "title": "DOI",
-        "url": "https://doi.org/10.1016/j.nxmate.2026.103325"
+        "url": "https://doi.org/10.1007/s11483-026-10208-7"
       },
       {
         "title": "Publisher",
-        "url": "https://doi.org/10.1016/j.nxmate.2026.103325"
+        "url": "https://doi.org/10.1007/s11483-026-10208-7"
       },
       {
-        "title": "Open access copy",
-        "url": "https://doi.org/10.1016/j.nxmate.2026.103325"
+        "title": "Open access PDF",
+        "url": "https://link.springer.com/content/pdf/10.1007/s11483-026-10208-7.pdf"
       }
     ],
     "open_access": true,
-    "score": 40,
+    "score": 41,
     "infographic": {
-      "key_insight": "The difference in spectral response between the target and the background is very crucial to avoid target detection by surveillance systems in the visible (VIS) and near-infrared (NIR) spectral regions.",
+      "key_insight": "Abstract Preserving fruit quality after harvest presents a major challenge for the food industry, and edible coatings are increasingly proposed as sustainable alternatives to synthetic packaging materials.",
       "engineering_relevance": "Potential relevance: coating quality prediction workflows and research evaluation.",
       "method": [
         "AI materials, welding, detonation spray, coating, or machine-design paper selected from public scholarly sources.",
@@ -418,11 +734,75 @@
         "#ThermalSpray",
         "#arXiv"
       ],
-      "paper_id": "2026-08-29-openalex-leaf_inspired_zno_cr2o3_epoxy_coatings_with_tailored_visible_nir_reflectance_for_spectral",
-      "paper_title": "Leaf-inspired ZnO-Cr2O3/epoxy coatings with tailored visible–NIR reflectance for spectral camouflage applications",
-      "paper_date": "2026-08-29",
+      "paper_id": "2026-08-28-openalex-new_approaches_for_monitoring_edible_coating_quality_using_hyperspectral_imaging_hsi_and_c",
+      "paper_title": "New Approaches for Monitoring Edible Coating Quality Using Hyperspectral Imaging (HSI) and Chemometrics",
+      "paper_date": "2026-08-28",
       "paper_category": "Coating Quality Prediction",
-      "generated_at": "2026-08-31T17:57:20",
+      "generated_at": "2026-08-30T15:16:31",
+      "generator": "openai"
+    },
+    "translation": {
+      "generator": "unavailable"
+    }
+  },
+  {
+    "id": "2026-08-28-openalex-uncertainty_quantification_of_the_master_curve_reference_temperature_and_its_application_t",
+    "doi": "10.1016/j.tafmec.2026.105912",
+    "date": "2026-08-28",
+    "title": "Uncertainty quantification of the Master Curve reference temperature and its application to fracture toughness characterization of reactor pressure vessel welded joints",
+    "authors": "Xin Zeng, Jian-Ping Tan, Yupeng Cao, Taotao Cheng, Qianyi Ren, Bingxi Wang",
+    "abstract": "Journal article indexed by OpenAlex in SSRN Electronic Journal.",
+    "category": "Welding Processes",
+    "source": "OpenAlex",
+    "venue": "SSRN Electronic Journal",
+    "published": "2026-08-28T00:00:00+00:00",
+    "updated": "",
+    "primary_category": "journal-article",
+    "categories": [
+      "journal-article"
+    ],
+    "links": [
+      {
+        "title": "OpenAlex",
+        "url": "https://openalex.org/W7154726512"
+      },
+      {
+        "title": "DOI",
+        "url": "https://doi.org/10.1016/j.tafmec.2026.105912"
+      },
+      {
+        "title": "Publisher",
+        "url": "https://doi.org/10.2139/ssrn.6596909"
+      },
+      {
+        "title": "Open access copy",
+        "url": "https://doi.org/10.2139/ssrn.6596909"
+      }
+    ],
+    "open_access": true,
+    "score": 41,
+    "infographic": {
+      "key_insight": "Journal article indexed by OpenAlex in SSRN Electronic Journal.",
+      "engineering_relevance": "Potential relevance: welding processes workflows and research evaluation.",
+      "method": [
+        "AI materials, welding, detonation spray, coating, or machine-design paper selected from public scholarly sources.",
+        "Ranked by recency plus AI and engineering-domain relevance signals.",
+        "Use the linked paper for methods, data, and validation details."
+      ],
+      "evidence_signal": "Evidence details are summarized from the public abstract only.",
+      "watch_item": "Review the full paper for governing assumptions, validation data, and generalization limits.",
+      "hashtags": [
+        "#AIDetonationSpray",
+        "#DetonationSpray",
+        "#Coatings",
+        "#ThermalSpray",
+        "#arXiv"
+      ],
+      "paper_id": "2026-08-28-openalex-uncertainty_quantification_of_the_master_curve_reference_temperature_and_its_application_t",
+      "paper_title": "Uncertainty quantification of the Master Curve reference temperature and its application to fracture toughness characterization of reactor pressure vessel welded joints",
+      "paper_date": "2026-08-28",
+      "paper_category": "Welding Processes",
+      "generated_at": "2026-08-30T15:16:31",
       "generator": "openai"
     },
     "translation": {
@@ -482,7 +862,7 @@
       "paper_title": "Effect of oxygen pressure during HVOF spraying on the structural-phase state of Zr2CN coatings",
       "paper_date": "2026-08-18",
       "paper_category": "Coating Microstructure",
-      "generated_at": "2026-08-31T17:57:21",
+      "generated_at": "2026-08-30T15:16:32",
       "generator": "openai"
     },
     "translation": {
@@ -546,7 +926,7 @@
       "paper_title": "Study of the Influence of Detonation Spraying Parameters on the Structure and Properties of Self-Fluxing Coatings of the Ni–Cr–Fe–Si–B–C System",
       "paper_date": "2026-08-01",
       "paper_category": "Coating Microstructure",
-      "generated_at": "2026-08-31T17:57:21",
+      "generated_at": "2026-08-30T15:16:32",
       "generator": "openai"
     },
     "translation": {
@@ -606,7 +986,7 @@
       "paper_title": "Methods and Algorithms for Automation of Process Control in the Formation of Composite Coatings",
       "paper_date": "2026-08-19",
       "paper_category": "AI Process Optimization",
-      "generated_at": "2026-08-31T17:57:21",
+      "generated_at": "2026-08-30T15:16:32",
       "generator": "openai"
     },
     "translation": {
@@ -666,7 +1046,7 @@
       "paper_title": "Microstructure and interface characteristics of ZrC splats prepared by high temperature atmospheric plasma deposition",
       "paper_date": "2026-08-06",
       "paper_category": "Coating Microstructure",
-      "generated_at": "2026-08-31T17:57:22",
+      "generated_at": "2026-08-30T15:16:33",
       "generator": "openai"
     },
     "translation": {
@@ -730,7 +1110,7 @@
       "paper_title": "A Comparative Analysis of Multitask Neural Networks and Stacking Ensemble Learning for Predicting UTS, Weld Hardness, and HAZ Hardness in Welding Applications",
       "paper_date": "2025-11-01",
       "paper_category": "AI Process Optimization",
-      "generated_at": "2026-08-31T17:57:22",
+      "generated_at": "2026-08-30T15:16:34",
       "generator": "openai"
     },
     "translation": {
@@ -794,7 +1174,7 @@
       "paper_title": "Long-term corrosion behaviors and wear behavior of Fe-based amorphous coatings in different humidity environments",
       "paper_date": "2025-12-01",
       "paper_category": "Coating Microstructure",
-      "generated_at": "2026-08-31T17:57:23",
+      "generated_at": "2026-08-30T15:16:34",
       "generator": "openai"
     },
     "translation": {
@@ -858,311 +1238,7 @@
       "paper_title": "Enhancing weld performance of AA2024-T351 using drilled-to-bossed geometry and deep learning prediction in direct drive friction welding",
       "paper_date": "2026-05-01",
       "paper_category": "AI Process Optimization",
-      "generated_at": "2026-08-31T17:57:23",
-      "generator": "openai"
-    },
-    "translation": {
-      "generator": "unavailable"
-    }
-  },
-  {
-    "id": "2025-12-01-doaj-surface_characteristics_of_titanium_based_coatings_obtained_by_detonation_spraying_under_v",
-    "doi": "",
-    "date": "2025-12-01",
-    "title": "Surface Characteristics of Titanium Based Coatings Obtained by Detonation Spraying Under Various Process Conditions",
-    "authors": "Vyacheslav Sirota, Sergey Savotchenko, Valeriya Strokova, Daniil Podgornyi, Marina Kovaleva",
-    "abstract": "The surface properties of metal-ceramic coatings based on titanium dioxide are described in dependence on the detonation spraying conditions. It is found that such properties as surface roughness, surface thickness and its hydrophobicity can be controlled in the production process by selecting certain values of the technological parameters of the spraying process. The optimal values of the technological parameters of detonation spraying, ensuring maximum hydrophobicity of the produced coatings are determined. The roughness of the coating surface and the coating thickness depend on the speed of the nozzle passage in accordance with the inverse power law. The roughness and the contact angle depend on spray distance in accordance with a parabolic law. New equations are obtained that can be useful for predicting the characteristics of the coating surface, as well as for determining the optimal mode of spraying the coating, ensuring its best hydrophobicity.",
-    "category": "Detonation Spray Process",
-    "source": "DOAJ",
-    "venue": "Iranian Journal of Materials Science and Engineering",
-    "published": "2025-12-01T00:00:00+00:00",
-    "updated": "2026-02-09T07:07:05Z",
-    "primary_category": "journal-article",
-    "categories": [
-      "journal-article"
-    ],
-    "links": [
-      {
-        "title": "DOAJ",
-        "url": "https://doaj.org/article/da28bf1c4b624549abfdfa9750bdba6a"
-      },
-      {
-        "title": "Open access PDF",
-        "url": "http://ijmse.iust.ac.ir/article-1-4073-en.pdf"
-      }
-    ],
-    "open_access": true,
-    "score": 28,
-    "infographic": {
-      "key_insight": "The surface properties of metal-ceramic coatings based on titanium dioxide are described in dependence on the detonation spraying conditions.",
-      "engineering_relevance": "Potential relevance: detonation spray process workflows and research evaluation.",
-      "method": [
-        "AI materials, welding, detonation spray, coating, or machine-design paper selected from public scholarly sources.",
-        "Ranked by recency plus AI and engineering-domain relevance signals.",
-        "Use the linked paper for methods, data, and validation details."
-      ],
-      "evidence_signal": "Evidence details are summarized from the public abstract only.",
-      "watch_item": "Review the full paper for governing assumptions, validation data, and generalization limits.",
-      "hashtags": [
-        "#AIDetonationSpray",
-        "#DetonationSpray",
-        "#Coatings",
-        "#ThermalSpray",
-        "#arXiv"
-      ],
-      "paper_id": "2025-12-01-doaj-surface_characteristics_of_titanium_based_coatings_obtained_by_detonation_spraying_under_v",
-      "paper_title": "Surface Characteristics of Titanium Based Coatings Obtained by Detonation Spraying Under Various Process Conditions",
-      "paper_date": "2025-12-01",
-      "paper_category": "Detonation Spray Process",
-      "generated_at": "2026-08-31T17:57:23",
-      "generator": "openai"
-    },
-    "translation": {
-      "generator": "unavailable"
-    }
-  },
-  {
-    "id": "2025-10-01-doaj-effects_of_electron_beam_welding_on_the_microstructure_and_impact_properties_of_three_reco",
-    "doi": "10.19591/j.cnki.cn11-1974/tf.2024070004",
-    "date": "2025-10-01",
-    "title": "Effects of electron beam welding on the microstructure and impact properties of three reconstituted steels",
-    "authors": "HU Minglei, HU Bin, ZHANG Wei, LIU Xiaoou, DAI Kunjie, NI Xiaoqing",
-    "abstract": "Specimen reconstitution technology is important for the in-service safety of reactor pressure vessels (RPVs) in nuclear power plants. To verify the feasibility of electron beam welding for the restructured specimens, the electron beam welding to restructure the 16MND5, 10Cr12Ni3Mo2VN, and X6NiCrTiMoVB 25-15-2 Charpy impact specimens for three kinds of steels was adopted, the microstructure and mechanical properties of the restructured specimens were characterized, and the Vickers hardness and impact toughness of the specimens were tested by non-destructive flaw detection, optical microscopy, and scanning electron microscopy. The results show that the microstructure of these three steels in weld zone is relatively dense, and no obvious crack defects occur. The welding quality of 10Cr12Ni3Mo2VN restructured specimens is the best, and the mechanical properties are relatively close to those of the original specimens, demonstrating that the electron beam welding has the good application potential of reconstitution in nuclear power field.",
-    "category": "Coating Microstructure",
-    "source": "DOAJ",
-    "venue": "Fenmo yejin jishu",
-    "published": "2025-10-01T00:00:00+00:00",
-    "updated": "2025-11-27T01:40:03Z",
-    "primary_category": "journal-article",
-    "categories": [
-      "journal-article"
-    ],
-    "links": [
-      {
-        "title": "DOAJ",
-        "url": "https://doaj.org/article/0040b2059ac1435f9a0a5121381ad6e1"
-      },
-      {
-        "title": "DOI",
-        "url": "https://doi.org/10.19591/j.cnki.cn11-1974/tf.2024070004"
-      },
-      {
-        "title": "Open access full text",
-        "url": "https://pmt.ustb.edu.cn/article/doi/10.19591/j.cnki.cn11-1974/tf.2024070004"
-      }
-    ],
-    "open_access": true,
-    "score": 28,
-    "infographic": {
-      "key_insight": "Specimen reconstitution technology is important for the in-service safety of reactor pressure vessels (RPVs) in nuclear power plants.",
-      "engineering_relevance": "Potential relevance: coating microstructure workflows and research evaluation.",
-      "method": [
-        "AI materials, welding, detonation spray, coating, or machine-design paper selected from public scholarly sources.",
-        "Ranked by recency plus AI and engineering-domain relevance signals.",
-        "Use the linked paper for methods, data, and validation details."
-      ],
-      "evidence_signal": "Evidence details are summarized from the public abstract only.",
-      "watch_item": "Review the full paper for governing assumptions, validation data, and generalization limits.",
-      "hashtags": [
-        "#AIDetonationSpray",
-        "#DetonationSpray",
-        "#Coatings",
-        "#ThermalSpray",
-        "#arXiv"
-      ],
-      "paper_id": "2025-10-01-doaj-effects_of_electron_beam_welding_on_the_microstructure_and_impact_properties_of_three_reco",
-      "paper_title": "Effects of electron beam welding on the microstructure and impact properties of three reconstituted steels",
-      "paper_date": "2025-10-01",
-      "paper_category": "Coating Microstructure",
-      "generated_at": "2026-08-31T17:57:24",
-      "generator": "openai"
-    },
-    "translation": {
-      "generator": "unavailable"
-    }
-  },
-  {
-    "id": "2026-06-29-openalex-tribological_performance_and_machine_learning_assisted_prediction_of_wear_and_friction_in",
-    "doi": "10.1007/s11666-026-02274-7",
-    "date": "2026-06-29",
-    "title": "Tribological Performance and Machine Learning-Assisted Prediction of Wear and Friction in D-Gun Sprayed WC-12Co and Al2O3-13TiO2 Coatings",
-    "authors": "Sukhinderpal Singh, Harnam Singh Farwaha, Raman Kumar, Rupinder Kaur, Ashneet Kaur, Khushpreet Singh",
-    "abstract": "Journal article indexed by OpenAlex in Journal of Thermal Spray Technology.",
-    "category": "Detonation Spray Process",
-    "source": "OpenAlex",
-    "venue": "Journal of Thermal Spray Technology",
-    "published": "2026-06-29T00:00:00+00:00",
-    "updated": "",
-    "primary_category": "journal-article",
-    "categories": [
-      "journal-article"
-    ],
-    "links": [
-      {
-        "title": "OpenAlex",
-        "url": "https://openalex.org/W7166549927"
-      },
-      {
-        "title": "DOI",
-        "url": "https://doi.org/10.1007/s11666-026-02274-7"
-      },
-      {
-        "title": "Publisher",
-        "url": "https://doi.org/10.1007/s11666-026-02274-7"
-      }
-    ],
-    "open_access": false,
-    "score": 26,
-    "infographic": {
-      "key_insight": "Journal article indexed by OpenAlex in Journal of Thermal Spray Technology.",
-      "engineering_relevance": "Potential relevance: detonation spray process workflows and research evaluation.",
-      "method": [
-        "AI materials, welding, detonation spray, coating, or machine-design paper selected from public scholarly sources.",
-        "Ranked by recency plus AI and engineering-domain relevance signals.",
-        "Use the linked paper for methods, data, and validation details."
-      ],
-      "evidence_signal": "Evidence details are summarized from the public abstract only.",
-      "watch_item": "Review the full paper for governing assumptions, validation data, and generalization limits.",
-      "hashtags": [
-        "#AIDetonationSpray",
-        "#DetonationSpray",
-        "#Coatings",
-        "#ThermalSpray",
-        "#arXiv"
-      ],
-      "paper_id": "2026-06-29-openalex-tribological_performance_and_machine_learning_assisted_prediction_of_wear_and_friction_in",
-      "paper_title": "Tribological Performance and Machine Learning-Assisted Prediction of Wear and Friction in D-Gun Sprayed WC-12Co and Al2O3-13TiO2 Coatings",
-      "paper_date": "2026-06-29",
-      "paper_category": "Detonation Spray Process",
-      "generated_at": "2026-08-31T17:57:24",
-      "generator": "openai"
-    },
-    "translation": {
-      "generator": "unavailable"
-    }
-  },
-  {
-    "id": "2026-07-29-openalex-study_of_tribological_properties_of_biocoatings_by_detonation_spraying_method",
-    "doi": "10.53360/2788-7995-2026-2(22)-57",
-    "date": "2026-07-29",
-    "title": "STUDY OF TRIBOLOGICAL PROPERTIES OF BIOCOATINGS BY DETONATION SPRAYING METHOD",
-    "authors": "Zhuldyz Sagdoldina, Daryn Baizhan, Temirlan Alimbekuly, Akbar S. Alibekov",
-    "abstract": "In this study, bioactive hydroxyapatite coatings were deposited on commercially pure Grade 2 titanium substrates by detonation spraying at different O₂/C₂H₂ ratios in the range of 2.6-3.7. X-ray diffraction analysis confirmed the predominance of the hydroxyapatite phase with partial formation of α-tricalcium phosphate, which is attributed to high temperatures and intense dynamic processes in the detonation jet. The formed coatings exhibit pronounced hydrophobicity, high structural heterogeneity, and a well-developed surface microrelief, promoting improved interaction with bone tissue and accelerated osseointegration. Tribological tests conducted under dry conditions and in Ringer’s solution demonstrated a significant increase in wear resistance compared to uncoated Grade 2 titanium. The best friction characteristics and the lowest wear volume were observed for coatings deposited at O₂/C₂H₂ ratios of 3.0 and 3.3, which is associated with an optimal combination of crystallinity, phase composition, and adhesion strength. Coatings formed under these conditions provide stable tribological behavior in physiological environments. The obtained results confirm the prospects of detonation-sprayed hydroxyapatite for improving the durability, biocompatibility, and operational reliability of titanium implants.",
-    "category": "Detonation Spray Process",
-    "source": "OpenAlex",
-    "venue": "Bulletin of Shakarim University Technical Sciences",
-    "published": "2026-07-29T00:00:00+00:00",
-    "updated": "",
-    "primary_category": "journal-article",
-    "categories": [
-      "journal-article"
-    ],
-    "links": [
-      {
-        "title": "OpenAlex",
-        "url": "https://openalex.org/W7203751242"
-      },
-      {
-        "title": "DOI",
-        "url": "https://doi.org/10.53360/2788-7995-2026-2(22)-57"
-      },
-      {
-        "title": "Publisher",
-        "url": "https://doi.org/10.53360/2788-7995-2026-2(22)-57"
-      },
-      {
-        "title": "Open access PDF",
-        "url": "https://tech.vestnik.shakarim.kz/jour/article/download/2432/997"
-      }
-    ],
-    "open_access": true,
-    "score": 22,
-    "infographic": {
-      "key_insight": "In this study, bioactive hydroxyapatite coatings were deposited on commercially pure Grade 2 titanium substrates by detonation spraying at different O₂/C₂H₂ ratios in the range of 2.6-3.7.",
-      "engineering_relevance": "Potential relevance: detonation spray process workflows and research evaluation.",
-      "method": [
-        "AI materials, welding, detonation spray, coating, or machine-design paper selected from public scholarly sources.",
-        "Ranked by recency plus AI and engineering-domain relevance signals.",
-        "Use the linked paper for methods, data, and validation details."
-      ],
-      "evidence_signal": "Evidence details are summarized from the public abstract only.",
-      "watch_item": "Review the full paper for governing assumptions, validation data, and generalization limits.",
-      "hashtags": [
-        "#AIDetonationSpray",
-        "#DetonationSpray",
-        "#Coatings",
-        "#ThermalSpray",
-        "#arXiv"
-      ],
-      "paper_id": "2026-07-29-openalex-study_of_tribological_properties_of_biocoatings_by_detonation_spraying_method",
-      "paper_title": "STUDY OF TRIBOLOGICAL PROPERTIES OF BIOCOATINGS BY DETONATION SPRAYING METHOD",
-      "paper_date": "2026-07-29",
-      "paper_category": "Detonation Spray Process",
-      "generated_at": "2026-08-31T17:57:24",
-      "generator": "openai"
-    },
-    "translation": {
-      "generator": "unavailable"
-    }
-  },
-  {
-    "id": "2026-07-06-openalex-study_on_the_corrosion_behaviour_of_plasma_sprayed_nano_al2o3_tio2_aisi_1020_steel_coating",
-    "doi": "10.25258/ijddt.16.62s.137",
-    "date": "2026-07-06",
-    "title": "STUDY ON THE CORROSION BEHAVIOUR OF PLASMA SPRAYED NANO Al2O3–TiO2– AISI 1020 STEEL COATINGS USING DEFINITIVE SCREENING DESIGN",
-    "authors": "Elwith J, VijayAnanth Suyamburajan",
-    "abstract": "In the present study the electrochemical corrosion properties of plasma-sprayed nano Al2O3–TiO2 coating on AISI 1020 mild steel is assessed. The effects of Al2O3 content (2, 3 and 4 wt.%), NaCl concentration, exposure time, temperature and pH were studied with a Definitive Screening Design (DSD) with a fixed amount of TiO2 (2 wt.%). Potentiodynamic polarization and electrochemical impedance spectroscopy (EIS) were used on a Corrtest CS350M workstation to assess the corrosion behaviour. The corrosion resistance of the coating with Al2O3 (4 wt. %) + TiO2 (2 wt. %) was the highest with the lowest corrosion current density (2.18 µA cm−2) and corrosion potential (−0.489 V (vs. SCE)), which was significantly lower when compared with the uncoated sample. The results of statistical analysis showed that the influence of NaCl concentration on corrosion rate was about 78% and 72% of the variation in NaCl concentration on corrosion current density. The effects of the coating parameters were compared, and the content of Al2O3 was most influential, with approximately 15% and 21% of the variations in the responses accounted for by this parameter. The minimum corrosion rate was determined to be 0.010 mm yr−1 and the developed models proved to have good predictive power, with R² values exceeding 0.99.",
-    "category": "Thermal Spray Coatings",
-    "source": "OpenAlex",
-    "venue": "International Journal of Drug Delivery Technology",
-    "published": "2026-07-06T00:00:00+00:00",
-    "updated": "",
-    "primary_category": "journal-article",
-    "categories": [
-      "journal-article"
-    ],
-    "links": [
-      {
-        "title": "OpenAlex",
-        "url": "https://openalex.org/W7167614253"
-      },
-      {
-        "title": "DOI",
-        "url": "https://doi.org/10.25258/ijddt.16.62s.137"
-      },
-      {
-        "title": "Publisher",
-        "url": "https://doi.org/10.25258/ijddt.16.62s.137"
-      },
-      {
-        "title": "Open access PDF",
-        "url": "https://doi.org/10.25258/ijddt.16.62s.137"
-      }
-    ],
-    "open_access": true,
-    "score": 22,
-    "infographic": {
-      "key_insight": "In the present study the electrochemical corrosion properties of plasma-sprayed nano Al2O3–TiO2 coating on AISI 1020 mild steel is assessed.",
-      "engineering_relevance": "Potential relevance: thermal spray coatings workflows and research evaluation.",
-      "method": [
-        "AI materials, welding, detonation spray, coating, or machine-design paper selected from public scholarly sources.",
-        "Ranked by recency plus AI and engineering-domain relevance signals.",
-        "Use the linked paper for methods, data, and validation details."
-      ],
-      "evidence_signal": "Evidence details are summarized from the public abstract only.",
-      "watch_item": "Review the full paper for governing assumptions, validation data, and generalization limits.",
-      "hashtags": [
-        "#AIDetonationSpray",
-        "#DetonationSpray",
-        "#Coatings",
-        "#ThermalSpray",
-        "#arXiv"
-      ],
-      "paper_id": "2026-07-06-openalex-study_on_the_corrosion_behaviour_of_plasma_sprayed_nano_al2o3_tio2_aisi_1020_steel_coating",
-      "paper_title": "STUDY ON THE CORROSION BEHAVIOUR OF PLASMA SPRAYED NANO Al2O3–TiO2– AISI 1020 STEEL COATINGS USING DEFINITIVE SCREENING DESIGN",
-      "paper_date": "2026-07-06",
-      "paper_category": "Thermal Spray Coatings",
-      "generated_at": "2026-08-31T17:57:24",
+      "generated_at": "2026-08-30T15:16:34",
       "generator": "openai"
     },
     "translation": {
