@@ -1,24 +1,24 @@
 {
-  "key_insight": "Abstract The growing demand for lightweight, high-strength materials in the aerospace and automotive industries has brought aluminium alloys such as AA2024-T351 into the spotlight due to their outstanding strength-to-weight ratio.",
-  "engineering_relevance": "Potential relevance: ai process optimization workflows and research evaluation.",
+  "key_insight": "A drilled-to-bossed joint geometry combined with tuned DDFW parameters substantially improves AA2024-T351 weld strength, while deep learning can predict tensile performance with moderate accuracy.",
+  "engineering_relevance": "The study offers a practical route to stronger lightweight aluminum joints for aerospace and automotive applications by linking joint design, process optimization, and data-driven prediction.",
   "method": [
-    "AI materials, welding, detonation spray, coating, or machine-design paper selected from public scholarly sources.",
-    "Ranked by recency plus AI and engineering-domain relevance signals.",
-    "Use the linked paper for methods, data, and validation details."
+    "L18 orthogonal array experiments on AA2024-T351 in direct drive friction welding",
+    "Compared friction pressure, forging pressure, spindle speed, faying-surface geometry, and friction time",
+    "Trained deep learning models (ensemble residual, compact attention, adaptive multiscale) to predict ultimate tensile strength"
   ],
-  "evidence_signal": "Evidence details are summarized from the public abstract only.",
-  "watch_item": "Review the full paper for governing assumptions, validation data, and generalization limits.",
+  "evidence_signal": "The best parameter set (30 MPa friction pressure, 70 MPa forging pressure, 2200 rpm, drilled-to-bossed geometry, 4 min) achieved 538 MPa tensile strength and 325 MPa torsional strength, and the best model reached R² ≈ 0.81.",
+  "watch_item": "The predictive model accuracy is still limited enough that broader validation on independent weld datasets and operating conditions would be needed before deployment.",
   "hashtags": [
-    "#AIDetonationSpray",
-    "#DetonationSpray",
-    "#Coatings",
-    "#ThermalSpray",
-    "#arXiv"
+    "#FrictionWelding",
+    "#AluminumAlloy",
+    "#DeepLearning",
+    "#ProcessOptimization",
+    "#WeldStrength"
   ],
   "paper_id": "2026-05-01-doaj-enhancing_weld_performance_of_aa2024_t351_using_drilled_to_bossed_geometry_and_deep_learni",
   "paper_title": "Enhancing weld performance of AA2024-T351 using drilled-to-bossed geometry and deep learning prediction in direct drive friction welding",
   "paper_date": "2026-05-01",
   "paper_category": "AI Process Optimization",
-  "generated_at": "2026-09-10T14:56:12",
+  "generated_at": "2026-09-16T15:24:05",
   "generator": "openai"
 }

@@ -1,24 +1,24 @@
 {
-  "key_insight": "This study investigated the microstructural evolution and phase transformation mechanisms in Cr₃C₂-NiCr cermet coatings (Metco 5241 powder) plasma-sprayed onto S235 steel substrates.Two technologies were used: conventional atmospheric plasma spraying (APS) wit",
-  "engineering_relevance": "Potential relevance: coating microstructure workflows and research evaluation.",
+  "key_insight": "Supersonic HV-APS with axial powder feeding produces denser, harder Cr3C2–NiCr coatings with substantially better wear resistance than conventional APS, but it does not noticeably improve high-angle erosion performance.",
+  "engineering_relevance": "For wear-critical coating applications, axial-feed HV-APS offers a practical route to improve coating quality and tribological durability without changing the base cermet chemistry.",
   "method": [
-    "AI materials, welding, detonation spray, coating, or machine-design paper selected from public scholarly sources.",
-    "Ranked by recency plus AI and engineering-domain relevance signals.",
-    "Use the linked paper for methods, data, and validation details."
+    "APS on S235 steel using a single-electrode A60 torch with radial powder injection",
+    "HV-APS using a three-electrode Axial III torch with axial powder feeding",
+    "Compared porosity, microhardness, phase composition, erosion at 90°, and ball-on-disc wear"
   ],
-  "evidence_signal": "Evidence details are summarized from the public abstract only.",
-  "watch_item": "Review the full paper for governing assumptions, validation data, and generalization limits.",
+  "evidence_signal": "HV-APS reduced porosity from 11.99% to 6.16%, increased hardness from 897 to 1141 HV0.2, and lowered wear volume from 3.90 to 2.85 mm3, while erosion rates remained nearly unchanged (0.20 vs 0.19 mg/g).",
+  "watch_item": "The improvement is clear in tribology, but the similar erosion response suggests that service conditions with high-impact particle attack may still require additional design optimization.",
   "hashtags": [
-    "#AIDetonationSpray",
-    "#DetonationSpray",
-    "#Coatings",
     "#ThermalSpray",
-    "#arXiv"
+    "#Coatings",
+    "#WearResistance",
+    "#PlasmaSpraying",
+    "#Cermet"
   ],
   "paper_id": "2026-08-30-openalex-microstructure_and_wear_properties_of_cr_c_nicr_coatings_sprayed_by_conventional_and_super",
   "paper_title": "Microstructure and wear properties of Cr₃C₂–NiCr coatings sprayed by conventional and supersonic high-velocity atmospheric plasma spraying with axial powder feeding",
   "paper_date": "2026-08-30",
   "paper_category": "Coating Microstructure",
-  "generated_at": "2026-09-12T13:56:46",
+  "generated_at": "2026-09-16T15:23:35",
   "generator": "openai"
 }

@@ -1,0 +1,1227 @@
+[
+  {
+    "id": "2026-09-09-openalex-geometric_and_topological_deep_learning_for_predicting_thermo_mechanical_performance_in_co",
+    "doi": "10.1007/s44564-026-00012-3",
+    "date": "2026-09-09",
+    "title": "Geometric and topological deep learning for predicting thermo-mechanical performance in cold spray deposition process modeling",
+    "authors": "Akshansh Mishra",
+    "abstract": "This study presents a geometric deep learning framework for predicting cold spray particle impact responses using finite element simulation data. A parametric dataset was generated through automated Abaqus simulations spanning a systematic range of particle velocity, particle temperature, and friction coefficient, yielding five output targets including maximum equivalent plastic strain, average contact plastic strain, maximum temperature, maximum von Mises stress, and deformation ratio. Four novel algorithms i.e. a GraphSAGE-style inductive graph neural network, a Chebyshev spectral graph convolution network, a topological data analysis augmented multilayer perceptron, and a geometric attention network were implemented and evaluated. Each input sample was treated as a node in a k-nearest-neighbour feature-space graph, enabling the models to exploit spatial similarity between process conditions during training. Three-dimensional feature space visualisations and two-dimensional contour projections confirmed the highly non-linear and velocity-dominated nature of the input-output relationships. Quantitative evaluation demonstrated that GraphSAGE and GAT consistently achieved R² values exceeding 0.93 across most targets, with GAT attaining peak performance of R² = 0.97 for maximum plastic strain. ChebSpectral and TDA-MLP performed considerably worse, yielding negative R² values for several targets. These findings establish spatial graph-based neighbourhood aggregation as a robust and physically interpretable surrogate modelling strategy for cold spray process optimisation.",
+    "category": "AI Process Optimization",
+    "source": "OpenAlex",
+    "venue": "Discover Informatics",
+    "published": "2026-09-09T00:00:00+00:00",
+    "updated": "",
+    "primary_category": "journal-article",
+    "categories": [
+      "journal-article"
+    ],
+    "links": [
+      {
+        "title": "OpenAlex",
+        "url": "https://openalex.org/W7138466281"
+      },
+      {
+        "title": "Publisher",
+        "url": "https://doi.org/10.1007/s44564-026-00012-3"
+      },
+      {
+        "title": "Open access PDF",
+        "url": "https://link.springer.com/content/pdf/10.1007/s44564-026-00012-3.pdf"
+      }
+    ],
+    "open_access": true,
+    "score": 72,
+    "infographic": {
+      "key_insight": "This study presents a geometric deep learning framework for predicting cold spray particle impact responses using finite element simulation data.",
+      "engineering_relevance": "Potential relevance: ai process optimization workflows and research evaluation.",
+      "method": [
+        "AI materials, welding, detonation spray, coating, or machine-design paper selected from public scholarly sources.",
+        "Ranked by recency plus AI and engineering-domain relevance signals.",
+        "Use the linked paper for methods, data, and validation details."
+      ],
+      "evidence_signal": "Evidence details are summarized from the public abstract only.",
+      "watch_item": "Review the full paper for governing assumptions, validation data, and generalization limits.",
+      "hashtags": [
+        "#AIDetonationSpray",
+        "#DetonationSpray",
+        "#Coatings",
+        "#ThermalSpray",
+        "#arXiv"
+      ],
+      "paper_id": "2026-09-09-openalex-geometric_and_topological_deep_learning_for_predicting_thermo_mechanical_performance_in_co",
+      "paper_title": "Geometric and topological deep learning for predicting thermo-mechanical performance in cold spray deposition process modeling",
+      "paper_date": "2026-09-09",
+      "paper_category": "AI Process Optimization",
+      "generated_at": "2026-09-12T13:56:41",
+      "generator": "openai"
+    },
+    "translation": {
+      "generator": "unavailable"
+    }
+  },
+  {
+    "id": "2026-09-10-openalex-high_temperature_corrosion_and_thermal_spray_protection_of_heat_transfer_surfaces_in_munic",
+    "doi": "10.3390/coatings16091078",
+    "date": "2026-09-10",
+    "title": "High-Temperature Corrosion and Thermal Spray Protection of Heat-Transfer Surfaces in Municipal Solid Waste-to-Energy Boilers",
+    "authors": "Yuan Gao, Shi Xie, Minghui Chen, Zehao Chen, Yichen Li, Dianqi Huang",
+    "abstract": "Municipal solid waste-to-energy (MSW-WTE) boilers are increasingly operated at higher steam temperatures and pressures to improve efficiency. Under these conditions, heat-transfer surfaces are exposed to high-temperature oxidation, chlorine-induced corrosion, molten-salt corrosion and thermomechanically coupled damage, which compromise long-term operational safety. Thermal spraying offers flexibility in tailoring coating composition and microstructure and is therefore widely used to improve the service reliability of these surfaces. This review examines the corrosive environments, principal damage mechanisms and development of thermal spray protection systems for MSW-WTE boiler heat-transfer surfaces. It first considers how variations in temperature, flue-gas composition and deposit evolution among boiler regions influence corrosion behavior, with particular emphasis on chlorine-induced active oxidation, sulfate/chloride-assisted hot corrosion and molten-salt corrosion. It then relates spraying processes and coating microstructures to the corrosion-protection mechanisms, advantages and limitations of MCrAlY, NiCr/NiCrMo and carbide-reinforced coatings under different service conditions. Finally, future developments in multifunctional coatings, structural optimization and condition-based maintenance are discussed. By linking corrosive environments, damage mechanisms, coating structures and service reliability, this review provides a framework for the design and engineering application of protective coatings for MSW-WTE boiler heat-transfer surfaces.",
+    "category": "Wear and Corrosion",
+    "source": "OpenAlex",
+    "venue": "Coatings",
+    "published": "2026-09-10T00:00:00+00:00",
+    "updated": "",
+    "primary_category": "journal-article",
+    "categories": [
+      "journal-article"
+    ],
+    "links": [
+      {
+        "title": "OpenAlex",
+        "url": "https://openalex.org/W7212140722"
+      },
+      {
+        "title": "DOI",
+        "url": "https://doi.org/10.3390/coatings16091078"
+      },
+      {
+        "title": "Publisher",
+        "url": "https://doi.org/10.3390/coatings16091078"
+      },
+      {
+        "title": "Open access copy",
+        "url": "https://doi.org/10.3390/coatings16091078"
+      }
+    ],
+    "open_access": true,
+    "score": 71,
+    "infographic": {
+      "key_insight": "Municipal solid waste-to-energy (MSW-WTE) boilers are increasingly operated at higher steam temperatures and pressures to improve efficiency.",
+      "engineering_relevance": "Potential relevance: wear and corrosion workflows and research evaluation.",
+      "method": [
+        "AI materials, welding, detonation spray, coating, or machine-design paper selected from public scholarly sources.",
+        "Ranked by recency plus AI and engineering-domain relevance signals.",
+        "Use the linked paper for methods, data, and validation details."
+      ],
+      "evidence_signal": "Evidence details are summarized from the public abstract only.",
+      "watch_item": "Review the full paper for governing assumptions, validation data, and generalization limits.",
+      "hashtags": [
+        "#AIDetonationSpray",
+        "#DetonationSpray",
+        "#Coatings",
+        "#ThermalSpray",
+        "#arXiv"
+      ],
+      "paper_id": "2026-09-10-openalex-high_temperature_corrosion_and_thermal_spray_protection_of_heat_transfer_surfaces_in_munic",
+      "paper_title": "High-Temperature Corrosion and Thermal Spray Protection of Heat-Transfer Surfaces in Municipal Solid Waste-to-Energy Boilers",
+      "paper_date": "2026-09-10",
+      "paper_category": "Wear and Corrosion",
+      "generated_at": "2026-09-12T13:56:42",
+      "generator": "openai"
+    },
+    "translation": {
+      "generator": "unavailable"
+    }
+  },
+  {
+    "id": "2026-09-07-arxiv-explainable_temporal_attention_based_defect_detection_for_fillet_joints_in_real_time_gas_m",
+    "arxiv_id": "2609.07893v1",
+    "date": "2026-09-07",
+    "title": "Explainable Temporal Attention-based Defect Detection For Fillet Joints in Real-Time Gas Metal Arc Welding Based on Multi-modal Data",
+    "authors": "Mobina Mobaraki, Mahyar Asadi, Klaske Van Heusden, Guy A. Dumont",
+    "abstract": "Deep learning is an efficient technique to monitor the real time welding process, reducing post-welding repairs and production delays. This paper leverages the monitoring capability by proposing a multi modal temporal attention based deep learning defect detection model for internal defects that are challenging to detect, including porosity, lack of penetration and fusion, undercut, and cold lap during Gas Metal Arc Welding in fillet joints. The model is trained on collected welding images and sound data from an industrial collaborative welding robot. The results show that the attention module can improve the F1 Score to 0.99. We use explainable Artificial Intelligence to interpret the proposed models behavior and dataset distribution, determining potential important areas in image and sound spectrograms and preferred modality to detect each defect. This improves trust and reliability in Artificial Intelligence driven welding inspection.",
+    "category": "Coating Microstructure",
+    "source": "arXiv",
+    "published": "2026-09-07T18:57:50Z",
+    "updated": "2026-09-07T18:57:50Z",
+    "primary_category": "cs.AI",
+    "categories": [
+      "cs.AI",
+      "cs.LG"
+    ],
+    "links": [
+      {
+        "title": "arXiv",
+        "url": "https://arxiv.org/abs/2609.07893v1"
+      },
+      {
+        "title": "PDF",
+        "url": "https://arxiv.org/pdf/2609.07893v1"
+      }
+    ],
+    "score": 68,
+    "infographic": {
+      "key_insight": "Deep learning is an efficient technique to monitor the real time welding process, reducing post-welding repairs and production delays.",
+      "engineering_relevance": "Potential relevance: coating microstructure workflows and research evaluation.",
+      "method": [
+        "AI materials, welding, detonation spray, coating, or machine-design paper selected from public scholarly sources.",
+        "Ranked by recency plus AI and engineering-domain relevance signals.",
+        "Use the linked paper for methods, data, and validation details."
+      ],
+      "evidence_signal": "Evidence details are summarized from the public abstract only.",
+      "watch_item": "Review the full paper for governing assumptions, validation data, and generalization limits.",
+      "hashtags": [
+        "#AIDetonationSpray",
+        "#DetonationSpray",
+        "#Coatings",
+        "#ThermalSpray",
+        "#arXiv"
+      ],
+      "paper_id": "2026-09-07-arxiv-explainable_temporal_attention_based_defect_detection_for_fillet_joints_in_real_time_gas_m",
+      "paper_title": "Explainable Temporal Attention-based Defect Detection For Fillet Joints in Real-Time Gas Metal Arc Welding Based on Multi-modal Data",
+      "paper_date": "2026-09-07",
+      "paper_category": "Coating Microstructure",
+      "generated_at": "2026-09-12T13:56:43",
+      "generator": "openai"
+    },
+    "translation": {
+      "generator": "unavailable"
+    }
+  },
+  {
+    "id": "2025-12-01-doaj-computational_and_machine_learning_modelling_approaches_for_weld_quality_predictions_in_fr",
+    "doi": "10.1016/j.matdes.2025.115213",
+    "date": "2025-12-01",
+    "title": "Computational and machine learning modelling approaches for weld quality predictions in friction stir welding of high-density polyethylene",
+    "authors": "A. Alhourani, I. Barsoum, J. Sheikh-Ahmad, S. Deveci",
+    "abstract": "Friction stir welding (FSW) has gained recognition as an effective technique for joining thermoplastic materials. This study presents a comprehensive investigation to predict FSW characteristics such as weld temperatures, vertical axial forces, material flow and defect formation in FSW of high-density polyethylene (HDPE) using both computational and machine learning approaches, validated by experimental results. A three-dimensional Coupled Eulerian-Lagrangian (CEL) numerical model is developed to simulate the HDPE welding process under varying process parameters of rotational and welding speeds, and bottom preheating conditions. The CEL numerical model is validated against experimental data, showing markedly good agreement in predicting void formation, thermal and mechanical responses. Results indicate that preheating the bottom surface proved effective in reducing thermal gradients and stabilizing vertical force fluctuations. Quantitatively, bottom-surface preheating at 60 °C reduced peak plunge force from 1600 N close to 1100 N and raised peak temperatures from 70 °C (without preheat) to about 100 °C, hence smoothing through-thickness gradients and stabilizing the axial force distribution. In parallel, two multilayer perceptron artificial neural networks (ANNs) are trained on experimental data to predict temporal temperature and axial force responses with R2 between 0.91 and 0.99, demonstrating high accuracy and strong generalization across the tested FSW parameter space. The computational CEL simulations accurately predicted weld zone morphology, including stir zone, thermo-mechanically affected zone and heat-affected zone, however the combined CEL–ANN framework enables rapid generation of process maps that highlights defective and defect-free welding windows, with optimal conditions obtained at 1500 rpm and 30 mm/min with 60 °C preheating, and poor weldability observed at 1000 rpm without preheating due to wormhole formation. These findings provide process-driven design guidelines for developing robust HDPE joints and demonstrate how integrating computational modeling with machine learning enables efficient optimization, offering valuable insights into the key characteristics of the FSW process in thermoplastics and supporting its broader adoption in industrial applications.",
+    "category": "AI Process Optimization",
+    "source": "DOAJ",
+    "venue": "Materials & Design",
+    "published": "2025-12-01T00:00:00+00:00",
+    "updated": "2025-12-22T04:20:11Z",
+    "primary_category": "journal-article",
+    "categories": [
+      "journal-article"
+    ],
+    "links": [
+      {
+        "title": "DOAJ",
+        "url": "https://doaj.org/article/0f46792d32c24ed498275aa5743cb8bc"
+      },
+      {
+        "title": "DOI",
+        "url": "https://doi.org/10.1016/j.matdes.2025.115213"
+      },
+      {
+        "title": "Open access full text",
+        "url": "http://www.sciencedirect.com/science/article/pii/S026412752501634X"
+      },
+      {
+        "title": "Open access copy",
+        "url": "https://doi.org/10.1016/j.matdes.2025.115213"
+      }
+    ],
+    "open_access": true,
+    "score": 66,
+    "infographic": {
+      "key_insight": "Friction stir welding (FSW) has gained recognition as an effective technique for joining thermoplastic materials.",
+      "engineering_relevance": "Potential relevance: ai process optimization workflows and research evaluation.",
+      "method": [
+        "AI materials, welding, detonation spray, coating, or machine-design paper selected from public scholarly sources.",
+        "Ranked by recency plus AI and engineering-domain relevance signals.",
+        "Use the linked paper for methods, data, and validation details."
+      ],
+      "evidence_signal": "Evidence details are summarized from the public abstract only.",
+      "watch_item": "Review the full paper for governing assumptions, validation data, and generalization limits.",
+      "hashtags": [
+        "#AIDetonationSpray",
+        "#DetonationSpray",
+        "#Coatings",
+        "#ThermalSpray",
+        "#arXiv"
+      ],
+      "paper_id": "2025-12-01-doaj-computational_and_machine_learning_modelling_approaches_for_weld_quality_predictions_in_fr",
+      "paper_title": "Computational and machine learning modelling approaches for weld quality predictions in friction stir welding of high-density polyethylene",
+      "paper_date": "2025-12-01",
+      "paper_category": "AI Process Optimization",
+      "generated_at": "2026-09-12T13:56:43",
+      "generator": "openai"
+    },
+    "translation": {
+      "generator": "unavailable"
+    }
+  },
+  {
+    "id": "2026-09-05-openalex-experimental_and_numerical_modelling_of_aisi_316l_butt_welded_joints_under_tensile_stress",
+    "doi": "10.3221/igf-esis.78.14",
+    "date": "2026-09-05",
+    "title": "Experimental and numerical modelling of AISI 316L butt-welded joints under tensile stress using local material properties",
+    "authors": "Giulia Palomba, Danilo D’Andrea, Giacomo Risitano, Pasqualino Corigliano, Davide D’Andrea",
+    "abstract": "The mechanical characterization of welded joints is a critical step in assessing the structural reliability of stainless-steel components employed in marine, offshore, and industrial environments. Welding processes introduce significant local variations in microstructure and hardness, leading to heterogeneous mechanical properties that strongly influence fatigue life and structural performance. This study presents an integrated experimental–numerical methodology for the evaluation of local mechanical properties in AISI 316L butt-welded joints through minimally destructive hardness measurements. The approach combines two established hardness–property correlations to derive full true stress–strain curves for each region of the weld. These were subsequently implemented in a finite element model to reproduce the local and global deformation behavior during quasi-static tensile loading. Calibration was achieved using tensile tests on non-welded specimens, and a preliminary validation was conducted through Digital Image Correlation (DIC) strain measurements of both welded and base material specimens. Unlike most existing studies that focus on structural steels, this work investigates AISI 316L welds, austenitic stainless steel widely used in high-integrity applications, through a combined microhardness–FEM–DIC framework. The proposed methodology suggests the possibility to develop robust framework for correlating indentation hardness with mechanical response, offering a rapid, reliable, and potentially non-destructive route for assessing welded structures.",
+    "category": "Welding Processes",
+    "source": "OpenAlex",
+    "venue": "Frattura ed Integrità Strutturale",
+    "published": "2026-09-05T00:00:00+00:00",
+    "updated": "",
+    "primary_category": "journal-article",
+    "categories": [
+      "journal-article"
+    ],
+    "links": [
+      {
+        "title": "OpenAlex",
+        "url": "https://openalex.org/W7208817047"
+      },
+      {
+        "title": "DOI",
+        "url": "https://doi.org/10.3221/igf-esis.78.14"
+      },
+      {
+        "title": "Publisher",
+        "url": "https://doi.org/10.3221/igf-esis.78.14"
+      },
+      {
+        "title": "Open access PDF",
+        "url": "https://www.fracturae.com/index.php/fis/article/download/5905/4870"
+      }
+    ],
+    "open_access": true,
+    "score": 52,
+    "infographic": {
+      "key_insight": "The mechanical characterization of welded joints is a critical step in assessing the structural reliability of stainless-steel components employed in marine, offshore, and industrial environments.",
+      "engineering_relevance": "Potential relevance: welding processes workflows and research evaluation.",
+      "method": [
+        "AI materials, welding, detonation spray, coating, or machine-design paper selected from public scholarly sources.",
+        "Ranked by recency plus AI and engineering-domain relevance signals.",
+        "Use the linked paper for methods, data, and validation details."
+      ],
+      "evidence_signal": "Evidence details are summarized from the public abstract only.",
+      "watch_item": "Review the full paper for governing assumptions, validation data, and generalization limits.",
+      "hashtags": [
+        "#AIDetonationSpray",
+        "#DetonationSpray",
+        "#Coatings",
+        "#ThermalSpray",
+        "#arXiv"
+      ],
+      "paper_id": "2026-09-05-openalex-experimental_and_numerical_modelling_of_aisi_316l_butt_welded_joints_under_tensile_stress",
+      "paper_title": "Experimental and numerical modelling of AISI 316L butt-welded joints under tensile stress using local material properties",
+      "paper_date": "2026-09-05",
+      "paper_category": "Welding Processes",
+      "generated_at": "2026-09-12T13:56:44",
+      "generator": "openai"
+    },
+    "translation": {
+      "generator": "unavailable"
+    }
+  },
+  {
+    "id": "2026-09-10-openalex-blue_laser_light_fiber_welding_of_dp1000_steel_comparative_assessment_of_continuous_and_os",
+    "doi": "10.1007/s00170-026-19026-0",
+    "date": "2026-09-10",
+    "title": "Blue laser light fiber welding of DP1000 steel: comparative assessment of continuous and oscillated welding modes",
+    "authors": "Eva S. V. Marques, António B. Pereira, F.J.G. Silva",
+    "abstract": "Journal article indexed by OpenAlex in The International Journal of Advanced Manufacturing Technology.",
+    "category": "Welding Processes",
+    "source": "OpenAlex",
+    "venue": "The International Journal of Advanced Manufacturing Technology",
+    "published": "2026-09-10T00:00:00+00:00",
+    "updated": "",
+    "primary_category": "journal-article",
+    "categories": [
+      "journal-article"
+    ],
+    "links": [
+      {
+        "title": "OpenAlex",
+        "url": "https://openalex.org/W7212147408"
+      },
+      {
+        "title": "Publisher",
+        "url": "https://doi.org/10.1007/s00170-026-19026-0"
+      }
+    ],
+    "open_access": false,
+    "score": 49,
+    "infographic": {
+      "key_insight": "Journal article indexed by OpenAlex in The International Journal of Advanced Manufacturing Technology.",
+      "engineering_relevance": "Potential relevance: welding processes workflows and research evaluation.",
+      "method": [
+        "AI materials, welding, detonation spray, coating, or machine-design paper selected from public scholarly sources.",
+        "Ranked by recency plus AI and engineering-domain relevance signals.",
+        "Use the linked paper for methods, data, and validation details."
+      ],
+      "evidence_signal": "Evidence details are summarized from the public abstract only.",
+      "watch_item": "Review the full paper for governing assumptions, validation data, and generalization limits.",
+      "hashtags": [
+        "#AIDetonationSpray",
+        "#DetonationSpray",
+        "#Coatings",
+        "#ThermalSpray",
+        "#arXiv"
+      ],
+      "paper_id": "2026-09-10-openalex-blue_laser_light_fiber_welding_of_dp1000_steel_comparative_assessment_of_continuous_and_os",
+      "paper_title": "Blue laser light fiber welding of DP1000 steel: comparative assessment of continuous and oscillated welding modes",
+      "paper_date": "2026-09-10",
+      "paper_category": "Welding Processes",
+      "generated_at": "2026-09-12T13:56:45",
+      "generator": "openai"
+    },
+    "translation": {
+      "generator": "unavailable"
+    }
+  },
+  {
+    "id": "2026-09-10-openalex-a_thermal_coupling_analysis_model_for_friction_welding_of_dissimilar_materials_based_on_th",
+    "doi": "10.1007/s00170-026-18811-1",
+    "date": "2026-09-10",
+    "title": "A thermal coupling analysis model for friction welding of dissimilar materials based on thermodynamic principles",
+    "authors": "Fangyuan Jiang, Da Zhang, Mian Liu, Jinglong Li, Jiangtao Xiong, Lin Yuan",
+    "abstract": "Journal article indexed by OpenAlex in The International Journal of Advanced Manufacturing Technology.",
+    "category": "Welding Processes",
+    "source": "OpenAlex",
+    "venue": "The International Journal of Advanced Manufacturing Technology",
+    "published": "2026-09-10T00:00:00+00:00",
+    "updated": "",
+    "primary_category": "journal-article",
+    "categories": [
+      "journal-article"
+    ],
+    "links": [
+      {
+        "title": "OpenAlex",
+        "url": "https://openalex.org/W7212170944"
+      },
+      {
+        "title": "DOI",
+        "url": "https://doi.org/10.1007/s00170-026-18811-1"
+      },
+      {
+        "title": "Publisher",
+        "url": "https://doi.org/10.1007/s00170-026-18811-1"
+      }
+    ],
+    "open_access": false,
+    "score": 49,
+    "infographic": {
+      "key_insight": "Journal article indexed by OpenAlex in The International Journal of Advanced Manufacturing Technology.",
+      "engineering_relevance": "Potential relevance: welding processes workflows and research evaluation.",
+      "method": [
+        "AI materials, welding, detonation spray, coating, or machine-design paper selected from public scholarly sources.",
+        "Ranked by recency plus AI and engineering-domain relevance signals.",
+        "Use the linked paper for methods, data, and validation details."
+      ],
+      "evidence_signal": "Evidence details are summarized from the public abstract only.",
+      "watch_item": "Review the full paper for governing assumptions, validation data, and generalization limits.",
+      "hashtags": [
+        "#AIDetonationSpray",
+        "#DetonationSpray",
+        "#Coatings",
+        "#ThermalSpray",
+        "#arXiv"
+      ],
+      "paper_id": "2026-09-10-openalex-a_thermal_coupling_analysis_model_for_friction_welding_of_dissimilar_materials_based_on_th",
+      "paper_title": "A thermal coupling analysis model for friction welding of dissimilar materials based on thermodynamic principles",
+      "paper_date": "2026-09-10",
+      "paper_category": "Welding Processes",
+      "generated_at": "2026-09-12T13:56:45",
+      "generator": "openai"
+    },
+    "translation": {
+      "generator": "unavailable"
+    }
+  },
+  {
+    "id": "2026-08-30-openalex-microstructure_and_wear_properties_of_cr_c_nicr_coatings_sprayed_by_conventional_and_super",
+    "doi": "10.12913/22998624/225688",
+    "date": "2026-08-30",
+    "title": "Microstructure and wear properties of Cr₃C₂–NiCr coatings sprayed by conventional and supersonic high-velocity atmospheric plasma spraying with axial powder feeding",
+    "authors": "Tadeusz Kubaszek, Anita Słyś, Marek Góral, Marcin Drajewicz, Kamil Gancarczyk",
+    "abstract": "This study investigated the microstructural evolution and phase transformation mechanisms in Cr₃C₂-NiCr cermet coatings (Metco 5241 powder) plasma-sprayed onto S235 steel substrates.Two technologies were used: conventional atmospheric plasma spraying (APS) with radial powder injection (single-electrode A60 torch) and supersonic plasma spraying with axial powder feeding (HV-APS, three-electrode Axial III torch).The HV-APS coatings exhibited nearly halved porosity (6.16% vs. 11.99% for APS) and significantly higher microhardness (1141 HV0.2 vs. 897 HV0.2).Phase analysis revealed the disappearance of primary Cr 3 C 2 and Cr 21.26 Ni 1.74 C 6 carbides in favour of supersaturated Cr-Ni solid solutions.In the erosion tests conducted at a 90° impact angle, the two coating variants exhibited nearly identical specific erosion rates (0.20 mg/g for APS and 0.19 mg/g for HV-APS) and comparable damage mechanisms, dominated by fatigue-driven lamellar spalling and brittle fracture.However, in tribological tests (ball-on-disc, 30 N load), HV-APS coatings showed nearly 27% lower wear volume (2.85 mm 3 ) and a reduced specific wear rate (1.90 × 10 -4 mm 3 /Nm) compared to APS (3.90 mm 3 and 2.60 × 10 -4 mm 3 /Nm, respectively), correlating with their higher density and hardness.The obtained results confirm that the use of axial powder feeding in supersonic HV-APS plasma spraying significantly improves the mechanical and tribological properties of Cr₃C₂-NiCr coatings, although this advantage is not evident in the erosion tests at high impact angles.",
+    "category": "Coating Microstructure",
+    "source": "OpenAlex",
+    "venue": "Advances in Science and Technology – Research Journal",
+    "published": "2026-08-30T00:00:00+00:00",
+    "updated": "",
+    "primary_category": "journal-article",
+    "categories": [
+      "journal-article"
+    ],
+    "links": [
+      {
+        "title": "OpenAlex",
+        "url": "https://openalex.org/W7204726609"
+      },
+      {
+        "title": "Publisher",
+        "url": "https://doi.org/10.12913/22998624/225688"
+      },
+      {
+        "title": "Open access PDF",
+        "url": "https://www.astrj.com/pdf-225688-143764?filename=Microstructure-and-wear-p.pdf"
+      }
+    ],
+    "open_access": true,
+    "score": 48,
+    "infographic": {
+      "key_insight": "This study investigated the microstructural evolution and phase transformation mechanisms in Cr₃C₂-NiCr cermet coatings (Metco 5241 powder) plasma-sprayed onto S235 steel substrates.Two technologies were used: conventional atmospheric plasma spraying (APS) wit",
+      "engineering_relevance": "Potential relevance: coating microstructure workflows and research evaluation.",
+      "method": [
+        "AI materials, welding, detonation spray, coating, or machine-design paper selected from public scholarly sources.",
+        "Ranked by recency plus AI and engineering-domain relevance signals.",
+        "Use the linked paper for methods, data, and validation details."
+      ],
+      "evidence_signal": "Evidence details are summarized from the public abstract only.",
+      "watch_item": "Review the full paper for governing assumptions, validation data, and generalization limits.",
+      "hashtags": [
+        "#AIDetonationSpray",
+        "#DetonationSpray",
+        "#Coatings",
+        "#ThermalSpray",
+        "#arXiv"
+      ],
+      "paper_id": "2026-08-30-openalex-microstructure_and_wear_properties_of_cr_c_nicr_coatings_sprayed_by_conventional_and_super",
+      "paper_title": "Microstructure and wear properties of Cr₃C₂–NiCr coatings sprayed by conventional and supersonic high-velocity atmospheric plasma spraying with axial powder feeding",
+      "paper_date": "2026-08-30",
+      "paper_category": "Coating Microstructure",
+      "generated_at": "2026-09-12T13:56:46",
+      "generator": "openai"
+    },
+    "translation": {
+      "generator": "unavailable"
+    }
+  },
+  {
+    "id": "2026-09-08-openalex-adaptive_unknown_fault_detection_and_few_shot_continual_learning_for_condition_monitoring",
+    "doi": "10.1088/3049-4761/aea420",
+    "date": "2026-09-08",
+    "title": "Adaptive Unknown Fault Detection and Few-Shot Continual Learning for Condition Monitoring in Ultrasonic Metal Welding",
+    "authors": "Ahmadreza Eslaminia, Kuan-Chieh Lu, Klara Nahrstedt, Chenhui Shao",
+    "abstract": "Ultrasonic metal welding (UMW) is widely used in industrial applications but is sensitive to tool wear, surface contamination, and material variability, which can lead to unexpected process faults and unsatisfactory weld quality. Conventional monitoring systems typically rely on supervised learning models that assume all fault types are known in advance, limiting their ability to handle previously unseen process faults. To address this challenge, this paper proposes an adaptive condition monitoring approach that enables unknown fault detection and few-shot continual learning for UMW. Unknown faults are detected by analyzing hidden-layer representations of a multilayer perceptron and leveraging a statistical thresholding strategy. Once detected, the samples from unknown fault types are incorporated into the existing model through a continual learning procedure that selectively updates only the final layers of the network, which enables the model to recognize new fault types while preserving knowledge of existing classes. To accelerate the labeling process, cosine similarity transformation combined with a clustering algorithm is used to group similar unknown samples. Experimental results using a multi-sensor UMW dataset demonstrate that the proposed method achieves 96% accuracy in detecting unseen fault conditions while maintaining reliable classification of known classes. After incorporating a new fault type using only five labeled samples, the updated model achieves 98% testing classification accuracy. The proposed approach provides a scalable solution for continual learning in condition monitoring where new process conditions may constantly emerge over time and is extensible to other manufacturing processes.",
+    "category": "Coating Quality Prediction",
+    "source": "OpenAlex",
+    "venue": "Machine Learning Engineering",
+    "published": "2026-09-08T00:00:00+00:00",
+    "updated": "",
+    "primary_category": "journal-article",
+    "categories": [
+      "journal-article"
+    ],
+    "links": [
+      {
+        "title": "OpenAlex",
+        "url": "https://openalex.org/W7154575024"
+      },
+      {
+        "title": "DOI",
+        "url": "https://doi.org/10.1088/3049-4761/aea420"
+      },
+      {
+        "title": "Publisher",
+        "url": "https://doi.org/10.1088/3049-4761/aea420"
+      },
+      {
+        "title": "Open access PDF",
+        "url": "https://iopscience.iop.org/article/10.1088/3049-4761/aea420/pdf"
+      }
+    ],
+    "open_access": true,
+    "score": 47,
+    "infographic": {
+      "key_insight": "Ultrasonic metal welding (UMW) is widely used in industrial applications but is sensitive to tool wear, surface contamination, and material variability, which can lead to unexpected process faults and unsatisfactory weld quality.",
+      "engineering_relevance": "Potential relevance: coating quality prediction workflows and research evaluation.",
+      "method": [
+        "AI materials, welding, detonation spray, coating, or machine-design paper selected from public scholarly sources.",
+        "Ranked by recency plus AI and engineering-domain relevance signals.",
+        "Use the linked paper for methods, data, and validation details."
+      ],
+      "evidence_signal": "Evidence details are summarized from the public abstract only.",
+      "watch_item": "Review the full paper for governing assumptions, validation data, and generalization limits.",
+      "hashtags": [
+        "#AIDetonationSpray",
+        "#DetonationSpray",
+        "#Coatings",
+        "#ThermalSpray",
+        "#arXiv"
+      ],
+      "paper_id": "2026-09-08-openalex-adaptive_unknown_fault_detection_and_few_shot_continual_learning_for_condition_monitoring",
+      "paper_title": "Adaptive Unknown Fault Detection and Few-Shot Continual Learning for Condition Monitoring in Ultrasonic Metal Welding",
+      "paper_date": "2026-09-08",
+      "paper_category": "Coating Quality Prediction",
+      "generated_at": "2026-09-12T13:56:46",
+      "generator": "openai"
+    },
+    "translation": {
+      "generator": "unavailable"
+    }
+  },
+  {
+    "id": "2026-08-13-openalex-effect_of_thermal_exposure_on_the_wear_and_phase_stability_of_hvof_deposited_wc_17co_coati",
+    "doi": "10.1080/23311916.2026.2714967",
+    "date": "2026-08-13",
+    "title": "Effect of thermal exposure on the wear and phase stability of HVOF-deposited WC-17Co coatings",
+    "authors": "Shreyas Yogeshwara, Pratibha Sinha, Basavaraja P. K, Vishwanath Managuli, Arun Kumar Jalan, M. Manjaiah",
+    "abstract": "Wear-induced material loss is a major concern in industrial applications, driving the development of wear-resistant surface coatings. High-velocity oxy-fuel (HVOF) spraying is widely used to deposit coatings with high bond strength, low porosity, and improved wear resistance. Among these, WC–Co cermet coatings exhibit excellent hardness and tribological performance; however, wear behaviour can change significantly at elevated temperatures. The present study investigates the dry sliding wear behaviour of HVOF-deposited WC–17Co coatings from RT to 600 °C under constant load, sliding velocity, test duration, and sliding distance. The coatings were characterized before and after wear testing using SEM, EDS, XRD, and 3D surface profilometry to evaluate changes in morphology, elemental distribution, phase composition, and wear-track geometry. The coating showed a thickness of ~268.99 µm, 1.53% porosity, and an average surface roughness (Sa) of 10.2 µm. The coating showed favourable wear resistance at 200–400 °C, with minimum wear and friction at 400 °C likely due to a protective tribo-oxide layer and compacted debris. Above 400 °C, particularly at 500 and 600 °C, the wear rate increased markedly because of Co binder-phase degradation, intensified oxidation, and reduced adherence of the oxide layer, and the optimal operating range is 200–400 °C.",
+    "category": "Coating Microstructure",
+    "source": "OpenAlex",
+    "venue": "Cogent Engineering",
+    "published": "2026-08-13T00:00:00+00:00",
+    "updated": "",
+    "primary_category": "journal-article",
+    "categories": [
+      "journal-article"
+    ],
+    "links": [
+      {
+        "title": "OpenAlex",
+        "url": "https://openalex.org/W7202351224"
+      },
+      {
+        "title": "Publisher",
+        "url": "https://doi.org/10.1080/23311916.2026.2714967"
+      },
+      {
+        "title": "Open access PDF",
+        "url": "https://www.tandfonline.com/doi/pdf/10.1080/23311916.2026.2714967?needAccess=true"
+      }
+    ],
+    "open_access": true,
+    "score": 47,
+    "infographic": {
+      "key_insight": "Wear-induced material loss is a major concern in industrial applications, driving the development of wear-resistant surface coatings.",
+      "engineering_relevance": "Potential relevance: coating microstructure workflows and research evaluation.",
+      "method": [
+        "AI materials, welding, detonation spray, coating, or machine-design paper selected from public scholarly sources.",
+        "Ranked by recency plus AI and engineering-domain relevance signals.",
+        "Use the linked paper for methods, data, and validation details."
+      ],
+      "evidence_signal": "Evidence details are summarized from the public abstract only.",
+      "watch_item": "Review the full paper for governing assumptions, validation data, and generalization limits.",
+      "hashtags": [
+        "#AIDetonationSpray",
+        "#DetonationSpray",
+        "#Coatings",
+        "#ThermalSpray",
+        "#arXiv"
+      ],
+      "paper_id": "2026-08-13-openalex-effect_of_thermal_exposure_on_the_wear_and_phase_stability_of_hvof_deposited_wc_17co_coati",
+      "paper_title": "Effect of thermal exposure on the wear and phase stability of HVOF-deposited WC-17Co coatings",
+      "paper_date": "2026-08-13",
+      "paper_category": "Coating Microstructure",
+      "generated_at": "2026-09-12T13:56:46",
+      "generator": "openai"
+    },
+    "translation": {
+      "generator": "unavailable"
+    }
+  },
+  {
+    "id": "2026-09-10-openalex-penerapan_teknologi_penyepuhan_besi_menggunakan_oli_dengan_metode_oxi_acetylene_welding_oa",
+    "doi": "10.36526/tekiba.v6i3.7417",
+    "date": "2026-09-10",
+    "title": "Penerapan Teknologi Penyepuhan Besi Menggunakan Oli dengan Metode Oxi-Acetylene Welding (OAW) pada Masyarakat Mitra",
+    "authors": "Chendy Putra Perdana, Abu Bakri, Dewi Sartika",
+    "abstract": "The objective of this community service initiative is to equip partner groups with the knowledge and skills to apply carbon steel hardening technology using the OAW (Oxy-Acetylene Welding) method and oil quenching. This step was taken to address the low quality of the partners’ metal products, which was caused by a lack of understanding regarding ideal heat treatment procedures. The methods adopted include material delivery, work demonstrations, independent practice in the use of OAW, and evaluation of the final material results. In practice, carbon steel is heated using an OAW flame to the optimal temperature and then rapidly cooled in an oil medium to strengthen the metal’s surface layer. The outcomes of the activity demonstrated positive changes in the partners’ cognitive understanding and skills regarding the heat treatment process. The partner group has also been able to utilize this technology to produce metals that are stronger, more wear-resistant, and of high utility value. The application of this appropriate technology is expected to provide an affordable and practical solution for local workshops and small industries.",
+    "category": "Coating Quality Prediction",
+    "source": "OpenAlex",
+    "venue": "TEKIBA Jurnal Teknologi dan Pengabdian Masyarakat",
+    "published": "2026-09-10T00:00:00+00:00",
+    "updated": "",
+    "primary_category": "journal-article",
+    "categories": [
+      "journal-article"
+    ],
+    "links": [
+      {
+        "title": "OpenAlex",
+        "url": "https://openalex.org/W7212122846"
+      },
+      {
+        "title": "Publisher",
+        "url": "https://doi.org/10.36526/tekiba.v6i3.7417"
+      },
+      {
+        "title": "Open access copy",
+        "url": "https://doi.org/10.36526/tekiba.v6i3.7417"
+      }
+    ],
+    "open_access": true,
+    "score": 46,
+    "infographic": {
+      "key_insight": "The objective of this community service initiative is to equip partner groups with the knowledge and skills to apply carbon steel hardening technology using the OAW (Oxy-Acetylene Welding) method and oil quenching.",
+      "engineering_relevance": "Potential relevance: coating quality prediction workflows and research evaluation.",
+      "method": [
+        "AI materials, welding, detonation spray, coating, or machine-design paper selected from public scholarly sources.",
+        "Ranked by recency plus AI and engineering-domain relevance signals.",
+        "Use the linked paper for methods, data, and validation details."
+      ],
+      "evidence_signal": "Evidence details are summarized from the public abstract only.",
+      "watch_item": "Review the full paper for governing assumptions, validation data, and generalization limits.",
+      "hashtags": [
+        "#AIDetonationSpray",
+        "#DetonationSpray",
+        "#Coatings",
+        "#ThermalSpray",
+        "#arXiv"
+      ],
+      "paper_id": "2026-09-10-openalex-penerapan_teknologi_penyepuhan_besi_menggunakan_oli_dengan_metode_oxi_acetylene_welding_oa",
+      "paper_title": "Penerapan Teknologi Penyepuhan Besi Menggunakan Oli dengan Metode Oxi-Acetylene Welding (OAW) pada Masyarakat Mitra",
+      "paper_date": "2026-09-10",
+      "paper_category": "Coating Quality Prediction",
+      "generated_at": "2026-09-12T13:56:47",
+      "generator": "openai"
+    },
+    "translation": {
+      "generator": "unavailable"
+    }
+  },
+  {
+    "id": "2026-08-06-openalex-welding_techniques_for_magnesium_alloy_joints_a_comprehensive_review",
+    "doi": "10.3390/ma19153355",
+    "date": "2026-08-06",
+    "title": "Welding Techniques for Magnesium Alloy Joints: A Comprehensive Review",
+    "authors": "Miloš Poliak, P. Czyżewski, Przemysłąw Kubiak, Damian Frej, A. Rylski, Marek Woźniak",
+    "abstract": "Magnesium (Mg) alloys are crucial for lightweight automotive design, underscoring the need for effective welding despite their poor weldability and susceptibility to defects such as cracks. The paper was prepared by reviewing available scientific databases of studies and patents using appropriate keywords. It reviews the properties, applications, and welding methods (fusion, friction, diffusion, explosive, and hybrid) of Mg alloys, assessing their advantages, disadvantages, and precautions. The importance of understanding the mechanical behavior and structural integrity of welded joints was highlighted. The impact of process variables on weld microstructure and properties, along with future research areas, is also addressed. AZ-series Mg alloys were found to be favored for weldability. For them, primary welding methods include GTAW, GMAW, LBW, and FSW. Trends emphasize solid-state techniques, advanced dissimilar metal joining, and AI optimization to enhance welding efficiency and quality. Welding of modern Mg-inclusive high-entropy alloys is under intensive development.",
+    "category": "Coating Microstructure",
+    "source": "OpenAlex",
+    "venue": "Materials",
+    "published": "2026-08-06T00:00:00+00:00",
+    "updated": "",
+    "primary_category": "journal-article",
+    "categories": [
+      "journal-article"
+    ],
+    "links": [
+      {
+        "title": "OpenAlex",
+        "url": "https://openalex.org/W7196980570"
+      },
+      {
+        "title": "Publisher",
+        "url": "https://doi.org/10.3390/ma19153355"
+      },
+      {
+        "title": "Open access PDF",
+        "url": "https://www.mdpi.com/1996-1944/19/15/3355/pdf?version=1786020244"
+      }
+    ],
+    "open_access": true,
+    "score": 43,
+    "infographic": {
+      "key_insight": "Magnesium (Mg) alloys are crucial for lightweight automotive design, underscoring the need for effective welding despite their poor weldability and susceptibility to defects such as cracks.",
+      "engineering_relevance": "Potential relevance: coating microstructure workflows and research evaluation.",
+      "method": [
+        "AI materials, welding, detonation spray, coating, or machine-design paper selected from public scholarly sources.",
+        "Ranked by recency plus AI and engineering-domain relevance signals.",
+        "Use the linked paper for methods, data, and validation details."
+      ],
+      "evidence_signal": "Evidence details are summarized from the public abstract only.",
+      "watch_item": "Review the full paper for governing assumptions, validation data, and generalization limits.",
+      "hashtags": [
+        "#AIDetonationSpray",
+        "#DetonationSpray",
+        "#Coatings",
+        "#ThermalSpray",
+        "#arXiv"
+      ],
+      "paper_id": "2026-08-06-openalex-welding_techniques_for_magnesium_alloy_joints_a_comprehensive_review",
+      "paper_title": "Welding Techniques for Magnesium Alloy Joints: A Comprehensive Review",
+      "paper_date": "2026-08-06",
+      "paper_category": "Coating Microstructure",
+      "generated_at": "2026-09-12T13:56:48",
+      "generator": "openai"
+    },
+    "translation": {
+      "generator": "unavailable"
+    }
+  },
+  {
+    "id": "2026-09-01-openalex-bridging_the_welding_lab_to_shop_gap_why_proven_innovations_lag_a_review_of_defect_persist",
+    "doi": "10.1016/j.rineng.2026.112781",
+    "date": "2026-09-01",
+    "title": "Bridging the Welding Lab-to-Shop Gap: Why Proven Innovations Lag — A Review of Defect Persistence, Process Trade-Offs, and Translation Barriers",
+    "authors": "Hassan Karimi",
+    "abstract": "Welding textbooks and codes comprehensively document the metallurgy of welded joints, yet weld-related failures continue to account for a substantial share of in-service structural incidents, and laboratory innovations demonstrably superior to incumbent practice often take well over a decade to reach production. This critical review examines three interlocking explanations: persistent defects whose mechanisms are understood but whose countermeasures are fragile in field implementation, process-selection trade-offs that are rarely made explicit, and a laboratory-to-shop-floor translation gap whose magnitude has not been quantified in the welding literature. A systematic PRISMA-guided review of 198 sources is combined with an original survival analysis of 31 welding innovations tracked from first peer-reviewed demonstration to production deployment, estimating a median translation time of 14.5 years. Semi-structured interviews with 23 welding professionals in five countries and blinded inter-rater reliability testing of two diagnostic instruments are also reported. Innovations with an identified organisational owner reached production in a median of 11.0 years versus 19.0 years for those without. Translation is most frequently stalled at economic validation and code submission—both public-good problems. Five persistent defect classes are analysed to distinguish thermodynamic, process-control and adoption-related root causes, and a normalised process-selection framework with cost–quality sensitivity analysis is presented. Four dimensionless screening heuristics and a physics-informed neural-network proof-of-concept are described with their preliminary performance, design rationale and explicit limitations. A prioritised research agenda to 2040 identifies candidate organisations whose current mandates align with each action.",
+    "category": "Welding Processes",
+    "source": "OpenAlex",
+    "venue": "Results in Engineering",
+    "published": "2026-09-01T00:00:00+00:00",
+    "updated": "",
+    "primary_category": "journal-article",
+    "categories": [
+      "journal-article"
+    ],
+    "links": [
+      {
+        "title": "OpenAlex",
+        "url": "https://openalex.org/W7208776902"
+      },
+      {
+        "title": "DOI",
+        "url": "https://doi.org/10.1016/j.rineng.2026.112781"
+      },
+      {
+        "title": "Publisher",
+        "url": "https://doi.org/10.1016/j.rineng.2026.112781"
+      },
+      {
+        "title": "Open access PDF",
+        "url": "https://www.sciencedirect.com/science/article/pii/S2590123026037965/pdf"
+      }
+    ],
+    "open_access": true,
+    "score": 42,
+    "infographic": {
+      "key_insight": "Welding textbooks and codes comprehensively document the metallurgy of welded joints, yet weld-related failures continue to account for a substantial share of in-service structural incidents, and laboratory innovations demonstrably superior to incumbent practi",
+      "engineering_relevance": "Potential relevance: welding processes workflows and research evaluation.",
+      "method": [
+        "AI materials, welding, detonation spray, coating, or machine-design paper selected from public scholarly sources.",
+        "Ranked by recency plus AI and engineering-domain relevance signals.",
+        "Use the linked paper for methods, data, and validation details."
+      ],
+      "evidence_signal": "Evidence details are summarized from the public abstract only.",
+      "watch_item": "Review the full paper for governing assumptions, validation data, and generalization limits.",
+      "hashtags": [
+        "#AIDetonationSpray",
+        "#DetonationSpray",
+        "#Coatings",
+        "#ThermalSpray",
+        "#arXiv"
+      ],
+      "paper_id": "2026-09-01-openalex-bridging_the_welding_lab_to_shop_gap_why_proven_innovations_lag_a_review_of_defect_persist",
+      "paper_title": "Bridging the Welding Lab-to-Shop Gap: Why Proven Innovations Lag — A Review of Defect Persistence, Process Trade-Offs, and Translation Barriers",
+      "paper_date": "2026-09-01",
+      "paper_category": "Welding Processes",
+      "generated_at": "2026-09-12T13:56:48",
+      "generator": "openai"
+    },
+    "translation": {
+      "generator": "unavailable"
+    }
+  },
+  {
+    "id": "2026-08-18-openalex-effect_of_oxygen_pressure_during_hvof_spraying_on_the_structural_phase_state_of_zr2cn_coat",
+    "doi": "10.3389/fceng.2026.1842789",
+    "date": "2026-08-18",
+    "title": "Effect of oxygen pressure during HVOF spraying on the structural-phase state of Zr2CN coatings",
+    "authors": "Mazhyn SKAKOV, Sardor Kambarbekov, Gulzhaz Uazyrkhanova, Sherzod Kurbanbekov, Nurdaulet Shektibayev, Гульзада Баимбетова",
+    "abstract": "This study investigates the effect of oxygen pressure on the structural-phase state, microstructure, mechanical properties and tribological behavior of Zr(C,N)-based coatings deposited on U8G tool steel by high-velocity oxygen fuel (HVOF) spraying. The coatings were produced at oxygen pressures of 4.0 × 10 5 , 4.3 × 10 5 and 4.5 × 10 5 Pa, while the spraying distance, propane pressure and air pressure were kept constant. Variation in oxygen pressure was found to affect the relative XRD peak intensities, Rietveld-refined phase fractions, diffraction-line broadening parameters, coating thickness, porosity and tribological response. However, since the coatings exhibited differences in thickness, the interpretation of XRD intensity variations was performed with consideration of possible thickness-related effects and substrate contribution. X-ray diffraction and Rietveld refinement indicated the formation of a multiphase Zr(C,N)-based system containing carbonitride, carbide, nitride, oxide and α-Fe phases. The coating deposited at 4.3 × 10 5 Pa showed the most favorable combination of Zr(C,N)-type phase retention, reduced oxide fraction, low apparent cross-sectional porosity and relatively uniform microstructure. Williamson–Hall analysis suggested the largest coherent scattering domain size of approximately 82 nm and the lowest microstrain of approximately 0.30% for this condition, although these values should be considered as comparative estimates due to partial overlap of Zr 2 CN, ZrC and ZrN reflections. SEM/EDS analysis showed that the coating obtained at 4.3 × 10 5 Pa had the most homogeneous distribution of Zr, C and N and relatively low oxygen content. This coating also exhibited the highest microhardness (1826 ± 38.4 HV 0.5 ), the highest apparent pull-off adhesion strength (18.4 MPa) and the lowest friction coefficient (μ ≈ 0.54 ± 0.01). Quantitative wear assessment according to ASTM G99 showed that this coating had the lowest wear volume and specific wear rate among the investigated samples. SEM examination of wear tracks suggested a correlation between oxygen pressure, coating morphology and wear-track features; however, direct post-wear chemical analysis of the tribofilm would be required to confirm the detailed wear mechanisms. Overall, the results indicate that an oxygen pressure of 4.3 × 10 5 Pa provides the most balanced coating characteristics under the investigated HVOF conditions.",
+    "category": "Coating Microstructure",
+    "source": "OpenAlex",
+    "venue": "Frontiers in Chemical Engineering",
+    "published": "2026-08-18T00:00:00+00:00",
+    "updated": "",
+    "primary_category": "journal-article",
+    "categories": [
+      "journal-article"
+    ],
+    "links": [
+      {
+        "title": "OpenAlex",
+        "url": "https://openalex.org/W7203681748"
+      },
+      {
+        "title": "DOI",
+        "url": "https://doi.org/10.3389/fceng.2026.1842789"
+      },
+      {
+        "title": "Publisher",
+        "url": "https://doi.org/10.3389/fceng.2026.1842789"
+      },
+      {
+        "title": "Open access PDF",
+        "url": "https://www.frontiersin.org/journals/chemical-engineering/articles/10.3389/fceng.2026.1842789/pdf"
+      }
+    ],
+    "open_access": true,
+    "score": 40,
+    "infographic": {
+      "key_insight": "This study investigates the effect of oxygen pressure on the structural-phase state, microstructure, mechanical properties and tribological behavior of Zr(C,N)-based coatings deposited on U8G tool steel by high-velocity oxygen fuel (HVOF) spraying.",
+      "engineering_relevance": "Potential relevance: coating microstructure workflows and research evaluation.",
+      "method": [
+        "AI materials, welding, detonation spray, coating, or machine-design paper selected from public scholarly sources.",
+        "Ranked by recency plus AI and engineering-domain relevance signals.",
+        "Use the linked paper for methods, data, and validation details."
+      ],
+      "evidence_signal": "Evidence details are summarized from the public abstract only.",
+      "watch_item": "Review the full paper for governing assumptions, validation data, and generalization limits.",
+      "hashtags": [
+        "#AIDetonationSpray",
+        "#DetonationSpray",
+        "#Coatings",
+        "#ThermalSpray",
+        "#arXiv"
+      ],
+      "paper_id": "2026-08-18-openalex-effect_of_oxygen_pressure_during_hvof_spraying_on_the_structural_phase_state_of_zr2cn_coat",
+      "paper_title": "Effect of oxygen pressure during HVOF spraying on the structural-phase state of Zr2CN coatings",
+      "paper_date": "2026-08-18",
+      "paper_category": "Coating Microstructure",
+      "generated_at": "2026-09-12T13:56:48",
+      "generator": "openai"
+    },
+    "translation": {
+      "generator": "unavailable"
+    }
+  },
+  {
+    "id": "2026-08-26-arxiv-dynamic_modeling_of_a_welding_torch_umbilical_and_its_impact_on_robot_dynamics",
+    "arxiv_id": "2608.25509v1",
+    "date": "2026-08-26",
+    "title": "Dynamic Modeling of a Welding Torch Umbilical and Its Impact on Robot Dynamics",
+    "authors": "Nicolas Gautier, Yves Guillermit, Mathieu Porez, Fabien Rousset, Damien Chablat",
+    "abstract": "Robotic welding is widely used in industrial manufacturing, where the welding torch is often connected to the generator through an external umbilical. With the increasing deployment of lightweight and collaborative robots, the dynamic influence of this umbilical can significantly affect the robot motion and the actuation forces. This paper proposes a constrained multibody dynamic model of a welding umbilical, represented as a serial chain of rigid bodies interconnected by passive joints with elastic and dissipative effects. Prescribed motions at the distal anchor point are introduced through holonomic kinematic constraints. The equations of motion are reduced by projecting the dynamics onto the subspace of admissible velocities, yielding an efficient formulation free of Lagrange multipliers. The reaction wrench exerted by the umbilical on the robot is explicitly recovered. A planar case study illustrates the approach.",
+    "category": "Welding Processes",
+    "source": "arXiv",
+    "published": "2026-08-26T08:18:41Z",
+    "updated": "2026-08-26T08:18:41Z",
+    "primary_category": "cs.RO",
+    "categories": [
+      "cs.RO"
+    ],
+    "links": [
+      {
+        "title": "arXiv",
+        "url": "https://arxiv.org/abs/2608.25509v1"
+      },
+      {
+        "title": "PDF",
+        "url": "https://arxiv.org/pdf/2608.25509v1"
+      }
+    ],
+    "score": 39,
+    "infographic": {
+      "key_insight": "Robotic welding is widely used in industrial manufacturing, where the welding torch is often connected to the generator through an external umbilical.",
+      "engineering_relevance": "Potential relevance: welding processes workflows and research evaluation.",
+      "method": [
+        "AI materials, welding, detonation spray, coating, or machine-design paper selected from public scholarly sources.",
+        "Ranked by recency plus AI and engineering-domain relevance signals.",
+        "Use the linked paper for methods, data, and validation details."
+      ],
+      "evidence_signal": "Evidence details are summarized from the public abstract only.",
+      "watch_item": "Review the full paper for governing assumptions, validation data, and generalization limits.",
+      "hashtags": [
+        "#AIDetonationSpray",
+        "#DetonationSpray",
+        "#Coatings",
+        "#ThermalSpray",
+        "#arXiv"
+      ],
+      "paper_id": "2026-08-26-arxiv-dynamic_modeling_of_a_welding_torch_umbilical_and_its_impact_on_robot_dynamics",
+      "paper_title": "Dynamic Modeling of a Welding Torch Umbilical and Its Impact on Robot Dynamics",
+      "paper_date": "2026-08-26",
+      "paper_category": "Welding Processes",
+      "generated_at": "2026-09-12T13:56:49",
+      "generator": "openai"
+    },
+    "translation": {
+      "generator": "unavailable"
+    }
+  },
+  {
+    "id": "2026-08-19-openalex-methods_and_algorithms_for_automation_of_process_control_in_the_formation_of_composite_coa",
+    "doi": "10.17587/mau.27.429-438",
+    "date": "2026-08-19",
+    "title": "Methods and Algorithms for Automation of Process Control in the Formation of Composite Coatings",
+    "authors": "S. Yu. Ganigin, V.V. Kiyashchenko, A. S. Kirsanov, A. V. Mironov",
+    "abstract": "A methodology for intelligent control of the detonation-gas spraying (DGS) process of reactive Ni/Al composite coatings is presented, based on a Decision Support System (DSS) integrated with a digital twin of the technological process. The proposed hierarchical control architecture includes PLC-based sequencing, real-time stabilization of jet parameters using diagnostic data, predictive quality regulation, and a multi-objective optimization loop ensuring adaptive adjustment of process modes. The coating responses were evaluated from SEM image analysis: average pore area, number of unmelted particles, specific length of interphase boundaries, and fraction of pre-formed intermetallic phases. The relationships between technological parameters (barrel filling degree, C2H2/O2 ratio, spray distance, powder feed rate, gas temperature, and pressure) and structural characteristics were described using the Response Surface Methodology (RSM) with second-order regression models. Analysis of variance (ANOVA) confirmed the statistical significance of the factors and the adequacy of the model. Simulation and experimental verification demonstrated that gas temperature and spray distance exert the strongest influence on the formation of interphase boundaries. Optimization using the Harrington desirability function combined with a genetic algorithm enabled minimization of porosity and unmelted particles, while maximizing specific length of interphase boundaries. The mean prediction error across all structural metrics did not exceed 5—8 %. The developed DSS provides adaptive control and automatic optimization of DGS parameters, significantly reducing experimental workload and improving the reproducibility of coating structures. The methodology is suitable for integration into intelligent control systems and digital twin platforms for thermal spraying processes. Future work will focus on applying machine-learning-driven hybrid models combining empirical and physicochemical simulations for enhanced prediction accuracy and autonomy.",
+    "category": "AI Process Optimization",
+    "source": "OpenAlex",
+    "venue": "Mekhatronika Avtomatizatsiya Upravlenie",
+    "published": "2026-08-19T00:00:00+00:00",
+    "updated": "",
+    "primary_category": "journal-article",
+    "categories": [
+      "journal-article"
+    ],
+    "links": [
+      {
+        "title": "OpenAlex",
+        "url": "https://openalex.org/W7203774185"
+      },
+      {
+        "title": "DOI",
+        "url": "https://doi.org/10.17587/mau.27.429-438"
+      },
+      {
+        "title": "Publisher",
+        "url": "https://doi.org/10.17587/mau.27.429-438"
+      },
+      {
+        "title": "Open access copy",
+        "url": "https://doi.org/10.17587/mau.27.429-438"
+      }
+    ],
+    "open_access": true,
+    "score": 38,
+    "infographic": {
+      "key_insight": "A methodology for intelligent control of the detonation-gas spraying (DGS) process of reactive Ni/Al composite coatings is presented, based on a Decision Support System (DSS) integrated with a digital twin of the technological process.",
+      "engineering_relevance": "Potential relevance: ai process optimization workflows and research evaluation.",
+      "method": [
+        "AI materials, welding, detonation spray, coating, or machine-design paper selected from public scholarly sources.",
+        "Ranked by recency plus AI and engineering-domain relevance signals.",
+        "Use the linked paper for methods, data, and validation details."
+      ],
+      "evidence_signal": "Evidence details are summarized from the public abstract only.",
+      "watch_item": "Review the full paper for governing assumptions, validation data, and generalization limits.",
+      "hashtags": [
+        "#AIDetonationSpray",
+        "#DetonationSpray",
+        "#Coatings",
+        "#ThermalSpray",
+        "#arXiv"
+      ],
+      "paper_id": "2026-08-19-openalex-methods_and_algorithms_for_automation_of_process_control_in_the_formation_of_composite_coa",
+      "paper_title": "Methods and Algorithms for Automation of Process Control in the Formation of Composite Coatings",
+      "paper_date": "2026-08-19",
+      "paper_category": "AI Process Optimization",
+      "generated_at": "2026-09-12T13:56:49",
+      "generator": "openai"
+    },
+    "translation": {
+      "generator": "unavailable"
+    }
+  },
+  {
+    "id": "2026-08-06-openalex-microstructure_and_interface_characteristics_of_zrc_splats_prepared_by_high_temperature_at",
+    "doi": "10.1016/j.tramat.2026.100403",
+    "date": "2026-08-06",
+    "title": "Microstructure and interface characteristics of ZrC splats prepared by high temperature atmospheric plasma deposition",
+    "authors": "Ziyi Yi, Ting Xu, Bing Liu, Keke Wu, Hongkang Ou, Yujia Zhang",
+    "abstract": "The deposition behavior of molten droplets is critical to the cohesion and adhesion of plasma-sprayed ceramic coatings. To clarify the bonding mechanism of ZrC coatings, this study investigates the microstructure and interface characteristics of ZrC splats fabricated by supersonic atmospheric plasma spraying, focusing on spraying distance effects and inter-splat evolution. Results show 100 mm is optimal for intact, disk-shaped splats without splashing. Stacked ZrC splats are mainly zirconia, with t -ZrO 2 on the top surface and m -ZrO 2 concentrated at contact zones between two splats. A dense, vertically oriented columnar grain zone (∼150 nm) forms between adjacent splats, enabling epitaxial bonding. Furthermore, an amorphous Zr-Si-O interlayer at the splat-substrate interface enhances adhesion. The coating has alternating ZrC/ZrO 2 layers, with ZrC grains encapsulated by nanocrystalline ZrO 2 . This work provides fundamental insights into interface design for high-performance high-temperature ceramic coatings.",
+    "category": "Coating Microstructure",
+    "source": "OpenAlex",
+    "venue": "Transactions of Materials Research",
+    "published": "2026-08-06T00:00:00+00:00",
+    "updated": "",
+    "primary_category": "journal-article",
+    "categories": [
+      "journal-article"
+    ],
+    "links": [
+      {
+        "title": "OpenAlex",
+        "url": "https://openalex.org/W7197036302"
+      },
+      {
+        "title": "Publisher",
+        "url": "https://doi.org/10.1016/j.tramat.2026.100403"
+      },
+      {
+        "title": "Open access PDF",
+        "url": "https://www.sciencedirect.com/science/article/pii/S305091492600244X/pdf"
+      }
+    ],
+    "open_access": true,
+    "score": 36,
+    "infographic": {
+      "key_insight": "The deposition behavior of molten droplets is critical to the cohesion and adhesion of plasma-sprayed ceramic coatings.",
+      "engineering_relevance": "Potential relevance: coating microstructure workflows and research evaluation.",
+      "method": [
+        "AI materials, welding, detonation spray, coating, or machine-design paper selected from public scholarly sources.",
+        "Ranked by recency plus AI and engineering-domain relevance signals.",
+        "Use the linked paper for methods, data, and validation details."
+      ],
+      "evidence_signal": "Evidence details are summarized from the public abstract only.",
+      "watch_item": "Review the full paper for governing assumptions, validation data, and generalization limits.",
+      "hashtags": [
+        "#AIDetonationSpray",
+        "#DetonationSpray",
+        "#Coatings",
+        "#ThermalSpray",
+        "#arXiv"
+      ],
+      "paper_id": "2026-08-06-openalex-microstructure_and_interface_characteristics_of_zrc_splats_prepared_by_high_temperature_at",
+      "paper_title": "Microstructure and interface characteristics of ZrC splats prepared by high temperature atmospheric plasma deposition",
+      "paper_date": "2026-08-06",
+      "paper_category": "Coating Microstructure",
+      "generated_at": "2026-09-12T13:56:49",
+      "generator": "openai"
+    },
+    "translation": {
+      "generator": "unavailable"
+    }
+  },
+  {
+    "id": "2025-11-01-doaj-a_comparative_analysis_of_multitask_neural_networks_and_stacking_ensemble_learning_for_pre",
+    "doi": "10.3390/engproc2025114019",
+    "date": "2025-11-01",
+    "title": "A Comparative Analysis of Multitask Neural Networks and Stacking Ensemble Learning for Predicting UTS, Weld Hardness, and HAZ Hardness in Welding Applications",
+    "authors": "Sama Mukhtar, Amit Sata, Gaurang Joshi, Durgesh Srivastava",
+    "abstract": "Accurately predicting welding performance measures like ultimate strength (UTS), weld bead hardness, and HAZ mechanical hardness is crucial for ensuring the structural integrity and performance of welded components. Multitask learning (MTL) refers to a machine learning approach in which one model is designed to handle several interconnected tasks at the same time. Instead of training separate models for each task, MTL shares representations among tasks, allowing them to leverage common patterns while maintaining task-specific distinctions. In this study, we compared two advanced machine learning techniques, namely multitask neural network (MTNN) and stacking ensemble learning, for predicting these parameters based on a shared dataset. A multitask neural network (MTNN) is a specific type of multitask learning (MTL) model that uses a deep neural network architecture to handle multiple related tasks simultaneously. In MTNN, different tasks share some hidden layers while having task-specific output layers. This shared representation allows the model to learn common patterns across tasks while maintaining task-specific outputs. Both methods are evaluated using RMSE and R<sup>2</sup> to determine their predictive accuracy and overall effectiveness. It showed robust prediction strength, as its RMSE outcomes are 0.1288 for UTS, 0.0886 for weld hardness, and 0.1125 for HAZ hardness, whereas R<sup>2</sup> values are 0.6724, 0.9215, and 0.8407, respectively. This underlines that it can generalize well in interrelated tasks. Stacking ensemble learning outperformed MTL in the accuracy of individual tasks: the RMSE for UTS is 0.0263 and R<sup>2</sup> is 0.9863; for weld hardness, it is 0.0467 and 0.9782; and for HAZ hardness, it is 0.1109 and 0.8453. Such results indicate the good ability of ensemble methods to produce highly accurate, task-specific predictions. This comparison reveals the trade-offs between the two approaches. MTL is good in scenarios where the tasks are related and the data are sparse, giving efficient training and good generalization; stacking ensembles work better in the case of accurate, independent predictions. In both cases, they show remarkable potential for improving the predictive power of welding applications, making them suitable precursors to further investigation into hybrid models that bring the best features of both approaches together.",
+    "category": "AI Process Optimization",
+    "source": "DOAJ",
+    "venue": "Engineering Proceedings",
+    "published": "2025-11-01T00:00:00+00:00",
+    "updated": "2025-12-24T14:49:18Z",
+    "primary_category": "journal-article",
+    "categories": [
+      "journal-article"
+    ],
+    "links": [
+      {
+        "title": "DOAJ",
+        "url": "https://doaj.org/article/15c7d23338bc476d8efb74f6e5b50579"
+      },
+      {
+        "title": "DOI",
+        "url": "https://doi.org/10.3390/engproc2025114019"
+      },
+      {
+        "title": "Open access full text",
+        "url": "https://www.mdpi.com/2673-4591/114/1/19"
+      },
+      {
+        "title": "Open access PDF",
+        "url": "https://www.mdpi.com/2673-4591/114/1/19/pdf"
+      }
+    ],
+    "open_access": true,
+    "score": 36,
+    "infographic": {
+      "key_insight": "Accurately predicting welding performance measures like ultimate strength (UTS), weld bead hardness, and HAZ mechanical hardness is crucial for ensuring the structural integrity and performance of welded components.",
+      "engineering_relevance": "Potential relevance: ai process optimization workflows and research evaluation.",
+      "method": [
+        "AI materials, welding, detonation spray, coating, or machine-design paper selected from public scholarly sources.",
+        "Ranked by recency plus AI and engineering-domain relevance signals.",
+        "Use the linked paper for methods, data, and validation details."
+      ],
+      "evidence_signal": "Evidence details are summarized from the public abstract only.",
+      "watch_item": "Review the full paper for governing assumptions, validation data, and generalization limits.",
+      "hashtags": [
+        "#AIDetonationSpray",
+        "#DetonationSpray",
+        "#Coatings",
+        "#ThermalSpray",
+        "#arXiv"
+      ],
+      "paper_id": "2025-11-01-doaj-a_comparative_analysis_of_multitask_neural_networks_and_stacking_ensemble_learning_for_pre",
+      "paper_title": "A Comparative Analysis of Multitask Neural Networks and Stacking Ensemble Learning for Predicting UTS, Weld Hardness, and HAZ Hardness in Welding Applications",
+      "paper_date": "2025-11-01",
+      "paper_category": "AI Process Optimization",
+      "generated_at": "2026-09-12T13:56:50",
+      "generator": "openai"
+    },
+    "translation": {
+      "generator": "unavailable"
+    }
+  },
+  {
+    "id": "2025-12-01-doaj-long_term_corrosion_behaviors_and_wear_behavior_of_fe_based_amorphous_coatings_in_differen",
+    "doi": "10.1016/j.corcom.2024.06.004",
+    "date": "2025-12-01",
+    "title": "Long-term corrosion behaviors and wear behavior of Fe-based amorphous coatings in different humidity environments",
+    "authors": "Shuai Cui, Haimin Zhai, Zihan Feng, Xuqiang Li, Wensheng Li, Xiangjuan Fan",
+    "abstract": "Fe-based amorphous coatings (Fe-based AMCs) were successfully prepared on Q235 carbon steel by detonation spray under different spraying parameters. The corrosion and tribology behaviors of coatings were systematically tested. The droplets show disk-like morphology with the highest circularity and expansion factor, which is crucial to reduce the defects of coatings and to form fine-lamellar-structures coatings with dense microstructure. A higher incidence of porosity defects in the coating is associated with reduced long-term corrosion resistance. Moreover, the tribo-chemical reactions between Si3N4 balls and water molecules play a significant role in wear behaviors for coating in different humidity conditions. The friction coefficient and wear rate of coatings decrease as the humidity conditions increase.",
+    "category": "Coating Microstructure",
+    "source": "DOAJ",
+    "venue": "Corrosion Communications",
+    "published": "2025-12-01T00:00:00+00:00",
+    "updated": "2025-12-28T04:17:12Z",
+    "primary_category": "journal-article",
+    "categories": [
+      "journal-article"
+    ],
+    "links": [
+      {
+        "title": "DOAJ",
+        "url": "https://doaj.org/article/e93c7334344b484e8072cba8fa887774"
+      },
+      {
+        "title": "DOI",
+        "url": "https://doi.org/10.1016/j.corcom.2024.06.004"
+      },
+      {
+        "title": "Open access full text",
+        "url": "http://www.sciencedirect.com/science/article/pii/S2667266925000271"
+      },
+      {
+        "title": "Open access copy",
+        "url": "https://doi.org/10.1016/j.corcom.2024.06.004"
+      }
+    ],
+    "open_access": true,
+    "score": 34,
+    "infographic": {
+      "key_insight": "Fe-based amorphous coatings (Fe-based AMCs) were successfully prepared on Q235 carbon steel by detonation spray under different spraying parameters.",
+      "engineering_relevance": "Potential relevance: coating microstructure workflows and research evaluation.",
+      "method": [
+        "AI materials, welding, detonation spray, coating, or machine-design paper selected from public scholarly sources.",
+        "Ranked by recency plus AI and engineering-domain relevance signals.",
+        "Use the linked paper for methods, data, and validation details."
+      ],
+      "evidence_signal": "Evidence details are summarized from the public abstract only.",
+      "watch_item": "Review the full paper for governing assumptions, validation data, and generalization limits.",
+      "hashtags": [
+        "#AIDetonationSpray",
+        "#DetonationSpray",
+        "#Coatings",
+        "#ThermalSpray",
+        "#arXiv"
+      ],
+      "paper_id": "2025-12-01-doaj-long_term_corrosion_behaviors_and_wear_behavior_of_fe_based_amorphous_coatings_in_differen",
+      "paper_title": "Long-term corrosion behaviors and wear behavior of Fe-based amorphous coatings in different humidity environments",
+      "paper_date": "2025-12-01",
+      "paper_category": "Coating Microstructure",
+      "generated_at": "2026-09-12T13:56:50",
+      "generator": "openai"
+    },
+    "translation": {
+      "generator": "unavailable"
+    }
+  },
+  {
+    "id": "2026-09-07-openalex-design_and_development_of_real_time_vision_ai_welding_analyzer",
+    "doi": "10.54536/ajsts.v5i2.7938",
+    "date": "2026-09-07",
+    "title": "Design and Development of Real-Time Vision AI Welding Analyzer",
+    "authors": "Crispine D. Besa",
+    "abstract": "Welding training needs simple, reliable tools that give quick feedback on bead quality to help learners improve skills and meet industry standards. The main purpose of the study was to develop a real-time vision AI welding analyzer, specifically describing its technical features, its accuracy, sensitivity, response time, and acceptability in terms of technical features, composition, operating performance, and safety features. The research used a developmental method, and the evaluation was conducted using a researcher-made questionnaire, validated by the members of the panel. Thirty (30) evaluators, comprising professors, welders, Technology and Livelihood Education (TLE) instructors, and end-users, assessed the developed device, providing valuable insights for its proper utilization in welding training. The device provided real-time feedback on weave and stringer beads via a web dashboard with pass/fail metrics and safety features. The findings showed that the device delivered reliable weld bead evaluation with advanced technical features, strong operating performance, and comprehensive safety measures. It achieved 90% accuracy in classifying acceptable stringer and weave beads, 100% precision with no false positives, and instant response times within the 10 second threshold. It was very acceptable, confirming its effectiveness as a supportive tool for welding education and training.",
+    "category": "Coating Quality Prediction",
+    "source": "OpenAlex",
+    "venue": "American Journal of Smart Technology and Solutions",
+    "published": "2026-09-07T00:00:00+00:00",
+    "updated": "",
+    "primary_category": "journal-article",
+    "categories": [
+      "journal-article"
+    ],
+    "links": [
+      {
+        "title": "OpenAlex",
+        "url": "https://openalex.org/W7211876068"
+      },
+      {
+        "title": "DOI",
+        "url": "https://doi.org/10.54536/ajsts.v5i2.7938"
+      },
+      {
+        "title": "Publisher",
+        "url": "https://doi.org/10.54536/ajsts.v5i2.7938"
+      },
+      {
+        "title": "Open access PDF",
+        "url": "https://journals.e-palli.com/home/index.php/ajsts/article/download/7938/3961"
+      }
+    ],
+    "open_access": true,
+    "score": 33,
+    "infographic": {
+      "key_insight": "Welding training needs simple, reliable tools that give quick feedback on bead quality to help learners improve skills and meet industry standards.",
+      "engineering_relevance": "Potential relevance: coating quality prediction workflows and research evaluation.",
+      "method": [
+        "AI materials, welding, detonation spray, coating, or machine-design paper selected from public scholarly sources.",
+        "Ranked by recency plus AI and engineering-domain relevance signals.",
+        "Use the linked paper for methods, data, and validation details."
+      ],
+      "evidence_signal": "Evidence details are summarized from the public abstract only.",
+      "watch_item": "Review the full paper for governing assumptions, validation data, and generalization limits.",
+      "hashtags": [
+        "#AIDetonationSpray",
+        "#DetonationSpray",
+        "#Coatings",
+        "#ThermalSpray",
+        "#arXiv"
+      ],
+      "paper_id": "2026-09-07-openalex-design_and_development_of_real_time_vision_ai_welding_analyzer",
+      "paper_title": "Design and Development of Real-Time Vision AI Welding Analyzer",
+      "paper_date": "2026-09-07",
+      "paper_category": "Coating Quality Prediction",
+      "generated_at": "2026-09-12T13:56:50",
+      "generator": "openai"
+    },
+    "translation": {
+      "generator": "unavailable"
+    }
+  }
+]

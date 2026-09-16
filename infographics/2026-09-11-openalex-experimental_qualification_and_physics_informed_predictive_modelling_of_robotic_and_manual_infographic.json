@@ -1,0 +1,24 @@
+{
+  "key_insight": "Robotic MAG welding of 10-mm S355MC steel showed much more consistent qualification outcomes and impact-energy dispersion than manual welding, with a physics-informed surrogate capturing representative stress–strain behavior within the tested records.",
+  "engineering_relevance": "The results suggest robotic welding can deliver higher process robustness and more predictable mechanical properties for structural steel fabrication, but the findings are campaign-specific and not yet validated across independent weldments.",
+  "method": [
+    "EN ISO 15614-1 qualification tests compared robotic vs manual MAG welds on S355MC steel.",
+    "Destructive specimen testing supported sample-based capability estimates, including rule-of-three upper bounds and exploratory C pL values.",
+    "A general regression neural network reconstructed representative stress–strain curves and assessed within-record prediction error."
+  ],
+  "evidence_signal": "Among 36 robotic specimens no non-conforming outcome was observed, while 5 of 18 manual specimens were non-conforming; Charpy standard deviation was 4.6–5.1 J for robotic modes versus 19.5 J for manual welding, and surrogate RMSEs were 0.37–0.48 MPa.",
+  "watch_item": "The statistics come from one qualification campaign and single weldment sources, so process-level generalization and transfer to new weldments remain untested.",
+  "hashtags": [
+    "#WeldingAI",
+    "#ProcessOptimization",
+    "#PhysicsInformedML",
+    "#ManufacturingQuality",
+    "#StructuralSteel"
+  ],
+  "paper_id": "2026-09-11-openalex-experimental_qualification_and_physics_informed_predictive_modelling_of_robotic_and_manual",
+  "paper_title": "Experimental qualification and physics-informed predictive modelling of robotic and manual MAG welding of S355MC steel",
+  "paper_date": "2026-09-11",
+  "paper_category": "AI Process Optimization",
+  "generated_at": "2026-09-16T15:23:42",
+  "generator": "openai"
+}

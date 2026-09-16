@@ -1,24 +1,24 @@
 {
-  "key_insight": "Robotic welding is widely used in industrial manufacturing, where the welding torch is often connected to the generator through an external umbilical.",
-  "engineering_relevance": "Potential relevance: welding processes workflows and research evaluation.",
+  "key_insight": "A welding torch umbilical can be modeled as a constrained multibody system, allowing its dynamic loads on a robot to be predicted and used in robot-motion planning.",
+  "engineering_relevance": "This matters for lightweight and collaborative welding robots because umbilical-induced forces can alter motion accuracy, actuation effort, and overall dynamic performance.",
   "method": [
-    "AI materials, welding, detonation spray, coating, or machine-design paper selected from public scholarly sources.",
-    "Ranked by recency plus AI and engineering-domain relevance signals.",
-    "Use the linked paper for methods, data, and validation details."
+    "Model the umbilical as a serial chain of rigid bodies with passive joints.",
+    "Include elastic and dissipative effects in the joint modeling.",
+    "Impose distal-end prescribed motion with holonomic constraints and reduce the dynamics by projecting onto admissible velocities, avoiding Lagrange multipliers."
   ],
-  "evidence_signal": "Evidence details are summarized from the public abstract only.",
-  "watch_item": "Review the full paper for governing assumptions, validation data, and generalization limits.",
+  "evidence_signal": "The abstract reports a planar case study used to illustrate and validate the proposed dynamic formulation.",
+  "watch_item": "The approach is demonstrated in a planar case, so extension to full 3D industrial setups may require additional modeling and validation.",
   "hashtags": [
-    "#AIDetonationSpray",
-    "#DetonationSpray",
-    "#Coatings",
-    "#ThermalSpray",
-    "#arXiv"
+    "#WeldingRobotics",
+    "#MultibodyDynamics",
+    "#RobotModeling",
+    "#CollisionFreeMotion",
+    "#IndustrialAutomation"
   ],
   "paper_id": "2026-08-26-arxiv-dynamic_modeling_of_a_welding_torch_umbilical_and_its_impact_on_robot_dynamics",
   "paper_title": "Dynamic Modeling of a Welding Torch Umbilical and Its Impact on Robot Dynamics",
   "paper_date": "2026-08-26",
   "paper_category": "Welding Processes",
-  "generated_at": "2026-09-12T13:56:49",
+  "generated_at": "2026-09-16T15:23:51",
   "generator": "openai"
 }

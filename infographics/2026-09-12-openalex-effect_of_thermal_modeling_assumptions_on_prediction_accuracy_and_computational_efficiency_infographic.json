@@ -1,0 +1,24 @@
+{
+  "key_insight": "Simplifying thermal assumptions in laser-arc hybrid welding simulation can cut runtime dramatically while preserving most predictions, with morphology-mapped heat input offering the best efficiency-fidelity balance.",
+  "engineering_relevance": "For thermo-elastic-plastic welding analysis, the study shows where expensive physics can be removed without losing key outputs like distortion and residual stress trends.",
+  "method": [
+    "Compared three FE thermo-elastic-plastic models on the same SBHS400 butt joint mesh",
+    "Model 1 used a combined cylindrical–double-ellipsoid heat source with latent heat and radiation",
+    "Model 3 replaced the analytical source with a GUI-mapped equivalent volumetric heat flux from the fusion-zone macrograph"
+  ],
+  "evidence_signal": "The models were checked against thermocouple histories, out-of-plane distortion, and XRD residual stress measurements, with runtime dropping from 57.3 h to 20.5 h and then 17.5 h.",
+  "watch_item": "The morphology-mapped uniform heat flux can smear stresses, so local peak stresses near the weld toe/fusion zone may be less reliable than with higher-fidelity thermal physics.",
+  "hashtags": [
+    "#WeldingSimulation",
+    "#FiniteElementAnalysis",
+    "#ThermalModeling",
+    "#ResidualStress",
+    "#ComputationalEfficiency"
+  ],
+  "paper_id": "2026-09-12-openalex-effect_of_thermal_modeling_assumptions_on_prediction_accuracy_and_computational_efficiency",
+  "paper_title": "Effect of thermal modeling assumptions on prediction accuracy and computational efficiency in laser-arc hybrid welding simulation",
+  "paper_date": "2026-09-12",
+  "paper_category": "Coating Quality Prediction",
+  "generated_at": "2026-09-16T15:23:37",
+  "generator": "openai"
+}

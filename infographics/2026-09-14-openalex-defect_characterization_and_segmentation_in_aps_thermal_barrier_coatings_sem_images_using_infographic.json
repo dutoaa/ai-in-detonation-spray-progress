@@ -1,0 +1,24 @@
+{
+  "key_insight": "BES-YOLO11 improves SEM defect segmentation in APS thermal barrier coatings by combining stronger multi-scale feature fusion with a lighter segmentation head for better accuracy and speed.",
+  "engineering_relevance": "The method supports faster, more reliable microscopic inspection of coating defects, helping quantify microstructure quality in thermal spray manufacturing workflows.",
+  "method": [
+    "BRB-FPN enhances cross-scale feature fusion and boundary-aware contour localization.",
+    "ESCH reduces parameters and FLOPs while accelerating inference.",
+    "Built on YOLO11-seg without extra training tricks."
+  ],
+  "evidence_signal": "On a self-constructed APS-TBC SEM defect dataset, the method improved Mask mAP@50 by 6.9%, Mask mAP@50:95 by 4.4%, and recall by 5.5% over the baseline while also increasing FPS.",
+  "watch_item": "Performance is demonstrated on a self-built dataset, so broader validation across other coating types, imaging conditions, and defect classes is still needed.",
+  "hashtags": [
+    "#ThermalBarrierCoatings",
+    "#SEM",
+    "#InstanceSegmentation",
+    "#YOLO11",
+    "#DefectInspection"
+  ],
+  "paper_id": "2026-09-14-openalex-defect_characterization_and_segmentation_in_aps_thermal_barrier_coatings_sem_images_using",
+  "paper_title": "Defect Characterization and Segmentation in APS Thermal Barrier Coatings SEM Images Using BES-YOLO11",
+  "paper_date": "2026-09-14",
+  "paper_category": "Thermal Spray Coatings",
+  "generated_at": "2026-09-16T15:23:31",
+  "generator": "openai"
+}
