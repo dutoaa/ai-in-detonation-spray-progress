@@ -1,0 +1,24 @@
+{
+  "key_insight": "FFT-based acoustic emission features let an explainable AI pipeline distinguish good welds, porosity, and burn-through in TIG welding with near-perfect accuracy.",
+  "engineering_relevance": "This enables real-time, non-destructive weld-condition monitoring for AA5083, supporting faster quality control and defect detection during production.",
+  "method": [
+    "Acoustic emission was sampled at 10 kHz and converted to frequency-domain features using FFT; STFT was used to inspect time-varying behavior.",
+    "Decision Tree, SVM, ANN, and ensemble classifiers were trained on spectral features, with PCA used to reduce FFT dimensionality.",
+    "Five-fold cross-validation and grid-search tuning were used, and SHAP highlighted the most influential frequency bands."
+  ],
+  "evidence_signal": "Using independently verified weld labels and a reserved test set, the best models achieved about 0.99 classification accuracy for three weld states.",
+  "watch_item": "Performance was demonstrated on a specific alloy and setup, so broader robustness across other welding parameters, sensors, and shop-floor noise still needs validation.",
+  "hashtags": [
+    "#TIGWelding",
+    "#AcousticEmission",
+    "#ExplainableAI",
+    "#FFT",
+    "#QualityControl"
+  ],
+  "paper_id": "2026-09-24-openalex-acoustic_emission_metrology_for_real_time_tig_welding_monitoring_spectral_characterization",
+  "paper_title": "Acoustic Emission Metrology for Real-Time TIG Welding Monitoring: Spectral Characterization and Interpretability via Explainable AI",
+  "paper_date": "2026-09-24",
+  "paper_category": "Coating Microstructure",
+  "generated_at": "2026-09-30T16:45:10",
+  "generator": "openai"
+}

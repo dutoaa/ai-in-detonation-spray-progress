@@ -1,0 +1,24 @@
+{
+  "key_insight": "A graph self-attention neural network can classify weld defects accurately from very few labeled images by exploiting patch-based graph features instead of relying on large training sets.",
+  "engineering_relevance": "This offers a practical low-data inspection method for welding quality control, reducing annotation cost while preserving strong defect-detection performance in industrial settings.",
+  "method": [
+    "Builds a graph neural network for weld image classification.",
+    "Uses patch-based node construction to reduce computation.",
+    "Adds self-attention to strengthen node feature representation."
+  ],
+  "evidence_signal": "Evaluated on Al5083 and SS304 using only 5% of training data, the model achieved 82.0% and 94.8% accuracy, outperforming ResNet18 by 5.2% and 2.4% respectively.",
+  "watch_item": "Performance is shown on public datasets with limited training splits, so real plant deployment may still require validation under domain shift, noise, and class imbalance.",
+  "hashtags": [
+    "#WeldInspection",
+    "#FewShotLearning",
+    "#GraphNeuralNetworks",
+    "#DefectDetection",
+    "#IndustrialAI"
+  ],
+  "paper_id": "2026-09-28-openalex-few_shot_welding_defect_detection_via_graph_self_attention_neural_network",
+  "paper_title": "Few-Shot Welding Defect Detection via Graph Self-Attention Neural Network",
+  "paper_date": "2026-09-28",
+  "paper_category": "Welding Quality and Inspection",
+  "generated_at": "2026-09-30T16:44:47",
+  "generator": "openai"
+}
