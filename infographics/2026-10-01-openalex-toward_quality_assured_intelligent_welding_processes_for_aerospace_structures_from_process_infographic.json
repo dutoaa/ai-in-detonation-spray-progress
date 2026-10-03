@@ -1,24 +1,24 @@
 {
-  "key_insight": "The paper argues for a quality-assured intelligent welding workflow that connects process monitoring to digital closed-loop control for aerospace manufacturing.",
-  "engineering_relevance": "This matters because closed-loop monitoring and control can improve weld consistency, reduce defects, and support certification-grade production of aerospace structures.",
+  "key_insight": "The paper argues for quality-assured intelligent welding in aerospace by linking real-time process monitoring to a digital closed-loop manufacturing workflow.",
+  "engineering_relevance": "Its relevance is in enabling more reliable, traceable, and automatable welding of aerospace structures, where defects and variability have high cost and safety impact.",
   "method": [
     "Monitor welding process signals in real time",
-    "Use intelligent analytics to assess process quality",
-    "Feed monitoring results back into a digital closed-loop manufacturing system"
+    "Use the monitored data to infer quality status",
+    "Feed quality feedback into a closed-loop manufacturing control framework"
   ],
-  "evidence_signal": "The abstract provides only bibliographic metadata and does not report specific datasets, metrics, or quantitative evaluation.",
-  "watch_item": "A major implementation concern is whether the monitoring and control system generalizes reliably across different aerospace materials, joint geometries, and production conditions.",
+  "evidence_signal": "The abstract indicates this is a journal article in Journal of Manufacturing Processes, but it does not provide dataset size, experimental metrics, or reported performance values.",
+  "watch_item": "Closed-loop deployment will depend on robust sensing, calibration, and generalization across different joints, materials, and shop-floor conditions.",
   "hashtags": [
-    "#WeldingAI",
-    "#DigitalTwin",
-    "#ClosedLoopManufacturing",
-    "#AerospaceManufacturing",
-    "#ProcessMonitoring"
+    "#SmartManufacturing",
+    "#Welding",
+    "#AerospaceStructures",
+    "#ProcessMonitoring",
+    "#DigitalTwin"
   ],
   "paper_id": "2026-10-01-openalex-toward_quality_assured_intelligent_welding_processes_for_aerospace_structures_from_process",
   "paper_title": "Toward quality-assured intelligent welding processes for aerospace structures: From process monitoring to digital closed-loop manufacturing",
   "paper_date": "2026-10-01",
   "paper_category": "Coating Quality Prediction",
-  "generated_at": "2026-10-02T16:34:23",
+  "generated_at": "2026-10-03T15:06:37",
   "generator": "openai"
 }

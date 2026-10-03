@@ -1,24 +1,24 @@
 {
-  "key_insight": "Supersonic HV-APS with axial powder feeding produces denser, harder Cr3C2-NiCr coatings than conventional APS, but this does not translate into better erosion resistance at 90° impact.",
-  "engineering_relevance": "Axial-feeding HV-APS is a promising route for improving wear performance of cermet coatings on steel components where tribological durability matters most.",
+  "key_insight": "Supersonic HV-APS with axial powder feeding produces denser, harder Cr3C2-NiCr coatings than conventional APS, but this does not translate into better high-angle erosion resistance.",
+  "engineering_relevance": "For wear-critical coatings, axial powder feeding in HV-APS is a practical route to improve hardness and sliding wear performance, while erosion performance may remain unchanged under severe impact conditions.",
   "method": [
-    "Cr3C2-NiCr coatings sprayed on S235 steel by APS (radial injection) and HV-APS (axial feeding)",
-    "Compared porosity, microhardness, phase composition, erosion behavior, and ball-on-disc wear",
-    "Related performance to microstructure and carbide decomposition/solid-solution formation"
+    "Compared conventional APS with radial powder injection vs. supersonic HV-APS with axial powder feeding",
+    "Evaluated coating porosity, microhardness, phase composition, erosion, and ball-on-disc wear",
+    "Used Cr3C2-NiCr (Metco 5241) coatings deposited on S235 steel substrates"
   ],
-  "evidence_signal": "HV-APS cut porosity from 11.99% to 6.16%, raised hardness from 897 to 1141 HV0.2, and lowered wear volume from 3.90 to 2.85 mm3, while erosion rates stayed nearly unchanged at 0.20 vs 0.19 mg/g.",
-  "watch_item": "The improved density and hardness mainly benefited sliding wear; high-angle erosion showed little difference, so process choice should match the dominant service loading.",
+  "evidence_signal": "HV-APS reduced porosity from 11.99% to 6.16% and raised microhardness from 897 to 1141 HV0.2, while lowering wear volume from 3.90 to 2.85 mm3; erosion rates at 90° were nearly identical (0.20 vs 0.19 mg/g).",
+  "watch_item": "The improved microstructure and tribological response may not generalize to erosion-dominated service, especially at high impact angles where damage mechanisms were similar.",
   "hashtags": [
-    "#ThermalSpraying",
+    "#PlasmaSpraying",
     "#Coatings",
     "#WearResistance",
-    "#Microstructure",
-    "#PlasmaSpraying"
+    "#Cermet",
+    "#SurfaceEngineering"
   ],
   "paper_id": "2026-08-30-openalex-microstructure_and_wear_properties_of_cr_c_nicr_coatings_sprayed_by_conventional_and_super",
   "paper_title": "Microstructure and wear properties of Cr₃C₂–NiCr coatings sprayed by conventional and supersonic high-velocity atmospheric plasma spraying with axial powder feeding",
   "paper_date": "2026-08-30",
   "paper_category": "Coating Microstructure",
-  "generated_at": "2026-10-02T16:34:27",
+  "generated_at": "2026-10-03T15:06:34",
   "generator": "openai"
 }
