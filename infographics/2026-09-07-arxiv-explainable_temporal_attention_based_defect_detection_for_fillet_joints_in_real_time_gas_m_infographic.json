@@ -1,13 +1,13 @@
 {
-  "key_insight": "A multi-modal temporal attention model combines welding images and sound to detect hidden fillet-joint defects in real time with near-perfect performance.",
-  "engineering_relevance": "This approach can reduce post-weld inspection effort, prevent rework, and improve reliability in automated Gas Metal Arc Welding systems.",
+  "key_insight": "A multi-modal temporal attention model using welding images and sound can detect hard-to-see fillet-joint defects in real time with very high accuracy while providing interpretable defect cues.",
+  "engineering_relevance": "This approach can improve in-process quality control for gas metal arc welding, helping reduce scrap, rework, and post-weld inspection delays.",
   "method": [
-    "Trains a deep learning defect detector on synchronized welding image and audio data from an industrial collaborative robot.",
-    "Uses temporal attention to focus on the most informative moments and features across modalities.",
-    "Applies explainable AI to identify which image regions and sound spectrogram areas drive each defect prediction."
+    "Trained a deep learning defect detector on synchronized welding images and acoustic data from an industrial collaborative welding robot.",
+    "Used a temporal attention module to focus on the most informative time windows and improve defect classification.",
+    "Applied explainable AI to identify important regions in images and spectrograms and to compare which modality best detects each defect."
   ],
-  "evidence_signal": "The abstract reports that the attention module improved F1 score to 0.99 on internal defect detection tasks.",
-  "watch_item": "Performance may depend on the quality and representativeness of the collected industrial dataset, so generalization to different weld setups should be validated.",
+  "evidence_signal": "The abstract reports that the attention module raised the F1 score to 0.99 on internal defect detection tasks including porosity, lack of penetration/fusion, undercut, and cold lap.",
+  "watch_item": "Performance is reported from collected industrial data, so broader validation across different weld geometries, materials, and shop-floor noise conditions is still needed.",
   "hashtags": [
     "#WeldingAI",
     "#DefectDetection",
@@ -19,6 +19,6 @@
   "paper_title": "Explainable Temporal Attention-based Defect Detection For Fillet Joints in Real-Time Gas Metal Arc Welding Based on Multi-modal Data",
   "paper_date": "2026-09-07",
   "paper_category": "Coating Microstructure",
-  "generated_at": "2026-10-03T15:06:29",
+  "generated_at": "2026-10-04T15:45:16",
   "generator": "openai"
 }

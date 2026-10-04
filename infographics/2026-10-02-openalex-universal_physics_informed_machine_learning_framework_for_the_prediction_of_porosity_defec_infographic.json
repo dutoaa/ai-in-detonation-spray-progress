@@ -1,17 +1,17 @@
 {
-  "key_insight": "A physics-informed machine learning framework can predict porosity defects in high-power laser beam welding across aluminum and steel by using dimensionless, physically meaningful features tied to keyhole stability and bubble capture.",
-  "engineering_relevance": "This enables more reliable process planning and defect control in laser welding of different metals, helping improve weld quality and reduce porosity-related failure risk.",
+  "key_insight": "A physics-informed machine learning framework can predict laser-weld porosity across different metals by encoding keyhole stability and bubble-capture physics into dimensionless features.",
+  "engineering_relevance": "This enables more reliable process-window selection and defect avoidance in high-power laser beam welding of aluminum and steel.",
   "method": [
-    "Conducted systematic LBW experiments over a broad parameter space for aluminum and steel.",
-    "Used a validated multiphysics simulation to capture molten pool behavior and keyhole dynamics.",
-    "Built a universal ML model with dimensionless physical features to predict porosity ratio."
+    "Conducted systematic laser beam welding experiments over a broad parameter space to measure porosity ratios.",
+    "Used a validated multiphysics simulation to model molten-pool behavior and keyhole dynamics.",
+    "Built a universal model from physically meaningful dimensionless variables, with Stokes number and keyhole aspect ratio as top factors."
   ],
-  "evidence_signal": "The model achieved a general root mean square error of 1.35 and identified Stokes number and keyhole aspect ratio as the most influential factors.",
-  "watch_item": "Performance depends on the validity of the simulation-informed features and may require recalibration when extending to new alloys, thicknesses, or laser/process conditions.",
+  "evidence_signal": "The framework achieved a general root mean square error of 1.35 for porosity prediction across metallic systems.",
+  "watch_item": "Performance may depend on the quality of simulation fidelity and the transferability of the selected physical features to other materials or welding setups.",
   "hashtags": [
     "#LaserWelding",
-    "#PorosityPrediction",
     "#PhysicsInformedML",
+    "#PorosityPrediction",
     "#MultiphysicsSimulation",
     "#ManufacturingAI"
   ],
@@ -19,6 +19,6 @@
   "paper_title": "Universal physics-informed machine learning framework for the prediction of porosity defects in high-power laser beam welding with different metallic materials",
   "paper_date": "2026-10-02",
   "paper_category": "Coating Microstructure",
-  "generated_at": "2026-10-03T15:06:16",
+  "generated_at": "2026-10-04T15:44:52",
   "generator": "openai"
 }

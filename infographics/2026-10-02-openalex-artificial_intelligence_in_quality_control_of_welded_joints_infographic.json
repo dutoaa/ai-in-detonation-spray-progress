@@ -1,24 +1,24 @@
 {
-  "key_insight": "AI can substantially improve weld-joint quality control by automating defect detection, classification, segmentation, and prediction across non-destructive testing data.",
-  "engineering_relevance": "This enables faster, more consistent, and more objective inspection for safety-critical structures in manufacturing, energy, transportation, and shipbuilding.",
+  "key_insight": "AI—especially deep learning—can automate and improve the speed, consistency, and objectivity of welded-joint quality control from NDT data.",
+  "engineering_relevance": "This matters for manufacturing, energy, transportation, and shipbuilding because safer and more reliable weld inspection directly affects structural integrity and maintenance decisions.",
   "method": [
-    "Systematic review of recent literature on AI-based weld inspection",
-    "Analysis of machine learning, deep learning, computer vision, and real-time monitoring methods",
-    "Comparison across NDT modalities, including defect detection, classification, segmentation, and quality prediction"
+    "Systematic review of recent literature on AI-based weld quality control",
+    "Analyzed NDT modalities, defect types, datasets, and AI tasks such as detection, classification, segmentation, and prediction",
+    "Compared machine learning, CNNs, object detection/segmentation, hybrid models, and transfer learning"
   ],
-  "evidence_signal": "The abstract reports that deep learning, object detection/segmentation models, hybrid frameworks, and transfer learning achieve high detection performance across multiple NDT datasets and inspection tasks.",
-  "watch_item": "Industrial deployment is constrained by limited standardized datasets, class imbalance, domain shift, and the need for explainable, standards-compliant AI.",
+  "evidence_signal": "Across recent studies, deep learning methods showed strong defect-detection and classification performance on multiple NDT data sources, with real-time inspection potential.",
+  "watch_item": "Industrial deployment is still constrained by limited and imbalanced datasets, domain shift, weak generalization, and the need for explainable, standards-compliant AI.",
   "hashtags": [
-    "#AIinManufacturing",
     "#WeldInspection",
-    "#NonDestructiveTesting",
+    "#NDT",
     "#DeepLearning",
-    "#SmartManufacturing"
+    "#SmartManufacturing",
+    "#AIQualityControl"
   ],
   "paper_id": "2026-10-02-openalex-artificial_intelligence_in_quality_control_of_welded_joints",
   "paper_title": "Artificial Intelligence in Quality Control of Welded Joints",
   "paper_date": "2026-10-02",
   "paper_category": "AI Process Optimization",
-  "generated_at": "2026-10-03T15:06:11",
+  "generated_at": "2026-10-04T15:44:42",
   "generator": "openai"
 }

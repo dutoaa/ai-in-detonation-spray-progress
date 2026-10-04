@@ -1,24 +1,24 @@
 {
-  "key_insight": "For LPBF A20X alloy, friction stir welding alone preserved better corrosion resistance than post-weld solution treatment and aging, which increased corrosion susceptibility.",
-  "engineering_relevance": "For aerospace joining of LPBF parts, welding and heat-treatment schedules must be co-optimized because post-weld aging can negate corrosion performance gains.",
+  "key_insight": "For LPBF A20X, friction stir welding alone preserves corrosion resistance better than post-weld solution treatment and aging, which significantly worsens corrosion performance.",
+  "engineering_relevance": "For aerospace-grade additively manufactured aluminum parts, weld and heat-treatment choices directly affect durability in chloride environments and must be jointly optimized.",
   "method": [
-    "Compared four conditions: base material, as-welded stir zone, peak-aged base material, and peak-aged stir zone.",
-    "Used electron microscopy and XRD to track microstructural changes after FSW and heat treatment.",
-    "Evaluated corrosion in 3.5 wt.% NaCl using electrochemical impedance spectroscopy and potentiodynamic polarization."
+    "Compared four conditions: BM, as-welded SZ, BM–PA, and SZ–PA.",
+    "Used electron microscopy and XRD to track microstructural changes.",
+    "Evaluated corrosion in 3.5 wt.% NaCl via EIS and potentiodynamic polarization."
   ],
-  "evidence_signal": "The lowest corrosion current density was measured for BM (0.703 µA/cm²), while SZ, BM–PA, and SZ–PA were progressively higher at 0.966, 2.257, and 3.181 µA/cm², respectively.",
-  "watch_item": "The study suggests a possible micro-galvanic role from Cu-rich constituents, TiB2 particles, and the Al matrix, but the mechanism remains inferential and should be validated for broader processing windows.",
+  "evidence_signal": "BM had the lowest corrosion current density (0.703 μA/cm2), while SZ–PA was highest (3.181 μA/cm2), with impedance and SEM confirming poorer resistance after aging.",
+  "watch_item": "Results are specific to the tested LPBF A20X condition, welding setup, and NaCl exposure, so process-window changes may alter the corrosion ranking.",
   "hashtags": [
+    "#LaserPowderBedFusion",
     "#FrictionStirWelding",
-    "#LPBF",
     "#AluminumAlloy",
-    "#CorrosionResistance",
+    "#Corrosion",
     "#AerospaceManufacturing"
   ],
   "paper_id": "2026-10-02-openalex-influence_of_friction_stir_welding_and_post_weld_aging_on_corrosion_behavior_of_lpbf_a20x",
   "paper_title": "Influence of Friction Stir Welding and Post-Weld Aging on Corrosion Behavior of LPBF A20X Alloy",
   "paper_date": "2026-10-02",
   "paper_category": "Welding Processes",
-  "generated_at": "2026-10-03T15:06:12",
+  "generated_at": "2026-10-04T15:44:48",
   "generator": "openai"
 }

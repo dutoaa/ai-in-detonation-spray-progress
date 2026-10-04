@@ -1,24 +1,24 @@
 {
-  "key_insight": "Quenching medium dominates weld performance in SMAW of mild steel, far more than groove angle, and air cooling yields the best overall energy absorption and toughness.",
-  "engineering_relevance": "For welded joints, post-weld cooling choice is a much stronger lever than groove angle when balancing strength, ductility, and toughness.",
+  "key_insight": "In SMAW of AISI/SAE 1020 steel, quenching medium dominates joint performance far more than groove angle, and the best overall ranking is consistent across multiple decision methods.",
+  "engineering_relevance": "For weld design and post-weld heat treatment, choosing the cooling medium matters most for balancing strength, toughness, and strain-hardening behavior.",
   "method": [
-    "Analyzed AISI/SAE 1020 SMAW joints across 55–60° single-V groove angles and three quenching media: air, water, palm oil.",
-    "Used effect-share analysis, four multi-criteria decision methods, and machine-learning surrogates of stress–strain data.",
-    "Recovered derived metrics including modulus of toughness and Hollomon strain-hardening exponent from the reported tensile records."
+    "Analyzed 55–60° single-V groove welds under three quenching media: air, water, and palm oil",
+    "Used effect-share analysis, machine-learning surrogates, and functional ANOVA on recovered stress–strain data",
+    "Applied four multi-criteria ranking methods: GRA, TOPSIS, desirability, and entropy-weighted GRA"
   ],
-  "evidence_signal": "Across six mechanical responses, quenching medium explained 70.3–94.6% of the estimated effect, while groove angle contributed only 4.4–25.7% and interaction stayed below 3.2%; all four decision methods gave the same ranking.",
-  "watch_item": "The reported rankings depend on reconstructed specimen geometry and derived stress–strain metrics, so implementation should verify the original tensile data and test conditions before generalizing.",
+  "evidence_signal": "The abstract reports quenching medium explains about 70.3–94.6% of response effects, and all four ranking schemes produced the same order; Gaussian-process uncertainty on toughness was about ±9%.",
+  "watch_item": "The conclusions are specific to the tested groove-angle range, steel grade, and cooling conditions, so they should not be generalized without validation on other weld setups.",
   "hashtags": [
     "#Welding",
-    "#SMAW",
     "#MaterialsEngineering",
     "#MultiCriteriaDecisionAnalysis",
-    "#MachineLearning"
+    "#MachineLearning",
+    "#HeatTreatment"
   ],
   "paper_id": "2026-10-01-openalex-groove_angle_and_quenching_medium_in_shielded_metal_arc_welding_of_mild_steel_multi_criter",
   "paper_title": "Groove angle and quenching medium in shielded metal arc welding of mild steel: Multi-criteria decision analysis, machine learning and energy absorption",
   "paper_date": "2026-10-01",
   "paper_category": "Welding Processes",
-  "generated_at": "2026-10-03T15:06:18",
+  "generated_at": "2026-10-04T15:45:02",
   "generator": "openai"
 }
