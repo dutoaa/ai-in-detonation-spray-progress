@@ -1,0 +1,1537 @@
+[
+  {
+    "id": "2026-10-02-openalex-artificial_intelligence_in_quality_control_of_welded_joints",
+    "doi": "10.3390/technologies14100627",
+    "date": "2026-10-02",
+    "title": "Artificial Intelligence in Quality Control of Welded Joints",
+    "authors": "Mladen Bošnjaković, Marko Katinić",
+    "abstract": "The quality of welded joints is critical to the safety, reliability, and durability of engineering structures in manufacturing, energy, transportation, and shipbuilding. Advances in non-destructive testing (NDT) have enabled the collection of large digital datasets, creating new opportunities for artificial intelligence (AI) in automated weld quality assessment. This paper reviews recent research on AI-based quality control of welded joints, focusing on machine learning, deep learning, computer vision, and real-time monitoring. A systematic review and critical analysis of recent scientific literature examines weld imperfections, major NDT methods, digital datasets, and AI performance in defect detection, classification, segmentation, and quality prediction. The findings show that deep learning architectures, including convolutional neural networks, object detection and segmentation models, hybrid frameworks, and transfer learning, can significantly improve the speed, consistency, and objectivity of weld inspection while achieving high detection performance across different NDT modalities. However, several challenges limit industrial implementation, including insufficient data quality and availability, class imbalance, domain shift, limited model generalization, the lack of standardized benchmark datasets, and the need for explainable and trustworthy AI that complies with industrial standards and regulatory requirements. Unlike previous reviews focused primarily on individual inspection methods or specific AI techniques, this paper integrates advances in NDT, AI, explainable artificial intelligence, and intelligent manufacturing into a unified perspective, highlighting their interrelationships and practical implications for industrial deployment. The findings indicate that AI should support, rather than replace, welding and NDT experts. Future research should focus on multimodal sensing, explainable AI, digital twins, standardized datasets, and real-time intelligent quality control systems for Industry 4.0 and smart manufacturing.",
+    "category": "AI Process Optimization",
+    "source": "OpenAlex",
+    "venue": "Technologies",
+    "published": "2026-10-02T00:00:00+00:00",
+    "updated": "",
+    "primary_category": "journal-article",
+    "categories": [
+      "journal-article"
+    ],
+    "links": [
+      {
+        "title": "OpenAlex",
+        "url": "https://openalex.org/W7216208794"
+      },
+      {
+        "title": "Publisher",
+        "url": "https://doi.org/10.3390/technologies14100627"
+      },
+      {
+        "title": "Open access copy",
+        "url": "https://doi.org/10.3390/technologies14100627"
+      }
+    ],
+    "open_access": true,
+    "score": 103,
+    "infographic": {
+      "key_insight": "AI—especially deep learning—can automate and improve the speed, consistency, and objectivity of welded-joint quality control from NDT data.",
+      "engineering_relevance": "This matters for manufacturing, energy, transportation, and shipbuilding because safer and more reliable weld inspection directly affects structural integrity and maintenance decisions.",
+      "method": [
+        "Systematic review of recent literature on AI-based weld quality control",
+        "Analyzed NDT modalities, defect types, datasets, and AI tasks such as detection, classification, segmentation, and prediction",
+        "Compared machine learning, CNNs, object detection/segmentation, hybrid models, and transfer learning"
+      ],
+      "evidence_signal": "Across recent studies, deep learning methods showed strong defect-detection and classification performance on multiple NDT data sources, with real-time inspection potential.",
+      "watch_item": "Industrial deployment is still constrained by limited and imbalanced datasets, domain shift, weak generalization, and the need for explainable, standards-compliant AI.",
+      "hashtags": [
+        "#WeldInspection",
+        "#NDT",
+        "#DeepLearning",
+        "#SmartManufacturing",
+        "#AIQualityControl"
+      ],
+      "paper_id": "2026-10-02-openalex-artificial_intelligence_in_quality_control_of_welded_joints",
+      "paper_title": "Artificial Intelligence in Quality Control of Welded Joints",
+      "paper_date": "2026-10-02",
+      "paper_category": "AI Process Optimization",
+      "generated_at": "2026-10-04T15:44:42",
+      "generator": "openai"
+    },
+    "translation": {
+      "zh-Hans": {
+        "title": "焊接接头质量控制中的人工智能",
+        "abstract": "焊接接头的质量对制造、能源、交通和造船领域工程结构的安全性、可靠性和耐久性至关重要。无损检测（NDT）的进步使大规模数字数据集的获取成为可能，为人工智能（AI）在焊缝质量自动评估中的应用创造了新的机会。本文综述了基于AI的焊接接头质量控制最新研究，重点关注机器学习、深度学习、计算机视觉和实时监测。通过系统性综述和批判性分析最新科学文献，考察了焊接缺陷、主要NDT方法、数字数据集，以及AI在缺陷检测、分类、分割和质量预测中的性能。研究结果表明，包括卷积神经网络、目标检测与分割模型、混合框架和迁移学习在内的深度学习架构，能够显著提升焊缝检测的速度、一致性和客观性，同时在不同NDT模态下实现较高的检测性能。然而，若干挑战限制了工业实施，包括数据质量和可用性不足、类别不平衡、域偏移、模型泛化能力有限、缺乏标准化基准数据集，以及对符合工业标准和监管要求的可解释、可信AI的需求。不同于以往主要聚焦单一检测方法或特定AI技术的综述，本文将NDT、AI、可解释人工智能和智能制造的进展整合到统一视角中，强调它们之间的相互关系及其在工业部署中的实际意义。研究结果表明，AI应当支持而非取代焊接与NDT专家。未来研究应聚焦于多模态传感、可解释AI、数字孪生、标准化数据集，以及面向工业4.0和智能制造的实时智能质量控制系统。",
+        "infographic": {
+          "key_insight": "AI——尤其是深度学习——可以基于NDT数据自动化并提升焊接接头质量控制的速度、一致性和客观性。",
+          "engineering_relevance": "这对制造、能源、交通和造船至关重要，因为更安全、更可靠的焊缝检测会直接影响结构完整性和维护决策。",
+          "method": [
+            "对近期基于AI的焊缝质量控制文献进行了系统性综述",
+            "分析了NDT模态、缺陷类型、数据集以及AI任务，如检测、分类、分割和预测",
+            "比较了机器学习、CNN、目标检测/分割、混合模型和迁移学习"
+          ],
+          "evidence_signal": "在近期研究中，深度学习方法在多种NDT数据源上表现出较强的缺陷检测和分类性能，并具有实时检测潜力。",
+          "watch_item": "工业部署仍受限于数据集规模有限且不平衡、域偏移、泛化能力不足，以及对可解释、符合标准的AI的需求。"
+        }
+      },
+      "generator": "openai"
+    }
+  },
+  {
+    "id": "2026-10-03-openalex-structure_property_and_wear_correlations_in_al_ni_intermetallic_coatings_produced_by_atmos",
+    "doi": "10.1038/s41598-026-71271-1",
+    "date": "2026-10-03",
+    "title": "Structure property and wear correlations in Al–Ni intermetallic coatings produced by atmospheric plasma spraying",
+    "authors": "K. Hamed, Nahed El Mahallawy, Hussein Zein, Eman M. Zayed",
+    "abstract": "Abstract Atmospheric plasma spraying (APS) is widely employed to fabricate protective coatings for engineering components requiring enhanced wear resistance and thermal stability. This study establishes structure property wear correlations in Al–Ni intermetallic coatings deposited on AISI 304 stainless steel using Ni/Al–Al and Ni₅Al–Al powder mixtures with varying nickel contents (10–50 wt%) and coating thicknesses (300–900 μm). Phase constitution, microstructure, porosity, microhardness, and tribological performance were systematically characterized using X-ray diffraction (XRD), scanning electron microscopy (SEM), and pin-on-disc wear testing. A three-dimensional finite element (FE) wear model incorporating a modified Archard wear law and adaptive remeshing was developed to predict wear evolution and validate the experimental observations. XRD confirmed the formation of β-NiAl in all coatings, whereas γ′-Ni 3 Al was detected only in coatings containing the highest Ni-based powder content, coinciding with improved coating densification and hardness. Increasing the Ni-based powder content enhanced the coating hardness from 74 to 167 HV (126%) for the Ni/Al–Al system and from 81 to 178 HV (120%) for the Ni₅Al–Al system. The 5A9 coating (50 wt% Ni/Al [80Ni–20Al] powder–50 wt% Al, 900 μm) exhibited the best tribological performance, achieving the lowest experimental weight loss (11.2 mg) and minimum FE-predicted wear volume (0.153 mm 3 ), representing approximately a 76% reduction in wear loss compared with the poorest-performing 5B9 coating (50 wt% Ni₅Al [95Ni–5Al] powder–50 wt% Al, 900 μm) (47.1 mg, 0.274 mm 3 ). While increasing coating thickness progressively improved the wear resistance of the Ni/Al–Al coatings, the Ni₅Al–Al system exhibited an opposite thickness-dependent trend. The close agreement between experimental and numerical results validates the proposed FE model and demonstrates its capability for optimizing high-performance APS Al–Ni intermetallic coatings.",
+    "category": "Coating Microstructure",
+    "source": "OpenAlex",
+    "venue": "Scientific Reports",
+    "published": "2026-10-03T00:00:00+00:00",
+    "updated": "",
+    "primary_category": "journal-article",
+    "categories": [
+      "journal-article"
+    ],
+    "links": [
+      {
+        "title": "OpenAlex",
+        "url": "https://openalex.org/W7218689634"
+      },
+      {
+        "title": "DOI",
+        "url": "https://doi.org/10.1038/s41598-026-71271-1"
+      },
+      {
+        "title": "Publisher",
+        "url": "https://doi.org/10.1038/s41598-026-71271-1"
+      },
+      {
+        "title": "Open access copy",
+        "url": "https://doi.org/10.1038/s41598-026-71271-1"
+      }
+    ],
+    "open_access": true,
+    "score": 86,
+    "infographic": {
+      "key_insight": "Higher Ni-based powder content and coating densification drive formation of harder Al–Ni intermetallics, improving wear resistance, with the best performance at 50 wt% Ni/Al–Al + 50 wt% Al and 900 μm thickness.",
+      "engineering_relevance": "The study links APS feedstock design and coating thickness directly to durability, offering a practical route to optimize protective coatings for wear-critical components.",
+      "method": [
+        "APS deposited Al–Ni coatings on AISI 304 stainless steel using two powder-mixture systems and varied Ni content (10–50 wt%) and thickness (300–900 μm).",
+        "Characterized phase/microstructure with XRD and SEM, then measured hardness and pin-on-disc wear.",
+        "Built a 3D FE wear model with modified Archard law and adaptive remeshing to predict wear evolution."
+      ],
+      "evidence_signal": "XRD showed β-NiAl in all coatings and γ′-Ni3Al only at the highest Ni content; hardness rose from 74 to 167 HV and from 81 to 178 HV, while the best coating reduced wear loss to 11.2 mg and FE wear volume to 0.153 mm³.",
+      "watch_item": "The thickness–wear trend differed between the two powder systems, so the optimal design is feedstock-specific and should be validated for the target service condition.",
+      "hashtags": [
+        "#AtmosphericPlasmaSpraying",
+        "#AlNiIntermetallics",
+        "#WearResistance",
+        "#CoatingMicrostructure",
+        "#FiniteElementModeling"
+      ],
+      "paper_id": "2026-10-03-openalex-structure_property_and_wear_correlations_in_al_ni_intermetallic_coatings_produced_by_atmos",
+      "paper_title": "Structure property and wear correlations in Al–Ni intermetallic coatings produced by atmospheric plasma spraying",
+      "paper_date": "2026-10-03",
+      "paper_category": "Coating Microstructure",
+      "generated_at": "2026-10-04T15:44:45",
+      "generator": "openai"
+    },
+    "translation": {
+      "zh-Hans": {
+        "title": "通过大气等离子喷涂制备的 Al–Ni 金属间化合物涂层中的结构-性能-磨损关联",
+        "abstract": "摘要 大气等离子喷涂（APS）被广泛用于制备工程部件的防护涂层，以提高其耐磨性和热稳定性。本研究针对采用 Ni/Al–Al 和 Ni₅Al–Al 粉末混合物、并在不同镍含量（10–50 wt%）和涂层厚度（300–900 μm）条件下沉积于 AISI 304 不锈钢基体上的 Al–Ni 金属间化合物涂层，建立了结构-性能-磨损关联。通过 X 射线衍射（XRD）、扫描电子显微镜（SEM）和销-盘磨损试验，对相组成、显微组织、孔隙率、显微硬度和摩擦学性能进行了系统表征。建立了一个三维有限元（FE）磨损模型，该模型结合修正的 Archard 磨损定律和自适应重网格划分，用于预测磨损演化并验证实验观察结果。XRD 证实所有涂层中均形成了 β-NiAl，而 γ′-Ni 3 Al 仅在含有最高 Ni 基粉末含量的涂层中被检测到，这与涂层致密化程度和硬度的提高相一致。提高 Ni 基粉末含量使 Ni/Al–Al 体系的涂层硬度从 74 提高到 167 HV（126%），使 Ni₅Al–Al 体系的涂层硬度从 81 提高到 178 HV（120%）。5A9 涂层（50 wt% Ni/Al [80Ni–20Al] 粉末–50 wt% Al，900 μm）表现出最佳摩擦学性能，实验测得的失重最低（11.2 mg），FE 预测的磨损体积最小（0.153 mm 3），与性能最差的 5B9 涂层（50 wt% Ni₅Al [95Ni–5Al] 粉末–50 wt% Al，900 μm）（47.1 mg，0.274 mm 3）相比，磨损损失约降低了 76%。随着涂层厚度增加，Ni/Al–Al 涂层的耐磨性逐步提高，而 Ni₅Al–Al 体系则呈现相反的厚度依赖趋势。实验结果与数值结果的高度一致性验证了所提出 FE 模型的有效性，并表明其可用于优化高性能 APS Al–Ni 金属间化合物涂层。",
+        "infographic": {
+          "key_insight": "较高的 Ni 基粉末含量和涂层致密化促进了更硬的 Al–Ni 金属间化合物形成，从而提高耐磨性；最佳性能出现在 50 wt% Ni/Al–Al + 50 wt% Al 且厚度为 900 μm 的条件下。",
+          "engineering_relevance": "该研究将 APS 送粉设计和涂层厚度直接与耐久性联系起来，为优化耐磨关键部件的防护涂层提供了实用路径。",
+          "method": [
+            "采用 APS 在 AISI 304 不锈钢上使用两种粉末混合体系沉积 Al–Ni 涂层，并改变 Ni 含量（10–50 wt%）和厚度（300–900 μm）。",
+            "使用 XRD 和 SEM 表征相组成/显微组织，然后测量硬度和进行销-盘磨损测试。",
+            "建立具有修正 Archard 定律和自适应重网格划分的三维 FE 磨损模型，以预测磨损演化。"
+          ],
+          "evidence_signal": "XRD 显示所有涂层中均有 β-NiAl，而 γ′-Ni3Al 仅在最高 Ni 含量下出现；硬度从 74 提高到 167 HV、从 81 提高到 178 HV，而最佳涂层将失重降至 11.2 mg，并将 FE 磨损体积降至 0.153 mm³。",
+          "watch_item": "两种粉末体系的厚度-磨损趋势不同，因此最优设计具有送粉体系特异性，并应针对目标服役条件进行验证。"
+        }
+      },
+      "generator": "openai"
+    }
+  },
+  {
+    "id": "2026-10-02-openalex-influence_of_friction_stir_welding_and_post_weld_aging_on_corrosion_behavior_of_lpbf_a20x",
+    "doi": "10.3390/met16101092",
+    "date": "2026-10-02",
+    "title": "Influence of Friction Stir Welding and Post-Weld Aging on Corrosion Behavior of LPBF A20X Alloy",
+    "authors": "Mohammad Abankar, Paolo Matteis, Pasquale Russo Spena",
+    "abstract": "Laser powder bed fusion (LPBF) enables the production of high-strength A20X aluminum components with complex geometries for aerospace applications. However, the limited build volume of LPBF systems often requires separately manufactured parts to be joined. This study compares the microstructure and corrosion behavior of LPBF A20X under four material conditions: base material (BM), as-welded stir zone (SZ), solution-treated and peak-aged base material (BM–PA), and solution-treated and peak-aged stir zone (SZ–PA). Microstructural evolution was assessed using electron microscopy and X-ray diffraction, while corrosion behavior was evaluated by electrochemical impedance spectroscopy and potentiodynamic polarization in 3.5 wt.% NaCl solution. Among the tested specimens, BM exhibited the lowest corrosion current density (0.703 μA/cm2), followed by SZ (0.966 μA/cm2), BM–PA (2.257 μA/cm2), and SZ–PA (3.181 μA/cm2). The impedance response and post-polarization SEM observations indicated lower corrosion resistance after solution treatment and aging, particularly in SZ–PA. These findings are consistent with a possible contribution from micro-galvanic interactions involving redistributed and precipitated Cu-rich constituents, TiB2 particles, and the Al matrix. Under the tested conditions, post-weld heat treatment reduced corrosion resistance compared to FSW alone. This underlines the need to optimize welding and heat-treatment parameters for LPBF A20X components.",
+    "category": "Welding Processes",
+    "source": "OpenAlex",
+    "venue": "Metals",
+    "published": "2026-10-02T00:00:00+00:00",
+    "updated": "",
+    "primary_category": "journal-article",
+    "categories": [
+      "journal-article"
+    ],
+    "links": [
+      {
+        "title": "OpenAlex",
+        "url": "https://openalex.org/W7216162276"
+      },
+      {
+        "title": "DOI",
+        "url": "https://doi.org/10.3390/met16101092"
+      },
+      {
+        "title": "Publisher",
+        "url": "https://doi.org/10.3390/met16101092"
+      },
+      {
+        "title": "Open access copy",
+        "url": "https://doi.org/10.3390/met16101092"
+      }
+    ],
+    "open_access": true,
+    "score": 69,
+    "infographic": {
+      "key_insight": "For LPBF A20X, friction stir welding alone preserves corrosion resistance better than post-weld solution treatment and aging, which significantly worsens corrosion performance.",
+      "engineering_relevance": "For aerospace-grade additively manufactured aluminum parts, weld and heat-treatment choices directly affect durability in chloride environments and must be jointly optimized.",
+      "method": [
+        "Compared four conditions: BM, as-welded SZ, BM–PA, and SZ–PA.",
+        "Used electron microscopy and XRD to track microstructural changes.",
+        "Evaluated corrosion in 3.5 wt.% NaCl via EIS and potentiodynamic polarization."
+      ],
+      "evidence_signal": "BM had the lowest corrosion current density (0.703 μA/cm2), while SZ–PA was highest (3.181 μA/cm2), with impedance and SEM confirming poorer resistance after aging.",
+      "watch_item": "Results are specific to the tested LPBF A20X condition, welding setup, and NaCl exposure, so process-window changes may alter the corrosion ranking.",
+      "hashtags": [
+        "#LaserPowderBedFusion",
+        "#FrictionStirWelding",
+        "#AluminumAlloy",
+        "#Corrosion",
+        "#AerospaceManufacturing"
+      ],
+      "paper_id": "2026-10-02-openalex-influence_of_friction_stir_welding_and_post_weld_aging_on_corrosion_behavior_of_lpbf_a20x",
+      "paper_title": "Influence of Friction Stir Welding and Post-Weld Aging on Corrosion Behavior of LPBF A20X Alloy",
+      "paper_date": "2026-10-02",
+      "paper_category": "Welding Processes",
+      "generated_at": "2026-10-04T15:44:48",
+      "generator": "openai"
+    },
+    "translation": {
+      "zh-Hans": {
+        "title": "摩擦搅拌焊接及焊后时效对LPBF A20X合金腐蚀行为的影响",
+        "abstract": "激光粉末床熔融（LPBF）可制造用于航空航天应用、具有复杂几何形状的高强度 A20X 铝合金构件。然而，LPBF 系统有限的成形体积往往需要将分别制造的零件连接起来。本研究比较了 LPBF A20X 在四种材料状态下的显微组织和腐蚀行为：母材（BM）、焊态搅拌区（SZ）、固溶处理并峰值时效的母材（BM–PA）以及固溶处理并峰值时效的搅拌区（SZ–PA）。采用电子显微镜和 X 射线衍射评估显微组织演变，并在 3.5 wt.% NaCl 溶液中通过电化学阻抗谱和动电位极化评价腐蚀行为。在所测试的样品中，BM 表现出最低的腐蚀电流密度（0.703 μA/cm2），其次为 SZ（0.966 μA/cm2）、BM–PA（2.257 μA/cm2）和 SZ–PA（3.181 μA/cm2）。阻抗响应及极化后的 SEM 观察表明，经过固溶处理和时效后腐蚀耐蚀性降低，尤其是 SZ–PA。上述结果与一种可能的微电偶作用相一致，该作用涉及重新分布并析出的富 Cu 组元、TiB2 颗粒以及 Al 基体。在所测试条件下，焊后热处理相比单独 FSW 会降低耐蚀性。这表明需要针对 LPBF A20X 构件优化焊接和热处理参数。",
+        "infographic": {
+          "key_insight": "对于 LPBF A20X，仅进行摩擦搅拌焊接比焊后固溶处理和时效更能保持耐蚀性；后者会显著恶化腐蚀性能。",
+          "engineering_relevance": "对于航空航天级增材制造铝合金零件，焊接和热处理方案会直接影响其在含氯环境中的耐久性，必须协同优化。",
+          "method": [
+            "比较了四种状态：BM、焊态 SZ、BM–PA 和 SZ–PA。",
+            "采用电子显微镜和 XRD 跟踪显微组织变化。",
+            "通过 3.5 wt.% NaCl 中的 EIS 和动电位极化评估腐蚀。"
+          ],
+          "evidence_signal": "BM 具有最低的腐蚀电流密度（0.703 μA/cm2），而 SZ–PA 最高（3.181 μA/cm2）；阻抗和 SEM 结果证实时效后耐蚀性更差。",
+          "watch_item": "结果仅适用于所测试的 LPBF A20X 状态、焊接设置和 NaCl 暴露条件，因此工艺窗口变化可能改变腐蚀排序。"
+        }
+      },
+      "generator": "openai"
+    }
+  },
+  {
+    "id": "2026-09-28-openalex-ultrasonic_surface_modification_of_wc_co_cr_thermal_spray_coatings_microstructure_mechanic",
+    "doi": "10.3390/coatings16101154",
+    "date": "2026-09-28",
+    "title": "Ultrasonic Surface Modification of WC-Co-Cr Thermal Spray Coatings: Microstructure, Mechanical Properties and Performance",
+    "authors": "Lyaila Bayatanova, Нуртолеу Магазов, Bauyrzhan Rakhadilov, Arystanbek Kussainov, M.K. Kaliaskarova, Dauir Kakimzhanov",
+    "abstract": "Thermal-sprayed WC–Co–Cr coatings are widely used to improve the wear and corrosion resistance of steel components operating under severe service conditions. This study investigates WC–Co–Cr coatings deposited by detonation spraying (DS), high-velocity oxy-fuel (HVOF), and atmospheric plasma spraying (APS) before and after ultrasonic nanocrystal surface modification (UNSM). The coatings were characterized using scanning electron microscopy and energy-dispersive X-ray spectroscopy (SEM/EDS), together with microhardness, tribological, abrasive, erosive, impact-abrasive, cavitation, corrosion, oxidation, and valve endurance tests. The results demonstrate that the deposition technology strongly affects the coating structure and performance. UNSM produced a pronounced increase in microhardness, reaching 1468 HV for DS + UNSM, 1596 HV for HVOF + UNSM, and 1561 HV for APS + UNSM. Ultrasonic treatment also reduced material loss under abrasive, erosive, impact-abrasive, and cavitation conditions. APS + UNSM demonstrated the best performance in the principal laboratory wear tests, with the lowest abrasive mass loss (0.42–0.45 mg), erosive mass loss (0.55–0.60 mg), impact-abrasive mass loss (0.75–0.85 mg), and cavitation mass-loss rate (0.33–0.38 mg/h). In tribological testing, APS + UNSM exhibited the lowest coefficient of friction (0.28), compared with 0.32 for HVOF + UNSM and 0.36 for DS + UNSM. In valve endurance testing, HVOF + UNSM showed the lowest plunger displacement growth rate (0.050 mm/h) and the longest calculated time to reach the 2 mm displacement criterion (22 h). Overall, the combination of thermal spraying and UNSM improves the mechanical and service performance of WC–Co–Cr coatings, while the optimal coating condition depends on the specific degradation mechanism and operating conditions.",
+    "category": "Thermal Spray Coatings",
+    "source": "OpenAlex",
+    "venue": "Coatings",
+    "published": "2026-09-28T00:00:00+00:00",
+    "updated": "",
+    "primary_category": "journal-article",
+    "categories": [
+      "journal-article"
+    ],
+    "links": [
+      {
+        "title": "OpenAlex",
+        "url": "https://openalex.org/W7214633956"
+      },
+      {
+        "title": "Publisher",
+        "url": "https://doi.org/10.3390/coatings16101154"
+      },
+      {
+        "title": "Open access copy",
+        "url": "https://doi.org/10.3390/coatings16101154"
+      }
+    ],
+    "open_access": true,
+    "score": 69,
+    "infographic": {
+      "key_insight": "Ultrasonic nanocrystal surface modification substantially boosts the hardness and wear resistance of WC–Co–Cr thermal spray coatings, with the best result depending on the failure mode considered.",
+      "engineering_relevance": "Combining thermal spraying with UNSM is a practical route to extend the service life of steel components exposed to abrasion, erosion, cavitation, and corrosion.",
+      "method": [
+        "Deposited WC–Co–Cr coatings by detonation spraying (DS), HVOF, and APS",
+        "Applied ultrasonic nanocrystal surface modification (UNSM) to each coating type",
+        "Evaluated microstructure, hardness, friction, wear, cavitation, corrosion, oxidation, and valve endurance"
+      ],
+      "evidence_signal": "The abstract reports clear performance gains after UNSM, including hardness up to 1596 HV and the lowest wear metrics for APS + UNSM, while HVOF + UNSM performed best in valve endurance.",
+      "watch_item": "The optimal coating is application-specific, so no single spray process plus UNSM combination is universally best across all degradation mechanisms.",
+      "hashtags": [
+        "#ThermalSprayCoatings",
+        "#WC-Co-Cr",
+        "#UltrasonicSurfaceModification",
+        "#WearResistance",
+        "#MaterialsEngineering"
+      ],
+      "paper_id": "2026-09-28-openalex-ultrasonic_surface_modification_of_wc_co_cr_thermal_spray_coatings_microstructure_mechanic",
+      "paper_title": "Ultrasonic Surface Modification of WC-Co-Cr Thermal Spray Coatings: Microstructure, Mechanical Properties and Performance",
+      "paper_date": "2026-09-28",
+      "paper_category": "Thermal Spray Coatings",
+      "generated_at": "2026-10-04T15:44:50",
+      "generator": "openai"
+    },
+    "translation": {
+      "zh-Hans": {
+        "title": "WC-Co-Cr 热喷涂涂层的超声表面改性：显微组织、力学性能与服役性能",
+        "abstract": "热喷涂 WC–Co–Cr 涂层被广泛用于提高在严苛服役条件下运行的钢铁部件的耐磨性和耐腐蚀性。本研究考察了经爆炸喷涂（DS）、高速火焰喷涂（HVOF）和大气等离子喷涂（APS）制备的 WC–Co–Cr 涂层在超声纳米晶表面改性（UNSM）前后的性能。采用扫描电子显微镜和能量色散 X 射线光谱（SEM/EDS）对涂层进行表征，并结合显微硬度、摩擦学、磨蚀、冲蚀、冲击磨蚀、空蚀、腐蚀、氧化和阀门耐久性测试进行评估。结果表明，沉积技术对涂层结构和性能具有显著影响。UNSM 使显微硬度显著提高，DS + UNSM 达到 1468 HV，HVOF + UNSM 达到 1596 HV，APS + UNSM 达到 1561 HV。超声处理还降低了在磨蚀、冲蚀、冲击磨蚀和空蚀条件下的材料损失。APS + UNSM 在主要实验室磨损测试中表现最佳，具有最低的磨蚀失重（0.42–0.45 mg）、冲蚀失重（0.55–0.60 mg）、冲击磨蚀失重（0.75–0.85 mg）以及空蚀失重率（0.33–0.38 mg/h）。在摩擦学测试中，APS + UNSM 的摩擦系数最低（0.28），相比之下，HVOF + UNSM 为 0.32，DS + UNSM 为 0.36。在阀门耐久性测试中，HVOF + UNSM 表现出最低的柱塞位移增长率（0.050 mm/h），并且达到 2 mm 位移准则的计算时间最长（22 h）。总体而言，热喷涂与 UNSM 的组合提高了 WC–Co–Cr 涂层的力学性能和服役性能，而最佳涂层状态取决于具体的失效机制和工况。",
+        "infographic": {
+          "key_insight": "超声纳米晶表面改性可显著提高 WC–Co–Cr 热喷涂涂层的硬度和耐磨性，但最佳结果取决于所考虑的失效模式。",
+          "engineering_relevance": "将热喷涂与 UNSM 结合，是延长暴露于磨损、冲蚀、空蚀和腐蚀环境中的钢铁部件服役寿命的一种实用途径。",
+          "method": [
+            "采用爆炸喷涂（DS）、高速火焰喷涂（HVOF）和大气等离子喷涂（APS）沉积 WC–Co–Cr 涂层",
+            "对每种涂层类型施加超声纳米晶表面改性（UNSM）",
+            "评估显微组织、硬度、摩擦、磨损、空蚀、腐蚀、氧化和阀门耐久性"
+          ],
+          "evidence_signal": "摘要报告了 UNSM 后性能的明显提升，包括硬度最高达 1596 HV，以及 APS + UNSM 在各项磨损指标中表现出最低值；同时 HVOF + UNSM 在阀门耐久性方面表现最佳。",
+          "watch_item": "最佳涂层取决于具体应用，因此不存在一种喷涂工艺加 UNSM 的组合能在所有失效机制下都普遍最优。"
+        }
+      },
+      "generator": "openai"
+    }
+  },
+  {
+    "id": "2026-10-02-openalex-universal_physics_informed_machine_learning_framework_for_the_prediction_of_porosity_defec",
+    "doi": "10.2351/7.0002164",
+    "date": "2026-10-02",
+    "title": "Universal physics-informed machine learning framework for the prediction of porosity defects in high-power laser beam welding with different metallic materials",
+    "authors": "Xiangmeng Meng, Marcel Bachmann, Fan Yang, Michael Rethmeier",
+    "abstract": "High-power laser beam welding (LBW) is a widely used joining technique for metallic materials. However, porosity defects frequently arise during the process, leading to significant degradation of weld properties. Accurate prediction of porosity remains challenging due to the highly nonlinear and material-dependent underlying physics. In this study, a universal physics-informed machine learning framework is proposed to predict porosity levels in the LBW of aluminum and steel. Systematic LBW experiments were conducted to quantify porosity ratios across a broad parametric space. In parallel, a well-validated multiphysics simulation model is employed to characterize molten pool behavior and keyhole dynamics under corresponding conditions. By selecting relevant physical variables and incorporating them into dimensionless features with explicit physical significance, describing keyhole stability and bubble capture, the proposed model demonstrates strong predictive performance of porosity ratio across different metallic systems. A general root mean square error of 1.35 is achieved. Furthermore, the potential universal mechanisms governing porosity formation for different metallic materials are identified and hierarchically evaluated. It is found that the Stokes number and the keyhole aspect ratio are the two most dominant physical factors governing porosity formation.",
+    "category": "Coating Microstructure",
+    "source": "OpenAlex",
+    "venue": "Journal of Laser Applications",
+    "published": "2026-10-02T00:00:00+00:00",
+    "updated": "",
+    "primary_category": "journal-article",
+    "categories": [
+      "journal-article"
+    ],
+    "links": [
+      {
+        "title": "OpenAlex",
+        "url": "https://openalex.org/W7215952676"
+      },
+      {
+        "title": "Publisher",
+        "url": "https://doi.org/10.2351/7.0002164"
+      },
+      {
+        "title": "Open access copy",
+        "url": "https://doi.org/10.2351/7.0002164"
+      }
+    ],
+    "open_access": true,
+    "score": 68,
+    "infographic": {
+      "key_insight": "A physics-informed machine learning framework can predict laser-weld porosity across different metals by encoding keyhole stability and bubble-capture physics into dimensionless features.",
+      "engineering_relevance": "This enables more reliable process-window selection and defect avoidance in high-power laser beam welding of aluminum and steel.",
+      "method": [
+        "Conducted systematic laser beam welding experiments over a broad parameter space to measure porosity ratios.",
+        "Used a validated multiphysics simulation to model molten-pool behavior and keyhole dynamics.",
+        "Built a universal model from physically meaningful dimensionless variables, with Stokes number and keyhole aspect ratio as top factors."
+      ],
+      "evidence_signal": "The framework achieved a general root mean square error of 1.35 for porosity prediction across metallic systems.",
+      "watch_item": "Performance may depend on the quality of simulation fidelity and the transferability of the selected physical features to other materials or welding setups.",
+      "hashtags": [
+        "#LaserWelding",
+        "#PhysicsInformedML",
+        "#PorosityPrediction",
+        "#MultiphysicsSimulation",
+        "#ManufacturingAI"
+      ],
+      "paper_id": "2026-10-02-openalex-universal_physics_informed_machine_learning_framework_for_the_prediction_of_porosity_defec",
+      "paper_title": "Universal physics-informed machine learning framework for the prediction of porosity defects in high-power laser beam welding with different metallic materials",
+      "paper_date": "2026-10-02",
+      "paper_category": "Coating Microstructure",
+      "generated_at": "2026-10-04T15:44:52",
+      "generator": "openai"
+    },
+    "translation": {
+      "zh-Hans": {
+        "title": "适用于不同金属材料高功率激光束焊接孔隙缺陷预测的通用物理信息机器学习框架",
+        "abstract": "高功率激光束焊接（LBW）是一种广泛应用于金属材料连接的技术。然而，在该过程中常常出现孔隙缺陷，导致焊缝性能显著下降。由于其底层物理过程高度非线性且依赖材料，孔隙的准确预测仍然具有挑战性。本研究提出了一种通用的物理信息机器学习框架，用于预测铝和钢的激光束焊接（LBW）中的孔隙水平。通过系统性的LBW实验，在广泛的参数空间内量化了孔隙率。同时，采用经过充分验证的多物理场模拟模型，在相应条件下表征熔池行为和小孔动力学。通过选择相关物理变量并将其纳入具有明确物理意义的无量纲特征中，以描述小孔稳定性和气泡捕获，所提出的模型在不同金属体系中的孔隙率预测方面表现出良好的性能。总体均方根误差达到1.35。此外，识别并分层评估了支配不同金属材料孔隙形成的潜在通用机制。结果表明，Stokes数和小孔长宽比是控制孔隙形成的两个最主要物理因素。",
+        "infographic": {
+          "key_insight": "物理信息机器学习框架可通过将小孔稳定性和气泡捕获物理编码为无量纲特征，预测不同金属激光焊接中的孔隙。",
+          "engineering_relevance": "这使得高功率激光束焊接铝和钢时能够更可靠地选择工艺窗口并避免缺陷。",
+          "method": [
+            "在广泛的参数空间内开展系统性的激光束焊接实验，以测量孔隙率。",
+            "使用经过验证的多物理场模拟来建模熔池行为和小孔动力学。",
+            "基于具有物理意义的无量纲变量构建通用模型，并将Stokes数和小孔长宽比作为主要因素。"
+          ],
+          "evidence_signal": "该框架在不同金属体系的孔隙预测中实现了1.35的总体均方根误差。",
+          "watch_item": "性能可能取决于模拟保真度的质量，以及所选物理特征向其他材料或焊接工艺的可迁移性。"
+        }
+      },
+      "generator": "openai"
+    }
+  },
+  {
+    "id": "2026-10-03-openalex-development_of_apd_compliance_observation_instrument_based_on_risk_matrix_for_smk_smaw_wel",
+    "doi": "10.59211/mjpjetl.v4i2.453",
+    "date": "2026-10-03",
+    "title": "Development of apd compliance observation instrument based on risk matrix for smk smaw welding practices",
+    "authors": "Rahmad Putra Ardyansyah, Saifuddin Karim, Marsono, Rezaqi Adenan",
+    "abstract": "Occupational Safety and Health (K3) is an important aspect in learning SMAW welding practices because it has a high risk of work accidents. Based on the results of initial observations in the Machine Workshop of SMKN 1 Tuban, it was found that many students still did not use complete Personal Protective Equipment (PPE) during practice. This study aims to develop a valid and effective risk matrix-based PPE compliance observation instrument to reduce K3 violations in SMAW welding practices. The research method used Research and Development (R&D) with the ADDIE model which includes the stages of Analysis, Design, Development, Implementation, and Evaluation. The research subjects were 37 students of class X Mechanical Engineering. The research instruments were a checklist for PPE use, work condition observation sheets, and a risk matrix. The validation results by three experts obtained an average score of 4.65 with a very valid category, while a CVR value of 1.00 indicated that all instrument indicators met the content validity criteria. The implementation results showed that the number of PPE use violations decreased from 81 to 37 violations. The average PPE use compliance score increased from 1.857 to 3.914.The Wilcoxon Signed Rank Test results showed a significance value of p < 0,001 and the N-Gain analysis obtained a value of 0.6127 with a moderate category. Thus, the risk matrix-based PPE compliance observation instrument is effective for improving OHS culture in SMAW welding practices.",
+    "category": "Welding Processes",
+    "source": "OpenAlex",
+    "venue": "Journal of Education and Teaching Learning",
+    "published": "2026-10-03T00:00:00+00:00",
+    "updated": "",
+    "primary_category": "journal-article",
+    "categories": [
+      "journal-article"
+    ],
+    "links": [
+      {
+        "title": "OpenAlex",
+        "url": "https://openalex.org/W7218996983"
+      },
+      {
+        "title": "Publisher",
+        "url": "https://doi.org/10.59211/mjpjetl.v4i2.453"
+      },
+      {
+        "title": "Open access copy",
+        "url": "https://doi.org/10.59211/mjpjetl.v4i2.453"
+      }
+    ],
+    "open_access": true,
+    "score": 66,
+    "infographic": {
+      "key_insight": "A risk matrix-based PPE compliance observation instrument can meaningfully improve safety compliance during SMAW welding practice.",
+      "engineering_relevance": "This study provides a practical, validated OHS monitoring tool that can help welding instructors reduce safety violations in workshop training.",
+      "method": [
+        "Developed the instrument using the ADDIE R&D model: Analysis, Design, Development, Implementation, and Evaluation.",
+        "Used PPE checklists, work-condition observation sheets, and a risk matrix with 37 grade-X mechanical engineering students.",
+        "Validated the instrument with three experts before field implementation in SMAW practice."
+      ],
+      "evidence_signal": "Expert validation was very strong (average 4.65/5, CVR = 1.00), and implementation reduced PPE violations from 81 to 37 while improving compliance from 1.857 to 3.914; Wilcoxon p < 0.001 and N-Gain = 0.6127.",
+      "watch_item": "Results come from one vocational school cohort, so broader adoption should confirm reliability and effectiveness across different workshops, instructors, and student groups.",
+      "hashtags": [
+        "#WeldingSafety",
+        "#PPECompliance",
+        "#RiskMatrix",
+        "#VocationalEducation",
+        "#OHS"
+      ],
+      "paper_id": "2026-10-03-openalex-development_of_apd_compliance_observation_instrument_based_on_risk_matrix_for_smk_smaw_wel",
+      "paper_title": "Development of apd compliance observation instrument based on risk matrix for smk smaw welding practices",
+      "paper_date": "2026-10-03",
+      "paper_category": "Welding Processes",
+      "generated_at": "2026-10-04T15:44:55",
+      "generator": "openai"
+    },
+    "translation": {
+      "zh-Hans": {
+        "title": "基于风险矩阵的SMK SMAW焊接实践APD合规观察工具开发",
+        "abstract": "职业安全与健康（K3）是SMAW焊接实践学习中的重要方面，因为其具有较高的工伤风险。根据在SMKN 1 Tuban机械车间的初步观察结果，发现许多学生在实践过程中仍未佩戴完整的个人防护装备（PPE）。本研究旨在开发一种基于风险矩阵的、有效且有效性得到验证的PPE合规观察工具，以减少SMAW焊接实践中的K3违规行为。研究方法采用研究与开发（R&D），并使用ADDIE模型，包括分析、设计、开发、实施和评价阶段。研究对象为37名机械工程X年级学生。研究工具包括PPE使用检查表、工作条件观察表和风险矩阵。三位专家的验证结果平均得分为4.65，属于非常有效类别；CVR值为1.00，表明所有工具指标均满足内容效度标准。实施结果显示，PPE使用违规次数从81次减少到37次。PPE使用合规平均得分从1.857提高到3.914。Wilcoxon符号秩检验结果显示显著性值p < 0,001，N-Gain分析得到0.6127，属于中等类别。因此，基于风险矩阵的PPE合规观察工具可有效提升SMAW焊接实践中的职业安全与健康（OHS）文化。",
+        "infographic": {
+          "key_insight": "基于风险矩阵的PPE合规观察工具能够显著提升SMAW焊接实践中的安全合规性。",
+          "engineering_relevance": "本研究提供了一种实用且经过验证的OHS监测工具，可帮助焊接教师减少车间训练中的安全违规行为。",
+          "method": [
+            "采用ADDIE R&D模型开发该工具：分析、设计、开发、实施和评价。",
+            "使用PPE检查表、工作条件观察表和风险矩阵，对37名机械工程X年级学生进行研究。",
+            "在SMAW实践现场实施前，先由三位专家对该工具进行验证。"
+          ],
+          "evidence_signal": "专家验证结果非常强（平均4.65/5，CVR = 1.00），实施后PPE违规次数从81次降至37次，同时合规得分从1.857提升至3.914；Wilcoxon检验p < 0.001，N-Gain = 0.6127。",
+          "watch_item": "结果来自单一职业学校队列，因此更广泛推广前应在不同车间、教师和学生群体中确认其可靠性与有效性。"
+        }
+      },
+      "generator": "openai"
+    }
+  },
+  {
+    "id": "2025-12-01-doaj-computational_and_machine_learning_modelling_approaches_for_weld_quality_predictions_in_fr",
+    "doi": "10.1016/j.matdes.2025.115213",
+    "date": "2025-12-01",
+    "title": "Computational and machine learning modelling approaches for weld quality predictions in friction stir welding of high-density polyethylene",
+    "authors": "A. Alhourani, I. Barsoum, J. Sheikh-Ahmad, S. Deveci",
+    "abstract": "Friction stir welding (FSW) has gained recognition as an effective technique for joining thermoplastic materials. This study presents a comprehensive investigation to predict FSW characteristics such as weld temperatures, vertical axial forces, material flow and defect formation in FSW of high-density polyethylene (HDPE) using both computational and machine learning approaches, validated by experimental results. A three-dimensional Coupled Eulerian-Lagrangian (CEL) numerical model is developed to simulate the HDPE welding process under varying process parameters of rotational and welding speeds, and bottom preheating conditions. The CEL numerical model is validated against experimental data, showing markedly good agreement in predicting void formation, thermal and mechanical responses. Results indicate that preheating the bottom surface proved effective in reducing thermal gradients and stabilizing vertical force fluctuations. Quantitatively, bottom-surface preheating at 60 °C reduced peak plunge force from 1600 N close to 1100 N and raised peak temperatures from 70 °C (without preheat) to about 100 °C, hence smoothing through-thickness gradients and stabilizing the axial force distribution. In parallel, two multilayer perceptron artificial neural networks (ANNs) are trained on experimental data to predict temporal temperature and axial force responses with R2 between 0.91 and 0.99, demonstrating high accuracy and strong generalization across the tested FSW parameter space. The computational CEL simulations accurately predicted weld zone morphology, including stir zone, thermo-mechanically affected zone and heat-affected zone, however the combined CEL–ANN framework enables rapid generation of process maps that highlights defective and defect-free welding windows, with optimal conditions obtained at 1500 rpm and 30 mm/min with 60 °C preheating, and poor weldability observed at 1000 rpm without preheating due to wormhole formation. These findings provide process-driven design guidelines for developing robust HDPE joints and demonstrate how integrating computational modeling with machine learning enables efficient optimization, offering valuable insights into the key characteristics of the FSW process in thermoplastics and supporting its broader adoption in industrial applications.",
+    "category": "AI Process Optimization",
+    "source": "DOAJ",
+    "venue": "Materials & Design",
+    "published": "2025-12-01T00:00:00+00:00",
+    "updated": "2025-12-22T04:20:11Z",
+    "primary_category": "journal-article",
+    "categories": [
+      "journal-article"
+    ],
+    "links": [
+      {
+        "title": "DOAJ",
+        "url": "https://doaj.org/article/0f46792d32c24ed498275aa5743cb8bc"
+      },
+      {
+        "title": "DOI",
+        "url": "https://doi.org/10.1016/j.matdes.2025.115213"
+      },
+      {
+        "title": "Open access full text",
+        "url": "http://www.sciencedirect.com/science/article/pii/S026412752501634X"
+      },
+      {
+        "title": "Open access copy",
+        "url": "https://doi.org/10.1016/j.matdes.2025.115213"
+      }
+    ],
+    "open_access": true,
+    "score": 66,
+    "infographic": {
+      "key_insight": "A combined CEL simulation and ANN framework can accurately predict friction stir welding quality in HDPE and identify process windows that reduce defects while stabilizing heat and force responses.",
+      "engineering_relevance": "The study provides practical guidance for selecting rotational speed, welding speed, and preheating conditions to produce stronger, more reliable thermoplastic welds with fewer voids and wormholes.",
+      "method": [
+        "3D coupled Eulerian-Lagrangian (CEL) model of the FSW process",
+        "Two multilayer perceptron ANNs trained on experimental temperature and axial-force data",
+        "Process map generation to distinguish defect-free and defective welding windows"
+      ],
+      "evidence_signal": "The ANN models achieved high predictive performance with R2 values between 0.91 and 0.99, and the CEL model matched experimental observations of thermal, mechanical, and defect behavior.",
+      "watch_item": "The framework was validated on a limited parameter space, so performance and recommended settings may need rechecking for other HDPE grades, tool geometries, or larger-scale production conditions.",
+      "hashtags": [
+        "#FrictionStirWelding",
+        "#HDPE",
+        "#MachineLearning",
+        "#FiniteElementModeling",
+        "#ProcessOptimization"
+      ],
+      "paper_id": "2025-12-01-doaj-computational_and_machine_learning_modelling_approaches_for_weld_quality_predictions_in_fr",
+      "paper_title": "Computational and machine learning modelling approaches for weld quality predictions in friction stir welding of high-density polyethylene",
+      "paper_date": "2025-12-01",
+      "paper_category": "AI Process Optimization",
+      "generated_at": "2026-10-04T15:44:58",
+      "generator": "openai"
+    },
+    "translation": {
+      "zh-Hans": {
+        "title": "用于高密度聚乙烯搅拌摩擦焊焊缝质量预测的计算与机器学习建模方法",
+        "abstract": "搅拌摩擦焊（FSW）已被公认为一种连接热塑性材料的有效技术。本研究采用计算方法和机器学习方法，并结合实验结果验证，对高密度聚乙烯（HDPE）搅拌摩擦焊中的焊缝温度、垂直轴向力、材料流动和缺陷形成等FSW特征进行了全面研究。建立了三维耦合欧拉-拉格朗日（CEL）数值模型，用于在不同工艺参数（旋转速度、焊接速度以及底部预热条件）下模拟HDPE焊接过程。该CEL数值模型通过实验数据进行了验证，在预测孔洞形成、热响应和力学响应方面表现出显著良好的一致性。结果表明，对底表面进行预热在降低热梯度和稳定垂直力波动方面是有效的。定量而言，底表面在60 °C预热时，将峰值压入力从接近1600 N降低至约1100 N，并将峰值温度从70 °C（无预热）提高到约100 °C，从而平滑了厚度方向梯度并稳定了轴向力分布。与此同时，基于实验数据训练了两个多层感知器人工神经网络（ANN），用于预测随时间变化的温度和轴向力响应，其R2介于0.91和0.99之间，表明在所测试的FSW参数空间内具有较高精度和较强泛化能力。计算得到的CEL模拟能够准确预测焊缝区形貌，包括搅拌区、热力机械影响区和热影响区；然而，结合CEL–ANN的框架能够快速生成工艺图，突出显示有缺陷和无缺陷的焊接窗口。最优条件为1500 rpm、30 mm/min并采用60 °C预热，而在无预热、1000 rpm条件下由于虫洞形成而观察到较差的可焊性。这些发现为开发稳健的HDPE接头提供了以工艺为驱动的设计指导，并表明将计算建模与机器学习相结合能够实现高效优化，为理解热塑性材料FSW过程的关键特征提供了有价值的见解，并支持其在工业应用中的更广泛采用。",
+        "infographic": {
+          "key_insight": "结合CEL仿真和ANN的框架能够准确预测HDPE搅拌摩擦焊质量，并识别可减少缺陷、同时稳定热和力响应的工艺窗口。",
+          "engineering_relevance": "本研究为选择旋转速度、焊接速度和预热条件提供了实用指导，有助于制备更强、更可靠且孔洞和虫洞更少的热塑性材料焊接接头。",
+          "method": [
+            "FSW过程的三维耦合欧拉-拉格朗日（CEL）模型",
+            "基于实验温度和轴向力数据训练的两个多层感知器ANN",
+            "用于区分无缺陷和有缺陷焊接窗口的工艺图生成"
+          ],
+          "evidence_signal": "ANN模型取得了很高的预测性能，R2值介于0.91和0.99之间，且CEL模型与热、力学及缺陷行为的实验观测结果一致。",
+          "watch_item": "该框架仅在有限参数空间内得到验证，因此对于其他HDPE牌号、工具几何形状或更大规模生产条件，其性能和推荐设置可能需要重新评估。"
+        }
+      },
+      "generator": "openai"
+    }
+  },
+  {
+    "id": "2026-09-21-openalex-effect_of_spray_distance_in_d_gun_sprayed_cr3c2_nicr_coatings_on_dss_2205_in_acidic_enviro",
+    "doi": "10.1016/j.pes.2026.100378",
+    "date": "2026-09-21",
+    "title": "Effect of spray distance in D-gun sprayed Cr3C2–NiCr coatings on DSS 2205 in acidic environments",
+    "authors": "Roshan Kuruvila, Mebin T Kuruvila, Manu Harilal, S. Thirumalai Kumaran",
+    "abstract": "Cermet coating, which is a blend of ceramic hardness and metallic toughness, is mostly applied to enhance the wear and corrosion resistance of metals. Detonation gun ( D -gun) spraying is one of the most promising thermal spray technologies that would produce a high-quality ceramic coating. Cr 3 C 2 -NiCr coating is acceptable because of its superior mechanical characteristics and corrosion characteristic. The effectiveness of D -gun sprayed Cr₃C₂–NiCr coatings was evaluated under aggressive acidic conditions using 1 M H₂SO₄, which serves as a standardized laboratory electrolyte for assessing corrosion resistance relevant to industrial acidic environments, including the key process variables such as spraying distance, which is critically important in the determination of other coating properties such as porosity, adhesion, roughness, and hardness. Duplex stainless steel (DSS) 2205 has been sprayed with Cr 3 C 2 -NiCr at three spraying distances; 170 mm, 180 mm and 190 mm in an attempt to conduct the research on the behavior of Cr 3 C 2 -NiCr in acid conditions. Electrochemical activity of the coating was evaluated in 1 M H 2 SO 4 solutions at room temperature; by open circuit potential (OCP), electrochemical impedance spectroscopy and potentiodynamic polarisation. Investigation of surface morphology under SEM revealed dense lamellar coatings with porosity decreasing from 2.84% at 170 mm to 1.38% at 190 mm, indicating improved particle melting and coating compactness. The coating deposited at 190 mm exhibited the best electrochemical performance, with lowest corrosion rate (0.113 mmpy), compared with the uncoated substrate (2.60 mmpy). All coated specimens had a homogenous and compact coating structure. The results demonstrate that 190 mm is the optimum spray distance for producing high-integrity Cr₃C₂–NiCr coatings on DSS 2205, providing enhanced corrosion protection for components operating in aggressive acidic industrial environments. This work demonstrates that optimizing the D -gun spray distance significantly influences the microstructural integrity and electrochemical corrosion behaviour of Cr₃C₂–25NiCr coatings on DSS 2205. The established processing–microstructure–performance relationship provides a scientific basis for optimizing D -gun coating parameters to enhance corrosion resistance in aggressive acidic environments.",
+    "category": "Detonation Spray Process",
+    "source": "OpenAlex",
+    "venue": "Progress in Engineering Science",
+    "published": "2026-09-21T00:00:00+00:00",
+    "updated": "",
+    "primary_category": "journal-article",
+    "categories": [
+      "journal-article"
+    ],
+    "links": [
+      {
+        "title": "OpenAlex",
+        "url": "https://openalex.org/W7213880146"
+      },
+      {
+        "title": "Publisher",
+        "url": "https://doi.org/10.1016/j.pes.2026.100378"
+      },
+      {
+        "title": "Open access copy",
+        "url": "https://doi.org/10.1016/j.pes.2026.100378"
+      }
+    ],
+    "open_access": true,
+    "score": 64,
+    "infographic": {
+      "key_insight": "For D-gun sprayed Cr3C2–NiCr coatings on DSS 2205, a longer spray distance of 190 mm produced the densest coating and the best corrosion resistance in acidic conditions.",
+      "engineering_relevance": "Optimizing spray distance is a practical process lever for improving coating compactness and extending corrosion protection of stainless-steel components in aggressive industrial acid environments.",
+      "method": [
+        "D-gun sprayed Cr3C2–NiCr onto DSS 2205 at 170, 180, and 190 mm",
+        "Tested electrochemical behavior in 1 M H2SO4 using OCP, EIS, and potentiodynamic polarization",
+        "Compared microstructure and porosity using SEM"
+      ],
+      "evidence_signal": "Porosity decreased from 2.84% at 170 mm to 1.38% at 190 mm, and the 190 mm coating had the lowest corrosion rate (0.113 mmpy) versus 2.60 mmpy for the uncoated substrate.",
+      "watch_item": "The result is specific to 1 M H2SO4 at room temperature, so performance should be validated under other acids, temperatures, and service conditions before deployment.",
+      "hashtags": [
+        "#DetonationSpray",
+        "#Cr3C2NiCr",
+        "#CorrosionResistance",
+        "#DSS2205",
+        "#ThermalSpray"
+      ],
+      "paper_id": "2026-09-21-openalex-effect_of_spray_distance_in_d_gun_sprayed_cr3c2_nicr_coatings_on_dss_2205_in_acidic_enviro",
+      "paper_title": "Effect of spray distance in D-gun sprayed Cr3C2–NiCr coatings on DSS 2205 in acidic environments",
+      "paper_date": "2026-09-21",
+      "paper_category": "Detonation Spray Process",
+      "generated_at": "2026-10-04T15:45:00",
+      "generator": "openai"
+    },
+    "translation": {
+      "zh-Hans": {
+        "title": "D-gun喷涂Cr3C2–NiCr涂层喷涂距离对酸性环境中DSS 2205的影响",
+        "abstract": "金属陶瓷涂层是陶瓷硬度与金属韧性的结合体，主要用于提高金属的耐磨性和耐腐蚀性。爆炸喷涂（D-gun）是最有前景的热喷涂技术之一，可制备高质量陶瓷涂层。由于Cr3C2–NiCr涂层具有优异的力学性能和耐腐蚀特性，因此被认为是适用的涂层材料。采用1 M H2SO4在强酸性条件下评估D-gun喷涂Cr3C2–NiCr涂层的性能；1 M H2SO4作为标准化实验室电解液，用于评估与工业酸性环境相关的耐腐蚀性，其中包括喷涂距离等关键工艺变量，而喷涂距离对孔隙率、结合力、粗糙度和硬度等其他涂层性能的确定至关重要。采用Cr3C2–NiCr在三种喷涂距离下对双相不锈钢（DSS）2205进行喷涂：170 mm、180 mm和190 mm，以研究Cr3C2–NiCr在酸性条件下的行为。通过开路电位（OCP）、电化学阻抗谱和动电位极化，在室温下的1 M H2SO4溶液中评估了涂层的电化学活性。对SEM下表面形貌的研究显示，涂层呈致密层状结构，孔隙率由170 mm时的2.84%降至190 mm时的1.38%，表明颗粒熔化程度和涂层致密性有所提高。190 mm沉积的涂层表现出最佳电化学性能，腐蚀速率最低（0.113 mmpy），相比之下未涂覆基体为2.60 mmpy。所有涂覆试样均具有均匀且致密的涂层结构。结果表明，190 mm是制备DSS 2205上高完整性Cr3C2–NiCr涂层的最佳喷涂距离，可为在强酸性工业环境中运行的部件提供增强的耐腐蚀保护。本研究表明，优化D-gun喷涂距离会显著影响DSS 2205上Cr3C2–25NiCr涂层的微观结构完整性和电化学腐蚀行为。所建立的工艺—微观结构—性能关系为优化D-gun涂层参数、提高强酸性环境中的耐腐蚀性提供了科学依据。",
+        "infographic": {
+          "key_insight": "对于DSS 2205上的D-gun喷涂Cr3C2–NiCr涂层，较长的190 mm喷涂距离形成了最致密的涂层，并在酸性条件下表现出最佳耐腐蚀性。",
+          "engineering_relevance": "优化喷涂距离是提升涂层致密性、延长不锈钢部件在强工业酸环境中耐腐蚀保护寿命的实用工艺手段。",
+          "method": [
+            "在DSS 2205上以170、180和190 mm喷涂Cr3C2–NiCr",
+            "使用OCP、EIS和动电位极化测试1 M H2SO4中的电化学行为",
+            "采用SEM比较微观结构和孔隙率"
+          ],
+          "evidence_signal": "孔隙率从170 mm时的2.84%降至190 mm时的1.38%，且190 mm涂层的腐蚀速率最低（0.113 mmpy），而未涂覆基体为2.60 mmpy。",
+          "watch_item": "该结果仅适用于室温下的1 M H2SO4，因此在应用前应在其他酸类、温度和服役条件下验证性能。"
+        }
+      },
+      "generator": "openai"
+    }
+  },
+  {
+    "id": "2026-10-01-openalex-groove_angle_and_quenching_medium_in_shielded_metal_arc_welding_of_mild_steel_multi_criter",
+    "doi": "10.1016/j.nxmate.2026.103666",
+    "date": "2026-10-01",
+    "title": "Groove angle and quenching medium in shielded metal arc welding of mild steel: Multi-criteria decision analysis, machine learning and energy absorption",
+    "authors": "Ignatius Echezona Ekengwu, Bonaventure Onyeka Ekengwu, Ikechukwu Okoli, Obiora Clement Okafor",
+    "abstract": "Weld groove geometry and post-weld cooling regime are among the least systematically investigated factors influencing the performance of arc-welded joints, and even when they have been studied, the analysis has almost always been limited to a single optimisation criterion. This paper re-examines shielded metal arc welding of AISI/SAE 1020 mild steel across a 55–60° single-V groove range and three quenching media (air, water, palm oil), using six mechanical responses, and advances the analysis in four directions. First, a normalised Type III effect-share analysis establishes the practical rather than merely statistical weight of each factor: the quenching medium accounts for 70.3–94.6% of the estimated effect across the six responses, while groove angle accounts for 4.4–25.7%, and the factor interaction never exceeds 3.2%. Second, the tensile records are reconciled against the reported applied loads, recovering the specimen cross-sections actually used and permitting two derived responses that the original analysis did not report: the modulus of toughness, which orders the media 8.68, 5.96 and 3.66 MJ m⁻³ for air, water and palm oil, and the Hollomon strain-hardening exponent, obtained on true stress and true plastic strain axes, which falls from 0.528 for air-cooled weldments to 0.292 and 0.253 for water- and oil-quenched material. Third, four independent multi-criteria schemes, namely Shannon-entropy-weighted grey relational analysis, equal-weight grey relational analysis, the technique for order of preference by similarity to ideal solution, and Derringer–Suich desirability, are applied to the same candidate set, and all four return the same ordering. Fourth, machine-learning surrogates of the recovered stress–strain records locate where the medium acts: over the strain interval common to all three media a functional analysis of variance attributes only 1.16% of the stress variance to the medium, and truncating the comparison at that strain reverses the ordering, so the advantage of air cooling is one of extensibility rather than strength. Gaussian-process sampling returns credible intervals near ±9% on the toughness values and preserves the ranking in every draw. The convergence of four aggregation philosophies, combined with the independent evidence of the energy-absorption analysis, establishes a 60° single-V groove with unforced air cooling as a weight-robust rather than merely method-dependent optimum for structural weldments in thin-section low-carbon steel.",
+    "category": "Welding Processes",
+    "source": "OpenAlex",
+    "venue": "Next Materials",
+    "published": "2026-10-01T00:00:00+00:00",
+    "updated": "",
+    "primary_category": "journal-article",
+    "categories": [
+      "journal-article"
+    ],
+    "links": [
+      {
+        "title": "OpenAlex",
+        "url": "https://openalex.org/W7214895210"
+      },
+      {
+        "title": "Publisher",
+        "url": "https://doi.org/10.1016/j.nxmate.2026.103666"
+      },
+      {
+        "title": "Open access PDF",
+        "url": "https://www.sciencedirect.com/science/article/pii/S2949822826020836/pdf"
+      }
+    ],
+    "open_access": true,
+    "score": 62,
+    "infographic": {
+      "key_insight": "In SMAW of AISI/SAE 1020 steel, quenching medium dominates joint performance far more than groove angle, and the best overall ranking is consistent across multiple decision methods.",
+      "engineering_relevance": "For weld design and post-weld heat treatment, choosing the cooling medium matters most for balancing strength, toughness, and strain-hardening behavior.",
+      "method": [
+        "Analyzed 55–60° single-V groove welds under three quenching media: air, water, and palm oil",
+        "Used effect-share analysis, machine-learning surrogates, and functional ANOVA on recovered stress–strain data",
+        "Applied four multi-criteria ranking methods: GRA, TOPSIS, desirability, and entropy-weighted GRA"
+      ],
+      "evidence_signal": "The abstract reports quenching medium explains about 70.3–94.6% of response effects, and all four ranking schemes produced the same order; Gaussian-process uncertainty on toughness was about ±9%.",
+      "watch_item": "The conclusions are specific to the tested groove-angle range, steel grade, and cooling conditions, so they should not be generalized without validation on other weld setups.",
+      "hashtags": [
+        "#Welding",
+        "#MaterialsEngineering",
+        "#MultiCriteriaDecisionAnalysis",
+        "#MachineLearning",
+        "#HeatTreatment"
+      ],
+      "paper_id": "2026-10-01-openalex-groove_angle_and_quenching_medium_in_shielded_metal_arc_welding_of_mild_steel_multi_criter",
+      "paper_title": "Groove angle and quenching medium in shielded metal arc welding of mild steel: Multi-criteria decision analysis, machine learning and energy absorption",
+      "paper_date": "2026-10-01",
+      "paper_category": "Welding Processes",
+      "generated_at": "2026-10-04T15:45:02",
+      "generator": "openai"
+    },
+    "translation": {
+      "zh-Hans": {
+        "title": "角度坡口与淬火介质在低碳钢手工电弧焊中的影响：多准则决策分析、机器学习与能量吸收",
+        "abstract": "焊缝坡口几何形状和焊后冷却制度是影响电弧焊接接头性能但迄今研究最不系统的因素之一，而且即便已有研究，分析几乎总是局限于单一优化准则。本文在55–60°单V形坡口范围及三种淬火介质（空气、水、棕榈油）下，对AISI/SAE 1020低碳钢的手工电弧焊进行了重新考察，采用六项力学响应，并从四个方向推进了分析。首先，归一化III型效应份额分析建立了各因素实际而非仅统计上的权重：在六项响应中，淬火介质占估计效应的70.3–94.6%，坡口角占4.4–25.7%，因素交互作用从未超过3.2%。其次，将拉伸记录与所报告的施加载荷相互核对，恢复了实际使用的试样截面积，并据此得到原始分析未报告的两个派生响应：韧性模量，其在空气、水和棕榈油条件下分别为8.68、5.96和3.66 MJ m⁻³；以及Hollomon应变硬化指数，该指数基于真实应力与真实塑性应变坐标，且由空气冷却焊接接头的0.528降至水淬和油淬材料的0.292和0.253。第三，对同一候选集应用四种独立的多准则方案，即Shannon熵加权灰色关联分析、等权灰色关联分析、逼近理想解排序法，以及Derringer–Suich满意度函数法，四者都给出了相同的排序。第四，利用恢复的应力–应变记录构建机器学习替代模型以定位介质发挥作用的位置：在三种介质共同覆盖的应变区间内，函数型方差分析仅将1.16%的应力方差归因于介质，而在该应变处截断比较会使排序逆转，因此空气冷却的优势在于延伸性而非强度。高斯过程采样得到的韧性值可信区间约为±9%，并在每一次抽样中都保持了排序。四种聚合思想的收敛，加上能量吸收分析的独立证据，表明对于薄截面低碳钢结构焊接，60°单V形坡口配合自然空气冷却是一个对权重稳健而非仅对方法依赖的最优方案。",
+        "infographic": {
+          "key_insight": "在AISI/SAE 1020钢的手工电弧焊中，淬火介质对接头性能的影响远大于坡口角，而且在多种决策方法下，最佳总体排序一致。",
+          "engineering_relevance": "对于焊接设计和焊后热处理，选择冷却介质对平衡强度、韧性和应变硬化行为最为关键。",
+          "method": [
+            "分析了55–60°单V形坡口焊缝在三种淬火介质下的表现：空气、水和棕榈油",
+            "对恢复的应力–应变数据采用效应份额分析、机器学习替代模型和函数型方差分析",
+            "应用四种多准则排序方法：GRA、TOPSIS、满意度函数法和熵权GRA"
+          ],
+          "evidence_signal": "摘要表明，淬火介质解释了约70.3–94.6%的响应效应，且四种排序方案都得出了相同的顺序；高斯过程对韧性的不确定性约为±9%。",
+          "watch_item": "这些结论仅适用于所测试的坡口角范围、钢种和冷却条件，因此在其他焊接设置上未经验证前不应直接推广。"
+        }
+      },
+      "generator": "openai"
+    }
+  },
+  {
+    "id": "2026-10-01-openalex-microstructure_phase_evolution_and_wear_behavior_of_nbc_reinforced_cr3c2_nicr_coatings_dep",
+    "doi": "10.1016/j.rsurfi.2026.101001",
+    "date": "2026-10-01",
+    "title": "Microstructure, phase evolution, and wear behavior of NbC reinforced Cr3C2-NiCr coatings deposited by HP-HVOF",
+    "authors": "Hipólito Carvajal Fals, Edson Cezar Grzebielucka, Anderson Geraldo Marenda Pukasiewicz, Flavio Morilla Camargo, Alexandre Barbosa Lucas Laur, Carlos Roberto Camello Lima",
+    "abstract": "High-performance wear-resistant coatings are required for severe service conditions in petrochemical and Oil & Gas applications. Conventional WC-based coatings rely on critical raw materials, motivating the development of alternative carbide-reinforced systems. This study investigates the microstructure, phase evolution, mechanical properties, and abrasive wear behavior of HP-HVOF sprayed Cr 3 C 2 –25NiCr coatings reinforced with NbC-based additions (NiNbC, CrNbC, and FeNbC). Dense lamellar coatings with low porosity were obtained for CrNbC and FeNbC, whereas NiNbC produced thinner and more heterogeneous layers due to reduced deposition efficiency. X-ray diffraction confirmed the retention of thermally stable NbC and revealed partial decarburization of Cr 3 C 2 during spraying. FeNbC and CrNbC coatings showed higher microhardness (945–1003 HV 0.3 ), while NiNbC exhibited lower hardness but improved abrasive wear resistance. The results indicate that wear performance is primarily governed by microstructural features, including matrix toughness and carbide–matrix bonding, demonstrating the potential of NbC-reinforced Cr 3 C 2 -based coatings as alternatives to conventional carbide systems.",
+    "category": "Coating Microstructure",
+    "source": "OpenAlex",
+    "venue": "Results in Surfaces and Interfaces",
+    "published": "2026-10-01T00:00:00+00:00",
+    "updated": "",
+    "primary_category": "journal-article",
+    "categories": [
+      "journal-article"
+    ],
+    "links": [
+      {
+        "title": "OpenAlex",
+        "url": "https://openalex.org/W7215039896"
+      },
+      {
+        "title": "DOI",
+        "url": "https://doi.org/10.1016/j.rsurfi.2026.101001"
+      },
+      {
+        "title": "Publisher",
+        "url": "https://doi.org/10.1016/j.rsurfi.2026.101001"
+      },
+      {
+        "title": "Open access copy",
+        "url": "https://doi.org/10.1016/j.rsurfi.2026.101001"
+      }
+    ],
+    "open_access": true,
+    "score": 58,
+    "infographic": {
+      "key_insight": "NbC-reinforced Cr3C2-NiCr HP-HVOF coatings can replace conventional WC-based systems, with wear performance depending more on microstructure and carbide–matrix bonding than on hardness alone.",
+      "engineering_relevance": "CrNbC and FeNbC improved coating density and hardness, while NiNbC reduced deposition efficiency but delivered better abrasive wear resistance, highlighting a tunable path for severe-service wear protection.",
+      "method": [
+        "HP-HVOF sprayed Cr3C2–25NiCr coatings with NbC-based additions (NiNbC, CrNbC, FeNbC)",
+        "Compared microstructure, phase evolution, hardness, and abrasive wear behavior",
+        "Used XRD plus microstructural/mechanical evaluation to link processing to performance"
+      ],
+      "evidence_signal": "Abstract reports dense lamellar, low-porosity coatings for CrNbC and FeNbC, XRD evidence of retained NbC with partial Cr3C2 decarburization, and hardness around 945–1003 HV0.3 for the harder coatings.",
+      "watch_item": "NiNbC showed reduced deposition efficiency and thinner, more heterogeneous layers, so process optimization is needed to avoid nonuniform coatings.",
+      "hashtags": [
+        "#HVOF",
+        "#Coatings",
+        "#WearResistance",
+        "#CarbideReinforcement",
+        "#Microstructure"
+      ],
+      "paper_id": "2026-10-01-openalex-microstructure_phase_evolution_and_wear_behavior_of_nbc_reinforced_cr3c2_nicr_coatings_dep",
+      "paper_title": "Microstructure, phase evolution, and wear behavior of NbC reinforced Cr3C2-NiCr coatings deposited by HP-HVOF",
+      "paper_date": "2026-10-01",
+      "paper_category": "Coating Microstructure",
+      "generated_at": "2026-10-04T15:45:05",
+      "generator": "openai"
+    },
+    "translation": {
+      "zh-Hans": {
+        "title": "HP-HVOF制备NbC增强Cr3C2-NiCr涂层的显微组织、相演变与磨损行为",
+        "abstract": "在石化以及油气应用的严苛服役条件下，需要高性能耐磨涂层。传统WC基涂层依赖关键原材料，这促使人们开发替代性的碳化物增强体系。本研究考察了HP-HVOF喷涂Cr3C2–25NiCr涂层在引入NbC基添加剂（NiNbC、CrNbC和FeNbC）后的显微组织、相演变、力学性能和磨粒磨损行为。CrNbC和FeNbC获得了致密的层状涂层且孔隙率较低，而由于沉积效率降低，NiNbC形成的涂层更薄且更不均匀。X射线衍射证实了热稳定NbC的保留，并揭示了喷涂过程中Cr3C2的部分脱碳。FeNbC和CrNbC涂层表现出更高的显微硬度（945–1003 HV0.3），而NiNbC虽然硬度较低，但磨粒磨损抗力更好。结果表明，耐磨性能主要受显微组织特征控制，包括基体韧性和碳化物–基体结合，这说明NbC增强Cr3C2基涂层有望作为传统碳化物体系的替代方案。",
+        "infographic": {
+          "key_insight": "NbC增强的Cr3C2-NiCr HP-HVOF涂层可替代传统WC基体系，其耐磨性能更多取决于显微组织和碳化物–基体结合，而不仅仅是硬度。",
+          "engineering_relevance": "CrNbC和FeNbC提高了涂层致密性和硬度，而NiNbC降低了沉积效率但带来了更好的磨粒磨损抗力，为严苛服役耐磨防护提供了可调控途径。",
+          "method": [
+            "采用含NbC基添加剂（NiNbC、CrNbC、FeNbC）的HP-HVOF喷涂Cr3C2–25NiCr涂层",
+            "比较显微组织、相演变、硬度和磨粒磨损行为",
+            "结合XRD与显微/力学表征，将工艺与性能联系起来"
+          ],
+          "evidence_signal": "摘要报道CrNbC和FeNbC涂层呈致密层状、低孔隙率，XRD证实NbC得以保留且Cr3C2发生部分脱碳，较硬涂层的硬度约为945–1003 HV0.3。",
+          "watch_item": "NiNbC的沉积效率降低且形成更薄、更不均匀的层状结构，因此需要优化工艺以避免涂层不均匀。"
+        }
+      },
+      "generator": "openai"
+    }
+  },
+  {
+    "id": "2026-10-02-openalex-advances_in_cold_spray_for_repair_and_additive_manufacturing_a_review",
+    "doi": "10.3390/coatings16101177",
+    "date": "2026-10-02",
+    "title": "Advances in Cold Spray for Repair and Additive Manufacturing: A Review",
+    "authors": "Carlos A. Poblano-Salas, John Henao, Astrid Lorena Giraldo-Betancur, Jorge Corona‐Castuera, Paola Forero-Sossa, Julio Villafuerte",
+    "abstract": "Cold spray (CS) technology has established itself as a versatile solid-state deposition process with significant potential for both repair applications and the manufacturing of bulk parts. This review examines recent advances in CS, emphasizing its unique ability to deposit metals and composites without melting, thereby minimizing oxidation, thermal distortion, and residual stresses. These advantages have positioned CS as a technique with all the credentials for being used within industry for restoring damaged components, especially, where high microstructural quality and mechanical integrity are critical. This review paper synthesizes current knowledge on different coatings/deposits produced by CS, the processing of present-day and future metals/alloys by cold spray, and specific requirements for industrial applications employing this technology. Additionally, it highlights the growing use of CS as an additive manufacturing (AM) technology, where layer-by-layer deposition enables the fabrication of complex geometries, gradient materials, and hybrid structures. Advances in cold spray additive manufacturing (CSAM) technology and deposition strategies are also discussed. Remaining challenges, including in situ monitoring, predictive modeling, and the need for standardized qualification protocols, are identified. Overall, this review underscores CS’s transformative role in enabling high-performance repairs and novel AM strategies, while outlining future research directions to expand its industrial adoption.",
+    "category": "Coating Quality Prediction",
+    "source": "OpenAlex",
+    "venue": "Coatings",
+    "published": "2026-10-02T00:00:00+00:00",
+    "updated": "",
+    "primary_category": "journal-article",
+    "categories": [
+      "journal-article"
+    ],
+    "links": [
+      {
+        "title": "OpenAlex",
+        "url": "https://openalex.org/W7216384256"
+      },
+      {
+        "title": "DOI",
+        "url": "https://doi.org/10.3390/coatings16101177"
+      },
+      {
+        "title": "Publisher",
+        "url": "https://doi.org/10.3390/coatings16101177"
+      },
+      {
+        "title": "Open access copy",
+        "url": "https://doi.org/10.3390/coatings16101177"
+      }
+    ],
+    "open_access": true,
+    "score": 57,
+    "infographic": {
+      "key_insight": "Cold spray enables solid-state deposition of metals and composites, making it highly attractive for damage repair and additive manufacturing with reduced oxidation, distortion, and residual stress.",
+      "engineering_relevance": "The review highlights cold spray as a practical pathway for high-integrity component restoration and complex part fabrication in industries that need strong microstructural and mechanical performance.",
+      "method": [
+        "Surveyed recent cold spray coatings, deposits, and repair/use cases",
+        "Compared processing of current and emerging metals/alloys for cold spray",
+        "Reviewed cold spray additive manufacturing strategies, including layer-by-layer and gradient structures"
+      ],
+      "evidence_signal": "The paper synthesizes published advances and application trends rather than presenting a new experimental dataset, with emphasis on industrial requirements, monitoring, and predictive modeling.",
+      "watch_item": "Industrial adoption still depends on improved in situ monitoring, predictive models, and standardized qualification protocols for reliable part acceptance.",
+      "hashtags": [
+        "#ColdSpray",
+        "#AdditiveManufacturing",
+        "#SurfaceEngineering",
+        "#CoatingQuality",
+        "#MaterialsProcessing"
+      ],
+      "paper_id": "2026-10-02-openalex-advances_in_cold_spray_for_repair_and_additive_manufacturing_a_review",
+      "paper_title": "Advances in Cold Spray for Repair and Additive Manufacturing: A Review",
+      "paper_date": "2026-10-02",
+      "paper_category": "Coating Quality Prediction",
+      "generated_at": "2026-10-04T15:45:08",
+      "generator": "openai"
+    },
+    "translation": {
+      "zh-Hans": {
+        "title": "用于修复与增材制造的冷喷涂进展：综述",
+        "abstract": "冷喷涂（CS）技术已确立其作为一种多用途固态沉积工艺的地位，在修复应用和块体零件制造方面都具有显著潜力。本综述考察了冷喷涂的最新进展，重点强调其在不熔化的情况下沉积金属和复合材料的独特能力，从而最大限度地减少氧化、热变形和残余应力。这些优势使冷喷涂成为一种具备在工业中用于修复受损部件全部条件的技术，尤其适用于对高微观组织质量和机械完整性要求极高的场合。本文综述综合了冷喷涂制备的不同涂层/沉积层的现有知识、当前及未来金属/合金的冷喷涂加工，以及采用该技术的工业应用的具体要求。此外，还强调了冷喷涂作为增材制造（AM）技术日益增长的应用，其中逐层沉积可实现复杂几何形状、梯度材料和混合结构的制造。文中也讨论了冷喷涂增材制造（CSAM）技术及沉积策略的进展。文中指出了仍然存在的挑战，包括原位监测、预测建模以及对标准化资格认证协议的需求。总体而言，本综述强调了冷喷涂在实现高性能修复和新型增材制造策略方面的变革性作用，并概述了未来研究方向，以扩大其工业化应用。",
+        "infographic": {
+          "key_insight": "冷喷涂能够实现金属和复合材料的固态沉积，因此在损伤修复和增材制造中极具吸引力，同时可降低氧化、变形和残余应力。",
+          "engineering_relevance": "本综述将冷喷涂强调为一种切实可行的途径，可用于高完整性部件修复和复杂零件制造，适用于那些需要优异微观组织和机械性能的行业。",
+          "method": [
+            "综述了近期冷喷涂涂层、沉积层及修复/应用案例",
+            "比较了当前及新兴金属/合金在冷喷涂中的加工",
+            "回顾了冷喷涂增材制造策略，包括逐层沉积和梯度结构"
+          ],
+          "evidence_signal": "本文综合了已发表的进展和应用趋势，而非提出新的实验数据集，重点关注工业需求、监测和预测建模。",
+          "watch_item": "工业应用的推广仍取决于改进的原位监测、预测模型以及标准化资格认证协议，以实现可靠的零件验收。"
+        }
+      },
+      "generator": "openai"
+    }
+  },
+  {
+    "id": "2026-09-01-doaj-microstructure_wear_and_corrosion_resistances_of_atmospheric_plasma_detonation_high_veloci",
+    "doi": "10.5755/j02.ms.44363",
+    "date": "2026-09-01",
+    "title": "Microstructure, Wear and Corrosion Resistances of Atmospheric Plasma, Detonation, High Velocity Oxy-fuel and High Velocity Air-fuel Sprayed WC-10Co-4Cr Cemented Carbide Coatings",
+    "authors": "Ting XIA, Yueming WANG, Lu XIE",
+    "abstract": "WC-10Co-4Cr cemented carbide coating has the advantages of superior wear property and corrosion resistance. WC-10Co-4Cr coatings were prepared on 304 stainless steel substrates by different thermal spray technologies including atmospheric plasma spraying (APS), detonation spraying (DS), high velocity oxy-fuel spraying (HVOFS), and high velocity air-fuel spraying (HVAFS), respectively. The microstructure, tribological properties and corrosion resistances of WC-10Co-4Cr coatings were systematically investigated and compared. The results showed that the Vickers hardness of cemented coatings prepared by APS, DS, HVOF, and HVAF, which were all higher than those of 304 stainless steel, were 771.4 HV, 954.2 HV, 1166.2 HV, and 1162.2 HV, respectively. The volume wear rate of 304 stainless steel was about (36.82±0.80)×10-5 mm3/N·m. The volume wear rates of APS, DS, HVOF, and HVAF coatings, which were all lower than that of 304 stainless steel, were about (7.93±0.30)×10-5, (1.51±0.20)×10-5, (1.17±0.10)×10-5, and (1.10±0.01)×10-5 mm3/N·m, respectively. In addition, the average friction coefficients of 304 stainless steel substrate, APS coating, DS one, HVOF one and HVAF one were about (0.68±0.03), (0.56±0.02), (0.48±0.01), (0.44±0.01) and (0.43±0.01), respectively. Spalling, microcracks perpendicular to the friction direction, and grooves parallel to the friction direction can be found in the wear marks of WC-10Co-4Cr coatings. Abrasive wear and fatigue wear are the main wear mechanisms of the cemented coatings. During the wear test, the carbide particles in DS, HVOF and HVAF coatings gradually became the main body bearing the friction load. Then the wear resistance of the latter three coatings was all superior to that of APS. Moreover, HVOF and HVAF coatings have better wear performances. For corrosion resistance from high to low were HVAF coating, DS one, HVOF one and APS one, respectively. The HVAF coating demonstrated the highest corrosion potential (-0.37±0.01 VSCE), smallest corrosion current density (1.75±0.02 μA/cm²), and largest corrosion resistance (20438.5 Ω) here. The APS coating had the poorest corrosion resistance among these four coatings.",
+    "category": "Thermal Spray Coatings",
+    "source": "DOAJ + OpenAlex",
+    "venue": "Medžiagotyra",
+    "published": "2026-09-01T00:00:00+00:00",
+    "updated": "2026-09-22T03:30:48Z",
+    "primary_category": "journal-article",
+    "categories": [
+      "journal-article"
+    ],
+    "links": [
+      {
+        "title": "DOAJ",
+        "url": "https://doaj.org/article/f26950b8cb71404784c8b4c03e3e6f8b"
+      },
+      {
+        "title": "Publisher",
+        "url": "https://doi.org/10.5755/j02.ms.44363"
+      },
+      {
+        "title": "Open access full text",
+        "url": "https://matsc.ktu.lt/index.php/MatSc/article/view/44363"
+      },
+      {
+        "title": "OpenAlex",
+        "url": "https://openalex.org/W7213985772"
+      },
+      {
+        "title": "Open access PDF",
+        "url": "https://matsc.ktu.lt/index.php/MatSc/article/download/44363/23680"
+      }
+    ],
+    "open_access": true,
+    "score": 56,
+    "infographic": {
+      "key_insight": "Among four WC-10Co-4Cr thermal-sprayed coatings, HVAF delivered the best overall balance of wear and corrosion resistance, while HVOF was a close second for wear performance.",
+      "engineering_relevance": "The study shows that spray process selection strongly controls coating density, hardness, friction, wear, and corrosion behavior for stainless-steel protection in demanding tribological environments.",
+      "method": [
+        "Prepared WC-10Co-4Cr coatings on 304 stainless steel using APS, DS, HVOF, and HVAF.",
+        "Compared microstructure, Vickers hardness, wear rate/friction, and electrochemical corrosion performance.",
+        "Evaluated wear scars to identify dominant mechanisms and coating failure features."
+      ],
+      "evidence_signal": "Compared with bare 304 stainless steel, the coatings had much higher hardness and far lower wear rates, and HVAF achieved the best corrosion metrics with the lowest corrosion current density and highest corrosion resistance.",
+      "watch_item": "Performance differences are process- and condition-dependent, so these results should be validated for the specific service load, environment, and coating thickness/porosity required in deployment.",
+      "hashtags": [
+        "#ThermalSpray",
+        "#WearResistance",
+        "#CorrosionResistance",
+        "#WC10Co4Cr",
+        "#SurfaceEngineering"
+      ],
+      "paper_id": "2026-09-01-doaj-microstructure_wear_and_corrosion_resistances_of_atmospheric_plasma_detonation_high_veloci",
+      "paper_title": "Microstructure, Wear and Corrosion Resistances of Atmospheric Plasma, Detonation, High Velocity Oxy-fuel and High Velocity Air-fuel Sprayed WC-10Co-4Cr Cemented Carbide Coatings",
+      "paper_date": "2026-09-01",
+      "paper_category": "Thermal Spray Coatings",
+      "generated_at": "2026-10-04T15:45:11",
+      "generator": "openai"
+    },
+    "translation": {
+      "zh-Hans": {
+        "title": "大气等离子喷涂、爆炸喷涂、高速氧燃料喷涂和高速空气燃料喷涂 WC-10Co-4Cr 硬质合金涂层的微观结构、耐磨性和耐腐蚀性",
+        "abstract": "WC-10Co-4Cr 硬质合金涂层具有优异的耐磨性和耐腐蚀性。采用不同热喷涂技术，包括大气等离子喷涂（APS）、爆炸喷涂（DS）、高速氧燃料喷涂（HVOFS）和高速空气燃料喷涂（HVAFS），分别在 304 不锈钢基体上制备了 WC-10Co-4Cr 涂层。系统研究并比较了 WC-10Co-4Cr 涂层的微观结构、摩擦学性能和耐腐蚀性。结果表明，采用 APS、DS、HVOF 和 HVAF 制备的硬质合金涂层硬度均高于 304 不锈钢，其维氏硬度分别为 771.4 HV、954.2 HV、1166.2 HV 和 1162.2 HV。304 不锈钢的体积磨损率约为 (36.82±0.80)×10-5 mm3/N·m。APS、DS、HVOF 和 HVAF 涂层的体积磨损率均低于 304 不锈钢，分别约为 (7.93±0.30)×10-5、(1.51±0.20)×10-5、(1.17±0.10)×10-5 和 (1.10±0.01)×10-5 mm3/N·m。此外，304 不锈钢基体、APS 涂层、DS 涂层、HVOF 涂层和 HVAF 涂层的平均摩擦系数分别约为 (0.68±0.03)、(0.56±0.02)、(0.48±0.01)、(0.44±0.01) 和 (0.43±0.01)。WC-10Co-4Cr 涂层的磨痕中可见剥落、垂直于摩擦方向的微裂纹以及平行于摩擦方向的沟槽。磨粒磨损和疲劳磨损是这些硬质合金涂层的主要磨损机制。在磨损试验过程中，DS、HVOF 和 HVAF 涂层中的碳化物颗粒逐渐成为承受摩擦载荷的主体。因此，后三种涂层的耐磨性均优于 APS 涂层。此外，HVOF 和 HVAF 涂层具有更好的耐磨性能。耐腐蚀性由高到低依次为 HVAF 涂层、DS 涂层、HVOF 涂层和 APS 涂层。HVAF 涂层表现出最高的腐蚀电位（-0.37±0.01 VSCE）、最小的腐蚀电流密度（1.75±0.02 μA/cm²）以及最大的耐腐蚀性（20438.5 Ω）。在这四种涂层中，APS 涂层的耐腐蚀性最差。",
+        "infographic": {
+          "key_insight": "在四种 WC-10Co-4Cr 热喷涂涂层中，HVAF 在耐磨性和耐腐蚀性方面实现了最佳综合平衡，而 HVOF 的耐磨性能紧随其后。",
+          "engineering_relevance": "该研究表明，喷涂工艺选择会显著控制涂层致密性、硬度、摩擦、磨损和腐蚀行为，这对严苛摩擦学环境下的不锈钢防护具有重要意义。",
+          "method": [
+            "采用 APS、DS、HVOF 和 HVAF 在 304 不锈钢上制备 WC-10Co-4Cr 涂层。",
+            "比较微观结构、维氏硬度、磨损率/摩擦系数以及电化学腐蚀性能。",
+            "分析磨痕以识别主导磨损机制和涂层失效特征。"
+          ],
+          "evidence_signal": "与裸 304 不锈钢相比，这些涂层具有更高的硬度和更低的磨损率；其中 HVAF 还表现出最佳的腐蚀指标，具有最低的腐蚀电流密度和最高的耐腐蚀性。",
+          "watch_item": "性能差异受工艺和条件影响，因此这些结果应针对实际服役载荷、环境以及部署所需的涂层厚度/孔隙率进行验证。"
+        }
+      },
+      "generator": "openai"
+    }
+  },
+  {
+    "id": "2026-09-30-openalex-development_of_a_method_for_producing_self_fluxing_nickel_based_coatings_by_detonation_spr",
+    "doi": "10.31489/2026ph3/33-45",
+    "date": "2026-09-30",
+    "title": "Development of a Method for Producing Self-Fluxing Nickel-Based Coatings by Detonation Spraying",
+    "authors": "Dastan Buitkenov, Laila Sulyubayeva, Daryn Baizhan, Nurmakhanbet Raisov, Nurkhat Bimakhan",
+    "abstract": "This study investigated the influence of detonation spraying parameters on the structure and tribological and mechanical properties of self-fluxing coatings of the Ni–Cr–Fe–B–Si–C system. The investigated parameters included the barrel filling level (48–68%), the molar ratio of the working gases (O/C = 1.026–1.856), and the inter-shot delay (0–1 s). Morphological analysis of the coatings revealed a characteristic lamellar structure and a dependence of coating thickness and defect formation on the spraying conditions. A lower barrel filling level resulted in a denser coating structure with minimal porosity, whereas medium and high filling levels promoted the formation of microcracks, presumably due to increased residual stresses. Tribological tests showed that the minimum coefficient of friction was obtained at a barrel filling level of 48% (μ = 0.674 ± 0.136) and an O/C ratio of 1.026, but these conditions were also associated with increased wear. The highest wear resistance was obtained at an O/C ratio of 1.856 and an increased inter-shot delay of up to 1 s, resulting in a decrease in the specific wear rate to 0.000189 mm³/(N·m). Roughness analysis showed that increasing the inter-shot delay reduced Ra from 5.00 to 3.60 μm, which may be attributed to a reduction in thermal load and more favorable coating formation conditions. The maximum hardness, up to 905.6 HV, was obtained for a combination of parameters that promoted the formation of a dense structure and strengthening phases. The results indicate that optimizing the detonation spraying parameters requires a trade-off between reducing the coefficient of friction and increasing wear resistance. The findings can be used to develop tech nologies for the restoration and surface strengthening of machine components.",
+    "category": "Coating Microstructure",
+    "source": "OpenAlex",
+    "venue": "Bulletin of the Karaganda University Physics Series",
+    "published": "2026-09-30T00:00:00+00:00",
+    "updated": "",
+    "primary_category": "journal-article",
+    "categories": [
+      "journal-article"
+    ],
+    "links": [
+      {
+        "title": "OpenAlex",
+        "url": "https://openalex.org/W7214964677"
+      },
+      {
+        "title": "Publisher",
+        "url": "https://doi.org/10.31489/2026ph3/33-45"
+      },
+      {
+        "title": "Open access PDF",
+        "url": "https://phs.buketov.edu.kz/physics-vestnik/article/download/1090/621"
+      }
+    ],
+    "open_access": true,
+    "score": 55,
+    "infographic": {
+      "key_insight": "Detonation-spraying settings strongly control the balance between density, hardness, friction, and wear in self-fluxing Ni–Cr–Fe–B–Si–C coatings, creating a clear process-property trade-off.",
+      "engineering_relevance": "The results provide practical parameter guidance for restoring and strengthening machine components with nickel-based coatings, where service performance depends on selecting the right spraying window.",
+      "method": [
+        "Varied barrel filling level from 48–68%",
+        "Adjusted O/C molar ratio from 1.026–1.856",
+        "Changed inter-shot delay from 0 to 1 s"
+      ],
+      "evidence_signal": "Microstructure, roughness, hardness, friction, and wear were evaluated; the best wear resistance reached a specific wear rate of 0.000189 mm³/(N·m), while the lowest friction was at 48% filling and O/C = 1.026.",
+      "watch_item": "Lower friction conditions increased wear, so coating optimization must be application-specific rather than targeting a single metric.",
+      "hashtags": [
+        "#DetonationSpraying",
+        "#NickelCoatings",
+        "#WearResistance",
+        "#Tribology",
+        "#SurfaceEngineering"
+      ],
+      "paper_id": "2026-09-30-openalex-development_of_a_method_for_producing_self_fluxing_nickel_based_coatings_by_detonation_spr",
+      "paper_title": "Development of a Method for Producing Self-Fluxing Nickel-Based Coatings by Detonation Spraying",
+      "paper_date": "2026-09-30",
+      "paper_category": "Coating Microstructure",
+      "generated_at": "2026-10-04T15:45:13",
+      "generator": "openai"
+    },
+    "translation": {
+      "zh-Hans": {
+        "title": "通过爆炸喷涂制备自熔性镍基涂层的方法开发",
+        "abstract": "本研究考察了爆炸喷涂参数对 Ni–Cr–Fe–B–Si–C 系自熔性涂层结构以及摩擦学和力学性能的影响。所研究的参数包括炮管填充率（48–68%）、工作气体摩尔比（O/C = 1.026–1.856）以及两次喷涂间隔（0–1 s）。对涂层的形貌分析表明，其具有特征性的层状结构，且涂层厚度和缺陷形成取决于喷涂条件。较低的炮管填充率可形成更致密、孔隙率更低的涂层结构，而中等和较高的填充率促进了微裂纹的形成，这可能是由于残余应力增加所致。摩擦学试验表明，在炮管填充率为 48%（μ = 0.674 ± 0.136）且 O/C 比为 1.026 时获得了最小摩擦系数，但这些条件也伴随着磨损增加。最高耐磨性出现在 O/C 比为 1.856 且两次喷涂间隔增加至 1 s 的条件下，使比磨损率降至 0.000189 mm³/(N·m)。粗糙度分析表明，增加两次喷涂间隔可使 Ra 从 5.00 μm 降至 3.60 μm，这可能归因于热负荷降低以及更有利的涂层形成条件。最大硬度可达 905.6 HV，出现在有利于形成致密结构和强化相的一组参数组合下。结果表明，优化爆炸喷涂参数需要在降低摩擦系数和提高耐磨性之间进行权衡。这些发现可用于开发机器部件修复和表面强化技术。",
+        "infographic": {
+          "key_insight": "爆炸喷涂参数强烈控制自熔性 Ni–Cr–Fe–B–Si–C 涂层中致密性、硬度、摩擦和磨损之间的平衡，形成明确的工艺—性能权衡。",
+          "engineering_relevance": "这些结果为采用镍基涂层修复和强化机器部件提供了实用的参数指导，因为服役性能取决于选择合适的喷涂窗口。",
+          "method": [
+            "将炮管填充率从 48–68% 进行变化",
+            "将 O/C 摩尔比调整至 1.026–1.856",
+            "将两次喷涂间隔从 0 调整至 1 s"
+          ],
+          "evidence_signal": "评估了显微组织、粗糙度、硬度、摩擦和磨损；最佳耐磨性对应的比磨损率为 0.000189 mm³/(N·m)，而最低摩擦出现在 48% 填充率和 O/C = 1.026 时。",
+          "watch_item": "较低摩擦条件会增加磨损，因此涂层优化必须针对具体应用，而不能只追求单一指标。"
+        }
+      },
+      "generator": "openai"
+    }
+  },
+  {
+    "id": "2026-09-07-arxiv-explainable_temporal_attention_based_defect_detection_for_fillet_joints_in_real_time_gas_m",
+    "arxiv_id": "2609.07893v1",
+    "date": "2026-09-07",
+    "title": "Explainable Temporal Attention-based Defect Detection For Fillet Joints in Real-Time Gas Metal Arc Welding Based on Multi-modal Data",
+    "authors": "Mobina Mobaraki, Mahyar Asadi, Klaske Van Heusden, Guy A. Dumont",
+    "abstract": "Deep learning is an efficient technique to monitor the real time welding process, reducing post-welding repairs and production delays. This paper leverages the monitoring capability by proposing a multi modal temporal attention based deep learning defect detection model for internal defects that are challenging to detect, including porosity, lack of penetration and fusion, undercut, and cold lap during Gas Metal Arc Welding in fillet joints. The model is trained on collected welding images and sound data from an industrial collaborative welding robot. The results show that the attention module can improve the F1 Score to 0.99. We use explainable Artificial Intelligence to interpret the proposed models behavior and dataset distribution, determining potential important areas in image and sound spectrograms and preferred modality to detect each defect. This improves trust and reliability in Artificial Intelligence driven welding inspection.",
+    "category": "Coating Microstructure",
+    "source": "arXiv",
+    "published": "2026-09-07T18:57:50Z",
+    "updated": "2026-09-07T18:57:50Z",
+    "primary_category": "cs.AI",
+    "categories": [
+      "cs.AI",
+      "cs.LG"
+    ],
+    "links": [
+      {
+        "title": "arXiv",
+        "url": "https://arxiv.org/abs/2609.07893v1"
+      },
+      {
+        "title": "PDF",
+        "url": "https://arxiv.org/pdf/2609.07893v1"
+      }
+    ],
+    "score": 53,
+    "infographic": {
+      "key_insight": "A multi-modal temporal attention model using welding images and sound can detect hard-to-see fillet-joint defects in real time with very high accuracy while providing interpretable defect cues.",
+      "engineering_relevance": "This approach can improve in-process quality control for gas metal arc welding, helping reduce scrap, rework, and post-weld inspection delays.",
+      "method": [
+        "Trained a deep learning defect detector on synchronized welding images and acoustic data from an industrial collaborative welding robot.",
+        "Used a temporal attention module to focus on the most informative time windows and improve defect classification.",
+        "Applied explainable AI to identify important regions in images and spectrograms and to compare which modality best detects each defect."
+      ],
+      "evidence_signal": "The abstract reports that the attention module raised the F1 score to 0.99 on internal defect detection tasks including porosity, lack of penetration/fusion, undercut, and cold lap.",
+      "watch_item": "Performance is reported from collected industrial data, so broader validation across different weld geometries, materials, and shop-floor noise conditions is still needed.",
+      "hashtags": [
+        "#WeldingAI",
+        "#DefectDetection",
+        "#TemporalAttention",
+        "#ExplainableAI",
+        "#SmartManufacturing"
+      ],
+      "paper_id": "2026-09-07-arxiv-explainable_temporal_attention_based_defect_detection_for_fillet_joints_in_real_time_gas_m",
+      "paper_title": "Explainable Temporal Attention-based Defect Detection For Fillet Joints in Real-Time Gas Metal Arc Welding Based on Multi-modal Data",
+      "paper_date": "2026-09-07",
+      "paper_category": "Coating Microstructure",
+      "generated_at": "2026-10-04T15:45:16",
+      "generator": "openai"
+    },
+    "translation": {
+      "zh-Hans": {
+        "title": "基于多模态数据、适用于实时气体保护金属电弧焊平角接头的可解释时序注意力缺陷检测",
+        "abstract": "深度学习是一种用于监测实时焊接过程的高效技术，可减少焊后返修和生产延误。本文通过提出一种基于多模态时序注意力的深度学习缺陷检测模型，利用其监测能力来识别气体保护金属电弧焊平角接头中难以检测的内部缺陷，包括气孔、未焊透和未熔合、咬边以及冷搭。该模型基于从工业协作焊接机器人采集的焊接图像和声音数据进行训练。结果表明，注意力模块可将F1分数提升至0.99。我们采用可解释人工智能来解释所提出模型的行为和数据集分布，确定图像和声音频谱图中的潜在重要区域，以及检测各类缺陷时更优的模态。这提高了人工智能驱动焊接检测的可信度和可靠性。",
+        "infographic": {
+          "key_insight": "一种使用焊接图像和声音的多模态时序注意力模型，能够以很高的精度实时检测平角接头中难以察觉的缺陷，同时提供可解释的缺陷线索。",
+          "engineering_relevance": "该方法可改进气体保护金属电弧焊的过程内质量控制，有助于减少废品、返工以及焊后检验延迟。",
+          "method": [
+            "在来自工业协作焊接机器人的同步焊接图像和声学数据上训练深度学习缺陷检测器。",
+            "使用时序注意力模块聚焦最具信息量的时间窗口，并提升缺陷分类性能。",
+            "应用可解释人工智能识别图像和频谱图中的重要区域，并比较哪种模态更适合检测各类缺陷。"
+          ],
+          "evidence_signal": "摘要报告注意力模块在包括气孔、未焊透/未熔合、咬边和冷搭在内的内部缺陷检测任务上将F1分数提升至0.99。",
+          "watch_item": "性能结果来自采集的工业数据，因此仍需在不同焊缝几何形状、材料以及车间噪声条件下进行更广泛的验证。"
+        }
+      },
+      "generator": "openai"
+    }
+  },
+  {
+    "id": "2026-09-01-doaj-molten_pool_dynamic_behavior_and_arc_characteristics_in_laser_tig_hybrid_welding_of_invar",
+    "doi": "10.12073/j.hjxb.20250930001",
+    "date": "2026-09-01",
+    "title": "Molten pool dynamic behavior and arc characteristics in laser-TIG hybrid welding of Invar steel",
+    "authors": "Sen WU, Fei ZHAO, Shuili GONG, Lifeng MA, Haiyan ZHAO, Wei ZHANG",
+    "abstract": "Invar steel has an extremely low coefficient of thermal expansion, making it widely used in the manufacturing of molds for aerospace composite materials. Most existing studies focus on process aspects, lacking in-depth analysis of the fluid dynamics behavior of the molten pool. Therefore, numerical simulation and high-speed photography were employed to analyze the effects of different process parameters on the molten pool morphology evolution and arc characteristics during laser-TIG hybrid welding of Invar steel, which provides crucial theoretical support for the optimization of the Invar steel welding process. The results indicate that within the laser power range of 5 ~ 6 kW, the increased power leads to greater recoil pressure, which promotes a larger penetration depth and keyhole dimension, intensifies the overall molten pool flow, and makes the arc prone to being attracted by the laser and deflected at a high power. Within the welding speed range of 0.5 ~ 0.8 m/min, a higher speed reduces the heat input, leading to a decreased penetration depth and weld width, and an increased flow velocity and cooling rate of the molten pool; additionally, the arc is prone to deformation at a high speed. Within the welding current range of 150 ~ 170 A, the increased current enhances the arc force, promoting the expansion of weld width and intensifying the molten pool convection; furthermore, the arc is more stable at a high current.",
+    "category": "Welding Processes",
+    "source": "DOAJ",
+    "venue": "Hanjie xuebao",
+    "published": "2026-09-01T00:00:00+00:00",
+    "updated": "2026-09-22T08:45:51Z",
+    "primary_category": "journal-article",
+    "categories": [
+      "journal-article"
+    ],
+    "links": [
+      {
+        "title": "DOAJ",
+        "url": "https://doaj.org/article/00ce34c7013b48bdafcde3722dcaf5bb"
+      },
+      {
+        "title": "DOI",
+        "url": "https://doi.org/10.12073/j.hjxb.20250930001"
+      },
+      {
+        "title": "Open access full text",
+        "url": "https://doi.org/10.12073/j.hjxb.20250930001"
+      }
+    ],
+    "open_access": true,
+    "score": 50,
+    "infographic": {
+      "key_insight": "Laser power mainly governs penetration and keyhole formation, while welding speed and current tune molten-pool flow, weld width, and arc stability in laser-TIG hybrid welding of Invar steel.",
+      "engineering_relevance": "These results help optimize hybrid welding settings for low-expansion Invar components by balancing bead geometry, fluid dynamics, and arc behavior.",
+      "method": [
+        "Numerical simulation of molten-pool fluid flow and morphology evolution",
+        "High-speed photography to observe arc characteristics during welding",
+        "Parameter sweep across laser power, welding speed, and welding current"
+      ],
+      "evidence_signal": "The abstract reports consistent parameter-dependent trends in penetration depth, weld width, molten-pool convection, and arc deflection/stability across the tested process windows.",
+      "watch_item": "The conclusions are based on a limited parameter range, so transfer to other joint geometries, thicknesses, or shielding conditions may require revalidation.",
+      "hashtags": [
+        "#LaserTIGWelding",
+        "#InvarSteel",
+        "#MoltenPoolDynamics",
+        "#ArcCharacteristics",
+        "#WeldingSimulation"
+      ],
+      "paper_id": "2026-09-01-doaj-molten_pool_dynamic_behavior_and_arc_characteristics_in_laser_tig_hybrid_welding_of_invar",
+      "paper_title": "Molten pool dynamic behavior and arc characteristics in laser-TIG hybrid welding of Invar steel",
+      "paper_date": "2026-09-01",
+      "paper_category": "Welding Processes",
+      "generated_at": "2026-10-04T15:45:18",
+      "generator": "openai"
+    },
+    "translation": {
+      "zh-Hans": {
+        "title": "Invar钢激光-TIG复合焊中的熔池动态行为与电弧特性",
+        "abstract": "Invar钢具有极低的热膨胀系数，因此被广泛应用于航空航天复合材料模具的制造。现有大多数研究侧重于工艺方面，缺乏对熔池流体动力学行为的深入分析。因此，采用数值模拟和高速摄影分析了不同工艺参数对Invar钢激光-TIG复合焊过程中熔池形貌演化和电弧特性的影响，为优化Invar钢焊接工艺提供了重要的理论支持。结果表明，在5 ~ 6 kW的激光功率范围内，功率增加会导致更大的反冲压力，从而促进更大的熔深和匙孔尺寸，强化整体熔池流动，并使电弧在高功率下更容易受到激光吸引而发生偏转。在0.5 ~ 0.8 m/min的焊接速度范围内，较高的速度会降低热输入，导致熔深和焊缝宽度减小，并使熔池流速和冷却速率增加；此外，在高速度下电弧更容易发生变形。在150 ~ 170 A的焊接电流范围内，电流增加会增强电弧力，促进焊缝宽度扩展并强化熔池对流；此外，在高电流下电弧更加稳定。",
+        "infographic": {
+          "key_insight": "激光功率主要控制熔深和匙孔形成，而焊接速度和电流则调控Invar钢激光-TIG复合焊中的熔池流动、焊缝宽度和电弧稳定性。",
+          "engineering_relevance": "这些结果有助于通过平衡焊缝几何形貌、流体动力学和电弧行为，优化低膨胀Invar构件的复合焊参数。",
+          "method": [
+            "熔池流动与形貌演化的数值模拟",
+            "利用高速摄影观察焊接过程中的电弧特性",
+            "在激光功率、焊接速度和焊接电流范围内进行参数扫描"
+          ],
+          "evidence_signal": "摘要报告了在所测试工艺窗口内，熔深、焊缝宽度、熔池对流以及电弧偏转/稳定性随参数变化呈现一致的趋势。",
+          "watch_item": "结论基于有限的参数范围，因此推广到其他接头几何形状、厚度或保护条件时，可能需要重新验证。"
+        }
+      },
+      "generator": "openai"
+    }
+  },
+  {
+    "id": "2026-08-30-openalex-microstructure_and_wear_properties_of_cr_c_nicr_coatings_sprayed_by_conventional_and_super",
+    "doi": "10.12913/22998624/225688",
+    "date": "2026-08-30",
+    "title": "Microstructure and wear properties of Cr₃C₂–NiCr coatings sprayed by conventional and supersonic high-velocity atmospheric plasma spraying with axial powder feeding",
+    "authors": "Tadeusz Kubaszek, Anita Słyś, Marek Góral, Marcin Drajewicz, Kamil Gancarczyk",
+    "abstract": "This study investigated the microstructural evolution and phase transformation mechanisms in Cr₃C₂-NiCr cermet coatings (Metco 5241 powder) plasma-sprayed onto S235 steel substrates.Two technologies were used: conventional atmospheric plasma spraying (APS) with radial powder injection (single-electrode A60 torch) and supersonic plasma spraying with axial powder feeding (HV-APS, three-electrode Axial III torch).The HV-APS coatings exhibited nearly halved porosity (6.16% vs. 11.99% for APS) and significantly higher microhardness (1141 HV0.2 vs. 897 HV0.2).Phase analysis revealed the disappearance of primary Cr 3 C 2 and Cr 21.26 Ni 1.74 C 6 carbides in favour of supersaturated Cr-Ni solid solutions.In the erosion tests conducted at a 90° impact angle, the two coating variants exhibited nearly identical specific erosion rates (0.20 mg/g for APS and 0.19 mg/g for HV-APS) and comparable damage mechanisms, dominated by fatigue-driven lamellar spalling and brittle fracture.However, in tribological tests (ball-on-disc, 30 N load), HV-APS coatings showed nearly 27% lower wear volume (2.85 mm 3 ) and a reduced specific wear rate (1.90 × 10 -4 mm 3 /Nm) compared to APS (3.90 mm 3 and 2.60 × 10 -4 mm 3 /Nm, respectively), correlating with their higher density and hardness.The obtained results confirm that the use of axial powder feeding in supersonic HV-APS plasma spraying significantly improves the mechanical and tribological properties of Cr₃C₂-NiCr coatings, although this advantage is not evident in the erosion tests at high impact angles.",
+    "category": "Coating Microstructure",
+    "source": "OpenAlex",
+    "venue": "Advances in Science and Technology – Research Journal",
+    "published": "2026-08-30T00:00:00+00:00",
+    "updated": "",
+    "primary_category": "journal-article",
+    "categories": [
+      "journal-article"
+    ],
+    "links": [
+      {
+        "title": "OpenAlex",
+        "url": "https://openalex.org/W7204726609"
+      },
+      {
+        "title": "DOI",
+        "url": "https://doi.org/10.12913/22998624/225688"
+      },
+      {
+        "title": "Publisher",
+        "url": "https://doi.org/10.12913/22998624/225688"
+      },
+      {
+        "title": "Open access PDF",
+        "url": "https://www.astrj.com/pdf-225688-143764?filename=Microstructure-and-wear-p.pdf"
+      }
+    ],
+    "open_access": true,
+    "score": 48,
+    "infographic": {
+      "key_insight": "Supersonic HV-APS with axial powder feeding produces denser, harder Cr3C2–NiCr coatings than conventional APS, but this does not translate into better erosion resistance at 90° impact.",
+      "engineering_relevance": "For wear-critical coatings, axial-feed HV-APS can meaningfully improve tribological performance and microstructural quality, making it a strong alternative to standard APS for demanding surface protection.",
+      "method": [
+        "APS with radial powder injection using a single-electrode A60 torch",
+        "HV-APS with axial powder feeding using a three-electrode Axial III torch",
+        "Compared porosity, phase composition, microhardness, erosion, and ball-on-disc wear on Cr3C2–NiCr coatings on S235 steel"
+      ],
+      "evidence_signal": "HV-APS cut porosity from 11.99% to 6.16% and increased hardness from 897 to 1141 HV0.2, while reducing wear volume from 3.90 to 2.85 mm3; erosion rates stayed nearly the same (0.20 vs 0.19 mg/g).",
+      "watch_item": "The improved density and hardness did not improve erosion performance at high impact angle, so process choice should be matched to the dominant wear mode.",
+      "hashtags": [
+        "#ThermalSpray",
+        "#Cr3C2NiCr",
+        "#HVAPS",
+        "#WearResistance",
+        "#CoatingMicrostructure"
+      ],
+      "paper_id": "2026-08-30-openalex-microstructure_and_wear_properties_of_cr_c_nicr_coatings_sprayed_by_conventional_and_super",
+      "paper_title": "Microstructure and wear properties of Cr₃C₂–NiCr coatings sprayed by conventional and supersonic high-velocity atmospheric plasma spraying with axial powder feeding",
+      "paper_date": "2026-08-30",
+      "paper_category": "Coating Microstructure",
+      "generated_at": "2026-10-04T15:45:21",
+      "generator": "openai"
+    },
+    "translation": {
+      "zh-Hans": {
+        "title": "采用常规与超音速高速大气等离子喷涂并轴向送粉制备的Cr₃C₂–NiCr涂层的显微组织和磨损性能",
+        "abstract": "本研究探讨了喷涂于S235钢基体上的Cr₃C₂-NiCr金属陶瓷涂层（Metco 5241粉末）的显微组织演变和相变机制。采用了两种技术：带径向送粉的常规大气等离子喷涂（APS，单电极A60喷枪）和带轴向送粉的超音速等离子喷涂（HV-APS，三电极Axial III喷枪）。HV-APS涂层表现出近乎减半的孔隙率（6.16%，而APS为11.99%）以及显著更高的显微硬度（1141 HV0.2，而APS为897 HV0.2）。相分析表明，原始Cr 3 C 2 和Cr 21.26 Ni 1.74 C 6 碳化物消失，转而形成过饱和的Cr-Ni固溶体。在90°冲蚀角条件下进行的冲蚀试验中，两种涂层的比冲蚀率几乎相同（APS为0.20 mg/g，HV-APS为0.19 mg/g），且损伤机制相近，主要表现为疲劳驱动的层状剥落和脆性断裂。然而，在摩擦学试验（球-盘，30 N载荷）中，与APS相比，HV-APS涂层的磨损体积近乎降低27%（2.85 mm 3 ），比磨损率也更低（1.90 × 10 -4 mm 3 /Nm；APS分别为3.90 mm 3 和2.60 × 10 -4 mm 3 /Nm），这与其更高的致密度和硬度相关。所得结果证实，在超音速HV-APS等离子喷涂中采用轴向送粉可显著改善Cr₃C₂-NiCr涂层的力学和摩擦学性能，但这种优势在高冲击角冲蚀试验中并不明显。",
+        "infographic": {
+          "key_insight": "采用轴向送粉的超音速HV-APS可制备出比常规APS更致密、更硬的Cr3C2–NiCr涂层，但这并不会转化为90°冲击下更好的抗冲蚀性能。",
+          "engineering_relevance": "对于以磨损为关键工况的涂层，轴向送粉HV-APS可显著提升摩擦学性能和显微组织质量，因此是标准APS在严苛表面防护应用中的有力替代方案。",
+          "method": [
+            "采用单电极A60喷枪进行径向送粉APS",
+            "采用三电极Axial III喷枪进行轴向送粉HV-APS",
+            "对S235钢上的Cr3C2–NiCr涂层进行了孔隙率、相组成、显微硬度、冲蚀和球-盘磨损对比测试"
+          ],
+          "evidence_signal": "HV-APS将孔隙率从11.99%降至6.16%，并将硬度从897提高到1141 HV0.2，同时将磨损体积从3.90降至2.85 mm3；冲蚀率几乎未变（0.20 vs 0.19 mg/g）。",
+          "watch_item": "更高的致密度和硬度并未改善高冲击角下的抗冲蚀性能，因此工艺选择应与主导磨损模式相匹配。"
+        }
+      },
+      "generator": "openai"
+    }
+  },
+  {
+    "id": "2026-09-29-openalex-effect_of_flame_spraying_temperature_on_the_properties_of_ni_cr_b_si_based_self_fluxing_co",
+    "doi": "10.66310/hoff2979",
+    "date": "2026-09-29",
+    "title": "EFFECT OF FLAME-SPRAYING TEMPERATURE ON THE PROPERTIES OF Ni–Cr–B–Si-BASED SELF-FLUXING COATINGS",
+    "authors": "Dastan Buitkenov, Manarbek Kylyshkanov, Daryn Baizhan, Nurmakhanbet Raisov, Nurkhat Bimakhan",
+    "abstract": "The present study investigates the effect of flame-spraying process parameters on the microstructure and mechanical properties of Ni–Cr–B–Si-based self-fluxing coatings. Corrosion-resistant AISI 321 austenitic chromium–nickel steel was used as the substrate material. The coatings were deposited by flame spraying using a Metal Coat 6PM-II system. To vary the thermal conditions of the spraying process, the oxygen-to-acetylene (O₂/C₂H₂) ratio was adjusted to 1.0, 1.1, and 1.2. The spraying parameters were monitored using an Accuraspray 4.0 diagnostic system. The resulting coatings were characterized in terms of microstructure, porosity, microhardness, surface roughness, and adhesion strength. Increasing the O₂/C₂H₂ ratio resulted in densification of the coating structure and a decrease in porosity from 1.97 ± 0.13% to 0.90 ± 0.09%. Concurrently, the surface roughness decreased from 4.70 ± 0.09 μm to 2.99 ± 0.11 μm, while the adhesion strength increased from 22.14 ± 4.3 MPa to 35.02 ± 3.9 MPa. The highest average microhardness of 1051.7 HV was obtained at an O₂/C₂H₂ ratio of 1.1. Among the investigated spraying conditions, the coating produced at O₂/C₂H₂ = 1.2 exhibited the lowest porosity and surface roughness together with the highest adhesion strength. The results demonstrate that controlling the O₂/C₂H₂ ratio provides an effective means of tailoring the microstructural and mechanical characteristics of flame-sprayed Ni–Cr–B–Si-based self-fluxing coatings.",
+    "category": "Coating Microstructure",
+    "source": "OpenAlex",
+    "venue": "Journal of Surface Engineering and Coating Technology",
+    "published": "2026-09-29T00:00:00+00:00",
+    "updated": "",
+    "primary_category": "journal-article",
+    "categories": [
+      "journal-article"
+    ],
+    "links": [
+      {
+        "title": "OpenAlex",
+        "url": "https://openalex.org/W7214770522"
+      },
+      {
+        "title": "Publisher",
+        "url": "https://doi.org/10.66310/hoff2979"
+      },
+      {
+        "title": "Open access copy",
+        "url": "https://doi.org/10.66310/hoff2979"
+      }
+    ],
+    "open_access": true,
+    "score": 42,
+    "infographic": {
+      "key_insight": "Raising the flame-spraying O₂/C₂H₂ ratio densified Ni–Cr–B–Si self-fluxing coatings, reducing porosity and roughness while improving adhesion, with peak hardness at an intermediate ratio.",
+      "engineering_relevance": "Tuning flame chemistry is an effective control knob for optimizing wear- and corrosion-resistant coating quality on AISI 321 steel.",
+      "method": [
+        "Flame-sprayed Ni–Cr–B–Si coating onto AISI 321 stainless steel using a Metal Coat 6PM-II system.",
+        "Varied O₂/C₂H₂ ratio at 1.0, 1.1, and 1.2; monitored process with Accuraspray 4.0.",
+        "Measured microstructure, porosity, microhardness, surface roughness, and adhesion strength."
+      ],
+      "evidence_signal": "Data show porosity dropped from 1.97 ± 0.13% to 0.90 ± 0.09%, roughness from 4.70 ± 0.09 μm to 2.99 ± 0.11 μm, adhesion rose from 22.14 ± 4.3 MPa to 35.02 ± 3.9 MPa, and maximum hardness reached 1051.7 HV at O₂/C₂H₂ = 1.1.",
+      "watch_item": "The best hardness and the best densification/adhesion occurred at different gas ratios, so the final setting should be chosen based on the target property balance rather than a single metric.",
+      "hashtags": [
+        "#ThermalSpray",
+        "#Coatings",
+        "#Microstructure",
+        "#SurfaceEngineering",
+        "#MaterialsScience"
+      ],
+      "paper_id": "2026-09-29-openalex-effect_of_flame_spraying_temperature_on_the_properties_of_ni_cr_b_si_based_self_fluxing_co",
+      "paper_title": "EFFECT OF FLAME-SPRAYING TEMPERATURE ON THE PROPERTIES OF Ni–Cr–B–Si-BASED SELF-FLUXING COATINGS",
+      "paper_date": "2026-09-29",
+      "paper_category": "Coating Microstructure",
+      "generated_at": "2026-10-04T15:45:23",
+      "generator": "openai"
+    },
+    "translation": {
+      "zh-Hans": {
+        "title": "火焰喷涂温度对基于 Ni–Cr–B–Si 自熔合金涂层性能的影响",
+        "abstract": "本研究考察了火焰喷涂工艺参数对基于 Ni–Cr–B–Si 自熔合金涂层显微组织和力学性能的影响。基体材料采用耐腐蚀的 AISI 321 奥氏体铬镍钢。涂层采用 Metal Coat 6PM-II 系统通过火焰喷涂制备。为改变喷涂过程的热条件，将氧/乙炔（O₂/C₂H₂）比调整为 1.0、1.1 和 1.2。喷涂参数使用 Accuraspray 4.0 诊断系统进行监测。随后对所得涂层的显微组织、孔隙率、显微硬度、表面粗糙度和结合强度进行了表征。随着 O₂/C₂H₂ 比增大，涂层结构趋于致密，孔隙率由 1.97 ± 0.13% 降至 0.90 ± 0.09%。同时，表面粗糙度由 4.70 ± 0.09 μm 降至 2.99 ± 0.11 μm，而结合强度由 22.14 ± 4.3 MPa 增至 35.02 ± 3.9 MPa。在 O₂/C₂H₂ 比为 1.1 时获得了最高平均显微硬度 1051.7 HV。在所研究的喷涂条件中，O₂/C₂H₂ = 1.2 制备的涂层表现出最低的孔隙率和表面粗糙度，同时具有最高的结合强度。结果表明，控制 O₂/C₂H₂ 比可作为调控火焰喷涂 Ni–Cr–B–Si 基自熔合金涂层显微组织和力学特性的有效手段。",
+        "infographic": {
+          "key_insight": "提高火焰喷涂 O₂/C₂H₂ 比可使 Ni–Cr–B–Si 自熔合金涂层致密化，降低孔隙率和粗糙度并提高结合强度，而峰值硬度出现在中等比例时。",
+          "engineering_relevance": "调控火焰化学是优化 AISI 321 钢上耐磨、耐腐蚀涂层质量的有效控制手段。",
+          "method": [
+            "使用 Metal Coat 6PM-II 系统在 AISI 321 不锈钢上火焰喷涂 Ni–Cr–B–Si 涂层。",
+            "将 O₂/C₂H₂ 比分别设为 1.0、1.1 和 1.2，并使用 Accuraspray 4.0 监测工艺。",
+            "测量显微组织、孔隙率、显微硬度、表面粗糙度和结合强度。"
+          ],
+          "evidence_signal": "数据显示，孔隙率从 1.97 ± 0.13% 降至 0.90 ± 0.09%，粗糙度从 4.70 ± 0.09 μm 降至 2.99 ± 0.11 μm，结合强度从 22.14 ± 4.3 MPa 增至 35.02 ± 3.9 MPa，且在 O₂/C₂H₂ = 1.1 时硬度最高，达到 1051.7 HV。",
+          "watch_item": "最佳硬度与最佳致密化/结合强度出现在不同的气体比例下，因此最终设定应根据目标性能平衡来选择，而不是仅依据单一指标。"
+        }
+      },
+      "generator": "openai"
+    }
+  },
+  {
+    "id": "2025-11-01-doaj-a_comparative_analysis_of_multitask_neural_networks_and_stacking_ensemble_learning_for_pre",
+    "doi": "10.3390/engproc2025114019",
+    "date": "2025-11-01",
+    "title": "A Comparative Analysis of Multitask Neural Networks and Stacking Ensemble Learning for Predicting UTS, Weld Hardness, and HAZ Hardness in Welding Applications",
+    "authors": "Sama Mukhtar, Amit Sata, Gaurang Joshi, Durgesh Srivastava",
+    "abstract": "Accurately predicting welding performance measures like ultimate strength (UTS), weld bead hardness, and HAZ mechanical hardness is crucial for ensuring the structural integrity and performance of welded components. Multitask learning (MTL) refers to a machine learning approach in which one model is designed to handle several interconnected tasks at the same time. Instead of training separate models for each task, MTL shares representations among tasks, allowing them to leverage common patterns while maintaining task-specific distinctions. In this study, we compared two advanced machine learning techniques, namely multitask neural network (MTNN) and stacking ensemble learning, for predicting these parameters based on a shared dataset. A multitask neural network (MTNN) is a specific type of multitask learning (MTL) model that uses a deep neural network architecture to handle multiple related tasks simultaneously. In MTNN, different tasks share some hidden layers while having task-specific output layers. This shared representation allows the model to learn common patterns across tasks while maintaining task-specific outputs. Both methods are evaluated using RMSE and R<sup>2</sup> to determine their predictive accuracy and overall effectiveness. It showed robust prediction strength, as its RMSE outcomes are 0.1288 for UTS, 0.0886 for weld hardness, and 0.1125 for HAZ hardness, whereas R<sup>2</sup> values are 0.6724, 0.9215, and 0.8407, respectively. This underlines that it can generalize well in interrelated tasks. Stacking ensemble learning outperformed MTL in the accuracy of individual tasks: the RMSE for UTS is 0.0263 and R<sup>2</sup> is 0.9863; for weld hardness, it is 0.0467 and 0.9782; and for HAZ hardness, it is 0.1109 and 0.8453. Such results indicate the good ability of ensemble methods to produce highly accurate, task-specific predictions. This comparison reveals the trade-offs between the two approaches. MTL is good in scenarios where the tasks are related and the data are sparse, giving efficient training and good generalization; stacking ensembles work better in the case of accurate, independent predictions. In both cases, they show remarkable potential for improving the predictive power of welding applications, making them suitable precursors to further investigation into hybrid models that bring the best features of both approaches together.",
+    "category": "AI Process Optimization",
+    "source": "DOAJ",
+    "venue": "Engineering Proceedings",
+    "published": "2025-11-01T00:00:00+00:00",
+    "updated": "2025-12-24T14:49:18Z",
+    "primary_category": "journal-article",
+    "categories": [
+      "journal-article"
+    ],
+    "links": [
+      {
+        "title": "DOAJ",
+        "url": "https://doaj.org/article/15c7d23338bc476d8efb74f6e5b50579"
+      },
+      {
+        "title": "DOI",
+        "url": "https://doi.org/10.3390/engproc2025114019"
+      },
+      {
+        "title": "Open access full text",
+        "url": "https://www.mdpi.com/2673-4591/114/1/19"
+      },
+      {
+        "title": "Open access PDF",
+        "url": "https://www.mdpi.com/2673-4591/114/1/19/pdf"
+      }
+    ],
+    "open_access": true,
+    "score": 36,
+    "infographic": {
+      "key_insight": "Stacking ensemble learning delivered the most accurate predictions for weld performance metrics, while multitask neural networks provided strong shared-learning generalization across related welding tasks.",
+      "engineering_relevance": "Reliable prediction of UTS, weld hardness, and HAZ hardness can reduce trial-and-error in welding process design and help improve structural integrity and quality control.",
+      "method": [
+        "Compared multitask neural network (shared hidden layers with task-specific outputs) against stacking ensemble learning.",
+        "Predicted three related outputs: UTS, weld bead hardness, and HAZ hardness from a shared dataset.",
+        "Evaluated models using RMSE and R² to compare accuracy and generalization."
+      ],
+      "evidence_signal": "Stacking achieved RMSE/R² of 0.0263/0.9863 for UTS, 0.0467/0.9782 for weld hardness, and 0.1109/0.8453 for HAZ hardness, outperforming MTNN on task-specific accuracy.",
+      "watch_item": "Performance may depend on dataset size and distribution, so the stronger ensemble accuracy may not transfer directly to new welding conditions or unseen materials.",
+      "hashtags": [
+        "#WeldingAI",
+        "#MachineLearning",
+        "#MultitaskLearning",
+        "#EnsembleLearning",
+        "#MaterialsEngineering"
+      ],
+      "paper_id": "2025-11-01-doaj-a_comparative_analysis_of_multitask_neural_networks_and_stacking_ensemble_learning_for_pre",
+      "paper_title": "A Comparative Analysis of Multitask Neural Networks and Stacking Ensemble Learning for Predicting UTS, Weld Hardness, and HAZ Hardness in Welding Applications",
+      "paper_date": "2025-11-01",
+      "paper_category": "AI Process Optimization",
+      "generated_at": "2026-10-04T15:45:26",
+      "generator": "openai"
+    },
+    "translation": {
+      "zh-Hans": {
+        "title": "焊接应用中用于预测UTS、焊缝硬度和HAZ硬度的多任务神经网络与堆叠集成学习的比较分析",
+        "abstract": "准确预测焊接性能指标，如极限强度（UTS）、焊缝硬度和HAZ力学硬度，对于确保焊接构件的结构完整性和性能至关重要。多任务学习（MTL）是指一种机器学习方法，其中一个模型被设计用于同时处理多个相互关联的任务。MTL不是针对每个任务分别训练独立模型，而是在任务之间共享表示，使其能够利用共同模式，同时保持任务特定差异。在本研究中，我们基于共享数据集比较了两种先进的机器学习技术，即多任务神经网络（MTNN）和堆叠集成学习，用于预测这些参数。多任务神经网络（MTNN）是多任务学习（MTL）模型的一种特定类型，它采用深度神经网络架构同时处理多个相关任务。在MTNN中，不同任务共享部分隐藏层，同时具有任务特定的输出层。这种共享表示使模型能够学习跨任务的共同模式，同时保留任务特定输出。两种方法均使用RMSE和R<sup>2</sup>进行评估，以确定其预测精度和整体有效性。结果表明，其具有稳健的预测能力，其RMSE结果分别为UTS 0.1288、焊缝硬度0.0886和HAZ硬度0.1125，而R<sup>2</sup>值分别为0.6724、0.9215和0.8407。这表明其能够在相互关联的任务中实现良好的泛化。堆叠集成学习在单项任务的准确性方面优于MTL：UTS的RMSE为0.0263、R<sup>2</sup>为0.9863；焊缝硬度的RMSE为0.0467、R<sup>2</sup>为0.9782；HAZ硬度的RMSE为0.1109、R<sup>2</sup>为0.8453。这些结果表明，集成方法在生成高精度、任务特定预测方面具有良好能力。该比较揭示了两种方法之间的权衡。MTL适用于任务相关且数据稀疏的场景，可实现高效训练和良好泛化；堆叠集成在需要高精度、独立预测的情况下表现更好。两种方法都展现出提升焊接应用预测能力的显著潜力，因此适合作为进一步研究混合模型的前期基础，以结合两种方法的最佳特征。",
+        "infographic": {
+          "key_insight": "堆叠集成学习在焊接性能指标预测中提供了最准确的结果，而多任务神经网络则在相关焊接任务之间提供了强大的共享学习泛化能力。",
+          "engineering_relevance": "对UTS、焊缝硬度和HAZ硬度的可靠预测可以减少焊接工艺设计中的试错，并有助于提高结构完整性和质量控制水平。",
+          "method": [
+            "将多任务神经网络（共享隐藏层并具有任务特定输出）与堆叠集成学习进行比较。",
+            "基于共享数据集预测三个相关输出：UTS、焊缝硬度和HAZ硬度。",
+            "使用RMSE和R²评估模型，以比较准确性和泛化能力。"
+          ],
+          "evidence_signal": "堆叠方法在UTS上的RMSE/R²为0.0263/0.9863，在焊缝硬度上的RMSE/R²为0.0467/0.9782，在HAZ硬度上的RMSE/R²为0.1109/0.8453，优于MTNN的任务特定准确性。",
+          "watch_item": "性能可能取决于数据集大小和分布，因此更强的集成准确性未必能直接迁移到新的焊接条件或未见过的材料上。"
+        }
+      },
+      "generator": "openai"
+    }
+  },
+  {
+    "id": "2026-09-30-openalex-synthesis_of_amorphous_and_crystalline_silicon_dioxide_powder_composites_from_rice_husk_as",
+    "doi": "10.31489/2026ph3/57-64",
+    "date": "2026-09-30",
+    "title": "Synthesis of Amorphous and Crystalline Silicon Dioxide Powder Composites from Rice Husk Ash for Thermal Spray Deposit",
+    "authors": "Daryn Baizhan, Temirlan Alimbekuly, Akbar S. Alibekov, Elzhan Birzhan, G.S. Bektasova, Zhuldyz B. Sagdoldina",
+    "abstract": "This paper presents the synthesis of silicon dioxide (SiO₂) from rice husk ash through chemical treatment followed by heat treatment at 800 °C for 3 h. The structural and physicochemical properties of the synthesized silica were investigated using X-ray diffraction (XRD), Fourier-transform infrared spectroscopy (FTIR), and laser diffraction particle size analysis. The synthesized silica exhibited an amorphous structure, with a median particle size (D50) of approximately 88.9 μm. Subsequent annealing at 1200 °C led to crystallization of the silica, resulting in the formation of quartz and cristobalite phases. FTIR analysis revealed characteristic absorption bands associated with Si–O–Si stretching vibrations in the 1000–1100 cm⁻¹ region, as well as bands attributed to hydroxyl groups. The obtained crystalline silica materials demonstrate potential for use as powder materials in thermal spraying technologies.",
+    "category": "Thermal Spray Coatings",
+    "source": "OpenAlex",
+    "venue": "Bulletin of the Karaganda University Physics Series",
+    "published": "2026-09-30T00:00:00+00:00",
+    "updated": "",
+    "primary_category": "journal-article",
+    "categories": [
+      "journal-article"
+    ],
+    "links": [
+      {
+        "title": "OpenAlex",
+        "url": "https://openalex.org/W7214896596"
+      },
+      {
+        "title": "Publisher",
+        "url": "https://doi.org/10.31489/2026ph3/57-64"
+      },
+      {
+        "title": "Open access PDF",
+        "url": "https://phs.buketov.edu.kz/physics-vestnik/article/download/1092/623"
+      }
+    ],
+    "open_access": true,
+    "score": 34,
+    "infographic": {
+      "key_insight": "Rice husk ash can be converted into silica powder that is amorphous after 800 °C treatment and crystallizes into quartz/cristobalite after annealing at 1200 °C, making it suitable as a thermal-spray feedstock.",
+      "engineering_relevance": "This provides a low-cost, bio-derived route to silica powders with tunable phase structure for coating and thermal spray applications.",
+      "method": [
+        "Chemical treatment of rice husk ash to extract silica",
+        "Heat treatment at 800 °C for 3 h to obtain amorphous SiO2",
+        "Annealing at 1200 °C to induce crystallization"
+      ],
+      "evidence_signal": "XRD confirmed amorphous silica at 800 °C and the emergence of quartz and cristobalite after 1200 °C annealing, while FTIR showed Si–O–Si and hydroxyl bands and laser diffraction measured D50 ≈ 88.9 μm.",
+      "watch_item": "The relatively large median particle size and phase changes during high-temperature annealing may require further milling and process control before consistent thermal-spray deposition.",
+      "hashtags": [
+        "#ThermalSpray",
+        "#Silica",
+        "#RiceHuskAsh",
+        "#Coatings",
+        "#MaterialsProcessing"
+      ],
+      "paper_id": "2026-09-30-openalex-synthesis_of_amorphous_and_crystalline_silicon_dioxide_powder_composites_from_rice_husk_as",
+      "paper_title": "Synthesis of Amorphous and Crystalline Silicon Dioxide Powder Composites from Rice Husk Ash for Thermal Spray Deposit",
+      "paper_date": "2026-09-30",
+      "paper_category": "Thermal Spray Coatings",
+      "generated_at": "2026-10-04T15:45:28",
+      "generator": "openai"
+    },
+    "translation": {
+      "zh-Hans": {
+        "title": "利用稻壳灰制备无定形与晶态二氧化硅粉体复合材料用于热喷涂沉积",
+        "abstract": "本文介绍了通过化学处理从稻壳灰中合成二氧化硅（SiO₂），随后在800 °C下进行3 h热处理。采用X射线衍射（XRD）、傅里叶变换红外光谱（FTIR）和激光衍射粒度分析研究了所合成硅石的结构及物理化学性质。所合成硅石呈无定形结构，中值粒径（D50）约为88.9 μm。随后在1200 °C下退火导致硅石结晶，形成石英和方石英相。FTIR分析显示，在1000–1100 cm⁻¹范围内存在与Si–O–Si伸缩振动相关的特征吸收带，同时还观察到归属于羟基的吸收带。所得晶态硅石材料表明其有望作为热喷涂技术中的粉体材料使用。",
+        "infographic": {
+          "key_insight": "稻壳灰可转化为硅石粉体，经800 °C处理后呈无定形状态，并在1200 °C退火后结晶为石英/方石英，因此可作为热喷涂送粉材料。",
+          "engineering_relevance": "这提供了一条低成本、生物质来源的硅石粉体制备路线，可实现相结构可调，适用于涂层和热喷涂应用。",
+          "method": [
+            "对稻壳灰进行化学处理以提取硅石",
+            "在800 °C下热处理3 h以获得无定形SiO2",
+            "在1200 °C下退火以诱导结晶"
+          ],
+          "evidence_signal": "XRD证实800 °C下为无定形硅石，而1200 °C退火后出现石英和方石英；FTIR显示Si–O–Si和羟基吸收带；激光衍射测得D50 ≈ 88.9 μm。",
+          "watch_item": "较大的中值粒径以及高温退火过程中的相变在实现一致性的热喷涂沉积前，可能需要进一步研磨和过程控制。"
+        }
+      },
+      "generator": "openai"
+    }
+  },
+  {
+    "id": "2025-12-01-doaj-long_term_corrosion_behaviors_and_wear_behavior_of_fe_based_amorphous_coatings_in_differen",
+    "doi": "10.1016/j.corcom.2024.06.004",
+    "date": "2025-12-01",
+    "title": "Long-term corrosion behaviors and wear behavior of Fe-based amorphous coatings in different humidity environments",
+    "authors": "Shuai Cui, Haimin Zhai, Zihan Feng, Xuqiang Li, Wensheng Li, Xiangjuan Fan",
+    "abstract": "Fe-based amorphous coatings (Fe-based AMCs) were successfully prepared on Q235 carbon steel by detonation spray under different spraying parameters. The corrosion and tribology behaviors of coatings were systematically tested. The droplets show disk-like morphology with the highest circularity and expansion factor, which is crucial to reduce the defects of coatings and to form fine-lamellar-structures coatings with dense microstructure. A higher incidence of porosity defects in the coating is associated with reduced long-term corrosion resistance. Moreover, the tribo-chemical reactions between Si3N4 balls and water molecules play a significant role in wear behaviors for coating in different humidity conditions. The friction coefficient and wear rate of coatings decrease as the humidity conditions increase.",
+    "category": "Coating Microstructure",
+    "source": "DOAJ",
+    "venue": "Corrosion Communications",
+    "published": "2025-12-01T00:00:00+00:00",
+    "updated": "2025-12-28T04:17:12Z",
+    "primary_category": "journal-article",
+    "categories": [
+      "journal-article"
+    ],
+    "links": [
+      {
+        "title": "DOAJ",
+        "url": "https://doaj.org/article/e93c7334344b484e8072cba8fa887774"
+      },
+      {
+        "title": "DOI",
+        "url": "https://doi.org/10.1016/j.corcom.2024.06.004"
+      },
+      {
+        "title": "Open access full text",
+        "url": "http://www.sciencedirect.com/science/article/pii/S2667266925000271"
+      },
+      {
+        "title": "Open access copy",
+        "url": "https://doi.org/10.1016/j.corcom.2024.06.004"
+      }
+    ],
+    "open_access": true,
+    "score": 34,
+    "infographic": {
+      "key_insight": "Detonation-sprayed Fe-based amorphous coatings become denser and more corrosion-resistant when droplets flatten well during deposition, while higher humidity lowers friction and wear through tribochemical effects.",
+      "engineering_relevance": "Optimizing spray parameters and controlling porosity can improve the long-term durability of steel protection coatings used in corrosive and humid service environments.",
+      "method": [
+        "Detonation spray Fe-based amorphous coatings onto Q235 carbon steel under different spraying parameters",
+        "Compare coating microstructure, porosity, corrosion resistance, and tribological behavior",
+        "Test wear against Si3N4 balls under different humidity conditions"
+      ],
+      "evidence_signal": "The abstract reports systematic corrosion and tribology testing and links higher droplet circularity/expansion to denser coatings, lower porosity to better long-term corrosion resistance, and increasing humidity to reduced friction coefficient and wear rate.",
+      "watch_item": "Performance depends strongly on spray-induced porosity and environmental humidity, so the coating may need tight process control and environment-specific validation before deployment.",
+      "hashtags": [
+        "#AmorphousCoatings",
+        "#DetonationSpray",
+        "#CorrosionResistance",
+        "#Tribology",
+        "#MaterialsEngineering"
+      ],
+      "paper_id": "2025-12-01-doaj-long_term_corrosion_behaviors_and_wear_behavior_of_fe_based_amorphous_coatings_in_differen",
+      "paper_title": "Long-term corrosion behaviors and wear behavior of Fe-based amorphous coatings in different humidity environments",
+      "paper_date": "2025-12-01",
+      "paper_category": "Coating Microstructure",
+      "generated_at": "2026-10-04T15:45:30",
+      "generator": "openai"
+    },
+    "translation": {
+      "zh-Hans": {
+        "title": "不同湿度环境下Fe基非晶涂层的长期腐蚀行为和磨损行为",
+        "abstract": "通过爆炸喷涂在不同喷涂参数下于Q235碳钢上成功制备了Fe基非晶涂层（Fe-based AMCs）。对涂层的腐蚀和摩擦学行为进行了系统测试。液滴呈盘状形貌，具有最高的圆形度和铺展因子，这对于减少涂层缺陷以及形成具有致密微观结构的细层片状结构涂层至关重要。涂层中孔隙缺陷发生率较高与长期耐腐蚀性降低相关。此外，在不同湿度条件下，Si3N4球与水分子之间的摩擦化学反应在涂层的磨损行为中起着重要作用。随着湿度条件增加，涂层的摩擦系数和磨损率降低。",
+        "infographic": {
+          "key_insight": "爆炸喷涂的Fe基非晶涂层在沉积过程中液滴充分铺展时会变得更致密、耐腐蚀性更强，而较高湿度则通过摩擦化学效应降低摩擦和磨损。",
+          "engineering_relevance": "优化喷涂参数并控制孔隙率，可提高用于腐蚀性和潮湿服役环境中的钢材防护涂层的长期耐久性。",
+          "method": [
+            "在不同喷涂参数下，通过爆炸喷涂将Fe基非晶涂层沉积到Q235碳钢上",
+            "比较涂层的微观结构、孔隙率、耐腐蚀性和摩擦学行为",
+            "在不同湿度条件下测试涂层与Si3N4球之间的磨损行为"
+          ],
+          "evidence_signal": "摘要报道了系统的腐蚀和摩擦学测试，并将更高的液滴圆形度/铺展因子与更致密的涂层、较低孔隙率与更好的长期耐腐蚀性，以及湿度增加与更低的摩擦系数和磨损率联系起来。",
+          "watch_item": "性能在很大程度上取决于喷涂诱导的孔隙率和环境湿度，因此在部署前可能需要严格的工艺控制和针对具体环境的验证。"
+        }
+      },
+      "generator": "openai"
+    }
+  }
+]
