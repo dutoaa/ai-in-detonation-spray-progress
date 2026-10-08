@@ -1,0 +1,24 @@
+{
+  "key_insight": "A hierarchical planner combines local pose adjustment and global replanning to generate collision-free welding paths for non-standard workpieces with complex spatial seam layouts.",
+  "engineering_relevance": "This enables more reliable offline programming for welding robots, reducing manual teach-in effort while improving safety and path quality in real shop-floor applications.",
+  "method": [
+    "Extract weld seams from CAD models with OpenCASCADE and classify path nodes into primary endpoints and auxiliary safety points.",
+    "Use two-stage obstacle avoidance: local attitude adjustment for short approach/retreat segments and global replanning for long transition segments.",
+    "Apply vanilla ABIT* with a distance-dependent three-stage adaptive objective to balance guidance, obstacle clearance, and goal convergence."
+  ],
+  "evidence_signal": "On typical box-type workpieces, the method reduced average path length by 20%, increased minimum clearance by 8%, and improved practical success rate from 52% to 90.7% with retries.",
+  "watch_item": "Performance depends on accurate CAD seam extraction and careful tuning of the staged objective and replanning logic for different workpiece geometries.",
+  "hashtags": [
+    "#WeldingRobotics",
+    "#PathPlanning",
+    "#CollisionAvoidance",
+    "#OfflineProgramming",
+    "#ABITStar"
+  ],
+  "paper_id": "2026-10-06-openalex-a_hierarchical_collision_free_path_planning_method_for_multi_line_spatial_distributed_weld",
+  "paper_title": "A hierarchical collision free path planning method for multi line spatial distributed welding of non standard workpieces",
+  "paper_date": "2026-10-06",
+  "paper_category": "AI Process Optimization",
+  "generated_at": "2026-10-08T17:47:54",
+  "generator": "openai"
+}

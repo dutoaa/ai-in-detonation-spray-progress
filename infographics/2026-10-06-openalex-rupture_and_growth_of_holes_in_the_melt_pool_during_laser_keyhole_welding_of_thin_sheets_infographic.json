@@ -1,24 +1,24 @@
 {
-  "key_insight": "In thin 316L foil laser keyhole welding, rising line energy drives keyhole instability that nucleates holes, which then grow rapidly once their length approaches the sheet thickness.",
-  "engineering_relevance": "The work identifies practical energy thresholds for keeping seams continuous versus avoiding perforation, directly informing process windows for thin-sheet overlap welding.",
+  "key_insight": "In thin 316L foil laser keyhole welding, increasing line energy triggers keyhole instability that nucleates holes, which then grow rapidly and can transition the process from sound seams to perforation or cutting.",
+  "engineering_relevance": "The work provides a practical stability criterion and process window for suppressing hole formation in ultra-thin sheet welding by controlling energy input and monitoring precursor keyhole behavior.",
   "method": [
-    "High-speed imaging of bead-on-plate welding on 200 µm foils representing 100 µm overlap joints",
-    "Tracked keyhole instability, hole nucleation, and subsequent hole growth under increasing line energy",
-    "Used a Young-Laplace-based geometric stability criterion to relate hole growth to sheet thickness"
+    "High-speed imaging of laser keyhole welding on 100 μm 316L overlap joints using 200 μm foils as bead-on-plate surrogates",
+    "Mapped process regimes versus line energy: continuous seam, hole formation, and cutting",
+    "Interpreted hole growth with a Young-Laplace surface-tension force balance and geometric stability criterion"
   ],
-  "evidence_signal": "The abstract reports continuous seams up to about 7 kJ/m, hole formation beyond that range, and cutting dominance above about 12 kJ/m, with holes expanding at roughly 0.8–1.2 m/s over 1–3 ms.",
-  "watch_item": "The stability criterion is geometry- and material-specific, so thresholds may shift with alloy, thickness, shielding, and laser setup.",
+  "evidence_signal": "The abstract reports continuous seams up to about 7 kJ/m, hole formation above this regime, cutting above about 12 kJ/m, and hole expansion at roughly 0.8–1.2 m/s over 1–3 ms.",
+  "watch_item": "The stability criterion is derived for very thin stainless-steel foils under bead-on-plate conditions, so transfer to other alloys, thicknesses, or joint geometries should be validated experimentally.",
   "hashtags": [
     "#LaserWelding",
-    "#KeyholeDynamics",
+    "#KeyholeInstability",
     "#ThinSheets",
-    "#MeltPoolInstability",
-    "#ManufacturingResearch"
+    "#ManufacturingScience",
+    "#ProcessControl"
   ],
   "paper_id": "2026-10-06-openalex-rupture_and_growth_of_holes_in_the_melt_pool_during_laser_keyhole_welding_of_thin_sheets",
   "paper_title": "Rupture and growth of holes in the melt pool during laser keyhole welding of thin sheets",
   "paper_date": "2026-10-06",
   "paper_category": "Welding Processes",
-  "generated_at": "2026-10-07T17:43:28",
+  "generated_at": "2026-10-08T17:47:48",
   "generator": "openai"
 }

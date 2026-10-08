@@ -1,24 +1,24 @@
 {
-  "key_insight": "A drilled-to-bossed joint geometry combined with tuned DDFW parameters substantially improves AA2024-T351 weld strength, while deep learning can predict tensile performance with moderate accuracy.",
-  "engineering_relevance": "The study offers a practical route to stronger lightweight aluminum joints for aerospace and automotive applications by linking joint design, process optimization, and data-driven prediction.",
+  "key_insight": "A drilled-to-bossed joint geometry combined with optimized direct drive friction welding parameters substantially improves AA2024-T351 weld strength, while deep learning can predict tensile performance from process settings.",
+  "engineering_relevance": "The study offers a practical route to stronger, more reliable lightweight aluminum joints for aerospace and automotive applications by coupling mechanical design with data-driven process optimization.",
   "method": [
-    "L18 orthogonal array experiments on AA2024-T351 in direct drive friction welding",
+    "L18 orthogonal-array experiments on AA2024-T351 DDFW",
     "Compared friction pressure, forging pressure, spindle speed, faying-surface geometry, and friction time",
-    "Trained deep learning models (ensemble residual, compact attention, adaptive multiscale) to predict ultimate tensile strength"
+    "Trained deep learning models to predict ultimate tensile strength"
   ],
-  "evidence_signal": "The best parameter set (30 MPa friction pressure, 70 MPa forging pressure, 2200 rpm, drilled-to-bossed geometry, 4 min) achieved 538 MPa tensile strength and 325 MPa torsional strength, and the best model reached R² ≈ 0.81.",
-  "watch_item": "The predictive model accuracy is still limited enough that broader validation on independent weld datasets and operating conditions would be needed before deployment.",
+  "evidence_signal": "Under the best setting, the weld reached 538 MPa tensile strength and 325 MPa torsional strength, and the ensemble residual network achieved the strongest prediction performance with R² ≈ 0.81.",
+  "watch_item": "The dataset appears limited to an L18 experimental design, so model generalization and transfer to other alloys, geometries, or welding setups may need further validation.",
   "hashtags": [
     "#FrictionWelding",
-    "#AluminumAlloy",
+    "#AA2024",
     "#DeepLearning",
     "#ProcessOptimization",
-    "#WeldStrength"
+    "#LightweightMaterials"
   ],
   "paper_id": "2026-05-01-doaj-enhancing_weld_performance_of_aa2024_t351_using_drilled_to_bossed_geometry_and_deep_learni",
   "paper_title": "Enhancing weld performance of AA2024-T351 using drilled-to-bossed geometry and deep learning prediction in direct drive friction welding",
   "paper_date": "2026-05-01",
   "paper_category": "AI Process Optimization",
-  "generated_at": "2026-09-16T15:24:05",
+  "generated_at": "2026-10-08T17:48:16",
   "generator": "openai"
 }

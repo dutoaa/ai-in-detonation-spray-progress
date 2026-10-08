@@ -1,24 +1,24 @@
 {
-  "key_insight": "Low-cost spindle and axis current signals can detect groove-defect formation in friction stir welding about 10 s before the defect becomes visibly apparent.",
-  "engineering_relevance": "This enables practical real-time quality monitoring for CNC-based FSW using sensors already available on industrial machines, reducing added hardware cost and complexity.",
+  "key_insight": "Electrical current signals from the CNC spindle can reveal groove defects in friction stir welding before visible surface damage appears.",
+  "engineering_relevance": "This enables low-cost, in-line monitoring of FSW using signals already available on industrial CNC machines, reducing the need for extra sensors.",
   "method": [
-    "Segment machine current signals from defect-free, defective, and transient weld regions.",
-    "Apply FFT, power spectral density, and spectral coherence analysis to identify signature changes.",
-    "Use spindle current coherence at the fundamental frequency and harmonics as the primary defect indicator."
+    "Segment spindle and axis current signals during welding",
+    "Apply FFT, PSD, and spectral coherence analysis",
+    "Compare defect-free, defective, and transient groove-forming weld regions"
   ],
-  "evidence_signal": "Defect-free regions showed high spectral coherence, while defective regions showed a marked coherence drop at the spindle fundamental frequency and harmonics, consistent with XCT-confirmed subsurface discontinuities.",
-  "watch_item": "Performance was demonstrated on a specific AA2139/AA7075 lap-joint case, so broader transferability to other alloys, tools, and machine setups should be validated.",
+  "evidence_signal": "Defect-free regions showed high coherence, while defective regions showed reduced coherence at the spindle fundamental frequency and harmonics, with XCT confirming subsurface discontinuities and detection about 10 s after defect initiation.",
+  "watch_item": "Performance was demonstrated on a specific dissimilar AA2139/AA7075 lap-joint case, so broader validation across materials, tools, and process settings is still needed.",
   "hashtags": [
     "#FrictionStirWelding",
     "#ProcessMonitoring",
-    "#MachineLearning",
-    "#QualityControl",
-    "#AluminumAlloys"
+    "#DefectDetection",
+    "#DataDrivenManufacturing",
+    "#MachineLearning"
   ],
   "paper_id": "2026-10-06-openalex-early_detection_of_groove_defect_in_friction_stir_welding_through_data_driven_process_moni",
   "paper_title": "Early detection of groove defect in friction stir welding through data-driven process monitoring",
   "paper_date": "2026-10-06",
   "paper_category": "Welding Processes",
-  "generated_at": "2026-10-07T17:43:22",
+  "generated_at": "2026-10-08T17:47:46",
   "generator": "openai"
 }
