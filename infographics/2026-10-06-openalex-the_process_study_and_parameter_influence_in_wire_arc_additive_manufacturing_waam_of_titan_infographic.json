@@ -1,24 +1,24 @@
 {
-  "key_insight": "Hot-wire plasma arc WAAM can deposit titanium with optimized parameters and effective inert shielding, producing low-contamination builds with controllable properties.",
-  "engineering_relevance": "The study supports a scalable route to lower-cost titanium part fabrication for aerospace and other high-performance applications.",
+  "key_insight": "Hot-wire plasma arc WAAM can produce titanium deposits with controlled geometry and high purity when shielding and process parameters are optimized.",
+  "engineering_relevance": "The study shows a practical route to lower-cost, large-scale titanium part fabrication while revealing direction-dependent properties that designers must account for.",
   "method": [
-    "Used a specialized inert gas shielding device to prevent titanium oxidation during melting.",
-    "Applied full-factorial DOE in Minitab to optimize welding speed, wire current, and wire feed rate.",
-    "Evaluated deposits using EDS, 3D microscopy, and mechanical testing."
+    "Designed a specialized inert-gas shielding system to protect molten titanium from oxidation.",
+    "Used full-factorial DOE in Minitab to optimize welding speed, wire current, and wire feed rate.",
+    "Verified deposit quality with EDS, 3D microscopy, and mechanical testing in vertical and horizontal build directions."
   ],
-  "evidence_signal": "EDS reported zero oxygen contamination, while mechanical tests showed UTS of 560.80–693.58 MPa horizontally and 631.65–677.10 MPa vertically, with hardness ranging from 199.8 to 266.8 HV.",
-  "watch_item": "The build shows anisotropic strength and hardness variation across height, so parameter transfer and part qualification may require direction-specific validation.",
+  "evidence_signal": "The optimized process achieved zero oxygen contamination, UTS values of 560.80–693.58 MPa horizontally and 631.65–677.10 MPa vertically, and hardness ranging from 199.8 to 266.8 HV.",
+  "watch_item": "The deposited titanium shows anisotropic mechanical behavior and hardness variation along build height, so orientation and layer history must be considered in design and qualification.",
   "hashtags": [
     "#WAAM",
     "#Titanium",
-    "#PlasmaArcWelding",
     "#AdditiveManufacturing",
-    "#ProcessOptimization"
+    "#WeldingProcess",
+    "#MaterialsEngineering"
   ],
   "paper_id": "2026-10-06-openalex-the_process_study_and_parameter_influence_in_wire_arc_additive_manufacturing_waam_of_titan",
   "paper_title": "The process study and parameter influence in Wire Arc Additive Manufacturing (WAAM) of titanium using hot-wire plasma arc welding",
   "paper_date": "2026-10-06",
   "paper_category": "Welding Processes",
-  "generated_at": "2026-10-08T17:47:26",
+  "generated_at": "2026-10-09T17:23:10",
   "generator": "openai"
 }

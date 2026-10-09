@@ -1,0 +1,24 @@
+{
+  "key_insight": "A coupled thermo-metallurgical FEM can predict heat-affected zone extent, grain evolution, and hardness changes during submerged arc welding of ASTM A516 Gr.70 steel.",
+  "engineering_relevance": "The model helps welding engineers estimate microstructural and mechanical outcomes from process conditions, supporting more reliable joint design and process optimization.",
+  "method": [
+    "3D Gaussian volumetric heat source in DEFORM-3D to model localized thermal input",
+    "Custom user subroutine couples thermal cycles with Fe-Fe3C phase transformations, grain refinement, and hardness evolution",
+    "Temperature-dependent material properties included to capture cooling-rate effects in hypoeutectoid steel"
+  ],
+  "evidence_signal": "Validation against metallography and microhardness for pass 2.1 showed good agreement: about 4% for HAZ extension, under 10% for grain size, and about 5% for hardness.",
+  "watch_item": "The framework is calibrated for a specific multipass weld pass and does not yet include real-time data assimilation or online bidirectional process updates.",
+  "hashtags": [
+    "#WeldingSimulation",
+    "#ThermoMetallurgy",
+    "#FEM",
+    "#HAZ",
+    "#Microstructure"
+  ],
+  "paper_id": "2026-10-08-openalex-development_of_a_numerical_model_for_microstructural_evolution_during_submerged_arc_weldin",
+  "paper_title": "Development of a numerical model for microstructural evolution during submerged ARC welding of ASTM A516 GR.70 steel",
+  "paper_date": "2026-10-08",
+  "paper_category": "Coating Microstructure",
+  "generated_at": "2026-10-09T17:23:37",
+  "generator": "openai"
+}

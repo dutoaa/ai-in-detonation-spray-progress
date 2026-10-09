@@ -1,24 +1,24 @@
 {
-  "key_insight": "ABAQUS simulations show that optimized friction stir welding parameters can create a stable thermal window for joining dissimilar AA7075–AA2024 plates without reaching melting.",
-  "engineering_relevance": "The study helps define process settings that support defect-free, structurally sound FSW joints for high-strength aluminum aerospace-grade materials.",
+  "key_insight": "ABAQUS-based FSW simulation indicates that AA7075–AA2024 dissimilar joints can be welded in a safe plasticization window, with process settings strongly shaping thermal and structural response.",
+  "engineering_relevance": "The study helps identify parameter ranges that can improve joint quality and reduce defect risk when joining high-strength aluminum alloys by friction stir welding.",
   "method": [
-    "Modeled dissimilar AA7075 and AA2024 plates in ABAQUS.",
-    "Simulated friction stir welding on 200 mm × 60 mm × 6 mm specimens.",
-    "Varied tool rotational speed, feed rate, and tilt angle to assess thermal and structural response."
+    "Modeled AA7075–AA2024 plates (200 × 60 × 6 mm) in ABAQUS.",
+    "Varied tool rotational speed, feed rate, and tilt angle.",
+    "Assessed structural and thermal behavior to locate favorable welding conditions."
   ],
-  "evidence_signal": "The simulations indicated a moderate peak temperature of about 580°C, which lies in the plasticization range of both alloys and below their melting points.",
-  "watch_item": "The results are simulation-based, so experimental validation is still needed to confirm weld quality and mechanical performance in practice.",
+  "evidence_signal": "The simulation reports a moderate peak temperature of about 580°C, which is described as suitable for plasticization without reaching the alloys’ melting points.",
+  "watch_item": "Because the results are simulation-based, experimental validation is still needed to confirm joint quality, defect suppression, and mechanical performance in practice.",
   "hashtags": [
     "#FrictionStirWelding",
     "#ABAQUS",
-    "#AA7075",
-    "#AA2024",
-    "#FiniteElementAnalysis"
+    "#FiniteElementAnalysis",
+    "#AluminumAlloys",
+    "#WeldingSimulation"
   ],
   "paper_id": "2026-10-07-openalex-influence_of_tib2_reinforcement_and_tool_traverse_speed_on_the_structural_and_thermal_beha",
   "paper_title": "Influence of Tib2 Reinforcement and Tool Traverse Speed on the Structural and Thermal Behavior of Dissimilar Metals (AA7075–AA2024) of Friction Stir Welded Joints: an ABAQUS Study",
   "paper_date": "2026-10-07",
   "paper_category": "Welding Processes",
-  "generated_at": "2026-10-08T17:47:43",
+  "generated_at": "2026-10-09T17:23:26",
   "generator": "openai"
 }

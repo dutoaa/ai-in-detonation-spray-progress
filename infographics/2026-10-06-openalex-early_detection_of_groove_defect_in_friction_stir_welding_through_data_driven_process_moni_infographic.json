@@ -1,24 +1,24 @@
 {
-  "key_insight": "Electrical current signals from the CNC spindle can reveal groove defects in friction stir welding before visible surface damage appears.",
-  "engineering_relevance": "This enables low-cost, in-line monitoring of FSW using signals already available on industrial CNC machines, reducing the need for extra sensors.",
+  "key_insight": "Spindle current signal coherence can reveal groove defect formation in friction stir welding before the defect becomes visibly apparent.",
+  "engineering_relevance": "This enables low-cost, sensor-light real-time monitoring of FSW on standard CNC machining centers for earlier quality control and process intervention.",
   "method": [
-    "Segment spindle and axis current signals during welding",
-    "Apply FFT, PSD, and spectral coherence analysis",
-    "Compare defect-free, defective, and transient groove-forming weld regions"
+    "Segment spindle and axis current signals from defect-free and defected FSW runs",
+    "Extract FFT, PSD, and spectral coherence features",
+    "Compare signal changes against XCT for transient groove formation"
   ],
-  "evidence_signal": "Defect-free regions showed high coherence, while defective regions showed reduced coherence at the spindle fundamental frequency and harmonics, with XCT confirming subsurface discontinuities and detection about 10 s after defect initiation.",
-  "watch_item": "Performance was demonstrated on a specific dissimilar AA2139/AA7075 lap-joint case, so broader validation across materials, tools, and process settings is still needed.",
+  "evidence_signal": "The study found that defective regions showed a marked drop in coherence at the spindle fundamental frequency and harmonics, with process instabilities detected about 10 s after defect initiation and confirmed by XCT.",
+  "watch_item": "Performance may depend on machine-specific current signatures, so calibration and validation are needed before deployment across different CNC/FSW setups.",
   "hashtags": [
     "#FrictionStirWelding",
     "#ProcessMonitoring",
-    "#DefectDetection",
     "#DataDrivenManufacturing",
-    "#MachineLearning"
+    "#DefectDetection",
+    "#CNC"
   ],
   "paper_id": "2026-10-06-openalex-early_detection_of_groove_defect_in_friction_stir_welding_through_data_driven_process_moni",
   "paper_title": "Early detection of groove defect in friction stir welding through data-driven process monitoring",
   "paper_date": "2026-10-06",
   "paper_category": "Welding Processes",
-  "generated_at": "2026-10-08T17:47:46",
+  "generated_at": "2026-10-09T17:23:29",
   "generator": "openai"
 }
