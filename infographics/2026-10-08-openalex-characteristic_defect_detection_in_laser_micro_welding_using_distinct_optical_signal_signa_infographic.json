@@ -1,24 +1,24 @@
 {
-  "key_insight": "The paper shows that characteristic defects in laser micro-welding can be detected by combining distinct optical signal signatures with machine learning.",
-  "engineering_relevance": "This approach could improve real-time quality assurance and defect screening in laser micro-welding processes for manufacturing.",
+  "key_insight": "Distinct optical emission signatures from laser reflection, near-infrared thermal emission, and visible emission can identify specific micro-welding defects and process-state transitions in real time.",
+  "engineering_relevance": "This enables practical online defect assessment for laser micro-welding, helping operators detect application-critical faults such as lack of penetration, holes, and thickening before parts are accepted.",
   "method": [
-    "Capture optical signals during laser micro-welding.",
-    "Identify defect-specific signal signatures.",
-    "Train machine-learning models to classify characteristic defects."
+    "Simultaneously monitored three optical channels during high-speed laser micro-welding of thin stainless-steel sheets.",
+    "Intentionally varied welding power, focus, inter-sheet gap, and laser incidence angle to generate characteristic defects.",
+    "Trained a simple machine-learning classifier on chunked optical signals to label good weld, lack of weld, hole, and thickening."
   ],
-  "evidence_signal": "The abstract indicates a journal-article study in the Journal of Manufacturing Processes, but it does not provide quantitative evaluation details here.",
-  "watch_item": "Practical deployment will depend on whether the optical signatures remain robust across changing materials, joint geometries, and process settings.",
+  "evidence_signal": "For off-axis welds, the classifier achieved recall above 90% for all but one class, and the optical signals showed distinct, reproducible signatures for each defect type.",
+  "watch_item": "Performance is demonstrated on controlled defects and a limited exploratory case of spontaneous defects, so broader transferability and robustness in industrial settings still need validation.",
   "hashtags": [
     "#LaserWelding",
+    "#ProcessMonitoring",
     "#DefectDetection",
     "#MachineLearning",
-    "#ProcessMonitoring",
-    "#ManufacturingAI"
+    "#OpticalSensing"
   ],
   "paper_id": "2026-10-08-openalex-characteristic_defect_detection_in_laser_micro_welding_using_distinct_optical_signal_signa",
   "paper_title": "Characteristic defect detection in laser micro-welding using distinct optical signal signatures and machine learning",
   "paper_date": "2026-10-08",
-  "paper_category": "Coating Microstructure",
-  "generated_at": "2026-10-09T17:23:39",
+  "paper_category": "Welding Processes",
+  "generated_at": "2026-10-10T16:09:04",
   "generator": "openai"
 }

@@ -1,24 +1,24 @@
 {
-  "key_insight": "In laser-TIG hybrid welding of Invar steel, higher laser power and welding current deepen and widen the molten pool, while higher travel speed reduces heat input, penetration, and weld width; arc behavior becomes more unstable or deflected at higher power/speed.",
-  "engineering_relevance": "These process–fluidity relationships provide practical guidance for tuning hybrid welding parameters to improve weld geometry and arc stability in low-expansion Invar steel applications.",
+  "key_insight": "Laser-TIG hybrid welding of Invar steel is governed by a strong coupling between laser power, welding speed, and current, which controls keyhole formation, molten-pool convection, and arc stability.",
+  "engineering_relevance": "The findings help optimize hybrid-welding parameters to achieve deeper, wider, and more stable welds for low-thermal-expansion Invar steel used in aerospace mold applications.",
   "method": [
-    "Numerical simulation of molten-pool dynamics",
-    "High-speed photography of arc and pool behavior",
-    "Parameter sweep over laser power, welding speed, and current"
+    "Numerical simulation of molten-pool fluid flow and heat transfer",
+    "High-speed photography of arc and molten-pool behavior",
+    "Parameter study across laser power, welding speed, and welding current"
   ],
-  "evidence_signal": "The abstract reports comparative simulation and high-speed imaging results across laser power (5–6 kW), welding speed (0.5–0.8 m/min), and current (150–170 A), linking each setting to changes in penetration, weld width, flow, and arc shape.",
-  "watch_item": "The findings are parameter-window specific, so transfer to different joint geometries, shielding conditions, or machine setups should be validated experimentally before production use.",
+  "evidence_signal": "The abstract reports parameter-dependent trends: 5–6 kW laser power increases penetration and keyhole size, 0.5–0.8 m/min speed reduces penetration and width, and 150–170 A current broadens the weld and stabilizes the arc.",
+  "watch_item": "The reported behavior is derived from a limited parameter window and should be validated for other joint geometries, thicknesses, and machine setups before direct process transfer.",
   "hashtags": [
-    "#LaserTIGWelding",
-    "#InvarSteel",
+    "#WeldingProcesses",
+    "#HybridWelding",
     "#MoltenPoolDynamics",
-    "#ArcStability",
-    "#WeldingSimulation"
+    "#InvarSteel",
+    "#ArcCharacteristics"
   ],
   "paper_id": "2026-09-01-doaj-molten_pool_dynamic_behavior_and_arc_characteristics_in_laser_tig_hybrid_welding_of_invar",
   "paper_title": "Molten pool dynamic behavior and arc characteristics in laser-TIG hybrid welding of Invar steel",
   "paper_date": "2026-09-01",
   "paper_category": "Welding Processes",
-  "generated_at": "2026-10-08T17:47:57",
+  "generated_at": "2026-10-10T16:09:33",
   "generator": "openai"
 }

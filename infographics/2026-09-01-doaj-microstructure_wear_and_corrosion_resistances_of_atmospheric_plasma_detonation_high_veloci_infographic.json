@@ -1,16 +1,16 @@
 {
-  "key_insight": "Among WC-10Co-4Cr coatings on 304 stainless steel, higher-velocity spray processes produced denser, harder coatings with much better wear and corrosion performance than atmospheric plasma spraying.",
-  "engineering_relevance": "For wear- and corrosion-critical surfaces, HVOF and HVAF are the strongest choices here, with HVAF giving the best overall corrosion resistance and top-tier wear resistance.",
+  "key_insight": "Among four WC-10Co-4Cr spray processes, HVOF and HVAF produced the best overall wear performance, while HVAF delivered the strongest corrosion resistance.",
+  "engineering_relevance": "The study shows that thermal spray process selection strongly controls carbide coating hardness, tribology, and corrosion behavior on stainless steel parts.",
   "method": [
-    "WC-10Co-4Cr cemented carbide coatings were deposited on 304 stainless steel using APS, DS, HVOF, and HVAF.",
-    "Microstructure, hardness, tribological behavior, and electrochemical corrosion performance were compared across the four spray routes.",
-    "Wear tracks and corrosion metrics were used to identify dominant degradation mechanisms and process-performance tradeoffs."
+    "WC-10Co-4Cr coatings deposited on 304 stainless steel by APS, DS, HVOF, and HVAF",
+    "Compared microstructure, Vickers hardness, wear rate, friction coefficient, and electrochemical corrosion response",
+    "Linked performance differences to coating density, carbide load-bearing behavior, and wear mechanism evolution"
   ],
-  "evidence_signal": "Compared with 304 stainless steel, coating hardness increased to 771.4–1166.2 HV, wear rate dropped from 36.82×10^-5 to 1.10–7.93×10^-5 mm3/N·m, friction coefficient fell from 0.68 to 0.43–0.56, and HVAF showed the best corrosion results (Ecorr -0.37 VSCE, Icorr 1.75 μA/cm²).",
-  "watch_item": "Results are specific to this coating chemistry, substrate, and test conditions, so process selection should still account for part geometry, cost, residual stress, and service environment.",
+  "evidence_signal": "Hardness increased from 771.4 HV (APS) to about 1166 HV (HVOF/HVAF), wear rate dropped to 1.10–1.17×10^-5 mm3/N·m for HVOF/HVAF, and HVAF showed the best corrosion metrics (Ecorr −0.37 VSCE, Icorr 1.75 μA/cm²).",
+  "watch_item": "The results are specific to 304 stainless steel substrates and the tested spray parameters, so coating rankings may shift with process tuning or different service environments.",
   "hashtags": [
     "#ThermalSpray",
-    "#WCCoCr",
+    "#WC-CoCr",
     "#WearResistance",
     "#CorrosionResistance",
     "#SurfaceEngineering"
@@ -19,6 +19,6 @@
   "paper_title": "Microstructure, Wear and Corrosion Resistances of Atmospheric Plasma, Detonation, High Velocity Oxy-fuel and High Velocity Air-fuel Sprayed WC-10Co-4Cr Cemented Carbide Coatings",
   "paper_date": "2026-09-01",
   "paper_category": "Thermal Spray Coatings",
-  "generated_at": "2026-10-08T17:47:52",
+  "generated_at": "2026-10-10T16:09:23",
   "generator": "openai"
 }

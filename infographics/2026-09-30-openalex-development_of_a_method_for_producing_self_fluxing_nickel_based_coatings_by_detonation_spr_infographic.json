@@ -1,13 +1,13 @@
 {
-  "key_insight": "Detonation-spraying settings strongly control whether self-fluxing Ni–Cr–Fe–B–Si–C coatings become dense and wear-resistant or smoother with lower friction but higher wear.",
-  "engineering_relevance": "The study provides practical parameter guidance for restoring and strengthening machine parts by balancing coating density, hardness, friction, and wear resistance.",
+  "key_insight": "Detonation spraying of Ni–Cr–Fe–B–Si–C self-fluxing coatings is highly parameter-sensitive, with low barrel fill favoring dense low-friction coatings and higher O/C plus longer inter-shot delay improving wear resistance.",
+  "engineering_relevance": "The results provide practical operating windows for restoring and hardening machine parts by balancing friction, hardness, porosity, and wear in sprayed coatings.",
   "method": [
-    "Varied barrel filling level from 48–68%.",
-    "Adjusted working-gas ratio (O/C = 1.026–1.856) and inter-shot delay (0–1 s).",
-    "Compared coating morphology, roughness, hardness, friction, and wear response."
+    "Varied barrel filling level (48–68%), O/C molar ratio (1.026–1.856), and inter-shot delay (0–1 s).",
+    "Characterized coating microstructure, thickness, porosity, and microcracks after detonation spraying.",
+    "Measured tribology, roughness, wear rate, friction coefficient, and hardness to identify optimal processing trade-offs."
   ],
-  "evidence_signal": "The best wear resistance was achieved at O/C = 1.856 with 1 s inter-shot delay, lowering specific wear rate to 0.000189 mm3/(N·m), while the lowest friction occurred at 48% barrel filling and O/C = 1.026.",
-  "watch_item": "Optimizing for low friction can conflict with wear resistance, and higher filling levels may introduce residual-stress-driven microcracks.",
+  "evidence_signal": "The abstract reports friction as low as μ = 0.674 ± 0.136 at 48% fill and O/C = 1.026, while wear resistance peaked at O/C = 1.856 with 1 s delay, reducing specific wear rate to 0.000189 mm³/(N·m) and roughness from 5.00 to 3.60 μm.",
+  "watch_item": "Optimizing for minimum friction can worsen wear, so process settings must be selected for the target service mode rather than a single best metric.",
   "hashtags": [
     "#DetonationSpraying",
     "#CoatingMicrostructure",
@@ -19,6 +19,6 @@
   "paper_title": "Development of a Method for Producing Self-Fluxing Nickel-Based Coatings by Detonation Spraying",
   "paper_date": "2026-09-30",
   "paper_category": "Coating Microstructure",
-  "generated_at": "2026-10-09T17:23:51",
+  "generated_at": "2026-10-10T16:09:39",
   "generator": "openai"
 }

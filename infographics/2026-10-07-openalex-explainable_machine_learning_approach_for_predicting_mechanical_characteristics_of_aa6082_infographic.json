@@ -1,0 +1,24 @@
+{
+  "key_insight": "Machine-learning models can accurately predict and help optimize the tensile strength and micro-hardness of AA6082–AA7075 friction stir welded joints from welding parameters.",
+  "engineering_relevance": "The study supports data-driven welding process design, enabling faster parameter selection for stronger, more consistent joints in sustainable manufacturing.",
+  "method": [
+    "Inputs: tool rotational speed, traverse speed, and plunge depth.",
+    "Models compared: LR, RF, SVR, XGBoost, and KNN.",
+    "Best performers: RF for UTS and SVR-RBF for micro-hardness."
+  ],
+  "evidence_signal": "Using an 80:20 train-test split, RF achieved the lowest UTS test errors (MAE 9.007 MPa, RMSE 12.975 MPa) and SVR-RBF achieved the best micro-hardness accuracy (MAE 0.923 HV, RMSE 1.155 HV).",
+  "watch_item": "The models were evaluated on experimental data with a limited feature set, so broader validation is needed before deployment across different materials, tool geometries, and welding setups.",
+  "hashtags": [
+    "#MachineLearning",
+    "#FrictionStirWelding",
+    "#MaterialsInformatics",
+    "#ProcessOptimization",
+    "#ExplainableAI"
+  ],
+  "paper_id": "2026-10-07-openalex-explainable_machine_learning_approach_for_predicting_mechanical_characteristics_of_aa6082",
+  "paper_title": "Explainable machine learning approach for predicting mechanical characteristics of AA6082–AA7075 friction stir welded joints",
+  "paper_date": "2026-10-07",
+  "paper_category": "AI Process Optimization",
+  "generated_at": "2026-10-10T16:09:11",
+  "generator": "openai"
+}
