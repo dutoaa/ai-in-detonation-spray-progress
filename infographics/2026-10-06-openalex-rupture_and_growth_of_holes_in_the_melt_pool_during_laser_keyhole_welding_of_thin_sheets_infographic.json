@@ -1,24 +1,24 @@
 {
-  "key_insight": "In thin 316L foil laser welding, keyhole instability can trigger hole nucleation and rapid hole growth, with stability lost when the hole length approaches the sheet thickness.",
-  "engineering_relevance": "The results define line-energy thresholds and a force-balance criterion that can help welders avoid perforation and cut-through in ultra-thin sheet lap joints.",
+  "key_insight": "In thin 316L stainless-steel foils, laser keyhole instability can trigger hole nucleation and rapid hole growth once line energy rises beyond the stable welding regime.",
+  "engineering_relevance": "The results define practical energy thresholds for avoiding perforation in thin-sheet laser welding and provide a geometric criterion for suppressing cut formation.",
   "method": [
-    "High-speed imaging of laser keyhole welding on 100 μm 316L sheets (modeled with 200 μm foils)",
-    "Mapped the sequence from keyhole instability to hole nucleation and growth versus line energy",
-    "Used a Young-Laplace-based geometric stability balance to explain hole expansion"
+    "High-speed imaging of bead-on-plate laser welding on 200 μm foils representing 100 μm overlap-sheet joints",
+    "Systematic variation of line energy to link keyhole instability, hole nucleation, and hole growth",
+    "Geometric Young–Laplace force-balance analysis of hole shape and stability"
   ],
-  "evidence_signal": "The abstract reports continuous seams up to about 7 kJ/m, hole formation beyond that range, cutting above about 12 kJ/m, and hole growth at roughly 0.8–1.2 m/s over 1–3 ms.",
-  "watch_item": "The stability criterion is derived from a specific thin-foil geometry and material system, so threshold values may shift for different thicknesses, alloys, or shielding/process conditions.",
+  "evidence_signal": "Continuous seams were achieved up to about 7 kJ/m, holes appeared above this range, and cutting dominated above about 12 kJ/m, with holes growing at roughly 0.8–1.2 m/s over 1–3 ms.",
+  "watch_item": "The reported thresholds are specific to the tested foil thickness, geometry, and material, so direct transfer to other alloys or thicknesses needs validation.",
   "hashtags": [
     "#LaserWelding",
     "#KeyholeDynamics",
-    "#ThinSheets",
-    "#316LStainlessSteel",
-    "#ManufacturingResearch"
+    "#ThinSheetProcessing",
+    "#StainlessSteel",
+    "#MeltPoolInstability"
   ],
   "paper_id": "2026-10-06-openalex-rupture_and_growth_of_holes_in_the_melt_pool_during_laser_keyhole_welding_of_thin_sheets",
   "paper_title": "Rupture and growth of holes in the melt pool during laser keyhole welding of thin sheets",
   "paper_date": "2026-10-06",
   "paper_category": "Welding Processes",
-  "generated_at": "2026-10-11T16:36:21",
+  "generated_at": "2026-10-12T20:11:49",
   "generator": "openai"
 }

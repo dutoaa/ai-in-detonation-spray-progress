@@ -1,24 +1,24 @@
 {
-  "key_insight": "Machine learning can accurately predict and help optimize the tensile strength and micro-hardness of AA6082–AA7075 friction stir welded joints from a small set of welding parameters.",
-  "engineering_relevance": "The study shows that data-driven models can guide parameter selection in friction stir welding to improve joint performance and reduce trial-and-error experimentation.",
+  "key_insight": "Machine learning can accurately predict and optimize the tensile strength and micro-hardness of AA6082–AA7075 friction stir welded joints from key welding parameters.",
+  "engineering_relevance": "The study offers a fast surrogate model for selecting welding conditions, helping improve weld quality and reduce trial-and-error in intelligent manufacturing.",
   "method": [
-    "Inputs: tool rotational speed, traverse speed, and plunge depth.",
-    "Outputs: ultimate tensile strength and micro-hardness.",
-    "Compared five regressors: LR, RF, SVR, XGBoost, and KNN with an 80:20 train-test split."
+    "Inputs: TRS, TTS, and TPD; outputs: UTS and micro-hardness",
+    "Compared LR, RF, SVR, XGBoost, and KNN on experimental FSW data",
+    "Used an 80:20 train-test split with MAE, RMSE, RAE, and RRSE"
   ],
-  "evidence_signal": "Random Forest gave the best UTS prediction on the test set (MAE 9.007 MPa, RMSE 12.975 MPa), while SVR with an RBF kernel was best for micro-hardness (MAE 0.923 HV, RMSE 1.155 HV).",
-  "watch_item": "Performance is based on a limited experimental dataset, so generalization to other materials, tool geometries, or welding setups should be validated before deployment.",
+  "evidence_signal": "Random Forest gave the best UTS prediction on testing data (MAE 9.007 MPa, RMSE 12.975 MPa), while SVR with RBF kernel performed best for micro-hardness (MAE 0.923 HV, RMSE 1.155 HV).",
+  "watch_item": "The model performance is based on a relatively limited experimental dataset, so broader validation is needed before deployment across other alloys or tool geometries.",
   "hashtags": [
     "#MachineLearning",
     "#FrictionStirWelding",
     "#MaterialsInformatics",
-    "#ProcessOptimization",
-    "#SmartManufacturing"
+    "#AIforManufacturing",
+    "#WeldOptimization"
   ],
   "paper_id": "2026-10-07-openalex-explainable_machine_learning_approach_for_predicting_mechanical_characteristics_of_aa6082",
   "paper_title": "Explainable machine learning approach for predicting mechanical characteristics of AA6082–AA7075 friction stir welded joints",
   "paper_date": "2026-10-07",
   "paper_category": "AI Process Optimization",
-  "generated_at": "2026-10-11T16:36:06",
+  "generated_at": "2026-10-12T20:11:39",
   "generator": "openai"
 }

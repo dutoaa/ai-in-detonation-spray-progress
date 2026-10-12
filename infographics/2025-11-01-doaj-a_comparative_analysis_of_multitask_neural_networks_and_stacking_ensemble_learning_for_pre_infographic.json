@@ -1,17 +1,17 @@
 {
-  "key_insight": "Stacking ensemble learning delivered the most accurate predictions for UTS, weld hardness, and HAZ hardness, while multitask neural networks provided strong shared-task generalization.",
-  "engineering_relevance": "For welding process optimization, the study shows that predictive models can support faster quality assessment of joint strength and hardness without relying solely on exhaustive testing.",
+  "key_insight": "For welding property prediction, stacking ensemble learning achieved higher task-wise accuracy than a multitask neural network, while MTNN still demonstrated strong shared-task generalization.",
+  "engineering_relevance": "The study helps engineers choose between a shared-model approach for related outputs and a high-accuracy ensemble when predicting UTS, weld hardness, and HAZ hardness in welding processes.",
   "method": [
-    "Compared multitask neural networks (shared hidden layers, task-specific outputs) with stacking ensemble learning.",
-    "Used a shared dataset to predict three welding properties: UTS, weld hardness, and HAZ hardness.",
-    "Evaluated both approaches using RMSE and R² across all tasks."
+    "Compared multitask neural network (shared hidden layers, task-specific outputs) against stacking ensemble learning",
+    "Predicted three welding responses: UTS, weld hardness, and HAZ hardness",
+    "Evaluated performance using RMSE and R^2"
   ],
-  "evidence_signal": "MTNN achieved RMSE/R² of 0.1288/0.6724 for UTS, 0.0886/0.9215 for weld hardness, and 0.1125/0.8407 for HAZ hardness, while stacking improved to 0.0263/0.9863, 0.0467/0.9782, and 0.1109/0.8453 respectively.",
-  "watch_item": "Performance may depend on dataset size and task coupling; stacking can outperform on accuracy but may be less efficient and less transferable than shared multitask models.",
+  "evidence_signal": "MTNN reported RMSE/R^2 of 0.1288/0.6724 for UTS, 0.0886/0.9215 for weld hardness, and 0.1125/0.8407 for HAZ hardness, while stacking improved to 0.0263/0.9863, 0.0467/0.9782, and 0.1109/0.8453, respectively.",
+  "watch_item": "Stacking ensembles can be more task-specific and computationally heavier, so they may be harder to deploy when simplicity, transfer across related tasks, or limited data are priorities.",
   "hashtags": [
     "#WeldingAI",
     "#MultitaskLearning",
-    "#StackingEnsemble",
+    "#EnsembleLearning",
     "#MaterialsInformatics",
     "#ProcessOptimization"
   ],
@@ -19,6 +19,6 @@
   "paper_title": "A Comparative Analysis of Multitask Neural Networks and Stacking Ensemble Learning for Predicting UTS, Weld Hardness, and HAZ Hardness in Welding Applications",
   "paper_date": "2025-11-01",
   "paper_category": "AI Process Optimization",
-  "generated_at": "2026-10-11T16:36:32",
+  "generated_at": "2026-10-12T20:11:57",
   "generator": "openai"
 }
