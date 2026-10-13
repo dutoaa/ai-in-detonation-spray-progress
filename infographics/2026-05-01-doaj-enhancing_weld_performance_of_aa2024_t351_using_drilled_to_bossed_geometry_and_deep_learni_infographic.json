@@ -1,24 +1,24 @@
 {
-  "key_insight": "A drilled-to-bossed joint geometry combined with optimized direct drive friction welding parameters substantially improves AA2024-T351 joint strength, while deep learning can predict weld performance from process settings.",
-  "engineering_relevance": "The study offers a practical route to stronger lightweight aerospace/automotive aluminum joints by pairing geometry-driven mechanical interlocking with data-driven process optimization.",
+  "key_insight": "A drilled-to-bossed joint geometry combined with optimized DDFW settings substantially improves AA2024-T351 weld strength, and a deep learning model can predict tensile performance with moderate accuracy.",
+  "engineering_relevance": "The study offers a practical route to stronger lightweight aluminum joints for aerospace and automotive structures by pairing joint-geometry design with data-driven process optimization.",
   "method": [
-    "Designed DDFW experiments with an L18 orthogonal array across friction pressure, forging pressure, spindle speed, faying-surface geometry, and friction time.",
-    "Tested a novel drilled-to-bossed geometry against conventional flat-to-flat joints to improve interlocking and weld integrity.",
-    "Trained deep learning models, including an ensemble residual network, compact attention network, and adaptive multiscale network, to predict ultimate tensile strength."
+    "L18 orthogonal array experiments on AA2024-T351 DDFW",
+    "Compared friction pressure, forging pressure, spindle speed, faying surface geometry, and friction time",
+    "Trained deep learning predictors, including an ensemble residual network, to estimate ultimate tensile strength"
   ],
-  "evidence_signal": "The best setting achieved 538 MPa tensile strength and 325 MPa torsional strength, and the top predictor reached an R² of about 0.81.",
-  "watch_item": "The predictive model performance is moderate rather than near-perfect, so broader validation on more data and conditions would be needed before deployment.",
+  "evidence_signal": "The best setting (30 MPa friction pressure, 70 MPa forging pressure, 2200 rpm, drilled-to-bossed geometry, 4 min) achieved 538 MPa tensile strength and 325 MPa torsional strength, while the best model reached about R² = 0.81.",
+  "watch_item": "The predictive model accuracy is only moderate, so broader validation on more welding conditions and independent test data would be needed before deployment.",
   "hashtags": [
     "#FrictionWelding",
-    "#AluminumAlloy",
+    "#AluminumAlloys",
     "#DeepLearning",
     "#ProcessOptimization",
-    "#ManufacturingAI"
+    "#AerospaceManufacturing"
   ],
   "paper_id": "2026-05-01-doaj-enhancing_weld_performance_of_aa2024_t351_using_drilled_to_bossed_geometry_and_deep_learni",
   "paper_title": "Enhancing weld performance of AA2024-T351 using drilled-to-bossed geometry and deep learning prediction in direct drive friction welding",
   "paper_date": "2026-05-01",
   "paper_category": "AI Process Optimization",
-  "generated_at": "2026-10-12T20:12:07",
+  "generated_at": "2026-10-13T18:04:29",
   "generator": "openai"
 }

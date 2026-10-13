@@ -1,24 +1,24 @@
 {
-  "key_insight": "Detonation-sprayed self-fluxing Ni–Cr–Fe–B–Si–C coatings can be tuned from low-friction to high-wear-resistance behavior by adjusting barrel filling, gas ratio, and inter-shot delay.",
-  "engineering_relevance": "The study provides a practical parameter map for optimizing surface restoration and strengthening of machine parts using detonation spraying.",
+  "key_insight": "Detonation-sprayed Ni–Cr–Fe–B–Si–C self-fluxing coatings can be tuned from low-friction to high-wear-resistance behavior by adjusting barrel filling, gas ratio, and inter-shot delay, but the best tribology depends on which performance target is prioritized.",
+  "engineering_relevance": "This provides a practical process window for restoring and hardening machine parts with coatings that balance density, hardness, roughness, and wear resistance.",
   "method": [
-    "Varied barrel filling level from 48–68%.",
-    "Adjusted working-gas molar ratio (O/C = 1.026–1.856) and inter-shot delay (0–1 s).",
-    "Compared coating microstructure, roughness, hardness, friction, and wear response."
+    "Varied detonation-spraying conditions: barrel filling level (48–68%), O/C ratio (1.026–1.856), and inter-shot delay (0–1 s).",
+    "Characterized coating morphology, thickness, porosity/cracking, roughness, hardness, friction, and specific wear rate.",
+    "Compared trade-offs between dense low-porosity deposition and microcrack formation under higher loading conditions."
   ],
-  "evidence_signal": "Experiments showed the lowest friction at 48% filling and O/C = 1.026, while the best wear resistance occurred at O/C = 1.856 with 1 s delay, reducing specific wear rate to 0.000189 mm³/(N·m).",
-  "watch_item": "Lower-friction settings increased wear, so the operating point must be chosen as a trade-off rather than a single-parameter optimum.",
+  "evidence_signal": "The abstract reports quantitative evaluation of friction, wear rate, roughness, and hardness, including a minimum friction coefficient of 0.674 ± 0.136, a wear rate as low as 0.000189 mm³/(N·m), Ra reduction from 5.00 to 3.60 μm, and hardness up to 905.6 HV.",
+  "watch_item": "Optimizing for lower friction can increase wear, so implementation should not rely on a single metric without matching the coating to the service environment.",
   "hashtags": [
     "#DetonationSpraying",
-    "#NiCoatings",
-    "#Tribology",
+    "#Coatings",
+    "#WearResistance",
     "#SurfaceEngineering",
-    "#CoatingMicrostructure"
+    "#MaterialsProcessing"
   ],
   "paper_id": "2026-09-30-openalex-development_of_a_method_for_producing_self_fluxing_nickel_based_coatings_by_detonation_spr",
   "paper_title": "Development of a Method for Producing Self-Fluxing Nickel-Based Coatings by Detonation Spraying",
   "paper_date": "2026-09-30",
   "paper_category": "Coating Microstructure",
-  "generated_at": "2026-10-12T20:11:52",
+  "generated_at": "2026-10-13T18:04:11",
   "generator": "openai"
 }

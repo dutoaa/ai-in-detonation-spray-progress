@@ -1,0 +1,24 @@
+{
+  "key_insight": "Validated RFSSW settings for AA6061-T6/AZ31B-H24 show that joint performance is governed by a tradeoff between higher heat input and preserving a solid-state bond window.",
+  "engineering_relevance": "The study provides a practical process window for lightweight Al–Mg dissimilar joining in transport and aerospace, where avoiding brittle intermetallic growth is critical.",
+  "method": [
+    "Built a 2D axisymmetric, fully coupled thermomechanical FEM model in Simufact Forming 2025.2",
+    "Varied tool rotational speed, sleeve penetration depth, and welding time across the RFSSW process window",
+    "Validated simulated thermal peaks against embedded thermocouples and infrared thermography"
+  ],
+  "evidence_signal": "Measured and predicted peak temperatures agreed within about 5%, and lap-shear testing showed a maximum load of 3.08 kN with best strength-toughness balance at 2.6 mm penetration and 4 s welding time.",
+  "watch_item": "At the hottest settings, local interfacial temperatures can enter the Al–Mg eutectic range, so parameter increases risk transient liquation and brittle intermetallic formation.",
+  "hashtags": [
+    "#RFSSW",
+    "#AlMgJoining",
+    "#FiniteElementModeling",
+    "#ProcessOptimization",
+    "#MaterialsEngineering"
+  ],
+  "paper_id": "2026-10-12-openalex-process_parameter_optimization_in_refill_friction_stir_spot_welding_of_6061_t6_aluminum_al",
+  "paper_title": "Process Parameter Optimization in Refill Friction Stir Spot Welding of 6061-T6 Aluminum Alloy and AZ31B-H24 Magnesium Alloy Dissimilar Joints",
+  "paper_date": "2026-10-12",
+  "paper_category": "AI Process Optimization",
+  "generated_at": "2026-10-13T18:03:51",
+  "generator": "openai"
+}

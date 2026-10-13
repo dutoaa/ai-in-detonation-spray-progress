@@ -1,13 +1,13 @@
 {
-  "key_insight": "Among WC-10Co-4Cr coatings, higher-velocity spray processes produced denser, harder coatings with better wear and corrosion performance than atmospheric plasma spraying.",
-  "engineering_relevance": "For wear- and corrosion-critical components, HVOF and HVAF emerge as the strongest coating choices on 304 stainless steel in this study.",
+  "key_insight": "Among WC-10Co-4Cr coatings, HVAF and HVOF deliver the best overall wear performance, while HVAF provides the strongest corrosion resistance.",
+  "engineering_relevance": "Thermal spray process selection strongly controls coating hardness, wear rate, friction, and corrosion behavior on stainless-steel substrates.",
   "method": [
     "Prepared WC-10Co-4Cr coatings on 304 stainless steel using APS, DS, HVOF, and HVAF.",
-    "Compared microstructure, hardness, wear behavior, and electrochemical corrosion resistance.",
-    "Ranked performance across spray routes to identify the best process windows."
+    "Compared microstructure, Vickers hardness, tribological behavior, and electrochemical corrosion performance.",
+    "Ranked coating performance across wear and corrosion to identify process-dependent tradeoffs."
   ],
-  "evidence_signal": "Hardness increased from 771.4 HV (APS) to about 1166 HV (HVOF/HVAF), while wear rate dropped from 36.82×10^-5 mm3/N·m for bare steel to 1.10–1.17×10^-5 for HVOF/HVAF coatings; HVAF also showed the best corrosion metrics.",
-  "watch_item": "Results are process- and parameter-dependent, so the reported ranking may shift with spray settings, substrate condition, or service environment.",
+  "evidence_signal": "Hardness increased from APS to HVOF/HVAF (771.4 to about 1162-1166 HV), wear rate dropped sharply versus 304 steel, and HVAF showed the best corrosion metrics (Ecorr -0.37 VSCE, Icorr 1.75 μA/cm², Rp 20438.5 Ω).",
+  "watch_item": "Performance rankings come from a specific substrate, coating composition, and test condition set, so process optimization may not transfer directly to other alloys or service environments.",
   "hashtags": [
     "#ThermalSpray",
     "#WCCoCr",
@@ -19,6 +19,6 @@
   "paper_title": "Microstructure, Wear and Corrosion Resistances of Atmospheric Plasma, Detonation, High Velocity Oxy-fuel and High Velocity Air-fuel Sprayed WC-10Co-4Cr Cemented Carbide Coatings",
   "paper_date": "2026-09-01",
   "paper_category": "Thermal Spray Coatings",
-  "generated_at": "2026-10-12T20:11:37",
+  "generated_at": "2026-10-13T18:03:54",
   "generator": "openai"
 }
