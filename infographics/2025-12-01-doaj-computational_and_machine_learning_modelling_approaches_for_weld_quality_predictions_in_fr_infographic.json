@@ -1,24 +1,24 @@
 {
-  "key_insight": "A coupled CEL simulation plus ANN surrogate can accurately predict and optimize friction stir welding quality in HDPE, especially when bottom preheating stabilizes heat flow and axial force.",
-  "engineering_relevance": "The study offers a practical process-map for selecting spindle speed, traverse speed, and preheat settings to reduce defects and improve joint consistency in thermoplastic welding.",
+  "key_insight": "A coupled CEL simulation and ANN models together can accurately predict weld temperature, axial force, and defect formation in HDPE friction stir welding, enabling fast identification of defect-free process windows.",
+  "engineering_relevance": "The workflow provides a practical route to optimize thermoplastic weld quality by balancing rotational speed, welding speed, and bottom preheating to reduce wormholes and stabilize welding forces.",
   "method": [
-    "3D coupled Eulerian-Lagrangian (CEL) model for thermal-mechanical FSW behavior",
-    "Two multilayer perceptron ANNs trained on experimental temporal temperature and force data",
-    "Process-window mapping across rotational speed, welding speed, and bottom preheating conditions"
+    "3D coupled Eulerian-Lagrangian (CEL) model for thermal-mechanical welding simulation",
+    "Two multilayer perceptron ANNs trained on experimental data for temperature and axial-force prediction",
+    "Process-map generation across rotational speed, travel speed, and preheating conditions"
   ],
-  "evidence_signal": "The ANN models achieved strong predictive performance with R2 values between 0.91 and 0.99, while CEL results matched experiments for void formation, temperature, and force trends.",
-  "watch_item": "The workflow is validated on a limited HDPE parameter space, so performance may drop when transferred to other polymers, tool geometries, or broader operating ranges.",
+  "evidence_signal": "The ANN models achieved strong agreement with experiments, with reported R2 values between 0.91 and 0.99, and the CEL model matched observed void formation and thermal-mechanical behavior.",
+  "watch_item": "The process map is based on a limited experimental parameter space, so broader validation is needed before generalizing to other HDPE grades, thicknesses, or tool geometries.",
   "hashtags": [
     "#FrictionStirWelding",
+    "#HDPE",
     "#MachineLearning",
     "#ComputationalModeling",
-    "#PolymerJoining",
     "#ProcessOptimization"
   ],
   "paper_id": "2025-12-01-doaj-computational_and_machine_learning_modelling_approaches_for_weld_quality_predictions_in_fr",
   "paper_title": "Computational and machine learning modelling approaches for weld quality predictions in friction stir welding of high-density polyethylene",
   "paper_date": "2025-12-01",
   "paper_category": "AI Process Optimization",
-  "generated_at": "2026-10-13T18:03:45",
+  "generated_at": "2026-10-14T15:45:19",
   "generator": "openai"
 }

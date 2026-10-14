@@ -1,13 +1,13 @@
 {
-  "key_insight": "UNSM changed hardness in Cr3C2–NiCr coatings in a strongly sample-dependent way, with detonation-sprayed coatings remaining more tightly clustered in hardness than HVOF coatings.",
-  "engineering_relevance": "The results suggest UNSM can tune near-surface mechanical properties of thermal-spray coatings, but performance must be judged alongside local damage and surface integrity, not hardness alone.",
+  "key_insight": "UNSM changed the local hardness of Cr3C2–NiCr coatings in a strongly sample-dependent way, with DS coatings reaching 820–970 HV and HVOF coatings spanning a wider 546–1165 HV range.",
+  "engineering_relevance": "The study suggests surface modification can improve or redistribute near-surface mechanical response in thermal-sprayed wear coatings, but process condition and coating route must be optimized individually.",
   "method": [
-    "Detonation-sprayed and HVOF Cr3C2–NiCr coatings were post-treated by UNSM.",
-    "Two static loads were used: 20 N and 30 N, with vibration amplitudes of 20 μm and 30 μm.",
-    "Hardness was measured by instrumented indentation at 300 mN/10 s, and post-scratch SEM morphology was examined."
+    "Detonation-sprayed (DS) and HVOF Cr3C2–NiCr coatings were treated by ultrasonic nanocrystal surface modification.",
+    "Four treated samples per deposition route were tested using two static loads (20 and 30 N) and two vibration amplitudes (20 and 30 µm).",
+    "Instrumental hardness was measured at 300 mN / 10 s, and post-scratch morphology was examined by SEM."
   ],
-  "evidence_signal": "Measured hardness ranged from 820–970 HV for DS coatings and 546–1165 HV for HVOF coatings, with crack-like and heterogeneous SEM features observed after scratching.",
-  "watch_item": "The abstract does not isolate whether observed morphology changes are caused by UNSM or by scratch testing, so scratch resistance ranking should be treated cautiously.",
+  "evidence_signal": "The abstract reports hardness values and SEM post-scratch observations for the treated samples, with the highest hardness seen in DS-T1 at 20 N/20 µm and HVOF-T4 at 30 N/30 µm.",
+  "watch_item": "The SEM findings are qualitative and do not isolate UNSM-induced damage or establish a definitive scratch-resistance ranking.",
   "hashtags": [
     "#ThermalSpray",
     "#UNSM",
@@ -19,6 +19,6 @@
   "paper_title": "HARDNESS AND POST-SCRATCH SURFACE MORPHOLOGY OF Cr₃C₂–NiCr COATINGS AFTER ULTRASONIC NANOCRYSTAL SURFACE MODIFICATION",
   "paper_date": "2026-09-29",
   "paper_category": "Detonation Spray Process",
-  "generated_at": "2026-10-13T18:04:34",
+  "generated_at": "2026-10-14T15:46:13",
   "generator": "openai"
 }

@@ -1,24 +1,24 @@
 {
-  "key_insight": "Validated RFSSW settings for AA6061-T6/AZ31B-H24 show that joint performance is governed by a tradeoff between higher heat input and preserving a solid-state bond window.",
-  "engineering_relevance": "The study provides a practical process window for lightweight Al–Mg dissimilar joining in transport and aerospace, where avoiding brittle intermetallic growth is critical.",
+  "key_insight": "A validated RFSSW parameter window for AA6061-T6/AZ31B-H24 shows that increasing tool penetration and weld time raises temperature and lap-shear strength, but the best strength-toughness balance occurs at an intermediate setting rather than the maximum load condition.",
+  "engineering_relevance": "The results provide a practical process map for joining aluminum-to-magnesium lightweight structures while controlling brittle Al–Mg intermetallic formation in transport and aerospace applications.",
   "method": [
-    "Built a 2D axisymmetric, fully coupled thermomechanical FEM model in Simufact Forming 2025.2",
-    "Varied tool rotational speed, sleeve penetration depth, and welding time across the RFSSW process window",
-    "Validated simulated thermal peaks against embedded thermocouples and infrared thermography"
+    "Built a 2D axisymmetric, fully coupled thermomechanical finite element model in Simufact Forming 2025.2.",
+    "Validated simulated thermal histories with embedded thermocouples and infrared thermography.",
+    "Correlated rotational speed, sleeve penetration depth, and welding time with peak temperature and lap-shear performance."
   ],
-  "evidence_signal": "Measured and predicted peak temperatures agreed within about 5%, and lap-shear testing showed a maximum load of 3.08 kN with best strength-toughness balance at 2.6 mm penetration and 4 s welding time.",
-  "watch_item": "At the hottest settings, local interfacial temperatures can enter the Al–Mg eutectic range, so parameter increases risk transient liquation and brittle intermetallic formation.",
+  "evidence_signal": "Model and measurements agreed within about 5% at 5 mm from the weld center, with peaks of 168 °C at 4 s and 216 °C at 6 s, and the strongest joint reached 3.08 kN.",
+  "watch_item": "The process window must be tuned carefully because the hottest conditions can locally enter the Al–Mg eutectic range, increasing the risk of transient liquation and interfacial brittleness.",
   "hashtags": [
-    "#RFSSW",
-    "#AlMgJoining",
-    "#FiniteElementModeling",
+    "#FrictionStirWelding",
+    "#AluminumMagnesium",
     "#ProcessOptimization",
-    "#MaterialsEngineering"
+    "#ThermomechanicalModeling",
+    "#LightweightStructures"
   ],
   "paper_id": "2026-10-12-openalex-process_parameter_optimization_in_refill_friction_stir_spot_welding_of_6061_t6_aluminum_al",
   "paper_title": "Process Parameter Optimization in Refill Friction Stir Spot Welding of 6061-T6 Aluminum Alloy and AZ31B-H24 Magnesium Alloy Dissimilar Joints",
   "paper_date": "2026-10-12",
   "paper_category": "AI Process Optimization",
-  "generated_at": "2026-10-13T18:03:51",
+  "generated_at": "2026-10-14T15:45:30",
   "generator": "openai"
 }

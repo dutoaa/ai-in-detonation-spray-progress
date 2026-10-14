@@ -1,24 +1,24 @@
 {
-  "key_insight": "Magnetic Barkhausen noise and thermoelectric power both track storage-related changes in flux-cored welding wires, making them promising non-destructive indicators of consumable degradation.",
-  "engineering_relevance": "These measurements could help welding engineers decide whether stored flux-cored wires remain fit for use before they are deployed in production.",
+  "key_insight": "Storage conditions measurably alter the magnetic and thermoelectric signatures of rutile flux-cored welding wires, enabling non-destructive assessment of degradation risk.",
+  "engineering_relevance": "These results suggest a practical quality-control path for deciding whether stored consumables remain suitable for industrial welding use.",
   "method": [
-    "Stored rutile flux-cored wires in four environments for 3, 6, and 12 months",
-    "Checked visual condition, then measured Seebeck coefficient, bulk magnetic properties, and Magnetic Barkhausen Noise",
-    "Compared storage-time trends and correlations between magnetic and thermoelectric indicators"
+    "Stored wires in four environments for 3, 6, and 12 months",
+    "Measured Seebeck coefficient and bulk magnetic properties, including Magnetic Barkhausen Noise",
+    "Compared parameter changes with visual inspection and statistical correlation analysis"
   ],
-  "evidence_signal": "The abstract reports strong correlations between magnetic and thermoelectric parameters, with some exceeding 0.9 and the MBN Amplitude-to-Envelope Ratio vs. SC reaching r = 0.99 in two environments.",
-  "watch_item": "The approach needs validation beyond the studied wire type and storage conditions before it can be used as a general industrial acceptance test.",
+  "evidence_signal": "Visual checks showed acceptable surface condition, while MBN amplitude, MBN envelope area, and thermoelectric response changed with time and environment, with correlations above 0.9 in some cases.",
+  "watch_item": "The approach is promising, but field implementation will need calibration for environment-specific effects and validation across wire types and storage conditions.",
   "hashtags": [
-    "#Welding",
+    "#WeldingProcesses",
     "#FluxCoredWire",
-    "#NDT",
     "#MagneticBarkhausenNoise",
-    "#Thermoelectric"
+    "#Thermoelectric",
+    "#ConditionMonitoring"
   ],
   "paper_id": "2026-10-11-openalex-feasibility_study_of_using_magnetic_and_thermoelectric_methods_for_the_assessment_of_stora",
   "paper_title": "Feasibility study of using magnetic and thermoelectric methods for the assessment of storage-induced changes in flux-cored welding wires",
   "paper_date": "2026-10-11",
   "paper_category": "Welding Processes",
-  "generated_at": "2026-10-13T18:03:42",
+  "generated_at": "2026-10-14T15:45:16",
   "generator": "openai"
 }
