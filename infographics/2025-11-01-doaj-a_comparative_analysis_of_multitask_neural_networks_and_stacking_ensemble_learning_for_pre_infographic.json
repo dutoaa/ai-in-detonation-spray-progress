@@ -1,13 +1,13 @@
 {
-  "key_insight": "Stacking ensembles produced more accurate task-specific predictions than the multitask neural network for UTS, weld hardness, and HAZ hardness, while MTNN offered stronger shared-learning generalization across related outputs.",
-  "engineering_relevance": "For welding process optimization, these models can help estimate mechanical properties from shared process data, supporting faster parameter selection and improved weld quality control.",
+  "key_insight": "Stacking ensemble learning delivered the most accurate task-specific predictions, while multitask neural networks provided strong shared-learning performance across the related welding outputs.",
+  "engineering_relevance": "The study helps welding engineers choose between a shared-model approach for correlated quality metrics and a higher-accuracy ensemble approach for individual property prediction.",
   "method": [
     "Compared a multitask neural network (shared hidden layers with task-specific outputs) against stacking ensemble learning.",
-    "Predicted three welding response variables: UTS, weld hardness, and HAZ hardness.",
-    "Evaluated performance using RMSE and R² on the same dataset."
+    "Predicted three welding properties: UTS, weld hardness, and HAZ hardness.",
+    "Evaluated both models using RMSE and R² on the same shared dataset."
   ],
-  "evidence_signal": "MTNN achieved RMSE/R² of 0.1288/0.6724 for UTS, 0.0886/0.9215 for weld hardness, and 0.1125/0.8407 for HAZ hardness, while stacking improved to 0.0263/0.9863, 0.0467/0.9782, and 0.1109/0.8453, respectively.",
-  "watch_item": "The study is based on a shared dataset, so model performance may depend on dataset size, feature quality, and how well the training data represent unseen welding conditions.",
+  "evidence_signal": "Stacking achieved lower RMSE and higher R² for all three targets in most cases, with especially strong results for UTS (RMSE 0.0263, R² 0.9863) and weld hardness (RMSE 0.0467, R² 0.9782).",
+  "watch_item": "Performance is reported on a shared dataset, so practical deployment should verify generalization on new welding conditions, materials, and process settings.",
   "hashtags": [
     "#WeldingAI",
     "#MultitaskLearning",
@@ -19,6 +19,6 @@
   "paper_title": "A Comparative Analysis of Multitask Neural Networks and Stacking Ensemble Learning for Predicting UTS, Weld Hardness, and HAZ Hardness in Welding Applications",
   "paper_date": "2025-11-01",
   "paper_category": "AI Process Optimization",
-  "generated_at": "2026-10-14T15:45:53",
+  "generated_at": "2026-10-15T15:33:24",
   "generator": "openai"
 }

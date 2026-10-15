@@ -1,24 +1,24 @@
 {
-  "key_insight": "Detonation-sprayed Ni–Cr–Fe–B–Si–C self-fluxing coatings show a clear process trade-off: lower barrel fill reduces friction and porosity, while higher O/C ratio and longer inter-shot delay improve wear resistance and hardness.",
-  "engineering_relevance": "These results provide process windows for designing durable restorative and wear-protective coatings for machine components, where surface finish, hardness, and wear life must be balanced.",
+  "key_insight": "Detonation-sprayed self-fluxing Ni–Cr–Fe–B–Si–C coatings can be tuned from low-friction to high-wear-resistance behavior by adjusting barrel fill, gas ratio, and inter-shot delay.",
+  "engineering_relevance": "The study provides process windows for restoring and strengthening machine parts with coatings that balance hardness, porosity, surface roughness, and tribological performance.",
   "method": [
-    "Varied barrel filling level: 48–68%",
-    "Varied working-gas molar ratio O/C: 1.026–1.856",
-    "Varied inter-shot delay: 0–1 s"
+    "Varied barrel filling level from 48–68%.",
+    "Adjusted working-gas molar ratio (O/C = 1.026–1.856).",
+    "Changed inter-shot delay from 0 to 1 s and compared coating microstructure, hardness, roughness, friction, and wear."
   ],
-  "evidence_signal": "Performance was evaluated through microstructure, roughness, hardness, friction, and wear tests, with the best wear rate reaching 0.000189 mm³/(N·m) and hardness up to 905.6 HV.",
-  "watch_item": "Optimizing for low friction can increase wear, and higher filling levels may induce residual-stress-driven microcracking, so parameter tuning must be application-specific.",
+  "evidence_signal": "At 48% barrel fill and O/C = 1.026 the coating reached the lowest friction (μ = 0.674 ± 0.136), while O/C = 1.856 with up to 1 s delay gave the best wear resistance (specific wear rate = 0.000189 mm³/(N·m)) and Ra dropped from 5.00 to 3.60 μm with longer delay.",
+  "watch_item": "Optimizing for low friction can increase wear, so parameter selection requires a trade-off and may not transfer directly without matching spray equipment and part geometry.",
   "hashtags": [
     "#DetonationSpraying",
-    "#CoatingMicrostructure",
-    "#WearResistance",
+    "#NiBasedCoatings",
+    "#Tribology",
     "#SurfaceEngineering",
-    "#MaterialsProcessing"
+    "#MachineComponents"
   ],
   "paper_id": "2026-09-30-openalex-development_of_a_method_for_producing_self_fluxing_nickel_based_coatings_by_detonation_spr",
   "paper_title": "Development of a Method for Producing Self-Fluxing Nickel-Based Coatings by Detonation Spraying",
   "paper_date": "2026-09-30",
   "paper_category": "Coating Microstructure",
-  "generated_at": "2026-10-14T15:45:47",
+  "generated_at": "2026-10-15T15:33:17",
   "generator": "openai"
 }
