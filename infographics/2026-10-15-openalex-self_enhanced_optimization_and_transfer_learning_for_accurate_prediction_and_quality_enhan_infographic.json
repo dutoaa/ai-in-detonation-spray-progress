@@ -1,0 +1,24 @@
+{
+  "key_insight": "A transfer-learning model combined with self-enhanced optimization improves friction stir welding prediction by tuning process parameters for more accurate quality and strength estimation.",
+  "engineering_relevance": "The approach can help engineers set welding speed, rotational speed, and axial force more effectively to reduce defects and improve surface finish or tensile performance.",
+  "method": [
+    "GoogleNet-based transfer learning model (GNTL) for FSW prediction",
+    "Self-Enhanced Motherhood Optimization (SE-MO) to optimize process variables",
+    "Two task-specific datasets: AA7075-T651 surface roughness and AA6061 ultimate tensile strength"
+  ],
+  "evidence_signal": "The abstract reports low errors for TL-FSW, with MAE of 0.1678 and 0.1574 and MAPE of 0.014 and 0.012 at 60% and 90% training splits, respectively.",
+  "watch_item": "The reported performance appears dataset-specific, so broader validation across more alloys, joints, and operating conditions is needed before general deployment.",
+  "hashtags": [
+    "#FrictionStirWelding",
+    "#TransferLearning",
+    "#Optimization",
+    "#MaterialsEngineering",
+    "#WeldingAI"
+  ],
+  "paper_id": "2026-10-15-openalex-self_enhanced_optimization_and_transfer_learning_for_accurate_prediction_and_quality_enhan",
+  "paper_title": "Self-enhanced optimization and transfer learning for accurate prediction and quality enhancement in friction stir welding",
+  "paper_date": "2026-10-15",
+  "paper_category": "Coating Microstructure",
+  "generated_at": "2026-10-16T15:19:33",
+  "generator": "openai"
+}

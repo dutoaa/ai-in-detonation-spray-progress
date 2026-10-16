@@ -1,24 +1,24 @@
 {
-  "key_insight": "Detonation-sprayed self-fluxing Ni–Cr–Fe–B–Si–C coatings can be tuned from low-friction to high-wear-resistance behavior by adjusting barrel fill, gas ratio, and inter-shot delay.",
-  "engineering_relevance": "The study provides process windows for restoring and strengthening machine parts with coatings that balance hardness, porosity, surface roughness, and tribological performance.",
+  "key_insight": "Detonation-spray settings strongly control the trade-off between coating density/roughness, friction, and wear in self-fluxing Ni–Cr–Fe–B–Si–C coatings.",
+  "engineering_relevance": "The study provides process windows for restoring and strengthening machine parts by tuning spraying parameters to target either lower friction or higher wear resistance.",
   "method": [
-    "Varied barrel filling level from 48–68%.",
-    "Adjusted working-gas molar ratio (O/C = 1.026–1.856).",
-    "Changed inter-shot delay from 0 to 1 s and compared coating microstructure, hardness, roughness, friction, and wear."
+    "Varied barrel filling level from 48–68%",
+    "Adjusted working-gas molar ratio (O/C = 1.026–1.856)",
+    "Changed inter-shot delay from 0 to 1 s"
   ],
-  "evidence_signal": "At 48% barrel fill and O/C = 1.026 the coating reached the lowest friction (μ = 0.674 ± 0.136), while O/C = 1.856 with up to 1 s delay gave the best wear resistance (specific wear rate = 0.000189 mm³/(N·m)) and Ra dropped from 5.00 to 3.60 μm with longer delay.",
-  "watch_item": "Optimizing for low friction can increase wear, so parameter selection requires a trade-off and may not transfer directly without matching spray equipment and part geometry.",
+  "evidence_signal": "Testing showed the lowest friction at 48% barrel fill and O/C = 1.026 (μ = 0.674 ± 0.136), while the best wear resistance occurred at O/C = 1.856 with 1 s delay, reducing specific wear rate to 0.000189 mm³/(N·m).",
+  "watch_item": "Lower friction conditions did not necessarily give the best durability, so parameter selection must balance tribology goals against residual-stress-driven cracking and wear.",
   "hashtags": [
     "#DetonationSpraying",
-    "#NiBasedCoatings",
+    "#CoatingMicrostructure",
+    "#SelfFluxingCoatings",
     "#Tribology",
-    "#SurfaceEngineering",
-    "#MachineComponents"
+    "#SurfaceEngineering"
   ],
   "paper_id": "2026-09-30-openalex-development_of_a_method_for_producing_self_fluxing_nickel_based_coatings_by_detonation_spr",
   "paper_title": "Development of a Method for Producing Self-Fluxing Nickel-Based Coatings by Detonation Spraying",
   "paper_date": "2026-09-30",
   "paper_category": "Coating Microstructure",
-  "generated_at": "2026-10-15T15:33:17",
+  "generated_at": "2026-10-16T15:19:45",
   "generator": "openai"
 }

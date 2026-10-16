@@ -1,0 +1,24 @@
+{
+  "key_insight": "A physics-grounded digital twin can rapidly screen in-space robotic welding settings and controller actions before costly flight-like experiments.",
+  "engineering_relevance": "The framework de-risks metal joining for space assembly and repair by combining a thermal weld-pool model, surrogate models, and robot simulation to predict seam quality under constrained conditions.",
+  "method": [
+    "Finite-volume thermal model with solid-liquid phase change, thermocapillary transport, and a local-pressure term.",
+    "Gaussian-process and neural-network surrogates trained and validated with repeated five-fold cross-validation.",
+    "Simulated six-axis UR5 welding study with a proportional controller adjusting power-source settings along an L-shaped seam."
+  ],
+  "evidence_signal": "Across repeated five-fold cross-validation, the GP outperformed the neural network on all eight outputs; in 10 held-out boundary cases, 74/80 solver responses fell within nominal 90% GP predictive intervals.",
+  "watch_item": "The results are simulation-based and still need thermal-vacuum, reduced-gravity, and hardware-in-the-loop testing to confirm real-world robustness.",
+  "hashtags": [
+    "#DigitalTwin",
+    "#RoboticWelding",
+    "#SpaceManufacturing",
+    "#GaussianProcess",
+    "#ProcessOptimization"
+  ],
+  "paper_id": "2026-10-15-arxiv-de_risking_robotic_welding_for_in_space_metal_joining_through_physics_grounded_digital_twi",
+  "paper_title": "De-Risking Robotic Welding for In-Space Metal Joining Through Physics-Grounded Digital Twins",
+  "paper_date": "2026-10-15",
+  "paper_category": "AI Process Optimization",
+  "generated_at": "2026-10-16T15:19:25",
+  "generator": "openai"
+}

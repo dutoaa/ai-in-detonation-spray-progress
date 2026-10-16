@@ -1,0 +1,24 @@
+{
+  "key_insight": "HTP-Net improves dense welding stub counting by preserving fine boundaries and topology while separating heavily overlapping slender instances.",
+  "engineering_relevance": "The method enables more reliable warehouse inventory and morphological measurement of welding electrodes and wire stubs in factory vision systems.",
+  "method": [
+    "Wavelet-Driven Edge-Preserving module keeps subtle boundaries during downsampling.",
+    "Long-Range Topology Representation Block models global context to avoid broken slender masks.",
+    "Orientation-Driven Instance Segmentation Head uses rotation-aware priors to reduce NMS conflicts and mask overlap."
+  ],
+  "evidence_signal": "On custom and public dense-slender-target datasets, the model improves mAP50 by at least 1.2% and up to 55.3%, and the deployed system reports 99% accuracy for electrodes and 94% for wire stubs in factory testing.",
+  "watch_item": "Real-world deployment may still depend on consistent imaging conditions and calibration, since dense overlap and boundary ambiguity remain challenging in industrial scenes.",
+  "hashtags": [
+    "#WeldingAI",
+    "#InstanceSegmentation",
+    "#IndustrialVision",
+    "#TopologyPreserving",
+    "#MachineVision"
+  ],
+  "paper_id": "2026-10-15-openalex-high_resolution_topology_preserving_instance_segmentation_network_for_vision_based_measure",
+  "paper_title": "High-resolution topology-preserving instance segmentation network for vision-based measurement system of dense welding material stubs",
+  "paper_date": "2026-10-15",
+  "paper_category": "Welding Processes",
+  "generated_at": "2026-10-16T15:19:22",
+  "generator": "openai"
+}
