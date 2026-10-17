@@ -1,24 +1,24 @@
 {
-  "key_insight": "HTP-Net improves dense welding stub counting by preserving fine boundaries and topology while separating heavily overlapping slender instances.",
-  "engineering_relevance": "The method enables more reliable warehouse inventory and morphological measurement of welding electrodes and wire stubs in factory vision systems.",
+  "key_insight": "HTP-Net improves dense welding-stub segmentation by preserving fine edges, global topology, and object orientation to reduce missed detections and overlapping masks.",
+  "engineering_relevance": "The model enables more reliable warehouse counting and morphological inspection of welding electrodes and wire stubs in real factory settings.",
   "method": [
-    "Wavelet-Driven Edge-Preserving module keeps subtle boundaries during downsampling.",
-    "Long-Range Topology Representation Block models global context to avoid broken slender masks.",
-    "Orientation-Driven Instance Segmentation Head uses rotation-aware priors to reduce NMS conflicts and mask overlap."
+    "WEP module keeps subtle boundaries through wavelet-based downsampling.",
+    "LTR-Block adds long-range context to preserve topology in slender, crowded targets.",
+    "ODI-Seg uses rotational priors to reduce NMS errors and mask overlap."
   ],
-  "evidence_signal": "On custom and public dense-slender-target datasets, the model improves mAP50 by at least 1.2% and up to 55.3%, and the deployed system reports 99% accuracy for electrodes and 94% for wire stubs in factory testing.",
-  "watch_item": "Real-world deployment may still depend on consistent imaging conditions and calibration, since dense overlap and boundary ambiguity remain challenging in industrial scenes.",
+  "evidence_signal": "On custom and public dense-slender-target datasets, HTP-Net improved mAP50 by at least 1.2% and up to 55.3%, with deployed factory recognition accuracy reaching 99% for electrodes and 94% for wire stubs.",
+  "watch_item": "Performance may depend on careful deployment tuning for industrial imaging conditions, especially when target density, occlusion, or orientation varies from the training data.",
   "hashtags": [
-    "#WeldingAI",
+    "#WeldingInspection",
     "#InstanceSegmentation",
     "#IndustrialVision",
     "#TopologyPreserving",
-    "#MachineVision"
+    "#FactoryAutomation"
   ],
   "paper_id": "2026-10-15-openalex-high_resolution_topology_preserving_instance_segmentation_network_for_vision_based_measure",
   "paper_title": "High-resolution topology-preserving instance segmentation network for vision-based measurement system of dense welding material stubs",
   "paper_date": "2026-10-15",
   "paper_category": "Welding Processes",
-  "generated_at": "2026-10-16T15:19:22",
+  "generated_at": "2026-10-17T14:07:14",
   "generator": "openai"
 }

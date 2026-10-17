@@ -1,0 +1,24 @@
+{
+  "key_insight": "Activated TIG (A-TIG) cuts welding electricity use by about 40% versus conventional TIG, but it can increase photochemical ozone creation impacts because of methanol-based flux emissions and upstream production.",
+  "engineering_relevance": "For penetration-matched 304L stainless-steel welds, A-TIG offers a lower-energy path with environmental trade-offs, making flux design and parameter tuning critical for sustainable welding.",
+  "method": [
+    "Cradle-to-gate LCA in SimaPro 9.2 with Ecoinvent 3 datasets",
+    "Compared conventional TIG vs. TiO2-methanol A-TIG for 100 mm bead-on-plate welds",
+    "Assessed midpoint impacts with EPD 2018 and endpoint impacts with ReCiPe 2016; ran one-at-a-time sensitivity analysis (30 scenarios)"
+  ],
+  "evidence_signal": "The abstract reports lower acidification, eutrophication, and global warming impacts for A-TIG, nearly identical water scarcity, and a 68.1 percentage-point higher normalized POCP score, with the ranking unchanged across sensitivity tests.",
+  "watch_item": "Results are cradle-to-gate model estimates for bead-on-plate welds, so they may not directly transfer to industrial joint geometries or real occupational exposure conditions.",
+  "hashtags": [
+    "#WeldingLCA",
+    "#ATIG",
+    "#TIGWelding",
+    "#SustainableManufacturing",
+    "#LifeCycleAssessment"
+  ],
+  "paper_id": "2026-10-16-openalex-life_cycle_assessment_of_activated_tig_welding_energy_and_environmental_trade_offs_in_an_i",
+  "paper_title": "Life Cycle Assessment of Activated TIG Welding: Energy and Environmental Trade-offs in an Iranian Case Study with Sensitivity Analysis",
+  "paper_date": "2026-10-16",
+  "paper_category": "AI Process Optimization",
+  "generated_at": "2026-10-17T14:07:24",
+  "generator": "openai"
+}

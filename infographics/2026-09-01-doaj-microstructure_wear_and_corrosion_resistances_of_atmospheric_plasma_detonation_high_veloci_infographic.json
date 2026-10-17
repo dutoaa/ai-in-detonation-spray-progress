@@ -1,16 +1,16 @@
 {
-  "key_insight": "Among WC-10Co-4Cr thermal spray coatings, HVOF and HVAF produce the best wear performance, while HVAF delivers the strongest corrosion resistance.",
-  "engineering_relevance": "The study helps select spray processes for extending the life of stainless-steel components exposed to wear and corrosive environments.",
+  "key_insight": "Among WC-10Co-4Cr thermal-sprayed coatings, HVOF and HVAF produce the best overall balance of hardness, low wear, and corrosion resistance, with HVAF slightly leading in corrosion performance.",
+  "engineering_relevance": "For wear- and corrosion-critical components on stainless steel, spray route selection strongly affects coating density, carbide retention, and service life.",
   "method": [
-    "WC-10Co-4Cr coatings were deposited on 304 stainless steel using APS, detonation spraying, HVOF, and HVAF.",
-    "Microstructure, Vickers hardness, tribological behavior, and electrochemical corrosion performance were compared across the four processes.",
-    "Wear tracks and failure modes were examined to identify dominant mechanisms such as abrasive and fatigue wear."
+    "WC-10Co-4Cr coatings were deposited on 304 stainless steel using APS, DS, HVOF, and HVAF.",
+    "Microstructure, hardness, friction/wear, and electrochemical corrosion behavior were compared across all four processes.",
+    "Performance ranking was established from tribology and corrosion tests rather than a single metric."
   ],
-  "evidence_signal": "Compared with bare 304 stainless steel, all coatings increased hardness and reduced wear rate, with HVAF showing the lowest wear rate and best corrosion metrics in the abstract.",
-  "watch_item": "Results depend on the specific spray parameters and test conditions, so process optimization and adhesion/density checks are still needed before scale-up.",
+  "evidence_signal": "The abstract reports hardness increasing from APS to HVOF/HVAF, wear rate dropping from 7.93×10^-5 to about 1.10–1.17×10^-5 mm3/N·m, and HVAF giving the best corrosion metrics (Ecorr = -0.37 VSCE, Icorr = 1.75 μA/cm², Rp = 20438.5 Ω).",
+  "watch_item": "Results depend on the specific WC-10Co-4Cr system and test conditions, so process rankings may shift with feedstock, substrate, spray parameters, or service environment.",
   "hashtags": [
     "#ThermalSpray",
-    "#WC-CoCr",
+    "#WC10Co4Cr",
     "#WearResistance",
     "#CorrosionResistance",
     "#SurfaceEngineering"
@@ -19,6 +19,6 @@
   "paper_title": "Microstructure, Wear and Corrosion Resistances of Atmospheric Plasma, Detonation, High Velocity Oxy-fuel and High Velocity Air-fuel Sprayed WC-10Co-4Cr Cemented Carbide Coatings",
   "paper_date": "2026-09-01",
   "paper_category": "Thermal Spray Coatings",
-  "generated_at": "2026-10-16T15:19:35",
+  "generated_at": "2026-10-17T14:07:26",
   "generator": "openai"
 }
