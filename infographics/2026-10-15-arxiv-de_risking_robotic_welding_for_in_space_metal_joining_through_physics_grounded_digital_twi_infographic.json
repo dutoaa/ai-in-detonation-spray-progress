@@ -1,13 +1,13 @@
 {
-  "key_insight": "A physics-grounded digital twin can rapidly screen robotic in-space welding conditions and controller settings before costly flight-like experiments.",
-  "engineering_relevance": "This framework helps de-risk on-orbit metal joining by combining thermal weld-pool physics, surrogate models, and manipulator control for process planning and autonomy.",
+  "key_insight": "A physics-grounded digital twin can rapidly screen robotic welding settings and controller actions for in-space metal joining before expensive flight-like tests.",
+  "engineering_relevance": "This work helps de-risk on-orbit manufacturing by combining reduced-order thermal physics, surrogate models, and robot control to predict weld quality under constrained space-environment conditions.",
   "method": [
-    "Finite-volume thermal weld-pool model with solid-liquid phase change, thermocapillary transport, and local-pressure effects.",
+    "Finite-volume weld-pool thermal model with solid-liquid phase change, effective thermocapillary transport, and local-pressure effects.",
     "Gaussian-process and neural-network surrogates trained and validated with repeated five-fold cross-validation.",
-    "Simulated six-axis manipulator study with closed-loop control of synergic power during an L-shaped seam."
+    "Simulated six-axis manipulator study with closed-loop proportional control for a UR5 L-shaped seam."
   ],
-  "evidence_signal": "Across repeated five-fold cross-validation, the GP outperformed the neural network on all eight outputs, and 74/80 held-out solver responses fell within nominal 90% GP predictive intervals.",
-  "watch_item": "The results are simulation-based and still need thermal-vacuum, reduced-gravity, and hardware-in-the-loop validation before operational use.",
+  "evidence_signal": "Across 10 held-out boundary cases, 74 of 80 solver responses fell within nominal 90% GP predictive intervals, and the GP outperformed the neural network on all eight outputs in repeated cross-validation.",
+  "watch_item": "The controller and model are still simulation-based, so thermal-vacuum, reduced-gravity, and hardware-in-the-loop testing are needed before operational deployment.",
   "hashtags": [
     "#DigitalTwin",
     "#RoboticWelding",
@@ -19,6 +19,6 @@
   "paper_title": "De-Risking Robotic Welding for In-Space Metal Joining Through Physics-Grounded Digital Twins",
   "paper_date": "2026-10-15",
   "paper_category": "AI Process Optimization",
-  "generated_at": "2026-10-18T14:23:02",
+  "generated_at": "2026-10-18T21:18:27",
   "generator": "openai"
 }

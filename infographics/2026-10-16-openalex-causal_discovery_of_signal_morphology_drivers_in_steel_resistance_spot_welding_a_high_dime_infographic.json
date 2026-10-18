@@ -1,24 +1,24 @@
 {
-  "key_insight": "A two-phase causal discovery analysis found that steel resistance spot-weld signal morphology is driven mainly by alloying content, sheet thickness, and electrode geometry rather than by all stack-up details.",
-  "engineering_relevance": "These causal dependencies can help engineers interpret high-frequency weld signals and tune process settings for more robust quality control across diverse materials and configurations.",
+  "key_insight": "A two-phase causal discovery and clustering workflow revealed how welding stack-up factors drive resistance-weld signal morphology beyond simple correlations.",
+  "engineering_relevance": "The findings can help engineers interpret high-frequency spot-welding data, improve process setup across varying materials and geometries, and support more transferable quality monitoring.",
   "method": [
-    "Analyzed 15,096 representative time-series profiles from more than 1.8 million welds",
-    "Applied a two-phase causal discovery framework to infer structural signal drivers",
-    "Used time-series clustering to handle high-dimensional, multicollinear stack-up data"
+    "Causal discovery on high-dimensional time-series process signals",
+    "Time series clustering to group representative weld profiles",
+    "Analysis across heterogeneous stack-ups with different materials, coatings, thicknesses, and electrode guns"
   ],
-  "evidence_signal": "The study reports that increased alloying content shifts resistance peaks earlier and suppresses secondary peaks, thickness scales resistance/displacement/force amplitudes, and reducing tip face diameter from 8 to 6 mm raises the initial resistance peak by 9%.",
-  "watch_item": "The findings are derived from representative profiles and may still require validation before being generalized to new machines, materials, or production environments.",
+  "evidence_signal": "The study analyzed 15,096 representative profiles extracted from more than 1.8 million welds and linked stack-up variables to measurable changes in resistance, displacement, force, and peak timing.",
+  "watch_item": "Because the framework is data-rich and configuration-specific, deploying it reliably in new production settings may still require careful validation on unseen stack-up combinations.",
   "hashtags": [
-    "#ResistanceSpotWelding",
+    "#SpotWelding",
     "#CausalDiscovery",
+    "#TimeSeriesAnalysis",
     "#ManufacturingAI",
-    "#ProcessOptimization",
-    "#WeldingAnalytics"
+    "#ProcessOptimization"
   ],
   "paper_id": "2026-10-16-openalex-causal_discovery_of_signal_morphology_drivers_in_steel_resistance_spot_welding_a_high_dime",
   "paper_title": "Causal discovery of signal morphology drivers in steel resistance spot welding: a high-dimensional data analysis",
   "paper_date": "2026-10-16",
   "paper_category": "AI Process Optimization",
-  "generated_at": "2026-10-18T14:23:01",
+  "generated_at": "2026-10-18T21:18:25",
   "generator": "openai"
 }
