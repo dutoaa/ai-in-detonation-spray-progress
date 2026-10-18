@@ -1,24 +1,24 @@
 {
-  "key_insight": "HTP-Net improves dense welding-stub segmentation by preserving fine edges, global topology, and object orientation to reduce missed detections and overlapping masks.",
-  "engineering_relevance": "The model enables more reliable warehouse counting and morphological inspection of welding electrodes and wire stubs in real factory settings.",
+  "key_insight": "HTP-Net combines edge-preserving downsampling, global topology modeling, and orientation-aware instance segmentation to count dense welding stubs more accurately.",
+  "engineering_relevance": "The method supports factory-floor metrology and inventory management by improving detection, boundary precision, and robust counting of slender overlapping welding materials.",
   "method": [
-    "WEP module keeps subtle boundaries through wavelet-based downsampling.",
-    "LTR-Block adds long-range context to preserve topology in slender, crowded targets.",
-    "ODI-Seg uses rotational priors to reduce NMS errors and mask overlap."
+    "Wavelet-Driven Edge-Preserving module retains fine boundaries during downsampling.",
+    "Long-Range Topology Representation Block preserves connectivity for slender, disconnected-looking targets.",
+    "Orientation-Driven Instance Segmentation head reduces NMS errors and overlapping mask artifacts using rotation priors."
   ],
-  "evidence_signal": "On custom and public dense-slender-target datasets, HTP-Net improved mAP50 by at least 1.2% and up to 55.3%, with deployed factory recognition accuracy reaching 99% for electrodes and 94% for wire stubs.",
-  "watch_item": "Performance may depend on careful deployment tuning for industrial imaging conditions, especially when target density, occlusion, or orientation varies from the training data.",
+  "evidence_signal": "Across custom and public dense-slender-target datasets, the method improves mAP50 by at least 1.2% and up to 55.3%, and the deployed system reports 99% accuracy for electrodes and 94% for wire stubs.",
+  "watch_item": "Real-world deployment may depend on careful calibration to local lighting, occlusion, and product-shape variation in factory environments.",
   "hashtags": [
-    "#WeldingInspection",
+    "#WeldingAI",
     "#InstanceSegmentation",
     "#IndustrialVision",
-    "#TopologyPreserving",
-    "#FactoryAutomation"
+    "#DenseObjectDetection",
+    "#SmartManufacturing"
   ],
   "paper_id": "2026-10-15-openalex-high_resolution_topology_preserving_instance_segmentation_network_for_vision_based_measure",
   "paper_title": "High-resolution topology-preserving instance segmentation network for vision-based measurement system of dense welding material stubs",
   "paper_date": "2026-10-15",
   "paper_category": "Welding Processes",
-  "generated_at": "2026-10-17T14:07:14",
+  "generated_at": "2026-10-18T14:22:56",
   "generator": "openai"
 }

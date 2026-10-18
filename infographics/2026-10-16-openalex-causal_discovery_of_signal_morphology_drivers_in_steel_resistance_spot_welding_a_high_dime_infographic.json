@@ -1,24 +1,24 @@
 {
-  "key_insight": "A two-phase causal discovery and time-series clustering analysis reveals that weld signal morphology in resistance spot welding is driven mainly by material alloying, sheet thickness, and electrode tip size rather than by faying-surface count.",
-  "engineering_relevance": "The results provide physically interpretable process levers for improving weld monitoring and quality control across heterogeneous automotive stack-up configurations.",
+  "key_insight": "A two-phase causal discovery analysis found that steel resistance spot-weld signal morphology is driven mainly by alloying content, sheet thickness, and electrode geometry rather than by all stack-up details.",
+  "engineering_relevance": "These causal dependencies can help engineers interpret high-frequency weld signals and tune process settings for more robust quality control across diverse materials and configurations.",
   "method": [
-    "Causal discovery to separate structural drivers from correlated process effects",
-    "Time-series clustering of 15,096 representative profiles",
-    "Analysis of a dataset drawn from over 1.8 million welds"
+    "Analyzed 15,096 representative time-series profiles from more than 1.8 million welds",
+    "Applied a two-phase causal discovery framework to infer structural signal drivers",
+    "Used time-series clustering to handle high-dimensional, multicollinear stack-up data"
   ],
-  "evidence_signal": "The study analyzes 15,096 representative profiles extracted from more than 1.8 million welds, linking process variables to resistance, displacement, and force signal morphology.",
-  "watch_item": "Because the approach is data-driven and applied across multicollinear stack-ups, deployment should be checked carefully for domain shift across new materials, coatings, and gun setups.",
+  "evidence_signal": "The study reports that increased alloying content shifts resistance peaks earlier and suppresses secondary peaks, thickness scales resistance/displacement/force amplitudes, and reducing tip face diameter from 8 to 6 mm raises the initial resistance peak by 9%.",
+  "watch_item": "The findings are derived from representative profiles and may still require validation before being generalized to new machines, materials, or production environments.",
   "hashtags": [
     "#ResistanceSpotWelding",
     "#CausalDiscovery",
     "#ManufacturingAI",
-    "#ProcessMonitoring",
-    "#SteelWelding"
+    "#ProcessOptimization",
+    "#WeldingAnalytics"
   ],
   "paper_id": "2026-10-16-openalex-causal_discovery_of_signal_morphology_drivers_in_steel_resistance_spot_welding_a_high_dime",
   "paper_title": "Causal discovery of signal morphology drivers in steel resistance spot welding: a high-dimensional data analysis",
   "paper_date": "2026-10-16",
   "paper_category": "AI Process Optimization",
-  "generated_at": "2026-10-17T14:07:16",
+  "generated_at": "2026-10-18T14:23:01",
   "generator": "openai"
 }
