@@ -1,24 +1,26 @@
 {
-  "key_insight": "Ultrasonic nanocrystal surface modification raised hardness in Cr3C2–NiCr coatings, but the response depended strongly on deposition route and treatment settings.",
-  "engineering_relevance": "For wear-resistant thermal-sprayed coatings, UNSM can improve local mechanical performance, yet process optimization must be tailored separately for detonation-sprayed and HVOF deposits.",
+  "key_insight": "UNSM-treated Cr₃C₂–NiCr coatings showed sample-dependent hardness, with different peak-hardness treatment settings for detonation-sprayed and HVOF deposits.",
+  "engineering_relevance": "Treatment selection should consider both local hardness and surface integrity rather than assume that higher hardness guarantees better scratch resistance.",
   "method": [
-    "Compared detonation-sprayed and HVOF Cr3C2–NiCr coatings after UNSM.",
-    "Varied static load (20, 30 N) and vibration amplitude (20, 30 μm) across four treated samples per route.",
-    "Measured hardness with nanoindentation-like instrumental testing at 300 mN and examined post-scratch SEM morphology."
+    "Evaluate four UNSM-treated samples per deposition route at static loads of 20 or 30 N and vibration amplitudes of 20 or 30 µm.",
+    "Measure instrumental hardness at 300 mN with a 10 s dwell.",
+    "Examine post-scratch surfaces using SEM."
   ],
-  "evidence_signal": "Hardness ranged from 820–970 HV for DS samples and 546–1165 HV for HVOF samples, with the highest values at DS-T1 (20 N/20 μm) and HVOF-T4 (30 N/30 μm).",
-  "watch_item": "Scratch SEM showed crack-like discontinuities, but the study does not clearly separate UNSM-induced effects from scratch damage or establish a definitive scratch-resistance ranking.",
+  "evidence_signal": "Hardness ranged from 820–970 HV for detonation-sprayed coatings and 546–1165 HV for HVOF coatings, peaking at 20 N/20 µm and 30 N/30 µm, respectively.",
+  "watch_item": "Post-scratch SEM observations do not isolate UNSM-induced damage or establish a scratch-resistance ranking.",
   "hashtags": [
-    "#ThermalSpray",
-    "#SurfaceEngineering",
+    "#DetonationSpray",
+    "#HVOF",
     "#UNSM",
-    "#WearResistance",
-    "#Coatings"
+    "#SurfaceEngineering",
+    "#CarbideCoatings"
   ],
+  "model": "gpt-6.1-sol",
+  "service_tier": "ultrafast",
   "paper_id": "2026-09-29-openalex-hardness_and_post_scratch_surface_morphology_of_cr_c_nicr_coatings_after_ultrasonic_nanocr",
   "paper_title": "HARDNESS AND POST-SCRATCH SURFACE MORPHOLOGY OF Cr₃C₂–NiCr COATINGS AFTER ULTRASONIC NANOCRYSTAL SURFACE MODIFICATION",
   "paper_date": "2026-09-29",
   "paper_category": "Detonation Spray Process",
-  "generated_at": "2026-10-18T21:18:47",
+  "generated_at": "2026-10-18T21:22:18",
   "generator": "openai"
 }

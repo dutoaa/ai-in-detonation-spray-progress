@@ -1,24 +1,26 @@
 {
-  "key_insight": "Rice husk ash can be converted into silica powder that is amorphous after 800 °C treatment and becomes crystalline quartz/cristobalite after annealing at 1200 °C.",
-  "engineering_relevance": "This creates a low-cost silica feedstock with tunable phase structure for thermal spray powder development and coating applications.",
+  "key_insight": "Rice husk ash yielded amorphous SiO₂ after chemical treatment and heating at 800 °C for 3 h, with subsequent annealing at 1200 °C producing quartz and cristobalite phases.",
+  "engineering_relevance": "The synthesized silica offers a potential rice-husk-derived powder source for thermal spray coatings.",
   "method": [
-    "Chemically treated rice husk ash to extract SiO2",
-    "Heat treated the product at 800 °C for 3 h to form amorphous silica",
-    "Annealed at 1200 °C to induce crystallization; characterized by XRD, FTIR, and laser diffraction"
+    "Chemically treat rice husk ash, then heat at 800 °C for 3 h.",
+    "Anneal the synthesized silica at 1200 °C to induce crystallization.",
+    "Characterize structure, bonding, and particle size using XRD, FTIR, and laser diffraction."
   ],
-  "evidence_signal": "XRD confirmed amorphous silica after initial processing and identified quartz and cristobalite after 1200 °C annealing, while laser diffraction gave a D50 of about 88.9 μm.",
-  "watch_item": "The powder’s relatively large particle size and the phase change at high temperature may affect flowability, deposition behavior, and coating consistency in thermal spray systems.",
+  "evidence_signal": "The abstract reports amorphous silica with D50 ≈ 88.9 μm, quartz and cristobalite formation after annealing, and Si–O–Si FTIR bands at 1000–1100 cm⁻¹.",
+  "watch_item": "Thermal spray suitability remains unverified in the abstract, which reports no deposition trials or coating performance measurements.",
   "hashtags": [
-    "#ThermalSpray",
-    "#Silica",
     "#RiceHuskAsh",
-    "#MaterialsProcessing",
-    "#PowderEngineering"
+    "#Silica",
+    "#ThermalSpray",
+    "#PowderCharacterization",
+    "#WasteValorization"
   ],
+  "model": "gpt-6.1-sol",
+  "service_tier": "ultrafast",
   "paper_id": "2026-09-30-openalex-synthesis_of_amorphous_and_crystalline_silicon_dioxide_powder_composites_from_rice_husk_as",
   "paper_title": "Synthesis of Amorphous and Crystalline Silicon Dioxide Powder Composites from Rice Husk Ash for Thermal Spray Deposit",
   "paper_date": "2026-09-30",
   "paper_category": "Thermal Spray Coatings",
-  "generated_at": "2026-10-18T21:18:51",
+  "generated_at": "2026-10-18T21:22:23",
   "generator": "openai"
 }

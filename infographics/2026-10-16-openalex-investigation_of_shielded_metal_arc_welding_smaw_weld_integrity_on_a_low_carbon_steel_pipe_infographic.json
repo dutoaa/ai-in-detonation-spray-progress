@@ -1,24 +1,26 @@
 {
-  "key_insight": "SMAW produced an acceptable low-carbon steel pipeline weld with adequate penetration and no cracking in bend tests, indicating generally good weld integrity.",
-  "engineering_relevance": "The results support SMAW as a viable repair or fabrication method for low-carbon steel pipelines when mechanical performance and joint quality are verified.",
+  "key_insight": "Destructive testing indicates that SMAW produced mechanically sound low-carbon steel pipeline joints, although weld-metal impact toughness was lower than that of the base metal.",
+  "engineering_relevance": "The findings support SMAW for low-carbon steel pipeline fabrication when joint strength, toughness, and bend performance are verified.",
   "method": [
-    "Destructive testing of the welded joint: hardness, tensile, impact-Charpy, and bend tests.",
-    "Macro/micro hardness and macro inspection to assess weld metal, HAZ, and base metal behavior.",
-    "Measured weld geometry and penetration depth to confirm fusion quality."
+    "Evaluate weld metal, heat-affected zone, and base metal using hardness and Charpy impact tests.",
+    "Measure welded-joint tensile strength and resistance to cracking during bending.",
+    "Examine weld geometry and penetration macroscopically."
   ],
-  "evidence_signal": "The weld showed UTS values of 569.26 and 566.52 N/mm², Charpy impact averages of 132.9 J (WM), 237.1 J (HAZ), and 247.4 J (BM), and adequate penetration of about 5.8 mm.",
-  "watch_item": "Results come from a limited set of samples, so field application should still account for variability in welding conditions and service loading.",
+  "evidence_signal": "Two welded samples achieved ultimate tensile strengths of 569.26 and 566.52 MPa; average Charpy energies were 132.9 J for weld metal, 237.1 J for the heat-affected zone, and 247.4 J for base metal, with no cracking or breaking reported in bend tests.",
+  "watch_item": "The abstract does not specify Charpy test temperature or pipeline acceptance criteria, limiting conclusions about service suitability.",
   "hashtags": [
     "#SMAW",
-    "#WeldingIntegrity",
+    "#WeldIntegrity",
     "#PipelineEngineering",
     "#DestructiveTesting",
     "#LowCarbonSteel"
   ],
+  "model": "gpt-6.1-sol",
+  "service_tier": "ultrafast",
   "paper_id": "2026-10-16-openalex-investigation_of_shielded_metal_arc_welding_smaw_weld_integrity_on_a_low_carbon_steel_pipe",
   "paper_title": "Investigation of Shielded Metal Arc Welding (SMAW)Weld Integrity on a Low- Carbon Steel Pipeline using Destructive Mechanical Testing Technique",
   "paper_date": "2026-10-16",
   "paper_category": "Welding Processes",
-  "generated_at": "2026-10-18T21:18:17",
+  "generated_at": "2026-10-18T21:21:38",
   "generator": "openai"
 }

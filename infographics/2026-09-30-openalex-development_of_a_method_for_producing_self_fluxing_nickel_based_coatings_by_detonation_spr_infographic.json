@@ -1,24 +1,26 @@
 {
-  "key_insight": "Detonation-spray settings strongly control whether self-fluxing Ni–Cr–Fe–B–Si–C coatings become denser and harder or more wear-resistant, with clear trade-offs between friction and durability.",
-  "engineering_relevance": "The study provides practical parameter guidance for restoring and strengthening machine parts using detonation-sprayed nickel-based coatings.",
+  "key_insight": "Detonation-sprayed Ni–Cr–Fe–B–Si–C coatings require a trade-off between low friction and high wear resistance through control of barrel filling, gas ratio, and inter-shot delay.",
+  "engineering_relevance": "Parameter optimization can support wear-resistant surface strengthening and restoration of machine components.",
   "method": [
-    "Varied barrel filling level from 48–68% to tune coating density and defect formation.",
-    "Adjusted gas molar ratio (O/C = 1.026–1.856) and inter-shot delay (0–1 s) to influence microstructure and tribology.",
-    "Evaluated coatings using morphology, roughness, hardness, friction, and specific wear rate tests."
+    "Varied barrel filling from 48–68% and working-gas molar ratio O/C from 1.026–1.856.",
+    "Adjusted inter-shot delay from 0–1 s.",
+    "Evaluated coating morphology, friction, wear, roughness, and hardness."
   ],
-  "evidence_signal": "The abstract reports a minimum friction coefficient of 0.674 ± 0.136 at 48% filling and O/C = 1.026, while the best wear resistance reached a specific wear rate of 0.000189 mm³/(N·m) at O/C = 1.856 with 1 s inter-shot delay.",
-  "watch_item": "Optimizing for low friction can increase wear, so process settings must be balanced for the intended service condition rather than tuned to a single metric.",
+  "evidence_signal": "Reported results included minimum friction of 0.674 ± 0.136, specific wear rate as low as 0.000189 mm³/(N·m), roughness reduction from 5.00 to 3.60 µm, and maximum hardness of 905.6 HV across tested conditions.",
+  "watch_item": "The lowest-friction conditions also increased wear, so process settings should be selected for the intended service requirements rather than a single optimum metric.",
   "hashtags": [
     "#DetonationSpraying",
     "#NickelBasedCoatings",
-    "#SurfaceEngineering",
+    "#CoatingMicrostructure",
     "#Tribology",
-    "#MaterialsProcessing"
+    "#SurfaceEngineering"
   ],
+  "model": "gpt-6.1-sol",
+  "service_tier": "ultrafast",
   "paper_id": "2026-09-30-openalex-development_of_a_method_for_producing_self_fluxing_nickel_based_coatings_by_detonation_spr",
   "paper_title": "Development of a Method for Producing Self-Fluxing Nickel-Based Coatings by Detonation Spraying",
   "paper_date": "2026-09-30",
   "paper_category": "Coating Microstructure",
-  "generated_at": "2026-10-18T21:18:36",
+  "generated_at": "2026-10-18T21:22:03",
   "generator": "openai"
 }

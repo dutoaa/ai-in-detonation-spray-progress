@@ -1,24 +1,26 @@
 {
-  "key_insight": "Detonation-sprayed hydroxyapatite coatings on Grade 2 titanium achieved the best tribological performance at O2/C2H2 ratios of 3.0–3.3, balancing phase composition, crystallinity, and adhesion.",
-  "engineering_relevance": "These biocoatings can improve wear resistance and surface bioactivity of titanium implants, supporting longer service life and faster osseointegration in physiological environments.",
+  "key_insight": "Detonation-sprayed hydroxyapatite coatings improved titanium wear resistance, with the best tribological performance at O₂/C₂H₂ ratios of 3.0 and 3.3.",
+  "engineering_relevance": "Optimizing the spray gas ratio could improve the durability of titanium implants exposed to friction in physiological environments.",
   "method": [
-    "Deposited hydroxyapatite on commercially pure Grade 2 titanium by detonation spraying.",
-    "Varied the O2/C2H2 ratio from 2.6 to 3.7 to tune coating structure and properties.",
-    "Evaluated phase composition, surface morphology, hydrophobicity, and tribological behavior in dry and Ringer’s solution."
+    "Deposit hydroxyapatite on Grade 2 titanium at O₂/C₂H₂ ratios of 2.6–3.7.",
+    "Analyze coating phases using X-ray diffraction.",
+    "Evaluate friction and wear under dry conditions and in Ringer’s solution."
   ],
-  "evidence_signal": "XRD showed hydroxyapatite as the dominant phase with some α-tricalcium phosphate, and tribology testing found the lowest wear volume and best friction behavior at O2/C2H2 = 3.0 and 3.3.",
-  "watch_item": "Detonation spraying at high thermal/dynamic loads can induce phase changes and structural heterogeneity, so process control is critical to avoid inconsistent coating quality.",
+  "evidence_signal": "The abstract reports improved wear resistance versus uncoated titanium and the lowest wear volumes at gas ratios of 3.0 and 3.3, but provides no numerical results.",
+  "watch_item": "Tribological testing in Ringer’s solution does not establish long-term implant durability or in vivo osseointegration.",
   "hashtags": [
     "#DetonationSpraying",
     "#Hydroxyapatite",
+    "#TitaniumImplants",
     "#Tribology",
-    "#BiomedicalCoatings",
-    "#TitaniumImplants"
+    "#Biocoatings"
   ],
+  "model": "gpt-6.1-sol",
+  "service_tier": "ultrafast",
   "paper_id": "2026-07-29-openalex-study_of_tribological_properties_of_biocoatings_by_detonation_spraying_method",
   "paper_title": "STUDY OF TRIBOLOGICAL PROPERTIES OF BIOCOATINGS BY DETONATION SPRAYING METHOD",
   "paper_date": "2026-07-29",
   "paper_category": "Detonation Spray Process",
-  "generated_at": "2026-10-18T21:18:49",
+  "generated_at": "2026-10-18T21:22:20",
   "generator": "openai"
 }

@@ -1,24 +1,26 @@
 {
-  "key_insight": "Detonation-sprayed titanium dioxide metal-ceramic coatings can have their surface roughness, thickness, and hydrophobicity tuned by adjusting spraying parameters, with optimal settings maximizing water repellency.",
-  "engineering_relevance": "The results provide process-parameter rules for designing coating recipes that improve surface functionality in thermal spray applications.",
+  "key_insight": "Detonation-spraying parameters can tune the roughness, thickness, and hydrophobicity of titanium-dioxide-based metal–ceramic coatings.",
+  "engineering_relevance": "The reported relationships can guide process settings to improve coating hydrophobicity while managing surface roughness and thickness.",
   "method": [
-    "Varied detonation spraying parameters, including nozzle passage speed and spray distance.",
-    "Measured coating surface roughness, thickness, and hydrophobicity/contact angle.",
-    "Derived empirical relationships, including inverse power and parabolic laws, to predict surface behavior and identify optimal spraying conditions."
+    "Examine coating surface properties under varied detonation-spraying conditions.",
+    "Relate nozzle traverse speed and spray distance to coating characteristics.",
+    "Determine process settings that maximize hydrophobicity."
   ],
-  "evidence_signal": "The abstract reports controlled experimental dependence of roughness, thickness, and contact angle on process conditions and the development of new predictive equations.",
-  "watch_item": "The relationships appear to be empirical and may require validation across different substrates, nozzle setups, and scaling conditions before broader deployment.",
+  "evidence_signal": "The abstract reports inverse-power relationships between nozzle traverse speed and roughness/thickness, and parabolic relationships between spray distance and roughness/contact angle, but provides no numerical results.",
+  "watch_item": "The abstract does not specify parameter ranges or predictive errors, so the equations require validation before use outside the tested conditions.",
   "hashtags": [
     "#DetonationSpraying",
     "#TitaniumDioxide",
-    "#CoatingEngineering",
-    "#SurfaceRoughness",
-    "#Hydrophobicity"
+    "#SurfaceEngineering",
+    "#HydrophobicCoatings",
+    "#ProcessOptimization"
   ],
+  "model": "gpt-6.1-sol",
+  "service_tier": "ultrafast",
   "paper_id": "2025-12-01-doaj-surface_characteristics_of_titanium_based_coatings_obtained_by_detonation_spraying_under_v",
   "paper_title": "Surface Characteristics of Titanium Based Coatings Obtained by Detonation Spraying Under Various Process Conditions",
   "paper_date": "2025-12-01",
   "paper_category": "Detonation Spray Process",
-  "generated_at": "2026-10-18T21:18:46",
+  "generated_at": "2026-10-18T21:22:16",
   "generator": "openai"
 }

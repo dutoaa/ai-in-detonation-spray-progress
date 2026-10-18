@@ -1,24 +1,26 @@
 {
-  "key_insight": "Fully alloyed WC–Co–Cr powder enables dense, layered coatings, while spray method selection controls the tradeoff between hardness and tribological performance.",
-  "engineering_relevance": "The study identifies process routes for optimizing wear-resistant WC–Co–Cr coatings on machine parts operating under high friction and load.",
+  "key_insight": "WC–Co–Cr coating performance depends on powder morphology and spraying method: detonation spraying favors hardness, while HVOF yields a dense, uniform coating with low friction.",
+  "engineering_relevance": "Matching feedstock and spray process to service demands can improve coating suitability for machine parts exposed to intensive friction and high loads.",
   "method": [
-    "Compared detonation spraying (DS) and HVOF for WC–Co–Cr cermet coating deposition.",
-    "Characterized powder morphology and coating microstructure using SEM and EDS.",
-    "Assessed phase/structure quality and tribological behavior, including microhardness and friction coefficient."
+    "Compare detonation-sprayed and HVOF WC–Co–Cr coatings.",
+    "Examine powder morphology and coating microstructure using SEM and EDS.",
+    "Evaluate coating microhardness and tribological behavior."
   ],
-  "evidence_signal": "The abstract reports average microhardness of 1449 HV for DS coatings and a low friction coefficient of Kt = 0.143 for HVOF coatings, supporting method-dependent performance differences.",
-  "watch_item": "Results depend strongly on powder homogeneity and spray parameters, so performance may not transfer directly to other feedstocks or deposition settings.",
+  "evidence_signal": "The abstract reports an average microhardness of 1449 HV for detonation spraying and a friction coefficient of Kt = 0.143 for HVOF.",
+  "watch_item": "The abstract omits test conditions, variability, and quantitative wear rates, limiting direct translation to service-life predictions.",
   "hashtags": [
     "#WCCoCr",
-    "#HVOF",
     "#DetonationSpraying",
-    "#WearResistance",
-    "#CoatingMicrostructure"
+    "#HVOF",
+    "#CoatingMicrostructure",
+    "#WearResistance"
   ],
+  "model": "gpt-6.1-sol",
+  "service_tier": "ultrafast",
   "paper_id": "2026-09-30-openalex-investigation_of_the_formation_of_structure_and_wear_resistant_properties_of_wc_co_cr_coat",
   "paper_title": "INVESTIGATION OF THE FORMATION OF STRUCTURE AND WEAR-RESISTANT PROPERTIES OF WC–CO–CR COATINGS PRODUCED BY HVOF AND DETONATION SPRAYING",
   "paper_date": "2026-09-30",
   "paper_category": "Coating Microstructure",
-  "generated_at": "2026-10-18T21:18:34",
+  "generated_at": "2026-10-18T21:22:01",
   "generator": "openai"
 }

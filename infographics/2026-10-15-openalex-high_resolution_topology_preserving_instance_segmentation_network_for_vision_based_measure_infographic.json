@@ -1,24 +1,26 @@
 {
-  "key_insight": "HTP-Net improves counting and boundary precision for dense welding stubs by combining high-resolution edge preservation, global topology modeling, and orientation-aware instance segmentation.",
-  "engineering_relevance": "The method directly supports industrial warehouse metrology and automated inventory management for welding consumables in real factory settings.",
+  "key_insight": "HTP-Net improves instance segmentation of dense, slender welding material stubs by preserving boundaries, modeling long-range topology, and using orientation-aware predictions.",
+  "engineering_relevance": "More reliable stub counting and shape measurement can support automated inventory management in welding factories.",
   "method": [
-    "Wavelet-Driven Edge-Preserving module retains subtle boundaries during downsampling",
-    "Long-Range Topology Representation Block uses global context to reduce breaks in slender object masks",
-    "Orientation-Driven Instance Segmentation Head exploits rotation priors to suppress overlap and NMS errors"
+    "Wavelet-Driven Edge-Preserving module retains subtle boundaries during downsampling.",
+    "Long-Range Topology Representation Block models global context to reduce fragmentation of slender targets.",
+    "Orientation-Driven Instance Segmentation Head uses rotational priors to reduce excessive non-maximum suppression and overlapping masks."
   ],
-  "evidence_signal": "On custom and public dense-slender-target datasets, the model improved mAP@50 by at least 1.2% and up to 55.3%, and the deployed factory system reported 99% accuracy for electrodes and 94% for wire stubs.",
-  "watch_item": "Performance is strong, but deployment may still depend on stable imaging conditions and careful calibration for highly occluded or visually degraded stubs.",
+  "evidence_signal": "The abstract reports mAP50 gains of 1.2%–55.3% over existing methods on custom and public datasets, plus factory-deployed average recognition accuracies of 99% for electrode stubs and 94% for wire stubs.",
+  "watch_item": "The abstract does not specify dataset sizes, inference speed, or robustness across factory conditions, leaving deployment generalizability uncertain.",
   "hashtags": [
-    "#WeldingAI",
+    "#WeldingAutomation",
     "#InstanceSegmentation",
-    "#IndustrialVision",
-    "#TopologyPreserving",
-    "#SmartManufacturing"
+    "#ComputerVision",
+    "#IndustrialAI",
+    "#InventoryManagement"
   ],
+  "model": "gpt-6.1-sol",
+  "service_tier": "ultrafast",
   "paper_id": "2026-10-15-openalex-high_resolution_topology_preserving_instance_segmentation_network_for_vision_based_measure",
   "paper_title": "High-resolution topology-preserving instance segmentation network for vision-based measurement system of dense welding material stubs",
   "paper_date": "2026-10-15",
   "paper_category": "Welding Processes",
-  "generated_at": "2026-10-18T21:18:21",
+  "generated_at": "2026-10-18T21:21:43",
   "generator": "openai"
 }

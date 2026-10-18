@@ -1,24 +1,26 @@
 {
-  "key_insight": "For D-gun sprayed Cr3C2–NiCr on DSS 2205, a longer spray distance of 190 mm produced the densest coating and the best acid corrosion resistance.",
-  "engineering_relevance": "Optimizing spray distance is a practical lever for improving coating integrity and extending the life of stainless steel components in aggressive acidic service.",
+  "key_insight": "Among the three D-gun spray distances tested, 190 mm produced the lowest-porosity Cr₃C₂–NiCr coating and best corrosion resistance on DSS 2205.",
+  "engineering_relevance": "Optimizing spray distance can improve coating integrity and help protect DSS 2205 components exposed to acidic environments.",
   "method": [
-    "D-gun sprayed Cr3C2–NiCr onto DSS 2205 at 170, 180, and 190 mm stand-off distances.",
-    "Assessed coating structure with SEM and porosity measurements.",
-    "Evaluated corrosion behavior in 1 M H2SO4 using OCP, EIS, and potentiodynamic polarization."
+    "Deposit Cr₃C₂–NiCr coatings at spray distances of 170, 180 and 190 mm.",
+    "Examine coating morphology and porosity using SEM.",
+    "Evaluate corrosion in 1 M H₂SO₄ at room temperature using OCP, impedance spectroscopy and potentiodynamic polarization."
   ],
-  "evidence_signal": "Porosity decreased from 2.84% at 170 mm to 1.38% at 190 mm, and the 190 mm coating showed the lowest corrosion rate at 0.113 mmpy versus 2.60 mmpy for the uncoated substrate.",
-  "watch_item": "The optimum distance was established for one coating system and one acid environment, so transfer to other substrates, gases, or service conditions should be validated experimentally.",
+  "evidence_signal": "Porosity decreased from 2.84% at 170 mm to 1.38% at 190 mm; the 190 mm coating achieved a corrosion rate of 0.113 mm/year versus 2.60 mm/year for uncoated DSS 2205.",
+  "watch_item": "The 190 mm optimum applies to the tested conditions; durability under other acids, temperatures and long-term industrial exposure remains unestablished.",
   "hashtags": [
     "#DetonationSpray",
-    "#ThermalSpray",
+    "#ProtectiveCoatings",
     "#CorrosionResistance",
-    "#CermetCoating",
-    "#MaterialsEngineering"
+    "#DSS2205",
+    "#SurfaceEngineering"
   ],
+  "model": "gpt-6.1-sol",
+  "service_tier": "ultrafast",
   "paper_id": "2026-09-21-openalex-effect_of_spray_distance_in_d_gun_sprayed_cr3c2_nicr_coatings_on_dss_2205_in_acidic_enviro",
   "paper_title": "Effect of spray distance in D-gun sprayed Cr3C2–NiCr coatings on DSS 2205 in acidic environments",
   "paper_date": "2026-09-21",
   "paper_category": "Detonation Spray Process",
-  "generated_at": "2026-10-18T21:18:23",
+  "generated_at": "2026-10-18T21:21:45",
   "generator": "openai"
 }
