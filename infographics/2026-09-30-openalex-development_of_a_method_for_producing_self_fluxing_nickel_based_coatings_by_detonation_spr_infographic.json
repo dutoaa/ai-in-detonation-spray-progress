@@ -1,13 +1,12 @@
 {
-  "key_insight": "Detonation-sprayed Ni–Cr–Fe–B–Si–C coatings require a trade-off between low friction and high wear resistance through control of barrel filling, gas ratio, and inter-shot delay.",
-  "engineering_relevance": "Parameter optimization can support wear-resistant surface strengthening and restoration of machine components.",
+  "key_insight": "Detonation-sprayed Ni–Cr–Fe–B–Si–C coatings require a trade-off between low friction and high wear resistance, controlled by barrel filling, gas ratio, and inter-shot delay.",
+  "engineering_relevance": "Tuning these parameters can improve coatings for restoring and surface-strengthening machine components.",
   "method": [
-    "Varied barrel filling from 48–68% and working-gas molar ratio O/C from 1.026–1.856.",
-    "Adjusted inter-shot delay from 0–1 s.",
-    "Evaluated coating morphology, friction, wear, roughness, and hardness."
+    "Varied barrel filling from 48–68%, working-gas molar ratio O/C from 1.026–1.856, and inter-shot delay from 0–1 s.",
+    "Evaluated coating morphology, friction, specific wear rate, roughness, and hardness."
   ],
-  "evidence_signal": "Reported results included minimum friction of 0.674 ± 0.136, specific wear rate as low as 0.000189 mm³/(N·m), roughness reduction from 5.00 to 3.60 µm, and maximum hardness of 905.6 HV across tested conditions.",
-  "watch_item": "The lowest-friction conditions also increased wear, so process settings should be selected for the intended service requirements rather than a single optimum metric.",
+  "evidence_signal": "The minimum friction coefficient was 0.674 ± 0.136 at 48% filling and O/C = 1.026, while the highest wear resistance occurred at O/C = 1.856 with increased delay, reaching a specific wear rate of 0.000189 mm³/(N·m).",
+  "watch_item": "Low-friction settings increased wear, and medium-to-high barrel filling promoted microcracks; parameter selection should prioritize the intended service conditions.",
   "hashtags": [
     "#DetonationSpraying",
     "#NickelBasedCoatings",
@@ -21,6 +20,6 @@
   "paper_title": "Development of a Method for Producing Self-Fluxing Nickel-Based Coatings by Detonation Spraying",
   "paper_date": "2026-09-30",
   "paper_category": "Coating Microstructure",
-  "generated_at": "2026-10-18T21:22:03",
+  "generated_at": "2026-10-19T17:23:24",
   "generator": "openai"
 }

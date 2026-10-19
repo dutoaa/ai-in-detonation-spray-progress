@@ -1,19 +1,19 @@
 {
-  "key_insight": "HTP-Net improves instance segmentation of dense, slender welding material stubs by preserving boundaries, modeling long-range topology, and using orientation-aware predictions.",
-  "engineering_relevance": "More reliable stub counting and shape measurement can support automated inventory management in welding factories.",
+  "key_insight": "HTP-Net improves segmentation and counting of dense, slender welding material stubs by preserving boundaries, maintaining topological continuity, and separating overlapping instances.",
+  "engineering_relevance": "The model supports automated inventory counting and morphological analysis of electrode and wire stubs in welding factories.",
   "method": [
-    "Wavelet-Driven Edge-Preserving module retains subtle boundaries during downsampling.",
-    "Long-Range Topology Representation Block models global context to reduce fragmentation of slender targets.",
-    "Orientation-Driven Instance Segmentation Head uses rotational priors to reduce excessive non-maximum suppression and overlapping masks."
+    "Wavelet-driven edge preservation retains fine boundaries during downsampling.",
+    "Long-range topology modeling reduces disconnections in slender targets.",
+    "Orientation-guided segmentation uses rotational priors to reduce excessive non-maximum suppression and overlapping-mask artifacts."
   ],
-  "evidence_signal": "The abstract reports mAP50 gains of 1.2%–55.3% over existing methods on custom and public datasets, plus factory-deployed average recognition accuracies of 99% for electrode stubs and 94% for wire stubs.",
-  "watch_item": "The abstract does not specify dataset sizes, inference speed, or robustness across factory conditions, leaving deployment generalizability uncertain.",
+  "evidence_signal": "On custom and public datasets, the abstract reports mAP50 gains of 1.2%–55.3% over existing methods; a factory-deployed system achieved average recognition accuracies of 99% for electrode stubs and 94% for wire stubs.",
+  "watch_item": "The abstract does not specify dataset sizes, inference speed, or robustness across factory lighting and camera setups, so deployment generalizability needs verification.",
   "hashtags": [
     "#WeldingAutomation",
     "#InstanceSegmentation",
     "#ComputerVision",
-    "#IndustrialAI",
-    "#InventoryManagement"
+    "#IndustrialMetrology",
+    "#InventoryAutomation"
   ],
   "model": "gpt-6.1-sol",
   "service_tier": "ultrafast",
@@ -21,6 +21,6 @@
   "paper_title": "High-resolution topology-preserving instance segmentation network for vision-based measurement system of dense welding material stubs",
   "paper_date": "2026-10-15",
   "paper_category": "Welding Processes",
-  "generated_at": "2026-10-18T21:21:43",
+  "generated_at": "2026-10-19T17:23:07",
   "generator": "openai"
 }

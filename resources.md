@@ -1,18 +1,18 @@
 # AI Detonation Spray and Coating Progress Public Resources
 
-Generated: 2026-10-18
+Generated: 2026-10-19
 Public site: https://dutoaa.github.io/ai-in-detonation-spray-progress/
 
-## 1. Investigation of Shielded Metal Arc Welding (SMAW)Weld Integrity on a Low- Carbon Steel Pipeline using Destructive Mechanical Testing Technique
+## 1. Functional-Safety-Integrity Degradation of Student-Built Emergency-Stop Circuits in Engineering Technology Education Workshops: A Fault-Injection Evaluation Linking Relay Contact Welding to Operator Injury-Risk Exposure
 
-- Date: 2026-10-16
+- Date: 2026-10-19
 - Source: OpenAlex
-- Venue: INTERNATIONAL JOURNAL OF ENGINEERING AND MODERN TECHNOLOGY
+- Venue: Zenodo (CERN European Organization for Nuclear Research)
 - Category: Welding Processes
-- DOI: 10.56201/ijemt.vol.11.no4.2025.pg139.155
-- Source link: https://doi.org/10.56201/ijemt.vol.11.no4.2025.pg139.155
-- PDF: https://iiardjournals.org/get/IJEMT/VOL. 11 NO. 4 2025/Investigation of Shielded Metal 139-155.pdf
-- Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-10-16-openalex-investigation_of_shielded_metal_arc_welding_smaw_weld_integrity_on_a_low_carbon_steel_pipe_infographic.json
+- DOI: 10.5281/zenodo.23460822
+- Source link: https://doi.org/10.5281/zenodo.23460822
+- PDF: None
+- Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-10-19-openalex-functional_safety_integrity_degradation_of_student_built_emergency_stop_circuits_in_engine_infographic.json
 
 ## 2. Computational and machine learning modelling approaches for weld quality predictions in friction stir welding of high-density polyethylene
 
@@ -25,18 +25,7 @@ Public site: https://dutoaa.github.io/ai-in-detonation-spray-progress/
 - PDF: None
 - Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2025-12-01-doaj-computational_and_machine_learning_modelling_approaches_for_weld_quality_predictions_in_fr_infographic.json
 
-## 3. High-resolution topology-preserving instance segmentation network for vision-based measurement system of dense welding material stubs
-
-- Date: 2026-10-15
-- Source: OpenAlex
-- Venue: Measurement Science and Technology
-- Category: Welding Processes
-- DOI: 10.1088/1361-6501/aeb4de
-- Source link: https://doi.org/10.1088/1361-6501/aeb4de
-- PDF: https://iopscience.iop.org/article/10.1088/1361-6501/aeb4de/pdf
-- Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-10-15-openalex-high_resolution_topology_preserving_instance_segmentation_network_for_vision_based_measure_infographic.json
-
-## 4. Effect of spray distance in D-gun sprayed Cr3C2–NiCr coatings on DSS 2205 in acidic environments
+## 3. Effect of spray distance in D-gun sprayed Cr3C2–NiCr coatings on DSS 2205 in acidic environments
 
 - Date: 2026-09-21
 - Source: OpenAlex
@@ -46,6 +35,17 @@ Public site: https://dutoaa.github.io/ai-in-detonation-spray-progress/
 - Source link: https://doi.org/10.1016/j.pes.2026.100378
 - PDF: None
 - Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-09-21-openalex-effect_of_spray_distance_in_d_gun_sprayed_cr3c2_nicr_coatings_on_dss_2205_in_acidic_enviro_infographic.json
+
+## 4. High-resolution topology-preserving instance segmentation network for vision-based measurement system of dense welding material stubs
+
+- Date: 2026-10-15
+- Source: OpenAlex
+- Venue: Measurement Science and Technology
+- Category: Welding Processes
+- DOI: 10.1088/1361-6501/aeb4de
+- Source link: https://doi.org/10.1088/1361-6501/aeb4de
+- PDF: https://iopscience.iop.org/article/10.1088/1361-6501/aeb4de/pdf
+- Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-10-15-openalex-high_resolution_topology_preserving_instance_segmentation_network_for_vision_based_measure_infographic.json
 
 ## 5. Causal discovery of signal morphology drivers in steel resistance spot welding: a high-dimensional data analysis
 
@@ -58,18 +58,7 @@ Public site: https://dutoaa.github.io/ai-in-detonation-spray-progress/
 - PDF: https://link.springer.com/content/pdf/10.1007/s40194-026-02656-z.pdf
 - Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-10-16-openalex-causal_discovery_of_signal_morphology_drivers_in_steel_resistance_spot_welding_a_high_dime_infographic.json
 
-## 6. De-Risking Robotic Welding for In-Space Metal Joining Through Physics-Grounded Digital Twins
-
-- Date: 2026-10-15
-- Source: arXiv
-- Venue: 
-- Category: AI Process Optimization
-- DOI: 
-- Source link: https://arxiv.org/abs/2610.21939v1
-- PDF: https://arxiv.org/pdf/2610.21939v1
-- Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-10-15-arxiv-de_risking_robotic_welding_for_in_space_metal_joining_through_physics_grounded_digital_twi_infographic.json
-
-## 7. Microstructure, Wear and Corrosion Resistances of Atmospheric Plasma, Detonation, High Velocity Oxy-fuel and High Velocity Air-fuel Sprayed WC-10Co-4Cr Cemented Carbide Coatings
+## 6. Microstructure, Wear and Corrosion Resistances of Atmospheric Plasma, Detonation, High Velocity Oxy-fuel and High Velocity Air-fuel Sprayed WC-10Co-4Cr Cemented Carbide Coatings
 
 - Date: 2026-09-01
 - Source: DOAJ + OpenAlex
@@ -79,6 +68,17 @@ Public site: https://dutoaa.github.io/ai-in-detonation-spray-progress/
 - Source link: https://doi.org/10.5755/j02.ms.44363
 - PDF: https://matsc.ktu.lt/index.php/MatSc/article/download/44363/23680
 - Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-09-01-doaj-microstructure_wear_and_corrosion_resistances_of_atmospheric_plasma_detonation_high_veloci_infographic.json
+
+## 7. De-Risking Robotic Welding for In-Space Metal Joining Through Physics-Grounded Digital Twins
+
+- Date: 2026-10-15
+- Source: arXiv
+- Venue: 
+- Category: AI Process Optimization
+- DOI: 
+- Source link: https://arxiv.org/abs/2610.21939v1
+- PDF: https://arxiv.org/pdf/2610.21939v1
+- Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-10-15-arxiv-de_risking_robotic_welding_for_in_space_metal_joining_through_physics_grounded_digital_twi_infographic.json
 
 ## 8. Microstructure and High-Temperature Oxidation Behaviour of HVOF and Plasma Sprayed Ni–Cr-Based Ceramic Coatings on SA516 Boiler Steel
 

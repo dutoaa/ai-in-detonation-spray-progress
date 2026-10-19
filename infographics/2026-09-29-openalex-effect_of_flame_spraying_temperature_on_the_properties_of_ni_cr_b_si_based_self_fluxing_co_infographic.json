@@ -1,19 +1,19 @@
 {
-  "key_insight": "Increasing the O₂/C₂H₂ ratio improved coating density, smoothness, and adhesion, while peak microhardness occurred at the intermediate ratio of 1.1.",
-  "engineering_relevance": "Gas-ratio control offers a practical way to tailor flame-sprayed Ni–Cr–B–Si coatings on AISI 321 steel to different performance priorities.",
+  "key_insight": "Increasing the O₂/C₂H₂ ratio improved coating density, smoothness, and adhesion, while peak microhardness occurred at 1.1 rather than 1.2.",
+  "engineering_relevance": "O₂/C₂H₂ ratio control offers a practical way to tailor flame-sprayed Ni–Cr–B–Si coatings on AISI 321 steel.",
   "method": [
-    "Deposited coatings using a Metal Coat 6PM-II flame-spray system at O₂/C₂H₂ ratios of 1.0, 1.1, and 1.2.",
+    "Deposited coatings using a Metal Coat 6PM-II flame-spraying system at O₂/C₂H₂ ratios of 1.0, 1.1, and 1.2.",
     "Monitored spraying parameters with an Accuraspray 4.0 diagnostic system.",
-    "Evaluated microstructure, porosity, microhardness, surface roughness, and adhesion strength."
+    "Characterized microstructure, porosity, microhardness, surface roughness, and adhesion strength."
   ],
-  "evidence_signal": "As the ratio increased from 1.0 to 1.2, porosity fell from 1.97 ± 0.13% to 0.90 ± 0.09%, roughness fell from 4.70 ± 0.09 to 2.99 ± 0.11 μm, and adhesion rose from 22.14 ± 4.3 to 35.02 ± 3.9 MPa; peak average microhardness was 1051.7 HV at 1.1.",
-  "watch_item": "The abstract reports neither absolute spraying temperatures nor service-life testing, limiting temperature-based transferability and durability claims.",
+  "evidence_signal": "From ratio 1.0 to 1.2, porosity fell from 1.97 ± 0.13% to 0.90 ± 0.09%, roughness from 4.70 ± 0.09 to 2.99 ± 0.11 μm, and adhesion rose from 22.14 ± 4.3 to 35.02 ± 3.9 MPa; peak average microhardness was 1051.7 HV at 1.1.",
+  "watch_item": "Only three gas ratios were evaluated, and the abstract does not report wear, corrosion, or long-term service testing.",
   "hashtags": [
     "#FlameSpraying",
     "#SelfFluxingCoatings",
-    "#NiCrBSi",
     "#CoatingMicrostructure",
-    "#SurfaceEngineering"
+    "#SurfaceEngineering",
+    "#ProcessOptimization"
   ],
   "model": "gpt-6.1-sol",
   "service_tier": "ultrafast",
@@ -21,6 +21,6 @@
   "paper_title": "EFFECT OF FLAME-SPRAYING TEMPERATURE ON THE PROPERTIES OF Ni–Cr–B–Si-BASED SELF-FLUXING COATINGS",
   "paper_date": "2026-09-29",
   "paper_category": "Coating Microstructure",
-  "generated_at": "2026-10-18T21:22:09",
+  "generated_at": "2026-10-19T17:23:31",
   "generator": "openai"
 }

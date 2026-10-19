@@ -1,19 +1,19 @@
 {
-  "key_insight": "Causal discovery links steel alloying, sheet thickness, and electrode tip diameter to distinct resistance spot-welding signal patterns.",
-  "engineering_relevance": "These relationships could support more physically interpretable weld monitoring across heterogeneous materials, thicknesses, and electrode configurations.",
+  "key_insight": "Causal discovery links steel composition, sheet thickness, and electrode tip diameter to distinct resistance spot-welding signal features, improving physical interpretability beyond correlation alone.",
+  "engineering_relevance": "These relationships can inform interpretable weld monitoring and process adjustment across heterogeneous material stacks and electrode configurations.",
   "method": [
     "Apply a two-phase causal discovery framework to multicollinear stack-up configurations.",
-    "Use time-series clustering to characterize process-signal morphology.",
-    "Identify dependencies involving alloying, thickness, tip diameter, and internal faying surfaces."
+    "Cluster time series to characterize process-signal morphology.",
+    "Analyze how material and geometric factors relate to resistance, displacement, and force signals."
   ],
-  "evidence_signal": "Analysis of 15,096 representative profiles derived from over 1.8 million welds found that reducing tip diameter from 8 to 6 mm increased the initial resistance peak by 9%.",
-  "watch_item": "The abstract does not establish prospective weld-quality improvements or validation on unseen production configurations.",
+  "evidence_signal": "Analysis of 15,096 representative profiles derived from over 1.8 million welds found that reducing tip face diameter from 8 to 6 mm increased the initial resistance peak by 9%.",
+  "watch_item": "Discovered dependencies do not by themselves establish that process adjustments will improve weld quality; intervention-based validation remains important.",
   "hashtags": [
-    "#ResistanceSpotWelding",
     "#CausalDiscovery",
-    "#ManufacturingAI",
-    "#ProcessMonitoring",
-    "#MaterialsEngineering"
+    "#ResistanceSpotWelding",
+    "#SmartManufacturing",
+    "#MaterialsEngineering",
+    "#ProcessOptimization"
   ],
   "model": "gpt-6.1-sol",
   "service_tier": "ultrafast",
@@ -21,6 +21,6 @@
   "paper_title": "Causal discovery of signal morphology drivers in steel resistance spot welding: a high-dimensional data analysis",
   "paper_date": "2026-10-16",
   "paper_category": "AI Process Optimization",
-  "generated_at": "2026-10-18T21:21:48",
+  "generated_at": "2026-10-19T17:23:09",
   "generator": "openai"
 }
