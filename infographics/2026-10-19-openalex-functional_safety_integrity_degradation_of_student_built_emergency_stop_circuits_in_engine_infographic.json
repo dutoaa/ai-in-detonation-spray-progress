@@ -1,19 +1,19 @@
 {
-  "key_insight": "Relay contact welding can silently compromise student-built emergency-stop circuits despite successful commissioning tests.",
-  "engineering_relevance": "Workshop safety assurance should include monitoring sensitive to welded contacts rather than rely solely on initial functional testing.",
+  "key_insight": "Relay contact welding can silently compromise student-built emergency-stop circuits despite successful commissioning-time functional tests.",
+  "engineering_relevance": "Workshop safety assurance should include monitoring sensitive to welded contacts rather than relying solely on initial stop-function checks.",
   "method": [
-    "Model the circuit as a series safety function degraded by contact welding.",
-    "Identify conditions where welded contacts cause an undetected failure to stop.",
-    "Simulate before-after-control-impact evaluations across cluster counts and effect sizes."
+    "Model the circuit as a series safety function degraded by relay contact welding.",
+    "Derive conditions under which welded contacts cause an undetected failure on a stop demand.",
+    "Simulate a before-after-control-impact estimator across cluster counts and effect sizes."
   ],
-  "evidence_signal": "Using 2,000 replications per design cell, the analysis estimated that detecting a 5-percentage-point effect at 80% power requires 54 clusters.",
-  "watch_item": "The power estimates depend on assumed variance parameters, and the abstract reports no direct field validation of injury-risk reduction.",
+  "evidence_signal": "The evaluation used 2,000 replications per design cell with 8–32 clusters and 3–8-percentage-point effects, reporting that 54 clusters are needed for 80% power to detect a 5-percentage-point effect.",
+  "watch_item": "The power estimate depends on the declared variance assumptions; the abstract does not report measured injury outcomes or field validation of integrity monitoring.",
   "hashtags": [
-    "#EmergencyStop",
     "#FunctionalSafety",
+    "#EmergencyStop",
     "#RelayContactWelding",
     "#EngineeringEducation",
-    "#FaultInjection"
+    "#SafetyMonitoring"
   ],
   "model": "gpt-6.1-sol",
   "service_tier": "ultrafast",
@@ -21,6 +21,6 @@
   "paper_title": "Functional-Safety-Integrity Degradation of Student-Built Emergency-Stop Circuits in Engineering Technology Education Workshops: A Fault-Injection Evaluation Linking Relay Contact Welding to Operator Injury-Risk Exposure",
   "paper_date": "2026-10-19",
   "paper_category": "Welding Processes",
-  "generated_at": "2026-10-19T17:22:59",
+  "generated_at": "2026-10-20T15:35:39",
   "generator": "openai"
 }

@@ -1,13 +1,13 @@
 {
-  "key_insight": "Detonation-spraying parameters can tune the roughness, thickness, and hydrophobicity of titanium-dioxide-based coatings.",
-  "engineering_relevance": "Selecting nozzle traverse speed and spray distance offers a route to controlling coating geometry and maximizing water repellency.",
+  "key_insight": "Detonation-spraying parameters control the roughness, thickness, and hydrophobicity of titanium-dioxide-based metal–ceramic coatings.",
+  "engineering_relevance": "Selecting nozzle travel speed and spray distance can help engineers tune coating geometry and maximize water repellency.",
   "method": [
-    "Evaluate coating surface properties under varied detonation-spraying conditions.",
-    "Relate roughness and thickness to nozzle traverse speed using inverse power laws.",
-    "Model roughness and contact angle versus spray distance using parabolic relationships."
+    "Vary detonation-spraying process conditions.",
+    "Evaluate coating roughness, thickness, and water contact angle.",
+    "Derive predictive relationships and identify conditions for maximum hydrophobicity."
   ],
-  "evidence_signal": "The abstract reports parameter–property relationships and optimal conditions for maximum hydrophobicity, but provides no numerical results or validation metrics.",
-  "watch_item": "The predictive equations should be validated within the intended equipment, material, and operating ranges before process transfer.",
+  "evidence_signal": "The abstract reports inverse-power relationships between nozzle travel speed and roughness/thickness, and parabolic relationships between spray distance and roughness/contact angle.",
+  "watch_item": "The abstract provides no numerical parameter ranges, fit accuracy, or durability results, limiting assessment of transferability to production.",
   "hashtags": [
     "#DetonationSpraying",
     "#TitaniumDioxide",
@@ -21,6 +21,6 @@
   "paper_title": "Surface Characteristics of Titanium Based Coatings Obtained by Detonation Spraying Under Various Process Conditions",
   "paper_date": "2025-12-01",
   "paper_category": "Detonation Spray Process",
-  "generated_at": "2026-10-19T17:23:38",
+  "generated_at": "2026-10-20T15:36:21",
   "generator": "openai"
 }
