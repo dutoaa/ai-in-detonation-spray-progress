@@ -1,18 +1,18 @@
 {
-  "key_insight": "WAAM ER70S-6 steel showed pronounced tensile anisotropy, with maximum strength parallel to the bead direction and more stable behavior in flat builds than upright builds.",
-  "engineering_relevance": "Aligning primary tensile loads with the bead direction and considering build orientation can support safer design of WAAM steel structures under multidirectional loading.",
+  "key_insight": "ER70S-6 WAAM steel showed strong tensile anisotropy: strength was highest parallel to the bead direction, while flat builds behaved more consistently than upright builds.",
+  "engineering_relevance": "Build orientation and load alignment should be considered when designing WAAM steel components for multidirectional loading.",
   "method": [
-    "Tested tensile specimens at 0°, 45°, 60°, and 90° in flat and upright builds.",
-    "Measured hardness to assess orientation-dependent variation.",
-    "Proposed an empirical model relating tensile strength to loading angle."
+    "Tensile testing at 0°, 45°, 60°, and 90° in flat and upright build configurations.",
+    "Two specimens tested per condition, with one representative result reported.",
+    "Hardness measurements and an empirical model of angle-dependent tensile strength."
   ],
-  "evidence_signal": "Two specimens were tested per angle–build condition, with representative-specimen values reported; upright-build ultimate tensile strength fell approximately 47% at 45° relative to 0°.",
-  "watch_item": "Limited replication and representative-specimen reporting constrain assessment of variability; proposed interlayer shear and delamination mechanisms remain tentative.",
+  "evidence_signal": "Upright-build ultimate tensile strength decreased approximately 47% at 45° versus 0°, while hardness variation was governed mainly by build direction.",
+  "watch_item": "Representative-specimen reporting limits assessment of repeatability; interlayer shear and delamination remain proposed contributors rather than confirmed failure mechanisms.",
   "hashtags": [
     "#WAAM",
     "#ER70S6",
-    "#WeldingResearch",
     "#MechanicalAnisotropy",
+    "#TensileTesting",
     "#AdditiveManufacturing"
   ],
   "model": "gpt-6.1-sol",
@@ -21,6 +21,6 @@
   "paper_title": "Effects of loading angle and build direction on the tensile behavior of WAAM steel produced with ER70S-6 welding wire",
   "paper_date": "2026-10-19",
   "paper_category": "Welding Processes",
-  "generated_at": "2026-10-20T15:35:36",
+  "generated_at": "2026-10-21T15:53:06",
   "generator": "openai"
 }

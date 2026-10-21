@@ -1,13 +1,13 @@
 {
-  "key_insight": "HTP-Net improves instance segmentation of dense, slender welding material stubs by preserving boundaries, modeling long-range connectivity, and using orientation cues.",
+  "key_insight": "HTP-Net improves instance segmentation of dense, slender welding material stubs by preserving boundaries, modeling long-range topology, and using orientation-aware predictions.",
   "engineering_relevance": "More reliable stub counting and shape measurement can support welding-factory inventory management.",
   "method": [
     "Wavelet-driven edge preservation retains fine boundaries during feature downsampling.",
-    "Long-range topology modeling helps maintain connectivity in slender targets.",
-    "An orientation-driven segmentation head reduces excessive non-maximum suppression and overlapping-mask artifacts."
+    "Long-range topology modeling reduces segmentation breaks in slender targets.",
+    "An orientation-driven segmentation head addresses excessive non-maximum suppression and overlapping masks."
   ],
-  "evidence_signal": "On custom and public dense-material datasets, reported mAP50 gains ranged from 1.2% to 55.3% over existing methods; factory validation reported average recognition accuracies of 99% for electrode stubs and 94% for wire stubs.",
-  "watch_item": "The abstract does not specify inference speed or robustness across lighting and camera setups, which should be checked before deployment.",
+  "evidence_signal": "The abstract reports mAP50 gains of 1.2%–55.3% over existing methods on custom and public datasets, plus factory-deployed average recognition accuracies of 99% for electrode stubs and 94% for wire stubs.",
+  "watch_item": "The abstract does not specify inference speed or robustness across different factory lighting, cameras, and material arrangements.",
   "hashtags": [
     "#WeldingAutomation",
     "#InstanceSegmentation",
@@ -21,6 +21,6 @@
   "paper_title": "High-resolution topology-preserving instance segmentation network for vision-based measurement system of dense welding material stubs",
   "paper_date": "2026-10-15",
   "paper_category": "Welding Processes",
-  "generated_at": "2026-10-20T15:35:52",
+  "generated_at": "2026-10-21T15:53:32",
   "generator": "openai"
 }

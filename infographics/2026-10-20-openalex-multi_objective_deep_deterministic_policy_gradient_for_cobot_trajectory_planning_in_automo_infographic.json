@@ -1,0 +1,26 @@
+{
+  "key_insight": "PMO-DDPG balances competing cobot welding objectives, reducing trajectory error by 66.4% and collision rate by 82.1% versus SAC in the evaluated settings.",
+  "engineering_relevance": "The framework could support more accurate, safer, and faster automotive spot welding, with reported cycle times of 3.87 s and actor-only inference of 21.5 ms.",
+  "method": [
+    "Train a deterministic actor with four critics for accuracy, smoothness, safety, and productivity.",
+    "Map six normalized physical reward components to phase-dependent objectives across approach, alignment, welding, and retraction.",
+    "Use a non-dominated policy archive for Pareto-guided selection while retaining actor-only online inference."
+  ],
+  "evidence_signal": "Simulation and industrial evaluation, including 100 industrial trials, reported 1.08 mm trajectory error, 1.2% collision rate, 3.65 kJ energy use, and 94.6% success.",
+  "watch_item": "Results are descriptive without formal significance testing; generalization beyond the evaluated settings remains unestablished.",
+  "hashtags": [
+    "#CollaborativeRobotics",
+    "#SpotWelding",
+    "#MultiObjectiveOptimization",
+    "#DeepReinforcementLearning",
+    "#TrajectoryPlanning"
+  ],
+  "model": "gpt-6.1-sol",
+  "service_tier": "ultrafast",
+  "paper_id": "2026-10-20-openalex-multi_objective_deep_deterministic_policy_gradient_for_cobot_trajectory_planning_in_automo",
+  "paper_title": "Multi-objective deep deterministic policy gradient for cobot trajectory planning in automotive spot welding",
+  "paper_date": "2026-10-20",
+  "paper_category": "Coating Microstructure",
+  "generated_at": "2026-10-21T15:53:23",
+  "generator": "openai"
+}

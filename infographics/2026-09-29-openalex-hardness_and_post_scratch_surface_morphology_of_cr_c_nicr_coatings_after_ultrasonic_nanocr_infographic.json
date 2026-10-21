@@ -1,19 +1,19 @@
 {
   "key_insight": "UNSM-treated Cr₃C₂–NiCr coatings showed sample-dependent hardness, with different treatment settings producing the highest values for detonation-sprayed and HVOF deposits.",
-  "engineering_relevance": "Coating process selection and UNSM settings should be assessed using both local hardness and surface integrity, rather than hardness alone.",
+  "engineering_relevance": "Treatment selection should consider both local hardness and surface integrity rather than assume a universal UNSM setting for both deposition routes.",
   "method": [
-    "Evaluated four UNSM-treated samples per deposition route: detonation spray and HVOF.",
-    "Applied static loads of 20 or 30 N and vibration amplitudes of 20 or 30 µm.",
-    "Measured instrumental hardness at 300 mN with a 10 s dwell and examined post-scratch surfaces by SEM."
+    "Evaluated four treated samples per deposition route at static loads of 20 or 30 N and vibration amplitudes of 20 or 30 µm.",
+    "Measured instrumental hardness at 300 mN with a 10 s dwell.",
+    "Examined post-scratch surfaces using SEM."
   ],
-  "evidence_signal": "Hardness ranged from 820–970 HV for detonation-sprayed coatings and 546–1165 HV for HVOF coatings, with maxima at 20 N/20 µm and 30 N/30 µm, respectively.",
-  "watch_item": "Post-scratch SEM observations do not isolate UNSM-induced damage or establish a ranking of scratch resistance.",
+  "evidence_signal": "Hardness ranged from 820–970 HV for detonation-sprayed coatings and 546–1165 HV for HVOF coatings, peaking at 20 N/20 µm and 30 N/30 µm, respectively.",
+  "watch_item": "Post-scratch SEM observations do not isolate UNSM-induced damage or establish a scratch-resistance ranking.",
   "hashtags": [
     "#DetonationSpray",
     "#HVOF",
     "#UNSM",
     "#SurfaceEngineering",
-    "#CermetCoatings"
+    "#CarbideCoatings"
   ],
   "model": "gpt-6.1-sol",
   "service_tier": "ultrafast",
@@ -21,6 +21,6 @@
   "paper_title": "HARDNESS AND POST-SCRATCH SURFACE MORPHOLOGY OF Cr₃C₂–NiCr COATINGS AFTER ULTRASONIC NANOCRYSTAL SURFACE MODIFICATION",
   "paper_date": "2026-09-29",
   "paper_category": "Detonation Spray Process",
-  "generated_at": "2026-10-19T17:23:40",
+  "generated_at": "2026-10-21T15:53:43",
   "generator": "openai"
 }
