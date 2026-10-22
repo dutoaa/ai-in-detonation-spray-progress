@@ -1,0 +1,26 @@
+{
+  "key_insight": "A coupled thermo-mechanical FEM model predicts AA6061 rotary friction welding behavior and quantitatively links simulated fields to experimentally measured microstructural zone boundaries.",
+  "engineering_relevance": "The model supports welding-process optimization with less reliance on costly physical trials.",
+  "method": [
+    "Axisymmetric ABAQUS/Standard model using coupled CGAX4HT elements.",
+    "Temperature-dependent material properties and high-temperature true stress–strain data.",
+    "Correlate predicted thermo-mechanical fields with DRZ, TMAZ, and HAZ boundaries."
+  ],
+  "evidence_signal": "Predicted weld morphology, temperature evolution, and axial shortening agreed with experiments; joint characterization included microscopy, hardness, tensile testing, XRD, and SEM.",
+  "watch_item": "The abstract reports no numerical prediction errors or validation range, leaving accuracy across other welding conditions uncertain.",
+  "hashtags": [
+    "#RotaryFrictionWelding",
+    "#AA6061",
+    "#FiniteElementModeling",
+    "#ThermoMechanicalModeling",
+    "#MicrostructuralEvolution"
+  ],
+  "model": "gpt-6.1-sol",
+  "service_tier": "ultrafast",
+  "paper_id": "2026-10-21-openalex-thermo_mechanical_modeling_and_microstructural_evolution_in_rotary_friction_welding_of_aa6",
+  "paper_title": "Thermo-Mechanical Modeling and Microstructural Evolution in Rotary Friction Welding of AA6061 Aluminum Alloy",
+  "paper_date": "2026-10-21",
+  "paper_category": "Coating Quality Prediction",
+  "generated_at": "2026-10-22T15:54:50",
+  "generator": "openai"
+}

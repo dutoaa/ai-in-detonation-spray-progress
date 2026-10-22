@@ -1,13 +1,13 @@
 {
   "key_insight": "HTP-Net improves instance segmentation of dense, slender welding material stubs by preserving boundaries, modeling long-range topology, and using orientation-aware predictions.",
-  "engineering_relevance": "More reliable stub counting and shape measurement can support welding-factory inventory management.",
+  "engineering_relevance": "More reliable stub counting and shape measurement can support automated inventory management in welding factories.",
   "method": [
-    "Wavelet-driven edge preservation retains fine boundaries during feature downsampling.",
-    "Long-range topology modeling reduces segmentation breaks in slender targets.",
-    "An orientation-driven segmentation head addresses excessive non-maximum suppression and overlapping masks."
+    "Wavelet-driven edge preservation retains subtle boundaries during feature downsampling.",
+    "Long-range topology modeling reduces fragmentation of slender targets.",
+    "Orientation-driven segmentation uses rotational priors to reduce excessive suppression and overlapping masks."
   ],
-  "evidence_signal": "The abstract reports mAP50 gains of 1.2%–55.3% over existing methods on custom and public datasets, plus factory-deployed average recognition accuracies of 99% for electrode stubs and 94% for wire stubs.",
-  "watch_item": "The abstract does not specify inference speed or robustness across different factory lighting, cameras, and material arrangements.",
+  "evidence_signal": "On custom and public datasets, the abstract reports mAP50 gains of 1.2%–55.3% over existing methods; factory validation achieved average recognition accuracies of 99% for electrode stubs and 94% for wire stubs.",
+  "watch_item": "The abstract does not specify dataset sizes, inference speed, or robustness across factory imaging conditions, leaving deployment generalizability uncertain.",
   "hashtags": [
     "#WeldingAutomation",
     "#InstanceSegmentation",
@@ -21,6 +21,6 @@
   "paper_title": "High-resolution topology-preserving instance segmentation network for vision-based measurement system of dense welding material stubs",
   "paper_date": "2026-10-15",
   "paper_category": "Welding Processes",
-  "generated_at": "2026-10-21T15:53:32",
+  "generated_at": "2026-10-22T15:55:14",
   "generator": "openai"
 }
