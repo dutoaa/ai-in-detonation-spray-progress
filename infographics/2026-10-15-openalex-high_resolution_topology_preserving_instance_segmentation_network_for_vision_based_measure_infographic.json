@@ -1,19 +1,19 @@
 {
-  "key_insight": "HTP-Net improves instance segmentation of dense, slender welding material stubs by preserving boundaries, modeling long-range topology, and using orientation-aware predictions.",
+  "key_insight": "HTP-Net improves instance segmentation of dense welding-material stubs by preserving fine boundaries, maintaining slender-target connectivity, and separating overlapping instances.",
   "engineering_relevance": "More reliable stub counting and shape measurement can support automated inventory management in welding factories.",
   "method": [
-    "Wavelet-driven edge preservation retains subtle boundaries during feature downsampling.",
+    "Wavelet-driven edge preservation retains subtle boundaries during downsampling.",
     "Long-range topology modeling reduces fragmentation of slender targets.",
-    "Orientation-driven segmentation uses rotational priors to reduce excessive suppression and overlapping masks."
+    "An orientation-driven segmentation head uses rotational priors to reduce excessive suppression and overlapping masks."
   ],
-  "evidence_signal": "On custom and public datasets, the abstract reports mAP50 gains of 1.2%–55.3% over existing methods; factory validation achieved average recognition accuracies of 99% for electrode stubs and 94% for wire stubs.",
-  "watch_item": "The abstract does not specify dataset sizes, inference speed, or robustness across factory imaging conditions, leaving deployment generalizability uncertain.",
+  "evidence_signal": "Across custom and public dense-slender-material datasets, the abstract reports mAP50 improvements of 1.2%–55.3%; factory validation achieved average recognition accuracies of 99% for electrode stubs and 94% for wire stubs.",
+  "watch_item": "The abstract does not specify dataset sizes, runtime, or recognition-accuracy definitions, limiting assessment of deployment scalability and generalization.",
   "hashtags": [
     "#WeldingAutomation",
     "#InstanceSegmentation",
     "#ComputerVision",
     "#IndustrialMetrology",
-    "#InventoryManagement"
+    "#TopologyPreservation"
   ],
   "model": "gpt-6.1-sol",
   "service_tier": "ultrafast",
@@ -21,6 +21,6 @@
   "paper_title": "High-resolution topology-preserving instance segmentation network for vision-based measurement system of dense welding material stubs",
   "paper_date": "2026-10-15",
   "paper_category": "Welding Processes",
-  "generated_at": "2026-10-22T15:55:14",
+  "generated_at": "2026-10-23T15:41:19",
   "generator": "openai"
 }

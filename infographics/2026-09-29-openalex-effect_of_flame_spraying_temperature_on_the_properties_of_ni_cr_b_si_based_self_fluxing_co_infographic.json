@@ -1,19 +1,19 @@
 {
   "key_insight": "Increasing the O₂/C₂H₂ ratio improved coating density, smoothness, and adhesion, while peak microhardness occurred at the intermediate ratio of 1.1.",
-  "engineering_relevance": "Gas-ratio control offers a practical way to tailor flame-sprayed Ni–Cr–B–Si coatings on AISI 321 steel to prioritize hardness or coating integrity.",
+  "engineering_relevance": "Gas-ratio control offers a practical way to tailor flame-sprayed Ni–Cr–B–Si coatings on AISI 321 steel to prioritize hardness or low porosity and strong adhesion.",
   "method": [
     "Deposited coatings using a Metal Coat 6PM-II flame-spraying system at O₂/C₂H₂ ratios of 1.0, 1.1, and 1.2.",
-    "Monitored spraying conditions with an Accuraspray 4.0 diagnostic system.",
+    "Monitored spraying parameters with an Accuraspray 4.0 diagnostic system.",
     "Evaluated microstructure, porosity, microhardness, surface roughness, and adhesion strength."
   ],
-  "evidence_signal": "As the ratio increased from 1.0 to 1.2, porosity fell from 1.97 ± 0.13% to 0.90 ± 0.09%, roughness fell from 4.70 ± 0.09 to 2.99 ± 0.11 µm, and adhesion rose from 22.14 ± 4.3 to 35.02 ± 3.9 MPa; peak average microhardness was 1051.7 HV at 1.1.",
-  "watch_item": "The abstract does not report measured spray temperatures or service-performance tests, limiting direct temperature–property interpretation and application validation.",
+  "evidence_signal": "Across the tested ratio range, porosity decreased from 1.97 ± 0.13% to 0.90 ± 0.09%, roughness from 4.70 ± 0.09 to 2.99 ± 0.11 μm, and adhesion increased from 22.14 ± 4.3 to 35.02 ± 3.9 MPa; peak average microhardness was 1051.7 HV at 1.1.",
+  "watch_item": "The abstract does not report measured spraying temperatures or service-life testing, so gas-ratio trends should not be treated as a validated temperature–durability relationship.",
   "hashtags": [
     "#FlameSpraying",
     "#SelfFluxingCoatings",
+    "#NiCrBSi",
     "#CoatingMicrostructure",
-    "#SurfaceEngineering",
-    "#ProcessOptimization"
+    "#SurfaceEngineering"
   ],
   "model": "gpt-6.1-sol",
   "service_tier": "ultrafast",
@@ -21,6 +21,6 @@
   "paper_title": "EFFECT OF FLAME-SPRAYING TEMPERATURE ON THE PROPERTIES OF Ni–Cr–B–Si-BASED SELF-FLUXING COATINGS",
   "paper_date": "2026-09-29",
   "paper_category": "Coating Microstructure",
-  "generated_at": "2026-10-22T15:55:24",
+  "generated_at": "2026-10-23T15:41:29",
   "generator": "openai"
 }
