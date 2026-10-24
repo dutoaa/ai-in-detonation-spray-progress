@@ -1,0 +1,26 @@
+{
+  "key_insight": "Iteratively coupled thermo-mechanical modeling predicts ultrasonic weld heating and enables process tailoring that reduces welding time while retaining a high welded fraction.",
+  "engineering_relevance": "The framework links vibration amplitude, temperature-dependent material behavior, and interface melting to guide efficient ultrasonic welding of thermoplastic composites.",
+  "method": [
+    "Iteratively exchange temperature and mechanical response between dynamic and transient thermal analyses.",
+    "Compute viscoelastic and frictional heating using temperature-dependent material properties.",
+    "Calibrate one hammering factor at 70 μm amplitude, then validate at 80 and 90 μm."
+  ],
+  "evidence_signal": "Temperature predictions closely matched infrared measurements; experiments using the predicted optimal welding time achieved 91.7% welded area versus 92.3% predicted, with 20% shorter processing time and reduced fiber distortion.",
+  "watch_item": "Transfer to other materials or weld configurations requires validation, given the calibrated hammering factor and reliance on literature-derived material properties.",
+  "hashtags": [
+    "#UltrasonicWelding",
+    "#ThermoplasticComposites",
+    "#MultiphysicsModeling",
+    "#ProcessOptimization",
+    "#PhysicsBasedSimulation"
+  ],
+  "model": "gpt-6.1-sol",
+  "service_tier": "ultrafast",
+  "paper_id": "2026-10-23-openalex-physics_based_multiphysics_modeling_for_process_tailoring_in_ultrasonic_welding_of_thermop",
+  "paper_title": "Physics-based multiphysics modeling for process tailoring in ultrasonic welding of thermoplastic composites",
+  "paper_date": "2026-10-23",
+  "paper_category": "Coating Quality Prediction",
+  "generated_at": "2026-10-24T14:22:14",
+  "generator": "openai"
+}

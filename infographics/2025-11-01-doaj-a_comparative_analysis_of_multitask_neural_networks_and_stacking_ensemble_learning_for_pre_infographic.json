@@ -1,19 +1,19 @@
 {
-  "key_insight": "Stacking ensembles outperformed the multitask neural network for all three welding properties, with the largest improvement in ultimate tensile strength (UTS).",
-  "engineering_relevance": "Predicting UTS, weld hardness, and heat-affected-zone (HAZ) hardness can support welding process assessment and structural integrity decisions.",
+  "key_insight": "Stacking ensemble learning outperformed the multitask neural network on all three welding targets, with the largest accuracy gain in ultimate tensile strength (UTS).",
+  "engineering_relevance": "Predicting UTS, weld hardness, and heat-affected zone (HAZ) hardness can support welding process assessment and structural-integrity decisions.",
   "method": [
-    "Compared multitask neural networks with stacking ensemble learning on a shared dataset.",
-    "Used shared neural representations with task-specific outputs for multitask prediction.",
-    "Evaluated each property using RMSE and R²."
+    "Train a multitask neural network with shared representations and task-specific outputs.",
+    "Compare against stacking ensemble learning using the same dataset.",
+    "Evaluate each target using RMSE and R²."
   ],
-  "evidence_signal": "Stacking achieved R² values of 0.9863, 0.9782, and 0.8453 for UTS, weld hardness, and HAZ hardness, respectively, versus 0.6724, 0.9215, and 0.8407 for the multitask network.",
-  "watch_item": "The abstract does not specify dataset size, validation design, or RMSE scaling, limiting confidence in transfer to new welding conditions.",
+  "evidence_signal": "Stacking versus multitask R² values were 0.9863 versus 0.6724 for UTS, 0.9782 versus 0.9215 for weld hardness, and 0.8453 versus 0.8407 for HAZ hardness.",
+  "watch_item": "The abstract does not report dataset size, validation design, or RMSE units or scaling, limiting assessment of deployment readiness.",
   "hashtags": [
+    "#AIProcessOptimization",
     "#Welding",
-    "#MachineLearning",
     "#MultitaskLearning",
     "#EnsembleLearning",
-    "#MaterialsEngineering"
+    "#MaterialsInformatics"
   ],
   "model": "gpt-6.1-sol",
   "service_tier": "ultrafast",
@@ -21,6 +21,6 @@
   "paper_title": "A Comparative Analysis of Multitask Neural Networks and Stacking Ensemble Learning for Predicting UTS, Weld Hardness, and HAZ Hardness in Welding Applications",
   "paper_date": "2025-11-01",
   "paper_category": "AI Process Optimization",
-  "generated_at": "2026-10-23T15:41:24",
+  "generated_at": "2026-10-24T14:22:39",
   "generator": "openai"
 }

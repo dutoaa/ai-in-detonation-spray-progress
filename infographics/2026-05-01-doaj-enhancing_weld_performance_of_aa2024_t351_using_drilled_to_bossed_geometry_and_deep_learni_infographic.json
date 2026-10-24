@@ -3,15 +3,15 @@
   "engineering_relevance": "Geometry-assisted direct drive friction welding offers a promising route to stronger lightweight aluminium joints for aerospace and automotive applications.",
   "method": [
     "Tested welding conditions using an L18 orthogonal array on a customized engine lathe.",
-    "Varied friction pressure, forging pressure, spindle speed, faying geometry, and friction time.",
-    "Evaluated tensile and torsional strength and compared three deep learning architectures for tensile-strength prediction."
+    "Varied friction pressure, forging pressure, spindle speed, faying geometry, and friction time; evaluated tensile and torsional strength.",
+    "Compared ensemble residual, compact attention, and adaptive multiscale networks for tensile-strength prediction."
   ],
   "evidence_signal": "The reported optimum—30 MPa friction pressure, 70 MPa forging pressure, 2200 rpm, drilled-to-bossed geometry, and 4 min friction time—achieved 538 MPa tensile strength and 325 MPa torsional strength.",
-  "watch_item": "The abstract does not specify independent validation or dataset size beyond the L18 design, so predictive generalization to new welding conditions remains uncertain.",
+  "watch_item": "The abstract does not specify independent test-set validation, so prediction reliability beyond the studied welding conditions remains uncertain.",
   "hashtags": [
     "#FrictionWelding",
     "#AA2024",
-    "#JointGeometry",
+    "#JointDesign",
     "#DeepLearning",
     "#ProcessOptimization"
   ],
@@ -21,6 +21,6 @@
   "paper_title": "Enhancing weld performance of AA2024-T351 using drilled-to-bossed geometry and deep learning prediction in direct drive friction welding",
   "paper_date": "2026-05-01",
   "paper_category": "AI Process Optimization",
-  "generated_at": "2026-10-23T15:41:33",
+  "generated_at": "2026-10-24T14:22:47",
   "generator": "openai"
 }
