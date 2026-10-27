@@ -1,19 +1,19 @@
 {
-  "key_insight": "A physics-grounded welding digital twin combines thermal simulation and fast Gaussian-process predictions to screen robotic joining conditions before in-space testing.",
-  "engineering_relevance": "The framework could help engineers select welding settings and evaluate control strategies for on-orbit assembly and repair before costly physical trials.",
+  "key_insight": "A physics-grounded digital twin combines weld-pool simulation, AI surrogates, and robot simulation to screen in-space welding conditions and control strategies before experimental testing.",
+  "engineering_relevance": "Fast surrogate predictions could support adaptive robotic welding for on-orbit assembly and repair as travel speed changes.",
   "method": [
-    "Finite-volume weld-pool model with phase change, effective thermocapillary transport, and local pressure.",
-    "Gaussian-process and neural-network surrogates benchmarked using repeated five-fold cross-validation.",
-    "Simulated six-axis robot with proportional power-setting control along an L-shaped seam."
+    "Finite-volume thermal model includes phase change, effective thermocapillary transport, and local pressure; gravity is assessed separately.",
+    "Gaussian-process and neural-network surrogates predict weld responses.",
+    "Simulated UR5 controller adjusts the power-source setting near an L-shaped seam corner."
   ],
-  "evidence_signal": "The GP outperformed the neural network on all eight outputs; 74/80 boundary-case responses fell within nominal 90% predictive intervals, and finite-volume checks placed 12/12 closed-loop versus 9/12 open-loop points within an illustrative width band.",
-  "watch_item": "Results remain simulation-based: gravity was assessed separately from the thermal equation, and thermal-vacuum, reduced-gravity, and robotic hardware-in-the-loop validation are still needed.",
+  "evidence_signal": "The GP outperformed the neural network on all eight outputs in repeated five-fold cross-validation; finite-volume checks placed 12/12 closed-loop versus 9/12 open-loop points within an illustrative 1–3 mm root-side-width band.",
+  "watch_item": "Results are simulation-based; thermal-vacuum, reduced-gravity, and hardware-in-the-loop tests are needed to assess model and controller validity.",
   "hashtags": [
     "#DigitalTwin",
     "#RoboticWelding",
     "#InSpaceManufacturing",
     "#GaussianProcesses",
-    "#PhysicsBasedModeling"
+    "#PhysicsGroundedAI"
   ],
   "model": "gpt-6.1-sol",
   "service_tier": "ultrafast",
@@ -21,6 +21,6 @@
   "paper_title": "De-Risking Robotic Welding for In-Space Metal Joining Through Physics-Grounded Digital Twins",
   "paper_date": "2026-10-15",
   "paper_category": "AI Process Optimization",
-  "generated_at": "2026-10-26T17:12:16",
+  "generated_at": "2026-10-27T16:18:41",
   "generator": "openai"
 }

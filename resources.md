@@ -1,6 +1,6 @@
 # AI Detonation Spray and Coating Progress Public Resources
 
-Generated: 2026-10-26
+Generated: 2026-10-27
 Public site: https://dutoaa.github.io/ai-in-detonation-spray-progress/
 
 ## 1. Computational and machine learning modelling approaches for weld quality predictions in friction stir welding of high-density polyethylene
@@ -36,18 +36,7 @@ Public site: https://dutoaa.github.io/ai-in-detonation-spray-progress/
 - PDF: https://matsc.ktu.lt/index.php/MatSc/article/download/44363/23680
 - Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-09-01-doaj-microstructure_wear_and_corrosion_resistances_of_atmospheric_plasma_detonation_high_veloci_infographic.json
 
-## 4. Three-Dimensional Thermomechanical Analysis of Radial Friction Welding of Dissimilar Copper-Aluminum Alloys: Finite Element Modelling and Experimental Validation
-
-- Date: 2026-10-25
-- Source: OpenAlex
-- Venue: International Journal of Engineering
-- Category: Coating Microstructure
-- DOI: 10.5829/ije.2027.40.05b.20
-- Source link: https://doi.org/10.5829/ije.2027.40.05b.20
-- PDF: None
-- Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-10-25-openalex-three_dimensional_thermomechanical_analysis_of_radial_friction_welding_of_dissimilar_coppe_infographic.json
-
-## 5. Microstructure and high-temperature oxidation behaviour of HVOF and plasma sprayed Ni–Cr-based ceramic coatings on SA516 boiler steel
+## 4. Microstructure and high-temperature oxidation behaviour of HVOF and plasma sprayed Ni–Cr-based ceramic coatings on SA516 boiler steel
 
 - Date: 2026-10-08
 - Source: OpenAlex
@@ -58,18 +47,7 @@ Public site: https://dutoaa.github.io/ai-in-detonation-spray-progress/
 - PDF: https://www.sciencedirect.com/science/article/pii/S2666845926003016/pdf
 - Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-10-08-openalex-microstructure_and_high_temperature_oxidation_behaviour_of_hvof_and_plasma_sprayed_ni_cr_b_infographic.json
 
-## 6. Water vapor retards grain growth during sintering of yttria-stabilized zirconia pellets and coatings
-
-- Date: 2026-10-25
-- Source: OpenAlex
-- Venue: npj Materials Degradation
-- Category: Coating Microstructure
-- DOI: 10.1038/s41529-026-00904-7
-- Source link: https://doi.org/10.1038/s41529-026-00904-7
-- PDF: https://www.nature.com/articles/s41529-026-00904-7_reference.pdf
-- Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-10-25-openalex-water_vapor_retards_grain_growth_during_sintering_of_yttria_stabilized_zirconia_pellets_an_infographic.json
-
-## 7. Molten pool dynamic behavior and arc characteristics in laser-TIG hybrid welding of Invar steel
+## 5. Molten pool dynamic behavior and arc characteristics in laser-TIG hybrid welding of Invar steel
 
 - Date: 2026-09-01
 - Source: DOAJ
@@ -79,6 +57,28 @@ Public site: https://dutoaa.github.io/ai-in-detonation-spray-progress/
 - Source link: https://doi.org/10.12073/j.hjxb.20250930001
 - PDF: None
 - Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-09-01-doaj-molten_pool_dynamic_behavior_and_arc_characteristics_in_laser_tig_hybrid_welding_of_invar_infographic.json
+
+## 6. Three-Dimensional Thermomechanical Analysis of Radial Friction Welding of Dissimilar Copper-Aluminum Alloys: Finite Element Modelling and Experimental Validation
+
+- Date: 2026-10-25
+- Source: OpenAlex
+- Venue: International Journal of Engineering
+- Category: Coating Microstructure
+- DOI: 10.5829/ije.2027.40.05b.20
+- Source link: https://doi.org/10.5829/ije.2027.40.05b.20
+- PDF: None
+- Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-10-25-openalex-three_dimensional_thermomechanical_analysis_of_radial_friction_welding_of_dissimilar_coppe_infographic.json
+
+## 7. Water vapor retards grain growth during sintering of yttria-stabilized zirconia pellets and coatings
+
+- Date: 2026-10-25
+- Source: OpenAlex
+- Venue: npj Materials Degradation
+- Category: Coating Microstructure
+- DOI: 10.1038/s41529-026-00904-7
+- Source link: https://doi.org/10.1038/s41529-026-00904-7
+- PDF: https://www.nature.com/articles/s41529-026-00904-7_reference.pdf
+- Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-10-25-openalex-water_vapor_retards_grain_growth_during_sintering_of_yttria_stabilized_zirconia_pellets_an_infographic.json
 
 ## 8. INVESTIGATION OF THE FORMATION OF STRUCTURE AND WEAR-RESISTANT PROPERTIES OF WC–CO–CR COATINGS PRODUCED BY HVOF AND DETONATION SPRAYING
 

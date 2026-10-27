@@ -1,16 +1,16 @@
 {
-  "key_insight": "Dense, low-porosity Fe-based amorphous coatings improve long-term corrosion resistance, while increasing humidity reduces friction and wear.",
-  "engineering_relevance": "Detonation-spray parameter control can help produce protective coatings for carbon-steel components exposed to corrosion and humidity-dependent sliding wear.",
+  "key_insight": "Disk-like droplets with high circularity and expansion promote dense Fe-based amorphous coatings, while lower porosity supports long-term corrosion resistance and higher humidity reduces friction and wear.",
+  "engineering_relevance": "Controlling detonation-spray parameters and accounting for service humidity can help tailor protective coatings for Q235 carbon steel.",
   "method": [
-    "Deposit Fe-based amorphous coatings on Q235 steel using varied detonation-spray parameters.",
-    "Examine droplet morphology, lamellar structure, and coating defects.",
-    "Test corrosion behavior and sliding wear against Si3N4 balls under different humidity conditions."
+    "Deposit Fe-based amorphous coatings by detonation spraying under varied parameters.",
+    "Examine droplet morphology, lamellar structure, and coating porosity.",
+    "Evaluate long-term corrosion and sliding wear under different humidity conditions."
   ],
-  "evidence_signal": "The abstract reports lower long-term corrosion resistance with greater porosity and decreasing friction coefficient and wear rate as humidity increases.",
-  "watch_item": "The abstract provides no numerical performance gains or humidity ranges, and wear findings may depend on the Si3N4 counterface.",
+  "evidence_signal": "The abstract reports poorer long-term corrosion resistance with greater porosity and decreasing friction coefficient and wear rate as humidity increases.",
+  "watch_item": "Humidity-dependent wear findings involve Si3N4 counterfaces and should not be assumed to generalize to other contact materials.",
   "hashtags": [
-    "#AmorphousCoatings",
     "#DetonationSpray",
+    "#AmorphousCoatings",
     "#CoatingMicrostructure",
     "#CorrosionResistance",
     "#Tribology"
@@ -21,6 +21,6 @@
   "paper_title": "Long-term corrosion behaviors and wear behavior of Fe-based amorphous coatings in different humidity environments",
   "paper_date": "2025-12-01",
   "paper_category": "Coating Microstructure",
-  "generated_at": "2026-10-26T17:12:22",
+  "generated_at": "2026-10-27T16:18:47",
   "generator": "openai"
 }

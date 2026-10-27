@@ -1,18 +1,18 @@
 {
-  "key_insight": "A 3D thermomechanical model of AA2024 aluminum–Cu-DHP copper radial friction welding predicts asymmetric heating and localized deformation near the interface.",
-  "engineering_relevance": "The model helps interpret thermal and deformation responses in dissimilar aluminum–copper welds under the studied processing conditions.",
+  "key_insight": "A 3D thermomechanical model of AA2024 aluminum–Cu-DHP copper radial friction welding predicted asymmetric heating, with a peak interface temperature of 750 °C and localized deformation.",
+  "engineering_relevance": "The model helps interpret heat distribution and material flow in dissimilar aluminum–copper radial friction welds.",
   "method": [
     "Coupled 3D finite element modelling in ANSYS Workbench 2023 R1 at 1,400 rpm and 30 MPa.",
-    "Optical metallography and Vickers microhardness characterization.",
-    "Comparison with thermocouple measurements and aluminum-side TMAZ width."
+    "Optical metallography and Vickers microhardness testing.",
+    "Comparison with thermocouple measurements and aluminum-side thermomechanically affected zone width."
   ],
-  "evidence_signal": "Predictions included a 750 °C interface peak, 0.0177 equivalent plastic strain, and 0.130 mm maximum displacement; temperature and TMAZ-width comparisons supported the model, while measured TMAZ hardness reached approximately 157 HV.",
-  "watch_item": "Friction and radiation assumptions, omitted latent heat, and absent microstructural kinetics limit interpretation; hardness does not directly validate strain or identify phases.",
+  "evidence_signal": "Thermocouple and zone-width comparisons supported directly comparable model predictions; approximately 157 HV in the affected zone provided complementary evidence of localized hardening.",
+  "watch_item": "Friction and radiation assumptions, omitted latent heat, and absent microstructural kinetics limit interpretation; hardness does not directly measure strain or identify phases.",
   "hashtags": [
     "#RadialFrictionWelding",
-    "#DissimilarMetals",
+    "#DissimilarMetalJoining",
     "#FiniteElementAnalysis",
-    "#Thermomechanics",
+    "#ThermomechanicalModelling",
     "#ExperimentalValidation"
   ],
   "model": "gpt-6.1-sol",
@@ -21,6 +21,6 @@
   "paper_title": "Three-Dimensional Thermomechanical Analysis of Radial Friction Welding of Dissimilar Copper-Aluminum Alloys: Finite Element Modelling and Experimental Validation",
   "paper_date": "2026-10-25",
   "paper_category": "Coating Microstructure",
-  "generated_at": "2026-10-26T17:12:01",
+  "generated_at": "2026-10-27T16:18:32",
   "generator": "openai"
 }
