@@ -1,17 +1,17 @@
 {
-  "key_insight": "A manufactured automated X-ray inspection platform combines modular pipe handling, servo positioning, and structural verification for pipe-weld inspection.",
-  "engineering_relevance": "The system accommodates pipes 40–508 mm in diameter and 6–12 m long, with internal or external inspection depending on diameter and ±1 mm positioning accuracy.",
+  "key_insight": "A manufactured automated X-ray inspection system combines modular mechanics and servo positioning to inspect pipe welds with ±1 mm positioning accuracy.",
+  "engineering_relevance": "The design supports industrial weld inspection for pipes 40–508 mm in diameter and 6–12 m long, with internal or external inspection depending on diameter.",
   "method": [
-    "Surveyed site layout and overhead-crane feeding requirements.",
-    "Designed a rail-guided carrier and height-adjustable X-ray positioning arm for imaging at 25 cm intervals.",
-    "Integrated servo positioning, laser verification, and an absolute encoder; assessed structures using finite element analysis."
+    "Use overhead-crane feeding and a rail-guided carrier to transport pipes to the X-ray positioning arm.",
+    "Align the weld using servo positioning, laser verification, an absolute encoder, and height adjustment; image at 25 cm intervals.",
+    "Verify structural performance through finite element analysis and experimental tests on the manufactured system."
   ],
-  "evidence_signal": "Reported peak stresses were 133.5 MPa for the arm and 211.1 MPa for the rail vehicle, with safety factors of 3.1 and 1.96; simulations were validated through tests on the manufactured system.",
-  "watch_item": "The abstract does not quantify defect-detection performance, inspection throughput, or radiation-shielding provisions.",
+  "evidence_signal": "Structural analyses reported maximum stresses of 133.5 MPa for the arm and 211.1 MPa for the rail vehicle, with respective safety factors of 3.1 and 1.96; experimental validation was reported.",
+  "watch_item": "The abstract does not quantify defect-detection performance, inspection throughput, or experimental agreement with structural simulations.",
   "hashtags": [
-    "#AutomatedInspection",
+    "#PipeWeldInspection",
     "#XRayImaging",
-    "#PipeWelding",
+    "#NondestructiveTesting",
     "#MachineDesign",
     "#FiniteElementAnalysis"
   ],
@@ -21,6 +21,6 @@
   "paper_title": "Design and Validation of an Automated X-Ray Imaging System for Pipe Weld Inspection",
   "paper_date": "2026-10-23",
   "paper_category": "Coating Microstructure",
-  "generated_at": "2026-10-27T16:18:39",
+  "generated_at": "2026-10-28T17:04:14",
   "generator": "openai"
 }

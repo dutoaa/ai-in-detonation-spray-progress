@@ -1,13 +1,13 @@
 {
-  "key_insight": "A physics-grounded digital twin combines weld-pool simulation, AI surrogates, and robot simulation to screen in-space welding conditions and control strategies before experimental testing.",
-  "engineering_relevance": "Fast surrogate predictions could support adaptive robotic welding for on-orbit assembly and repair as travel speed changes.",
+  "key_insight": "A physics-grounded digital twin combining weld-pool simulation, AI surrogates, and robot simulation shows promise for screening in-space welding conditions before physical testing.",
+  "engineering_relevance": "Fast surrogate predictions could support adaptive robotic welding as travel speed changes, helping maintain weld geometry during on-orbit assembly and repair.",
   "method": [
     "Finite-volume thermal model includes phase change, effective thermocapillary transport, and local pressure; gravity is assessed separately.",
     "Gaussian-process and neural-network surrogates predict weld responses.",
-    "Simulated UR5 controller adjusts the power-source setting near an L-shaped seam corner."
+    "Simulated six-axis robot uses proportional power-setting control along an L-shaped seam."
   ],
   "evidence_signal": "The GP outperformed the neural network on all eight outputs in repeated five-fold cross-validation; finite-volume checks placed 12/12 closed-loop versus 9/12 open-loop points within an illustrative 1–3 mm root-side-width band.",
-  "watch_item": "Results are simulation-based; thermal-vacuum, reduced-gravity, and hardware-in-the-loop tests are needed to assess model and controller validity.",
+  "watch_item": "Results are simulation-based; thermal-vacuum, reduced-gravity, and robotic hardware-in-the-loop tests are still needed to assess model and controller performance.",
   "hashtags": [
     "#DigitalTwin",
     "#RoboticWelding",
@@ -21,6 +21,6 @@
   "paper_title": "De-Risking Robotic Welding for In-Space Metal Joining Through Physics-Grounded Digital Twins",
   "paper_date": "2026-10-15",
   "paper_category": "AI Process Optimization",
-  "generated_at": "2026-10-27T16:18:41",
+  "generated_at": "2026-10-28T17:04:10",
   "generator": "openai"
 }
