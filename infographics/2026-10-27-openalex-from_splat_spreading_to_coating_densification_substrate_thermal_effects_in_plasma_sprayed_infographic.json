@@ -1,19 +1,19 @@
 {
-  "key_insight": "Higher substrate temperature delays splat solidification, enabling greater spreading and producing denser, harder plasma-sprayed NiCrAl–10 wt.% TiB2 coatings.",
-  "engineering_relevance": "Substrate-temperature control offers a practical route to improve coating integrity on lightweight aluminum components.",
+  "key_insight": "Higher substrate temperature delays splat solidification, improving spreading and continuity and producing denser, harder APS NiCrAl–10 wt.% TiB2 coatings.",
+  "engineering_relevance": "Substrate thermal control offers a practical route to improving coating microstructural integrity and hardness on 6061-T6 aluminum alloy.",
   "method": [
-    "Atmospheric plasma spraying onto 6061-T6 aluminum at 230, 330, and 430 °C.",
-    "Linked individual splat spreading and morphology to bulk coating microstructure.",
-    "Evaluated coating porosity, microhardness, and phase composition."
+    "Atmospheric plasma spraying at substrate temperatures of 230, 330, and 430 °C.",
+    "Linked individual splat morphology to bulk coating microstructure.",
+    "Measured splat diameter, coating porosity, microhardness, and phase composition."
   ],
-  "evidence_signal": "From 230 to 430 °C, mean splat diameter on polished substrates rose from 47.82 to 57.54 μm, coating porosity fell from 1.48% to 0.55%, and microhardness increased from 317.7 to 336.3 HV0.1, while the dominant γ-Ni(Cr,Al) phase remained unchanged.",
-  "watch_item": "Before implementation, assess whether substrate heating alters the temper or mechanical properties of the 6061-T6 aluminum; the abstract does not report this evaluation.",
+  "evidence_signal": "From 230 to 430 °C, mean splat diameter on polished substrates increased from 47.82 ± 5.4 to 57.54 ± 3.1 μm, porosity fell from 1.48 ± 0.42% to 0.55 ± 0.26%, and hardness rose from 317.7 ± 3.9 to 336.3 ± 3.2 HV0.1, while the dominant γ-Ni(Cr,Al) phase remained unchanged.",
+  "watch_item": "The abstract does not establish how substrate heating affects the retained T6 properties of the aluminum alloy, an important implementation concern.",
   "hashtags": [
     "#PlasmaSpraying",
     "#CompositeCoatings",
     "#SplatDynamics",
     "#CoatingDensification",
-    "#AluminumAlloys"
+    "#SubstrateTemperature"
   ],
   "model": "gpt-6.1-sol",
   "service_tier": "ultrafast",
@@ -21,6 +21,6 @@
   "paper_title": "From Splat Spreading to Coating Densification: Substrate Thermal Effects in Plasma-Sprayed NiCrAl-TiB2 Coatings",
   "paper_date": "2026-10-27",
   "paper_category": "Coating Microstructure",
-  "generated_at": "2026-10-28T17:03:51",
+  "generated_at": "2026-10-29T17:21:16",
   "generator": "openai"
 }

@@ -1,13 +1,13 @@
 {
-  "key_insight": "Detonation-spraying parameters can tune titanium-dioxide-based coating roughness, thickness, and hydrophobicity, with optimal settings identified for maximum hydrophobicity.",
-  "engineering_relevance": "The reported relationships can guide spray-process settings to achieve desired coating geometry and water repellency.",
+  "key_insight": "Detonation-spray parameters control the roughness, thickness, and hydrophobicity of titanium-dioxide-based metal–ceramic coatings.",
+  "engineering_relevance": "Selecting nozzle traverse speed and spray distance can help engineers tailor coating surfaces for greater water repellency.",
   "method": [
-    "Vary nozzle traverse speed and spray distance during detonation spraying.",
-    "Evaluate coating roughness, thickness, and water contact angle.",
-    "Derive equations linking process parameters to surface characteristics."
+    "Vary detonation-spraying process conditions.",
+    "Evaluate coating roughness, thickness, and contact angle.",
+    "Develop predictive equations and identify conditions maximizing hydrophobicity."
   ],
   "evidence_signal": "The abstract reports inverse-power relationships between traverse speed and roughness/thickness, and parabolic relationships between spray distance and roughness/contact angle.",
-  "watch_item": "The abstract provides no numerical optima, parameter ranges, or model-fit metrics, limiting direct implementation without the full study.",
+  "watch_item": "The abstract provides no numerical process window or validation metrics, so the predictive equations require verification before production use.",
   "hashtags": [
     "#DetonationSpraying",
     "#TitaniumDioxide",
@@ -21,6 +21,6 @@
   "paper_title": "Surface Characteristics of Titanium Based Coatings Obtained by Detonation Spraying Under Various Process Conditions",
   "paper_date": "2025-12-01",
   "paper_category": "Detonation Spray Process",
-  "generated_at": "2026-10-28T17:04:22",
+  "generated_at": "2026-10-29T17:21:41",
   "generator": "openai"
 }
