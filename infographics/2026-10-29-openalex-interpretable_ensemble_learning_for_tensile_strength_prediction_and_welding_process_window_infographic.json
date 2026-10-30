@@ -1,0 +1,26 @@
+{
+  "key_insight": "An optimized gradient boosting decision tree predicted friction stir-welded 7N01 aluminum joint strength with R² = 0.978 and mapped welding process windows targeting at least 90% joint efficiency.",
+  "engineering_relevance": "The approach provides a quantitative basis for selecting welding parameters to achieve high-strength joints, with shoulder plunge depth helping refine the process window.",
+  "method": [
+    "Predict ultimate tensile strength from rotational speed, welding speed, and shoulder plunge depth.",
+    "Compare baseline models, then apply gradient boosting and grid-search hyperparameter tuning.",
+    "Use SHAP to interpret parameter effects and identify high-strength process windows."
+  ],
+  "evidence_signal": "Using 27 experimental samples and leave-one-out cross-validation, reported R² increased from 0.905 for a decision tree to 0.966 for gradient boosting and 0.978 after tuning.",
+  "watch_item": "The small dataset and lack of reported independent validation warrant experimental confirmation before deploying the predicted process windows.",
+  "hashtags": [
+    "#FrictionStirWelding",
+    "#AluminumAlloys",
+    "#MachineLearning",
+    "#ExplainableAI",
+    "#ProcessOptimization"
+  ],
+  "model": "gpt-6.1-sol",
+  "service_tier": "ultrafast",
+  "paper_id": "2026-10-29-openalex-interpretable_ensemble_learning_for_tensile_strength_prediction_and_welding_process_window",
+  "paper_title": "Interpretable ensemble learning for tensile strength prediction and welding process window optimization of friction stir-welded 7N01 aluminum alloy",
+  "paper_date": "2026-10-29",
+  "paper_category": "AI Process Optimization",
+  "generated_at": "2026-10-30T16:58:25",
+  "generator": "openai"
+}

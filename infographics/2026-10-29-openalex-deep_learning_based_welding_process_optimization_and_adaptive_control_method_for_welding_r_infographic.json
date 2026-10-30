@@ -1,0 +1,26 @@
+{
+  "key_insight": "An integrated deep learning and adaptive-control method aims to help GMAW robots adjust welding parameters as joint conditions change.",
+  "engineering_relevance": "The approach targets reduced manual reprogramming and more consistent weld quality despite machining errors, assembly deviations and thermal changes.",
+  "method": [
+    "Combine quality-grade-oriented planning with site-specific multi-objective parameter optimization.",
+    "Use semi-supervised semantic segmentation to perceive weld seams and molten pools, alongside neural-network weld-formation prediction for spatter suppression.",
+    "Apply fuzzy adaptive control to adjust the welding process."
+  ],
+  "evidence_signal": "Experiments used Q235 carbon-steel butt joints and developed a response-surface model linking welding current, speed, torch angle and nozzle height to weld geometry.",
+  "watch_item": "The abstract reports no quantitative performance gains, and applicability beyond Q235 butt joints remains unestablished.",
+  "hashtags": [
+    "#RoboticWelding",
+    "#DeepLearning",
+    "#AdaptiveControl",
+    "#ProcessOptimization",
+    "#WeldQuality"
+  ],
+  "model": "gpt-6.1-sol",
+  "service_tier": "ultrafast",
+  "paper_id": "2026-10-29-openalex-deep_learning_based_welding_process_optimization_and_adaptive_control_method_for_welding_r",
+  "paper_title": "Deep Learning-Based Welding Process Optimization and Adaptive Control Method for Welding Robots",
+  "paper_date": "2026-10-29",
+  "paper_category": "AI Process Optimization",
+  "generated_at": "2026-10-30T16:58:22",
+  "generator": "openai"
+}

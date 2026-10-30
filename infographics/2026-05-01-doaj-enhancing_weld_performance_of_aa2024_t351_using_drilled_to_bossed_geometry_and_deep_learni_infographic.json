@@ -1,17 +1,17 @@
 {
   "key_insight": "Drilled-to-bossed geometry improved AA2024-T351 friction-weld strength, while an ensemble residual network predicted ultimate tensile strength with R² ≈ 0.81.",
-  "engineering_relevance": "Combining joint geometry design with data-driven prediction could support stronger aluminium joints for aerospace and automotive applications.",
+  "engineering_relevance": "Geometry-assisted direct drive friction welding could support stronger joints in lightweight aerospace and automotive aluminium components.",
   "method": [
-    "Tested direct drive friction welding on a customized engine lathe using an L18 orthogonal array.",
+    "Tested welding conditions using an L18 orthogonal array on a customized engine lathe.",
     "Varied friction pressure, forging pressure, spindle speed, faying geometry, and friction time.",
-    "Evaluated tensile and torsional strength and compared three deep learning models for tensile-strength prediction."
+    "Compared ensemble residual, compact attention, and adaptive multiscale networks for tensile-strength prediction."
   ],
   "evidence_signal": "The reported optimum—30 MPa friction pressure, 70 MPa forging pressure, 2200 rpm, drilled-to-bossed geometry, and 4 min friction time—achieved 538 MPa tensile strength and 325 MPa torsional strength.",
-  "watch_item": "The abstract does not specify model validation splits or independent testing, so predictive generalization beyond the experimental conditions remains uncertain.",
+  "watch_item": "The abstract does not specify training/test splits or external validation, leaving predictive generalization beyond the tested conditions uncertain.",
   "hashtags": [
     "#FrictionWelding",
     "#AA2024",
-    "#JointDesign",
+    "#JointGeometry",
     "#DeepLearning",
     "#ProcessOptimization"
   ],
@@ -21,6 +21,6 @@
   "paper_title": "Enhancing weld performance of AA2024-T351 using drilled-to-bossed geometry and deep learning prediction in direct drive friction welding",
   "paper_date": "2026-05-01",
   "paper_category": "AI Process Optimization",
-  "generated_at": "2026-10-29T17:21:39",
+  "generated_at": "2026-10-30T16:58:57",
   "generator": "openai"
 }
