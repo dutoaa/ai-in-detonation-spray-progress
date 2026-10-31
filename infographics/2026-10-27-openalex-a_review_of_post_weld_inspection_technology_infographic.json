@@ -1,19 +1,19 @@
 {
-  "key_insight": "Robot-mounted vision and deep learning offer a path toward automated post-weld inspection through defect detection, 3D weld measurement, and multimodal diagnosis.",
-  "engineering_relevance": "These approaches could reduce reliance on manual judgment and support online quality feedback in robotic welding production lines.",
+  "key_insight": "This review organizes robot-mounted vision-based post-weld inspection into three processing levels and three deep-learning routes toward automated quality assessment.",
+  "engineering_relevance": "Vision-based robotic inspection could reduce reliance on manual judgment and support online closed-loop quality control in welding production lines.",
   "method": [
-    "Reviews non-destructive and destructive post-weld inspection techniques.",
-    "Organizes vision processing into preprocessing, defect recognition and segmentation, and quality diagnosis.",
-    "Compares CNN, YOLO, U-Net, and DETR approaches across inspection tasks and application scenarios."
+    "Structures visual inspection as preprocessing, defect recognition and segmentation, and quality diagnosis.",
+    "Reviews defect classification, 3D weld geometry measurement, and multimodal temporal diagnosis.",
+    "Compares CNN, YOLO, U-Net, and DETR applications and examines industrial interference factors."
   ],
-  "evidence_signal": "The abstract describes a systematic technology review but reports no datasets, quantitative benchmarks, or experimental validation.",
-  "watch_item": "Industrial interference may affect inspection reliability, and robust online closed-loop deployment remains an engineering challenge.",
+  "evidence_signal": "The abstract describes a technical review but reports no datasets, quantitative benchmarks, or production-line validation results.",
+  "watch_item": "Reliable deployment requires robustness to industrial interference; online closed-loop performance is not demonstrated in the abstract.",
   "hashtags": [
     "#WeldInspection",
-    "#RoboticWelding",
-    "#ComputerVision",
+    "#RoboticVision",
     "#DeepLearning",
-    "#ManufacturingAI"
+    "#QualityControl",
+    "#SmartManufacturing"
   ],
   "model": "gpt-6.1-sol",
   "service_tier": "ultrafast",
@@ -21,6 +21,6 @@
   "paper_title": "A Review of Post-weld Inspection Technology",
   "paper_date": "2026-10-27",
   "paper_category": "AI Process Optimization",
-  "generated_at": "2026-10-28T17:03:46",
+  "generated_at": "2026-10-31T16:00:01",
   "generator": "openai"
 }
