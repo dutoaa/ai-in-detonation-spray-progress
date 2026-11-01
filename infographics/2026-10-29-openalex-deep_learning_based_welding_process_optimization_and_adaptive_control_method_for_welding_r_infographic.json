@@ -1,19 +1,19 @@
 {
-  "key_insight": "An integrated deep learning and adaptive control method aims to help GMAW robots adjust welding parameters as joint geometry and seam conditions change.",
-  "engineering_relevance": "Adaptive welding could reduce manual reprogramming and help maintain weld quality despite assembly deviations and heat-induced changes.",
+  "key_insight": "An integrated deep-learning and fuzzy-control method aims to adapt robotic GMAW parameters to changing weld-seam conditions while optimizing weld quality.",
+  "engineering_relevance": "The approach targets reduced manual reprogramming and more consistent robotic welding when joint geometry, assembly conditions, or heat input vary.",
   "method": [
-    "Quality-grade-oriented planning with site-specific multi-objective parameter optimization.",
-    "Semi-supervised seam and molten-pool segmentation, plus neural-network weld-formation prediction for spatter suppression.",
-    "Fuzzy adaptive control to adjust the welding process."
+    "Combine quality-grade-oriented process planning with site-specific multi-objective parameter optimization.",
+    "Use semi-supervised semantic segmentation to perceive seams and molten pools, alongside neural weld-formation prediction for spatter suppression.",
+    "Apply fuzzy adaptive control to adjust the welding process."
   ],
-  "evidence_signal": "Experiments used Q235 steel butt joints and developed a response surface model relating current, welding speed, torch angle and nozzle height to weld geometry; the abstract reports no quantitative performance gains.",
-  "watch_item": "Generalization beyond Q235 steel butt joints and robustness under production conditions require further validation.",
+  "evidence_signal": "Experiments used Q235 carbon-steel butt joints and developed a response-surface model linking current, travel speed, torch angle, and nozzle height to weld geometry; the abstract reports no quantitative performance gains.",
+  "watch_item": "Transferability beyond Q235 butt joints and robustness under production conditions require further validation.",
   "hashtags": [
     "#RoboticWelding",
+    "#GMAW",
     "#DeepLearning",
     "#AdaptiveControl",
-    "#ProcessOptimization",
-    "#GMAW"
+    "#ProcessOptimization"
   ],
   "model": "gpt-6.1-sol",
   "service_tier": "ultrafast",
@@ -21,6 +21,6 @@
   "paper_title": "Deep Learning-Based Welding Process Optimization and Adaptive Control Method for Welding Robots",
   "paper_date": "2026-10-29",
   "paper_category": "AI Process Optimization",
-  "generated_at": "2026-10-31T15:59:35",
+  "generated_at": "2026-11-01T17:02:39",
   "generator": "openai"
 }

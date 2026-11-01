@@ -1,19 +1,19 @@
 {
-  "key_insight": "UNSM-treated Cr₃C₂–NiCr coatings showed sample-dependent hardness, with peak values at 20 N/20 µm for detonation-sprayed coatings and 30 N/30 µm for HVOF coatings.",
-  "engineering_relevance": "Coating route and UNSM settings should be evaluated together with surface integrity rather than selecting treatment conditions by hardness alone.",
+  "key_insight": "UNSM-treated Cr₃C₂–NiCr coatings showed sample-dependent hardness, with peak values of 970 HV for detonation-sprayed deposits and 1165 HV for HVOF deposits.",
+  "engineering_relevance": "Coating process and UNSM settings should be evaluated together with local hardness and surface integrity rather than hardness alone.",
   "method": [
-    "Evaluated four UNSM-treated samples per deposition route at static loads of 20 or 30 N and vibration amplitudes of 20 or 30 µm.",
-    "Measured instrumental hardness at 300 mN with a 10 s dwell.",
-    "Examined post-scratch surfaces using SEM."
+    "Evaluated four UNSM-treated samples per deposition route: detonation spray and HVOF.",
+    "Used static loads of 20–30 N and vibration amplitudes of 20–30 µm.",
+    "Measured instrumental hardness at 300 mN with a 10 s dwell and examined post-scratch surfaces by SEM."
   ],
-  "evidence_signal": "Hardness ranged from 820–970 HV for detonation-sprayed coatings and 546–1165 HV for HVOF coatings; post-scratch SEM showed heterogeneous contrast and crack-like discontinuities in both series.",
+  "evidence_signal": "Hardness ranged from 820–970 HV for detonation-sprayed coatings and 546–1165 HV for HVOF coatings, peaking at 20 N/20 µm and 30 N/30 µm, respectively.",
   "watch_item": "Post-scratch SEM observations do not isolate UNSM-induced damage or establish a scratch-resistance ranking.",
   "hashtags": [
     "#DetonationSpray",
     "#HVOF",
     "#UNSM",
-    "#CarbideCoatings",
-    "#SurfaceEngineering"
+    "#SurfaceEngineering",
+    "#Cr3C2NiCr"
   ],
   "model": "gpt-6.1-sol",
   "service_tier": "ultrafast",
@@ -21,6 +21,6 @@
   "paper_title": "HARDNESS AND POST-SCRATCH SURFACE MORPHOLOGY OF Cr₃C₂–NiCr COATINGS AFTER ULTRASONIC NANOCRYSTAL SURFACE MODIFICATION",
   "paper_date": "2026-09-29",
   "paper_category": "Detonation Spray Process",
-  "generated_at": "2026-10-30T16:59:02",
+  "generated_at": "2026-11-01T17:03:20",
   "generator": "openai"
 }

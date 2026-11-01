@@ -1,0 +1,26 @@
+{
+  "key_insight": "Full-spectrum deep learning detected separator contact defects during copper laser welding, with LSTM achieving the highest reported separator F1-score of 0.99.",
+  "engineering_relevance": "Spectroscopic monitoring could help identify separator contact that risks thermal damage and safety issues in lithium-ion battery production.",
+  "method": [
+    "Evaluated fiber core diameter, slit width, optical configuration, and integration time for spectroscopic monitoring.",
+    "Trained LSTM, GRU, CNN, TCN, and CNN+LSTM models to classify normal welds and separator contact defects.",
+    "Compared characteristic wavelength bands (350–450 and 650–750 nm) with the full spectrum (232–1110 nm)."
+  ],
+  "evidence_signal": "Separator F1-scores were 0.87–0.88 for characteristic wavelength bands and 0.91–0.99 for the full spectrum.",
+  "watch_item": "The abstract does not report dataset size or independent production-line validation, leaving deployment generalization uncertain.",
+  "hashtags": [
+    "#LaserWelding",
+    "#LithiumIonBatteries",
+    "#Spectroscopy",
+    "#DeepLearning",
+    "#DefectDetection"
+  ],
+  "model": "gpt-6.1-sol",
+  "service_tier": "ultrafast",
+  "paper_id": "2026-10-30-openalex-detection_of_separator_contact_defects_using_spectroscopic_signals_and_deep_learning_in_co",
+  "paper_title": "Detection of Separator Contact Defects Using Spectroscopic Signals and Deep Learning in Copper Laser Welding for Lithium-Ion Batteries",
+  "paper_date": "2026-10-30",
+  "paper_category": "Welding Processes",
+  "generated_at": "2026-11-01T17:02:55",
+  "generator": "openai"
+}
