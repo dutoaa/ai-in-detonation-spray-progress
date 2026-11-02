@@ -1,0 +1,87 @@
+{
+  "repo_title": "AI in Detonation Spray and Detonation Spray Coating",
+  "period": "month",
+  "label": "2026-10",
+  "author": "William Sun with help from OpenAI",
+  "paper_count": 108,
+  "analysis": {
+    "author": "William Sun with help from OpenAI",
+    "period": "2026-10",
+    "executive_summary": "The supplied October 2026 paper metadata indicates incremental progress toward AI-enabled detonation spray coating, but does not establish a demonstrated AI-controlled detonation spraying system. The strongest directly relevant contribution compares detonation-gun-sprayed 80Ni20Cr and NiCrAlY coatings on Al 6061-T6, reporting a denser, lower-porosity NiCrAlY microstructure and providing characterization targets for future predictive models. Adjacent advances include interpretable property prediction, physics-informed defect modeling, optical process monitoring, industrial-scale signal analysis, and a proposed AI-assisted robotic cold-spray architecture. Complementary thermal-spray studies clarify how processing conditions, composition, and substrate temperature influence coating structure and performance. Together, these papers suggest a route toward physics-aware, sensor-integrated coating optimization, while leaving detonation-specific datasets, uncertainty assessment, cross-system validation, and safe closed-loop control unresolved. This review is limited to the supplied metadata and abstracts, many of which are truncated; publication details and full-paper results were not independently verified.",
+    "major_themes": [
+      "Direct detonation-spray evidence remains materials-focused: the supplied D-Gun study characterizes coating structure and performance without reporting AI modeling or control.",
+      "Interpretable machine learning offers transferable methods for mapping process settings to properties, but welding-model performance cannot be assumed to carry over to detonation spraying.",
+      "Physics-informed learning provides a promising framework for combining simulations and experiments, provided detonation-specific particle acceleration, heating, impact, and bonding mechanisms are represented.",
+      "Optical and machine-signal monitoring in welding suggests routes to coating-process diagnostics, although suitability for pulsed detonation environments remains untested in the supplied evidence.",
+      "Thermal-spray studies reinforce the need for multi-objective optimization across porosity, adhesion, hardness, wear, corrosion, and phase stability rather than a single quality metric.",
+      "Robotic cold-spray concepts point toward integrated inspection, deposition, and finishing workflows, but do not demonstrate AI-controlled D-Gun operation."
+    ],
+    "notable_papers": [
+      {
+        "title": "Microstructure and surface performance of detonation gun sprayed 80Ni20Cr and NiCrAlY coatings on Al 6061-T6 substrate for structural applications",
+        "relevance": "Direct detonation-spray evidence; no AI method reported in the supplied abstract.",
+        "why_it_matters": "The study compares two D-Gun coating systems using microscopy, diffraction, surface characterization, nanoindentation, corrosion, wettability, and erosion testing. NiCrAlY exhibited a denser microstructure and lower porosity than 80Ni20Cr. These measurements identify useful outputs for future AI models, but the available abstract does not establish a process-optimization dataset or quantify all performance differences."
+      },
+      {
+        "title": "Universal physics-informed machine learning framework for the prediction of porosity defects in high-power laser beam welding with different metallic materials",
+        "relevance": "Adjacent AI methodology.",
+        "why_it_matters": "The framework combines experiments, multiphysics simulation, and physically meaningful dimensionless features to predict porosity in aluminum and steel welding. Its methodological significance for detonation spraying is the use of mechanism-informed features rather than only raw settings. Laser keyhole physics is not directly transferable to spray-particle impact and coating buildup."
+      },
+      {
+        "title": "Interpretable ensemble learning for tensile strength prediction and welding process window optimization of friction stir-welded 7N01 aluminum alloy",
+        "relevance": "Adjacent interpretable prediction and optimization.",
+        "why_it_matters": "Using 27 experimental samples and leave-one-out cross-validation, the study reports R² values of 0.905 for a decision-tree baseline, 0.966 for gradient boosting, and 0.978 after hyperparameter optimization. SHAP analysis supports interpretation. This is a useful small-data modeling example, but limited sample size and unspecified independence of tuning and final evaluation constrain conclusions about generalization."
+      },
+      {
+        "title": "Causal discovery of signal morphology drivers in steel resistance spot welding: a high-dimensional data analysis",
+        "relevance": "Adjacent industrial-scale process analytics.",
+        "why_it_matters": "The study applies a two-phase causal-discovery framework and time-series clustering to 15,096 representative profiles derived from more than 1.8 million welds. It addresses variation across materials, coatings, thicknesses, and equipment configurations, a concern for future multi-machine spray datasets. Observational causal discovery should not be treated as proof of intervention effects."
+      },
+      {
+        "title": "Detection of Separator Contact Defects Using Spectroscopic Signals and Deep Learning in Copper Laser Welding for Lithium-Ion Batteries",
+        "relevance": "Adjacent optical sensing and defect classification.",
+        "why_it_matters": "The paper examines spectrometer configuration and multiple neural-network architectures. Models using selected wavelength ranges achieved separator-defect F1-scores of 0.87–0.88 in the supplied excerpt. It demonstrates the importance of jointly designing sensing and learning, while offering no direct evidence that these wavelengths or scores transfer to detonation-spray diagnostics."
+      },
+      {
+        "title": "Automated Complex for the Reclamation and Anti-Corrosion Protection of Steel Marine Propellers via Supersonic Cold Gas-Dynamic Spraying Utilizing AI-Driven Control",
+        "relevance": "Adjacent spray automation concept.",
+        "why_it_matters": "The proposed robotic architecture integrates AI-based computer vision, 3D defect mapping, surface preparation, cold spraying, and force-controlled finishing. It provides a useful workflow concept for automated coating repair. The supplied abstract describes a technological concept, not validated deployment or measured AI-control gains."
+      },
+      {
+        "title": "From Splat Spreading to Coating Densification: Substrate Thermal Effects in Plasma-Sprayed NiCrAl-TiB2 Coatings",
+        "relevance": "Adjacent thermal-spray physics.",
+        "why_it_matters": "The study investigates links between substrate temperature, individual splat behavior, coating densification, and mechanical properties. These relationships suggest intermediate physical descriptors for predictive coating models. The truncated abstract does not support numerical conclusions or an optimum transferable to D-Gun spraying."
+      },
+      {
+        "title": "Phase Evolution and Structure–Property Relationships of Fe79Zr6Si14Cu1 Coatings with Low GFA Produced by Atmospheric Plasma Spraying",
+        "relevance": "Adjacent process–structure–performance evidence.",
+        "why_it_matters": "The study reports predominantly crystalline coatings with porosity of 2.2–4.9%. Increasing spray distance improved hardness and wear resistance while deteriorating corrosion resistance. This trade-off supports multi-objective optimization and cautions against treating hardness or density alone as a universal coating-quality target."
+      },
+      {
+        "title": "The effect of HVOF spraying parameters on the tribological properties of the Al 65 Cu 20 Fe 15 coatings",
+        "relevance": "Adjacent controlled thermal-spray experimentation.",
+        "why_it_matters": "At oxygen pressures of 3.0, 3.5, and 4.0 bar, the intermediate condition produced a dense, homogeneous microstructure with improved inter-splat cohesion and the highest reported quasi-crystalline phase fraction. This illustrates nonlinear process responses that predictive models should capture, without establishing a detonation-spray operating recommendation."
+      }
+    ],
+    "field_progress": [
+      "The supplied D-Gun study expands directly relevant comparative materials evidence and identifies measurable coating outputs for future learning systems; it does not demonstrate progress in AI deployment itself.",
+      "Adjacent manufacturing research shows complementary approaches to property prediction, defect classification, interpretability, and physics-informed feature construction, broadening the methodological options available to detonation-spray researchers.",
+      "Industrial welding analytics and proposed robotic spray workflows draw attention to equipment variability, sensing integration, and end-to-end automation beyond laboratory parameter fitting.",
+      "Thermal-spray evidence strengthens the case for models that connect process conditions to intermediate structure and then to service performance, including competing wear and corrosion objectives.",
+      "Across the supplied collection, progress toward AI-enabled detonation spraying is primarily preparatory and transferable rather than a validated demonstration of detonation-specific prediction or closed-loop optimization."
+    ],
+    "open_questions": [
+      "What detonation-specific dataset would adequately connect gas composition, charge conditions, firing frequency, powder characteristics, stand-off distance, and substrate thermal history to particle state and coating performance?",
+      "Which sensors can reliably resolve individual detonation cycles and particle or substrate responses, and which signals predict subsequent porosity, adhesion, erosion, or corrosion rather than merely correlate with operating settings?",
+      "Can physics-informed representations generalize across coating chemistries, substrates, powder batches, and D-Gun systems better than models trained only on nominal machine parameters?",
+      "How should small-data coating models quantify uncertainty and be evaluated using independent batches, machines, or prospective experiments while avoiding leakage during tuning?",
+      "How can closed-loop optimization balance conflicting performance targets while enforcing equipment safety, substrate temperature limits, and reliable coating acceptance criteria?"
+    ],
+    "outlook": "The most defensible next step is a detonation-specific experimental and modeling program rather than direct adoption of welding-model results. A practical starting point would pair controlled D-Gun trials with synchronized process measurements and standardized coating characterization, then compare transparent statistical baselines with tree ensembles and physics-informed surrogates. Evaluation should reserve independent deposition runs or material batches and report uncertainty alongside predictive accuracy. Multi-objective, human-supervised experiment selection could then target improvements in porosity, adhesion, wear, and corrosion before any move toward closed-loop control. The October metadata supplies useful methods and physical context for this progression, but not evidence that autonomous AI optimization of detonation spray coating has already been achieved.",
+    "model": "gpt-6.1-sol",
+    "service_tier": "ultrafast",
+    "generator": "openai"
+  },
+  "markdown_file": "2026-10.md",
+  "generated_at": "2026-11-02T08:58:10"
+}
