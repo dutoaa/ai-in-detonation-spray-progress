@@ -1,13 +1,13 @@
 {
   "key_insight": "Full-spectrum deep learning detected separator contact defects during copper laser welding, with LSTM achieving the highest reported separator F1-score of 0.99.",
-  "engineering_relevance": "Spectroscopic monitoring could help identify separator contact that risks thermal damage and safety issues in lithium-ion battery production.",
+  "engineering_relevance": "Spectroscopic monitoring could help identify separator contact that risks thermal damage and safety issues in lithium-ion battery manufacturing.",
   "method": [
-    "Evaluated fiber core diameter, slit width, optical configuration, and integration time for spectroscopic monitoring.",
-    "Trained LSTM, GRU, CNN, TCN, and CNN+LSTM models to classify normal welds and separator contact defects.",
-    "Compared characteristic wavelength bands (350–450 and 650–750 nm) with the full spectrum (232–1110 nm)."
+    "Investigated fiber core diameter, slit width, optical configuration, and integration time.",
+    "Trained LSTM, GRU, CNN, TCN, and CNN+LSTM models on spectroscopic signals.",
+    "Compared characteristic wavelength bands with the full 232–1110 nm spectrum."
   ],
-  "evidence_signal": "Separator F1-scores were 0.87–0.88 for characteristic wavelength bands and 0.91–0.99 for the full spectrum.",
-  "watch_item": "The abstract does not report dataset size or independent production-line validation, leaving deployment generalization uncertain.",
+  "evidence_signal": "Separator F1-scores were 0.87–0.88 using 350–450 and 650–750 nm bands, versus 0.91–0.99 using the full spectrum.",
+  "watch_item": "The abstract does not report dataset size or external validation, leaving performance across production conditions uncertain.",
   "hashtags": [
     "#LaserWelding",
     "#LithiumIonBatteries",
@@ -21,6 +21,6 @@
   "paper_title": "Detection of Separator Contact Defects Using Spectroscopic Signals and Deep Learning in Copper Laser Welding for Lithium-Ion Batteries",
   "paper_date": "2026-10-30",
   "paper_category": "Welding Processes",
-  "generated_at": "2026-11-01T17:02:55",
+  "generated_at": "2026-11-02T20:40:32",
   "generator": "openai"
 }

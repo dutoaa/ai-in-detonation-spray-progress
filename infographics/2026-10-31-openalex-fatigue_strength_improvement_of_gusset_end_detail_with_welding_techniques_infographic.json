@@ -1,13 +1,13 @@
 {
-  "key_insight": "Extending multi-pass weld stops away from the gusset joint and TIG-dressing their notches substantially improved fatigue strength over conventional welded-around details.",
-  "engineering_relevance": "The technique offers a route to more fatigue-resistant gusset connections, with FAT90 (m = 5) suggested for design under high mean stress based on preliminary analysis.",
+  "key_insight": "Extending multi-pass weld stops away from the gusset joint and TIG dressing their notches substantially improved fatigue strength compared with conventional welded-around gussets.",
+  "engineering_relevance": "The technique offers a route to more fatigue-resistant gusset end details, with FAT90 (m = 5) provisionally suggested for design at R = 0.5.",
   "method": [
-    "Screened welding and post-weld treatment techniques on S420 steel coupon specimens.",
-    "Established characteristic S–N curves using uniaxial constant-amplitude tests at R = 0.1.",
-    "Evaluated the selected joint configuration under variable-amplitude block loading in the high-cycle regime."
+    "Screened welding and post-weld treatments using S420 steel coupon fatigue tests.",
+    "Tested the selected extended-weld and TIG-dressed configuration under constant-amplitude loading at R = 0.1.",
+    "Evaluated similar joints under variable-amplitude block loading in the high-cycle regime."
   ],
-  "evidence_signal": "Experimental testing yielded a characteristic fatigue strength of 127 MPa at 97.7% survival probability with slope m = 5; variable-amplitude tests further assessed applicability.",
-  "watch_item": "The FAT90 design recommendation relies on transformation to R = 0.5 and preliminary finite-element estimates of structural stress concentration.",
+  "evidence_signal": "Constant-amplitude tests yielded a characteristic fatigue strength of 127 MPa at 97.7% survival probability with slope m = 5; variable-amplitude tests provided additional validation.",
+  "watch_item": "The FAT90 design recommendation relies on mean-stress transformation and preliminary finite-element analysis, so applicability to other geometries and loading conditions needs verification.",
   "hashtags": [
     "#Welding",
     "#FatigueStrength",
@@ -21,6 +21,6 @@
   "paper_title": "Fatigue strength improvement of gusset end detail with welding techniques",
   "paper_date": "2026-10-31",
   "paper_category": "Welding Processes",
-  "generated_at": "2026-11-01T17:02:50",
+  "generated_at": "2026-11-02T20:40:30",
   "generator": "openai"
 }
