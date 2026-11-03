@@ -1,12 +1,12 @@
 {
-  "key_insight": "An optimized gradient boosting decision tree predicted friction stir-welded 7N01 aluminum joint tensile strength with R² = 0.978 and identified process windows targeting at least 90% joint efficiency.",
-  "engineering_relevance": "The approach provides a quantitative basis for selecting welding parameters, with shoulder plunge depth helping refine the predicted high-strength process window.",
+  "key_insight": "An optimized gradient boosting decision tree predicted weld tensile strength with R² = 0.978 and identified process windows targeting at least 90% joint efficiency.",
+  "engineering_relevance": "The approach provides a quantitative basis for selecting friction stir welding parameters for A7N01P-T4 aluminum alloy joints.",
   "method": [
     "Predict ultimate tensile strength from rotational speed, welding speed, and shoulder plunge depth.",
-    "Compare baseline models, then optimize gradient boosting hyperparameters using grid search.",
-    "Use SHAP to interpret parameter effects and map predicted feasible process windows."
+    "Compare baseline models, then tune gradient boosting with grid search.",
+    "Use SHAP to interpret parameter effects and map high-strength process windows."
   ],
-  "evidence_signal": "Using 27 experimental samples and leave-one-out cross-validation, reported R² increased from 0.905 for a decision tree to 0.966 for gradient boosting and 0.978 after tuning.",
+  "evidence_signal": "Using 27 experimental samples and leave-one-out cross-validation, reported R² improved from 0.905 for a decision tree to 0.966 for gradient boosting and 0.978 after tuning.",
   "watch_item": "The small dataset limits confidence in generalization; predicted process windows need independent experimental validation before production use.",
   "hashtags": [
     "#FrictionStirWelding",
@@ -21,6 +21,6 @@
   "paper_title": "Interpretable ensemble learning for tensile strength prediction and welding process window optimization of friction stir-welded 7N01 aluminum alloy",
   "paper_date": "2026-11-01",
   "paper_category": "AI Process Optimization",
-  "generated_at": "2026-11-02T20:40:19",
+  "generated_at": "2026-11-03T18:18:07",
   "generator": "openai"
 }
