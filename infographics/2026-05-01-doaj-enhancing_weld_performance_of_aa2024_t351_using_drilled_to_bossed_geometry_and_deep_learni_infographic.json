@@ -1,18 +1,18 @@
 {
   "key_insight": "Drilled-to-bossed geometry improved AA2024-T351 friction-weld strength, while an ensemble residual network predicted ultimate tensile strength with R² ≈ 0.81.",
-  "engineering_relevance": "Geometry-assisted direct drive friction welding offers a promising route to strong aluminium joints for lightweight aerospace and automotive structures.",
+  "engineering_relevance": "Geometry-assisted direct drive friction welding could support stronger lightweight aluminium joints for aerospace and automotive applications.",
   "method": [
-    "Used an L18 orthogonal experimental design on a customized engine lathe.",
-    "Varied friction pressure, forging pressure, spindle speed, interface geometry, and friction time.",
-    "Evaluated tensile and torsional strength and compared three deep learning architectures for tensile-strength prediction."
+    "Tested welding conditions using an L18 orthogonal array on a customized engine lathe.",
+    "Varied friction pressure, forging pressure, spindle speed, faying geometry, and friction time.",
+    "Compared ensemble residual, compact attention, and adaptive multiscale networks for tensile-strength prediction."
   ],
   "evidence_signal": "The reported optimum—30 MPa friction pressure, 70 MPa forging pressure, 2200 rpm, drilled-to-bossed geometry, and 4 min friction time—achieved 538 MPa tensile strength and 325 MPa torsional strength.",
-  "watch_item": "The L18 experimental design provides limited condition coverage; predictive generalization and weld repeatability require independent validation.",
+  "watch_item": "The abstract does not detail model-validation procedures or uncertainty; predictive generalization beyond the L18 experimental design remains unclear.",
   "hashtags": [
     "#FrictionWelding",
     "#AA2024",
-    "#JointGeometry",
     "#DeepLearning",
+    "#JointDesign",
     "#ProcessOptimization"
   ],
   "model": "gpt-6.1-sol",
@@ -21,6 +21,6 @@
   "paper_title": "Enhancing weld performance of AA2024-T351 using drilled-to-bossed geometry and deep learning prediction in direct drive friction welding",
   "paper_date": "2026-05-01",
   "paper_category": "AI Process Optimization",
-  "generated_at": "2026-11-03T18:18:49",
+  "generated_at": "2026-11-04T18:31:55",
   "generator": "openai"
 }

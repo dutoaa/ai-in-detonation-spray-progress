@@ -1,0 +1,26 @@
+{
+  "key_insight": "Increasing plunge depth improves simulated interface heating and material flow in AA6061–SS304 friction stir lap welding while leaving peak workpiece temperature nearly unchanged.",
+  "engineering_relevance": "The study identifies 0.15–0.30 mm as a promising plunge-depth range for balancing interfacial bonding conditions and welding stability.",
+  "method": [
+    "Finite-volume computational fluid dynamics model of dissimilar friction stir lap welding.",
+    "Plunge depth varied from 0 to 0.45 mm.",
+    "Fixed rotation at 1200 rpm, traverse speed at 100 mm/min, and tool tilt at 1.5°."
+  ],
+  "evidence_signal": "Across the simulated range, peak interface temperature rose from 743 to 791 K and velocity from 0.07865 to 0.08121 m/s, while minimum interface viscosity fell by approximately 23.7% and tool torque by 7%.",
+  "watch_item": "The abstract reports simulation results but no experimental validation or joint-strength measurements, so bonding improvements and the proposed depth range require verification.",
+  "hashtags": [
+    "#FrictionStirWelding",
+    "#DissimilarJoining",
+    "#ComputationalFluidDynamics",
+    "#ThermomechanicalModeling",
+    "#WeldProcessOptimization"
+  ],
+  "model": "gpt-6.1-sol",
+  "service_tier": "ultrafast",
+  "paper_id": "2026-11-03-openalex-thermal_mechanical_response_to_plunge_depth_variation_in_friction_stir_lap_welding_of_aa60",
+  "paper_title": "Thermal-mechanical response to plunge depth variation in friction stir lap welding of AA6061 and SS304-computational fluid dynamics approach",
+  "paper_date": "2026-11-03",
+  "paper_category": "Coating Microstructure",
+  "generated_at": "2026-11-04T18:31:19",
+  "generator": "openai"
+}

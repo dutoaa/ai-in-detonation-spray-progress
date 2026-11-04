@@ -1,13 +1,13 @@
 {
-  "key_insight": "YSZ and intumescent thermal barrier coatings delayed fire-induced buckling and improved post-fire load retention in thin-walled cold-formed steel, with intumescent protection performing marginally better.",
-  "engineering_relevance": "These coatings offer potential lightweight alternatives to bulky gypsum fire protection for cold-formed steel members.",
+  "key_insight": "YSZ and intumescent thermal barrier coatings delayed fire-induced buckling and improved post-fire strength retention in thin-walled cold-formed steel, with intumescent coating performing marginally better.",
+  "engineering_relevance": "These coatings offer potentially lightweight fire protection for cold-formed steel without bulky gypsum encasement.",
   "method": [
-    "Tested S355 lipped channels (150 × 50 × 2 mm) under ISO-834 fire exposure, with 10 specimens per uncoated, YSZ and intumescent group.",
-    "Tracked buckling and temperature using LVDTs and thermocouples; assessed post-fire residual strength through ASTM E8 tensile tests.",
-    "Reproduced observed behaviour using nonlinear ABAQUS models and numerically explored a functionally graded coating."
+    "Tested S355 lipped channels (150 × 50 × 2 mm) under ISO-834 fire exposure: 10 specimens each for uncoated, plasma-sprayed YSZ and epoxy-based intumescent groups.",
+    "Tracked buckling and temperature using LVDTs and thermocouples; measured post-fire tensile properties using ASTM E8 tests.",
+    "Reproduced behaviour with nonlinear ABAQUS models and numerically explored a functionally graded coating."
   ],
-  "evidence_signal": "Experimental comparisons across 30 specimens supported benefits from both coatings, while nonlinear finite-element models reproduced the observed behaviour.",
-  "watch_item": "The functionally graded coating remains experimentally unvalidated, and implications for Eurocode 3 reduction factors require broader validation.",
+  "evidence_signal": "Across the three experimental groups, both coatings outperformed uncoated steel, but the abstract provides no numerical effect sizes.",
+  "watch_item": "The functionally graded coating remains experimentally unvalidated, and any changes to Eurocode 3 reduction factors require broader validation.",
   "hashtags": [
     "#ColdFormedSteel",
     "#ThermalBarrierCoatings",
@@ -21,6 +21,6 @@
   "paper_title": "Advancing cold-formed steel with thermal barrier coatings: buckling and fire resistance behaviours",
   "paper_date": "2026-11-02",
   "paper_category": "AI Process Optimization",
-  "generated_at": "2026-11-03T18:18:35",
+  "generated_at": "2026-11-04T18:31:43",
   "generator": "openai"
 }
