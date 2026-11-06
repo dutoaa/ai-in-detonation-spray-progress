@@ -1,13 +1,13 @@
 {
-  "key_insight": "Optimized gradient boosting predicted tensile strength of friction stir-welded 7N01 aluminum alloy with R² = 0.978 and mapped welding conditions targeting at least 90% joint efficiency.",
-  "engineering_relevance": "The model provides a quantitative basis for selecting welding parameters, with shoulder plunge depth helping refine the predicted high-strength process window.",
+  "key_insight": "An optimized gradient boosting decision tree predicts friction stir-welded 7N01 aluminum joint strength with R² = 0.978 and identifies process windows targeting at least 90% joint efficiency.",
+  "engineering_relevance": "The approach supports quantitative welding-parameter selection, with shoulder plunge depth helping refine the predicted high-strength process window.",
   "method": [
     "Predict ultimate tensile strength from rotational speed, welding speed, and shoulder plunge depth.",
-    "Compare baseline models, then tune gradient boosting decision trees using grid search.",
-    "Use SHAP to interpret parameter effects and identify feasible welding windows."
+    "Compare baseline models, then tune gradient boosting using grid search.",
+    "Use SHAP to interpret parameter effects and map feasible welding conditions."
   ],
-  "evidence_signal": "Using 27 experimental samples and leave-one-out cross-validation, the study reports R² improving from 0.905 for a decision tree to 0.966 for gradient boosting and 0.978 after tuning.",
-  "watch_item": "The small dataset limits confidence in generalization; predicted process windows need independent experimental validation before production use.",
+  "evidence_signal": "Using 27 experimental samples and leave-one-out cross-validation, reported R² increased from 0.905 for a decision tree to 0.966 for gradient boosting and 0.978 after tuning.",
+  "watch_item": "The small dataset limits confidence in generalization; predicted process windows require experimental validation before production use.",
   "hashtags": [
     "#FrictionStirWelding",
     "#AluminumAlloys",
@@ -21,6 +21,6 @@
   "paper_title": "Interpretable ensemble learning for tensile strength prediction and welding process window optimization of friction stir-welded 7N01 aluminum alloy",
   "paper_date": "2026-11-01",
   "paper_category": "AI Process Optimization",
-  "generated_at": "2026-11-05T18:35:32",
+  "generated_at": "2026-11-06T17:52:31",
   "generator": "openai"
 }

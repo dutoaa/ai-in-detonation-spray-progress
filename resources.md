@@ -1,20 +1,31 @@
 # AI Detonation Spray and Coating Progress Public Resources
 
-Generated: 2026-11-05
+Generated: 2026-11-06
 Public site: https://dutoaa.github.io/ai-in-detonation-spray-progress/
 
-## 1. EFFECT OF CEO2 AND LA2O3 REINFORCEMENTS ON MECHANICAL, TRIBOLOGICAL AND MICROSTRUCTURAL PROPERTIES OF WC–12CO COATING BY HIGH-VELOCITY OXYGEN FUEL DEPOSITION TECHNIQUE
+## 1. Exploration of friction stir welding butted thin sheet NiTi with AA6061, AA2024, and AA7075
 
-- Date: 2026-11-03
+- Date: 2026-11-05
 - Source: OpenAlex
-- Venue: Acta Innovations
-- Category: Coating Microstructure
-- DOI: 10.62441/actainnovations.vi.3052
-- Source link: https://doi.org/10.62441/actainnovations.vi.3052
-- PDF: https://actainnovations.com/index.php/pub/article/download/3052/1652
-- Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-11-03-openalex-effect_of_ceo2_and_la2o3_reinforcements_on_mechanical_tribological_and_microstructural_pro_infographic.json
+- Venue: Advanced Materials Joining
+- Category: Welding Processes
+- DOI: 10.1007/s44500-026-00026-9
+- Source link: https://doi.org/10.1007/s44500-026-00026-9
+- PDF: https://link.springer.com/content/pdf/10.1007/s44500-026-00026-9.pdf
+- Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-11-05-openalex-exploration_of_friction_stir_welding_butted_thin_sheet_niti_with_aa6061_aa2024_and_aa7075_infographic.json
 
-## 2. Computational and machine learning modelling approaches for weld quality predictions in friction stir welding of high-density polyethylene
+## 2. Influence of Welding Process Parameters on Mechanical Properties of Coated Fabric Weld Seams
+
+- Date: 2026-11-05
+- Source: OpenAlex
+- Venue: Journal of Testing and Evaluation
+- Category: Welding Processes
+- DOI: 10.1520/jte20250477
+- Source link: https://doi.org/10.1520/jte20250477
+- PDF: None
+- Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-11-05-openalex-influence_of_welding_process_parameters_on_mechanical_properties_of_coated_fabric_weld_sea_infographic.json
+
+## 3. Computational and machine learning modelling approaches for weld quality predictions in friction stir welding of high-density polyethylene
 
 - Date: 2025-12-01
 - Source: DOAJ
@@ -25,7 +36,18 @@ Public site: https://dutoaa.github.io/ai-in-detonation-spray-progress/
 - PDF: None
 - Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2025-12-01-doaj-computational_and_machine_learning_modelling_approaches_for_weld_quality_predictions_in_fr_infographic.json
 
-## 3. Microstructure and surface performance of detonation gun sprayed 80Ni20Cr and NiCrAlY coatings on Al 6061-T6 substrate for structural applications
+## 4. EFFECT OF CEO2 AND LA2O3 REINFORCEMENTS ON MECHANICAL, TRIBOLOGICAL AND MICROSTRUCTURAL PROPERTIES OF WC–12CO COATING BY HIGH-VELOCITY OXYGEN FUEL DEPOSITION TECHNIQUE
+
+- Date: 2026-11-03
+- Source: OpenAlex
+- Venue: Acta Innovations
+- Category: Coating Microstructure
+- DOI: 10.62441/actainnovations.vi.3052
+- Source link: https://doi.org/10.62441/actainnovations.vi.3052
+- PDF: https://actainnovations.com/index.php/pub/article/download/3052/1652
+- Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-11-03-openalex-effect_of_ceo2_and_la2o3_reinforcements_on_mechanical_tribological_and_microstructural_pro_infographic.json
+
+## 5. Microstructure and surface performance of detonation gun sprayed 80Ni20Cr and NiCrAlY coatings on Al 6061-T6 substrate for structural applications
 
 - Date: 2026-10-28
 - Source: OpenAlex
@@ -36,18 +58,18 @@ Public site: https://dutoaa.github.io/ai-in-detonation-spray-progress/
 - PDF: None
 - Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-10-28-openalex-microstructure_and_surface_performance_of_detonation_gun_sprayed_80ni20cr_and_nicraly_coat_infographic.json
 
-## 4. Interpretable ensemble learning for tensile strength prediction and welding process window optimization of friction stir-welded 7N01 aluminum alloy
+## 6. Lean maintenance 4.0: Enhancing welding machine reliability in steel galvanizing processes
 
-- Date: 2026-11-01
-- Source: DOAJ
-- Venue: Journal of Materials Research and Technology
-- Category: AI Process Optimization
-- DOI: 10.1016/j.jmrt.2026.10.257
-- Source link: https://doi.org/10.1016/j.jmrt.2026.10.257
-- PDF: https://www.sciencedirect.com/science/article/pii/S2238785426028784/pdf
-- Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-11-01-doaj-interpretable_ensemble_learning_for_tensile_strength_prediction_and_welding_process_window_infographic.json
+- Date: 2026-11-05
+- Source: OpenAlex
+- Venue: International Journal of Industrial Engineering and Management
+- Category: Coating Quality Prediction
+- DOI: 10.24867/ijiem-430
+- Source link: https://doi.org/10.24867/ijiem-430
+- PDF: None
+- Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-11-05-openalex-lean_maintenance_4_0_enhancing_welding_machine_reliability_in_steel_galvanizing_processes_infographic.json
 
-## 5. Microstructure, Wear and Corrosion Resistances of Atmospheric Plasma, Detonation, High Velocity Oxy-fuel and High Velocity Air-fuel Sprayed WC-10Co-4Cr Cemented Carbide Coatings
+## 7. Microstructure, Wear and Corrosion Resistances of Atmospheric Plasma, Detonation, High Velocity Oxy-fuel and High Velocity Air-fuel Sprayed WC-10Co-4Cr Cemented Carbide Coatings
 
 - Date: 2026-09-01
 - Source: DOAJ
@@ -58,18 +80,18 @@ Public site: https://dutoaa.github.io/ai-in-detonation-spray-progress/
 - PDF: https://matsc.ktu.lt/index.php/MatSc/article/download/44363/23680
 - Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-09-01-doaj-microstructure_wear_and_corrosion_resistances_of_atmospheric_plasma_detonation_high_veloci_infographic.json
 
-## 6. Study on dual bonding characteristics of metallurgical-mechanical joining in laser oscillation welding of Mg and Al-Si coated steel
+## 8. Interpretable ensemble learning for tensile strength prediction and welding process window optimization of friction stir-welded 7N01 aluminum alloy
 
-- Date: 2026-11-04
-- Source: OpenAlex
-- Venue: Optics & Laser Technology
-- Category: Welding Processes
-- DOI: 10.1016/j.optlastec.2026.116865
-- Source link: https://doi.org/10.1016/j.optlastec.2026.116865
-- PDF: None
-- Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-11-04-openalex-study_on_dual_bonding_characteristics_of_metallurgical_mechanical_joining_in_laser_oscilla_infographic.json
+- Date: 2026-11-01
+- Source: DOAJ
+- Venue: Journal of Materials Research and Technology
+- Category: AI Process Optimization
+- DOI: 10.1016/j.jmrt.2026.10.257
+- Source link: https://doi.org/10.1016/j.jmrt.2026.10.257
+- PDF: https://www.sciencedirect.com/science/article/pii/S2238785426028784/pdf
+- Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-11-01-doaj-interpretable_ensemble_learning_for_tensile_strength_prediction_and_welding_process_window_infographic.json
 
-## 7. Microstructure and high-temperature oxidation behaviour of HVOF and plasma sprayed Ni–Cr-based ceramic coatings on SA516 boiler steel
+## 9. Microstructure and high-temperature oxidation behaviour of HVOF and plasma sprayed Ni–Cr-based ceramic coatings on SA516 boiler steel
 
 - Date: 2026-10-08
 - Source: OpenAlex
@@ -80,7 +102,7 @@ Public site: https://dutoaa.github.io/ai-in-detonation-spray-progress/
 - PDF: https://www.sciencedirect.com/science/article/pii/S2666845926003016/pdf
 - Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-10-08-openalex-microstructure_and_high_temperature_oxidation_behaviour_of_hvof_and_plasma_sprayed_ni_cr_b_infographic.json
 
-## 8. Molten pool dynamic behavior and arc characteristics in laser-TIG hybrid welding of Invar steel
+## 10. Molten pool dynamic behavior and arc characteristics in laser-TIG hybrid welding of Invar steel
 
 - Date: 2026-09-01
 - Source: DOAJ
@@ -91,7 +113,18 @@ Public site: https://dutoaa.github.io/ai-in-detonation-spray-progress/
 - PDF: None
 - Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-09-01-doaj-molten_pool_dynamic_behavior_and_arc_characteristics_in_laser_tig_hybrid_welding_of_invar_infographic.json
 
-## 9. INVESTIGATION OF THE FORMATION OF STRUCTURE AND WEAR-RESISTANT PROPERTIES OF WC–CO–CR COATINGS PRODUCED BY HVOF AND DETONATION SPRAYING
+## 11. MULTI-LAYER SELF-LIMITING ELECTROSPRAY DEPOSITION USING VOLTAGE BIAS
+
+- Date: 2026-11-05
+- Source: OpenAlex
+- Venue: Rutgers University Community Repository (Rutgers University)
+- Category: AI Process Optimization
+- DOI: 10.7282/t3-n6ay-rf43
+- Source link: https://doi.org/10.7282/t3-n6ay-rf43
+- PDF: None
+- Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-11-05-openalex-multi_layer_self_limiting_electrospray_deposition_using_voltage_bias_infographic.json
+
+## 12. INVESTIGATION OF THE FORMATION OF STRUCTURE AND WEAR-RESISTANT PROPERTIES OF WC–CO–CR COATINGS PRODUCED BY HVOF AND DETONATION SPRAYING
 
 - Date: 2026-09-30
 - Source: OpenAlex
@@ -102,7 +135,7 @@ Public site: https://dutoaa.github.io/ai-in-detonation-spray-progress/
 - PDF: https://journals.ektu.kz/catmsp/article/download/1719/189
 - Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-09-30-openalex-investigation_of_the_formation_of_structure_and_wear_resistant_properties_of_wc_co_cr_coat_infographic.json
 
-## 10. De-Risking Robotic Welding for In-Space Metal Joining Through Physics-Grounded Digital Twins
+## 13. De-Risking Robotic Welding for In-Space Metal Joining Through Physics-Grounded Digital Twins
 
 - Date: 2026-10-15
 - Source: arXiv
@@ -113,7 +146,18 @@ Public site: https://dutoaa.github.io/ai-in-detonation-spray-progress/
 - PDF: https://arxiv.org/pdf/2610.21939v1
 - Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-10-15-arxiv-de_risking_robotic_welding_for_in_space_metal_joining_through_physics_grounded_digital_twi_infographic.json
 
-## 11. Long-term corrosion behaviors and wear behavior of Fe-based amorphous coatings in different humidity environments
+## 14. Feedstock Morphology Governs Impact-Induced Deformation in Cold Sprayed Metal-Ceramic Composites
+
+- Date: 2026-11-01
+- Source: OpenAlex
+- Venue: International Journal of Mechanical Sciences
+- Category: Thermal Spray Coatings
+- DOI: 10.1016/j.ijmecsci.2026.112268
+- Source link: https://doi.org/10.1016/j.ijmecsci.2026.112268
+- PDF: https://www.sciencedirect.com/science/article/pii/S0020740326011239/pdf
+- Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-11-01-openalex-feedstock_morphology_governs_impact_induced_deformation_in_cold_sprayed_metal_ceramic_comp_infographic.json
+
+## 15. Long-term corrosion behaviors and wear behavior of Fe-based amorphous coatings in different humidity environments
 
 - Date: 2025-12-01
 - Source: DOAJ
@@ -124,7 +168,7 @@ Public site: https://dutoaa.github.io/ai-in-detonation-spray-progress/
 - PDF: None
 - Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2025-12-01-doaj-long_term_corrosion_behaviors_and_wear_behavior_of_fe_based_amorphous_coatings_in_differen_infographic.json
 
-## 12. EFFECT OF FLAME-SPRAYING TEMPERATURE ON THE PROPERTIES OF Ni–Cr–B–Si-BASED SELF-FLUXING COATINGS
+## 16. EFFECT OF FLAME-SPRAYING TEMPERATURE ON THE PROPERTIES OF Ni–Cr–B–Si-BASED SELF-FLUXING COATINGS
 
 - Date: 2026-09-29
 - Source: OpenAlex
@@ -135,7 +179,7 @@ Public site: https://dutoaa.github.io/ai-in-detonation-spray-progress/
 - PDF: None
 - Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-09-29-openalex-effect_of_flame_spraying_temperature_on_the_properties_of_ni_cr_b_si_based_self_fluxing_co_infographic.json
 
-## 13. Enhancing weld performance of AA2024-T351 using drilled-to-bossed geometry and deep learning prediction in direct drive friction welding
+## 17. Enhancing weld performance of AA2024-T351 using drilled-to-bossed geometry and deep learning prediction in direct drive friction welding
 
 - Date: 2026-05-01
 - Source: DOAJ
@@ -146,7 +190,7 @@ Public site: https://dutoaa.github.io/ai-in-detonation-spray-progress/
 - PDF: https://www.nature.com/articles/s41598-026-52231-1_reference.pdf
 - Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-05-01-doaj-enhancing_weld_performance_of_aa2024_t351_using_drilled_to_bossed_geometry_and_deep_learni_infographic.json
 
-## 14. Surface Characteristics of Titanium Based Coatings Obtained by Detonation Spraying Under Various Process Conditions
+## 18. Surface Characteristics of Titanium Based Coatings Obtained by Detonation Spraying Under Various Process Conditions
 
 - Date: 2025-12-01
 - Source: DOAJ
@@ -157,18 +201,7 @@ Public site: https://dutoaa.github.io/ai-in-detonation-spray-progress/
 - PDF: http://ijmse.iust.ac.ir/article-1-4073-en.pdf
 - Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2025-12-01-doaj-surface_characteristics_of_titanium_based_coatings_obtained_by_detonation_spraying_under_v_infographic.json
 
-## 15. Feasibility of force-controlled contact capacitor-discharge stud welding in vacuum for local interface creation on spacecraft-relevant aluminium surfaces
-
-- Date: 2026-11-01
-- Source: OpenAlex
-- Venue: Acta Astronautica
-- Category: Coating Microstructure
-- DOI: 10.1016/j.actaastro.2026.10.066
-- Source link: https://doi.org/10.1016/j.actaastro.2026.10.066
-- PDF: https://www.sciencedirect.com/science/article/pii/S0094576526007484/pdf
-- Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-11-01-openalex-feasibility_of_force_controlled_contact_capacitor_discharge_stud_welding_in_vacuum_for_loc_infographic.json
-
-## 16. Structure and properties of AlB12-Al detonation coatings on steel 45
+## 19. Structure and properties of AlB12-Al detonation coatings on steel 45
 
 - Date: 2026-09-30
 - Source: OpenAlex
@@ -179,7 +212,7 @@ Public site: https://dutoaa.github.io/ai-in-detonation-spray-progress/
 - PDF: https://functmaterials.org.ua/contents/33-3/fm333-475.pdf
 - Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-09-30-openalex-structure_and_properties_of_alb12_al_detonation_coatings_on_steel_45_infographic.json
 
-## 17. HARDNESS AND POST-SCRATCH SURFACE MORPHOLOGY OF Cr₃C₂–NiCr COATINGS AFTER ULTRASONIC NANOCRYSTAL SURFACE MODIFICATION
+## 20. HARDNESS AND POST-SCRATCH SURFACE MORPHOLOGY OF Cr₃C₂–NiCr COATINGS AFTER ULTRASONIC NANOCRYSTAL SURFACE MODIFICATION
 
 - Date: 2026-09-29
 - Source: OpenAlex
@@ -189,25 +222,3 @@ Public site: https://dutoaa.github.io/ai-in-detonation-spray-progress/
 - Source link: https://doi.org/10.66310/mbub2674
 - PDF: None
 - Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-09-29-openalex-hardness_and_post_scratch_surface_morphology_of_cr_c_nicr_coatings_after_ultrasonic_nanocr_infographic.json
-
-## 18. STUDY OF TRIBOLOGICAL PROPERTIES OF BIOCOATINGS BY DETONATION SPRAYING METHOD
-
-- Date: 2026-07-29
-- Source: OpenAlex
-- Venue: Bulletin of Shakarim University Technical Sciences
-- Category: Detonation Spray Process
-- DOI: 10.53360/2788-7995-2026-2(22)-57
-- Source link: https://doi.org/10.53360/2788-7995-2026-2(22)-57
-- PDF: https://tech.vestnik.shakarim.kz/jour/article/download/2432/997
-- Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-07-29-openalex-study_of_tribological_properties_of_biocoatings_by_detonation_spraying_method_infographic.json
-
-## 19. Tribological behavior of detonation sprayed NiCr-Cr3C2 based coating with submicron composite solid-lubricants in wide temperature range
-
-- Date: 2026-10-20
-- Source: Crossref + OpenAlex
-- Venue: Wear
-- Category: Detonation Spray Process
-- DOI: 10.1016/j.wear.2026.207124
-- Source link: https://doi.org/10.1016/j.wear.2026.207124
-- PDF: None
-- Infographic JSON: https://dutoaa.github.io/ai-in-detonation-spray-progress/infographics/2026-10-20-openalex-tribological_behavior_of_detonation_sprayed_nicr_cr3c2_based_coating_with_submicron_compos_infographic.json
