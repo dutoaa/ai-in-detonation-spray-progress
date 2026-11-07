@@ -1,18 +1,18 @@
 {
-  "key_insight": "Friction stir welding joined 1-mm NiTi to AA6061-T6, produced mixed results with AA2024-T3, and failed to join AA7075-T6 under tested conditions.",
-  "engineering_relevance": "Alloy selection is critical when integrating shape-memory NiTi with aerospace aluminum structures using dissimilar butt joints.",
+  "key_insight": "Friction stir welding joined 1-mm NiTi sheet to AA6061 successfully, produced mixed results with AA2024, and failed to join AA7075 under the tested conditions.",
+  "engineering_relevance": "The process could integrate shape memory NiTi with aerospace aluminum structures, but alloy selection strongly affects joint integrity and strength.",
   "method": [
-    "Friction stir weld NiTi sheet to three aluminum alloys.",
-    "Evaluate joint tensile strength and fracture behavior.",
-    "Examine stir-zone particles and weld interfaces by microscopy."
+    "Friction stir weld dissimilar butt joints of NiTi with three aluminum alloys.",
+    "Evaluate joint strength and ductility through tensile testing.",
+    "Examine interface and stir-zone microstructures using microscopy."
   ],
-  "evidence_signal": "AA6061–NiTi joints averaged 167.8 MPa ultimate tensile strength and 57.9% weld efficiency, versus 120 MPa and 27.6% for AA2024–NiTi joints.",
-  "watch_item": "Post-weld cracking in AA2024 and AA7075 was attributed to residual stresses and thermal-expansion mismatch combined with lower alloy ductility.",
+  "evidence_signal": "AA6061–NiTi welds averaged 167.8 MPa ultimate tensile strength and 57.9% weld efficiency, versus 120 MPa and 27.6% for AA2024–NiTi welds.",
+  "watch_item": "Post-weld cracking in AA2024 and AA7075 was attributed to thermal-expansion mismatch, residual stresses, and lower ductility, limiting reliability under the tested conditions.",
   "hashtags": [
     "#FrictionStirWelding",
     "#NiTi",
-    "#DissimilarJoining",
     "#AluminumAlloys",
+    "#DissimilarJoining",
     "#AerospaceMaterials"
   ],
   "model": "gpt-6.1-sol",
@@ -21,6 +21,6 @@
   "paper_title": "Exploration of friction stir welding butted thin sheet NiTi with AA6061, AA2024, and AA7075",
   "paper_date": "2026-11-05",
   "paper_category": "Welding Processes",
-  "generated_at": "2026-11-06T17:52:14",
+  "generated_at": "2026-11-07T16:46:55",
   "generator": "openai"
 }

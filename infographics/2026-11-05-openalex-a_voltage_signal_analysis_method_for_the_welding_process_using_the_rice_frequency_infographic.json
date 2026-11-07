@@ -1,0 +1,26 @@
+{
+  "key_insight": "Rice frequency provides a low-cost, two-scale descriptor of welding arc voltage, with disturbance responses that reverse between approximately 10 and 50 ms window widths.",
+  "engineering_relevance": "Short-Time Rice Frequency Analysis could support online GMA welding monitoring when combined with other signal features.",
+  "method": [
+    "Calculate Rice frequency as the square root of the second-to-zeroth spectral moment ratio.",
+    "Apply sliding-window analysis to arc voltage signals at different time scales.",
+    "Compare annotated disturbed and undisturbed segments within each weld to reduce session effects."
+  ],
+  "evidence_signal": "Of 89 controlled welds, 80 were analysed; within-weld mean Rice frequency fell 24.5% under shielding gas interruption (5/5 welds) and rose 155% with a 16% current increase (7/7 welds).",
+  "watch_item": "Window width changes response direction, while whole-weld pooling can dilute local disturbances; travel speed and localised oil contamination showed no consistent effect.",
+  "hashtags": [
+    "#GMAWelding",
+    "#RiceFrequency",
+    "#SignalProcessing",
+    "#ProcessMonitoring",
+    "#WeldingResearch"
+  ],
+  "model": "gpt-6.1-sol",
+  "service_tier": "ultrafast",
+  "paper_id": "2026-11-05-openalex-a_voltage_signal_analysis_method_for_the_welding_process_using_the_rice_frequency",
+  "paper_title": "A voltage signal analysis method for the welding process using the rice frequency",
+  "paper_date": "2026-11-05",
+  "paper_category": "Welding Processes",
+  "generated_at": "2026-11-07T16:46:57",
+  "generator": "openai"
+}
