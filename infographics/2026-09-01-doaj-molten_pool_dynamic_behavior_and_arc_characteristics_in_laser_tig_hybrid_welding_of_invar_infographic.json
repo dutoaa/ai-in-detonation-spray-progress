@@ -1,13 +1,13 @@
 {
-  "key_insight": "In laser–TIG hybrid welding of Invar steel, laser power, welding speed, and current influence penetration, molten-pool flow, and arc stability.",
-  "engineering_relevance": "These parameter-dependent trends can guide weld-process optimization for low-thermal-expansion Invar tooling used in aerospace composite manufacturing.",
+  "key_insight": "In laser–TIG hybrid welding of Invar steel, higher laser power deepens penetration, higher travel speed reduces weld dimensions, and higher current widens the weld while stabilizing the arc.",
+  "engineering_relevance": "These parameter–response relationships can guide weld geometry and arc stability control for Invar tooling used in aerospace composite manufacturing.",
   "method": [
-    "Numerical simulation of molten-pool dynamics",
-    "High-speed photography of welding behavior",
-    "Parameter study of laser power, welding speed, and current"
+    "Numerical simulation of molten pool dynamics.",
+    "High-speed photography of pool evolution and arc behavior.",
+    "Evaluation across laser power, welding speed, and welding current ranges."
   ],
-  "evidence_signal": "Across 5–6 kW, higher laser power increased penetration and keyhole size; across 0.5–0.8 m/min, higher speed reduced penetration and weld width; across 150–170 A, higher current widened the weld and improved arc stability.",
-  "watch_item": "The abstract reports trends within limited parameter ranges but does not quantify simulation accuracy or final weld mechanical performance.",
+  "evidence_signal": "Within 5–6 kW, 0.5–0.8 m/min, and 150–170 A, the abstract reports distinct trends in penetration, weld width, molten pool flow, and arc stability.",
+  "watch_item": "The abstract provides no quantitative validation errors or defect rates, so these trends alone do not establish a production-ready process window.",
   "hashtags": [
     "#InvarSteel",
     "#LaserTIGWelding",
@@ -21,6 +21,6 @@
   "paper_title": "Molten pool dynamic behavior and arc characteristics in laser-TIG hybrid welding of Invar steel",
   "paper_date": "2026-09-01",
   "paper_category": "Welding Processes",
-  "generated_at": "2026-11-08T16:58:19",
+  "generated_at": "2026-11-09T21:21:34",
   "generator": "openai"
 }

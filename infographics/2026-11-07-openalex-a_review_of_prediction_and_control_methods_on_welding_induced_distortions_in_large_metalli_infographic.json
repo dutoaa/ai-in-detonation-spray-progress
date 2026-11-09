@@ -1,19 +1,19 @@
 {
-  "key_insight": "Predicting welding distortion in large metallic structures requires application-specific trade-offs between accuracy, computational cost and calibration.",
+  "key_insight": "Reliable welding-distortion control in large metallic structures requires balancing physics-based accuracy, computational efficiency and application-specific calibration.",
   "engineering_relevance": "Design-stage welding sequence optimisation and structural planning offer the strongest opportunities to reduce distortion and costly corrective work.",
   "method": [
-    "Review research from 2000–2025 on large-structure distortion prediction and control.",
-    "Compare thermo-elasto-plastic finite element, inherent strain and local/global modelling approaches.",
-    "Assess emerging data-driven surrogates and design-stage, in-process and post-weld mitigation."
+    "Review prediction and mitigation research from 2000–2025.",
+    "Compare thermo-elasto-plastic, inherent-strain, local/global and emerging data-driven models.",
+    "Assess design-stage, in-process and post-welding distortion controls."
   ],
-  "evidence_signal": "Approximately 10% and 1% of reviewed references address large aluminium and high-strength steel structures, respectively, indicating limited evidence beyond conventional structural steels.",
-  "watch_item": "No prediction approach is universally transferable; industrial deployment remains constrained by calibration needs, scalability and data availability.",
+  "evidence_signal": "Only approximately 10% and 1% of reviewed references address large aluminium and high-strength steel structures, respectively, indicating limited material-specific evidence.",
+  "watch_item": "No prediction approach transfers universally across structures; scalable deployment remains constrained by calibration, simplifying assumptions and data availability.",
   "hashtags": [
     "#WeldingDistortion",
     "#ComputationalMechanics",
-    "#SurrogateModeling",
-    "#ProcessOptimization",
-    "#MetalFabrication"
+    "#AIProcessOptimization",
+    "#FiniteElementAnalysis",
+    "#ManufacturingEngineering"
   ],
   "model": "gpt-6.1-sol",
   "service_tier": "ultrafast",
@@ -21,6 +21,6 @@
   "paper_title": "A review of prediction and control methods on welding-induced distortions in large metallic structures",
   "paper_date": "2026-11-07",
   "paper_category": "AI Process Optimization",
-  "generated_at": "2026-11-08T16:58:13",
+  "generated_at": "2026-11-09T21:21:36",
   "generator": "openai"
 }

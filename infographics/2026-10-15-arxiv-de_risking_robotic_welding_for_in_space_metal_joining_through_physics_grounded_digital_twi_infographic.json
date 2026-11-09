@@ -1,13 +1,13 @@
 {
-  "key_insight": "A physics-grounded welding digital twin combines thermal simulation, AI surrogates, and robot control to screen in-space joining strategies before experimental testing.",
-  "engineering_relevance": "Fast surrogate predictions could support adaptive welding control as robot travel speed changes, helping maintain weld geometry during on-orbit assembly and repair.",
+  "key_insight": "A physics-grounded welding digital twin uses fast Gaussian-process predictions to screen process settings and support simulated robotic control for future in-space metal joining.",
+  "engineering_relevance": "The framework could reduce experimental risk by identifying promising welding conditions and control strategies before costly space-relevant testing.",
   "method": [
-    "Finite-volume thermal model includes phase change, effective thermocapillary transport, and local pressure.",
-    "Gaussian-process and neural-network surrogates predict weld responses; gravity is assessed separately via a hydrostatic-to-capillary pressure ratio.",
-    "Simulated six-axis robot uses proportional power-setting control along an L-shaped seam."
+    "Finite-volume thermal model with phase change, effective thermocapillary transport, and local pressure.",
+    "Gaussian-process and neural-network surrogates; gravity assessed separately via a hydrostatic-to-capillary pressure ratio.",
+    "Simulated six-axis UR5 welding with proportional power-setting control near an L-shaped seam corner."
   ],
-  "evidence_signal": "The GP outperformed the neural network on all eight outputs in repeated five-fold cross-validation; finite-volume re-evaluation placed 12/12 closed-loop versus 9/12 open-loop points within an illustrative 1–3 mm root-side-width band.",
-  "watch_item": "Results are simulation-based; thermal-vacuum, reduced-gravity, and robotic hardware-in-the-loop validation remain necessary.",
+  "evidence_signal": "The GP outperformed the neural network on all eight outputs in repeated five-fold cross-validation; its nominal 90% intervals covered 74/80 held-out boundary-case responses, and solver re-evaluation placed 12/12 closed-loop versus 9/12 open-loop points within an illustrative root-width band.",
+  "watch_item": "Results are simulation-only; thermal-vacuum, reduced-gravity, and robotic hardware-in-the-loop validation remain necessary.",
   "hashtags": [
     "#DigitalTwin",
     "#RoboticWelding",
@@ -21,6 +21,6 @@
   "paper_title": "De-Risking Robotic Welding for In-Space Metal Joining Through Physics-Grounded Digital Twins",
   "paper_date": "2026-10-15",
   "paper_category": "AI Process Optimization",
-  "generated_at": "2026-11-08T16:58:30",
+  "generated_at": "2026-11-09T21:21:49",
   "generator": "openai"
 }
