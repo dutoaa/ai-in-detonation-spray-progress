@@ -1,13 +1,13 @@
 {
   "key_insight": "Factorial analysis identified HVOF settings yielding acceptable hardness, porosity, and oxide attributes for Cr₃C₂-20(Ni20Cr) coatings on Ti6Al4V.",
-  "engineering_relevance": "The reported settings—150 mm standoff, 25 g/min powder feed, 475 NLPM hydrogen, and 205 NLPM oxygen—provide a process-development reference for this coating–substrate system.",
+  "engineering_relevance": "The reported settings—150 mm standoff, 25 g/min powder feed, 475 NLPM hydrogen, and 205 NLPM oxygen—provide a starting point for this coating–substrate combination.",
   "method": [
-    "Two-level full factorial design with 24 experimental runs.",
-    "ANOVA quantified spray-parameter contributions to coating properties.",
-    "Pareto charts assessed interactions among spray parameters."
+    "Used a full factorial design with 24 experimental runs and two-level input factors.",
+    "Measured coating properties and applied ANOVA to quantify spray-parameter contributions.",
+    "Used Pareto charts to examine parameter interaction effects."
   ],
-  "evidence_signal": "Coating responses were measured for each experimental run, but the abstract reports no numerical property values or uncertainty estimates.",
-  "watch_item": "Validate these settings on the intended equipment and application before treating them as transferable production conditions.",
+  "evidence_signal": "The abstract reports coating-property measurements across 24 runs but gives no numerical response values or uncertainty estimates.",
+  "watch_item": "Validate the reported settings on the intended equipment; transferability and in-service performance are not established in the abstract.",
   "hashtags": [
     "#HVOF",
     "#ThermalSpray",
@@ -21,6 +21,6 @@
   "paper_title": "Investigation of the Effect of HVOF Spray Parameters on the Quality Properties of Cr3C2-20(Ni20Cr) Coating on Ti6Al4V Substrate",
   "paper_date": "2026-10-27",
   "paper_category": "Thermal Spray Coatings",
-  "generated_at": "2026-11-09T21:21:46",
+  "generated_at": "2026-11-10T18:32:24",
   "generator": "openai"
 }
