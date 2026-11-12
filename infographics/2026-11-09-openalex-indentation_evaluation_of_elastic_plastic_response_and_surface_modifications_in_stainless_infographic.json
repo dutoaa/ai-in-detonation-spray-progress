@@ -1,13 +1,13 @@
 {
-  "key_insight": "The detonation-sprayed FeNiCoMoW coating increased indentation hardness and reduced retained indentation depth relative to untreated AISI 321 stainless steel.",
-  "engineering_relevance": "Depth-based indentation descriptors can help engineers compare coating hardness and unloading recovery without conflating retained-depth behavior with conventional contact-depth-based hardness.",
+  "key_insight": "The detonation-sprayed FeNiCoMoW coating increased indentation hardness and reduced the retained-depth fraction relative to AISI 321 stainless steel, indicating greater depth recovery during unloading.",
+  "engineering_relevance": "The coating offers a harder surface, while depth-based indentation descriptors help distinguish retained deformation from unloading recovery.",
   "method": [
-    "Instrumented Vickers indentation measured maximum and residual depths in the substrate and coating.",
-    "Calculated Martens hardness HM, residual-depth-based Hpl, and their ratio.",
-    "Optical microscopy and X-ray diffraction characterized coating morphology and crystalline phases."
+    "Instrumented Vickers indentation of untreated AISI 321 steel and the FeNiCoMoW coating.",
+    "Calculate Martens hardness, residual-depth-based hardness, and retained-depth fraction from load–displacement curves.",
+    "Assess coating morphology by optical microscopy and phase composition by X-ray diffraction."
   ],
-  "evidence_signal": "The 145 ± 8 μm coating increased indentation hardness from 2.3 ± 0.17 to 8.65 ± 1 GPa, reduced retained-depth fraction from 0.906 to 0.788, and increased Hpl/HM from 1.22 to 1.61.",
-  "watch_item": "Indentation results alone do not establish coating adhesion, wear resistance, or durability under service loading.",
+  "evidence_signal": "The continuous coating was 145 ± 8 µm thick; indentation hardness increased from 2.3 ± 0.17 to 8.65 ± 1 GPa, retained-depth fraction decreased from 0.906 to 0.788, and Hpl/HM increased from 1.22 to 1.61.",
+  "watch_item": "The abstract does not report adhesion, wear, or service-life testing, so higher indentation hardness alone does not establish component durability.",
   "hashtags": [
     "#DetonationSpray",
     "#FeNiCoMoW",
@@ -21,6 +21,6 @@
   "paper_title": "Indentation Evaluation of Elastic–Plastic Response and Surface Modifications in Stainless Steel",
   "paper_date": "2026-11-09",
   "paper_category": "Detonation Spray Process",
-  "generated_at": "2026-11-10T18:32:17",
+  "generated_at": "2026-11-12T18:45:49",
   "generator": "openai"
 }

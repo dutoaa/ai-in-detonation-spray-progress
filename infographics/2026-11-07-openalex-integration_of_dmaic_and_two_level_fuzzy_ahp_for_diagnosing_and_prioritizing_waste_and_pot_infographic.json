@@ -1,13 +1,13 @@
 {
-  "key_insight": "DMAIC with two-level Fuzzy AHP identified defects as the dominant waste and ranked Machine, Method, and Man as the leading potential cause categories in robotic sidebeam bogie-frame welding.",
-  "engineering_relevance": "The proposed improvement roadmap targets seam tracking, robot parameters, jig and fixture positioning, tack welding, and fit-up control to address welding quality and production inefficiency.",
+  "key_insight": "Integrating DMAIC with two-level Fuzzy AHP identified defects as the dominant waste and prioritized machine, method, and operator factors behind sidebeam bogie-frame welding defects.",
+  "engineering_relevance": "The findings guide robotic welding improvement priorities toward seam tracking, robot parameters, fixture positioning, tack welding, and fit-up control.",
   "method": [
-    "DMAIC with value stream mapping, time study, u′-control chart, DPMO, and sigma-level analysis.",
-    "Two-level Fuzzy AHP using judgments from ten experts to prioritize waste and potential cause categories.",
-    "6M fishbone analysis and corrective-action records to develop an improvement roadmap."
+    "DMAIC with value stream mapping, time study, u′-control chart, DPMO, and sigma analysis.",
+    "First-level Fuzzy AHP using judgments from 10 experts to rank four waste categories.",
+    "6M fishbone analysis and second-level Fuzzy AHP to prioritize potential cause categories."
   ],
-  "evidence_signal": "Across 21 inspected units, 485 welding defects yielded 136,658.21 DPMO and a 2.60 sigma level; undercut represented 57.1% of defects, while process cycle efficiency was 4.88%.",
-  "watch_item": "Weak expert agreement and sensitivity to respondent selection limit confidence in the rankings; proposed improvements still require implementation and empirical validation.",
+  "evidence_signal": "Across 21 inspected units, 485 defects yielded 136,658.21 DPMO and a 2.60 sigma level; undercut represented 57.1% of defects, and process cycle efficiency was 4.88%.",
+  "watch_item": "Weak expert agreement and respondent-sensitive rankings limit prioritization confidence; the proposed improvements still require implementation and empirical validation.",
   "hashtags": [
     "#RoboticWelding",
     "#LeanSixSigma",
@@ -21,6 +21,6 @@
   "paper_title": "Integration of DMAIC and Two-Level Fuzzy AHP for Diagnosing and Prioritizing Waste and Potential Causes of Welding Defects in a Sidebeam Bogie Frame",
   "paper_date": "2026-11-07",
   "paper_category": "Coating Microstructure",
-  "generated_at": "2026-11-10T18:32:08",
+  "generated_at": "2026-11-12T18:45:23",
   "generator": "openai"
 }

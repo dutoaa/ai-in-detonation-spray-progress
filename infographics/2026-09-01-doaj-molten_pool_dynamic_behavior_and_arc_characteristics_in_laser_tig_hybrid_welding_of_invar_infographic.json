@@ -1,13 +1,13 @@
 {
-  "key_insight": "In laser-TIG hybrid welding of Invar steel, laser power, travel speed, and welding current jointly govern molten-pool flow, weld geometry, and arc stability.",
-  "engineering_relevance": "These trends can guide parameter selection for welding low-expansion Invar tooling used to manufacture aerospace composites.",
+  "key_insight": "In laser–TIG hybrid welding of Invar steel, laser power, welding speed, and current govern molten-pool flow, weld geometry, and arc stability.",
+  "engineering_relevance": "These parameter–response relationships can guide welding-process optimization for low-expansion Invar tooling used in aerospace composite manufacturing.",
   "method": [
     "Numerical simulation of molten-pool dynamics",
-    "High-speed photography of pool evolution and arc behavior",
-    "Comparison across laser power, welding speed, and current ranges"
+    "High-speed photography of welding behavior",
+    "Comparison across laser power, welding speed, and current"
   ],
-  "evidence_signal": "Across 5–6 kW, 0.5–0.8 m/min, and 150–170 A, higher power increased penetration and keyhole size, higher speed reduced penetration and width, and higher current widened the weld and stabilized the arc.",
-  "watch_item": "The abstract provides no quantitative validation errors or weld-quality metrics, so these parameter trends should not be treated as a qualified production window.",
+  "evidence_signal": "Across 5–6 kW, higher laser power increased penetration and keyhole size; across 0.5–0.8 m/min, higher speed reduced penetration and weld width; across 150–170 A, higher current widened the weld and stabilized the arc.",
+  "watch_item": "The abstract reports trends within limited parameter ranges but provides no quantitative simulation–experiment agreement or weld-property validation.",
   "hashtags": [
     "#InvarSteel",
     "#LaserTIGWelding",
@@ -21,6 +21,6 @@
   "paper_title": "Molten pool dynamic behavior and arc characteristics in laser-TIG hybrid welding of Invar steel",
   "paper_date": "2026-09-01",
   "paper_category": "Welding Processes",
-  "generated_at": "2026-11-10T18:32:15",
+  "generated_at": "2026-11-12T18:45:26",
   "generator": "openai"
 }
