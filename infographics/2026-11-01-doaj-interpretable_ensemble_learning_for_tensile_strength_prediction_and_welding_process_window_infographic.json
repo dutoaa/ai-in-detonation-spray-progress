@@ -1,12 +1,12 @@
 {
-  "key_insight": "An optimized gradient boosting decision tree predicted friction stir-welded 7N01 aluminum joint tensile strength with R² = 0.978 and identified process windows targeting at least 90% joint efficiency.",
-  "engineering_relevance": "The model provides quantitative guidance for selecting welding parameters, with shoulder plunge depth helping refine the high-strength process window.",
+  "key_insight": "Optimized gradient boosting predicts friction stir-welded 7N01 aluminum joint strength with R² = 0.978 and identifies welding speed as the most influential input.",
+  "engineering_relevance": "The model maps a predicted process window for at least 90% joint efficiency, with shoulder plunge depth helping refine high-strength welding conditions.",
   "method": [
     "Predict ultimate tensile strength from rotational speed, welding speed, and shoulder plunge depth.",
-    "Compare baseline models, then tune gradient boosting using grid search.",
-    "Use SHAP to interpret parameter effects and map predicted feasible welding windows."
+    "Compare baseline models, then optimize gradient boosting decision trees using grid search.",
+    "Use SHAP to interpret parameter effects and map the high-strength process window."
   ],
-  "evidence_signal": "Using 27 experimental samples and leave-one-out cross-validation, reported R² increased from 0.905 for the best baseline to 0.966 with boosting and 0.978 after tuning.",
+  "evidence_signal": "Using 27 experimental samples and leave-one-out cross-validation, reported R² increased from 0.905 for a decision tree to 0.966 for gradient boosting and 0.978 after tuning.",
   "watch_item": "The small dataset limits confidence in generalization; predicted process windows need independent experimental validation before production use.",
   "hashtags": [
     "#FrictionStirWelding",
@@ -21,6 +21,6 @@
   "paper_title": "Interpretable ensemble learning for tensile strength prediction and welding process window optimization of friction stir-welded 7N01 aluminum alloy",
   "paper_date": "2026-11-01",
   "paper_category": "AI Process Optimization",
-  "generated_at": "2026-11-12T18:45:36",
+  "generated_at": "2026-11-13T18:27:23",
   "generator": "openai"
 }

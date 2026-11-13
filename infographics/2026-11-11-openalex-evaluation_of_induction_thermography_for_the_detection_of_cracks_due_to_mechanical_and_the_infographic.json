@@ -1,13 +1,13 @@
 {
-  "key_insight": "Induction thermography detected micrometre-scale cracks in WC-10Co-4Cr coatings, with minimum resolved widths of approximately 1 µm on ground surfaces and 1.7 µm on as-sprayed surfaces.",
-  "engineering_relevance": "Non-destructive crack inspection could improve maintenance and product quality in coated calender rollers, where micrometre-scale dimensional precision is critical.",
+  "key_insight": "Induction thermography detected micrometre-scale cracks in WC-10Co-4Cr coatings without destructive testing.",
+  "engineering_relevance": "Non-invasive crack inspection could improve reliability and product quality in precision calender rollers, where coating damage threatens micrometre-level concentricity.",
   "method": [
-    "Tested WC-10Co-4Cr-coated C60 steel with ground and as-sprayed surfaces.",
-    "Induced cracks using mechanical strains of 0.12–0.4% and thermal shock.",
-    "Evaluated induction thermography signals using Fourier analysis and principal component analysis."
+    "Test ground and as-sprayed WC-10Co-4Cr coatings on C60 steel.",
+    "Induce cracks using mechanical strains of 0.12–0.4% and thermal shock.",
+    "Process induction thermography signals using Fourier transforms and principal component analysis."
   ],
-  "evidence_signal": "Tests covered crack widths of approximately 1–4.5 µm and depths up to the full coating thickness of approximately 400 µm; both dimensions influenced thermal contrast, with deeper cracks producing stronger signals.",
-  "watch_item": "Detection sensitivity depends on surface condition and crack geometry, so the reported minimum resolved widths should not be treated as universal inspection limits.",
+  "evidence_signal": "Minimum resolved crack widths were approximately 1 µm on ground surfaces and 1.7 µm on as-sprayed surfaces; deeper cracks produced stronger thermal contrast.",
+  "watch_item": "Detection sensitivity depends on surface condition and crack geometry; these specimen results do not establish performance on full-scale rollers.",
   "hashtags": [
     "#InductionThermography",
     "#NonDestructiveTesting",
@@ -21,6 +21,6 @@
   "paper_title": "Evaluation of Induction Thermography for the Detection of Cracks Due to Mechanical and Thermal Stress in WC-10Co-4Cr Coatings",
   "paper_date": "2026-11-11",
   "paper_category": "Wear and Corrosion",
-  "generated_at": "2026-11-12T18:45:28",
+  "generated_at": "2026-11-13T18:27:25",
   "generator": "openai"
 }

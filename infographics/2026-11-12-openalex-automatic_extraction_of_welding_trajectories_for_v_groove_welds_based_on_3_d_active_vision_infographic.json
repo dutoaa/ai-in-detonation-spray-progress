@@ -1,0 +1,26 @@
+{
+  "key_insight": "Feature-fused 3-D active vision automatically extracts V-groove welding trajectories on reflective materials while suppressing reflection interference.",
+  "engineering_relevance": "The method supports automated weld-path generation where reflective surfaces complicate laser-based seam detection.",
+  "method": [
+    "Segment weld-seam laser stripes using the saliency feature fusion model SFF_LSM.",
+    "Extract stripe centers using a gray-gravity algorithm with secondary smoothing.",
+    "Filter seam point clouds and fit welding trajectories using least squares."
+  ],
+  "evidence_signal": "Experiments reported maximum trajectory fitting errors of 0.51 mm in X, 0.40 mm in Y, and 0.29 mm in Z.",
+  "watch_item": "The abstract addresses planar welds; performance on nonplanar seams or under different reflection conditions remains unestablished.",
+  "hashtags": [
+    "#WeldingAutomation",
+    "#ActiveVision",
+    "#LaserStripeSegmentation",
+    "#PointCloudProcessing",
+    "#VGrooveWelding"
+  ],
+  "model": "gpt-6.1-sol",
+  "service_tier": "ultrafast",
+  "paper_id": "2026-11-12-openalex-automatic_extraction_of_welding_trajectories_for_v_groove_welds_based_on_3_d_active_vision",
+  "paper_title": "Automatic extraction of welding trajectories for V-groove welds based on 3-D active vision imaging",
+  "paper_date": "2026-11-12",
+  "paper_category": "Welding Processes",
+  "generated_at": "2026-11-13T18:27:04",
+  "generator": "openai"
+}
