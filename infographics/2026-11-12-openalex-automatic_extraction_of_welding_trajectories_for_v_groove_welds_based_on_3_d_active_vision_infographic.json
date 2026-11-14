@@ -1,19 +1,19 @@
 {
-  "key_insight": "Feature-fused 3-D active vision automatically extracts V-groove welding trajectories on reflective materials while suppressing reflection interference.",
-  "engineering_relevance": "The method supports automated weld-path generation where reflective surfaces complicate laser-based seam detection.",
+  "key_insight": "Feature-fused 3-D active vision automatically extracts planar V-groove welding trajectories on reflective materials while suppressing reflection interference.",
+  "engineering_relevance": "The approach supports automated weld-path generation where reflective surfaces complicate optical seam detection.",
   "method": [
-    "Segment weld-seam laser stripes using the saliency feature fusion model SFF_LSM.",
+    "Segment laser stripes using a saliency feature fusion model (SFF_LSM).",
     "Extract stripe centers using a gray-gravity algorithm with secondary smoothing.",
-    "Filter seam point clouds and fit welding trajectories using least squares."
+    "Filter seam point clouds and fit the welding trajectory using least squares."
   ],
-  "evidence_signal": "Experiments reported maximum trajectory fitting errors of 0.51 mm in X, 0.40 mm in Y, and 0.29 mm in Z.",
-  "watch_item": "The abstract addresses planar welds; performance on nonplanar seams or under different reflection conditions remains unestablished.",
+  "evidence_signal": "Experiments reported maximum trajectory-fitting errors of 0.51 mm in X, 0.40 mm in Y, and 0.29 mm in Z.",
+  "watch_item": "The abstract does not establish robustness across different materials, groove geometries, or production lighting conditions.",
   "hashtags": [
-    "#WeldingAutomation",
-    "#ActiveVision",
+    "#AutomatedWelding",
+    "#VG rooveWelding",
+    "#3DVision",
     "#LaserStripeSegmentation",
-    "#PointCloudProcessing",
-    "#VGrooveWelding"
+    "#WeldTrajectory"
   ],
   "model": "gpt-6.1-sol",
   "service_tier": "ultrafast",
@@ -21,6 +21,6 @@
   "paper_title": "Automatic extraction of welding trajectories for V-groove welds based on 3-D active vision imaging",
   "paper_date": "2026-11-12",
   "paper_category": "Welding Processes",
-  "generated_at": "2026-11-13T18:27:04",
+  "generated_at": "2026-11-14T16:58:37",
   "generator": "openai"
 }

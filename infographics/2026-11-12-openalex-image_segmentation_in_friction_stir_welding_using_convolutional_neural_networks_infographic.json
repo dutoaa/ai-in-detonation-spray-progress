@@ -1,0 +1,26 @@
+{
+  "key_insight": "Convolutional neural networks segmented friction stir weld surface defects at pixel level, achieving 97.69% global accuracy and 83.78% mean intersection over union (mIoU).",
+  "engineering_relevance": "Automated defect identification, localization, and quantification could support inline weld inspection and reduce reliance on time-consuming human visual assessment.",
+  "method": [
+    "Apply CNN-based semantic segmentation to weld surface images.",
+    "Identify flash, surface galling, and surface lack of fill.",
+    "Evaluate pixel-level performance using global accuracy and IoU."
+  ],
+  "evidence_signal": "Reported defect IoUs were 79.18% for flash, 80.22% for surface lack of fill, and 66.87% for surface galling.",
+  "watch_item": "Surface galling had the lowest reported defect IoU; the abstract does not establish robustness across production conditions or real-time deployment.",
+  "hashtags": [
+    "#FrictionStirWelding",
+    "#SemanticSegmentation",
+    "#DeepLearning",
+    "#WeldInspection",
+    "#QualityMonitoring"
+  ],
+  "model": "gpt-6.1-sol",
+  "service_tier": "ultrafast",
+  "paper_id": "2026-11-12-openalex-image_segmentation_in_friction_stir_welding_using_convolutional_neural_networks",
+  "paper_title": "Image segmentation in friction stir welding using convolutional neural networks",
+  "paper_date": "2026-11-12",
+  "paper_category": "Welding Processes",
+  "generated_at": "2026-11-14T16:58:22",
+  "generator": "openai"
+}

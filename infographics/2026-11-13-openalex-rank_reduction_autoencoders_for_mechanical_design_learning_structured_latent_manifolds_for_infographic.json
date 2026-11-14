@@ -1,0 +1,26 @@
+{
+  "key_insight": "Rank Reduction Autoencoders connect compressed geometry and mechanical-response representations to enable fast forward prediction and inverse topology design.",
+  "engineering_relevance": "The framework offers efficient surrogate models for exploring compliance-minimized structures and recovering candidate geometries from prescribed performance targets.",
+  "method": [
+    "Generate optimized structures using density-based SIMP topology optimization.",
+    "Train separate SVD-based Rank Reduction Autoencoders for geometries and scalar or field-valued mechanical responses.",
+    "Connect latent spaces with multilayer perceptrons for forward and inverse analyses."
+  ],
+  "evidence_signal": "Tests on a half MBB beam and a cantilever beam with varying volume fraction and load position showed improved robustness and fidelity with richer response information, though the abstract reports no numerical error or speedup values.",
+  "watch_item": "Generalization beyond the studied linear-elastic benchmarks and physical validation of newly generated designs remain to be established.",
+  "hashtags": [
+    "#TopologyOptimization",
+    "#MachineDesign",
+    "#Autoencoders",
+    "#SurrogateModeling",
+    "#InverseDesign"
+  ],
+  "model": "gpt-6.1-sol",
+  "service_tier": "ultrafast",
+  "paper_id": "2026-11-13-openalex-rank_reduction_autoencoders_for_mechanical_design_learning_structured_latent_manifolds_for",
+  "paper_title": "Rank reduction autoencoders for mechanical design: Learning structured latent manifolds for topology optimization",
+  "paper_date": "2026-11-13",
+  "paper_category": "AI Machine Design",
+  "generated_at": "2026-11-14T16:58:16",
+  "generator": "openai"
+}
