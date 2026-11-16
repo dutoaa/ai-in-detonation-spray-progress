@@ -1,13 +1,13 @@
 {
-  "key_insight": "Factorial analysis identified HVOF settings yielding acceptable hardness, porosity, and oxide attributes for Cr₃C₂-20(Ni20Cr) coatings on Ti6Al4V.",
-  "engineering_relevance": "The reported settings—150 mm standoff, 25 g/min powder feed, 475 NLPM hydrogen, and 205 NLPM oxygen—provide a process-development reference for this coating–substrate combination.",
+  "key_insight": "Factorial analysis identified HVOF settings associated with acceptable hardness, porosity, and oxide content in Cr₃C₂-20(Ni20Cr) coatings on Ti6Al4V.",
+  "engineering_relevance": "The reported settings provide a process-development starting point: 150 mm standoff, 25 g/min powder feed, 475 NLPM hydrogen, and 205 NLPM oxygen.",
   "method": [
-    "Used a two-level full factorial design with 24 experimental runs.",
-    "Measured coating quality and applied ANOVA to quantify spray-parameter contributions.",
-    "Used Pareto analysis to assess parameter interaction effects."
+    "Used a two-level full factorial design reported as 24 experimental runs.",
+    "Measured coating properties and applied ANOVA to quantify spray-parameter contributions.",
+    "Used Pareto charts to assess parameter interaction effects."
   ],
-  "evidence_signal": "The abstract reports coating-property measurements across 24 runs but provides no numerical hardness, porosity, oxide content, or statistical effect sizes.",
-  "watch_item": "Validate these settings on the intended spray equipment; the abstract does not establish transferability or service-performance improvements.",
+  "evidence_signal": "The abstract reports coating-response measurements for each experimental run but provides no numerical property values or statistical results.",
+  "watch_item": "Validate these settings against application-specific quality limits before transferring them to other equipment or coating–substrate systems.",
   "hashtags": [
     "#HVOF",
     "#ThermalSpray",
@@ -21,6 +21,6 @@
   "paper_title": "Investigation of the Effect of HVOF Spray Parameters on the Quality Properties of Cr3C2-20(Ni20Cr) Coating on Ti6Al4V Substrate",
   "paper_date": "2026-10-27",
   "paper_category": "Thermal Spray Coatings",
-  "generated_at": "2026-11-14T16:58:55",
+  "generated_at": "2026-11-16T20:52:22",
   "generator": "openai"
 }

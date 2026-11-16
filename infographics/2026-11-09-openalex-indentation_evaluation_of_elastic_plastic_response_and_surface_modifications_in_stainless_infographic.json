@@ -1,19 +1,19 @@
 {
-  "key_insight": "The detonation-sprayed FeNiCoMoW coating increased indentation hardness and reduced the retained-depth fraction relative to AISI 321 stainless steel, indicating greater depth recovery during unloading.",
-  "engineering_relevance": "The coating offers a harder surface, while depth-based indentation descriptors help distinguish retained deformation from unloading recovery.",
+  "key_insight": "A detonation-sprayed FeNiCoMoW coating increased AISI 321 stainless steel indentation hardness while reducing the retained-depth fraction, indicating greater depth recovery during unloading.",
+  "engineering_relevance": "The coating offers a harder surface, while depth-based descriptors help distinguish its indentation recovery behavior from that of untreated steel.",
   "method": [
-    "Instrumented Vickers indentation of untreated AISI 321 steel and the FeNiCoMoW coating.",
-    "Calculate Martens hardness, residual-depth-based hardness, and retained-depth fraction from load–displacement curves.",
-    "Assess coating morphology by optical microscopy and phase composition by X-ray diffraction."
+    "Instrumented Vickers indentation measured maximum and residual depths.",
+    "Calculated Martens hardness HM, residual-depth-based Hpl, and Hpl/HM.",
+    "Optical microscopy assessed morphology; X-ray diffraction identified phases."
   ],
-  "evidence_signal": "The continuous coating was 145 ± 8 µm thick; indentation hardness increased from 2.3 ± 0.17 to 8.65 ± 1 GPa, retained-depth fraction decreased from 0.906 to 0.788, and Hpl/HM increased from 1.22 to 1.61.",
-  "watch_item": "The abstract does not report adhesion, wear, or service-life testing, so higher indentation hardness alone does not establish component durability.",
+  "evidence_signal": "The 145 ± 8 μm coating increased indentation hardness from 2.3 ± 0.17 to 8.65 ± 1 GPa, reduced the retained-depth fraction from 0.906 to 0.788, and increased Hpl/HM from 1.22 to 1.61.",
+  "watch_item": "Indentation results alone do not establish coating adhesion, wear resistance, or service durability; Hpl should not be conflated with conventional contact-depth-based hardness.",
   "hashtags": [
     "#DetonationSpray",
     "#FeNiCoMoW",
-    "#StainlessSteel",
+    "#SurfaceEngineering",
     "#InstrumentedIndentation",
-    "#SurfaceEngineering"
+    "#StainlessSteel"
   ],
   "model": "gpt-6.1-sol",
   "service_tier": "ultrafast",
@@ -21,6 +21,6 @@
   "paper_title": "Indentation Evaluation of Elastic–Plastic Response and Surface Modifications in Stainless Steel",
   "paper_date": "2026-11-09",
   "paper_category": "Detonation Spray Process",
-  "generated_at": "2026-11-12T18:45:49",
+  "generated_at": "2026-11-16T20:52:35",
   "generator": "openai"
 }

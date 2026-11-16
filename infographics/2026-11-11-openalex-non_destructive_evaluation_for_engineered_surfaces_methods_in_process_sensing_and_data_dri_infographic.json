@@ -1,18 +1,18 @@
 {
-  "key_insight": "Engineered surfaces require hierarchical, multi-modal NDE that pairs rapid screening with calibrated confirmation tailored to surface and interface physics.",
-  "engineering_relevance": "Targeted inspection can support quality and service-life assessment of coatings, cold-sprayed deposits, laser-clad overlays, and additively manufactured surface regions.",
+  "key_insight": "Engineered surfaces require hierarchical, multi-modal NDE that pairs rapid screening with calibrated confirmation tailored to surface and interface properties.",
+  "engineering_relevance": "Matching inspection physics to coating thickness, adhesion, residual stress, porosity, and debonding can support quality control and service-life assessment.",
   "method": [
-    "Match inspection physics to thickness, adhesion, stress, porosity, and interface defects.",
     "Review electromagnetic, thermal, acoustic, optical, and X-ray inspection capabilities and limitations.",
-    "Assess in-process sensing, data fusion, physics-informed machine learning, and digital twins."
+    "Link NDE methods to defects in coatings, cold-sprayed deposits, clad overlays, and other engineered surfaces.",
+    "Assess in-process sensing, data fusion, physics-informed machine learning, and digital twins for NDE 4.0."
   ],
-  "evidence_signal": "The abstract describes a review of method capabilities and limitations, not a new experimental benchmark or quantitative validation.",
-  "watch_item": "Deployment remains constrained by limited probability-of-detection evidence, scarce reference specimens, weak model transferability, and incomplete acceptance criteria.",
+  "evidence_signal": "The abstract describes a methods review, not a new experimental benchmark, and highlights limited probability-of-detection evidence.",
+  "watch_item": "Qualification remains constrained by scarce reference specimens, incomplete acceptance criteria, and poor transferability of data-driven models.",
   "hashtags": [
-    "#NDE40",
+    "#NonDestructiveEvaluation",
     "#EngineeredSurfaces",
     "#CoatingInspection",
-    "#SensorFusion",
+    "#NDE4",
     "#PhysicsInformedML"
   ],
   "model": "gpt-6.1-sol",
@@ -21,6 +21,6 @@
   "paper_title": "Non-Destructive Evaluation for Engineered Surfaces: Methods, In-Process Sensing, and Data-Driven Inspection in the NDE 4.0 Era",
   "paper_date": "2026-11-11",
   "paper_category": "Coating Microstructure",
-  "generated_at": "2026-11-14T16:58:29",
+  "generated_at": "2026-11-16T20:52:02",
   "generator": "openai"
 }

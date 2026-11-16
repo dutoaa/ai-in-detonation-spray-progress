@@ -1,0 +1,26 @@
+{
+  "key_insight": "LADRC improved current-regulation robustness in a fast-frequency pulsed welding power supply, but was not faster than PI at every operating point.",
+  "engineering_relevance": "More consistent current response under changing load and dc-bus conditions could support reliable pulsed welding power delivery.",
+  "method": [
+    "Modeled load-dependent damping, commutation duty loss, and ADC/PWM scaling in a dual-path PSFB supply.",
+    "Implemented a first-order LADRC regulator with a second-order observer on an STM32G474 at a 20-μs control period.",
+    "Compared hardware performance against locally gain-scanned incremental PI control."
+  ],
+  "evidence_signal": "Hardware tests showed mean rise-time drift of 15.7% versus 56.0% for PI across 544–420 V bus levels, 45.5% lower mean pulse recovery time, and amplitude variation falling from 4.13% to 1.28% at 50 A.",
+  "watch_item": "Results establish application-specific electrical gains, not parameter-independent dynamics or validated improvements in weld quality.",
+  "hashtags": [
+    "#WeldingPowerSupply",
+    "#LADRC",
+    "#CurrentControl",
+    "#PowerElectronics",
+    "#EmbeddedControl"
+  ],
+  "model": "gpt-6.1-sol",
+  "service_tier": "ultrafast",
+  "paper_id": "2026-11-13-openalex-study_on_linear_active_disturbance_rejection_control_for_current_regulation_in_a_fast_freq",
+  "paper_title": "Study on Linear Active Disturbance Rejection Control for Current Regulation in a Fast‐Frequency Pulsed Welding Power Supply",
+  "paper_date": "2026-11-13",
+  "paper_category": "AI Process Optimization",
+  "generated_at": "2026-11-16T20:52:16",
+  "generator": "openai"
+}

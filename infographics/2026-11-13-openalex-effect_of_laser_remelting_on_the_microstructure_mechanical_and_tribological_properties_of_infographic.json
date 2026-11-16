@@ -1,19 +1,19 @@
 {
   "key_insight": "Laser remelting densified detonation-sprayed NiCrFeBSiC coatings, increasing hardness and adhesion while reducing specific wear rate by 49.5%.",
-  "engineering_relevance": "The combined process could improve wear-resistant nickel-based protective coatings on AISI 321 stainless steel for mechanical and power engineering components.",
+  "engineering_relevance": "Combining detonation spraying with laser remelting offers a promising route to wear-resistant nickel-based coatings on AISI 321 stainless steel components.",
   "method": [
-    "Deposit NiCrFeBSiC coatings by detonation spraying, then apply laser remelting.",
+    "Deposit NiCrFeBSiC coatings by detonation spraying, then laser remelt.",
     "Compare microstructure and phases using SEM, EDS, and XRD.",
-    "Evaluate hardness, modulus, adhesion, friction, wear, and electrochemical corrosion behavior."
+    "Evaluate indentation properties, adhesion, friction, wear, and electrochemical corrosion."
   ],
-  "evidence_signal": "After remelting, hardness rose from 1049.1 to 1206.1 HV, average friction coefficient fell from 0.535 to 0.409, and specific wear rate decreased from 2.864 × 10⁻⁴ to 1.447 × 10⁻⁴ mm³/(N·m).",
-  "watch_item": "Remelting reduced coating thickness, while corrosion current density improved by only approximately 3%; application-specific thickness and corrosion requirements need validation.",
+  "evidence_signal": "After remelting, hardness rose from 1049.1 to 1206.1 HV, friction coefficient fell from 0.535 to 0.409, and specific wear rate decreased from 2.864 × 10⁻⁴ to 1.447 × 10⁻⁴ mm³/(N·m).",
+  "watch_item": "Remelting reduced coating thickness, so dimensional allowance requires attention; corrosion current density improved only modestly, by approximately 3%.",
   "hashtags": [
     "#LaserRemelting",
     "#DetonationSpraying",
     "#NiBasedCoatings",
-    "#WearResistance",
-    "#SurfaceEngineering"
+    "#Microstructure",
+    "#WearResistance"
   ],
   "model": "gpt-6.1-sol",
   "service_tier": "ultrafast",
@@ -21,6 +21,6 @@
   "paper_title": "Effect of Laser Remelting on the Microstructure, Mechanical and Tribological Properties of Detonation-Sprayed NiCrFeBSiC Coatings for Mechanical Engineering Applications",
   "paper_date": "2026-11-13",
   "paper_category": "Coating Microstructure",
-  "generated_at": "2026-11-14T16:58:20",
+  "generated_at": "2026-11-16T20:51:52",
   "generator": "openai"
 }
