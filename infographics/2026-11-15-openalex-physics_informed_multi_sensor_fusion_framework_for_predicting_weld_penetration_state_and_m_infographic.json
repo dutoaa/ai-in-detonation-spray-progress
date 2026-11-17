@@ -1,0 +1,26 @@
+{
+  "key_insight": "ASPIS-Net combines acoustic and electrical signals with physics-informed learning to classify CMT weld penetration states and derive explicit equations for interpretation.",
+  "engineering_relevance": "Noise-resistant, interpretable weld-state monitoring could support quality assurance and structural reliability assessment of welded joints.",
+  "method": [
+    "Dual-branch network processes synchronized acoustic and electrical signals.",
+    "Adaptive gated fusion suppresses environmental noise while preserving critical features.",
+    "Symbolic regression converts learned representations into explicit equations linked to welding thermodynamics."
+  ],
+  "evidence_signal": "Evaluation used 5,000 synchronized samples across four penetration states, reporting 99.36% classification accuracy and 75.59% Macro-F1 under 0 dB composite noise.",
+  "watch_item": "Generalization to different welding equipment and industrial conditions, and independent validation of the inferred physical equations, remain to be established.",
+  "hashtags": [
+    "#CMTWelding",
+    "#PhysicsInformedAI",
+    "#SensorFusion",
+    "#WeldMonitoring",
+    "#SymbolicRegression"
+  ],
+  "model": "gpt-6.1-sol",
+  "service_tier": "ultrafast",
+  "paper_id": "2026-11-15-openalex-physics_informed_multi_sensor_fusion_framework_for_predicting_weld_penetration_state_and_m",
+  "paper_title": "Physics-informed multi-sensor fusion framework for predicting weld penetration state and mechanistic discovery in CMT welding",
+  "paper_date": "2026-11-15",
+  "paper_category": "Welding Processes",
+  "generated_at": "2026-11-17T19:42:12",
+  "generator": "openai"
+}

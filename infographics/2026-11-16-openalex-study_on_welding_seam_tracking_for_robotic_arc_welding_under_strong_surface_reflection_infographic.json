@@ -1,0 +1,26 @@
+{
+  "key_insight": "An oblique-incidence laser vision tracker improves robotic weld seam localization under strong surface reflections, achieving 0.52-pixel extraction accuracy at an average 37 FPS with a 22 mm sensor-to-torch lead distance.",
+  "engineering_relevance": "The approach could support more reliable robotic arc welding of reflective components in vessels, vehicles and container girders where sensor placement is constrained.",
+  "method": [
+    "Recover laser stripes using a segmentation network with spatial coordinate attention and dual-scale feature fusion.",
+    "Reject erroneous stripe inputs using self-iterative random sample consensus.",
+    "Integrate seam localization into a robotic weld seam tracker."
+  ],
+  "evidence_signal": "Evaluation on four workpieces with diverse surface conditions and laser-stripe datasets containing large-area noise showed an 81% reduction in seam-position pixel extraction error.",
+  "watch_item": "Pixel-level results do not establish physical tracking accuracy or weld quality across broader industrial conditions.",
+  "hashtags": [
+    "#RoboticWelding",
+    "#SeamTracking",
+    "#LaserVision",
+    "#ImageSegmentation",
+    "#ManufacturingAI"
+  ],
+  "model": "gpt-6.1-sol",
+  "service_tier": "ultrafast",
+  "paper_id": "2026-11-16-openalex-study_on_welding_seam_tracking_for_robotic_arc_welding_under_strong_surface_reflection",
+  "paper_title": "Study on welding seam tracking for robotic arc welding under strong surface reflection",
+  "paper_date": "2026-11-16",
+  "paper_category": "Welding Processes",
+  "generated_at": "2026-11-17T19:42:10",
+  "generator": "openai"
+}
