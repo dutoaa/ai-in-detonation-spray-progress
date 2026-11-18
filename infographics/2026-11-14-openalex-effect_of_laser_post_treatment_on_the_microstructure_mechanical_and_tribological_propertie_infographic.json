@@ -1,19 +1,19 @@
 {
-  "key_insight": "Laser post-treatment reduced wear rates by approximately 24% for detonation-sprayed and 39% for gas-flame-sprayed Ni–Cr–Fe–Si–B–C coatings, while producing deposition-dependent mechanical changes.",
-  "engineering_relevance": "Laser post-treatment offers a route to improve sliding-wear resistance on coated AISI 321 stainless steel, but deposition method matters when stiffness and hardness are design priorities.",
+  "key_insight": "Laser post-treatment reduced wear rates by approximately 24% for detonation-sprayed coatings and 39% for gas-flame-sprayed coatings, with deposition-dependent changes in hardness and elastic modulus.",
+  "engineering_relevance": "Laser post-treatment offers a route to improve the sliding-wear resistance of Ni–Cr–Fe–Si–B–C coatings on AISI 321 stainless steel.",
   "method": [
     "Deposit coatings by detonation spraying and gas-flame spraying, then apply laser post-treatment.",
-    "Characterize microstructure and phases using SEM, EDS, and XRD.",
-    "Compare mechanical and dry-sliding performance using instrumented indentation and ball-on-disk testing."
+    "Characterize microstructure, chemistry, and phases using SEM, EDS, and XRD.",
+    "Evaluate mechanical and tribological properties using instrumented indentation and ball-on-disk testing."
   ],
-  "evidence_signal": "Detonation-sprayed coating hardness increased from 1049.1 to 1206.1 HV; wear rates fell from 1.939 to 1.465 and from 2.419 to 1.476 × 10⁻⁴ mm³/(N·m) for detonation- and gas-flame-sprayed coatings, respectively.",
-  "watch_item": "Laser treatment lowered the gas-flame-sprayed coating’s elastic modulus from 228.0 to 187.0 GPa, so improved wear resistance does not imply improved stiffness.",
+  "evidence_signal": "After laser treatment, DS hardness rose from 1049.1 to 1206.1 HV, while wear rates decreased from 1.939 to 1.465 for DS and from 2.419 to 1.476 for GFS, all ×10⁻⁴ mm³/(N·m).",
+  "watch_item": "Laser treatment did not improve every property: GFS elastic modulus decreased from 228.0 to 187.0 GPa, and the reported dry-sliding results do not establish service-condition durability.",
   "hashtags": [
     "#LaserPostTreatment",
     "#DetonationSpraying",
     "#FlameSpraying",
     "#WearResistantCoatings",
-    "#SurfaceEngineering"
+    "#CoatingMicrostructure"
   ],
   "model": "gpt-6.1-sol",
   "service_tier": "ultrafast",
@@ -21,6 +21,6 @@
   "paper_title": "Effect of Laser Post-Treatment on the Microstructure, Mechanical and Tribological Properties of Detonation- and Flame-Sprayed Ni–Cr–Fe–Si–B–C Coatings",
   "paper_date": "2026-11-14",
   "paper_category": "Coating Microstructure",
-  "generated_at": "2026-11-17T19:42:29",
+  "generated_at": "2026-11-18T19:17:27",
   "generator": "openai"
 }
