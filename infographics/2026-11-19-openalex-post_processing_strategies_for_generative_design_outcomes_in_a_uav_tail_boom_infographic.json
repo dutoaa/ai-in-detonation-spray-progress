@@ -1,0 +1,26 @@
+{
+  "key_insight": "Manufacturing-oriented simplification of a generatively designed UAV tail boom reduced mass and print time while maintaining adequate structural performance and eliminating FDM supports.",
+  "engineering_relevance": "For lightly loaded polymer FDM components, simplifying organic generative designs can improve manufacturability and reduce production cost with little structural penalty.",
+  "method": [
+    "Compared topology-faithful and simplified tail boom variants derived from the same generative design.",
+    "Evaluated both variants using linear static and buckling finite element analysis under identical loads.",
+    "FDM-printed scaled simplified prototypes at two infill configurations and physically load-tested them."
+  ],
+  "evidence_signal": "The simplified variant retained peak stresses well below the material limit, and FEA-predicted stress concentrations aligned with observed prototype fracture locations.",
+  "watch_item": "Validation used scaled simplified prototypes; full-scale performance, fatigue, and broader loading conditions remain unestablished by the abstract.",
+  "hashtags": [
+    "#GenerativeDesign",
+    "#FDM",
+    "#UAV",
+    "#FiniteElementAnalysis",
+    "#DesignForManufacturing"
+  ],
+  "model": "gpt-6.1-sol",
+  "service_tier": "ultrafast",
+  "paper_id": "2026-11-19-openalex-post_processing_strategies_for_generative_design_outcomes_in_a_uav_tail_boom",
+  "paper_title": "Post-processing strategies for generative design outcomes in a UAV tail boom",
+  "paper_date": "2026-11-19",
+  "paper_category": "AI Machine Design",
+  "generated_at": "2026-11-19T19:25:17",
+  "generator": "openai"
+}
