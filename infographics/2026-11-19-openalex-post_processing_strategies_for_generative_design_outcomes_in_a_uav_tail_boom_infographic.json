@@ -1,19 +1,19 @@
 {
-  "key_insight": "Manufacturing-oriented simplification of a generatively designed UAV tail boom reduced mass and print time while maintaining adequate structural performance and eliminating FDM supports.",
-  "engineering_relevance": "For lightly loaded polymer FDM components, simplifying organic generative designs can improve manufacturability and reduce production cost with little structural penalty.",
+  "key_insight": "Manufacturing-oriented simplification of a generatively designed UAV tail boom reduced mass by 4% and print time by 20%, eliminated supports, and retained load-bearing adequacy under the analyzed quasi-static loads.",
+  "engineering_relevance": "Adapting organic generative designs to FFF constraints can improve manufacturability without compromising assessed structural adequacy in this case.",
   "method": [
-    "Compared topology-faithful and simplified tail boom variants derived from the same generative design.",
-    "Evaluated both variants using linear static and buckling finite element analysis under identical loads.",
-    "FDM-printed scaled simplified prototypes at two infill configurations and physically load-tested them."
+    "Compared topology-faithful and simplified variants of the same generative design.",
+    "Evaluated both using linear static and buckling FEA under identical loads.",
+    "Printed scaled simplified prototypes with two bounding infill configurations and load-tested them."
   ],
-  "evidence_signal": "The simplified variant retained peak stresses well below the material limit, and FEA-predicted stress concentrations aligned with observed prototype fracture locations.",
-  "watch_item": "Validation used scaled simplified prototypes; full-scale performance, fatigue, and broader loading conditions remain unestablished by the abstract.",
+  "evidence_signal": "Simplification increased peak FEA stress by 31%, but it remained below 2% of the assumed ultimate tensile strength; predicted stress concentrations qualitatively matched observed fracture locations.",
+  "watch_item": "Results are case-specific: scaled prototype tests and quasi-static analyses do not establish full-scale performance under fatigue, dynamic loading, or FFF material variability.",
   "hashtags": [
     "#GenerativeDesign",
-    "#FDM",
     "#UAV",
-    "#FiniteElementAnalysis",
-    "#DesignForManufacturing"
+    "#AdditiveManufacturing",
+    "#DesignForManufacturing",
+    "#FiniteElementAnalysis"
   ],
   "model": "gpt-6.1-sol",
   "service_tier": "ultrafast",
@@ -21,6 +21,6 @@
   "paper_title": "Post-processing strategies for generative design outcomes in a UAV tail boom",
   "paper_date": "2026-11-19",
   "paper_category": "AI Machine Design",
-  "generated_at": "2026-11-19T19:25:17",
+  "generated_at": "2026-11-20T19:01:08",
   "generator": "openai"
 }
