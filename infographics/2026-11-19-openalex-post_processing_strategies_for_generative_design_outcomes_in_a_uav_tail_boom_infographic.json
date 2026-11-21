@@ -1,18 +1,18 @@
 {
-  "key_insight": "Manufacturing-oriented simplification of a generatively designed UAV tail boom reduced mass by 4% and print time by 20%, eliminated supports, and retained load-bearing adequacy under the analyzed quasi-static loads.",
-  "engineering_relevance": "Adapting organic generative designs to FFF constraints can improve manufacturability without compromising assessed structural adequacy in this case.",
+  "key_insight": "Manufacturing-oriented simplification of a generatively designed UAV tail boom reduced mass by 4% and print time by 20% while eliminating supports.",
+  "engineering_relevance": "Symmetric arms, self-supporting geometry, and uniform cross-sections can improve FFF manufacturability without changing the assessed load-bearing adequacy under the studied quasi-static loads.",
   "method": [
-    "Compared topology-faithful and simplified variants of the same generative design.",
-    "Evaluated both using linear static and buckling FEA under identical loads.",
-    "Printed scaled simplified prototypes with two bounding infill configurations and load-tested them."
+    "Compare topology-following and FFF-oriented variants of the same generative design.",
+    "Evaluate both using linear static and buckling FEA under identical loads.",
+    "Print scaled simplified prototypes in two bounding infill configurations and load-test them."
   ],
   "evidence_signal": "Simplification increased peak FEA stress by 31%, but it remained below 2% of the assumed ultimate tensile strength; predicted stress concentrations qualitatively matched observed fracture locations.",
-  "watch_item": "Results are case-specific: scaled prototype tests and quasi-static analyses do not establish full-scale performance under fatigue, dynamic loading, or FFF material variability.",
+  "watch_item": "Scaled prototype tests and quasi-static FEA do not establish full-scale flight durability or fatigue performance.",
   "hashtags": [
     "#GenerativeDesign",
     "#UAV",
-    "#AdditiveManufacturing",
-    "#DesignForManufacturing",
+    "#DesignForAdditiveManufacturing",
+    "#FusedFilamentFabrication",
     "#FiniteElementAnalysis"
   ],
   "model": "gpt-6.1-sol",
@@ -21,6 +21,6 @@
   "paper_title": "Post-processing strategies for generative design outcomes in a UAV tail boom",
   "paper_date": "2026-11-19",
   "paper_category": "AI Machine Design",
-  "generated_at": "2026-11-20T19:01:08",
+  "generated_at": "2026-11-21T17:54:55",
   "generator": "openai"
 }

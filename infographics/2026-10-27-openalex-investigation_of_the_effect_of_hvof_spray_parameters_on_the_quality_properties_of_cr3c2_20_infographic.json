@@ -1,19 +1,19 @@
 {
-  "key_insight": "Factorial optimization identified HVOF settings yielding acceptable hardness, porosity, and oxide content for Cr₃C₂-20(Ni20Cr) coatings on Ti6Al4V.",
-  "engineering_relevance": "The reported settings provide a starting point for coating process development: 150 mm standoff, 25 g/min powder feed, 475 NLPM hydrogen, and 205 NLPM oxygen.",
+  "key_insight": "Factorial testing identified HVOF settings that produced acceptable hardness, porosity, and oxide attributes in Cr₃C₂-20(Ni20Cr) coatings on Ti6Al4V.",
+  "engineering_relevance": "The reported settings offer a starting point for coating process development: 150 mm standoff, 25 g/min powder feed, 475 NLPM hydrogen, and 205 NLPM oxygen.",
   "method": [
-    "Conducted 24 full-factorial experimental runs with input factors evaluated at two levels.",
-    "Used ANOVA to quantify spray-parameter contributions to coating properties.",
+    "Conducted a two-level full factorial DOE with 24 experimental runs.",
+    "Measured coating properties and used ANOVA to quantify spray-parameter contributions.",
     "Used Pareto charts to assess parameter interaction effects."
   ],
-  "evidence_signal": "Coating responses were measured for each run, but the abstract provides no numerical hardness, porosity, oxide content, or statistical significance values.",
-  "watch_item": "Validate the reported settings on the intended equipment and geometry before transferring them to production.",
+  "evidence_signal": "The abstract reports coating-property measurements across 24 runs but provides no numerical response values or statistical significance results.",
+  "watch_item": "Validate the reported settings on the intended equipment; the abstract does not establish transferability or quantify acceptable property thresholds.",
   "hashtags": [
     "#HVOF",
     "#ThermalSpray",
-    "#CoatingOptimization",
+    "#Ti6Al4V",
     "#DesignOfExperiments",
-    "#Ti6Al4V"
+    "#CoatingOptimization"
   ],
   "model": "gpt-6.1-sol",
   "service_tier": "ultrafast",
@@ -21,6 +21,6 @@
   "paper_title": "Investigation of the Effect of HVOF Spray Parameters on the Quality Properties of Cr3C2-20(Ni20Cr) Coating on Ti6Al4V Substrate",
   "paper_date": "2026-10-27",
   "paper_category": "Thermal Spray Coatings",
-  "generated_at": "2026-11-20T19:01:45",
+  "generated_at": "2026-11-21T17:55:24",
   "generator": "openai"
 }

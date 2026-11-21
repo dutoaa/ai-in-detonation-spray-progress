@@ -1,19 +1,19 @@
 {
-  "key_insight": "APS-produced Fe79Zr6Si14Cu1 coatings remained predominantly crystalline, while increasing spray distance improved hardness and wear resistance at the expense of corrosion resistance.",
+  "key_insight": "Atmospheric plasma spraying produced predominantly crystalline Fe79Zr6Si14Cu1 coatings, with spray distance controlling the trade-off between mechanical performance and corrosion resistance.",
   "engineering_relevance": "A 90 mm spray distance offered the most favourable tested balance of hardness, wear resistance, and electrochemical behaviour.",
   "method": [
     "Deposit low-glass-forming-ability Fe79Zr6Si14Cu1 coatings by atmospheric plasma spraying at varying spray distances.",
-    "Characterize phase composition, lamellar microstructure, and porosity.",
+    "Characterize phase constitution, lamellar microstructure, and porosity.",
     "Evaluate hardness, wear resistance, and electrochemical behaviour."
   ],
-  "evidence_signal": "XRD detected α-Fe(Si) and Fe–Zr intermetallic phases with no detectable amorphous fraction; coating porosity ranged from 2.2% to 4.9%.",
-  "watch_item": "Longer spray distances increased porosity and interlamellar defects, so gains in hardness and wear resistance should not be assumed to improve corrosion performance.",
+  "evidence_signal": "XRD detected α-Fe(Si) and Fe–Zr intermetallic phases but no amorphous fraction; porosity ranged from 2.2% to 4.9%, while increasing spray distance improved hardness and wear resistance but reduced corrosion resistance.",
+  "watch_item": "Treat 90 mm as the best condition among those tested, not a universal optimum; coating performance depends on particle thermal history and interlamellar defects.",
   "hashtags": [
     "#AtmosphericPlasmaSpraying",
-    "#FeBasedCoatings",
     "#CoatingMicrostructure",
-    "#StructurePropertyRelationships",
-    "#WearCorrosionTradeoff"
+    "#PhaseEvolution",
+    "#WearResistance",
+    "#CorrosionResistance"
   ],
   "model": "gpt-6.1-sol",
   "service_tier": "ultrafast",
@@ -21,6 +21,6 @@
   "paper_title": "Phase Evolution and Structure–Property Relationships of Fe79Zr6Si14Cu1 Coatings with Low GFA Produced by Atmospheric Plasma Spraying",
   "paper_date": "2026-10-29",
   "paper_category": "Coating Microstructure",
-  "generated_at": "2026-11-20T19:01:43",
+  "generated_at": "2026-11-21T17:55:22",
   "generator": "openai"
 }

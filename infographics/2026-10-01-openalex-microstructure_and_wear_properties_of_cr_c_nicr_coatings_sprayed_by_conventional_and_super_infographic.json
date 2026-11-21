@@ -1,19 +1,19 @@
 {
-  "key_insight": "Supersonic HV-APS with axial powder feeding produced denser, harder Cr₃C₂–NiCr coatings with approximately 27% lower sliding wear volume than conventional radial-feed APS, but little improvement in normal-impact erosion.",
-  "engineering_relevance": "HV-APS is a promising process choice for sliding-wear protection of steel components, although its benefits should not be assumed for erosion-dominated service.",
+  "key_insight": "Compared with conventional APS, axial-fed supersonic HV-APS produced Cr₃C₂–NiCr coatings with nearly half the porosity and 27% lower sliding wear volume, but little improvement in normal-impact erosion.",
+  "engineering_relevance": "HV-APS is promising for denser, harder coatings on steel components exposed to sliding wear, while its benefit under 90° erosive impact remains limited.",
   "method": [
-    "Sprayed Metco 5241 Cr₃C₂–NiCr powder onto S235 steel using conventional radial-feed APS and axial-feed HV-APS.",
-    "Characterized coating microstructure, phases, porosity and microhardness.",
-    "Compared erosion at 90° impact and ball-on-disc sliding wear under a 30 N load."
+    "Sprayed Metco 5241 powder onto S235 steel using radial-fed APS and axial-fed supersonic HV-APS.",
+    "Compared coating microstructure, phase composition, porosity, and microhardness.",
+    "Evaluated 90° impact erosion and ball-on-disc sliding wear at 30 N."
   ],
-  "evidence_signal": "HV-APS versus APS yielded 6.16% versus 11.99% porosity, 1141 versus 897 HV0.2 hardness, 2.85 versus 3.90 mm³ sliding wear volume, and nearly identical erosion rates of 0.19 versus 0.20 mg/g.",
-  "watch_item": "The comparison changes both torch technology and powder-feeding geometry, so the improvement cannot be attributed to axial feeding alone.",
+  "evidence_signal": "HV-APS versus APS yielded 6.16% versus 11.99% porosity, 1141 versus 897 HV0.2 hardness, 2.85 versus 3.90 mm³ sliding wear volume, and 0.19 versus 0.20 mg/g specific erosion rate.",
+  "watch_item": "Torch design, flow regime, and powder-feed geometry changed together, so the improvements cannot be attributed to axial feeding alone.",
   "hashtags": [
     "#ThermalSpray",
-    "#Cr3C2NiCr",
-    "#CoatingMicrostructure",
-    "#WearResistance",
-    "#PlasmaSpraying"
+    "#HVAPS",
+    "#CermetCoatings",
+    "#Microstructure",
+    "#WearResistance"
   ],
   "model": "gpt-6.1-sol",
   "service_tier": "ultrafast",
@@ -21,6 +21,6 @@
   "paper_title": "Microstructure and wear properties of Cr₃C₂–NiCr coatings sprayed by conventional and supersonic high-velocity atmospheric plasma spraying with axial powder feeding",
   "paper_date": "2026-10-01",
   "paper_category": "Coating Microstructure",
-  "generated_at": "2026-11-20T19:01:33",
+  "generated_at": "2026-11-21T17:55:13",
   "generator": "openai"
 }
