@@ -1,13 +1,13 @@
 {
-  "key_insight": "Detonation-spraying parameters can tune the roughness, thickness, and hydrophobicity of titanium dioxide–based metal-ceramic coatings.",
-  "engineering_relevance": "The reported relationships can guide spray-condition selection to target coating geometry and maximize water repellency.",
+  "key_insight": "Detonation-spray settings control the roughness, thickness, and hydrophobicity of titanium dioxide–based coatings, enabling optimization for maximum water repellency.",
+  "engineering_relevance": "Process–property equations can guide spray-parameter selection to achieve desired coating geometry and surface wetting behavior.",
   "method": [
-    "Vary detonation-spray process conditions.",
-    "Evaluate coating roughness, thickness, and contact angle.",
-    "Derive equations linking surface properties to nozzle speed and spray distance."
+    "Vary detonation-spray conditions, including nozzle travel speed and spray distance.",
+    "Evaluate coating roughness, thickness, and water contact angle.",
+    "Derive predictive equations and identify conditions for maximum hydrophobicity."
   ],
-  "evidence_signal": "The abstract reports inverse-power relationships between nozzle passage speed and roughness/thickness, parabolic relationships between spray distance and roughness/contact angle, and conditions for maximum hydrophobicity.",
-  "watch_item": "The abstract provides no numerical process window, fit accuracy, or validation data, limiting direct transfer to production.",
+  "evidence_signal": "The abstract reports inverse-power relationships between nozzle speed and both roughness and thickness, plus parabolic relationships between spray distance and both roughness and contact angle.",
+  "watch_item": "The abstract provides no numerical optimum, tested parameter ranges, or prediction errors, limiting direct transfer to production.",
   "hashtags": [
     "#DetonationSpraying",
     "#TitaniumDioxide",
@@ -21,6 +21,6 @@
   "paper_title": "Surface Characteristics of Titanium Based Coatings Obtained by Detonation Spraying Under Various Process Conditions",
   "paper_date": "2025-12-01",
   "paper_category": "Detonation Spray Process",
-  "generated_at": "2026-11-21T17:55:30",
+  "generated_at": "2026-11-22T18:22:21",
   "generator": "openai"
 }

@@ -1,13 +1,13 @@
 {
-  "key_insight": "In laser–TIG hybrid welding of Invar steel, laser power primarily increases penetration, welding speed reduces weld dimensions, and current promotes weld widening and arc stability.",
-  "engineering_relevance": "Balancing these parameters can guide weld geometry and arc stability when fabricating low-thermal-expansion Invar tooling for aerospace composites.",
+  "key_insight": "In laser-TIG hybrid welding of Invar steel, laser power, welding speed, and current govern molten pool flow, weld geometry, and arc stability.",
+  "engineering_relevance": "These parameter–response relationships can guide welding optimization for low-thermal-expansion Invar molds used in aerospace composite manufacturing.",
   "method": [
-    "Numerical simulation of molten-pool dynamics",
+    "Numerical simulation of molten pool dynamics",
     "High-speed photography of welding behavior",
     "Analysis of laser power, welding speed, and current effects"
   ],
-  "evidence_signal": "Across 5–6 kW, 0.5–0.8 m/min, and 150–170 A, the abstract reports stronger pool flow with increasing power, speed, or current, but distinct effects on weld geometry and arc behavior.",
-  "watch_item": "The reported trends cover limited parameter ranges, and the abstract provides no quantitative simulation-validation errors or weld-strength results.",
+  "evidence_signal": "Within the studied ranges, increasing laser power (5–6 kW) deepened penetration and promoted arc deflection; increasing speed (0.5–0.8 m/min) reduced penetration and width; increasing current (150–170 A) widened the weld and improved arc stability.",
+  "watch_item": "The abstract reports trends over limited parameter ranges but provides no quantitative uncertainty or weld mechanical-property validation.",
   "hashtags": [
     "#InvarSteel",
     "#LaserTIGWelding",
@@ -21,6 +21,6 @@
   "paper_title": "Molten pool dynamic behavior and arc characteristics in laser-TIG hybrid welding of Invar steel",
   "paper_date": "2026-09-01",
   "paper_category": "Welding Processes",
-  "generated_at": "2026-11-21T17:55:09",
+  "generated_at": "2026-11-22T18:21:57",
   "generator": "openai"
 }

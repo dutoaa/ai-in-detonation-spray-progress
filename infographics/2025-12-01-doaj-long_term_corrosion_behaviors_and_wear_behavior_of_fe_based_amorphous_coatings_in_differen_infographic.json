@@ -1,13 +1,13 @@
 {
-  "key_insight": "Dense Fe-based amorphous coatings with fewer pores show better long-term corrosion resistance, while higher humidity reduces friction and wear.",
-  "engineering_relevance": "Detonation-spray parameter control can help produce protective coatings for carbon-steel components exposed to corrosion and sliding wear.",
+  "key_insight": "Dense, fine-lamellar Fe-based amorphous coatings favor long-term corrosion resistance, while increasing humidity reduces friction and wear.",
+  "engineering_relevance": "Detonation-spray process control can help reduce coating defects on Q235 steel, but wear performance should be evaluated at service-relevant humidity.",
   "method": [
-    "Deposit Fe-based amorphous coatings on Q235 steel using varied detonation-spray parameters.",
-    "Examine droplet morphology, lamellar structure, and coating defects.",
-    "Evaluate long-term corrosion and sliding wear under different humidity conditions."
+    "Deposit Fe-based amorphous coatings on Q235 carbon steel using varied detonation-spray parameters.",
+    "Characterize droplet morphology and coating microstructure.",
+    "Evaluate long-term corrosion and sliding wear against Si3N4 balls under different humidity conditions."
   ],
-  "evidence_signal": "The abstract links greater porosity to poorer long-term corrosion resistance and reports decreasing friction coefficients and wear rates with increasing humidity.",
-  "watch_item": "Humidity-dependent wear findings involve Si3N4 counterbodies and may not generalize to other contact materials.",
+  "evidence_signal": "The abstract reports lower long-term corrosion resistance with greater porosity and decreasing friction coefficients and wear rates as humidity increases, without numerical results.",
+  "watch_item": "The abstract does not specify humidity ranges or test durations, limiting direct translation to service conditions.",
   "hashtags": [
     "#AmorphousCoatings",
     "#DetonationSpray",
@@ -21,6 +21,6 @@
   "paper_title": "Long-term corrosion behaviors and wear behavior of Fe-based amorphous coatings in different humidity environments",
   "paper_date": "2025-12-01",
   "paper_category": "Coating Microstructure",
-  "generated_at": "2026-11-21T17:55:27",
+  "generated_at": "2026-11-22T18:22:16",
   "generator": "openai"
 }
