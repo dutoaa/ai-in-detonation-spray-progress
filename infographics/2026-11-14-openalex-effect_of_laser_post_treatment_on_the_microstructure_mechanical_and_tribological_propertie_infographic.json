@@ -1,13 +1,13 @@
 {
-  "key_insight": "Laser post-treatment reduced wear rates by approximately 24% for detonation-sprayed coatings and 39% for gas-flame-sprayed coatings, while producing deposition-dependent mechanical changes.",
-  "engineering_relevance": "Laser post-treatment offers a route to improve the sliding-wear resistance of Ni–Cr–Fe–Si–B–C coatings on AISI 321 stainless steel.",
+  "key_insight": "Laser post-treatment improved wear resistance of Ni–Cr–Fe–Si–B–C coatings from both spray methods, with greater hardness gains for detonation-sprayed coatings.",
+  "engineering_relevance": "Laser post-treatment offers a route to improve wear performance on coated AISI 321 stainless steel, but stiffness changes depend on the deposition method.",
   "method": [
-    "Deposit coatings by detonation spraying and gas-flame spraying, then apply laser post-treatment.",
-    "Characterize microstructure and phases using SEM, EDS, and XRD.",
-    "Compare mechanical and tribological properties using instrumented indentation and ball-on-disk testing."
+    "Deposit coatings by detonation spraying (DS) and gas-flame spraying (GFS).",
+    "Compare microstructure and phases before and after laser treatment using SEM, EDS and XRD.",
+    "Evaluate hardness, elastic modulus and dry-sliding performance using indentation and ball-on-disk testing."
   ],
-  "evidence_signal": "After treatment, DS hardness increased from 1049.1 to 1206.1 HV; wear rates fell from 1.939 to 1.465 for DS and from 2.419 to 1.476 for GFS, all ×10⁻⁴ mm³/(N·m).",
-  "watch_item": "Benefits were not uniform: GFS elastic modulus decreased from 228.0 to 187.0 GPa, and dry-sliding results require validation under intended service conditions.",
+  "evidence_signal": "Wear rates decreased by approximately 24% for DS and 39% for GFS; hardness increased from 1049.1 to 1206.1 HV for DS and from 1096.2 to 1121.3 HV for GFS.",
+  "watch_item": "GFS elastic modulus decreased from 228.0 to 187.0 GPa after laser treatment, so improved wear resistance should not be assumed to imply improved stiffness.",
   "hashtags": [
     "#LaserPostTreatment",
     "#DetonationSpraying",
@@ -21,6 +21,6 @@
   "paper_title": "Effect of Laser Post-Treatment on the Microstructure, Mechanical and Tribological Properties of Detonation- and Flame-Sprayed Ni–Cr–Fe–Si–B–C Coatings",
   "paper_date": "2026-11-14",
   "paper_category": "Coating Microstructure",
-  "generated_at": "2026-11-22T18:22:10",
+  "generated_at": "2026-11-23T22:30:22",
   "generator": "openai"
 }

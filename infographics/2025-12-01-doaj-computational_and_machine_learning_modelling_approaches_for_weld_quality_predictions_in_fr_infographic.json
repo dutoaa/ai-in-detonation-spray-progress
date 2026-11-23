@@ -1,18 +1,18 @@
 {
-  "key_insight": "Combined computational and neural-network modelling identified an optimal tested HDPE friction stir welding condition of 1500 rpm, 30 mm/min and 60 °C bottom preheating.",
-  "engineering_relevance": "The framework supports process-window selection to reduce weld defects, moderate thermal gradients and stabilize axial forces in HDPE joining.",
+  "key_insight": "Combined computational and neural-network modelling identified a defect-free HDPE friction stir welding window, with optimal tested conditions of 1500 rpm, 30 mm/min and 60 °C bottom preheating.",
+  "engineering_relevance": "The framework supports process-map development to reduce weld defects and stabilize forces when joining HDPE.",
   "method": [
-    "Developed a 3D Coupled Eulerian–Lagrangian model of temperature, force, material flow and defect formation.",
+    "Simulated temperature, force, material flow and defects using a 3D Coupled Eulerian–Lagrangian model.",
     "Trained two multilayer perceptron neural networks on experimental temperature and axial-force data.",
-    "Combined simulation and ANN predictions to map defective and defect-free welding conditions."
+    "Validated simulations experimentally and combined modelling approaches to map weldability."
   ],
-  "evidence_signal": "Experimental validation showed ANN R² values of 0.91–0.99; 60 °C bottom preheating reduced peak plunge force from 1600 N to approximately 1100 N.",
-  "watch_item": "Predictive reliability beyond the tested HDPE welding parameter space remains unestablished.",
+  "evidence_signal": "ANN predictions achieved R² of 0.91–0.99; 60 °C bottom preheating reduced peak plunge force from 1600 N to about 1100 N and raised peak temperature from 70 °C to about 100 °C.",
+  "watch_item": "Prediction accuracy and optimal settings are supported within the tested parameter space; transfer to other HDPE grades or welding setups requires validation.",
   "hashtags": [
     "#FrictionStirWelding",
     "#HDPE",
     "#MachineLearning",
-    "#ComputationalMechanics",
+    "#ComputationalModelling",
     "#ProcessOptimization"
   ],
   "model": "gpt-6.1-sol",
@@ -21,6 +21,6 @@
   "paper_title": "Computational and machine learning modelling approaches for weld quality predictions in friction stir welding of high-density polyethylene",
   "paper_date": "2025-12-01",
   "paper_category": "AI Process Optimization",
-  "generated_at": "2026-11-22T18:21:43",
+  "generated_at": "2026-11-23T22:29:56",
   "generator": "openai"
 }
