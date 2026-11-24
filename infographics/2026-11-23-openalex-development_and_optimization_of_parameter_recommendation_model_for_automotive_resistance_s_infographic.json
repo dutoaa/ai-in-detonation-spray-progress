@@ -1,0 +1,26 @@
+{
+  "key_insight": "A physics-informed heating-intensity constraint improves welding-parameter recommendations while enabling controllable strong- and weak-regime parameter combinations.",
+  "engineering_relevance": "The framework could reduce trial-intensive parameter design for diverse automotive sheet stacks while improving physical consistency.",
+  "method": [
+    "Map sheet attributes and target nugget size to welding parameters using heterogeneous ensemble learning.",
+    "Train with multiple losses that minimize parameter prediction error and heating-intensity deviation.",
+    "Adjust heating intensity to generate different welding regimes."
+  ],
+  "evidence_signal": "The abstract reports improved prediction accuracy in same-vehicle and cross-vehicle evaluations, but provides no dataset sizes or numerical performance metrics.",
+  "watch_item": "Generalization to unseen materials and sheet stacks requires validation before production deployment.",
+  "hashtags": [
+    "#ResistanceSpotWelding",
+    "#PhysicsInformedAI",
+    "#EnsembleLearning",
+    "#AutomotiveManufacturing",
+    "#ProcessOptimization"
+  ],
+  "model": "gpt-6.1-sol",
+  "service_tier": "ultrafast",
+  "paper_id": "2026-11-23-openalex-development_and_optimization_of_parameter_recommendation_model_for_automotive_resistance_s",
+  "paper_title": "Development and optimization of parameter recommendation model for automotive resistance spot welding",
+  "paper_date": "2026-11-23",
+  "paper_category": "AI Process Optimization",
+  "generated_at": "2026-11-24T21:03:58",
+  "generator": "openai"
+}

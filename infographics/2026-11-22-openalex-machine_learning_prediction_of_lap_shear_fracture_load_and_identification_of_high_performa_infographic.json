@@ -1,0 +1,26 @@
+{
+  "key_insight": "XGBoost predicted HDPE friction stir spot weld fracture loads and identified a descriptive high-performance region, but not a unique optimum.",
+  "engineering_relevance": "Condition-aware machine learning can guide selection of promising welding settings while accounting for prediction uncertainty.",
+  "method": [
+    "Compared six regression approaches using 20 repeated group-aware train/test splits.",
+    "Used grouped permutation importance and SHAP to assess parameter contributions and interactions.",
+    "Evaluated uncertainty with group-separated split-conformal intervals."
+  ],
+  "evidence_signal": "Across 258 observations covering 230 unique input conditions, XGBoost achieved R² = 0.823 ± 0.064 and RMSE = 413.0 ± 79.5 N.",
+  "watch_item": "Wide uncertainty intervals and prediction errors exceeding differences among leading conditions limit precise ranking; the identified region applies only to experimentally represented conditions.",
+  "hashtags": [
+    "#MachineLearning",
+    "#FrictionStirSpotWelding",
+    "#HDPE",
+    "#ProcessOptimization",
+    "#UncertaintyQuantification"
+  ],
+  "model": "gpt-6.1-sol",
+  "service_tier": "ultrafast",
+  "paper_id": "2026-11-22-openalex-machine_learning_prediction_of_lap_shear_fracture_load_and_identification_of_high_performa",
+  "paper_title": "Machine-learning prediction of lap-shear fracture load and identification of high-performance conditions in HDPE friction stir spot welding",
+  "paper_date": "2026-11-22",
+  "paper_category": "AI Process Optimization",
+  "generated_at": "2026-11-24T21:04:09",
+  "generator": "openai"
+}

@@ -1,19 +1,19 @@
 {
-  "key_insight": "Wear-resistant coatings for ventilation mill components are evaluated by linking microstructure, composition and hardness to abrasive-wear performance.",
-  "engineering_relevance": "Coating selection could extend component service life in thermal power plant mills exposed to high temperatures and fast particle flows with sand concentrations up to 40%.",
+  "key_insight": "Combining CFD-guided wear-zone identification with coating characterization and abrasion testing supports selection of wear-resistant coatings for ventilation mill components.",
+  "engineering_relevance": "Targeted coatings could extend component service life in hot, abrasive flows with sand concentrations reaching up to 40%.",
   "method": [
     "Use CFD to identify critical wear zones.",
-    "Evaluate manual metal arc welding, HVOF spraying and plasma welding with different filler compositions.",
-    "Characterize coatings using SEM–EDS, cross-sectional hardness measurements and controlled sandblasting tests."
+    "Evaluate manual metal arc welding, HVOF spraying, and plasma welding with varied filler compositions.",
+    "Characterize coatings using SEM-EDS, cross-sectional hardness measurements, and controlled sandblasting tests."
   ],
-  "evidence_signal": "The abstract reports experimental abrasion testing and coating characterization but gives no numerical wear reductions or best-performing coating.",
-  "watch_item": "Laboratory sandblasting performance needs validation under combined thermal and abrasive conditions in operating mills.",
+  "evidence_signal": "The abstract reports microstructural, compositional, hardness, and simulated-abrasion evaluations, but provides no numerical wear reductions or coating rankings.",
+  "watch_item": "Service-life gains require validation under actual mill operating conditions beyond controlled sandblasting tests.",
   "hashtags": [
     "#WearResistantCoatings",
     "#VentilationMills",
     "#Welding",
     "#HVOF",
-    "#SurfaceEngineering"
+    "#CFD"
   ],
   "model": "gpt-6.1-sol",
   "service_tier": "ultrafast",
@@ -21,6 +21,6 @@
   "paper_title": "Analysis of Wear-Resistant Coating Technologies for Extending the Service Life of Ventilation Mill Components",
   "paper_date": "2026-11-23",
   "paper_category": "Welding Processes",
-  "generated_at": "2026-11-23T22:29:54",
+  "generated_at": "2026-11-24T21:04:00",
   "generator": "openai"
 }
