@@ -1,0 +1,26 @@
+{
+  "key_insight": "RSM–Rao-3–TOPSIS optimization identified 110–121 A peak current and 28–33 Hz pulsing for full penetration of 3.0 mm Ti-6Al-4V plate with narrower weld beads and heat-affected zones.",
+  "engineering_relevance": "The optimized settings offer a route to full single-pass penetration while limiting bead width and heat-affected-zone size compared with fully penetrated welds at 160 A.",
+  "method": [
+    "Conducted 20 bead-on-plate experiments spanning 100–160 A peak current and 1–50 Hz pulse frequency.",
+    "Built second-order response surface models for bead width, penetration depth, and heat-affected-zone width.",
+    "Generated Pareto solutions with parameter-free Rao-3 optimization and selected compromises using TOPSIS across ten weight sets."
+  ],
+  "evidence_signal": "The models showed mean prediction errors below 2.7%; optimized full-penetration solutions had 28–35% narrower beads and 17–33% narrower heat-affected zones than fully penetrated welds at 160 A.",
+  "watch_item": "Results derive from 20 bead-on-plate experiments on 3.0 mm plate; transfer to production joints, other thicknesses, and mechanical-property requirements needs validation.",
+  "hashtags": [
+    "#PulsedTIG",
+    "#Ti6Al4V",
+    "#MultiObjectiveOptimization",
+    "#ResponseSurfaceMethodology",
+    "#WeldingEngineering"
+  ],
+  "model": "gpt-6.1-sol",
+  "service_tier": "ultrafast",
+  "paper_id": "2026-11-24-openalex-multi_objective_optimization_of_pulsed_tungsten_inert_gas_welding_process_parameters_for_t",
+  "paper_title": "Multi-objective optimization of pulsed tungsten inert gas welding process parameters for Ti-6Al-4 V alloy using response surface methodology, Rao-3 algorithm, and TOPSIS",
+  "paper_date": "2026-11-24",
+  "paper_category": "AI Process Optimization",
+  "generated_at": "2026-11-25T20:24:59",
+  "generator": "openai"
+}

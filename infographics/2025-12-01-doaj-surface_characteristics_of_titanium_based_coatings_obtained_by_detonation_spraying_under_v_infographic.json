@@ -1,13 +1,13 @@
 {
   "key_insight": "Detonation-spray parameters control the roughness, thickness, and hydrophobicity of titanium-dioxide-based metal–ceramic coatings.",
-  "engineering_relevance": "Process–property equations can guide spray settings to target coating geometry and maximize hydrophobicity.",
+  "engineering_relevance": "Tuning nozzle travel speed and spray distance can help engineers target coating geometry and maximize water repellency.",
   "method": [
-    "Vary nozzle passage speed and spray distance during detonation spraying.",
-    "Evaluate coating roughness, thickness, and water contact angle.",
-    "Derive process–property equations and identify settings for maximum hydrophobicity."
+    "Vary detonation-spraying conditions for titanium-dioxide-based coatings.",
+    "Assess surface roughness, coating thickness, and contact angle.",
+    "Derive predictive relationships and identify conditions for maximum hydrophobicity."
   ],
-  "evidence_signal": "The abstract reports inverse-power relationships of roughness and thickness with nozzle speed, and parabolic relationships of roughness and contact angle with spray distance.",
-  "watch_item": "The abstract provides no numerical operating ranges or prediction errors, limiting assessment of the equations’ transferability.",
+  "evidence_signal": "The abstract reports inverse-power relationships between nozzle travel speed and both roughness and thickness, plus parabolic relationships linking spray distance to roughness and contact angle.",
+  "watch_item": "The abstract does not provide parameter ranges, numerical optima, or prediction errors, limiting direct implementation of the reported equations.",
   "hashtags": [
     "#DetonationSpraying",
     "#TitaniumDioxide",
@@ -21,6 +21,6 @@
   "paper_title": "Surface Characteristics of Titanium Based Coatings Obtained by Detonation Spraying Under Various Process Conditions",
   "paper_date": "2025-12-01",
   "paper_category": "Detonation Spray Process",
-  "generated_at": "2026-11-23T22:30:33",
+  "generated_at": "2026-11-25T20:25:37",
   "generator": "openai"
 }

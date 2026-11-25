@@ -1,19 +1,19 @@
 {
-  "key_insight": "In laser–TIG hybrid welding of Invar steel, laser power, welding speed, and current affect molten pool flow, weld geometry, and arc stability in distinct ways.",
-  "engineering_relevance": "These trends can guide parameter selection for Invar welds used in aerospace composite molds.",
+  "key_insight": "In laser–TIG hybrid welding of Invar steel, laser power, welding speed, and current govern molten-pool flow, weld geometry, and arc behavior.",
+  "engineering_relevance": "These parameter–response relationships can guide weld penetration, width, and arc-stability control when fabricating Invar molds for aerospace composites.",
   "method": [
-    "Numerical simulation of molten pool dynamics.",
-    "High-speed photography of molten pool evolution and arc behavior.",
-    "Parameter studies: 5–6 kW laser power, 0.5–0.8 m/min welding speed, and 150–170 A current."
+    "Numerical simulation of molten-pool fluid dynamics",
+    "High-speed photography of pool evolution and arc behavior",
+    "Parameter analysis: 5–6 kW laser power, 0.5–0.8 m/min speed, and 150–170 A current"
   ],
-  "evidence_signal": "Within the tested ranges, higher laser power increased penetration and keyhole dimensions, faster welding reduced penetration and width, and higher current widened the weld and improved arc stability.",
-  "watch_item": "The abstract does not report quantitative simulation-validation errors or weld mechanical properties, limiting assessment of predictive accuracy and joint performance.",
+  "evidence_signal": "Within the studied ranges, higher laser power increased penetration and arc deflection tendency, higher speed reduced penetration and width, and higher current widened the weld and improved arc stability.",
+  "watch_item": "The abstract reports trends but no quantitative simulation–experiment agreement; extrapolation beyond the studied parameter ranges requires validation.",
   "hashtags": [
     "#InvarSteel",
-    "#LaserTIGWelding",
+    "#LaserTIGHybridWelding",
     "#MoltenPoolDynamics",
-    "#WeldingSimulation",
-    "#AerospaceManufacturing"
+    "#ArcStability",
+    "#WeldingSimulation"
   ],
   "model": "gpt-6.1-sol",
   "service_tier": "ultrafast",
@@ -21,6 +21,6 @@
   "paper_title": "Molten pool dynamic behavior and arc characteristics in laser-TIG hybrid welding of Invar steel",
   "paper_date": "2026-09-01",
   "paper_category": "Welding Processes",
-  "generated_at": "2026-11-24T21:04:15",
+  "generated_at": "2026-11-25T20:25:12",
   "generator": "openai"
 }

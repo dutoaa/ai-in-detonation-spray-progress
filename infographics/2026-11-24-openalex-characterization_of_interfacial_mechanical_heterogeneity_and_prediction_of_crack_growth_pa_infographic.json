@@ -1,0 +1,26 @@
+{
+  "key_insight": "Steeper interfacial mechanical-property gradients produce greater crack-tip field asymmetry and deflect crack growth toward softer SA387 in SA387–Alloy 82–316L welded joints.",
+  "engineering_relevance": "Accounting for spatially varying weld properties can improve crack-path prediction and structural integrity assessment of dissimilar metal joints.",
+  "method": [
+    "Characterized weld interfaces using microstructural observations and Vickers hardness measurements.",
+    "Implemented location-dependent mechanical properties in ABAQUS using the USDFLD subroutine.",
+    "Examined crack-tip stress, strain, stress triaxiality, and crack-growth paths."
+  ],
+  "evidence_signal": "Measurements identified a steep SA387/82 property gradient and a smoother 82/316L transition, while simulations showed stronger crack-tip asymmetry and deflection at the steeper interface.",
+  "watch_item": "The abstract reports no quantitative crack-path prediction error or independent experimental validation of simulated crack growth.",
+  "hashtags": [
+    "#DissimilarMetalWelds",
+    "#MechanicalHeterogeneity",
+    "#FractureMechanics",
+    "#FiniteElementAnalysis",
+    "#StructuralIntegrity"
+  ],
+  "model": "gpt-6.1-sol",
+  "service_tier": "ultrafast",
+  "paper_id": "2026-11-24-openalex-characterization_of_interfacial_mechanical_heterogeneity_and_prediction_of_crack_growth_pa",
+  "paper_title": "Characterization of Interfacial Mechanical Heterogeneity and Prediction of Crack Growth Path in Heterogeneous Welded Joints",
+  "paper_date": "2026-11-24",
+  "paper_category": "Coating Microstructure",
+  "generated_at": "2026-11-25T20:25:19",
+  "generator": "openai"
+}
