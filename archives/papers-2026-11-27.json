@@ -1,0 +1,500 @@
+[
+  {
+    "id": "2025-12-01-doaj-computational_and_machine_learning_modelling_approaches_for_weld_quality_predictions_in_fr",
+    "doi": "10.1016/j.matdes.2025.115213",
+    "date": "2025-12-01",
+    "title": "Computational and machine learning modelling approaches for weld quality predictions in friction stir welding of high-density polyethylene",
+    "authors": "A. Alhourani, I. Barsoum, J. Sheikh-Ahmad, S. Deveci",
+    "abstract": "Friction stir welding (FSW) has gained recognition as an effective technique for joining thermoplastic materials. This study presents a comprehensive investigation to predict FSW characteristics such as weld temperatures, vertical axial forces, material flow and defect formation in FSW of high-density polyethylene (HDPE) using both computational and machine learning approaches, validated by experimental results. A three-dimensional Coupled Eulerian-Lagrangian (CEL) numerical model is developed to simulate the HDPE welding process under varying process parameters of rotational and welding speeds, and bottom preheating conditions. The CEL numerical model is validated against experimental data, showing markedly good agreement in predicting void formation, thermal and mechanical responses. Results indicate that preheating the bottom surface proved effective in reducing thermal gradients and stabilizing vertical force fluctuations. Quantitatively, bottom-surface preheating at 60 °C reduced peak plunge force from 1600 N close to 1100 N and raised peak temperatures from 70 °C (without preheat) to about 100 °C, hence smoothing through-thickness gradients and stabilizing the axial force distribution. In parallel, two multilayer perceptron artificial neural networks (ANNs) are trained on experimental data to predict temporal temperature and axial force responses with R2 between 0.91 and 0.99, demonstrating high accuracy and strong generalization across the tested FSW parameter space. The computational CEL simulations accurately predicted weld zone morphology, including stir zone, thermo-mechanically affected zone and heat-affected zone, however the combined CEL–ANN framework enables rapid generation of process maps that highlights defective and defect-free welding windows, with optimal conditions obtained at 1500 rpm and 30 mm/min with 60 °C preheating, and poor weldability observed at 1000 rpm without preheating due to wormhole formation. These findings provide process-driven design guidelines for developing robust HDPE joints and demonstrate how integrating computational modeling with machine learning enables efficient optimization, offering valuable insights into the key characteristics of the FSW process in thermoplastics and supporting its broader adoption in industrial applications.",
+    "category": "AI Process Optimization",
+    "source": "DOAJ",
+    "venue": "Materials & Design",
+    "published": "2025-12-01T00:00:00+00:00",
+    "updated": "2025-12-22T04:20:11Z",
+    "primary_category": "journal-article",
+    "categories": [
+      "journal-article"
+    ],
+    "links": [
+      {
+        "title": "DOAJ",
+        "url": "https://doaj.org/article/0f46792d32c24ed498275aa5743cb8bc"
+      },
+      {
+        "title": "DOI",
+        "url": "https://doi.org/10.1016/j.matdes.2025.115213"
+      },
+      {
+        "title": "Open access full text",
+        "url": "http://www.sciencedirect.com/science/article/pii/S026412752501634X"
+      },
+      {
+        "title": "Open access copy",
+        "url": "https://doi.org/10.1016/j.matdes.2025.115213"
+      }
+    ],
+    "open_access": true,
+    "score": 66,
+    "infographic": {
+      "key_insight": "Combining physics-based simulation with neural networks mapped HDPE friction stir welding quality, identifying 1500 rpm, 30 mm/min and 60 °C bottom preheating as optimal within the tested conditions.",
+      "engineering_relevance": "The framework supports process selection for HDPE joints by predicting thermal and force responses and distinguishing defective from defect-free welding windows.",
+      "method": [
+        "Developed a 3D Coupled Eulerian–Lagrangian model of temperature, force, material flow and defect formation.",
+        "Trained two multilayer perceptron neural networks on experimental temperature and axial-force data.",
+        "Evaluated rotational speed, welding speed and bottom preheating to generate process maps."
+      ],
+      "evidence_signal": "Experimental validation showed ANN R² values of 0.91–0.99; 60 °C preheating reduced peak plunge force from 1600 N to about 1100 N and raised peak temperature from 70 °C to about 100 °C.",
+      "watch_item": "Predictive reliability beyond the tested HDPE welding parameter space requires further validation.",
+      "hashtags": [
+        "#FrictionStirWelding",
+        "#HDPE",
+        "#MachineLearning",
+        "#ComputationalMechanics",
+        "#ProcessOptimization"
+      ],
+      "model": "gpt-6.1-sol",
+      "service_tier": "ultrafast",
+      "paper_id": "2025-12-01-doaj-computational_and_machine_learning_modelling_approaches_for_weld_quality_predictions_in_fr",
+      "paper_title": "Computational and machine learning modelling approaches for weld quality predictions in friction stir welding of high-density polyethylene",
+      "paper_date": "2025-12-01",
+      "paper_category": "AI Process Optimization",
+      "generated_at": "2026-11-26T20:03:52",
+      "generator": "openai"
+    },
+    "translation": {
+      "zh-Hans": {
+        "title": "用于预测高密度聚乙烯搅拌摩擦焊焊接质量的计算建模与机器学习方法",
+        "abstract": "搅拌摩擦焊（FSW）已被公认为一种连接热塑性材料的有效技术。本研究综合采用计算建模与机器学习方法，对高密度聚乙烯（HDPE）搅拌摩擦焊中的焊接温度、竖直轴向力、材料流动和缺陷形成等特征进行预测，并通过实验结果加以验证。研究建立了三维耦合欧拉–拉格朗日（CEL）数值模型，以模拟不同转速、焊接速度及底部预热条件下的HDPE焊接过程。通过实验数据对CEL数值模型进行了验证，结果表明，该模型在预测孔洞形成、热响应和力学响应方面与实验结果高度吻合。结果显示，底面预热可有效减小温度梯度，并抑制竖直方向力的波动。定量而言，60 °C底面预热使压入峰值力从1600 N降至接近1100 N，并使峰值温度从未预热时的70 °C升至约100 °C，从而减小厚度方向的温度梯度，并使轴向力分布趋于稳定。同时，利用实验数据训练了两个多层感知机人工神经网络（ANN），用于预测温度和轴向力随时间的响应，其R2介于0.91与0.99之间，表明模型在所测试的FSW参数空间内具有较高的准确性和较强的泛化能力。CEL计算模拟准确预测了焊接区域形貌，包括搅拌区、热机械影响区和热影响区；而结合CEL与ANN的框架能够快速生成工艺图，标示存在缺陷和无缺陷的焊接工艺窗口。在所测试条件下，最优条件为1500 rpm、30 mm/min及60 °C预热；在1000 rpm且不预热时，由于形成隧道状缺陷，焊接性较差。这些发现为制备可靠的HDPE接头提供了基于工艺的设计指导，并展示了计算建模与机器学习的集成如何实现高效优化，为理解热塑性材料FSW过程的关键特征提供了有价值的见解，同时支持该技术在工业应用中的更广泛采用。",
+        "infographic": {
+          "key_insight": "结合基于物理的模拟与神经网络，绘制了HDPE搅拌摩擦焊质量分布图，并确定在所测试条件下，1500 rpm、30 mm/min及60 °C底部预热为最优条件。",
+          "engineering_relevance": "该框架通过预测热响应和力响应，并区分存在缺陷与无缺陷的焊接工艺窗口，为HDPE接头的工艺选择提供支持。",
+          "method": [
+            "建立三维耦合欧拉–拉格朗日模型，用于模拟温度、力、材料流动和缺陷形成。",
+            "利用实验温度和轴向力数据训练两个多层感知机神经网络。",
+            "评估转速、焊接速度和底部预热条件，以生成工艺图。"
+          ],
+          "evidence_signal": "实验验证显示，ANN的R²值为0.91–0.99；60 °C预热使压入峰值力从1600 N降至约1100 N，并使峰值温度从70 °C升至约100 °C。",
+          "watch_item": "对于所测试HDPE焊接参数空间之外的条件，预测可靠性仍需进一步验证。"
+        },
+        "model": "gpt-6.1-sol",
+        "service_tier": "ultrafast"
+      },
+      "generator": "openai",
+      "model": "gpt-6.1-sol",
+      "service_tier": "ultrafast"
+    }
+  },
+  {
+    "id": "2026-09-01-doaj-microstructure_wear_and_corrosion_resistances_of_atmospheric_plasma_detonation_high_veloci",
+    "doi": "10.5755/j02.ms.44363",
+    "date": "2026-09-01",
+    "title": "Microstructure, Wear and Corrosion Resistances of Atmospheric Plasma, Detonation, High Velocity Oxy-fuel and High Velocity Air-fuel Sprayed WC-10Co-4Cr Cemented Carbide Coatings",
+    "authors": "Ting XIA, Yueming WANG, Lu XIE",
+    "abstract": "WC-10Co-4Cr cemented carbide coating has the advantages of superior wear property and corrosion resistance. WC-10Co-4Cr coatings were prepared on 304 stainless steel substrates by different thermal spray technologies including atmospheric plasma spraying (APS), detonation spraying (DS), high velocity oxy-fuel spraying (HVOFS), and high velocity air-fuel spraying (HVAFS), respectively. The microstructure, tribological properties and corrosion resistances of WC-10Co-4Cr coatings were systematically investigated and compared. The results showed that the Vickers hardness of cemented coatings prepared by APS, DS, HVOF, and HVAF, which were all higher than those of 304 stainless steel, were 771.4 HV, 954.2 HV, 1166.2 HV, and 1162.2 HV, respectively. The volume wear rate of 304 stainless steel was about (36.82±0.80)×10-5 mm3/N·m. The volume wear rates of APS, DS, HVOF, and HVAF coatings, which were all lower than that of 304 stainless steel, were about (7.93±0.30)×10-5, (1.51±0.20)×10-5, (1.17±0.10)×10-5, and (1.10±0.01)×10-5 mm3/N·m, respectively. In addition, the average friction coefficients of 304 stainless steel substrate, APS coating, DS one, HVOF one and HVAF one were about (0.68±0.03), (0.56±0.02), (0.48±0.01), (0.44±0.01) and (0.43±0.01), respectively. Spalling, microcracks perpendicular to the friction direction, and grooves parallel to the friction direction can be found in the wear marks of WC-10Co-4Cr coatings. Abrasive wear and fatigue wear are the main wear mechanisms of the cemented coatings. During the wear test, the carbide particles in DS, HVOF and HVAF coatings gradually became the main body bearing the friction load. Then the wear resistance of the latter three coatings was all superior to that of APS. Moreover, HVOF and HVAF coatings have better wear performances. For corrosion resistance from high to low were HVAF coating, DS one, HVOF one and APS one, respectively. The HVAF coating demonstrated the highest corrosion potential (-0.37±0.01 VSCE), smallest corrosion current density (1.75±0.02 μA/cm²), and largest corrosion resistance (20438.5 Ω) here. The APS coating had the poorest corrosion resistance among these four coatings.",
+    "category": "Thermal Spray Coatings",
+    "source": "DOAJ",
+    "venue": "Medžiagotyra",
+    "published": "2026-09-01T00:00:00+00:00",
+    "updated": "2026-09-22T03:30:48Z",
+    "primary_category": "journal-article",
+    "categories": [
+      "journal-article"
+    ],
+    "links": [
+      {
+        "title": "DOAJ",
+        "url": "https://doaj.org/article/f26950b8cb71404784c8b4c03e3e6f8b"
+      },
+      {
+        "title": "DOI",
+        "url": "https://doi.org/10.5755/j02.ms.44363"
+      },
+      {
+        "title": "Open access full text",
+        "url": "https://matsc.ktu.lt/index.php/MatSc/article/view/44363"
+      },
+      {
+        "title": "Open access PDF",
+        "url": "https://matsc.ktu.lt/index.php/MatSc/article/download/44363/23680"
+      }
+    ],
+    "open_access": true,
+    "score": 56,
+    "infographic": {
+      "key_insight": "HVAF-sprayed WC-10Co-4Cr offered the best overall wear and corrosion performance, while HVOF produced the highest measured hardness.",
+      "engineering_relevance": "HVAF is a promising coating route for 304 stainless steel components requiring combined wear and corrosion protection.",
+      "method": [
+        "Deposit WC-10Co-4Cr on 304 stainless steel using APS, detonation spraying, HVOF and HVAF.",
+        "Compare microstructure, Vickers hardness, friction and volumetric wear rates.",
+        "Evaluate corrosion behavior and identify wear mechanisms."
+      ],
+      "evidence_signal": "HVAF achieved a wear rate of (1.10±0.01)×10⁻⁵ mm³/(N·m), versus (36.82±0.80)×10⁻⁵ for uncoated steel, and ranked highest in corrosion resistance among the coatings.",
+      "watch_item": "The abstract does not specify wear-test conditions or corrosion medium, limiting extrapolation to service environments.",
+      "hashtags": [
+        "#ThermalSpray",
+        "#WC10Co4Cr",
+        "#HVAF",
+        "#WearResistance",
+        "#CorrosionProtection"
+      ],
+      "model": "gpt-6.1-sol",
+      "service_tier": "ultrafast",
+      "paper_id": "2026-09-01-doaj-microstructure_wear_and_corrosion_resistances_of_atmospheric_plasma_detonation_high_veloci",
+      "paper_title": "Microstructure, Wear and Corrosion Resistances of Atmospheric Plasma, Detonation, High Velocity Oxy-fuel and High Velocity Air-fuel Sprayed WC-10Co-4Cr Cemented Carbide Coatings",
+      "paper_date": "2026-09-01",
+      "paper_category": "Thermal Spray Coatings",
+      "generated_at": "2026-11-26T20:03:54",
+      "generator": "openai"
+    },
+    "translation": {
+      "zh-Hans": {
+        "title": "大气等离子喷涂、爆炸喷涂、超音速氧燃料喷涂和超音速空气燃料喷涂WC-10Co-4Cr硬质合金涂层的显微组织、耐磨性与耐蚀性",
+        "abstract": "WC-10Co-4Cr硬质合金涂层具有优异的耐磨性和耐蚀性。采用大气等离子喷涂（APS）、爆炸喷涂（DS）、超音速氧燃料喷涂（HVOFS）和超音速空气燃料喷涂（HVAFS）等不同热喷涂技术，分别在304不锈钢基体上制备了WC-10Co-4Cr涂层，并系统研究和比较了这些涂层的显微组织、摩擦学性能和耐蚀性。结果表明，APS、DS、HVOF和HVAF制备的硬质合金涂层的维氏硬度分别为771.4 HV、954.2 HV、1166.2 HV和1162.2 HV，均高于304不锈钢。304不锈钢的体积磨损率约为(36.82±0.80)×10⁻⁵ mm³/(N·m)。APS、DS、HVOF和HVAF涂层的体积磨损率分别约为(7.93±0.30)×10⁻⁵、(1.51±0.20)×10⁻⁵、(1.17±0.10)×10⁻⁵和(1.10±0.01)×10⁻⁵ mm³/(N·m)，均低于304不锈钢。此外，304不锈钢基体、APS涂层、DS涂层、HVOF涂层和HVAF涂层的平均摩擦系数分别约为(0.68±0.03)、(0.56±0.02)、(0.48±0.01)、(0.44±0.01)和(0.43±0.01)。在WC-10Co-4Cr涂层的磨痕中可观察到剥落、垂直于摩擦方向的微裂纹以及平行于摩擦方向的沟槽。磨粒磨损和疲劳磨损是这些硬质合金涂层的主要磨损机制。在磨损试验过程中，DS、HVOF和HVAF涂层中的碳化物颗粒逐渐成为承受摩擦载荷的主体。因此，后三种涂层的耐磨性均优于APS涂层，其中HVOF和HVAF涂层的耐磨性能更好。耐蚀性由高到低依次为HVAF涂层、DS涂层、HVOF涂层和APS涂层。在本研究中，HVAF涂层表现出最高的腐蚀电位(-0.37±0.01 VSCE)、最小的腐蚀电流密度(1.75±0.02 μA/cm²)和最大的腐蚀电阻(20438.5 Ω)。APS涂层在这四种涂层中的耐蚀性最差。",
+        "infographic": {
+          "key_insight": "HVAF喷涂的WC-10Co-4Cr涂层具有最佳的综合耐磨和耐蚀性能，而HVOF涂层的实测硬度最高。",
+          "engineering_relevance": "对于需要兼具耐磨和耐蚀防护的304不锈钢部件，HVAF是一种有前景的涂层制备工艺。",
+          "method": [
+            "采用APS、爆炸喷涂、HVOF和HVAF在304不锈钢上沉积WC-10Co-4Cr涂层。",
+            "比较显微组织、维氏硬度、摩擦性能和体积磨损率。",
+            "评估腐蚀行为并确定磨损机制。"
+          ],
+          "evidence_signal": "HVAF涂层的磨损率为(1.10±0.01)×10⁻⁵ mm³/(N·m)，而未涂覆不锈钢的磨损率为(36.82±0.80)×10⁻⁵ mm³/(N·m)；HVAF涂层的耐蚀性在这些涂层中位居首位。",
+          "watch_item": "摘要未说明磨损试验条件或腐蚀介质，因此限制了将结果外推至实际服役环境。"
+        },
+        "model": "gpt-6.1-sol",
+        "service_tier": "ultrafast"
+      },
+      "generator": "openai",
+      "model": "gpt-6.1-sol",
+      "service_tier": "ultrafast"
+    }
+  },
+  {
+    "id": "2026-09-01-doaj-molten_pool_dynamic_behavior_and_arc_characteristics_in_laser_tig_hybrid_welding_of_invar",
+    "doi": "10.12073/j.hjxb.20250930001",
+    "date": "2026-09-01",
+    "title": "Molten pool dynamic behavior and arc characteristics in laser-TIG hybrid welding of Invar steel",
+    "authors": "Sen WU, Fei ZHAO, Shuili GONG, Lifeng MA, Haiyan ZHAO, Wei ZHANG",
+    "abstract": "Invar steel has an extremely low coefficient of thermal expansion, making it widely used in the manufacturing of molds for aerospace composite materials. Most existing studies focus on process aspects, lacking in-depth analysis of the fluid dynamics behavior of the molten pool. Therefore, numerical simulation and high-speed photography were employed to analyze the effects of different process parameters on the molten pool morphology evolution and arc characteristics during laser-TIG hybrid welding of Invar steel, which provides crucial theoretical support for the optimization of the Invar steel welding process. The results indicate that within the laser power range of 5 ~ 6 kW, the increased power leads to greater recoil pressure, which promotes a larger penetration depth and keyhole dimension, intensifies the overall molten pool flow, and makes the arc prone to being attracted by the laser and deflected at a high power. Within the welding speed range of 0.5 ~ 0.8 m/min, a higher speed reduces the heat input, leading to a decreased penetration depth and weld width, and an increased flow velocity and cooling rate of the molten pool; additionally, the arc is prone to deformation at a high speed. Within the welding current range of 150 ~ 170 A, the increased current enhances the arc force, promoting the expansion of weld width and intensifying the molten pool convection; furthermore, the arc is more stable at a high current.",
+    "category": "Welding Processes",
+    "source": "DOAJ",
+    "venue": "Hanjie xuebao",
+    "published": "2026-09-01T00:00:00+00:00",
+    "updated": "2026-09-22T08:45:51Z",
+    "primary_category": "journal-article",
+    "categories": [
+      "journal-article"
+    ],
+    "links": [
+      {
+        "title": "DOAJ",
+        "url": "https://doaj.org/article/00ce34c7013b48bdafcde3722dcaf5bb"
+      },
+      {
+        "title": "DOI",
+        "url": "https://doi.org/10.12073/j.hjxb.20250930001"
+      },
+      {
+        "title": "Open access full text",
+        "url": "https://doi.org/10.12073/j.hjxb.20250930001"
+      }
+    ],
+    "open_access": true,
+    "score": 50,
+    "infographic": {
+      "key_insight": "In laser–TIG hybrid welding of Invar steel, laser power, travel speed, and welding current influence molten-pool flow, weld geometry, and arc stability.",
+      "engineering_relevance": "These parameter–response relationships can guide welding-process optimization for low-expansion Invar tooling used in aerospace composite manufacturing.",
+      "method": [
+        "Numerical simulation of molten-pool dynamics.",
+        "High-speed photography of welding behavior.",
+        "Parameter studies: 5–6 kW laser power, 0.5–0.8 m/min speed, and 150–170 A current."
+      ],
+      "evidence_signal": "Within the studied ranges, higher power increased penetration and keyhole size, higher speed reduced penetration and weld width, and higher current widened the weld and stabilized the arc.",
+      "watch_item": "The abstract provides parameter trends but no quantitative validation errors or final weld-property measurements, limiting assessment of predictive accuracy and joint performance.",
+      "hashtags": [
+        "#InvarSteel",
+        "#LaserTIGHybridWelding",
+        "#MoltenPoolDynamics",
+        "#ArcStability",
+        "#WeldingSimulation"
+      ],
+      "model": "gpt-6.1-sol",
+      "service_tier": "ultrafast",
+      "paper_id": "2026-09-01-doaj-molten_pool_dynamic_behavior_and_arc_characteristics_in_laser_tig_hybrid_welding_of_invar",
+      "paper_title": "Molten pool dynamic behavior and arc characteristics in laser-TIG hybrid welding of Invar steel",
+      "paper_date": "2026-09-01",
+      "paper_category": "Welding Processes",
+      "generated_at": "2026-11-26T20:03:57",
+      "generator": "openai"
+    },
+    "translation": {
+      "zh-Hans": {
+        "title": "Invar钢激光-TIG复合焊接中的熔池动态行为与电弧特性",
+        "abstract": "Invar钢具有极低的热膨胀系数，因此广泛用于航空航天复合材料模具的制造。现有研究大多侧重于工艺方面，缺乏对熔池流体动力学行为的深入分析。因此，采用数值模拟和高速摄影，分析了不同工艺参数对Invar钢激光-TIG复合焊接过程中熔池形貌演化和电弧特性的影响，为Invar钢焊接工艺优化提供了关键的理论支持。结果表明，在5 ~ 6 kW的激光功率范围内，功率增大使反冲压力增大，从而增加熔深和小孔尺寸，增强熔池整体流动，且在高功率下，电弧易受激光吸引而发生偏转。在0.5 ~ 0.8 m/min的焊接速度范围内，速度提高会降低热输入，导致熔深和焊缝宽度减小，熔池流速和冷却速率增大；此外，高速下电弧易发生变形。在150 ~ 170 A的焊接电流范围内，电流增大使电弧力增强，促进焊缝宽度增大并强化熔池对流；此外，高电流下电弧更加稳定。",
+        "infographic": {
+          "key_insight": "在Invar钢激光–TIG复合焊接中，激光功率、焊接速度和焊接电流会影响熔池流动、焊缝几何形貌及电弧稳定性。",
+          "engineering_relevance": "这些参数–响应关系可为航空航天复合材料制造所用低膨胀Invar工装的焊接工艺优化提供指导。",
+          "method": [
+            "熔池动力学数值模拟。",
+            "焊接行为高速摄影。",
+            "参数研究：激光功率5–6 kW、焊接速度0.5–0.8 m/min、电流150–170 A。"
+          ],
+          "evidence_signal": "在所研究的范围内，提高功率增加了熔深和小孔尺寸，提高速度减小了熔深和焊缝宽度，提高电流则增大了焊缝宽度并使电弧更加稳定。",
+          "watch_item": "摘要提供了参数变化趋势，但未给出定量验证误差或最终焊缝性能测量结果，因此对预测精度和接头性能的评估受到限制。"
+        },
+        "model": "gpt-6.1-sol",
+        "service_tier": "ultrafast"
+      },
+      "generator": "openai",
+      "model": "gpt-6.1-sol",
+      "service_tier": "ultrafast"
+    }
+  },
+  {
+    "id": "2026-11-01-doaj-interpretable_ensemble_learning_for_tensile_strength_prediction_and_welding_process_window",
+    "doi": "10.1016/j.jmrt.2026.10.257",
+    "date": "2026-11-01",
+    "title": "Interpretable ensemble learning for tensile strength prediction and welding process window optimization of friction stir-welded 7N01 aluminum alloy",
+    "authors": "Xiaocui Wu, Yingjie Zhao, Huijie Zhang, Qi Cheng, Limao Wei, Yuwang Liu",
+    "abstract": "This study aims to achieve high-accuracy prediction of the ultimate tensile strength (UTS) of friction stir-welded A7N01P-T4 aluminum alloy joints, elucidate the effects of welding parameters on UTS, and optimize the welding process window. Rotational speed, welding speed, and shoulder plunge depth were used as input variables, with UTS as the output. Machine learning models were developed using 27 experimental samples and evaluated by leave-one-out cross-validation. Comparison of decision tree, K-nearest neighbors, and Gaussian process regression identifies decision tree as the best baseline model, with an R 2 of 0.905. An ensemble learning strategy was subsequently introduced to construct a gradient boosting decision tree, increasing R 2 to 0.966, and grid search optimization of its key hyperparameters further improves R 2 to 0.978. SHapley Additive exPlanations analysis shows that the importance of the welding parameters follows the order of welding speed, rotational speed, and shoulder plunge depth, and the identified parameter effects agree well with the experimental results and observed microstructural evolution. The optimized model predicts fully feasible ranges of all the welding parameters for a joint efficiency of at least 90%, and the shoulder plunge depth acts as a key parameter for further refining the high-strength welding process window. These results demonstrate that the proposed approach not only improves the accuracy of UTS prediction but also reveals welding parameter effects and enables optimization of the welding process window, providing a quantitative basis for selecting FSW parameters.",
+    "category": "AI Process Optimization",
+    "source": "DOAJ",
+    "venue": "Journal of Materials Research and Technology",
+    "published": "2026-11-01T00:00:00+00:00",
+    "updated": "2026-10-31T04:43:39Z",
+    "primary_category": "journal-article",
+    "categories": [
+      "journal-article"
+    ],
+    "links": [
+      {
+        "title": "DOAJ",
+        "url": "https://doaj.org/article/03beb0a2dcf84d37b60bbc03f017c7dc"
+      },
+      {
+        "title": "DOI",
+        "url": "https://doi.org/10.1016/j.jmrt.2026.10.257"
+      },
+      {
+        "title": "Open access full text",
+        "url": "http://www.sciencedirect.com/science/article/pii/S2238785426028784"
+      },
+      {
+        "title": "Open access PDF",
+        "url": "https://www.sciencedirect.com/science/article/pii/S2238785426028784/pdf"
+      }
+    ],
+    "open_access": true,
+    "score": 44,
+    "infographic": {
+      "key_insight": "Tuned gradient boosting predicted tensile strength of friction stir-welded 7N01 aluminum with R² = 0.978 and identified a process window targeting at least 90% joint efficiency.",
+      "engineering_relevance": "The model provides a quantitative basis for selecting welding parameters, with shoulder plunge depth helping refine the high-strength process window.",
+      "method": [
+        "Predict ultimate tensile strength from rotational speed, welding speed, and shoulder plunge depth.",
+        "Compare baseline models, then tune gradient boosting decision trees using grid search.",
+        "Use SHAP to interpret parameter effects and map predicted high-strength welding conditions."
+      ],
+      "evidence_signal": "Using 27 experimental samples and leave-one-out cross-validation, reported R² increased from 0.905 for a decision tree to 0.966 for gradient boosting and 0.978 after tuning.",
+      "watch_item": "The small dataset and lack of reported independent validation warrant experimental confirmation of the predicted process window before production use.",
+      "hashtags": [
+        "#FrictionStirWelding",
+        "#AluminumAlloys",
+        "#MachineLearning",
+        "#ExplainableAI",
+        "#ProcessOptimization"
+      ],
+      "model": "gpt-6.1-sol",
+      "service_tier": "ultrafast",
+      "paper_id": "2026-11-01-doaj-interpretable_ensemble_learning_for_tensile_strength_prediction_and_welding_process_window",
+      "paper_title": "Interpretable ensemble learning for tensile strength prediction and welding process window optimization of friction stir-welded 7N01 aluminum alloy",
+      "paper_date": "2026-11-01",
+      "paper_category": "AI Process Optimization",
+      "generated_at": "2026-11-26T20:04:00",
+      "generator": "openai"
+    },
+    "translation": {
+      "zh-Hans": {
+        "title": "用于搅拌摩擦焊7N01铝合金抗拉强度预测与焊接工艺窗口优化的可解释集成学习",
+        "abstract": "本研究旨在高精度预测搅拌摩擦焊A7N01P-T4铝合金接头的极限抗拉强度（UTS），阐明焊接参数对UTS的影响，并优化焊接工艺窗口。以旋转速度、焊接速度和轴肩下压量为输入变量，以UTS为输出变量。利用27个实验样本建立机器学习模型，并通过留一交叉验证进行评估。通过比较决策树、K近邻和高斯过程回归，确定决策树为最佳基准模型，其R²为0.905。随后引入集成学习策略，构建梯度提升决策树，将R²提高至0.966，并通过网格搜索优化其关键超参数，将R²进一步提高至0.978。SHapley Additive exPlanations（SHAP）分析表明，焊接参数的重要性由高到低依次为焊接速度、旋转速度和轴肩下压量，且所揭示的参数影响与实验结果及观察到的微观组织演变高度一致。优化后的模型预测了接头效率至少达到90%时所有焊接参数的完整可行范围，其中轴肩下压量是进一步细化高强度焊接工艺窗口的关键参数。这些结果表明，所提出的方法不仅提高了UTS预测精度，还揭示了焊接参数的影响并实现了焊接工艺窗口优化，为选择搅拌摩擦焊（FSW）参数提供了定量依据。",
+        "infographic": {
+          "key_insight": "经调优的梯度提升模型预测搅拌摩擦焊7N01铝合金抗拉强度的R²达到0.978，并确定了以接头效率至少达到90%为目标的工艺窗口。",
+          "engineering_relevance": "该模型为选择焊接参数提供了定量依据，其中轴肩下压量有助于细化高强度工艺窗口。",
+          "method": [
+            "根据旋转速度、焊接速度和轴肩下压量预测极限抗拉强度。",
+            "比较基准模型，然后通过网格搜索对梯度提升决策树进行调优。",
+            "利用SHAP解释参数影响，并绘制预测的高强度焊接条件分布。"
+          ],
+          "evidence_signal": "基于27个实验样本和留一交叉验证，所报告的R²从决策树的0.905提高至梯度提升模型的0.966，并在调优后达到0.978。",
+          "watch_item": "由于数据集较小，且未报告独立验证结果，在投入生产使用前，有必要通过实验确认所预测的工艺窗口。"
+        },
+        "model": "gpt-6.1-sol",
+        "service_tier": "ultrafast"
+      },
+      "generator": "openai",
+      "model": "gpt-6.1-sol",
+      "service_tier": "ultrafast"
+    }
+  },
+  {
+    "id": "2025-12-01-doaj-long_term_corrosion_behaviors_and_wear_behavior_of_fe_based_amorphous_coatings_in_differen",
+    "doi": "10.1016/j.corcom.2024.06.004",
+    "date": "2025-12-01",
+    "title": "Long-term corrosion behaviors and wear behavior of Fe-based amorphous coatings in different humidity environments",
+    "authors": "Shuai Cui, Haimin Zhai, Zihan Feng, Xuqiang Li, Wensheng Li, Xiangjuan Fan",
+    "abstract": "Fe-based amorphous coatings (Fe-based AMCs) were successfully prepared on Q235 carbon steel by detonation spray under different spraying parameters. The corrosion and tribology behaviors of coatings were systematically tested. The droplets show disk-like morphology with the highest circularity and expansion factor, which is crucial to reduce the defects of coatings and to form fine-lamellar-structures coatings with dense microstructure. A higher incidence of porosity defects in the coating is associated with reduced long-term corrosion resistance. Moreover, the tribo-chemical reactions between Si3N4 balls and water molecules play a significant role in wear behaviors for coating in different humidity conditions. The friction coefficient and wear rate of coatings decrease as the humidity conditions increase.",
+    "category": "Coating Microstructure",
+    "source": "DOAJ",
+    "venue": "Corrosion Communications",
+    "published": "2025-12-01T00:00:00+00:00",
+    "updated": "2025-12-28T04:17:12Z",
+    "primary_category": "journal-article",
+    "categories": [
+      "journal-article"
+    ],
+    "links": [
+      {
+        "title": "DOAJ",
+        "url": "https://doaj.org/article/e93c7334344b484e8072cba8fa887774"
+      },
+      {
+        "title": "DOI",
+        "url": "https://doi.org/10.1016/j.corcom.2024.06.004"
+      },
+      {
+        "title": "Open access full text",
+        "url": "http://www.sciencedirect.com/science/article/pii/S2667266925000271"
+      },
+      {
+        "title": "Open access copy",
+        "url": "https://doi.org/10.1016/j.corcom.2024.06.004"
+      }
+    ],
+    "open_access": true,
+    "score": 34,
+    "infographic": {
+      "key_insight": "Disk-like droplets with high circularity and expansion promote dense Fe-based amorphous coatings, while greater porosity reduces long-term corrosion resistance and higher humidity lowers friction and wear.",
+      "engineering_relevance": "Controlling detonation-spray parameters and accounting for service humidity can support corrosion- and wear-resistant coatings on Q235 carbon steel.",
+      "method": [
+        "Deposit Fe-based amorphous coatings on Q235 steel using varied detonation-spray parameters.",
+        "Examine droplet morphology, coating microstructure, and porosity.",
+        "Evaluate long-term corrosion and tribological behavior under different humidity conditions."
+      ],
+      "evidence_signal": "The abstract reports poorer long-term corrosion resistance with higher porosity and decreasing friction coefficients and wear rates as humidity increases.",
+      "watch_item": "Humidity-dependent wear results involve Si3N4 counterface balls and may not generalize to other contact materials.",
+      "hashtags": [
+        "#DetonationSpray",
+        "#AmorphousCoatings",
+        "#CoatingMicrostructure",
+        "#CorrosionResistance",
+        "#Tribology"
+      ],
+      "model": "gpt-6.1-sol",
+      "service_tier": "ultrafast",
+      "paper_id": "2025-12-01-doaj-long_term_corrosion_behaviors_and_wear_behavior_of_fe_based_amorphous_coatings_in_differen",
+      "paper_title": "Long-term corrosion behaviors and wear behavior of Fe-based amorphous coatings in different humidity environments",
+      "paper_date": "2025-12-01",
+      "paper_category": "Coating Microstructure",
+      "generated_at": "2026-11-26T20:04:02",
+      "generator": "openai"
+    },
+    "translation": {
+      "zh-Hans": {
+        "title": "铁基非晶涂层在不同湿度环境下的长期腐蚀行为与磨损行为",
+        "abstract": "采用不同喷涂参数，通过爆炸喷涂在Q235碳钢上成功制备了铁基非晶涂层（Fe-based AMCs）。系统测试了涂层的腐蚀与摩擦学行为。液滴呈圆盘状形貌，具有最高的圆度和铺展因子，这对于减少涂层缺陷以及形成具有致密微观组织的细片层结构涂层至关重要。涂层中孔隙缺陷越多，其长期耐腐蚀性越低。此外，Si3N4球与水分子之间的摩擦化学反应对涂层在不同湿度条件下的磨损行为具有重要影响。涂层的摩擦系数和磨损率随湿度升高而降低。",
+        "infographic": {
+          "key_insight": "具有高圆度和高铺展因子的圆盘状液滴有利于形成致密的铁基非晶涂层，而较高的孔隙率会降低长期耐腐蚀性，较高的湿度则会降低摩擦系数和磨损率。",
+          "engineering_relevance": "控制爆炸喷涂参数并考虑服役环境湿度，有助于在Q235碳钢上制备耐腐蚀、耐磨损的涂层。",
+          "method": [
+            "采用不同爆炸喷涂参数，在Q235钢上沉积铁基非晶涂层。",
+            "研究液滴形貌、涂层微观组织和孔隙率。",
+            "评估不同湿度条件下的长期腐蚀与摩擦学行为。"
+          ],
+          "evidence_signal": "摘要指出，孔隙率越高，长期耐腐蚀性越差；随着湿度升高，摩擦系数和磨损率均降低。",
+          "watch_item": "与湿度相关的磨损结果涉及Si3N4对磨球，可能无法推广至其他接触材料。"
+        },
+        "model": "gpt-6.1-sol",
+        "service_tier": "ultrafast"
+      },
+      "generator": "openai",
+      "model": "gpt-6.1-sol",
+      "service_tier": "ultrafast"
+    }
+  },
+  {
+    "id": "2025-12-01-doaj-surface_characteristics_of_titanium_based_coatings_obtained_by_detonation_spraying_under_v",
+    "doi": "",
+    "date": "2025-12-01",
+    "title": "Surface Characteristics of Titanium Based Coatings Obtained by Detonation Spraying Under Various Process Conditions",
+    "authors": "Vyacheslav Sirota, Sergey Savotchenko, Valeriya Strokova, Daniil Podgornyi, Marina Kovaleva",
+    "abstract": "The surface properties of metal-ceramic coatings based on titanium dioxide are described in dependence on the detonation spraying conditions. It is found that such properties as surface roughness, surface thickness and its hydrophobicity can be controlled in the production process by selecting certain values of the technological parameters of the spraying process. The optimal values of the technological parameters of detonation spraying, ensuring maximum hydrophobicity of the produced coatings are determined. The roughness of the coating surface and the coating thickness depend on the speed of the nozzle passage in accordance with the inverse power law. The roughness and the contact angle depend on spray distance in accordance with a parabolic law. New equations are obtained that can be useful for predicting the characteristics of the coating surface, as well as for determining the optimal mode of spraying the coating, ensuring its best hydrophobicity.",
+    "category": "Detonation Spray Process",
+    "source": "DOAJ",
+    "venue": "Iranian Journal of Materials Science and Engineering",
+    "published": "2025-12-01T00:00:00+00:00",
+    "updated": "2026-02-09T07:07:05Z",
+    "primary_category": "journal-article",
+    "categories": [
+      "journal-article"
+    ],
+    "links": [
+      {
+        "title": "DOAJ",
+        "url": "https://doaj.org/article/da28bf1c4b624549abfdfa9750bdba6a"
+      },
+      {
+        "title": "Open access PDF",
+        "url": "http://ijmse.iust.ac.ir/article-1-4073-en.pdf"
+      }
+    ],
+    "open_access": true,
+    "score": 28,
+    "infographic": {
+      "key_insight": "Detonation-spraying parameters can tune the roughness, thickness, and hydrophobicity of titanium dioxide–based metal-ceramic coatings.",
+      "engineering_relevance": "Selecting nozzle traverse speed and spray distance can help engineers target coating geometry and maximize hydrophobicity.",
+      "method": [
+        "Vary detonation-spraying process conditions.",
+        "Evaluate coating roughness, thickness, and contact angle.",
+        "Derive predictive equations and identify settings for maximum hydrophobicity."
+      ],
+      "evidence_signal": "The abstract reports inverse-power relationships between nozzle traverse speed and roughness/thickness, and parabolic relationships between spray distance and roughness/contact angle.",
+      "watch_item": "The abstract provides no numerical optimal settings, parameter ranges, or prediction errors, limiting direct process transfer.",
+      "hashtags": [
+        "#DetonationSpraying",
+        "#TitaniumDioxide",
+        "#SurfaceEngineering",
+        "#HydrophobicCoatings",
+        "#ProcessOptimization"
+      ],
+      "model": "gpt-6.1-sol",
+      "service_tier": "ultrafast",
+      "paper_id": "2025-12-01-doaj-surface_characteristics_of_titanium_based_coatings_obtained_by_detonation_spraying_under_v",
+      "paper_title": "Surface Characteristics of Titanium Based Coatings Obtained by Detonation Spraying Under Various Process Conditions",
+      "paper_date": "2025-12-01",
+      "paper_category": "Detonation Spray Process",
+      "generated_at": "2026-11-26T20:04:05",
+      "generator": "openai"
+    },
+    "translation": {
+      "zh-Hans": {
+        "title": "不同工艺条件下爆炸喷涂制备的钛基涂层的表面特性",
+        "abstract": "本文描述了二氧化钛基金属陶瓷涂层的表面性能与爆炸喷涂条件的关系。研究发现，通过选择喷涂工艺参数的特定值，可以在制备过程中控制表面粗糙度、表面层厚度及其疏水性等性能。确定了使所制备涂层具有最大疏水性的爆炸喷涂工艺参数最优值。涂层表面粗糙度和涂层厚度与喷嘴移动速度之间符合反幂律关系。粗糙度和接触角与喷涂距离之间符合抛物线关系。获得了新的方程，可用于预测涂层表面特性，以及确定使涂层具有最佳疏水性的最优喷涂工况。",
+        "infographic": {
+          "key_insight": "爆炸喷涂参数可用于调控二氧化钛基金属陶瓷涂层的粗糙度、厚度和疏水性。",
+          "engineering_relevance": "选择喷嘴横移速度和喷涂距离，可帮助工程师获得目标涂层几何特征，并最大限度地提高疏水性。",
+          "method": [
+            "改变爆炸喷涂工艺条件。",
+            "评估涂层粗糙度、厚度和接触角。",
+            "推导预测方程，并确定实现最大疏水性的参数设置。"
+          ],
+          "evidence_signal": "摘要报告，喷嘴横移速度与粗糙度及厚度之间存在反幂律关系，喷涂距离与粗糙度及接触角之间存在抛物线关系。",
+          "watch_item": "摘要未提供最优参数设置的具体数值、参数范围或预测误差，限制了该工艺的直接迁移应用。"
+        },
+        "model": "gpt-6.1-sol",
+        "service_tier": "ultrafast"
+      },
+      "generator": "openai",
+      "model": "gpt-6.1-sol",
+      "service_tier": "ultrafast"
+    }
+  }
+]

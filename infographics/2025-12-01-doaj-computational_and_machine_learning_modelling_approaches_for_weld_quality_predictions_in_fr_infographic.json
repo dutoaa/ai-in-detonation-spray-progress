@@ -1,13 +1,13 @@
 {
-  "key_insight": "Combining physics-based simulation with neural networks mapped HDPE friction stir welding quality, identifying 1500 rpm, 30 mm/min and 60 °C bottom preheating as optimal within the tested conditions.",
-  "engineering_relevance": "The framework supports process selection for HDPE joints by predicting thermal and force responses and distinguishing defective from defect-free welding windows.",
+  "key_insight": "Combining physics-based simulation and neural networks identified an optimal tested HDPE friction stir welding condition of 1500 rpm, 30 mm/min and 60 °C bottom preheating.",
+  "engineering_relevance": "The framework supports process-window selection for robust HDPE joints by predicting thermal response, axial forces and defect formation.",
   "method": [
-    "Developed a 3D Coupled Eulerian–Lagrangian model of temperature, force, material flow and defect formation.",
-    "Trained two multilayer perceptron neural networks on experimental temperature and axial-force data.",
-    "Evaluated rotational speed, welding speed and bottom preheating to generate process maps."
+    "Develop a 3D Coupled Eulerian–Lagrangian model of heat, material flow and weld defects.",
+    "Train two multilayer perceptron neural networks on experimental temperature and axial-force data.",
+    "Combine simulation and ANN predictions to map defective and defect-free welding windows."
   ],
-  "evidence_signal": "Experimental validation showed ANN R² values of 0.91–0.99; 60 °C preheating reduced peak plunge force from 1600 N to about 1100 N and raised peak temperature from 70 °C to about 100 °C.",
-  "watch_item": "Predictive reliability beyond the tested HDPE welding parameter space requires further validation.",
+  "evidence_signal": "Experimental validation showed good agreement with CEL predictions; ANN R² values ranged from 0.91 to 0.99, while 60 °C preheating reduced peak plunge force from 1600 N to about 1100 N.",
+  "watch_item": "Predictive accuracy outside the tested welding parameters and preheating conditions remains unestablished.",
   "hashtags": [
     "#FrictionStirWelding",
     "#HDPE",
@@ -21,6 +21,6 @@
   "paper_title": "Computational and machine learning modelling approaches for weld quality predictions in friction stir welding of high-density polyethylene",
   "paper_date": "2025-12-01",
   "paper_category": "AI Process Optimization",
-  "generated_at": "2026-11-26T20:03:52",
+  "generated_at": "2026-11-27T19:50:48",
   "generator": "openai"
 }
